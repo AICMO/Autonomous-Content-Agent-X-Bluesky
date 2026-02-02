@@ -111,17 +111,19 @@ PR Count Today: N/M
 ## Blockers
 [any blockers or None]
 
-## Gist Outputs
-| Name | URL | Last Updated |
-|------|-----|--------------|
-| x-content-drafts | [url] | [date] |
-| x-content-calendar | [url] | [date] |
+## External Outputs
+| Type | Name | URL | Last Updated |
+|------|------|-----|--------------|
+| gist | x-content-drafts | [url] | [date] |
+| gist | x-content-calendar | [url] | [date] |
 
 ## Session History
 - [date]: [PR#N] - [brief description]
 ```
 
 ## Output Standards
+
+### Internal Process Files (always in repo)
 - All research → `agent/memory/research/`
 - All hypotheses → `agent/memory/hypotheses/`
 - All learnings → `agent/memory/learnings/`
@@ -129,18 +131,21 @@ PR Count Today: N/M
 - All reports → `agent/output/reports/`
 - Link to output files in PR descriptions
 
-## Gist Outputs (Real Deliverables)
-Use GitHub Gists for actual deliverables ready for use (not internal process files).
+### Real Deliverables (prioritized destinations)
+For actual outputs (software, content, etc.), use this priority order:
 
-**What goes to Gist:**
-| Gist Name | Content |
-|-----------|---------|
-| `x-content-drafts` | Tweet drafts, thread scripts ready to post |
-| `x-content-calendar` | Weekly/monthly posting schedule |
-| `x-engagement-templates` | Reply templates, comment scripts |
-| `x-research-public` | Shareable insights, can be linked in posts |
+| Priority | Destination | When to Use                                                                 |
+|----------|-------------|-----------------------------------------------------------------------------|
+| 1 | `/app` directory | Software, code, configs, buildable artifacts                                |
+| 2 | Existing integrations | If platform keys exist (X_API_KEY, NOTION_API_KEY, etc.), use them directly |
+| 3 | GitHub Gist | Fallback for shareable content when no integration exists                   |
 
-**How to use:**
+**At session start, check what's available:**
+1. Does the goal require software? → Build in `/app`
+2. Need external output? → Check repo secrets/vars for integration keys
+3. No integration available? → Use Gist as fallback
+
+### Gist Usage (Priority 3 Fallback)
 ```bash
 # Create a new gist
 gh gist create --public -f "tweet-drafts.md" content.md
@@ -152,15 +157,18 @@ gh gist edit <gist-id> -f "tweet-drafts.md" updated-content.md
 gh gist list
 ```
 
-**Rules:**
-1. Track all gist URLs in `agent/state/current.md` under a "## Gist Outputs" section
-2. Use `--public` for content meant to be shared
-3. Update existing gists rather than creating duplicates
-4. Include gist links in PR descriptions when creating/updating deliverables
+**Gist categories:**
+| Gist Name | Content |
+|-----------|---------|
+| `x-content-drafts` | Tweet drafts, thread scripts ready to post |
+| `x-content-calendar` | Weekly/monthly posting schedule |
+| `x-engagement-templates` | Reply templates, comment scripts |
+| `x-research-public` | Shareable insights, can be linked in posts |
 
-**Separation of concerns:**
-- `/agent` directory = internal state, memory, process (git-tracked)
-- **Gists** = real deliverables ready for human use (external, shareable)
+**Rules:**
+1. Track all gist/integration URLs in state file under "## External Outputs"
+2. Update existing resources rather than creating duplicates
+3. Include output links in PR descriptions
 
 ## PR Creation Rules
 1. PR title MUST start with "[Agent]" prefix

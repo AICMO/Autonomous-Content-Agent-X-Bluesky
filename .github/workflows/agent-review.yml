@@ -8,21 +8,22 @@ on:
       - '.github/workflows/**'
       - 'CLAUDE.md'
 
-permissions:
-  contents: write
-  pull-requests: write
-
 jobs:
   review:
     if: startsWith(github.event.pull_request.title, '[Agent]')
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      id-token: write
     steps:
       - uses: actions/checkout@v4
 
       - name: Agent Self-Review
         uses: anthropics/claude-code-action@v1
         with:
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN || secrets.ANTHROPIC_API_KEY }}
           prompt: |
             Review this PR created by your past self.
 
@@ -39,12 +40,17 @@ jobs:
             5. Are there any obvious errors or issues?
             6. Does it stay within boundaries (no changes outside /agent)?
 
-            If acceptable: Approve the PR with a brief summary of the good work
-            If issues: Request changes with specific feedback
+            If acceptable: Approve the PR using:
+            gh pr review ${{ github.event.pull_request.number }} --approve --body "your message"
+
+            If issues: Request changes using:
+            gh pr review ${{ github.event.pull_request.number }} --request-changes --body "your message"
 
             Be constructive - this is self-improvement, not criticism.
-          allowed_tools: "Read,Glob,Grep"
-          timeout_minutes: 10
+          claude_args: |
+            --model ${{ vars.CLAUDE_MODEL || 'claude-sonnet-4-20250514' }}
+            --max-turns 10
+            --allowed-tools "Bash(gh pr:*),Read,Glob,Grep"
 
       - name: Auto-merge if approved
         if: success()
