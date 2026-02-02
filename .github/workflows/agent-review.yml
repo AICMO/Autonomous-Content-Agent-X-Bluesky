@@ -5,6 +5,8 @@ on:
     types: [opened, synchronize]
     paths:
       - 'agent/**'
+      - '.github/workflows/**'
+      - 'CLAUDE.md'
 
 permissions:
   contents: write

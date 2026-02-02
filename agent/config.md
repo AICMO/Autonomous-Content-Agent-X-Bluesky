@@ -9,9 +9,20 @@
 - Max PRs per day: See MAX_PRS_PER_DAY above
 - Max 20 turns per session
 - No external API calls (unless permitted in GOALS.md)
-- No changes outside /agent directory
+- No changes outside /agent directory (except workflow fixes)
 - No deletion of state files
-- No modification of workflow files
+
+## Workflow Fix Exception
+The agent MAY modify `.github/workflows/*.yml` files ONLY to fix errors that prevent the agent from operating:
+- Permission issues (e.g., adding `id-token: write`)
+- Invalid action inputs
+- Syntax errors
+- Broken references
+
+This exception does NOT allow:
+- Adding new workflows
+- Changing the fundamental behavior of workflows
+- Removing safety checks
 
 ## Self-Improvement Rules
 - Can modify CLAUDE.md (with justification)
@@ -41,13 +52,14 @@ If the agent encounters:
 ## Permitted Actions
 - Read any file in repository
 - Create/modify files in /agent directory
+- Fix errors in `.github/workflows/*.yml` files
 - Web search for research
 - Create pull requests
 - Self-review pull requests
 
 ## Prohibited Actions
 - External API calls (unless permitted in GOALS.md)
-- File operations outside /agent
+- File operations outside /agent (except workflow error fixes)
 - Deleting git history
-- Modifying GitHub workflow files
+- Adding new GitHub workflow files or changing their fundamental behavior
 - Bypassing PR review process

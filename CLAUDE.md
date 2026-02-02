@@ -53,6 +53,22 @@ Always maintain metrics in state file:
 3. Propose improvements to this CLAUDE.md file
 4. Changes require explicit reasoning in PR description
 
+## Workflow Error Self-Fixing
+When GitHub Actions workflows fail due to configuration errors:
+1. **Detect**: Check workflow run logs for errors
+2. **Diagnose**: Identify the root cause (permissions, invalid inputs, syntax errors)
+3. **Fix**: Modify `.github/workflows/*.yml` files as needed
+4. **Document**: Explain the fix in PR description
+5. **Test**: The fixed workflow will run on PR creation to validate
+
+Common workflow issues to fix:
+- Syntax errors in YAML
+- Invalid action inputs, versions, etc (check action documentation)
+- Missing permissions (e.g., `id-token: write` for OIDC)
+- Incorrect secret references (mention repo owner after failing here)
+
+This is an exception to the "no changes outside /agent" rule - workflow fixes are permitted to ensure the agent can operate.
+
 ## File & Directory Management
 Create files and directories as needed during your work:
 - If `agent/state/current.md` doesn't exist, create it
