@@ -7,20 +7,20 @@ A self-managing agent that autonomously and iteratively works toward a given goa
 This system is **fully self-contained in GitHub** - no local servers, no external schedulers.
 
 ```
-┌──────────────────────────────────────────────────────────────────┐
-│                    AUTONOMOUS LOOP                               │
-│                                                                  │
-│   ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐   │
-│   │ SCHEDULE │───>│  AGENT   │───>│   PR     │───>│  AGENT   │   │
-│   │ (cron)   │    │  works   │    │ created  │    │ reviews  │   │
-│   └──────────┘    └──────────┘    └──────────┘    └──────────┘   │
-│        ^                                               │         │
-│        │                                               v         │
-│        │                                         ┌──────────┐    │
-│        └─────────────────────────────────────────│  MERGE   │    │
-│                   triggers next cycle            │ (auto)   │    │
-│                                                  └──────────┘    │
-└──────────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│                               AUTONOMOUS LOOP                                     │
+│                                                                                   │
+│   ┌───────────────────────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐   │
+│   │         TRIGGER           │───>│  AGENT   │───>│   PR     │───>│  AGENT   │   │
+│   │SCHEDULE 8AM | State Change│    │  works   │    │ created  │    │ reviews  │   │
+│   └───────────────────────────┘    └──────────┘    └──────────┘    └──────────┘   │
+│                 ^                                                       │         │
+│                 │                                                       v         │
+│                 │             state change                        ┌──────────┐    │
+│                 └─────────────────────────────────────────────────│  MERGE   │    │
+│                             triggers next work                    │ (auto)   │    │
+│                                                                   └──────────┘    │
+└───────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ## How It Works
@@ -42,10 +42,10 @@ This system is **fully self-contained in GitHub** - no local servers, no externa
 
 1. **8 AM cron** starts the daily N*PRs working cycle (limiting pace to preserve tokens)
 2. **Agent works** - think, research, code, deliver
-3. **Agent creates PR** with changes
+3. **Agent creates PR** with changes (updates `agent/state/`)
 4. **PR triggers** self-review workflow
 5. **Auto-merge** when approved
-6. **Merge triggers** next cycle immediately (no waiting)
+6. **State change triggers** next work session immediately
 7. **Repeat** until MAX_PRS_PER_DAY limit reached
 8. **Wait** for next 8 AM to start again
 
@@ -54,9 +54,8 @@ This system is **fully self-contained in GitHub** - no local servers, no externa
 ```
 /
 ├── .github/workflows/
-│   ├── agent-work.yml       # Work session (8 AM cron + cycle trigger)
-│   ├── agent-review.yml     # Self-review on PR creation
-│   └── agent-next.yml       # Triggers next cycle on merge
+│   ├── agent-work.yml       # Work session (8 AM cron + state change trigger)
+│   └── agent-review.yml     # Self-review on PR creation
 │
 ├── agent/
 │   ├── config/
