@@ -111,17 +111,64 @@ PR Count Today: N/M
 ## Blockers
 [any blockers or None]
 
+## External Outputs
+| Type | Name | URL | Last Updated |
+|------|------|-----|--------------|
+| gist | x-content-drafts | [url] | [date] |
+| gist | x-content-calendar | [url] | [date] |
+
 ## Session History
 - [date]: [PR#N] - [brief description]
 ```
 
 ## Output Standards
+
+### Internal Process Files (always in repo)
 - All research → `agent/memory/research/`
 - All hypotheses → `agent/memory/hypotheses/`
 - All learnings → `agent/memory/learnings/`
 - All plans → `agent/output/plans/`
 - All reports → `agent/output/reports/`
 - Link to output files in PR descriptions
+
+### Real Deliverables (prioritized destinations)
+For actual outputs (software, content, etc.), use this priority order:
+
+| Priority | Destination | When to Use                                                                 |
+|----------|-------------|-----------------------------------------------------------------------------|
+| 1 | `/app` directory | Software, code, configs, buildable artifacts                                |
+| 2 | Existing integrations | If platform keys exist (X_API_KEY, NOTION_API_KEY, etc.), use them directly |
+| 3 | GitHub Gist | Fallback for shareable content when no integration exists                   |
+
+**At session start, check what's available:**
+1. Does the goal require software? → Build in `/app`
+2. Need external output? → Check repo secrets/vars for integration keys
+3. No integration available? → Use Gist as fallback
+
+### Gist Usage (Priority 3 Fallback)
+```bash
+# Create a new gist
+gh gist create --public -f "tweet-drafts.md" content.md
+
+# Update existing gist
+gh gist edit <gist-id> -f "tweet-drafts.md" updated-content.md
+
+# List your gists
+gh gist list
+```
+
+**Gist categories:**
+| Gist Name | Content |
+|-----------|---------|
+| `x-content-drafts` | Tweet drafts, thread scripts ready to post |
+| `x-content-calendar` | Weekly/monthly posting schedule |
+| `x-engagement-templates` | Reply templates, comment scripts |
+| `x-research-public` | Shareable insights, can be linked in posts |
+
+**Rules:**
+1. Track all gist/integration URLs in state file under "## External Outputs"
+2. Update existing resources rather than creating duplicates
+3. Include output links in PR descriptions
 
 ## PR Creation Rules
 1. PR title MUST start with "[Agent]" prefix

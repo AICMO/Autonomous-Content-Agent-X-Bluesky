@@ -56,6 +56,7 @@ If the agent encounters:
 - Web search for research
 - Create pull requests
 - Self-review pull requests
+- Create and update GitHub Gists for deliverables (via `gh gist`)
 
 ## Prohibited Actions
 - External API calls (unless permitted in GOALS.md)

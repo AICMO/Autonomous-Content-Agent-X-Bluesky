@@ -7,31 +7,31 @@ A self-managing agent that autonomously and iteratively works toward a given goa
 This system is **fully self-contained in GitHub** - no local servers, no external schedulers.
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
+┌──────────────────────────────────────────────────────────────────┐
 │                    AUTONOMOUS LOOP                               │
 │                                                                  │
-│   ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐ │
-│   │ SCHEDULE │───>│  AGENT   │───>│   PR     │───>│  AGENT   │ │
-│   │ (cron)   │    │  works   │    │ created  │    │ reviews  │ │
-│   └──────────┘    └──────────┘    └──────────┘    └──────────┘ │
-│        ^                                               │        │
-│        │                                               v        │
-│        │                                         ┌──────────┐   │
-│        └─────────────────────────────────────────│  MERGE   │   │
-│                   triggers next cycle            │ (auto)   │   │
-│                                                  └──────────┘   │
-└─────────────────────────────────────────────────────────────────┘
+│   ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐   │
+│   │ SCHEDULE │───>│  AGENT   │───>│   PR     │───>│  AGENT   │   │
+│   │ (cron)   │    │  works   │    │ created  │    │ reviews  │   │
+│   └──────────┘    └──────────┘    └──────────┘    └──────────┘   │
+│        ^                                               │         │
+│        │                                               v         │
+│        │                                         ┌──────────┐    │
+│        └─────────────────────────────────────────│  MERGE   │    │
+│                   triggers next cycle            │ (auto)   │    │
+│                                                  └──────────┘    │
+└──────────────────────────────────────────────────────────────────┘
 ```
 
 ## How It Works
 
 ```
-8 AM UTC ──> Work ──> PR ──> Review ──> Merge ──┐
+8 AM UTC ──> Work ──> PR ──> Review ──> Merge ───┐
                                                  │
               ┌──────────────────────────────────┘
               │
               v
-         Limit reached? ──No──> Work ──> PR ──> Review ──> Merge ──┐
+         Limit reached? ──No──> Work ──> PR ──> Review ──> Merge ───┐
               │                                                     │
               Yes                     ┌─────────────────────────────┘
               │                       │
