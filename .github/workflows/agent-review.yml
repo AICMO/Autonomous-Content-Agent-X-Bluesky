@@ -39,21 +39,22 @@ jobs:
             5. Are there any obvious errors or issues?
             6. Does it stay within boundaries?
 
-            Review commands:
-            ```
-            gh pr review ${{ github.event.pull_request.number }} --approve --body "message"
-            gh pr review ${{ github.event.pull_request.number }} --request-changes --body "message"
-            gh pr review ${{ github.event.pull_request.number }} --comment --body "message"
+            DECISION RULES:
+            - If PR is acceptable (no critical issues) → MUST use --approve
+            - If PR has critical issues that block merge → use --request-changes
+            - NEVER use --comment for final review (it doesn't count as approval)
+
+            CRITICAL: You MUST execute ONE of these commands:
+            ```bash
+            gh pr review ${{ github.event.pull_request.number }} --approve --body "your summary"
+            gh pr review ${{ github.event.pull_request.number }} --request-changes --body "critical issues"
             ```
 
             Examples:
-            - Approve: `gh pr review ${{ github.event.pull_request.number }} --approve --body "Good progress on X growth research. State file updated, learnings documented."`
-            - Request changes: `gh pr review ${{ github.event.pull_request.number }} --request-changes --body "Missing state file update. Please increment PR Count Today."`
+            - `gh pr review ${{ github.event.pull_request.number }} --approve --body "Good progress. State file updated, research documented."`
+            - `gh pr review ${{ github.event.pull_request.number }} --request-changes --body "Missing state file update."`
 
-            CRITICAL: After completing your review, EXECUTE the appropriate gh pr review command using the Bash tool.
-            Do NOT just output the command - actually RUN it to submit your review.
-
-            Be constructive - this is self-improvement, not criticism.
+            DEFAULT TO APPROVE unless there are critical blocking issues.
           claude_args: |
             --model ${{ vars.CLAUDE_MODEL || 'claude-opus-4-5-20251101' }}
             --max-turns 10
