@@ -79,6 +79,11 @@ This system is **fully self-contained in GitHub** - no local servers, no externa
 └── README.md
 ```
 
+# Requirements
+- CLAUDE_CODE_OAUTH_TOKEN or ANTHROPIC_API_KEY 
+Uses Claude Personal OAuth token (`claude setup-token`) or fallback to Anthropic API Key instead.
+Details: https://github.com/anthropics/claude-code-action/blob/main/docs/usage.md
+
 ## PDCA Methodology
 
 The agent follows the Plan-Do-Check-Act cycle:

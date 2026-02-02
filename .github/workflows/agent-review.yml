@@ -3,14 +3,12 @@ name: Agent Self-Review
 on:
   pull_request:
     types: [opened, synchronize]
-    paths:
-      - 'agent/**'
-      - '.github/workflows/**'
-      - 'CLAUDE.md'
+    paths-ignore:
+      - '.github/workflows/agent-review.yml'
 
 jobs:
   review:
-    if: startsWith(github.event.pull_request.title, '[Agent]')
+    name: PR Review (Claude)
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -25,12 +23,12 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN || secrets.ANTHROPIC_API_KEY }}
           prompt: |
-            Review this PR created by your past self.
+            Review this PR #${{ github.event.pull_request.number }} created by your past self.
 
             Read:
             - GOALS.md for the current objectives
             - agent/config.md for safety limits
-            - The PR diff to understand what changed
+            - The PR diff: `gh pr diff ${{ github.event.pull_request.number }}`
 
             Check:
             1. Does the work align with goals in GOALS.md?
@@ -38,17 +36,25 @@ jobs:
             3. Are outputs meaningful and well-documented?
             4. Does the work follow the PDCA cycle?
             5. Are there any obvious errors or issues?
-            6. Does it stay within boundaries (no changes outside /agent)?
+            6. Does it stay within boundaries?
 
-            If acceptable: Approve the PR using:
-            gh pr review ${{ github.event.pull_request.number }} --approve --body "your message"
+            Review commands:
+            ```
+            gh pr review ${{ github.event.pull_request.number }} --approve --body "message"
+            gh pr review ${{ github.event.pull_request.number }} --request-changes --body "message"
+            gh pr review ${{ github.event.pull_request.number }} --comment --body "message"
+            ```
 
-            If issues: Request changes using:
-            gh pr review ${{ github.event.pull_request.number }} --request-changes --body "your message"
+            Examples:
+            - Approve: `gh pr review ${{ github.event.pull_request.number }} --approve --body "Good progress on X growth research. State file updated, learnings documented."`
+            - Request changes: `gh pr review ${{ github.event.pull_request.number }} --request-changes --body "Missing state file update. Please increment PR Count Today."`
+
+            CRITICAL: After completing your review, EXECUTE the appropriate gh pr review command using the Bash tool.
+            Do NOT just output the command - actually RUN it to submit your review.
 
             Be constructive - this is self-improvement, not criticism.
           claude_args: |
-            --model ${{ vars.CLAUDE_MODEL || 'claude-sonnet-4-20250514' }}
+            --model ${{ vars.CLAUDE_MODEL || 'claude-opus-4-5-20251101' }}
             --max-turns 10
             --allowed-tools "Bash(gh pr:*),Read,Glob,Grep"
 

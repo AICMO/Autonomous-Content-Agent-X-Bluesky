@@ -38,6 +38,8 @@ jobs:
             fi
           fi
 
+          echo "current_count=$CURRENT_COUNT" >> $GITHUB_OUTPUT
+
           if [ "$CURRENT_COUNT" -ge "$MAX_PRS" ]; then
             echo "skip=true" >> $GITHUB_OUTPUT
             echo "Daily limit reached ($CURRENT_COUNT/$MAX_PRS). Skipping."
@@ -56,10 +58,24 @@ jobs:
 
             Follow the PDCA cycle and do ONE meaningful unit of work.
 
-            After your work, create a PR with your changes (title must start with "[Agent]").
+            CRITICAL RULES:
+            1. ALWAYS create a PR if you modified/created ANY files - your work is LOST if you don't commit and push
+            2. PR title MUST start with "[Agent]"
+            3. Your PR count today: ${{ steps.check.outputs.current_count }}/${{ steps.check.outputs.max_prs_per_day }}
+            4. After creating PR, update agent/state/current.md with incremented "PR Count Today: N/M"
+            5. Do NOT use `gh pr list` to count PRs - only trust the state file
 
-            Max ${{ steps.check.outputs.max_prs_per_day }} PRs per day. Follow boundaries in agent/config.md.
+            Steps to create PR:
+            ```bash
+            git checkout -b agent/$(date +%m-%d-%Y)-description
+            git add -A
+            git commit -m "[Agent] Your commit message"
+            git push -u origin HEAD
+            gh pr create --title "[Agent] Your PR title" --body "Your description"
+            ```
+
+            Follow boundaries in agent/config.md.
           claude_args: |
-            --model ${{ vars.CLAUDE_MODEL || 'claude-sonnet-4-20250514' }}
+            --model ${{ vars.CLAUDE_MODEL || 'claude-opus-4-5-20251101' }}
             --max-turns 20
             --allowed-tools "Bash(git:*),Bash(gh issue:*),Bash(gh pr:*),Bash(gh gist:*),Read,Write,Edit,Glob,Grep,WebFetch,WebSearch"
