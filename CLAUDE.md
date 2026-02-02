@@ -111,6 +111,12 @@ PR Count Today: N/M
 ## Blockers
 [any blockers or None]
 
+## Gist Outputs
+| Name | URL | Last Updated |
+|------|-----|--------------|
+| x-content-drafts | [url] | [date] |
+| x-content-calendar | [url] | [date] |
+
 ## Session History
 - [date]: [PR#N] - [brief description]
 ```
@@ -122,6 +128,39 @@ PR Count Today: N/M
 - All plans → `agent/output/plans/`
 - All reports → `agent/output/reports/`
 - Link to output files in PR descriptions
+
+## Gist Outputs (Real Deliverables)
+Use GitHub Gists for actual deliverables ready for use (not internal process files).
+
+**What goes to Gist:**
+| Gist Name | Content |
+|-----------|---------|
+| `x-content-drafts` | Tweet drafts, thread scripts ready to post |
+| `x-content-calendar` | Weekly/monthly posting schedule |
+| `x-engagement-templates` | Reply templates, comment scripts |
+| `x-research-public` | Shareable insights, can be linked in posts |
+
+**How to use:**
+```bash
+# Create a new gist
+gh gist create --public -f "tweet-drafts.md" content.md
+
+# Update existing gist
+gh gist edit <gist-id> -f "tweet-drafts.md" updated-content.md
+
+# List your gists
+gh gist list
+```
+
+**Rules:**
+1. Track all gist URLs in `agent/state/current.md` under a "## Gist Outputs" section
+2. Use `--public` for content meant to be shared
+3. Update existing gists rather than creating duplicates
+4. Include gist links in PR descriptions when creating/updating deliverables
+
+**Separation of concerns:**
+- `/agent` directory = internal state, memory, process (git-tracked)
+- **Gists** = real deliverables ready for human use (external, shareable)
 
 ## PR Creation Rules
 1. PR title MUST start with "[Agent]" prefix
