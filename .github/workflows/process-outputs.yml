@@ -1,0 +1,69 @@
+name: Process Outputs
+
+# Processes agent outputs via matching integrations
+# agent/outputs/x/*.txt → agent/integrations/x/post.sh
+# agent/outputs/notion/*.md → agent/integrations/notion/post.sh (future)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'agent/outputs/**'
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      # X Integration
+      X_CLIENT_ID: ${{ vars.X_CLIENT_ID }}
+      X_CLIENT_SECRET: ${{ secrets.X_CLIENT_SECRET }}
+      X_REFRESH_TOKEN: ${{ secrets.X_REFRESH_TOKEN }}
+      # Add more integrations here as needed
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Process outputs
+        run: |
+          # Find all integration output directories
+          for output_dir in agent/outputs/*/; do
+            integration=$(basename "$output_dir")
+            integration_script="agent/integrations/$integration/post.sh"
+
+            # Check if integration exists
+            if [ ! -f "$integration_script" ]; then
+              echo "No integration found for: $integration"
+              continue
+            fi
+
+            # Check for pending files (not in posted/)
+            pending_files=$(find "$output_dir" -maxdepth 1 -type f -name "*.txt" -o -name "*.md" 2>/dev/null | grep -v "/posted/" || true)
+
+            if [ -z "$pending_files" ]; then
+              echo "No pending outputs for: $integration"
+              continue
+            fi
+
+            echo "Processing outputs for: $integration"
+            mkdir -p "${output_dir}posted"
+
+            for file in $pending_files; do
+              echo "  Processing: $file"
+              if "$integration_script" "$(cat "$file")"; then
+                mv "$file" "${output_dir}posted/"
+                echo "  ✓ Posted and archived"
+              else
+                echo "  ✗ Failed to post"
+              fi
+            done
+          done
+
+      - name: Commit posted status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add agent/outputs/
+          git diff --staged --quiet || git commit -m "[Bot] Processed outputs"
+          git push || true
