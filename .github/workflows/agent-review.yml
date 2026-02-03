@@ -5,6 +5,7 @@ name: Agent Self-Review
 # To require real approval, use a different token/bot for review.
 
 on:
+  workflow_dispatch:
   pull_request:
     types: [opened, synchronize]
     paths-ignore:

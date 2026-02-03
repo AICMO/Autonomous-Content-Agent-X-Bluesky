@@ -4,6 +4,7 @@ name: Trigger Agent Work
 # claude-code-action doesn't support push events, so this dispatches agent-work
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main

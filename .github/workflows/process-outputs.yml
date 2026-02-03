@@ -5,6 +5,7 @@ name: Process Outputs
 # agent/outputs/notion/*.md → agent/integrations/notion/post.sh (future)
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -17,7 +18,12 @@ jobs:
     permissions:
       contents: write
     env:
-      # X Integration
+      # X Integration - OAuth 1.0a (preferred)
+      X_API_KEY: ${{ vars.X_API_KEY }}
+      X_API_KEY_SECRET: ${{ secrets.X_API_KEY_SECRET }}
+      X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+      X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+      # X Integration - OAuth 2.0 (fallback)
       X_CLIENT_ID: ${{ vars.X_CLIENT_ID }}
       X_CLIENT_SECRET: ${{ secrets.X_CLIENT_SECRET }}
       X_REFRESH_TOKEN: ${{ secrets.X_REFRESH_TOKEN }}
