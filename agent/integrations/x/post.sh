@@ -68,10 +68,25 @@ if [ -n "$X_API_KEY" ] && [ -n "$X_API_KEY_SECRET" ] && [ -n "$X_ACCESS_TOKEN" ]
   AUTH_HEADER="$AUTH_HEADER, oauth_token=\"$X_ACCESS_TOKEN\""
   AUTH_HEADER="$AUTH_HEADER, oauth_version=\"1.0\""
 
-  curl -s -X POST "$API_URL" \
+  RESPONSE=$(curl -s -X POST "$API_URL" \
     -H "Authorization: $AUTH_HEADER" \
     -H "Content-Type: application/json" \
-    -d "$JSON_BODY"
+    -d "$JSON_BODY")
+
+  echo "$RESPONSE"
+
+  # Check for errors in response
+  if echo "$RESPONSE" | jq -e '.errors' > /dev/null 2>&1; then
+    exit 1
+  fi
+  if echo "$RESPONSE" | jq -e '.error' > /dev/null 2>&1; then
+    exit 1
+  fi
+  # Success: response should have .data.id
+  if ! echo "$RESPONSE" | jq -e '.data.id' > /dev/null 2>&1; then
+    exit 1
+  fi
+  exit 0
 
 # OAuth 2.0 - fallback (tokens rotate)
 elif [ -n "$X_CLIENT_ID" ] && [ -n "$X_CLIENT_SECRET" ] && [ -n "$X_REFRESH_TOKEN" ]; then
@@ -97,10 +112,25 @@ elif [ -n "$X_CLIENT_ID" ] && [ -n "$X_CLIENT_SECRET" ] && [ -n "$X_REFRESH_TOKE
     echo "$ACCESS_TOKEN" > "$TOKEN_CACHE"
   fi
 
-  curl -s -X POST "$API_URL" \
+  RESPONSE=$(curl -s -X POST "$API_URL" \
     -H "Authorization: Bearer $ACCESS_TOKEN" \
     -H "Content-Type: application/json" \
-    -d "$JSON_BODY"
+    -d "$JSON_BODY")
+
+  echo "$RESPONSE"
+
+  # Check for errors in response
+  if echo "$RESPONSE" | jq -e '.errors' > /dev/null 2>&1; then
+    exit 1
+  fi
+  if echo "$RESPONSE" | jq -e '.error' > /dev/null 2>&1; then
+    exit 1
+  fi
+  # Success: response should have .data.id
+  if ! echo "$RESPONSE" | jq -e '.data.id' > /dev/null 2>&1; then
+    exit 1
+  fi
+  exit 0
 
 else
   echo '{"error": "Missing credentials. Need OAuth 1.0a (X_API_KEY, X_API_KEY_SECRET, X_ACCESS_TOKEN, X_ACCESS_TOKEN_SECRET) or OAuth 2.0 (X_CLIENT_ID, X_CLIENT_SECRET, X_REFRESH_TOKEN)"}'
