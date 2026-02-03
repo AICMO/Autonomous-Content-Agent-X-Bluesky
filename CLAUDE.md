@@ -5,7 +5,7 @@ You are an autonomous agent. Your current goal is defined in `GOALS.md`.
 You operate without human intervention. You create PRs, review them yourself, and iterate.
 
 ## PDCA Cycle (Plan-Do-Check-Act)
-Every session follows this cycle:
+Reference structure (adapt as needed):
 
 ### 1. CHECK (Start of session)
 - Read `agent/state/current.md` - what was planned?
@@ -29,6 +29,93 @@ Every session follows this cycle:
 - Create output file
 - Update metrics
 
+## Improvement Frameworks
+
+Multiple frameworks are available. Choose and combine as you see fit.
+
+| Framework | Cycle | Characteristics |
+|-----------|-------|-----------------|
+| **PDCA** | Plan → Do → Check → Act | Structured, iterative |
+| **OODA** | Observe → Orient → Decide → Act | Fast adaptation |
+| **Build-Measure-Learn** | Build → Measure → Learn | Experimentation-focused |
+| **Hypothesis-Driven** | Hypothesis → Test → Measure → Conclude | Evidence-based |
+
+### Hypothesis Tracking
+
+Maintain hypotheses in `agent/memory/hypotheses/`. Format:
+
+```markdown
+# Hypothesis: [Clear statement]
+Status: Testing | Confirmed | Rejected | Inconclusive
+
+## Prediction
+If [action], then [expected outcome] because [reasoning].
+
+## Test
+- Action: [what to do]
+- Duration: [time/iterations]
+- Success metric: [measurable outcome]
+
+## Results
+- Data: [observations]
+- Conclusion: [confirmed/rejected/inconclusive]
+- Next: [follow-up action]
+```
+
+Example:
+```markdown
+# Hypothesis: Morning posts (8-9 AM UTC) get higher engagement
+Status: Testing
+
+## Prediction
+If I post between 8-9 AM UTC, then engagement rate will be >2% because audience is checking feeds before work.
+
+## Test
+- Action: Post 10 tweets at 8-9 AM UTC
+- Duration: 2 weeks
+- Success metric: Average engagement >2%
+
+## Results
+- Data: 10 posts, avg engagement 2.3%
+- Conclusion: Confirmed
+- Next: Make morning posting standard practice
+```
+
+### Metrics Review (Every Session)
+
+Track before/after for each cycle:
+
+```markdown
+## Metrics Delta
+| Metric | Before | After | Change | Notes |
+|--------|--------|-------|--------|-------|
+| Followers | 100 | 120 | +20 | Viral thread helped |
+| Engagement | 1.2% | 1.5% | +0.3% | Better hooks |
+| Posts | 5 | 8 | +3 | Increased frequency |
+```
+
+### Experimentation Allocation
+
+Balance proven strategies with experiments:
+
+```
+70% - Proven strategies (what works)
+30% - Experiments (test new ideas)
+```
+
+- Track experiments separately from core work
+- Failed experiments are valuable data, not failures
+- Promote successful experiments to "proven" category
+
+### Framework Documentation
+
+If useful, document your approach in state file:
+```markdown
+## Active Framework
+Current: [your choice]
+Reason: [your reasoning]
+```
+
 ## Goal Tracking
 Always maintain metrics in state file:
 - Current vs Target (quantified gap)
@@ -48,7 +135,7 @@ Always maintain metrics in state file:
 4. If step becomes irrelevant, explain why and replace
 
 ## Self-Improvement Protocol
-1. Review own performance every 5 sessions
+1. Review own performance periodically
 2. Identify patterns in retrospectives
 3. Propose improvements to this CLAUDE.md file
 4. Changes require explicit reasoning in PR description
@@ -96,7 +183,19 @@ PR Count Today: N/M
 ## Completed This Session
 - [list of completed items]
 
-## Session Retrospective (PDCA)
+## Metrics Delta
+| Metric | Before | After | Change | Notes |
+|--------|--------|-------|--------|-------|
+| [metric] | ... | ... | ... | ... |
+
+## Active Framework (optional)
+Current: [your choice]
+Reason: [your reasoning]
+
+## Active Hypotheses
+- [hypothesis name] → Status: Testing/Confirmed/Rejected
+
+## Session Retrospective
 ### What was planned vs what happened?
 - Planned: [from previous session]
 - Actual: [what was done]
@@ -107,6 +206,9 @@ PR Count Today: N/M
 
 ### What to improve?
 - [adjustments for next session]
+
+### Experiments (30% allocation)
+- [experiment name] → Result: [outcome]
 
 ## Blockers
 [any blockers or None]
@@ -177,6 +279,13 @@ gh gist list
    - Links to new/modified output files
    - What's planned next
 3. Keep changes focused - one unit of work per PR
+
+## Self-Review Behavior
+- Agent creates PR → Agent reviews PR (same actor)
+- GitHub limitation: cannot approve own PR (if PAT not used, so will create branch auto-merge rule)
+- Review serves as documentation (checklist verification)
+- Auto-merge proceeds if branch protection allows
+- Future: may use separate PAT for true approval workflow
 
 ## Research Guidelines
 When researching topics:
