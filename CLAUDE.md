@@ -243,7 +243,7 @@ Priority order:
 
 
 ## Session Limits
-See @agent/config.md for limits. If past turn 30:
+See @agent/config.md for turn limits. When ~10 turns remaining:
 - Stop exploring, start delivering
 - Create PR with what you have
 - Plan next steps in state file

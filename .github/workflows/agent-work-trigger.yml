@@ -2,6 +2,10 @@ name: Trigger Agent Work
 
 # Chains agent sessions after PR merge
 # Only needed because claude-code-action doesn't support push events
+#
+# IMPORTANT: This workflow only triggers if the PR was merged using AGENT_PAT.
+# GITHUB_TOKEN merges don't trigger push events (GitHub security feature).
+# Without AGENT_PAT, the autonomous loop stops after the agent's PR is merged.
 
 on:
   workflow_dispatch:

@@ -56,7 +56,7 @@ This system is **fully self-contained in GitHub** - no local servers, no externa
 ├── .github/workflows/
 │   ├── agent-work.yml         # Work session (8 AM cron + manual dispatch)
 │   ├── agent-review.yml       # Self-review on PR creation
-│   ├── agent-trigger.yml      # Chains sessions after PR merge
+│   ├── agent-work-trigger.yml # Chains sessions after PR merge (requires AGENT_PAT)
 │   └── process-outputs.yml    # Posts outputs via integrations
 │
 ├── agent/
@@ -121,6 +121,29 @@ The agent follows the Plan-Do-Check-Act cycle:
 - GitHub repository with Actions enabled
 - `ANTHROPIC_API_KEY` secret configured
 - Branch protection rules (optional, for auto-merge)
+
+### Full Autonomous Loop (AGENT_PAT)
+
+**Important:** Without `AGENT_PAT`, the autonomous loop will not continue after an agent-created PR is merged.
+
+GitHub security prevents `GITHUB_TOKEN` merges from triggering subsequent workflows. This means:
+- Agent creates PR → Review workflow runs → PR merges
+- ❌ No further workflows trigger (loop stops)
+
+To enable full automation, create a Personal Access Token (PAT):
+
+1. Go to [GitHub Token Settings](https://github.com/settings/tokens?type=beta)
+2. Generate new token (Fine-grained)
+3. Select this repository
+4. Grant permissions:
+   - **Contents**: Read and write
+   - **Pull requests**: Read and write
+   - **Metadata**: Read-only (auto-selected)
+5. Add to repository: `gh secret set AGENT_PAT`
+
+With `AGENT_PAT` configured:
+- Agent creates PR → Review workflow runs → PR merges with PAT
+- ✅ Merge triggers `agent-trigger.yml` → Next work session starts
 
 ### Manual Trigger
 To start the agent manually:

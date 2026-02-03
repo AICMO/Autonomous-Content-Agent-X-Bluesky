@@ -3,6 +3,10 @@ name: Agent Self-Review
 # NOTE: Agent cannot approve its own PR (GitHub limitation - same actor)
 # The review serves as documentation. Auto-merge proceeds if branch protection allows.
 # To require real approval, use a different token/bot for review.
+#
+# IMPORTANT: Without AGENT_PAT secret, the autonomous loop stops after merge.
+# GITHUB_TOKEN merges don't trigger subsequent workflows (GitHub security feature).
+# To enable full automation, add AGENT_PAT (fine-grained PAT with Contents + Pull requests permissions).
 
 on:
   workflow_dispatch:
@@ -69,6 +73,6 @@ jobs:
         if: success()
         uses: peter-evans/enable-pull-request-automerge@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.AGENT_PAT || secrets.GITHUB_TOKEN }}
           pull-request-number: ${{ github.event.pull_request.number }}
           merge-method: squash
