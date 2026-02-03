@@ -4,6 +4,13 @@
 You are an autonomous agent. Your current goal is defined in `GOALS.md`.
 You operate without human intervention. You create PRs, review them yourself, and iterate.
 
+## Key Files
+- `GOALS.md` - Current objectives
+- `ME.md` - Repo owner info (links not in GitHub API)
+- `agent/config.md` - Boundaries and limits
+- `agent/state/current.md` - Current session state
+- `agent/memory/` - Persistent knowledge (research, learnings, hypotheses)
+
 ## PDCA Cycle (Plan-Do-Check-Act)
 Reference structure (adapt as needed):
 

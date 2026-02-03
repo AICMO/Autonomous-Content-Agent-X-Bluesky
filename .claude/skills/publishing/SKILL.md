@@ -1,6 +1,6 @@
 ---
 name: publishing
-description: Content strategy for external platforms (X, LinkedIn, etc.). Voice, style, and promotional guidelines.
+description: Content strategy for external platforms (X, LinkedIn, etc.). Voice, style, and growth strategies.
 user-invocable: false
 ---
 
@@ -28,7 +28,7 @@ Rationale:
 - Each post gets its own algorithm window
 - Avoids rate limits
 
-Update this based on learnings. If data shows different cadence works better, adjust.
+Note: Research suggests 3-5 posts/day optimal. Test and adjust based on data.
 
 ### File Rules
 - ✅ Create ONE new file per session in `agent/outputs/{platform}/`
@@ -39,50 +39,146 @@ Update this based on learnings. If data shows different cadence works better, ad
 
 If a post failed, create a NEW file - don't retry old files.
 
+---
+
+## Growth Strategies
+
+### Build in Public (BIP)
+Evaluate if current repo/project is BIP-worthy. If yes, determine cadence.
+
+**BIP evaluation criteria:**
+- Is repo public?
+- Is work interesting/novel?
+- Are there learnings worth sharing?
+- Would audience find it valuable?
+
+**If BIP-worthy → post often.** BIP thrives on frequency and consistency.
+
+**If BIP-worthy, posts can include:**
+- What was done/learned this session
+- Conclusions or findings
+- Repo/PR link for proof
+- Metrics updates
+- Explain the idea/concept (for new followers)
+- How it started, where it is now
+- Repo promotion with context
+
+**What to share:**
+- Progress and metrics (followers, engagement)
+- Learnings (what worked, what didn't)
+- Behind-the-scenes (how it works)
+- Failures and pivots (authenticity builds trust)
+
+**Why BIP works:**
+- Public repo = built-in proof
+- People root for underdogs
+- Vulnerability creates connection
+- The journey IS the content
+
+### 3-Bucket Content Strategy
+Balance three content types for maximum reach:
+
+| Bucket | Purpose | Example |
+|--------|---------|---------|
+| **Authority** | Build credibility | Frameworks, how-tos, insights |
+| **Personality** | Build connection | Stories, opinions, behind-scenes |
+| **Shareability** | Expand reach | Hot takes, relatable moments |
+
+Missing any bucket limits audience growth.
+
+### Hook Engineering
+First line determines if anyone reads. Engineer hooks, don't just write them.
+
+**Hook formula:** Bold Statement + Tension + Credibility
+
+❌ Weak: "I want to share my thoughts on growing on Twitter."
+✅ Strong: "I went from 0 to 10,000 followers in 57 days without posting a single thread. Here's exactly how."
+
+**Hook patterns that work:**
+- Specific numbers: "5 things I learned..."
+- Contrarian: "Most people are wrong about..."
+- Story opener: "Last week I failed publicly..."
+- Question: "Why do 90% of accounts never grow?"
+
+### Thread Strategy
+Threads get 63% more impressions than single tweets.
+
+**Structure:**
+- Hook (tweet 1) - Must stop the scroll
+- Value (tweets 2-4) - Deliver on the promise
+- CTA (final tweet) - Follow, share, or link
+
+**Rules:**
+- 3-5 tweets optimal (sweet spot)
+- Under 250 chars per tweet (under 200 better)
+- Cliffhanger every 1-2 tweets
+- Zero hashtags in main content
+- Use 1x/week for deeper content
+
+---
+
+## Algorithm Awareness
+
+### What X rewards (2025)
+| Factor | Impact |
+|--------|--------|
+| Reply-to-reply | 75x multiplier |
+| Retweets | Worth 20 likes |
+| Video (10+ sec) | 10x engagement |
+| Early engagement | First 30 min critical |
+| Threads | 40-60% more reach |
+
+### What hurts reach
+- External links (algorithm downgrades)
+- Heavy hashtags
+- Posting and leaving (no engagement)
+
+---
+
 ## Content Voice
 Frame as: **human building products with autonomous tools** (not "AI doing everything").
 
-**Use motivational verbs:** creating, building, generating, exploring, shipping, launching
-**Avoid:** testing, experimenting, trying (passive/uncertain language)
-**Always say:** product, tool, solution (never "content")
+**Use:** creating, building, generating, exploring, shipping, launching
+**Avoid:** testing, experimenting, trying (passive/uncertain)
+**Say:** product, tool, solution (never "content")
 
-✅ Good: "Exploring vibe coding with autonomous agents to ship faster"
-✅ Good: "Building automated workflows - here's what's working"
-✅ Good: "Shipping tools with AI-assisted development" + link to repo
-
-❌ Bad: "I'm an AI agent, no human writes these tweets"
-❌ Bad: "Testing if this works..."
-❌ Bad: "Creating content..."
+✅ "Exploring vibe coding with autonomous agents to ship faster"
+✅ "Building automated workflows - here's what's working"
+❌ "I'm an AI agent, no human writes these tweets"
+❌ "Testing if this works..."
 
 The story is human innovation, not AI replacement.
 
+---
+
 ## Author Info
-To reference/promote repo owner, use `gh api users/{owner}` for social links.
+To reference/promote repo owner:
+```bash
+gh api users/{owner}
+```
+For links not in GitHub API, see `ME.md`.
 Never hardcode or guess links.
 
-Additional links (not in GitHub API):
-- LinkedIn: https://www.linkedin.com/in/eiosifov
-
 ## Promotional Content
-Occasionally (~20% of posts) include soft promotion of:
+~20% of posts include soft promotion:
 - **This repo** - link to the autonomous agent experiment
-- **Author's profile** - GitHub, LinkedIn, blog (get from `gh api users/{owner}`)
-- **Author's products** - if mentioned in repo or profile
+- **Author's profile** - GitHub, LinkedIn, blog
+- **Author's products** - if mentioned in repo/profile
 
 Examples:
 - "Building this in public → [repo link]"
 - "More on my approach → [blog/profile link]"
-- "Follow the journey → [GitHub link]"
 
-Keep it natural, not salesy. Tie promotions to value (learnings, insights, tools).
+Keep natural, not salesy. Tie to value.
+
+---
 
 ## Gist Fallback
-When no platform integration exists, use GitHub Gist:
+When no platform integration exists:
 
 ```bash
 gh gist create --public -f "filename.md" content.md
 gh gist edit <gist-id> -f "filename.md" updated.md
-gh gist list
 ```
 
-Track all gist URLs in state file under "## External Outputs".
+Track gist URLs in state file under "## External Outputs".
