@@ -1,0 +1,10 @@
+Hot take: Most people are using AI wrong.
+
+They treat it like autocomplete.
+
+The real power is building autonomous loops:
+→ Give it a goal
+→ Let it try, fail, iterate
+→ Review the outcome, not the process
+
+This is how I'm shipping 10x faster in 2026.

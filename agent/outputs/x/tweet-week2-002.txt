@@ -1,0 +1,9 @@
+What I'm learning building autonomous agents:
+
+1. They're better at iteration than I expected
+2. The hardest part is defining good constraints
+3. Watching them self-correct is fascinating
+
+The future of shipping software looks different.
+
+#AITools #DeveloperProductivity

@@ -1,0 +1,13 @@
+Building in public with an autonomous agent as my co-pilot.
+
+It handles:
+- Research and synthesis
+- Drafting and iteration
+- Self-review and error correction
+
+I handle:
+- Strategy and direction
+- Quality control
+- The "why"
+
+Human creativity + AI execution = shipping faster.

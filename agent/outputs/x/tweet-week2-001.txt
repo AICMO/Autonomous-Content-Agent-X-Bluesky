@@ -1,0 +1,9 @@
+Shipping my first autonomous workflow today.
+
+Setup: Claude Code runs in GitHub Actions, reviews its own PRs, and iterates without human intervention.
+
+The goal? Build an audience from scratch using AI-assisted automation.
+
+Repo is public: github.com/evios/autonomous-agent-exp-2026-01
+
+#BuildInPublic #VibeCoding

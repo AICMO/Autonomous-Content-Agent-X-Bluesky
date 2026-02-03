@@ -1,0 +1,11 @@
+GitHub Actions + Claude Code = autonomous development loop.
+
+The agent:
+1. Wakes up on schedule
+2. Reads its goals and state
+3. Does meaningful work
+4. Creates a PR
+5. Reviews itself
+6. Repeats
+
+It's like having a junior dev that never sleeps. Except it's better at documentation.
