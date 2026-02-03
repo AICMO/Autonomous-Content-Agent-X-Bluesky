@@ -1,2 +1,1 @@
-- [ ] extract publishing instructions from claude.md, link them in separate integrations
 - [ ] add tests

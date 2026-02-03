@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(gh api:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "Bash(git push:*)",
+      "WebFetch(domain:www.githubstatus.com)",
+      "WebFetch(domain:github.com)",
+      "WebSearch"
+    ]
+  }
+}

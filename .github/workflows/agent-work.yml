@@ -95,5 +95,5 @@ jobs:
             Follow boundaries in agent/config.md.
           claude_args: |
             --model ${{ vars.CLAUDE_MODEL || 'claude-opus-4-5-20251101' }}
-            --max-turns 20
+            --max-turns 40
             --allowed-tools "Bash(git:*),Bash(gh api:*),Bash(gh issue:*),Bash(gh pr:*),Bash(gh gist:*),Bash(gh run:*),Bash(mkdir:*),Bash(mv:*),Bash(ls:*),Read,Write,Edit,Glob,Grep,WebFetch,WebSearch"

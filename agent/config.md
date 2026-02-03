@@ -7,7 +7,7 @@
 
 ## Hard Limits
 - Max PRs per day: See MAX_PRS_PER_DAY above
-- Max 20 turns per session
+- Max 40 turns per session (wrap up after turn 30)
 - No external API calls (unless permitted in GOALS.md)
 - No changes outside /agent directory (except workflow fixes)
 - No deletion of state files

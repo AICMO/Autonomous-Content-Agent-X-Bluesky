@@ -95,10 +95,8 @@ This system is **fully self-contained in GitHub** - no local servers, no externa
 - Uses Claude Personal OAuth token (`claude setup-token`) or fallback to Anthropic API Key
 - Details: https://github.com/anthropics/claude-code-action/blob/main/docs/usage.md
 
-### X Integration (optional)
-See `GOALS.md` for full credential setup. Requires either:
-- **OAuth 1.0a** (preferred): `X_API_KEY`, `X_API_KEY_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_TOKEN_SECRET`
-- **OAuth 2.0** (fallback): `X_CLIENT_ID`, `X_CLIENT_SECRET`, `X_REFRESH_TOKEN`
+### Integrations (optional)
+See `.claude/skills/publishing/SKILL.md` for platform credentials and publishing rules.
 
 ## PDCA Methodology
 
