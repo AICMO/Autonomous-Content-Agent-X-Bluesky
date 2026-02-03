@@ -1,27 +1,46 @@
 # Agent State
-Last Updated: 2026-02-03T13:45:00Z
-PR Count Today: 4/5
+Last Updated: 2026-02-03T14:00:00Z
+PR Count Today: 5/5
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 0 | 5,000 | 5,000 | 0/day | Blocked |
-| Engagement Rate | N/A | >1% | N/A | N/A | N/A |
+| Followers | ~0 | 5,000 | ~5,000 | First posts today! | TBD |
+| Engagement Rate | N/A | >1% | N/A | Measuring starts now | TBD |
+| Tweets Posted | 5 | - | - | 5/day (rate limited) | - |
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: Wait for X API credentials to be configured by repo owner
-2. **THEN**: Verify posting workflow works with new tweets
-3. **AFTER**: Begin engagement campaign and track metrics
+1. **NEXT**: Monitor engagement on first 5 posted tweets
+2. **THEN**: Retry posting the 3 rate-limited tweets (wait 24h for rate limit reset)
+3. **AFTER**: Create more content and begin engagement strategy
 
 ## Completed This Session
-- CHECK: Reviewed state, found voice/strategy misalignment
-- ACT: Documented voice reconciliation learning
-- DO: Created 8 new tweets with correct voice guidelines
+- CHECK: Reviewed workflow logs - X API credentials now working!
+- ACT: Discovered 5 tweets successfully posted, 3 rate limited
+- DO: Created learning document on rate limits
+- DO: Updated state with major breakthrough
+
+## Major Breakthrough: X API Now Working!
+
+**Status**: OAuth 1.0a credentials are configured and functional
+
+**Evidence**: Workflow run #21632708280 at 2026-02-03T13:46:42Z
+- 5 tweets successfully posted (200 response with tweet IDs)
+- 3 tweets hit rate limit (429 Too Many Requests)
+
+**Tweet IDs Posted**:
+- 2018682584490770521 (tweet-week2-003)
+- 2018682586151739527 (tweet-week2-004)
+- 2018682587665801237 (tweet-week2-007)
+- 2018682589255520529 (tweet-week2-005)
+- 2018682590811529562 (tweet-week2-002)
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Tweets Ready | 0 (wrong voice) | 8 (correct voice) | +8 | Ready to post when API works |
+| X API Status | Blocked | Working | Fixed! | OAuth 1.0a credentials added |
+| Tweets Posted | 0 | 5 | +5 | First real posts |
+| Tweets Pending | 8 | 3 | -5 | 3 hit rate limits |
 
 ## Active Framework
 Current: PDCA + Hypothesis-Driven
@@ -29,58 +48,41 @@ Reason: Structured iteration with evidence-based adjustments
 
 ## Session Retrospective (PDCA)
 ### What was planned vs what happened?
-- Planned: Wait for X API (blocked)
-- Actual: Found strategic work to do - reconciled voice guidelines with niche strategy
-- Delta: Turned a blocked session into productive content preparation
+- Planned: Wait for X API credentials (was blocked)
+- Actual: Credentials now work! 5 tweets posted successfully
+- Delta: Major unblock - we are now operational!
 
 ### What worked?
-- Identified the voice/strategy conflict that would have caused problems
-- Created correctly-voiced tweets ready for deployment
+- OAuth 1.0a implementation is robust
+- Correct voice tweets posted successfully
+- Workflow automation functions as designed
 
 ### What to improve?
-- Previous sessions should have validated voice guidelines before creating content
-- Need clearer process for checking content against guidelines
+- Rate limits constrain posting volume (max ~17 tweets/day on free tier)
+- Need to pace posts rather than batch them
+- Should track rate limit windows
 
 ### Experiments (30% allocation)
-- On hold until posting capability is restored
+- Can now begin actual experiments on posting times, hashtags, etc.
 
-## Critical Blockers
+## Rate Limit Discovery
+- X API Free tier allows ~17 tweets per 24-hour window
+- Posted 5, then hit 429 errors on remaining 3
+- Remaining tweets will retry on next workflow run
 
-### BLOCKER: X API Credentials Not Working
-**Status**: Waiting for repo owner action
-
-**Issue**:
-- OAuth 2.0 refresh token is invalid/expired
-- OAuth 1.0a credentials not configured
-
-**Required Action (Repo Owner)**:
-Configure OAuth 1.0a credentials (recommended - stable tokens):
-- `X_API_KEY` (GitHub var)
-- `X_API_KEY_SECRET` (GitHub secret)
-- `X_ACCESS_TOKEN` (GitHub secret)
-- `X_ACCESS_TOKEN_SECRET` (GitHub secret)
-
-## Voice Guidelines Resolution
-**Issue Found**: Niche analysis recommended "Meta AI Agent Journey" (transparent AI identity), but publishing guidelines mandate "human building products with autonomous tools" voice.
-
-**Resolution**: Publishing guidelines take precedence. New tweets frame the account as human innovation with AI tools, not AI running the account.
-
-**Documentation**: `agent/memory/learnings/2026-02-03-voice-strategy-reconciliation.md`
+## Active Hypotheses
+- Morning posts (8-9 AM UTC) get higher engagement → Status: Ready to test
+- Developer productivity content resonates → Status: Testing (5 posts live)
 
 ## External Outputs
-| Type | Name | URL | Last Updated |
-|------|------|-----|--------------|
-| tweets | agent/outputs/x/posted/ | (11 tweets - NOT posted, wrong voice) | 2026-02-03 |
-| tweets | agent/outputs/x/ | (8 new tweets - correct voice, ready to post) | 2026-02-03 |
+| Type | Name | Status | Count |
+|------|------|--------|-------|
+| tweets | agent/outputs/x/posted/tweet-week2-* | Posted | 5 |
+| tweets | agent/outputs/x/*.txt | Rate limited, pending | 3 |
 
-## New Tweet Files Created
+## Pending Tweets (Rate Limited)
 - `tweet-week2-001.txt` - Launch announcement with repo link
-- `tweet-week2-002.txt` - Learnings from building autonomous agents
-- `tweet-week2-003.txt` - Vibe coding breakthrough
-- `tweet-week2-004.txt` - Human + AI division of labor
-- `tweet-week2-005.txt` - Hot take on AI usage
 - `tweet-week2-006.txt` - PDCA cycle for AI development
-- `tweet-week2-007.txt` - Autonomous content workflows
 - `tweet-week2-008.txt` - GitHub Actions + Claude Code setup
 
 ## Session History
@@ -90,3 +92,4 @@ Configure OAuth 1.0a credentials (recommended - stable tokens):
 - 2026-02-03: PR#4 - First week content drafts (11 tweets - wrong voice)
 - 2026-02-03: PR#5 - Fixed X API error handling, documented blockers
 - 2026-02-03: PR#6 - Voice reconciliation, 8 new correctly-voiced tweets
+- 2026-02-03: PR#7 - **X API NOW WORKING!** 5 tweets posted, rate limit learning
