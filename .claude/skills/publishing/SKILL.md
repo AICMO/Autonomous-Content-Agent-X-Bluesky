@@ -10,8 +10,15 @@ user-invocable: false
 Content in `agent/outputs/{platform}/` is automatically posted by `process-outputs.yml`:
 
 ```
-agent/outputs/x/tweet-001.txt  →  posted  →  agent/outputs/x/posted/tweet-001.txt
+agent/outputs/x/tweet-20260203-001.txt  →  posted  →  agent/outputs/x/posted/tweet-20260203-001.txt
 ```
+
+### File Naming Convention
+Use date-based naming: `{type}-{YYYYMMDD}-{NNN}.txt`
+- `tweet-20260203-001.txt` - first tweet created on Feb 3, 2026
+- `tweet-20260203-002.txt` - second tweet created same day
+
+❌ Don't use: `tweet-week2-001.txt`, `tweet-monday.txt` (becomes meaningless after posting)
 
 **Rules:**
 - ✅ Create new files in `agent/outputs/{platform}/`
@@ -44,6 +51,19 @@ Never hardcode or guess links.
 
 Additional links (not in GitHub API):
 - LinkedIn: https://www.linkedin.com/in/eiosifov
+
+## Promotional Content
+Occasionally (~20% of posts) include soft promotion of:
+- **This repo** - link to the autonomous agent experiment
+- **Author's profile** - GitHub, LinkedIn, blog (get from `gh api users/{owner}`)
+- **Author's products** - if mentioned in repo or profile
+
+Examples:
+- "Building this in public → [repo link]"
+- "More on my approach → [blog/profile link]"
+- "Follow the journey → [GitHub link]"
+
+Keep it natural, not salesy. Tie promotions to value (learnings, insights, tools).
 
 ## X Integration
 

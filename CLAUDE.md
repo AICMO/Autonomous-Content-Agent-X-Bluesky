@@ -11,6 +11,10 @@ Reference structure (adapt as needed):
 - Read `agent/state/current.md` - what was planned?
 - Review previous PR - what actually happened?
 - Compare planned vs actual - what's the delta?
+y- **Verify blockers** - if state file mentions blockers, check if they're resolved:
+  - `gh variable list` - if variables exist, presume secrets are also configured
+  - `gh run list --workflow=<workflow>` - did recent runs succeed?
+  - Don't trust stale blocker status - verify current state
 - Update Session Retrospective section
 
 ### 2. ACT (Adjust based on learnings)
@@ -138,7 +142,14 @@ Always maintain metrics in state file:
 1. Review own performance periodically
 2. Identify patterns in retrospectives
 3. Propose improvements to this CLAUDE.md file
-4. Changes require explicit reasoning in PR description
+4. Update related skills in `.claude/skills/` based on learnings
+5. Changes require explicit reasoning in PR description
+
+### Skill Improvement
+When learnings apply to a specific skill (e.g., publishing voice, naming conventions):
+- Update the skill file directly (e.g., `.claude/skills/publishing/SKILL.md`)
+- Document the learning that prompted the change
+- Skills are reusable knowledge - keep them current
 
 ## Workflow Error Self-Fixing
 When GitHub Actions workflows fail due to configuration errors:
@@ -212,6 +223,11 @@ Reason: [your reasoning]
 
 ## Blockers
 [any blockers or None]
+
+### Before stating a blocker, VERIFY:
+- Check `gh variable list` - if variables exist, presume secrets are configured
+- Check `gh run list --workflow=<workflow>` to see if recent runs succeeded
+- Only state "waiting for credentials" if variables are actually missing
 
 ## External Outputs
 | Type | Name | URL | Last Updated |

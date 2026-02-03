@@ -60,8 +60,12 @@ jobs:
               if "$integration_script" "$(cat "$file")"; then
                 mv "$file" "${output_dir}posted/"
                 echo "  ✓ Posted and archived"
+                # Rate limit protection - wait between posts
+                sleep 5
               else
                 echo "  ✗ Failed to post"
+                # On rate limit (429), stop processing more files
+                break
               fi
             done
           done
