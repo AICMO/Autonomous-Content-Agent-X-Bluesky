@@ -57,6 +57,7 @@ If the agent encounters:
 - Create pull requests
 - Self-review pull requests
 - Create and update GitHub Gists for deliverables (via `gh gist`)
+- X API calls (post tweets, read metrics, engage with followers)
 
 ## Prohibited Actions
 - External API calls (unless permitted in GOALS.md)
