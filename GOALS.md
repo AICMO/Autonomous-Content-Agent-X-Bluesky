@@ -11,11 +11,26 @@
 - Ethical strategies only
 
 ## X API Access
-- Client ID: `vars.X_CLIENT_ID`
-- Client Secret: `secrets.X_CLIENT_SECRET`
-- Refresh Token: `secrets.X_REFRESH_TOKEN` (lives 6 months)
-- Integration: `agent/integrations/x/`
-- Agent workflow: save tweets to `agent/outputs/x/`, workflow posts them
+
+### OAuth 1.0a (preferred - stable tokens)
+| Type | Name | Description |
+|------|------|-------------|
+| var | `X_API_KEY` | Consumer API Key |
+| secret | `X_API_KEY_SECRET` | Consumer API Secret |
+| secret | `X_ACCESS_TOKEN` | Access Token |
+| secret | `X_ACCESS_TOKEN_SECRET` | Access Token Secret |
+
+### OAuth 2.0 (fallback - tokens rotate)
+| Type | Name | Description |
+|------|------|-------------|
+| var | `X_CLIENT_ID` | OAuth 2.0 Client ID |
+| secret | `X_CLIENT_SECRET` | OAuth 2.0 Client Secret |
+| secret | `X_REFRESH_TOKEN` | Refresh token (rotates on use!) |
+
+### Integration
+- Scripts: `agent/integrations/x/`
+- Agent saves tweets to: `agent/outputs/x/*.txt`
+- `process-outputs.yml` workflow posts them automatically
 
 ## Success Criteria
 - 5,000+ verified followers

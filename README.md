@@ -54,34 +54,51 @@ This system is **fully self-contained in GitHub** - no local servers, no externa
 ```
 /
 ├── .github/workflows/
-│   ├── agent-work.yml       # Work session (8 AM cron + state change trigger)
-│   └── agent-review.yml     # Self-review on PR creation
+│   ├── agent-work.yml         # Work session (8 AM cron + manual dispatch)
+│   ├── agent-review.yml       # Self-review on PR creation
+│   ├── agent-trigger.yml      # Chains sessions after PR merge
+│   └── process-outputs.yml    # Posts outputs via integrations
 │
 ├── agent/
-│   ├── config/
-│   │   └── boundaries.md    # Safety limits and configurable settings
+│   ├── config.md              # Safety limits and settings
 │   │
-│   ├── state/               # Created by agent
-│   │   └── current.md       # Working memory
+│   ├── state/                 # Created by agent
+│   │   └── current.md         # Working memory
 │   │
 │   ├── memory/
-│   │   ├── hypotheses/      # Ideas being tested
-│   │   ├── learnings/       # Validated knowledge
-│   │   └── research/        # Gathered intelligence
+│   │   ├── hypotheses/        # Ideas being tested
+│   │   ├── learnings/         # Validated knowledge
+│   │   └── research/          # Gathered intelligence
 │   │
-│   └── output/
-│       ├── plans/           # Strategic plans
-│       └── reports/         # Analysis summaries
+│   ├── output/
+│   │   ├── plans/             # Strategic plans
+│   │   └── reports/           # Analysis summaries
+│   │
+│   ├── outputs/               # Content to post externally
+│   │   └── x/                 # Tweet files → process-outputs.yml
+│   │       └── posted/        # Archived after posting
+│   │
+│   └── integrations/          # External platform scripts
+│       └── x/
+│           ├── post.sh        # OAuth 1.0a/2.0 posting
+│           └── verify.sh      # Verify credentials
 │
-├── CLAUDE.md                # Agent operating instructions
-├── GOALS.md                 # Milestones and progress tracking
+├── CLAUDE.md                  # Agent operating instructions
+├── GOALS.md                   # Goal definition and X API setup
 └── README.md
 ```
 
-# Requirements
-- CLAUDE_CODE_OAUTH_TOKEN or ANTHROPIC_API_KEY 
-Uses Claude Personal OAuth token (`claude setup-token`) or fallback to Anthropic API Key instead.
-Details: https://github.com/anthropics/claude-code-action/blob/main/docs/usage.md
+## Requirements
+
+### Claude Code
+- `CLAUDE_CODE_OAUTH_TOKEN` or `ANTHROPIC_API_KEY` secret
+- Uses Claude Personal OAuth token (`claude setup-token`) or fallback to Anthropic API Key
+- Details: https://github.com/anthropics/claude-code-action/blob/main/docs/usage.md
+
+### X Integration (optional)
+See `GOALS.md` for full credential setup. Requires either:
+- **OAuth 1.0a** (preferred): `X_API_KEY`, `X_API_KEY_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_TOKEN_SECRET`
+- **OAuth 2.0** (fallback): `X_CLIENT_ID`, `X_CLIENT_SECRET`, `X_REFRESH_TOKEN`
 
 ## PDCA Methodology
 
