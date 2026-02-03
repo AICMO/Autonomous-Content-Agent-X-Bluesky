@@ -1,5 +1,9 @@
 name: Agent Self-Review
 
+# NOTE: Agent cannot approve its own PR (GitHub limitation - same actor)
+# The review serves as documentation. Auto-merge proceeds if branch protection allows.
+# To require real approval, use a different token/bot for review.
+
 on:
   pull_request:
     types: [opened, synchronize]

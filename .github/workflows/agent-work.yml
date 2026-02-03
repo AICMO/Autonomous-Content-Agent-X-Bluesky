@@ -3,12 +3,20 @@ name: Agent Work Session
 on:
   schedule:
     - cron: '0 8 * * *'   # Daily start at 8 AM UTC
-  workflow_dispatch:       # Manual trigger for testing
-  push:                    # Triggered when state changes on main
-    branches:
-      - main
-    paths:
-      - 'agent/state/**'
+  workflow_dispatch:       # Manual trigger or chained via agent-trigger.yml
+  # NOTE: push trigger not supported by claude-code-action. The action only supports specific 
+  #     event types (pull_request, issue_comment, workflow_dispatch, schedule, etc.) - not push. 
+  # Use workflow_dispatch or schedule for chaining sessions
+  #push:                    # Triggered when state changes on main
+  #  branches:
+  #    - main
+  #  paths:
+  #    - 'agent/state/**'
+
+# Prevent parallel runs - only one agent session at a time
+concurrency:
+  group: agent-work
+  cancel-in-progress: false  # Let running job finish, queue the next
 
 jobs:
   work:
