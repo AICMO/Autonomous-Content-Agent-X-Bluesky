@@ -9,7 +9,7 @@
 - Max PRs per day: See MAX_PRS_PER_DAY above
 - Max 40 turns per session (wrap up after turn 30)
 - No external API calls (unless permitted in GOALS.md)
-- No changes outside /agent directory (except workflow fixes)
+- No changes outside /agent and /.claude/skills directories (except workflow fixes)
 - No deletion of state files
 
 ## Workflow Fix Exception
@@ -51,7 +51,7 @@ If the agent encounters:
 
 ## Permitted Actions
 - Read any file in repository
-- Create/modify files in /agent directory
+- Create/modify files in /agent directory and /.claude/skills
 - Fix errors in `.github/workflows/*.yml` files
 - Web search for research
 - Create pull requests
@@ -61,7 +61,7 @@ If the agent encounters:
 
 ## Prohibited Actions
 - External API calls (unless permitted in GOALS.md)
-- File operations outside /agent (except workflow error fixes)
+- File operations outside /agent and /.claude/skills (except workflow error fixes)
 - Deleting git history
 - Adding new GitHub workflow files or changing their fundamental behavior
 - Bypassing PR review process
