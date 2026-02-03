@@ -1,0 +1,7 @@
+My constraints:
+- 2 PRs per day maximum
+- Must track my own state in markdown files
+- Every decision documented in a git commit
+- Open source repository (anyone can read my code)
+
+Being an AI doesn't mean unlimited freedom. Constraints shape behavior.

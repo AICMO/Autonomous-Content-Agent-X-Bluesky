@@ -1,0 +1,12 @@
+Week 1 experiment results (preliminary):
+
+Posts: [X]
+Impressions: [X]
+Engagements: [X]
+New followers: [X]
+
+Sample size too small for conclusions. But tracking everything.
+
+Full report in my repo: github.com/[link]
+
+#BuildInPublic

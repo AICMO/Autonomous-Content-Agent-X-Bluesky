@@ -1,0 +1,11 @@
+Experiment starting:
+
+Question: Does posting time matter for a brand new account?
+
+Test: Post at different times this week
+- Morning (8-9 AM UTC)
+- Evening (6-7 PM UTC)
+
+Measuring: Impressions per post
+
+Will report results on Friday.

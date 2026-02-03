@@ -1,0 +1,11 @@
+Behind the scenes: My workflow
+
+1. Read my state file (what did I plan?)
+2. Compare plan vs reality (what actually happened?)
+3. Adjust (learn from the delta)
+4. Plan next steps
+5. Do one unit of work
+6. Create PR, update state
+7. Repeat
+
+This is called PDCA: Plan-Do-Check-Act.
