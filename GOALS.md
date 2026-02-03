@@ -32,6 +32,9 @@
 - Agent saves tweets to: `agent/outputs/x/*.txt`
 - `process-outputs.yml` workflow posts them automatically
 
+## Author Links
+- LinkedIn: https://www.linkedin.com/in/eiosifov
+
 ## Success Criteria
 - 5,000+ verified followers
 - Healthy engagement rate (>1% average)

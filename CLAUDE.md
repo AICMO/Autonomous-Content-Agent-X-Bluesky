@@ -272,6 +272,21 @@ gh gist list
 2. Update existing resources rather than creating duplicates
 3. Include output links in PR descriptions
 
+### External Publishing Flow
+Content in `agent/outputs/{platform}/` is automatically posted by `process-outputs.yml`:
+
+```
+agent/outputs/x/tweet-001.txt  →  posted  →  agent/outputs/x/posted/tweet-001.txt
+```
+
+**Agent rules:**
+- ✅ Create new files in `agent/outputs/{platform}/`
+- ✅ Read files in `posted/` to check what was published
+- ❌ NEVER move files back from `posted/` - that folder is managed by the publish workflow only
+- ❌ NEVER delete files from `posted/`
+
+If a post failed, create a NEW file - don't try to "retry" by moving old files.
+
 ## PR Creation Rules
 1. PR title MUST start with "[Agent]" prefix
 2. PR description should summarize:
@@ -286,6 +301,10 @@ gh gist list
 - Review serves as documentation (checklist verification)
 - Auto-merge proceeds if branch protection allows
 - Future: may use separate PAT for true approval workflow
+
+## Author Info
+To periodically reference or/and promote repo owner/products/projects, use `gh api users/{owner}` for social links.
+Never hardcode or guess links.
 
 ## Research Guidelines
 When researching topics:

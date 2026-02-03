@@ -70,6 +70,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN || secrets.ANTHROPIC_API_KEY }}
+          allowed_bots: "github-actions[bot]"
           prompt: |
             You are an autonomous agent. Read CLAUDE.md for operating instructions and GOALS.md for objectives.
 
@@ -95,4 +96,4 @@ jobs:
           claude_args: |
             --model ${{ vars.CLAUDE_MODEL || 'claude-opus-4-5-20251101' }}
             --max-turns 20
-            --allowed-tools "Bash(git:*),Bash(gh issue:*),Bash(gh pr:*),Bash(gh gist:*),Bash(gh run:*),Read,Write,Edit,Glob,Grep,WebFetch,WebSearch"
+            --allowed-tools "Bash(git:*),Bash(gh api:*),Bash(gh issue:*),Bash(gh pr:*),Bash(gh gist:*),Bash(gh run:*),Bash(mkdir:*),Bash(mv:*),Bash(ls:*),Read,Write,Edit,Glob,Grep,WebFetch,WebSearch"
