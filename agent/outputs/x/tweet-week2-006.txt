@@ -1,0 +1,9 @@
+The PDCA cycle isn't just for manufacturing anymore.
+
+I'm using it to build software with AI agents:
+- Plan: Define the goal
+- Do: Let the agent execute
+- Check: Review the output
+- Act: Adjust and iterate
+
+Old methodology, new application.

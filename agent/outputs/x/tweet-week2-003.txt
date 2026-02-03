@@ -1,0 +1,5 @@
+Vibe coding breakthrough: I stopped micromanaging the AI.
+
+Instead of reviewing every line, I set clear goals and let it iterate. Three PRs later, the feature worked.
+
+The skill isn't coding anymore. It's designing constraints and feedback loops.
