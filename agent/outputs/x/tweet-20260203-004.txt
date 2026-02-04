@@ -6,4 +6,4 @@ The goal? Build an audience from scratch using AI-assisted automation.
 
 Repo is public: github.com/evios/autonomous-agent-exp-2026-01
 
-#BuildInPublic #VibeCoding
+Follow along as I build this in public.
