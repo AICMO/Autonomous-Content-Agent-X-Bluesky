@@ -1,7 +1,9 @@
 #!/bin/bash
-# Post tweets to X from pending files
+# Post single tweets to X from pending files
+# NOTE: Does NOT support threads. Use post.py for threads.
 #
-# Finds files in agent/outputs/x/, posts up to LIMIT, moves to posted/
+# Finds tweet-*.txt files in agent/outputs/x/, posts up to LIMIT, moves to posted/
+# Skips thread-*.txt files (handled by post.py)
 #
 # Usage:
 #   ./post.sh           # Post 1 file (default)
@@ -118,9 +120,9 @@ if [ -n "$DIRECT_TEXT" ]; then
   exit $?
 fi
 
-# Find and post pending files
+# Find and post pending tweet files (skip thread files)
 mkdir -p "$POSTED_DIR"
-PENDING=$(find "$OUTPUT_DIR" -maxdepth 1 -type f -name "*.txt" 2>/dev/null | sort | head -n "$LIMIT")
+PENDING=$(find "$OUTPUT_DIR" -maxdepth 1 -type f -name "tweet-*.txt" 2>/dev/null | sort | head -n "$LIMIT")
 
 if [ -z "$PENDING" ]; then
   echo "No pending files"

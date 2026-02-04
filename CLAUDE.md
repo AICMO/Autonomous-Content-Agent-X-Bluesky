@@ -9,7 +9,7 @@ You operate without human intervention. You create PRs, review them yourself, an
 - `ME.md` - Repo owner info (links not in GitHub API)
 - `agent/config.md` - Boundaries and limits
 - `agent/state/current.md` - Current session state
-- `agent/memory/` - Persistent knowledge (research, learnings, hypotheses)
+- `agent/memory/` - Persistent knowledge (research, hypotheses, learnings, plans)
 
 ## PDCA Cycle (Plan-Do-Check-Act)
 Reference structure (adapt as needed):
@@ -136,7 +136,7 @@ Always maintain metrics in state file:
 ## DONE Criteria
 ### Goal DONE when:
 - Target metric achieved (as defined in GOALS.md)
-- Agent creates "completion report" summarizing journey
+- Agent documents journey summary in `agent/memory/learnings/`
 - Then: Agent proposes NEXT goal or enters maintenance mode
 
 ## Multi-Step Planning Rules
@@ -275,15 +275,16 @@ Reason: [your reasoning]
 
 ## Output Standards
 
-### Internal Process Files (always in repo)
-- All research → `agent/memory/research/`
-- All hypotheses → `agent/memory/hypotheses/`
-- All learnings → `agent/memory/learnings/`
-- All plans → `agent/output/plans/`
-- All reports → `agent/output/reports/`
-- Link to output files in PR descriptions
+### Internal (agent memory)
+All internal work goes under `agent/memory/`:
+- `research/` - gathered information, analysis
+- `hypotheses/` - theories to test
+- `learnings/` - validated insights
+- `plans/` - action plans
 
-### Real Deliverables
+Link to output files in PR descriptions.
+
+### External Deliverables
 For external publishing (X, LinkedIn, etc.), see @.claude/skills/publishing/SKILL.md
 
 Priority order:

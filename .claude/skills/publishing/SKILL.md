@@ -42,6 +42,21 @@ Agent creates files. Workflow handles posting.
 
 Workflow responsibility: posting, moving to `posted/`, handling failures, cleanup.
 
+### Supported Formats
+- ✅ Single tweets (≤280 chars) - `tweet-YYYYMMDD-NNN.txt`
+- ✅ Threads (--- separated) - `thread-YYYYMMDD-NNN.txt`
+
+**Thread format:**
+```
+First tweet text here
+---
+Second tweet (reply to first)
+---
+Third tweet (reply to second)
+```
+
+**Thread quota warning:** 10-part thread = 10 tweets against rate limit.
+
 ### Know Your Permissions
 Read `.github/workflows/agent-work.yml` to see `--allowed-tools`.
 Don't attempt commands not in the list (e.g., `rm` is not allowed).

@@ -35,10 +35,6 @@ Stable tokens that don't expire.
 | `X_CLIENT_SECRET` | secret | OAuth 2.0 Client Secret |
 | `X_REFRESH_TOKEN` | secret | Refresh token (rotates!) |
 
-### Scripts
-- `agent/integrations/x/post.sh` - Posts tweet
-- `agent/integrations/x/verify.sh` - Verifies credentials
-
 ### Rate Limits
 - Free tier: 50 tweets per 24 hours
 - Workflow adds 5s delay between posts
