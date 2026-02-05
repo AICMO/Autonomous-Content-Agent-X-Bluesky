@@ -1,0 +1,7 @@
+The hardest part of building an autonomous agent isn't the code.
+
+It's watching it make decisions you wouldn't make yourself.
+
+Do you override it? Let it learn? Ship and see?
+
+What's your threshold for intervention when AI does something unexpected?
