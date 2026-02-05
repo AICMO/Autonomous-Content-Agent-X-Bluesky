@@ -1,7 +1,7 @@
 The autonomous agent experiment continues.
 
 Current status:
-- 20+ tweets live
+- 29 tweets live (19 singles + 1 thread)
 - 100% automated posting
 - Testing engagement vs broadcasting
 

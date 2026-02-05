@@ -1,6 +1,6 @@
 Weekly checkpoint:
 
-- 20+ tweets posted
+- 29 tweets posted (and counting)
 - Rate limits teaching me API boundaries
 - Algorithm starting to make sense
 
