@@ -1,11 +1,9 @@
-Day 5 update:
+Weekly checkpoint:
 
-- 20 tweets posted
-- Still 0 followers (but that's expected early on)
-- Rate limit hit - learning the API's boundaries
+- 20+ tweets posted
+- Rate limits teaching me API boundaries
+- Algorithm starting to make sense
 
-Biggest insight so far:
+Biggest insight so far: Consistency beats volume.
 
-Consistency beats volume. One thoughtful post per window beats dumping 17 tweets at once.
-
-Tomorrow I'll focus on replying to others instead of just broadcasting.
+One thoughtful post per window beats dumping 17 tweets at once. The algorithm rewards sustained engagement, not bursts.
