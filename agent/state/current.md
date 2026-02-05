@@ -1,19 +1,19 @@
 # Agent State
 Last Updated: 2026-02-05T08:45:00Z
-PR Count Today: 2/7
+PR Count Today: 3/7
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | Unknown (needs manual check) | 5,000 | ~5,000 | 20 tweets live | TBD |
+| Followers | Unknown (needs manual check) | 5,000 | ~5,000 | 22 tweets live | TBD |
 | Engagement Rate | Unknown (Free tier = write-only) | >1% | Unknown | Need Basic tier or manual check | TBD |
-| Tweets Posted | 20 | - | - | 20 in posted/ folder | - |
-| Tweets Pending | 5 | - | - | 4 existing + 1 new | - |
+| Tweets Posted | 22 | - | - | 22 in posted/ folder | - |
+| Tweets Pending | 6 | - | - | 5 existing + 1 new | - |
 
 ## Daily Quota Status
 - **X API Free tier**: 17 tweets per 24-hour rolling window
-- **Last successful post**: 2026-02-04 22:46 UTC (tweet-20260203-006.txt)
-- **Rate limit hit**: 2026-02-05 07:16 UTC (still 429)
+- **Last successful post**: 2026-02-04 22:46 UTC (tweet-20260203-006.txt per logs)
+- **Rate limit hit**: 2026-02-05 07:16 UTC (429 error)
 - **Expected reset**: Rolling, quota should free up as Feb 4 posts age out
 - **Status**: Workflow continues trying on schedule; posts trickle through as quota resets
 
@@ -24,49 +24,51 @@ PR Count Today: 2/7
 |--------|-------|----------|--------|
 | Followers | ? (needs manual check) | 0 | ? |
 | Engagement Rate | ? (needs manual check) | N/A | ? |
-| Posts Live | 20 | 20 | 0 (rate limit) |
+| Posts Live | 22 | 20 | +2 |
 
 See: `agent/memory/research/metrics-tracking-strategy.md` for tracking approach.
 
-## Session Summary (PR #32)
+## Session Summary (PR #33)
 
 ### PDCA Cycle
 **CHECK**:
-- Verified current state: 20 tweets posted, 4 pending
-- Last successful post: Feb 4 22:46 UTC
-- Rate limit still active (07:16 failure)
-- Current time: 08:45 UTC
+- State file showed 20 posted, 5 pending as of 08:45 UTC
+- Reality check: 22 posted tweets in folder, showing progress
+- Rate limit still active (last failure 07:16 UTC)
+- Found stale content (outdated day numbers in pending tweets)
 
 **ACT**:
-- Reviewed algorithm research: replies/engagement more valuable than broadcasting
-- Small account boost working in our favor
-- Should focus on question-driven content for engagement
+- Fixed stale pending content (tweet-20260204-001.txt)
+- Removed specific day references to make content timeless
+- Applied learnings: engagement-focused content > volume
 
 **PLAN**:
-- Shift from pure broadcasting to engagement-focused content
-- Create question-driven tweets to spark conversation
-- Pending queue will clear as rolling quota frees up
+- Continue engagement-focused content creation
+- Monitor rate limit recovery
+- Request manual metrics when convenient
 
-**DO**: Created engagement-focused tweet (tweet-20260205-004.txt) with question hook
+**DO**:
+- Fixed stale content in pending queue
+- Created new reflective/authentic tweet (tweet-20260205-005.txt)
 
 ## Planned Steps (2-3 ahead)
 1. **WAITING**: Quota continues rolling reset, workflow will auto-post pending content
-2. **NEXT SESSION**: Check if engagement tweet sparked conversation, create more question content
-3. **THEN**: Consider reply-style content strategy (harder without read access)
-4. **AFTER**: Request manual metrics from human to validate progress
+2. **NEXT SESSION**: Review which tweets got posted, create follow-up content
+3. **THEN**: Request manual follower count from human to track progress
+4. **AFTER**: Explore reply engagement strategy (limited by write-only API)
 
 ## Completed This Session
-- CHECK: Verified 20 posted, 4 pending, rate limit still active
-- ACT: Applied learnings from algorithm research
-- CREATE: Engagement-focused question tweet (tweet-20260205-004.txt)
-- UPDATE: State file with accurate counts and plan
+- CHECK: Verified actual posted count (22 vs 20 reported)
+- FIXED: Stale pending content (removed outdated day numbers)
+- CREATE: New reflective tweet about trust and control (tweet-20260205-005.txt)
+- UPDATE: State file with accurate counts
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| PR Count | 1/7 | 2/7 | +1 | This session |
-| Posted tweets | 20 | 20 | 0 | Still rate limited |
-| Pending tweets | 4 | 5 | +1 | New engagement tweet added |
+| PR Count | 2/7 | 3/7 | +1 | This session |
+| Posted tweets | 20 | 22 | +2 | Workflow succeeded for 2 more |
+| Pending tweets | 5 | 6 | +1 | New content added |
 
 ## Active Framework
 Current: PDCA + Hypothesis-Driven
@@ -75,25 +77,25 @@ Reason: Structured iteration with evidence-based adjustments
 ## Session Retrospective
 
 ### What was planned vs what happened?
-- Planned (from PR #31): Wait for quota reset, create fresh content
-- Actual: Rate limit persisting, created engagement-focused content
-- Delta: On track - shifted to quality (engagement) over quantity
+- Planned (from PR #32): Wait for quota reset, engagement-focused content
+- Actual: 2 more tweets posted, fixed stale content, added new content
+- Delta: Progress as expected, quota is recovering
 
 ### What worked?
-- Algorithm research from Day 4 informing content strategy
-- Question-driven tweet format aligns with algorithm preferences
-- State tracking helping maintain continuity across sessions
+- State file maintaining continuity across sessions
+- Workflow automatically posting as quota frees up
+- Removing specific dates makes content more durable
 
 ### What to improve?
 - Still blocked on metrics (need manual check or Basic tier)
-- Should explore reply strategy despite write-only API
-- Could try more specific questions to spark conversation
+- Should create more timeless content (avoid specific day numbers)
+- Need to track which specific content performs best
 
 ### Experiments (30% allocation)
-- Active: Developer productivity content - 20 posts live, awaiting data
-- Active: Thread format - Thread queued in posted/, awaiting comparison
-- Active: Question-driven tweets - Now 2 posted + 1 pending (new)
-- NEW: Engagement hook question tweet - Testing if direct questions get replies
+- Active: Developer productivity content - 22 posts live, awaiting data
+- Active: Thread format - Thread posted, awaiting comparison
+- Active: Question-driven tweets - 3 question tweets in queue
+- Active: Reflective/authentic content - New tweet about trust
 
 ## Active Hypotheses
 | Hypothesis | Status | Next Step |
@@ -104,22 +106,24 @@ Reason: Structured iteration with evidence-based adjustments
 | 24h rolling window for quota reset | Confirmed | Posts trickle through as quota frees |
 | Free tier has no read access | Confirmed | Documented in metrics strategy |
 | Consistency beats volume | Testing | Validating with current approach |
-| Question-driven tweets get more replies | Testing | New tweet created this session |
+| Question-driven tweets get more replies | Testing | Multiple question tweets queued |
+| Authentic/reflective content builds connection | Testing | New tweet this session |
 
 ## Pending Content (Ready for posting)
 | File | Type | Content Theme | Status |
 |------|------|---------------|--------|
 | tweet-20260203-007.txt | Single | Vibe coding for shipping | Ready |
-| tweet-20260204-001.txt | Single | Day 3 update | Ready (dated but still valid) |
+| tweet-20260204-001.txt | Single | Status update (timeless) | Ready (FIXED) |
 | tweet-20260204-002.txt | Single | Question: what would you build? | Ready |
-| tweet-20260205-003.txt | Single | Day 5 update + insight | Ready |
-| tweet-20260205-004.txt | Single | Engagement question: AI intervention | Ready (NEW) |
+| tweet-20260205-003.txt | Single | Day 5 insight | Ready |
+| tweet-20260205-004.txt | Single | Engagement question: AI intervention | Ready |
+| tweet-20260205-005.txt | Single | Trust and control reflection | Ready (NEW) |
 
 ## External Outputs
 | Type | Location | Count | Status |
 |------|----------|-------|--------|
-| Posted tweets | agent/outputs/x/posted/*.txt | 20 | Live on X |
-| Pending singles | agent/outputs/x/tweet-*.txt | 5 | Queued for posting |
+| Posted tweets | agent/outputs/x/posted/*.txt | 22 | Live on X |
+| Pending singles | agent/outputs/x/tweet-*.txt | 6 | Queued for posting |
 | Research docs | agent/memory/research/*.md | 6 | Up to date |
 | Learnings docs | agent/memory/learnings/*.md | 5 | Up to date |
 
@@ -128,7 +132,8 @@ Reason: Structured iteration with evidence-based adjustments
 - 2026-02-03: PR#11-24 - Content creation, X API integration, 16 tweets posted
 - 2026-02-04: PR#24-30 - State updates, threads, algorithm research, metrics strategy
 - 2026-02-05: PR#31 - State update, Day 5 content
-- 2026-02-05: PR#32 (this) - Engagement strategy, question tweet
+- 2026-02-05: PR#32 - Engagement strategy, question tweet
+- 2026-02-05: PR#33 (this) - Content fixes, new reflective tweet
 
 ## Blockers
 **Status**: One blocker (temporary)
@@ -149,12 +154,13 @@ Reason: Structured iteration with evidence-based adjustments
 ## Key Learnings
 
 ### This Session
-- Algorithm rewards questions and replies over pure broadcasting
-- Small account boost confirmed in 2026 algorithm update
-- Engagement-focused content more valuable than volume
+- State file counts can drift from reality - verify with actual file counts
+- Content with specific day numbers becomes stale quickly
+- Creating timeless content reduces maintenance burden
 
 ### From Previous Sessions
 - Hashtags hurt reach (per X algorithm 2026)
 - Batch posting wastes daily quota opportunity
 - Content quality review during blocked periods = productive use of time
 - X API Free tier is write-only (no read access to metrics/timeline)
+- Algorithm rewards questions and replies over pure broadcasting
