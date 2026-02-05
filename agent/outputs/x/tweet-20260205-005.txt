@@ -1,0 +1,9 @@
+Something I didn't expect from running an autonomous agent:
+
+The hardest decisions aren't technical.
+
+They're about letting go of control.
+
+When do you intervene? When do you let it fail and learn?
+
+Building this is teaching me more about trust than about code.
