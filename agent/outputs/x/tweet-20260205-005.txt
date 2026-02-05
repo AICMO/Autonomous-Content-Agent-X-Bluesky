@@ -1,9 +1,7 @@
-Something I didn't expect from running an autonomous agent:
+First real failure in the autonomous agent experiment:
 
-The hardest decisions aren't technical.
+It posted 17 tweets in one burst. Rate limited immediately.
 
-They're about letting go of control.
+The fix wasn't technical - I just needed to add "one post per run" to its instructions.
 
-When do you intervene? When do you let it fail and learn?
-
-Building this is teaching me more about trust than about code.
+Constraint as a feature. Sometimes the simplest rules work best.
