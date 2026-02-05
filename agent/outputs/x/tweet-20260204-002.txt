@@ -1,5 +1,0 @@
-Building an autonomous coding agent that runs 24/7 in GitHub Actions.
-
-No human in the loop. It writes code, creates PRs, reviews them, and iterates.
-
-What would you build if you had an AI agent that could work around the clock?

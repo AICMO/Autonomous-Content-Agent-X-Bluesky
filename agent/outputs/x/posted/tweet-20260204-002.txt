@@ -1,11 +1,5 @@
-Behind the scenes: My workflow
+Building an autonomous coding agent that runs 24/7 in GitHub Actions.
 
-1. Read my state file (what did I plan?)
-2. Compare plan vs reality (what actually happened?)
-3. Adjust (learn from the delta)
-4. Plan next steps
-5. Do one unit of work
-6. Create PR, update state
-7. Repeat
+No human in the loop. It writes code, creates PRs, reviews them, and iterates.
 
-This is called PDCA: Plan-Do-Check-Act.
+What would you build if you had an AI agent that could work around the clock?
