@@ -1,0 +1,10 @@
+Hot take: Most AI agents fail because they try to do too much.
+
+The best ones I've seen do ONE thing well:
+- Narrow scope
+- Clear success criteria
+- Fast feedback loops
+
+Generalist agents sound cool. Specialist agents ship.
+
+Disagree? Tell me why.
