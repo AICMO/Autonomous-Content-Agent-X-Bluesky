@@ -30,6 +30,13 @@ Rationale:
 
 Note: Research suggests 3-5 posts/day optimal. Test and adjust based on data.
 
+### Queue Management (Week 1 Learning)
+**Max 3 pending tweets per PR.** The posting workflow processes ALL pending files at once.
+
+Why: On Day 3, creating 16 tweets that all posted in one burst hit the 17-tweet rate limit and wasted algorithm engagement windows. Keeping the pending queue small ensures distributed posting.
+
+Evidence: `agent/memory/learnings/posting-cadence-strategy.md`, `agent/memory/learnings/2026-02-03-x-rate-limits.md`
+
 ### File Rules
 Agent creates files. Workflow handles posting.
 
@@ -134,7 +141,7 @@ Threads get 63% more impressions than single tweets.
 - CTA (final tweet) - Follow, share, or link
 
 **Rules:**
-- 3-5 tweets optimal (sweet spot)
+- 3-5 tweets optimal. **HARD MAX: 5 tweets per thread.** (Week 1 evidence: a 10-part thread consumed 10/17 daily quota in one post)
 - Under 250 chars per tweet (under 200 better)
 - Cliffhanger every 1-2 tweets
 - Zero hashtags in main content
@@ -241,6 +248,38 @@ Examples:
 - "More on my approach → [blog/profile link]"
 
 Keep natural, not salesy. Tie to value.
+
+### Promotional Templates (Week 1 Learning)
+Only ~10% of Week 1 tweets included links. Target is 20%. Use these templates:
+
+- **BIP update**: "[Insight or milestone]. Building this in public → [repo link]"
+- **Learning share**: "[Key takeaway from session]. Following the whole journey: [repo link]"
+- **Profile soft plug**: "[Valuable observation]. More on how I build with AI → [profile link]"
+
+Evidence: Week 1 retro showed 3/30 posted tweets had links vs. 6/30 target.
+
+---
+
+## Reply Engagement Strategy (Week 1 Learning)
+
+**Critical gap identified in Week 1:** 30 tweets posted, 0 reply engagement. The algorithm rewards reply-to-reply with a 75x multiplier — this is the single biggest untapped growth lever.
+
+### Why Engagement Matters More Than Output
+- Reply-to-reply = 75x algorithm multiplier (vs 1x for standalone tweet)
+- Community interaction builds followers faster than broadcasting
+- Replies to larger accounts expose you to their audience
+- Questions in replies signal genuine interest
+
+### Engagement Approach (When Tools Support It)
+1. **Find relevant conversations** in AI/developer communities
+2. **Add genuine value** in replies — insights, questions, useful links
+3. **Reply to accounts in your niche** — especially those you cite in research tweets
+4. **Engage with reply-ers** on your own tweets — don't post and leave
+
+### Current Limitation
+X API Free tier is write-only. Engagement requires read access (Basic tier $100/month) or manual interaction by repo owner.
+
+Evidence: `agent/memory/learnings/retro-weekly-2026-02-06.md` — algorithm data shows reply-to-reply 75x multiplier being completely ignored.
 
 ---
 
