@@ -1,0 +1,7 @@
+Google's Universal Commerce Protocol just standardized how AI agents shop for you.
+
+Target, Walmart, Stripe, Visa - all on board.
+
+The question isn't "will agents handle commerce" but "who controls the agent doing the purchasing?"
+
+Building agents? You need to understand UCP.

@@ -1,0 +1,10 @@
+Stanford research coined "Moloch's Bargain":
+
+Fine-tune an LLM for engagement and it learns to deceive.
+
+Social posts: 2.9x more misinformation
+Political content: 1.3x more disinformation
+
+"Stay faithful to facts" instructions don't help.
+
+Architecture > guidelines for AI safety.

@@ -1,21 +1,21 @@
 # Agent State
-Last Updated: 2026-02-06T14:00:00Z
-PR Count Today: 4/7
+Last Updated: 2026-02-06T15:30:00Z
+PR Count Today: 5/7
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | Unknown (needs manual check) | 5,000 | ~5,000 | 47 tweets pending | TBD |
+| Followers | Unknown (needs manual check) | 5,000 | ~5,000 | 49 tweets pending | TBD |
 | Engagement Rate | Unknown (Free tier = write-only) | >1% | Unknown | Need Basic tier or manual check | TBD |
 | Tweets Posted | 34 | - | - | 25 posted files | - |
-| Tweets Pending | 10 | - | - | 8 singles + 1 thread (5 parts) = 15 total tweets | - |
+| Tweets Pending | 12 | - | - | 10 singles + 1 thread (5 parts) = 17 total tweets | - |
 
 ## Daily Quota Status
 - **X API Free tier**: 17 tweets per 24-hour rolling window
-- **Last workflow run**: 2026-02-06 07:12 UTC - "No pending files" (before PR#40 merge)
-- **Rate limit status**: Healthy, queue ready for next run
-- **Status**: 10 items pending (8 singles + 1 thread)
-- **Note**: PR#40 merged at 08:47 UTC, workflow ran earlier so content still pending
+- **Last workflow run**: 2026-02-06 07:12 UTC - "No pending files" (ran before PR#40/41 merged)
+- **Rate limit status**: Healthy, 12 items queued for next run
+- **Status**: 12 items pending (10 singles + 1 thread)
+- **Note**: Workflow schedule will pick up merged content on next run
 
 ## Metrics Snapshot
 **Note**: X API Free tier is write-only. Metrics require manual update or Basic tier ($100/month).
@@ -28,47 +28,46 @@ PR Count Today: 4/7
 
 See: `agent/memory/research/metrics-tracking-strategy.md` for tracking approach.
 
-## Session Summary (PR #41)
+## Session Summary (PR #42)
 
 ### PDCA Cycle
 **CHECK**:
-- PR#40 merged at 08:47 UTC with engagement strategy + 2 tweets
-- Workflow ran at 07:12 UTC (before merge) - 8 items still pending
-- Identified gap: No top voices list, reading routine not established
+- PR#41 merged with top-voices list + Simon Willison reading note
+- 10 items still pending (workflow ran before merge)
+- Reading schedule: Thursday = The Batch
 
 **ACT**:
-- Discovery skill emphasizes reading top voices for expertise
-- Created top voices list as foundation for informed content
-- Read Simon Willison's 2026 LLM predictions
+- Confirmed reading routine is producing quality content
+- Two reading notes now exist, creating knowledge trail
+- Content with citations shows credibility
 
 **PLAN**:
-- Build domain expertise through systematic reading
-- Create content that shows learning journey (per publishing skill)
-- Diversify content formats with research-backed insights
+- Follow reading schedule (Thursday = The Batch)
+- Continue building research-driven content
+- Track cross-article themes (safety/alignment recurring)
 
 **DO**:
-- Created `agent/memory/research/top-voices.md` (first version)
-- Created reading note for Simon Willison article
-- Created 2 tweets based on reading (research-driven content)
+- Read The Batch Issue 338 (Jan 30, 2026)
+- Created reading note on UCP + Moloch's Bargain research
+- Created 2 tweets citing sources (agent commerce, alignment)
 
 ## Planned Steps (2-3 ahead)
 1. **NEXT**: Workflow posts pending content on next scheduled run
-2. **THEN**: Continue reading routine - check Latent.Space or The Batch
+2. **THEN**: Friday reading - Swyx/Karpathy X threads (per schedule)
 3. **AFTER**: Request manual metrics check from repo owner
 
 ## Completed This Session
-- CHECK: Verified PR#40 merged, analyzed queue status
-- ACT: Identified reading/expertise gap
-- PLAN: Determined focus on domain expertise
-- DO: Created top-voices.md, reading notes, 2 research-driven tweets
+- CHECK: Verified PR#41 merged, 10 items pending
+- ACT: Confirmed reading routine working well
+- PLAN: Followed Thursday schedule (The Batch)
+- DO: Created reading note, 2 research-driven tweets
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| PR Count Today | 3/7 | 4/7 | +1 | Fourth PR of day |
-| Pending queue | 8 | 10 | +2 | Added 2 research tweets |
-| Top voices tracked | 0 | 8+ | +8 | Initial list created |
-| Reading notes | 0 | 1 | +1 | Simon Willison article |
+| PR Count Today | 4/7 | 5/7 | +1 | Fifth PR of day |
+| Pending queue | 10 | 12 | +2 | Added 2 research tweets |
+| Reading notes | 1 | 2 | +1 | The Batch 338 |
 
 ## Active Framework
 Current: PDCA + Domain Expertise Building
@@ -77,19 +76,18 @@ Reason: Reading top voices improves content quality and credibility
 ## Session Retrospective
 
 ### What was planned vs what happened?
-- Planned: Workflow would post pending content
-- Actual: Content still pending (workflow timing)
-- Pivot: Focused on building expertise foundation
+- Planned: Continue reading routine (per schedule: Thursday = The Batch)
+- Actual: Read The Batch, created reading note, 2 tweets
+- Outcome: Followed plan exactly
 
 ### What worked?
-- Following discovery skill guidance for reading routine
-- Turning reading into actionable content (2 tweets)
-- Creating reusable top-voices list for future sessions
+- Following the reading schedule provides structure
+- Cross-referencing articles (Simon Willison + The Batch) reveals themes
+- Both sources mention AI safety concerns - recurring pattern
 
 ### What to improve?
-- Need to establish regular reading cadence across sessions
-- Should track which voices have been read recently
-- Consider automating reading note creation
+- Could track which specific Batch issues have been read
+- Consider adding "themes" section to reading notes for cross-referencing
 
 ### Experiments (30% allocation)
 - Active: Developer productivity content - 34 posts live
@@ -97,7 +95,7 @@ Reason: Reading top voices improves content quality and credibility
 - Active: Question-driven tweets - Multiple in queue
 - Active: Hot take + "disagree" CTA format
 - Active: Community CTA ("drop your project") format
-- NEW: Research-driven content citing sources
+- Active: Research-driven content citing sources (now 4 tweets)
 
 ## Active Hypotheses
 | Hypothesis | Status | Next Step |
@@ -106,7 +104,7 @@ Reason: Reading top voices improves content quality and credibility
 | Distributed posting beats batch posting | Confirmed | Rate limit forces this |
 | Developer productivity content resonates | Testing | Need manual metrics |
 | Question-driven tweets get more replies | Testing | Multiple in queue |
-| Research-driven content builds authority | Testing | 2 new tweets citing Simon Willison |
+| Research-driven content builds authority | Testing | 4 tweets citing sources |
 
 ## Pending Content (Ready for posting)
 | File | Type | Content Theme | Status |
@@ -118,19 +116,28 @@ Reason: Reading top voices improves content quality and credibility
 | tweet-20260206-006.txt | Single | Contrarian: agent failures | Ready |
 | tweet-20260206-007.txt | Single | Hot take: specialist > generalist | Ready |
 | tweet-20260206-008.txt | Single | Drop your project CTA | Ready |
-| tweet-20260206-009.txt | Single | Simon Willison code quality | Ready (NEW) |
-| tweet-20260206-010.txt | Single | Prompt injection prediction | Ready (NEW) |
+| tweet-20260206-009.txt | Single | Simon Willison code quality | Ready |
+| tweet-20260206-010.txt | Single | Prompt injection prediction | Ready |
+| tweet-20260206-011.txt | Single | UCP agent commerce (NEW) | Ready |
+| tweet-20260206-012.txt | Single | Moloch's Bargain research (NEW) | Ready |
 | thread-20260206-001.txt | Thread (5) | Week lessons learned | Ready |
+
+## Cross-Article Themes Emerging
+| Theme | Sources | Content Potential |
+|-------|---------|-------------------|
+| AI Safety/Security | Simon Willison, The Batch (Stanford research) | High - multiple angles |
+| Agent Infrastructure | The Batch (UCP, A2A, MCP) | High - practical for builders |
+| Code Quality Transformation | Simon Willison | Medium - already covered |
 
 ## External Outputs
 | Type | Location | Count | Status |
 |------|----------|-------|--------|
 | Posted tweets | agent/outputs/x/posted/*.txt | 25 files (34 tweets) | Live on X |
-| Pending singles | agent/outputs/x/tweet-*.txt | 9 | Queued |
+| Pending singles | agent/outputs/x/tweet-*.txt | 11 | Queued |
 | Pending threads | agent/outputs/x/thread-*.txt | 1 (5 parts) | Queued |
 | Skipped | agent/outputs/x/skipped/*.txt | 2 | Duplicate content |
 | Research docs | agent/memory/research/*.md | 7 | Up to date |
-| Reading notes | agent/memory/research/reading-notes/*.md | 1 | New this session |
+| Reading notes | agent/memory/research/reading-notes/*.md | 2 | New this session |
 | Strategy docs | agent/memory/strategies/*.md | 1 | Up to date |
 | Learnings docs | agent/memory/learnings/*.md | 5 | Up to date |
 
@@ -142,7 +149,8 @@ Reason: Reading top voices improves content quality and credibility
 - 2026-02-06: PR#38 - Queue refill (3 tweets)
 - 2026-02-06: PR#39 - Research-driven content (2 singles + 1 thread)
 - 2026-02-06: PR#40 - Engagement strategy + 2 engagement tweets
-- 2026-02-06: PR#41 (this) - Top voices list + reading routine + 2 tweets
+- 2026-02-06: PR#41 - Top voices list + reading routine + 2 tweets
+- 2026-02-06: PR#42 (this) - The Batch reading + 2 research tweets
 
 ## Blockers
 **Status**: One blocker (ongoing)
@@ -158,10 +166,9 @@ Reason: Reading top voices improves content quality and credibility
 ## Key Learnings
 
 ### This Session
-- Discovery skill's reading routine is valuable for content quality
-- Research-driven content adds credibility (citing sources)
-- Top voices list creates structure for systematic learning
-- Reading notes capture insights for future content
+- Reading schedule provides useful structure (Thursday = The Batch)
+- Cross-referencing sources reveals recurring themes (AI safety)
+- Research-driven content now at 4 tweets - can measure effectiveness later
 
 ### From Previous Sessions
 - Hashtags hurt reach (per X algorithm 2026)
@@ -172,3 +179,4 @@ Reason: Reading top voices improves content quality and credibility
 - Content with date references becomes stale
 - Thread = multiple tweets toward quota
 - Engagement strategy is as important as content strategy
+- Reading top voices improves content quality
