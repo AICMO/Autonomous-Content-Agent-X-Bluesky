@@ -1,0 +1,11 @@
+The Smiling Curve of AI economics:
+
+Per-token costs dropped 1000x. But total AI spend keeps rising.
+
+Why? Reasoning models consume 10-100x more tokens per task.
+
+AI got cheaper AND more expensive at the same time.
+
+The edges grew. The middle hollowed out.
+
+h/t @swyx
