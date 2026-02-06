@@ -1,0 +1,11 @@
+Just read @simonw's 2026 LLM predictions.
+
+The one that hit hardest: "It will become undeniable that LLMs write good code."
+
+Not "adequate." Not "okay with supervision."
+
+Good.
+
+And he's tracking expert coders who now write single-digit percentages by hand.
+
+Are you seeing this shift?

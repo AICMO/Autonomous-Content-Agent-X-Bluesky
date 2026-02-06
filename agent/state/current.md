@@ -1,21 +1,21 @@
 # Agent State
-Last Updated: 2026-02-06T12:00:00Z
-PR Count Today: 3/7
+Last Updated: 2026-02-06T14:00:00Z
+PR Count Today: 4/7
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | Unknown (needs manual check) | 5,000 | ~5,000 | 39 tweets pending | TBD |
+| Followers | Unknown (needs manual check) | 5,000 | ~5,000 | 47 tweets pending | TBD |
 | Engagement Rate | Unknown (Free tier = write-only) | >1% | Unknown | Need Basic tier or manual check | TBD |
 | Tweets Posted | 34 | - | - | 25 posted files | - |
-| Tweets Pending | 8 | - | - | 6 singles + 1 thread (5 parts) = 13 total tweets | - |
+| Tweets Pending | 10 | - | - | 8 singles + 1 thread (5 parts) = 15 total tweets | - |
 
 ## Daily Quota Status
 - **X API Free tier**: 17 tweets per 24-hour rolling window
-- **Last workflow run**: 2026-02-06 07:12 UTC - "No pending files"
+- **Last workflow run**: 2026-02-06 07:12 UTC - "No pending files" (before PR#40 merge)
 - **Rate limit status**: Healthy, queue ready for next run
-- **Status**: 8 items pending (6 singles + 1 thread)
-- **Note**: PR#39 content merged at 08:42 UTC, workflow ran earlier
+- **Status**: 10 items pending (8 singles + 1 thread)
+- **Note**: PR#40 merged at 08:47 UTC, workflow ran earlier so content still pending
 
 ## Metrics Snapshot
 **Note**: X API Free tier is write-only. Metrics require manual update or Basic tier ($100/month).
@@ -28,75 +28,76 @@ PR Count Today: 3/7
 
 See: `agent/memory/research/metrics-tracking-strategy.md` for tracking approach.
 
-## Session Summary (PR #40)
+## Session Summary (PR #41)
 
 ### PDCA Cycle
 **CHECK**:
-- Previous: PR#39 merged at 08:42 UTC with 5 singles + 1 thread
-- Workflow ran at 07:12 UTC (before merge) so content is still pending
-- Queue healthy, no blockers
+- PR#40 merged at 08:47 UTC with engagement strategy + 2 tweets
+- Workflow ran at 07:12 UTC (before merge) - 8 items still pending
+- Identified gap: No top voices list, reading routine not established
 
 **ACT**:
-- Identified gap: Current strategy is publish-only, missing engagement component
-- Algorithm research shows conversation/replies are key growth drivers
-- Created engagement amplification strategy document
+- Discovery skill emphasizes reading top voices for expertise
+- Created top voices list as foundation for informed content
+- Read Simon Willison's 2026 LLM predictions
 
 **PLAN**:
-- Focus on engagement-optimized content (questions, CTAs)
-- Document strategy for future reference
-- Create 2 new engagement-focused tweets
+- Build domain expertise through systematic reading
+- Create content that shows learning journey (per publishing skill)
+- Diversify content formats with research-backed insights
 
 **DO**:
-- Created `agent/memory/strategies/engagement-amplification.md`
-- Created tweet-20260206-007.txt (hot take + disagree CTA)
-- Created tweet-20260206-008.txt (drop your project CTA)
+- Created `agent/memory/research/top-voices.md` (first version)
+- Created reading note for Simon Willison article
+- Created 2 tweets based on reading (research-driven content)
 
 ## Planned Steps (2-3 ahead)
 1. **NEXT**: Workflow posts pending content on next scheduled run
-2. **THEN**: Request manual metrics check from repo owner
-3. **AFTER**: Analyze engagement patterns (questions vs statements)
+2. **THEN**: Continue reading routine - check Latent.Space or The Batch
+3. **AFTER**: Request manual metrics check from repo owner
 
 ## Completed This Session
-- CHECK: Verified PR#39 merged, workflow timing issue understood
-- ACT: Identified engagement strategy gap
-- PLAN: Defined engagement amplification approach
-- DO: Created strategy doc + 2 engagement-optimized tweets
-- UPDATE: State file with session progress
+- CHECK: Verified PR#40 merged, analyzed queue status
+- ACT: Identified reading/expertise gap
+- PLAN: Determined focus on domain expertise
+- DO: Created top-voices.md, reading notes, 2 research-driven tweets
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| PR Count Today | 2/7 | 3/7 | +1 | Third PR of day |
-| Pending queue | 6 | 8 | +2 | Added 2 engagement tweets |
-| Strategy docs | 0 | 1 | +1 | engagement-amplification.md |
+| PR Count Today | 3/7 | 4/7 | +1 | Fourth PR of day |
+| Pending queue | 8 | 10 | +2 | Added 2 research tweets |
+| Top voices tracked | 0 | 8+ | +8 | Initial list created |
+| Reading notes | 0 | 1 | +1 | Simon Willison article |
 
 ## Active Framework
-Current: PDCA + Engagement Optimization
-Reason: Shifting from volume to engagement quality
+Current: PDCA + Domain Expertise Building
+Reason: Reading top voices improves content quality and credibility
 
 ## Session Retrospective
 
 ### What was planned vs what happened?
 - Planned: Workflow would post pending content
 - Actual: Content still pending (workflow timing)
-- Delta: Focused session on engagement strategy instead
+- Pivot: Focused on building expertise foundation
 
 ### What worked?
-- Identifying structural gap (publish-only approach)
-- Creating actionable strategy document
-- Engagement-focused tweet templates
+- Following discovery skill guidance for reading routine
+- Turning reading into actionable content (2 tweets)
+- Creating reusable top-voices list for future sessions
 
 ### What to improve?
-- Need manual metrics to validate strategy
-- Consider workflow timing alignment with content creation
-- Should test different engagement formats
+- Need to establish regular reading cadence across sessions
+- Should track which voices have been read recently
+- Consider automating reading note creation
 
 ### Experiments (30% allocation)
 - Active: Developer productivity content - 34 posts live
 - Active: Thread format - 5-part thread in queue
 - Active: Question-driven tweets - Multiple in queue
-- NEW: Hot take + "disagree" CTA format
-- NEW: "Drop your project" community CTA format
+- Active: Hot take + "disagree" CTA format
+- Active: Community CTA ("drop your project") format
+- NEW: Research-driven content citing sources
 
 ## Active Hypotheses
 | Hypothesis | Status | Next Step |
@@ -105,8 +106,7 @@ Reason: Shifting from volume to engagement quality
 | Distributed posting beats batch posting | Confirmed | Rate limit forces this |
 | Developer productivity content resonates | Testing | Need manual metrics |
 | Question-driven tweets get more replies | Testing | Multiple in queue |
-| Hot take + disagree CTA drives engagement | Testing | New tweet created |
-| Community CTA ("drop your X") drives replies | Testing | New tweet created |
+| Research-driven content builds authority | Testing | 2 new tweets citing Simon Willison |
 
 ## Pending Content (Ready for posting)
 | File | Type | Content Theme | Status |
@@ -118,17 +118,20 @@ Reason: Shifting from volume to engagement quality
 | tweet-20260206-006.txt | Single | Contrarian: agent failures | Ready |
 | tweet-20260206-007.txt | Single | Hot take: specialist > generalist | Ready |
 | tweet-20260206-008.txt | Single | Drop your project CTA | Ready |
+| tweet-20260206-009.txt | Single | Simon Willison code quality | Ready (NEW) |
+| tweet-20260206-010.txt | Single | Prompt injection prediction | Ready (NEW) |
 | thread-20260206-001.txt | Thread (5) | Week lessons learned | Ready |
 
 ## External Outputs
 | Type | Location | Count | Status |
 |------|----------|-------|--------|
 | Posted tweets | agent/outputs/x/posted/*.txt | 25 files (34 tweets) | Live on X |
-| Pending singles | agent/outputs/x/tweet-*.txt | 7 | Queued |
+| Pending singles | agent/outputs/x/tweet-*.txt | 9 | Queued |
 | Pending threads | agent/outputs/x/thread-*.txt | 1 (5 parts) | Queued |
 | Skipped | agent/outputs/x/skipped/*.txt | 2 | Duplicate content |
-| Research docs | agent/memory/research/*.md | 6 | Up to date |
-| Strategy docs | agent/memory/strategies/*.md | 1 | New this session |
+| Research docs | agent/memory/research/*.md | 7 | Up to date |
+| Reading notes | agent/memory/research/reading-notes/*.md | 1 | New this session |
+| Strategy docs | agent/memory/strategies/*.md | 1 | Up to date |
 | Learnings docs | agent/memory/learnings/*.md | 5 | Up to date |
 
 ## Session History
@@ -138,7 +141,8 @@ Reason: Shifting from volume to engagement quality
 - 2026-02-05: PR#31-37 - Content quality fixes, rate limit recovery, 8 tweets posted
 - 2026-02-06: PR#38 - Queue refill (3 tweets)
 - 2026-02-06: PR#39 - Research-driven content (2 singles + 1 thread)
-- 2026-02-06: PR#40 (this) - Engagement strategy + 2 engagement tweets
+- 2026-02-06: PR#40 - Engagement strategy + 2 engagement tweets
+- 2026-02-06: PR#41 (this) - Top voices list + reading routine + 2 tweets
 
 ## Blockers
 **Status**: One blocker (ongoing)
@@ -154,10 +158,10 @@ Reason: Shifting from volume to engagement quality
 ## Key Learnings
 
 ### This Session
-- Engagement strategy is as important as content strategy
-- Algorithm rewards conversation, not just publishing
-- Questions and CTAs can drive replies even without active engagement
-- Hot take + "disagree" format invites response
+- Discovery skill's reading routine is valuable for content quality
+- Research-driven content adds credibility (citing sources)
+- Top voices list creates structure for systematic learning
+- Reading notes capture insights for future content
 
 ### From Previous Sessions
 - Hashtags hurt reach (per X algorithm 2026)
@@ -167,3 +171,4 @@ Reason: Shifting from volume to engagement quality
 - Algorithm rewards questions and replies
 - Content with date references becomes stale
 - Thread = multiple tweets toward quota
+- Engagement strategy is as important as content strategy

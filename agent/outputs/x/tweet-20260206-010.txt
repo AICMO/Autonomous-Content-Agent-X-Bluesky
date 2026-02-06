@@ -1,0 +1,9 @@
+Simon Willison's scariest prediction for 2026:
+
+A major prompt injection security failure.
+
+He calls it the "Challenger Disaster" scenario — we keep operating unsafely until something breaks catastrophically.
+
+Every AI agent builder should read this.
+
+Are you thinking about this in your agents?
