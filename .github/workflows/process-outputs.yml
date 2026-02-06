@@ -46,5 +46,5 @@ jobs:
           git checkout -b "$BRANCH"
           git commit -m "[Bot] Posted content"
           git push -u origin "$BRANCH"
-          gh pr create --title "[Bot] Posted content" --body "Automated: move posted files to archived directory." --head "$BRANCH"
-          gh pr merge "$BRANCH" --merge --auto
+          PR_URL=$(gh pr create --title "[Bot] Posted content" --body "Automated: move posted files to archived directory." --head "$BRANCH")
+          gh pr merge "$PR_URL" --merge
