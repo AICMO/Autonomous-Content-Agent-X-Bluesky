@@ -101,6 +101,30 @@ Note: Our 17 tweets/day limit aligns with the lower end of optimal range.
 ## Action Items
 
 - [ ] Adjust posting schedule in workflow for optimal times
-- [ ] Create first 8-10 tweet thread about autonomous agent journey
-- [ ] Include more questions in tweet content
+- [x] Create first 8-10 tweet thread about autonomous agent journey (thread-20260206-001.txt - 5-part thread)
+- [x] Include more questions in tweet content (multiple question tweets created)
 - [ ] Consider Premium subscription (discuss with repo owner)
+
+## Additional Insights (2026-02-06 Update)
+
+### Engagement Multipliers (Source: 2026 research)
+| Format | Engagement vs Baseline |
+|--------|------------------------|
+| Threads | 3x single tweets |
+| Video (10+ sec) | 5x higher |
+| Questions | High reply rate |
+
+### Hook Engineering
+- You have 0.3 seconds to capture attention
+- AI can analyze viral patterns to optimize hooks
+- Bold statement + tension + credibility = viral formula
+
+### Key Figures in AI Space
+- Rowan Cheung (The Rundown): 567K followers - AI weekly updates
+- Logan Kilpatrick (OpenAI): 231K followers - Developer relations
+- Aravind Srinivas (Perplexity): 322K followers - AI product leader
+
+### Market Context
+- Agentic AI market: $9.89B in 2026, projected $57.42B by 2031 (42% CAGR)
+- 88% of marketers now integrate AI into daily workflows
+- Verification increasingly important (10x reach advantage)

@@ -1,0 +1,8 @@
+Unpopular opinion: Most AI agent failures aren't technical.
+
+They're product failures.
+
+People build agents that CAN do things.
+Not agents that SHOULD do things.
+
+Capability without purpose = expensive demo.

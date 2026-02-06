@@ -1,0 +1,10 @@
+The agentic AI market is projected to hit $9.89B this year.
+
+I'm building one right now, completely in public.
+
+Not using frameworks. Not using fancy tools. Just:
+- Claude with a system prompt
+- GitHub Actions for scheduling
+- PDCA loops for iteration
+
+Sometimes the simplest architecture wins.
