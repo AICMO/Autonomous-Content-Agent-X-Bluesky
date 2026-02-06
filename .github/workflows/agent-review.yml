@@ -23,7 +23,7 @@ jobs:
     name: PR Review (Claude)
     # Security: skip fork PRs to prevent Actions compute abuse (secrets are already
     # hidden from forks by default, but no reason to run the job at all)
-    if: github.event.pull_request.head.repo.full_name == github.repository
+    if: github.event.pull_request.head.repo.full_name == github.repository && !startsWith(github.event.pull_request.title, '[Bot]')
     runs-on: ubuntu-latest
     permissions:
       contents: write

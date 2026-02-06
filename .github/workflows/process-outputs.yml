@@ -16,6 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     env:
       X_API_KEY: ${{ secrets.X_API_KEY }}
       X_API_KEY_SECRET: ${{ secrets.X_API_KEY_SECRET }}
@@ -29,8 +30,10 @@ jobs:
           pip install -q -r agent/integrations/x/requirements.txt
           python agent/integrations/x/post.py --limit 1
 
-      - name: Commit posted status
+      - name: Commit posted status via PR
         if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -39,7 +42,9 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
+          BRANCH="bot/posted-$(date -u +%Y%m%d-%H%M%S)"
+          git checkout -b "$BRANCH"
           git commit -m "[Bot] Posted content"
-          # Pull with rebase to handle concurrent pushes, retry once
-          git pull --rebase origin main
-          git push
+          git push -u origin "$BRANCH"
+          gh pr create --title "[Bot] Posted content" --body "Automated: move posted files to archived directory." --head "$BRANCH"
+          gh pr merge "$BRANCH" --merge --auto
