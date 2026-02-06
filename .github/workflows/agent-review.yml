@@ -71,7 +71,7 @@ jobs:
 
             DEFAULT TO APPROVE unless there are critical blocking issues.
           claude_args: |
-            --model ${{ vars.CLAUDE_MODEL || 'claude-opus-4-5-20251101' }}
+            --model ${{ vars.CLAUDE_MODEL || 'claude-opus-4-6' }}
             --max-turns 10
             --allowed-tools "Bash(gh pr:*),Read,Glob,Grep"
 

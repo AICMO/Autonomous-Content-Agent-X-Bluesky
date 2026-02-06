@@ -35,5 +35,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add agent/outputs/
-          git diff --staged --quiet || git commit -m "[Bot] Posted content"
-          git push || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "[Bot] Posted content"
+          # Pull with rebase to handle concurrent pushes, retry once
+          git pull --rebase origin main
+          git push

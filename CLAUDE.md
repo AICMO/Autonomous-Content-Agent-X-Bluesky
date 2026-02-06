@@ -184,6 +184,63 @@ Skills in `.claude/skills/` are **permanent, reusable knowledge**. They affect a
 
 **Skills are not for quick notes.** Use `agent/memory/learnings/` for observations. Only graduate to skills after validation.
 
+## Weekly Retrospective
+
+A weekly retro runs every Sunday (or on-demand via `workflow_dispatch` with `mode: retro`). Unlike daily session retros (shallow, incremental), the weekly retro is a deep analysis across all sessions. **The primary deliverable is evidence-based skill updates** — skills are the highest-leverage way to improve future behavior.
+
+### Protocol
+
+#### 1. Gather Data
+- List all merged PRs since last retro: `gh pr list --state merged --limit 20`
+- Read PR descriptions and key diffs to understand what was done
+- Read current state file, GOALS.md, all skills, and recent learnings
+- Check posted content in `agent/outputs/` and `posted/` directories
+- Note any metrics available (followers, engagement, post count)
+
+#### 2. Pattern Analysis
+- What themes recur across sessions?
+- What content types performed well vs poorly?
+- What's missing from the agent's approach?
+- Are there recurring mistakes or inefficiencies?
+- What did the agent spend time on vs what actually moved the needle?
+
+#### 3. Goal Gap Analysis
+- Current metrics vs targets (from GOALS.md)
+- Calculate velocity: progress per session, progress per week
+- Updated ETA: at current pace, when will the goal be reached?
+- Is the current strategy on track? If not, what needs to change?
+
+#### 4. Skill Audit
+- Read all files in `.claude/skills/`
+- For each skill, ask: Is this producing good agent behavior?
+- Identify what's outdated, wrong, or missing
+- Check if skills align with what's actually working
+- Look for gaps: are there proven strategies not yet captured in skills?
+
+#### 5. Update Skills (Main Deliverable)
+- Follow the "Skill Development (High Bar)" protocol above
+- Every skill change must cite evidence from this week's data
+- Remove or revise guidance that isn't working
+- Add new guidance based on validated patterns
+- Document reasoning directly in the skill file or linked learning
+
+#### 6. Write Retro Document
+- Save to `agent/memory/learnings/retro-weekly-YYYY-MM-DD.md`
+- Include: data summary, patterns found, goal analysis, skill changes made, action items
+- Keep it specific and actionable — vague retros are useless
+
+#### 7. Update State & Plan Next Week
+- Update `agent/state/current.md` with retro findings
+- Set priorities and planned steps for the coming week
+- Note any experiments to run or hypotheses to test
+
+### Retro Quality Checklist
+- [ ] Reviewed ALL merged PRs since last retro (not just recent ones)
+- [ ] Cited specific evidence for every skill change
+- [ ] Calculated concrete metrics (velocity, ETA, gap)
+- [ ] Identified at least one thing to stop, start, and continue
+- [ ] Retro doc saved to `agent/memory/learnings/`
+- [ ] Skills updated with evidence-based changes
 
 ## Workflow Error Self-Fixing
 When GitHub Actions workflows fail due to configuration errors:

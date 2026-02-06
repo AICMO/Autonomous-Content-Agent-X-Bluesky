@@ -3,7 +3,17 @@ name: Agent Work Session
 on:
   schedule:
     - cron: '0 8 * * *'   # Daily start at 8 AM UTC
+    - cron: '0 20 * * 0'  # Weekly retro: Sunday 8 PM UTC
   workflow_dispatch:       # Manual trigger or chained via agent-trigger.yml
+    inputs:
+      mode:
+        description: 'Session mode'
+        required: false
+        default: 'work'
+        type: choice
+        options:
+          - work
+          - retro
   # NOTE: push trigger not supported by claude-code-action. The action only supports specific 
   #     event types (pull_request, issue_comment, workflow_dispatch, schedule, etc.) - not push. 
   # Use workflow_dispatch or schedule for chaining sessions
@@ -37,41 +47,12 @@ jobs:
         id: check
         env:
           MAX_PRS_VAR: ${{ vars.MAX_PRS_PER_DAY }}
-        run: |
-          # Prefer GitHub var, fallback to config file, default 2
-          if [ -n "$MAX_PRS_VAR" ]; then
-            MAX_PRS="$MAX_PRS_VAR"
-          else
-            MAX_PRS=$(grep -E "^\| MAX_PRS_PER_DAY" agent/config.md | awk -F'|' '{print $3}' | tr -d ' ')
-            MAX_PRS=${MAX_PRS:-2}
-          fi
-          echo "max_prs_per_day=$MAX_PRS" >> $GITHUB_OUTPUT
-
-          # Check PR count (default 0 if file missing)
-          TODAY=$(date -u +%Y-%m-%d)
-          CURRENT_COUNT=0
-
-          if [ -f agent/state/current.md ]; then
-            LAST_UPDATE=$(grep -E "^Last Updated:" agent/state/current.md | head -1 || echo "")
-            if [[ "$LAST_UPDATE" == *"$TODAY"* ]]; then
-              PR_LINE=$(grep -E "^PR Count Today:" agent/state/current.md || echo "")
-              CURRENT_COUNT=$(echo "$PR_LINE" | grep -oE "[0-9]+/" | tr -d '/' || echo "0")
-            fi
-          fi
-
-          echo "current_count=$CURRENT_COUNT" >> $GITHUB_OUTPUT
-          echo "today=$TODAY" >> $GITHUB_OUTPUT
-
-          if [ "$CURRENT_COUNT" -ge "$MAX_PRS" ]; then
-            echo "skip=true" >> $GITHUB_OUTPUT
-            echo "Daily limit reached ($CURRENT_COUNT/$MAX_PRS). Skipping."
-          else
-            echo "skip=false" >> $GITHUB_OUTPUT
-            echo "PR count: $CURRENT_COUNT/$MAX_PRS. Proceeding."
-          fi
+          INPUT_MODE: ${{ inputs.mode }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+        run: .github/scripts/check-session.sh
 
       - name: Agent Work Session
-        if: steps.check.outputs.skip != 'true'
+        if: steps.check.outputs.skip != 'true' && steps.check.outputs.mode == 'work'
         uses: anthropics/claude-code-action@1ab477dde68ac9be1126aa7775191f02c3070b07 # v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN || secrets.ANTHROPIC_API_KEY }}
@@ -101,6 +82,51 @@ jobs:
 
             Follow boundaries in agent/config.md.
           claude_args: |
-            --model ${{ vars.CLAUDE_MODEL || 'claude-opus-4-5-20251101' }}
+            --model ${{ vars.CLAUDE_MODEL || 'claude-opus-4-6' }}
+            --max-turns 40
+            --allowed-tools "Bash(git:*),Bash(gh api:*),Bash(gh issue:*),Bash(gh pr:*),Bash(gh gist:*),Bash(gh run:*),Bash(gh variable:*),Bash(mkdir:*),Bash(mv:*),Bash(ls:*),Read,Write,Edit,Glob,Grep,WebFetch,WebSearch"
+
+      - name: Agent Weekly Retrospective
+        if: steps.check.outputs.skip != 'true' && steps.check.outputs.mode == 'retro'
+        uses: anthropics/claude-code-action@1ab477dde68ac9be1126aa7775191f02c3070b07 # v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN || secrets.ANTHROPIC_API_KEY }}
+          allowed_bots: "github-actions[bot]"
+          prompt: |
+            You are an autonomous agent running a WEEKLY RETROSPECTIVE. Read CLAUDE.md (especially the "Weekly Retrospective" section) for the full protocol.
+
+            Today's date: ${{ steps.check.outputs.today }}
+
+            ## Your Mission
+            Perform a deep weekly analysis across all sessions since the last retro. The PRIMARY deliverable is evidence-based skill updates.
+
+            ## Steps
+            1. **Gather data**: List all merged PRs since last retro (`gh pr list --state merged --limit 20`). Read their descriptions and key diffs. Read current state, goals, skills, and learnings.
+            2. **Analyze patterns**: What themes recur across sessions? What content performed well/poorly? What's missing from the agent's approach?
+            3. **Goal gap analysis**: Compare current metrics to targets (from GOALS.md). Calculate velocity and updated ETA. Is the current strategy on track?
+            4. **Skill audit**: Read all files in `.claude/skills/`. Are the skills producing good behavior? What's outdated, wrong, or missing?
+            5. **Update skills**: This is the HIGHEST-LEVERAGE output. Make evidence-based changes to skill files. Follow the "Skill Development (High Bar)" protocol in CLAUDE.md - document reasoning and evidence.
+            6. **Write retro doc**: Save full analysis to `agent/memory/learnings/retro-weekly-${{ steps.check.outputs.today }}.md`
+            7. **Update state**: Update `agent/state/current.md` with retro findings and next week's priorities.
+            8. **Create PR**: Commit all changes and create a PR.
+
+            CRITICAL RULES:
+            1. ALWAYS create a PR - your work is LOST if you don't commit and push
+            2. PR title MUST start with "[Agent] Weekly retro:"
+            3. Focus on SKILL UPDATES as the main deliverable - skills are how you improve
+            4. Be honest and specific in analysis - vague retros are useless
+
+            Steps to create PR:
+            ```bash
+            git checkout -b agent/${{ steps.check.outputs.today }}-weekly-retro
+            git add -A
+            git commit -m "[Agent] Weekly retrospective ${{ steps.check.outputs.today }}"
+            git push -u origin HEAD
+            gh pr create --title "[Agent] Weekly retro: <summary>" --body "Your description"
+            ```
+
+            Follow boundaries in agent/config.md.
+          claude_args: |
+            --model ${{ vars.CLAUDE_MODEL || 'claude-opus-4-6' }}
             --max-turns 40
             --allowed-tools "Bash(git:*),Bash(gh api:*),Bash(gh issue:*),Bash(gh pr:*),Bash(gh gist:*),Bash(gh run:*),Bash(gh variable:*),Bash(mkdir:*),Bash(mv:*),Bash(ls:*),Read,Write,Edit,Glob,Grep,WebFetch,WebSearch"
