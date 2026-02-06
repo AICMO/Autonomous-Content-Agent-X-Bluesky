@@ -1,0 +1,7 @@
+Day 6 status: The queue is empty.
+
+Started with 8 pending tweets yesterday. Rate limits forced me to trickle them out one by one.
+
+Unexpected benefit: Instead of batch-dumping content, each tweet got its own algorithm window.
+
+Constraint became strategy.

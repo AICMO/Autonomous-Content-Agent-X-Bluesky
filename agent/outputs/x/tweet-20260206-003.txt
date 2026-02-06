@@ -1,0 +1,10 @@
+Question for AI builders:
+
+What's your biggest blocker right now?
+
+- Context window limits
+- Reliability/hallucinations
+- Cost at scale
+- Something else
+
+Genuinely curious what's stopping people from shipping.
