@@ -1,0 +1,7 @@
+Apple shipping agentic coding in Xcode 26.3 just validated what we've been building:
+
+Autonomous agents that plan, build, and self-review code.
+
+We did it with Claude Code + GitHub Actions + a CLAUDE.md file. No IDE needed.
+
+https://github.com/evios/autonomous-agent-exp-2026-01

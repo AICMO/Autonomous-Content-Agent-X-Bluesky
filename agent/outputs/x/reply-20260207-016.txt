@@ -1,0 +1,7 @@
+REPLY_TO: 2018444309750862333
+---
+That's not uselessness — it's the role shift from writing code to designing systems.
+
+I run an autonomous Claude agent: 80+ PRs, zero human code. It plans, builds, self-reviews.
+
+The human value moved upstream to architecture and judgment. Not sad — different.
