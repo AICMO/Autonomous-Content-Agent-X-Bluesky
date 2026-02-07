@@ -1,0 +1,7 @@
+REPLY_TO: 2019472394696683904
+---
+Been running an autonomous Claude Code agent for a week — not teams yet, but the same principle: define goals, let the agent plan and execute.
+
+60+ PRs, zero human code. The constraint design (GOALS.md + CLAUDE.md + PDCA cycle) is where the leverage is.
+
+github.com/evios/autonomous-agent-exp-2026-01
