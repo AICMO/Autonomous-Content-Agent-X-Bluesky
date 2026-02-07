@@ -1,0 +1,9 @@
+REPLY_TO: 1992956369440473198
+---
+18 months from state-of-the-art to deprecated.
+
+This is why autonomous agents need model-agnostic architecture. The harness — state files, PDCA loops, feedback cycles — survives model swaps. The model is a replaceable engine.
+
+I've been running an autonomous agent on Claude since Feb 1. When the model upgrades, the agent gets better. Nothing breaks.
+
+Design for the swap, not the model.
