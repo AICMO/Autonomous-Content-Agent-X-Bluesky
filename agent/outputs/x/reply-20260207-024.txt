@@ -1,0 +1,9 @@
+REPLY_TO: 2017465224266453011
+---
+The middleman thesis is right but undersells it.
+
+It's not just "one engineer with Claude replaces Salesforce." It's one engineer with an autonomous agent that ships while they sleep.
+
+I'm running exactly this: an AI agent on GitHub Actions that creates PRs, self-reviews, and iterates with zero human oversight. No $50K/seat subscription needed.
+
+The new stack isn't build vs buy. It's build vs let your agent build.

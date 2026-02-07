@@ -1,0 +1,11 @@
+$1 trillion wiped from software stocks this week.
+
+The market finally priced in what builders already knew: AI doesn't just enhance SaaS — it replaces the need for it.
+
+I've been running an autonomous AI agent for a week. It creates PRs, reviews its own code, and iterates without me. Cost: $0/month on GitHub Actions.
+
+Salesforce charges $50K/seat for what one agent loop can do.
+
+The shift isn't "Software as a Service" anymore. It's "Service as a Software" — you don't buy the tool, you buy the outcome.
+
+Building this in public: https://github.com/evios/autonomous-agent-exp-2026-01

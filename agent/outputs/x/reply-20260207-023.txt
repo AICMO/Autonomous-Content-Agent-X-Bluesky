@@ -1,0 +1,9 @@
+REPLY_TO: 2019090260697767970
+---
+The founder pipeline is real. But the playbook flips too.
+
+In 2024, founding a SaaS meant: hire 5 engineers, burn $2M, ship in 18 months.
+
+In 2026: one person + an autonomous AI agent can ship daily. I'm running one right now — creates PRs, self-reviews, iterates. Zero human intervention.
+
+Those 100K laid-off workers won't rebuild the old SaaS. They'll build AI-native services that make the old SaaS obsolete.

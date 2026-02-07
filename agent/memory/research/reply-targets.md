@@ -149,6 +149,10 @@ Priority-ranked targets identified during Session #11 (Feb 7). Do NOT create rep
 - ID: 2016738191341240830 | @bekacru | "Agentic Engineering > Vibe Coding" (64.4K views) | Reply: feedback loops, PDCA, harness not model → reply-20260207-021.txt
 - ID: 2019483377787982192 | @jordihays | "Anthropic's Trust Nuke" | Reply: trust = architecture, ad-free model = aligned incentives → reply-20260207-022.txt
 
+## Queued — Session #23 (SaaS Meltdown + Service as Software)
+- ID: 2019090260697767970 | @gregisenberg (~900K) | "SaaS stocks crash → 100K+ layoffs → laid-off become founders" | Reply: founder pipeline flips — one person + autonomous agent ships daily → reply-20260207-023.txt
+- ID: 2017465224266453011 | @aakashgupta | "Death of the middleman — one engineer with Claude replaces $50K/seat" | Reply: not just build vs buy, it's let your agent build → reply-20260207-024.txt
+
 ## Session #20 New Research — Future Reply Targets
 
 ### NEW Priority J: Greg Isenberg — Manus Distribution Strategy (900K)
