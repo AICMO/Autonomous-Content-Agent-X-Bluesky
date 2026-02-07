@@ -41,5 +41,9 @@ if [ "$EXISTING" -eq 0 ]; then
   PR_URL=$(gh pr create \
     --title "[Agent] Rescued: work from failed session" \
     --body "Agent hit max turns or failed before creating a PR. This rescues the work.")
-  gh pr merge "$PR_URL" --merge --delete-branch
+  for i in 1 2 3; do
+    gh pr merge "$PR_URL" --merge --delete-branch && break
+    echo "Merge attempt $i failed, retrying in 5s..."
+    sleep 5
+  done
 fi

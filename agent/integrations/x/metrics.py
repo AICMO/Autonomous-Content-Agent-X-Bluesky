@@ -46,7 +46,14 @@ def get_oauth_session():
 def fetch_metrics(session):
     """Fetch public metrics for the authenticated user."""
     response = session.get(API_URL, params={"user.fields": "public_metrics"})
-    data = response.json()
+
+    if not response.text:
+        return {"error": "Empty response (likely rate limited)", "status": response.status_code}
+
+    try:
+        data = response.json()
+    except Exception:
+        return {"error": f"Invalid JSON: {response.text[:200]}", "status": response.status_code}
 
     if response.status_code != 200:
         return {"error": data, "status": response.status_code}

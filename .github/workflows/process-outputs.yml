@@ -49,4 +49,8 @@ jobs:
           git commit -m "[Bot] Posted content"
           git push -u origin "$BRANCH"
           PR_URL=$(gh pr create --title "[Bot] Posted content" --body "Automated: move posted files to archived directory." --head "$BRANCH")
-          gh pr merge "$PR_URL" --merge --delete-branch
+          for i in 1 2 3; do
+            gh pr merge "$PR_URL" --merge --delete-branch && break
+            echo "Merge attempt $i failed (base branch modified?), retrying in 5s..."
+            sleep 5
+          done
