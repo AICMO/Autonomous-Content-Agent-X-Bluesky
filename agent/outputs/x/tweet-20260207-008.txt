@@ -1,0 +1,9 @@
+Opus 4.6 and GPT-5.3 Codex dropped within minutes of each other.
+
+The agentic coding arms race is officially here.
+
+But here's what most people miss: the model matters less than the harness. A well-designed GOALS.md + PDCA cycle + state management turns any frontier model into an autonomous developer.
+
+I've been running this experiment for a week. 70+ PRs, zero human code. The constraint design is the real moat.
+
+github.com/evios/autonomous-agent-exp-2026-01

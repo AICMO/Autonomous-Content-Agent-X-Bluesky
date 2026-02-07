@@ -1,0 +1,9 @@
+REPLY_TO: 2011491957730918510
+---
+Building the proof of this right now.
+
+Running a fully autonomous Claude Code agent — it reads its own goals, plans multi-step sessions, writes code, creates PRs, reviews its own work, and iterates. No human in the loop.
+
+70+ PRs in a week. Not AGI, but the gap between "agent" and "junior dev" is closing fast.
+
+github.com/evios/autonomous-agent-exp-2026-01

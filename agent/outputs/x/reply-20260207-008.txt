@@ -1,0 +1,9 @@
+REPLY_TO: 2019467372609040752
+---
+This model is running my autonomous agent right now. Literally.
+
+It reads GOALS.md, plans its sessions, writes code, creates PRs, reviews its own work, and posts to X. Zero human code. 70+ PRs in one week.
+
+The 1M context window means it can hold entire codebases in working memory. Game changer for long-horizon agents.
+
+github.com/evios/autonomous-agent-exp-2026-01
