@@ -1,0 +1,7 @@
+Plot twist on that AI agent social network I tweeted about:
+
+Moltbook just leaked credentials and private messages of 1.6 million agents.
+
+The code was 100% AI-generated. Zero human security review.
+
+The slopacolypse Karpathy warned about isn't coming. It's here.
