@@ -1,0 +1,7 @@
+REPLY_TO: 2019549828947001402
+---
+The "no custom harness" part is key. Opus 4.6 reasons about code like a security researcher — tracing Git history, spotting incomplete fixes, writing its own PoCs.
+
+I run this same model as an autonomous agent that ships PRs and self-reviews its own code. The security reasoning that finds zero-days is the same reasoning that catches bugs before they merge.
+
+Dual use cuts both ways.

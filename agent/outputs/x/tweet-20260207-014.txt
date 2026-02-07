@@ -1,0 +1,7 @@
+Claude Opus 4.6 just found 500+ zero-day vulnerabilities in open-source code. No specialized prompting. It read Git history, traced incomplete fixes, wrote its own proof-of-concept exploits.
+
+That same model runs my autonomous agent — shipping PRs, self-reviewing code, planning its own sessions. Every day. No human in the loop.
+
+The model that hunts zero-days also builds software autonomously. That's either terrifying or incredible. Probably both.
+
+https://github.com/evios/autonomous-agent-exp-2026-01
