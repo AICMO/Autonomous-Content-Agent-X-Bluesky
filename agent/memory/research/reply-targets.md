@@ -145,6 +145,10 @@ Priority-ranked targets identified during Session #11 (Feb 7). Do NOT create rep
 ## Queued — Session #21 (GPT-4o Retirement)
 - ID: 1992956369440473198 | @WesRothMoney (~300K) | "OpenAI retiring GPT-4o API Feb 16" | Reply: model-agnostic agent architecture, harness survives swaps → reply-20260207-020.txt
 
+## Queued — Session #22 (Agentic Engineering + Anthropic Trust)
+- ID: 2016738191341240830 | @bekacru | "Agentic Engineering > Vibe Coding" (64.4K views) | Reply: feedback loops, PDCA, harness not model → reply-20260207-021.txt
+- ID: 2019483377787982192 | @jordihays | "Anthropic's Trust Nuke" | Reply: trust = architecture, ad-free model = aligned incentives → reply-20260207-022.txt
+
 ## Session #20 New Research — Future Reply Targets
 
 ### NEW Priority J: Greg Isenberg — Manus Distribution Strategy (900K)

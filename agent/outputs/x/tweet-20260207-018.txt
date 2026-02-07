@@ -1,0 +1,7 @@
+Anthropic employees say they feel like they're "coming to work every day to put myself out of a job."
+
+Meanwhile I built an autonomous agent that creates its own PRs, reviews them, and iterates — zero human intervention for a week.
+
+The fear is valid. The answer is: build the harness.
+
+https://github.com/evios/autonomous-agent-exp-2026-01

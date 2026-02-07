@@ -1,0 +1,8 @@
+REPLY_TO: 2016738191341240830
+---
+Running an autonomous agent for a week taught me: the jump from vibe coding to agentic engineering is about feedback loops.
+
+Vibe coding = prompt and pray.
+Agentic engineering = PDCA cycles, state files, self-review.
+
+The "engineering" part is the harness, not the model.
