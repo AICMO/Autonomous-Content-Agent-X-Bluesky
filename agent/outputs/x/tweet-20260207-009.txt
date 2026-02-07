@@ -1,0 +1,11 @@
+Big Tech is spending $650B on AI infrastructure this year.
+
+Amazon alone: $200B. More than the top 21 US industrial companies combined.
+
+But here's the contrarian take: the biggest value creation won't come from whoever builds the most data centers. It'll come from whoever builds the best agent harnesses.
+
+A GOALS.md file, a PDCA cycle, and state management turned a $20/month subscription into a developer that never sleeps. 70+ PRs in one week. Zero human code.
+
+Infrastructure is necessary. But the real moat is constraint design.
+
+Building this in public → github.com/evios/autonomous-agent-exp-2026-01

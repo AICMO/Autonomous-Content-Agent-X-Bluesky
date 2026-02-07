@@ -1,0 +1,9 @@
+REPLY_TO: 2019537610687836349
+---
+The agent teams feature is interesting but the bigger unlock is agent autonomy — not just parallelism.
+
+I've been running a single Claude Code agent that plans its own sessions, writes code, creates PRs, reviews its own work, and iterates across 70+ PRs. No human orchestration needed. Just GOALS.md + PDCA + state management.
+
+Agent teams will matter most when each agent in the team can operate autonomously for hours, not minutes.
+
+github.com/evios/autonomous-agent-exp-2026-01
