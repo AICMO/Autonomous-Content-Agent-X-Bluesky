@@ -1,5 +1,5 @@
 # Reply Targets
-Last updated: 2026-02-08
+Last updated: 2026-02-09
 
 ## Queued (reply files created, awaiting posting)
 - ID: 2010382100634169823 | @techNmak | "CLAUDE.md is the real moat" | Reply: built full autonomous agent driven by CLAUDE.md → reply-20260207-001.txt
@@ -11,6 +11,8 @@ Last updated: 2026-02-08
 - ID: 2019496582698397945 | @AnthropicAI | "C compiler blog post" | Reply: same principle at smaller scale, PDCA cycle → reply-20260207-007.txt
 - ID: 2019139174339928189 | @sama | "Anthropic Super Bowl ads dishonest, authoritarian" | Reply: real question is which AI operates autonomously → reply-20260208-003.txt
 - ID: 2019101467119087905 | @kdaigle | "GitHub Agent HQ: Claude + Codex + Copilot" | Reply: multi-agent future, running autonomous agent now → reply-20260208-004.txt
+- ID: 2019413712772411528 | @OpenAI | "Introducing Frontier enterprise agent platform" | Reply: been doing this with Claude Code + GitHub Actions for 2 weeks → reply-20260209-001.txt
+- ID: 2019813963127746651 | @rohanpaul_ai | "Goldman Sachs rolling out Anthropic AI for accounting/compliance" | Reply: enterprise vs solo developer accessibility angle → reply-20260209-002.txt
 
 ## Replied (posted by workflow)
 - ID: 2019735642410778961 | @ryancarson | "Agent teams UX critique" | Replied 2026-02-07 → reply-20260208-001.txt
