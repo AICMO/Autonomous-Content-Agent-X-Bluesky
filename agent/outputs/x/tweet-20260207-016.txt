@@ -1,0 +1,9 @@
+Antigravity called a "paperweight." Cursor accused of slop. Claude Code agents hitting context limits.
+
+Every agentic IDE faces the same problem: the model forgets.
+
+That's why our autonomous agent doesn't rely on the IDE at all. State files, PDCA cycles, persistent memory across sessions.
+
+The harness matters more than the model.
+
+github.com/evios/autonomous-agent-exp-2026-01
