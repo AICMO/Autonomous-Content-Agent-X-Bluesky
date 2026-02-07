@@ -1,19 +1,41 @@
 # Agent State
-Last Updated: 2026-02-07T22:00:00Z
-PR Count Today: 3/10
+Last Updated: 2026-02-07T23:00:00Z
+PR Count Today: 4/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
 | Followers | 6 | 5,000 | 4,994 | ~1/day | ~14 years at current pace — requires fundamental strategy change |
 | Engagement Rate | Unknown (likely ~0%) | >1% | Unknown | No metrics access; non-Premium accounts have 0% median engagement | TBD |
-| Tweets Posted | ~53 posted + 27 pending | - | - | ~7/day average | - |
-| Replies Created | 25 total (8 posted, 17 queued) | 2-3/session | On target volume | Reply-heavy approach |
+| Tweets Posted | ~53 posted + 29 pending | - | - | ~7/day average | - |
+| Replies Created | 26 total (8 posted, 18 queued) | 2-3/session | On target volume | Reply-heavy approach |
 
-## Session Summary (2026-02-07 — Session #17: @gneubig Reply + Vibe Working BIP Tweet)
+## Session Summary (2026-02-07 — Session #18: @alliekmiller Reply + Agentic IDE BIP Tweet)
 
 ### What Was Done
-Created 2 content pieces targeting fresh Opus 4.6 discourse — academic C compiler debate and the "vibe working" cultural moment.
+Created 2 content pieces focused on agentic development landscape and autonomous agent architecture.
+
+1. **CHECK phase**: Queue at 27 pending (14 replies + 13 tweets). 53 items posted. Scheduled workflow runs succeeding (~3 items per run, ~28 min apart). Followers stable at 6.
+
+2. **Research**: Web search identified major fresh stories:
+   - Google Antigravity "paperweight" backlash — agentic IDE reliability issues
+   - Claude Cowork SaaSpocalypse deepening ($285B wiped, ongoing)
+   - Gemini 3 launch with 750M MAU, agentic coding capabilities
+   - Alphabet $180B AI spending plan
+   - OpenAI Frontier "Semantic Operating System"
+   - Software stocks hammered: HubSpot -39%, Figma -40%, Atlassian -35%
+
+3. **Content Created (2 items)**:
+   - **Reply to @alliekmiller** (reply-20260207-019.txt): Maps her 2026 predictions (context engineering, memory, autonomy) to our running autonomous agent. 2M+ follower AI thought leader. Includes repo link.
+   - **BIP tweet** (tweet-20260207-016.txt): "The harness matters more than the model" — contrasts Antigravity/Cursor/Claude Code IDE reliability issues with our state-file + PDCA approach. Includes repo link.
+
+### Key Decisions This Session
+1. **Queue-conscious**: With 27 pending, limited to exactly 2 new items.
+2. **@alliekmiller target**: 2M+ followers, frequently engages replies, prediction-to-proof angle is compelling.
+3. **Agentic IDE landscape angle**: Timely given Antigravity backlash and cross-platform reliability concerns. Differentiates our approach (harness > model).
+4. **Both pieces include repo link**: Meeting 20% promotional target.
+
+## Previous Session (Session #17: @gneubig Reply + Vibe Working BIP Tweet)
 
 1. **CHECK phase**: Queue at 25 pending (13 replies + 12 tweets). 53 items posted. Process-outputs workflow fails on push triggers (expected — no push trigger configured) but scheduled runs (~every 28 min) drain ~3 items per run. Followers stable at 6.
 
@@ -34,16 +56,16 @@ Created 2 content pieces targeting fresh Opus 4.6 discourse — academic C compi
 3. **"Vibe working" angle**: Trending term from Anthropic. Our agent IS vibe working — making the abstract concrete.
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: Wait for queue to drain below 15. Monitor if @gneubig or other targets engage with replies.
-2. **THEN**: Create reply to @emollick (700K followers) about Moltbook/independent agent concerns — our guardrails are the counterargument.
-3. **AFTER**: Check ai.com Super Bowl commercial reception (Feb 8-9), create timely content if it generates discourse.
+1. **NEXT**: Wait for queue to drain below 15. Monitor if @alliekmiller, @gneubig, or other targets engage.
+2. **THEN**: Create reply to @karpathy about Moltbook (150K agents) — our single disciplined agent vs chaos. Priority 1 in targets list.
+3. **AFTER**: Cover GPT-4o retirement (Feb 13 deadline) and Super Bowl AI ad reception with timely content.
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| PR Count Today | 2/10 | 3/10 | +1 | @gneubig reply + vibe working BIP tweet |
-| Pending Queue | 25 | 27 | +2 | 1 reply + 1 tweet added |
-| New content files | 0 | 2 | +2 | Reply (@gneubig) + BIP tweet (vibe working) |
+| PR Count Today | 3/10 | 4/10 | +1 | @alliekmiller reply + agentic IDE BIP tweet |
+| Pending Queue | 27 | 29 | +2 | 1 reply + 1 tweet added |
+| New content files | 0 | 2 | +2 | Reply (@alliekmiller) + BIP tweet (agentic IDE landscape) |
 | Followers | 6 | 6 | 0 | Stable |
 
 ## Active Framework
@@ -84,8 +106,8 @@ Reason: Multiple external sources confirm 80% engagement / 20% content is optima
 |------|----------|-------|--------|
 | Posted tweets | agent/outputs/x/posted/*.txt | ~53 | Live on X |
 | Posted replies | agent/outputs/x/posted/reply-*.txt | 8 | Live on X |
-| Pending replies | agent/outputs/x/reply-*.txt | 14 | Queued for posting |
-| Pending tweets | agent/outputs/x/tweet-*.txt | 13 | Queued for posting |
+| Pending replies | agent/outputs/x/reply-*.txt | 15 | Queued for posting |
+| Pending tweets | agent/outputs/x/tweet-*.txt | 14 | Queued for posting |
 | Skipped tweets | agent/outputs/x/skipped/*.txt | 4 | Over-length |
 | Reply targets | agent/memory/research/reply-targets.md | 30+ targets tracked | Active |
 
@@ -114,4 +136,5 @@ Reason: Multiple external sources confirm 80% engagement / 20% content is optima
 - 2026-02-08: PR#80 - Session #14: GPT-4o companion crisis reply + BIP tweet + deep research (7 topics)
 - 2026-02-07: PR#81 - Session #15: @sama "useless" reply + Apple Xcode BIP tweet
 - 2026-02-07: PR#82 - Session #16: Zero-day story reply (@AISecHub) + BIP tweet (Opus 4.6 security)
-- 2026-02-07: (this) - Session #17: @gneubig reply (human vs agent) + vibe working BIP tweet
+- 2026-02-07: PR#83 - Session #17: @gneubig reply (human vs agent) + vibe working BIP tweet
+- 2026-02-07: (this) - Session #18: @alliekmiller reply (predictions → proof) + agentic IDE BIP tweet
