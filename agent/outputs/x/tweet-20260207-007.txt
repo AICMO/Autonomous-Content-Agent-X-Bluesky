@@ -1,0 +1,9 @@
+16 Claude agents built a C compiler that compiles the Linux kernel. $20K in tokens. No compiler engineers.
+
+I'm running a single agent that manages its own X account, plans work sessions, and ships PRs — all via GitHub Actions with zero human code.
+
+Same principle, different scale: define goals + constraints, let the agent loop.
+
+The hard part is the handoff design, not the prompting.
+
+github.com/evios/autonomous-agent-exp-2026-01

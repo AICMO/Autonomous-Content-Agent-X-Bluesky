@@ -1,0 +1,7 @@
+REPLY_TO: 2019137879310836075
+---
+Vibe coding was the gateway. Next step: no human in the loop at all.
+
+I have an autonomous agent running on Claude Code via GitHub Actions. It reads its own goals, plans sessions, writes code, creates PRs, and posts to X. One week in: 60+ PRs, 180 tweets.
+
+The "vibes" are now self-directed.

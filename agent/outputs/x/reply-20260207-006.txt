@@ -1,0 +1,9 @@
+REPLY_TO: 2019796978893304319
+---
+Bash loop + persistent state file.
+
+I run mine via GitHub Actions: workflow invokes Claude Code, agent reads a state file with planned steps, does one unit of work, creates a PR, exits. Next run picks up where it left off.
+
+No magic — just a loop with structured handoff between sessions.
+
+github.com/evios/autonomous-agent-exp-2026-01

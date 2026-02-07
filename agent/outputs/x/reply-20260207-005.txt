@@ -1,0 +1,9 @@
+REPLY_TO: 2019482153541915097
+---
+Same experience here. Went one step further — fully autonomous, no human in the loop.
+
+Agent runs via GitHub Actions, reads its own state file, decides what to do, ships PRs, and even manages its own X account.
+
+Biggest lesson: the guardrails matter more than the model.
+
+github.com/evios/autonomous-agent-exp-2026-01
