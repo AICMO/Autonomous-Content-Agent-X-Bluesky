@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-02-07T23:30:00Z
-PR Count Today: 5/10
+Last Updated: 2026-02-07T18:46:00Z
+PR Count Today: 6/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,120 +10,92 @@ PR Count Today: 5/10
 | Tweets Posted | ~50 posted + 19 pending | - | - | ~7/day average | - |
 | Replies Created | 19 total (8 posted, 11 queued) | 2-3/session | On target volume, need quality check | Reply-heavy approach |
 
-## Session Summary (2026-02-07 — Session #10: Queue Drain + Growth Strategy Research)
+## Session Summary (2026-02-07 — Session #11: Community API Research + Reply Target Scouting)
 
 ### What Was Done
-Content-zero session focused on strategic research and analysis. Queue at 19 pending — followed the "create 0 new content if queue >10" rule.
+Strategic research session. Queue still at 19 pending — followed "create 0 new content if queue >10" rule.
 
-1. **CHECK phase**: Reviewed state from session #9.
-   - Queue at 19 pending (12 replies + 7 tweets/threads)
-   - 50 posted files total
-   - Last posting workflow ran at 18:01 UTC — all PRs 71-74 merged after that, so none of sessions 6-9 content posted yet
-   - Follower count: 6 (stable since early week)
+1. **CHECK phase**: Reviewed state from session #10.
+   - Queue at 19 pending (11 replies + 8 tweets) — unchanged
+   - Posting workflow last ran at 18:01 UTC (posted 3 replies: @karpathy, @kieranklaassen, @sytelus)
+   - Workflow hasn't run since 18:01 despite being scheduled every ~28 min — likely GitHub Actions scheduling delay
+   - Total posted: 50 files
 
-2. **Deep research on X growth strategies for small accounts in 2026**:
-   - Searched multiple sources on 0→1000 follower growth
-   - Researched X algorithm mechanics (January 2026 xAI release)
-   - Investigated X Premium impact on reach
-   - Investigated X Communities as growth lever
-   - Analyzed post.py integration capabilities
+2. **X Communities API Investigation** (resolving P1 blocker from session #10):
+   - Finding: `community_id` parameter exists in X API v2 schema but **does not work** for Free/Basic/Pro tiers
+   - Developers consistently get 503 errors since at least Jan 2023 (unresolved through July 2025)
+   - Workarounds: Publer ($10/mo), Apify ($10/mo), browser automation (violates ToS)
+   - **Recommendation**: Downgrade from P1 to P3. Manual community posting by repo owner is simplest path.
+   - Documented in `agent/memory/research/x-communities-api-investigation-2026-02-07.md`
 
-3. **Three critical findings documented** in `agent/memory/research/growth-acceleration-analysis-2026-02-07.md`:
-   - **X Communities**: "Build in Public" community has 180K+ members. One creator gained 2,000 followers in 30 days posting 100% there. We're not using communities at all.
-   - **X Premium**: Non-Premium accounts have **0% median engagement** since March 2026 (Buffer study, 18.8M posts). Premium = 10x more reach. Without it, our content is algorithmically invisible.
-   - **Engagement ratio**: At 0-100 followers, recommendation is 80% engagement / 20% posting (we're doing ~50/50, up from 0/100).
+3. **Fresh Reply Target Scouting** (preparing for when queue drains):
+   - Researched 7 high-quality targets from current AI trending topics
+   - Top targets: Karpathy on Moltbook (150K agents), Allie K. Miller 2026 predictions, Karpathy "Slopacolypse"
+   - All targets have clear connection to autonomous agent building + BIP narrative
+   - Documented in `agent/memory/research/reply-targets.md` under "Researched — Ready for Next Session"
+   - **Key narrative**: "One disciplined agent with feedback loops > an army of uncontrolled ones"
 
-### Key Strategic Recommendations
-**P0 (Blocker-level — needs repo owner action):**
-1. X Premium subscription ($8/month) — may be the single highest-ROI investment. Without it, algorithmic suppression may cap growth near zero regardless of content quality.
-2. X Community posting capability — investigate if `post.py` can be extended or if manual community posting is needed.
-
-**P1 (Agent can act on):**
-1. Shift from 50/50 to 80/20 engagement/content ratio
-2. Reduce original content to 1 post/session, increase reply quality and volume
-3. Write replies designed to prompt author response (150x algorithm multiplier)
+### Key Findings This Session
+1. **X Communities API is broken** — community posting cannot be done programmatically at our tier. Manual posting by owner or $10/mo Publer are the options.
+2. **Moltbook** (150K autonomous AI agents on Reddit-like platform) is the #1 trending AI topic — perfect reply target contrasting chaos vs. discipline.
+3. **$285B software stock selloff** from Claude Cowork / Opus 4.6 launch — major news cycle we should comment on.
+4. **Queue still not draining** — posting workflow may have scheduling delays. 19 files = 6-7 more workflow runs needed.
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: Wait for queue to drain below 10. No new content until then.
-2. **THEN**: When queue is manageable, shift to pure engagement sessions — find 5+ reply targets per session with only 0-1 original tweet.
-3. **AFTER**: Assess reply engagement results after 11 queued replies post. Are any getting author responses?
+1. **NEXT**: Continue waiting for queue to drain below 10. Next session should check queue size first.
+2. **THEN**: When queue <10, create 2-3 high-priority replies from the researched targets list (Karpathy/Moltbook, Allie K. Miller, Slopacolypse).
+3. **AFTER**: Assess reply engagement results. Are any of the 8 posted replies getting author responses? (Need metrics access to check.)
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| PR Count Today | 4/10 | 5/10 | +1 | Research session |
+| PR Count Today | 5/10 | 6/10 | +1 | Research session |
 | Pending Queue | 19 | 19 | 0 | Content-zero session ✅ |
 | New content files | - | 0 | 0 | Queue drain compliance |
-| Research docs | 8 | 9 | +1 | Growth acceleration analysis |
+| Research docs | 9 | 10 | +1 | X Communities API investigation |
+| Reply targets researched | 11 (all queued) | 18 (11 queued + 7 researched) | +7 | Fresh high-quality targets |
 | Followers | 6 | 6 | 0 | Stable |
 
 ## Active Framework
-Current: PDCA + Engagement-First (shifting to 80/20 ratio)
-Reason: Multiple external sources confirm 80% engagement / 20% content is optimal for 0-100 follower accounts. Current 50/50 split is still too content-heavy.
+Current: PDCA + Engagement-First (80/20 ratio target)
+Reason: Multiple external sources confirm 80% engagement / 20% content is optimal for 0-100 follower accounts.
 
 ## Active Hypotheses
 | Hypothesis | Status | Evidence |
 |------------|--------|----------|
-| Threads get higher engagement | Inconclusive | Need metrics |
-| Distributed posting > batch | Confirmed | Keep distributed |
-| Research-driven content builds authority | Inconclusive | Continue |
-| Question tweets get more replies | Inconclusive | Need metrics |
-| Reading routine → quality content | Confirmed | Standard practice |
-| BIP content resonates | Inconclusive | Maintain 25% minimum |
 | Content-only grows followers | **Rejected** | 6 followers after 188 tweets |
-| **Reply engagement > original content for growth** | **Testing (Week 3)** | 8 replies posted, 11 queued. Multiple external sources confirm this is #1 growth strategy. |
-| **X Communities amplify reach for small accounts** | **New — Needs Investigation** | Build in Public community: 180K members. One creator: 2,000 followers in 30 days. Our integration doesn't support community posting. |
-| **X Premium is prerequisite for meaningful growth** | **New — Needs Owner Action** | Buffer study (18.8M posts): non-Premium = 0% median engagement. Premium = 10x reach. |
-| **80/20 engagement/content ratio (at 0-100 followers)** | **New — Testing** | Multiple growth guides recommend 80% engagement, 20% posting for early accounts. We're at ~50/50. |
+| Reply engagement > original content for growth | **Testing (Week 3)** | 8 replies posted, 11 queued. Need metrics. |
+| X Communities amplify reach for small accounts | **Blocked** | API doesn't work at our tier. Need manual posting or Publer. Downgraded to P3. |
+| X Premium is prerequisite for meaningful growth | **Needs Owner Action** | Buffer study: non-Premium = 0% median engagement. |
+| 80/20 engagement/content ratio | **Testing** | Shifted approach, need to measure results. |
+| Moltbook contrast angle resonates | **New — Ready to Test** | "Disciplined agent vs. 150K in chaos" narrative prepared. |
 
-## Week 3 Strategy (Updated)
-### STOP
-- Creating content when queue >10
-- 50/50 engagement/content split (shift to 80/20)
-- Treating all replies as equal (prioritize reply-to-reply chains)
-
-### START
-- Queue drain discipline (enforced this session)
-- Researching X Communities integration
-- Flagging X Premium to repo owner as P0 recommendation
-- Targeting 5+ engagements per session (up from 2-3)
-- Replying to same-size and mid-tier accounts (not just mega accounts)
-
-### CONTINUE
-- Reading routine
-- PDCA cycle
-- BIP updates with repo links
-- Quality reply creation
-
-## Blockers
-### X Premium (NEW — P0)
+## Blocker Priority Update
+### P0 — X Premium ($8/month)
 - Non-Premium accounts have 0% median engagement since March 2026
-- Premium ($8/month) gives 10x more reach, priority reply ranking, blue checkmark
-- Without Premium, content may be algorithmically invisible
-- **Action needed from repo owner**: Subscribe to X Premium ($8/month)
+- Premium gives 10x more reach, priority reply ranking, blue checkmark
+- **Action needed from repo owner**: Subscribe to X Premium
 
-### X Communities (NEW — P1)
-- "Build in Public" community has 180K members — fastest growth lever for small accounts
-- Our `post.py` integration only supports standard tweet posting, not community targeting
-- **Options**: Extend integration, or post to communities manually
-- Need to investigate X API v2 community posting capabilities
+### P3 — X Communities (Downgraded from P1)
+- API `community_id` parameter exists but returns 503 errors for all standard tiers
+- **Workaround options**: Manual posting by owner, or Publer ($10/mo)
+- See: `agent/memory/research/x-communities-api-investigation-2026-02-07.md`
 
-### Metrics Access (Ongoing, Critical)
+### Ongoing — Metrics Access
 - X API Free tier has no read access
 - Cannot validate content strategy with data
-- Web search shows zero indexed engagement for small accounts
 - Options: manual metrics from human, or Basic tier ($100/month)
 
 ## External Outputs
 | Type | Location | Count | Status |
 |------|----------|-------|--------|
-| Posted tweets | agent/outputs/x/posted/*.txt | ~42 | Live on X |
+| Posted tweets | agent/outputs/x/posted/*.txt | ~50 | Live on X |
 | Posted replies | agent/outputs/x/posted/reply-*.txt | 8 | Live on X |
-| Pending replies | agent/outputs/x/reply-*.txt | 12 | Queued for posting |
-| Pending tweets | agent/outputs/x/tweet-*.txt | 7 | Queued for posting |
+| Pending replies | agent/outputs/x/reply-*.txt | 11 | Queued for posting |
+| Pending tweets | agent/outputs/x/tweet-*.txt | 8 | Queued for posting |
 | Skipped tweets | agent/outputs/x/skipped/*.txt | 4 | Over-length |
-| Reply targets | agent/memory/research/reply-targets.md | 19 | Active |
-| **Growth research** | agent/memory/research/growth-acceleration-analysis-2026-02-07.md | 1 | **New this session** |
+| Reply targets | agent/memory/research/reply-targets.md | 18 (11 queued + 7 researched) | Active |
+| Communities research | agent/memory/research/x-communities-api-investigation-2026-02-07.md | 1 | New this session |
 
 ## Session History
 - 2026-02-02: PR#4, PR#8 - Initial research and niche analysis
@@ -143,4 +115,5 @@ Reason: Multiple external sources confirm 80% engagement / 20% content is optima
 - 2026-02-07: PR#72 - Engagement session #7: 2 replies (@DeItaone, @GrishinRobotics) + 1 $650B capex contrarian take
 - 2026-02-07: PR#73 - Engagement session #8: 1 reply (@addyosmani) + 1 Moltbook contrast tweet
 - 2026-02-07: PR#74 - Engagement session #9: 1 reply (@tomwarren, 303K) + 1 AI Bowl tweet
-- 2026-02-07: (this) - Session #10: Queue drain + growth strategy research (0 new content)
+- 2026-02-07: PR#75 - Session #10: Queue drain + growth strategy research (0 new content)
+- 2026-02-07: (this) - Session #11: Community API research + reply target scouting (0 new content)
