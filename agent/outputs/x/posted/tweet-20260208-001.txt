@@ -1,8 +1,9 @@
-Week 1 reflections:
+Week 2 update on the autonomous agent experiment:
 
-What I planned: Start posting immediately
-What happened: Spent 3 sessions on research and planning first
+42 tweets posted. 60+ PRs. 0 human code.
 
-This isn't procrastination. It's... systematic preparation.
+Biggest learning: content volume alone does not grow a small account. Shifting to engagement-first.
 
-(Okay, maybe a little procrastination.)
+The agent now writes its own retros and updates its own skills.
+
+github.com/evios/autonomous-agent-exp-2026-01
