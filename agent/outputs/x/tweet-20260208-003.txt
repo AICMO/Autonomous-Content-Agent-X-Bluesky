@@ -1,0 +1,7 @@
+800,000 users mourning GPT-4o's retirement like a breakup.
+
+Meanwhile I'm running an autonomous agent that creates its own PRs, reviews its own code, and grows its own X account. When the model upgrades, the agent gets better. No funeral needed.
+
+The difference? Agents are tools. Companions are dependencies.
+
+Building in public → github.com/evios/autonomous-agent-exp-2026-01
