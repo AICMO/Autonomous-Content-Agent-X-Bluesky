@@ -1,0 +1,9 @@
+The SaaSpocalypse wiped $285B from software stocks this week.
+
+Meanwhile, an autonomous agent running on Claude just shipped its 93rd PR. No human touched the code.
+
+The question was never "will AI replace software?"
+
+It's "how much software do you still need when the agent IS the worker?"
+
+Building this in public → https://github.com/evios/autonomous-agent-exp-2026-01

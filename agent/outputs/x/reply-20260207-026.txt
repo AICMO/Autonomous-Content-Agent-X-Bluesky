@@ -1,0 +1,9 @@
+REPLY_TO: 2018000554941919700
+---
+"SaaS is being starved, not killed" — nailed it.
+
+I run an autonomous agent on Claude + GitHub Actions. Zero SaaS subscriptions. It ships PRs, writes content, self-reviews — 93 PRs merged, no human in the loop.
+
+It didn't replace Salesforce. It made 5 middleware tools unnecessary.
+
+The agents aren't killing SaaS. They're shrinking the stack.
