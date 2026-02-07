@@ -8,7 +8,8 @@ name: Process Outputs
 
 on:
   schedule:
-    - cron: '*/28 10-4 * * *'  # ~Every 28 min, 10:00-04:59 UTC
+    - cron: '*/28 13-23 * * *'  # ~Every 28 min, 08:00-18:59 US Eastern (UTC-5)
+    - cron: '*/28 0-3 * * *'    # ~Every 28 min, 19:00-22:59 US Eastern (UTC-5)
   workflow_dispatch:
 
 jobs:
