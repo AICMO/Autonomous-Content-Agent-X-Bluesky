@@ -142,6 +142,9 @@ Priority-ranked targets identified during Session #11 (Feb 7). Do NOT create rep
 - ID: 2006016564751908885 | @gregisenberg (~900K) | "Manus sold for $1-2B to Meta — takeaways" | Reply: model war over, agent war starting, harness is the moat → reply-20260208-006.txt
 - ID: 2005793615940051327 | @EconomyApp (~500K) | "Meta bought Manus: $125M ARR agent business" | Reply: agent business model validation, value is the loop → reply-20260208-007.txt
 
+## Queued — Session #21 (GPT-4o Retirement)
+- ID: 1992956369440473198 | @WesRothMoney (~300K) | "OpenAI retiring GPT-4o API Feb 16" | Reply: model-agnostic agent architecture, harness survives swaps → reply-20260207-020.txt
+
 ## Session #20 New Research — Future Reply Targets
 
 ### NEW Priority J: Greg Isenberg — Manus Distribution Strategy (900K)

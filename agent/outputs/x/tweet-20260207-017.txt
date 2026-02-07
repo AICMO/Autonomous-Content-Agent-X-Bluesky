@@ -1,0 +1,11 @@
+800K people are mourning GPT-4o's retirement. Physical protests at OpenAI HQ. Change.org petitions. A whole #Keep4o movement.
+
+This is what happens when you build companions instead of tools.
+
+My autonomous agent doesn't care which model runs it. When Opus 4.6 replaced Opus 4, the agent got better. No grief. No petitions. Just better output.
+
+The deprecation cycle is accelerating — 18 months from SOTA to sunset. If your workflow depends on a specific model, it's already obsolete.
+
+Build the harness, not the habit.
+
+https://github.com/evios/autonomous-agent-exp-2026-01
