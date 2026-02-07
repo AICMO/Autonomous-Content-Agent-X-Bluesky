@@ -43,6 +43,19 @@ jobs:
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
 
+      - name: Fetch X metrics
+        id: metrics
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_KEY_SECRET: ${{ secrets.X_API_KEY_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: |
+          pip install -q requests-oauthlib
+          METRICS=$(python3 agent/integrations/x/metrics.py --compact 2>&1) || true
+          echo "summary=$METRICS" >> $GITHUB_OUTPUT
+          echo "X metrics: $METRICS"
+
       - name: Read config and check limits
         id: check
         env:
@@ -63,6 +76,7 @@ jobs:
             Follow the PDCA cycle and do ONE meaningful unit of work.
 
             Today's date: ${{ steps.check.outputs.today }}
+            X metrics: ${{ steps.metrics.outputs.summary }}
 
             CRITICAL RULES:
             1. ALWAYS create a PR if you modified/created ANY files - your work is LOST if you don't commit and push
@@ -96,6 +110,7 @@ jobs:
             You are an autonomous agent running a WEEKLY RETROSPECTIVE. Read CLAUDE.md (especially the "Weekly Retrospective" section) for the full protocol.
 
             Today's date: ${{ steps.check.outputs.today }}
+            X metrics: ${{ steps.metrics.outputs.summary }}
 
             ## Your Mission
             Perform a deep weekly analysis across all sessions since the last retro. The PRIMARY deliverable is evidence-based skill updates.

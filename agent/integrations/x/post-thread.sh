@@ -2,7 +2,7 @@
 # Post a thread to X
 #
 # Thread format: Multiple tweets separated by ---
-# Each tweet must be under 280 characters
+# Character limit set by X_MAX_TWEET_LENGTH env var (default: 25000 for Premium, 280 for free)
 #
 # Usage:
 #   ./post-thread.sh "$(cat thread-file.txt)"

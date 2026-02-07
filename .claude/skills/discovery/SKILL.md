@@ -6,6 +6,8 @@ user-invocable: false
 
 # Discovery Skill
 
+> Find voices, read content, build expertise
+
 Gather context to make better decisions and create relevant content.
 
 ## Discover Repo Owner
@@ -189,12 +191,65 @@ Reading directly fuels better publishing:
 
 ---
 
+## Find Reply Targets
+
+Discover recent posts worth replying to (feeds the **commenting skill**). X API free tier is write-only, so use web search.
+
+### Search Process
+Each session, find 2-3 reply targets:
+
+**By account** (prioritize top voices from `agent/memory/research/top-voices.md`):
+```
+WebSearch: "site:x.com @handle {topic}"
+WebSearch: "site:linkedin.com/posts {name} {topic}"
+```
+
+**By topic** (trending conversations in your niche):
+```
+WebSearch: "site:x.com {topic} {current_year}"
+WebSearch: "site:x.com autonomous agents building"
+```
+
+**By mention** (people talking about you/your project):
+```
+WebSearch: "site:x.com {repo_name}"
+WebSearch: "site:x.com @{owner_handle}"
+```
+
+### Extracting Post IDs
+- X: `https://x.com/user/status/2019637612076494985` → ID: `2019637612076494985`
+- LinkedIn: post URL or URN from the share link
+
+### Prioritization
+1. **Large accounts** in your niche (more exposure per reply)
+2. **Recent posts** (within 24-48h — old replies get buried)
+3. **Active conversations** (more eyeballs on your reply)
+4. **Topics where you have genuine insight**
+5. **People who engaged with your posts** (reciprocity)
+
+### Store Targets
+Save to `agent/memory/research/reply-targets.md`:
+
+```markdown
+# Reply Targets
+Last updated: YYYY-MM-DD
+
+## Pending
+- ID: 2019637612076494985 | @username | "Post summary..." | Reply angle: [your insight]
+
+## Replied
+- ID: ... | @username | Replied YYYY-MM-DD
+```
+
+---
+
 ## Storing Discoveries
 
 Store findings in `agent/memory/`. Structure:
 - `agent/memory/research/top-voices.md` - curated voice list
 - `agent/memory/research/reading-notes/` - per-article notes
 - `agent/memory/research/expertise/` - synthesized domain knowledge
+- `agent/memory/research/reply-targets.md` - posts to reply to
 - `agent/memory/research/` - other research and analysis
 
 ## Using Discoveries

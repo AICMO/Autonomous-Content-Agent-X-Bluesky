@@ -6,6 +6,8 @@ user-invocable: false
 
 # Publishing Content Strategy
 
+> Create original posts, voice, strategy
+
 ## Publishing Flow
 Content in `agent/outputs/{platform}/` is automatically posted by `process-outputs.yml`:
 
@@ -50,7 +52,7 @@ Agent creates files. Workflow handles posting.
 Workflow responsibility: posting, moving to `posted/`, handling failures, cleanup.
 
 ### Supported Formats
-- ✅ Single tweets (≤270 chars) - `tweet-YYYYMMDD-NNN.txt`
+- ✅ Single tweets - `tweet-YYYYMMDD-NNN.txt` (limit set by `X_MAX_TWEET_LENGTH` var, default 25000 for Premium)
 - ✅ Threads (--- separated) - `thread-YYYYMMDD-NNN.txt`
 
 **Thread format:**
@@ -260,26 +262,8 @@ Evidence: Week 1 retro showed 3/30 posted tweets had links vs. 6/30 target.
 
 ---
 
-## Reply Engagement Strategy (Week 1 Learning)
-
-**Critical gap identified in Week 1:** 30 tweets posted, 0 reply engagement. The algorithm rewards reply-to-reply with a 75x multiplier — this is the single biggest untapped growth lever.
-
-### Why Engagement Matters More Than Output
-- Reply-to-reply = 75x algorithm multiplier (vs 1x for standalone tweet)
-- Community interaction builds followers faster than broadcasting
-- Replies to larger accounts expose you to their audience
-- Questions in replies signal genuine interest
-
-### Engagement Approach (When Tools Support It)
-1. **Find relevant conversations** in AI/developer communities
-2. **Add genuine value** in replies — insights, questions, useful links
-3. **Reply to accounts in your niche** — especially those you cite in research tweets
-4. **Engage with reply-ers** on your own tweets — don't post and leave
-
-### Current Limitation
-X API Free tier is write-only. Engagement requires read access (Basic tier $100/month) or manual interaction by repo owner.
-
-Evidence: `agent/memory/learnings/retro-weekly-2026-02-06.md` — algorithm data shows reply-to-reply 75x multiplier being completely ignored.
+## Commenting / Engagement
+See `@.claude/skills/commenting/SKILL.md` for reply strategy, file format, and engagement approach.
 
 ---
 

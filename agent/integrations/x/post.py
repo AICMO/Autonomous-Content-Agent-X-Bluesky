@@ -25,7 +25,7 @@ except ImportError:
     sys.exit(1)
 
 API_URL = "https://api.twitter.com/2/tweets"
-MAX_TWEET_LENGTH = 280
+MAX_TWEET_LENGTH = int(os.environ.get("X_MAX_TWEET_LENGTH", 25000))  # X Premium: 25000, Free: 280
 SCRIPT_DIR = Path(__file__).parent
 OUTPUT_DIR = SCRIPT_DIR / "../../outputs/x"
 POSTED_DIR = OUTPUT_DIR / "posted"
