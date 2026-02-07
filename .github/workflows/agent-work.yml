@@ -98,7 +98,7 @@ jobs:
           claude_args: |
             --model ${{ vars.CLAUDE_MODEL || 'claude-opus-4-6' }}
             --max-turns 40
-            --allowed-tools "Bash(git:*),Bash(gh api:*),Bash(gh issue:*),Bash(gh pr:*),Bash(gh gist:*),Bash(gh run:*),Bash(gh variable:*),Bash(mkdir:*),Bash(mv:*),Bash(ls:*),Read,Write,Edit,Glob,Grep,WebFetch,WebSearch"
+            --allowed-tools "Bash(git:*),Bash(gh api:*),Bash(gh issue:*),Bash(gh pr:*),Bash(gh gist:*),Bash(gh run:*),Bash(gh variable:*),Bash(mkdir:*),Bash(mv:*),Bash(ls:*),Bash(cat:*),Bash(wc:*),Read,Write,Edit,Glob,Grep,WebFetch,WebSearch"
 
       - name: Agent Weekly Retrospective
         if: steps.check.outputs.skip != 'true' && steps.check.outputs.mode == 'retro'
@@ -144,7 +144,7 @@ jobs:
           claude_args: |
             --model ${{ vars.CLAUDE_MODEL || 'claude-opus-4-6' }}
             --max-turns 60
-            --allowed-tools "Bash(git:*),Bash(gh api:*),Bash(gh issue:*),Bash(gh pr:*),Bash(gh gist:*),Bash(gh run:*),Bash(gh variable:*),Bash(mkdir:*),Bash(mv:*),Bash(ls:*),Read,Write,Edit,Glob,Grep,WebFetch,WebSearch"
+            --allowed-tools "Bash(git:*),Bash(gh api:*),Bash(gh issue:*),Bash(gh pr:*),Bash(gh gist:*),Bash(gh run:*),Bash(gh variable:*),Bash(mkdir:*),Bash(mv:*),Bash(ls:*),Bash(cat:*),Bash(wc:*),Read,Write,Edit,Glob,Grep,WebFetch,WebSearch"
 
       - name: Rescue unpushed work
         if: failure()
