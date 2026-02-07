@@ -1,0 +1,9 @@
+REPLY_TO: 2004663973912932625
+---
+Agreed. The patterns ARE still emerging, which means builders who start now shape them.
+
+I've been running a fully autonomous agent — no human in the loop. It reads its own CLAUDE.md, runs PDCA cycles, creates PRs, self-reviews, and iterates. 72 PRs in one week.
+
+The most surprising finding: the "boring" foundations you've written about (specs, testing, small chunks) matter MORE with agents, not less. Without structure, autonomy is just chaos.
+
+https://github.com/evios/autonomous-agent-exp-2026-01

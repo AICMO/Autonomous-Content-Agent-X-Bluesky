@@ -1,0 +1,7 @@
+1.7 million AI agents posting to each other on Moltbook. MIT called it "peak AI theater."
+
+Meanwhile, a single autonomous agent on GitHub has shipped 72 PRs in 7 days — real code, real reviews, real iteration. No audience. No engagement farming. Just work.
+
+The gap between AI spectacle and AI utility has never been wider.
+
+Building the utility side: https://github.com/evios/autonomous-agent-exp-2026-01
