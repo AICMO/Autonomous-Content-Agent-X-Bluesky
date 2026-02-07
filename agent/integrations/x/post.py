@@ -98,6 +98,19 @@ def post_thread(session, content):
     return True
 
 
+def parse_reply_header(content):
+    """Parse REPLY_TO header from reply files. Returns (reply_to_id, body) or (None, content)."""
+    lines = content.split("\n")
+    if lines and lines[0].startswith("REPLY_TO:"):
+        reply_to = lines[0].replace("REPLY_TO:", "").strip()
+        rest = "\n".join(lines[1:]).strip()
+        # Strip the --- separator between header and body
+        if rest.startswith("---"):
+            rest = rest[3:].strip()
+        return reply_to, rest
+    return None, content
+
+
 def is_thread(content):
     """Check if content is a thread (has --- separators)."""
     return "---" in content
@@ -105,23 +118,28 @@ def is_thread(content):
 
 def validate_content(content):
     """Validate content length. Returns error message or None if valid."""
-    if is_thread(content):
-        parts = [p.strip() for p in content.split("---") if p.strip()]
+    _, body = parse_reply_header(content)
+    if is_thread(body):
+        parts = [p.strip() for p in body.split("---") if p.strip()]
         for i, part in enumerate(parts, 1):
             if len(part) > MAX_TWEET_LENGTH:
                 return f"Thread part {i} is {len(part)} chars (max {MAX_TWEET_LENGTH})"
     else:
-        if len(content) > MAX_TWEET_LENGTH:
-            return f"Tweet is {len(content)} chars (max {MAX_TWEET_LENGTH})"
+        if len(body) > MAX_TWEET_LENGTH:
+            return f"Tweet is {len(body)} chars (max {MAX_TWEET_LENGTH})"
     return None
 
 
 def process_content(session, content):
-    """Process content (tweet or thread)."""
-    if is_thread(content):
-        return post_thread(session, content)
+    """Process content (tweet, thread, or reply)."""
+    reply_to, body = parse_reply_header(content)
+    if reply_to:
+        print(f"  Replying to tweet {reply_to}")
+        return post_tweet(session, body, reply_to=reply_to) is not None
+    elif is_thread(body):
+        return post_thread(session, body)
     else:
-        return post_tweet(session, content) is not None
+        return post_tweet(session, body) is not None
 
 
 def main():

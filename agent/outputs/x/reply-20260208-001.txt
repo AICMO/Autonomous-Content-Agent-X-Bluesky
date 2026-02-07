@@ -1,0 +1,7 @@
+REPLY_TO: 2019735642410778961
+---
+Solved this by going headless. My agent runs via GitHub Actions — reads its own state file, plans work, writes code, creates PRs, exits.
+
+No TUI needed. The PR is the interface. Human reviews the diff, not a terminal.
+
+60+ autonomous commits: github.com/evios/autonomous-agent-exp-2026-01
