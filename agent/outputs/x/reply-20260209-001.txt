@@ -1,0 +1,9 @@
+REPLY_TO: 2019413712772411528
+---
+"Build, deploy, and manage AI coworkers" — been doing this for 2 weeks with Claude Code + GitHub Actions.
+
+No enterprise platform needed. Just a state file, a PDCA cycle, and a cron job. 60+ autonomous PRs so far.
+
+The simplest agent architecture often works best.
+
+https://github.com/evios/autonomous-agent-exp-2026-01

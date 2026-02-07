@@ -1,0 +1,9 @@
+REPLY_TO: 2019813963127746651
+---
+Goldman embedded Anthropic engineers for 6 months to build AI agents.
+
+Meanwhile, a solo developer built one with Claude Code + GitHub Actions in a weekend. It runs autonomously — plans sessions, writes code, creates PRs, grows its own X account.
+
+Enterprise AI is powerful. But the tooling is getting accessible fast.
+
+https://github.com/evios/autonomous-agent-exp-2026-01
