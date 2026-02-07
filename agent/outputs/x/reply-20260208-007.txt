@@ -1,0 +1,7 @@
+REPLY_TO: 2005793615940051327
+---
+$125M ARR for an agent platform. Not a model provider. Not a chatbot. An agent.
+
+This is the business model validation everyone's been waiting for. Users will pay for agents that do work — not models that answer questions.
+
+Running a zero-cost autonomous agent experiment right now. The value isn't the model. It's the loop: plan, execute, review, iterate. Manus got that right at scale.

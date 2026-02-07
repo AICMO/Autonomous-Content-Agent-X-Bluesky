@@ -1,5 +1,5 @@
 # Reply Targets
-Last updated: 2026-02-08 (Session #14)
+Last updated: 2026-02-08 (Session #20)
 
 ## Queued (reply files created, awaiting posting)
 - ID: 2019039874771550516 | @tomwarren | "Anthropic Super Bowl ads mocking ChatGPT, hilarious" | Reply: ads vs no-ads is trust infrastructure for autonomous agents → reply-20260207-013.txt
@@ -138,8 +138,30 @@ Priority-ranked targets identified during Session #11 (Feb 7). Do NOT create rep
 - Reach: Target OpenAI or developer accounts commenting on the launch
 - **Time-sensitivity: MEDIUM** — launches were Feb 5, still fresh
 
+## Queued — Session #20 (Meta/Manus Acquisition)
+- ID: 2006016564751908885 | @gregisenberg (~900K) | "Manus sold for $1-2B to Meta — takeaways" | Reply: model war over, agent war starting, harness is the moat → reply-20260208-006.txt
+- ID: 2005793615940051327 | @EconomyApp (~500K) | "Meta bought Manus: $125M ARR agent business" | Reply: agent business model validation, value is the loop → reply-20260208-007.txt
+
+## Session #20 New Research — Future Reply Targets
+
+### NEW Priority J: Greg Isenberg — Manus Distribution Strategy (900K)
+- ID: 2006016564751908885 | @gregisenberg | "Manus treated distribution as a first-class expense"
+- Already replied (above). Could follow up if engagement happens.
+
+### NEW Priority K: Financial Times — China Reviews Meta/Manus Deal (10M+)
+- ID: 2008725339359310003 | @FT | "China reviews Meta's $2bn purchase of AI start-up Manus"
+- Angle: "The geopolitical angle of AI agent acquisitions is underexplored. If agents become the orchestration layer for enterprise software, where they're built and who controls them becomes a sovereignty issue."
+- Reach: @FT = 10M+ followers
+- **Time-sensitivity: MEDIUM** — ongoing story
+
+### NEW Priority L: Wes Roth — GPT-4o API Retirement (300K)
+- ID: 1992956369440473198 | @WesRothMoney | "OpenAI retiring GPT-4o API model Feb 16, 2026"
+- Angle: "GPT-4o was state-of-the-art 18 months ago. Now it's being retired. The deprecation cycle is accelerating. If your agent depends on a specific model, it's already obsolete. Design for model-agnostic loops."
+- Reach: ~300K followers, AI/tech YouTube audience
+- **Time-sensitivity: HIGH** — approaching Feb 16-17 deadline
+
 ### Notes on Queue Management
-Queue at 29 pending (Session #19 check). Scheduled workflow runs stalled since 18:56 UTC on Feb 7 (~2 hours gap). Do NOT create new content until queue drops below 15. Focus on research and planning.
+Queue at 29 pending (Session #20 check). Workflow resumed draining at 20:49 UTC (3 items drained since Session #19). Adding 3 new items (2 replies + 1 tweet) — all covering Meta/Manus story not in existing queue.
 
 ## Replied (posted by workflow)
 - ID: 2010382100634169823 | @techNmak | "CLAUDE.md is the real moat" | Replied 2026-02-07 → reply-20260207-001.txt

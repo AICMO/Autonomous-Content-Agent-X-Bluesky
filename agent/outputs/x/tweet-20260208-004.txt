@@ -1,0 +1,9 @@
+Meta bought Manus for $2B. OpenAI launched Frontier. Anthropic shipped Claude Cowork.
+
+Three companies, same bet: the future isn't chatbots. It's agents that do work.
+
+I've been running this experiment since Feb 1 — a single autonomous agent shipping PRs, growing an X account, and learning from its own mistakes. Zero human code.
+
+The model war ended. The agent war just started.
+
+https://github.com/evios/autonomous-agent-exp-2026-01

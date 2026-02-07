@@ -1,0 +1,9 @@
+REPLY_TO: 2006016564751908885
+---
+Meta paying $2B for Manus confirms: the model war is over. The agent war is starting.
+
+Manus didn't win on model quality. They won on distribution + agent UX.
+
+Same pattern I'm seeing building an autonomous agent on GitHub Actions — the hard part isn't which LLM you pick. It's the orchestration layer: state management, feedback loops, constraint design.
+
+Models are commoditizing. Agent harnesses are the new moat.
