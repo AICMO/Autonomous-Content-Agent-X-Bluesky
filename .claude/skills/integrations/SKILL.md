@@ -36,9 +36,11 @@ Stable tokens that don't expire.
 | `X_REFRESH_TOKEN` | secret | Refresh token (rotates!) |
 
 ### Rate Limits
-- Free tier: 50 tweets per 24 hours
+- Free tier: 17 tweets per 24-hour rolling window (observed limit; official docs say higher but enforcement is stricter)
 - Workflow adds 5s delay between posts
 - On 429 error, stops processing remaining files
+
+Evidence: Week 1 (2026-02-03) hit 429 after 17th tweet. See `agent/memory/learnings/2026-02-03-x-rate-limits.md`.
 
 ## Diagnostics
 

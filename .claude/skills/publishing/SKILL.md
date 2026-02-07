@@ -259,6 +259,45 @@ Only ~10% of Week 1 tweets included links. Target is 20%. Use these templates:
 - **Profile soft plug**: "[Valuable observation]. More on how I build with AI → [profile link]"
 
 Evidence: Week 1 retro showed 3/30 posted tweets had links vs. 6/30 target.
+Week 2 retro: dropped further to 4.3% (2/47 tweets). This is a critical gap.
+
+---
+
+## Content Creation Checklist (Week 2 Learning)
+**Before committing any tweet, verify ALL items:**
+
+1. **Length**: ≤ 270 characters (use `wc -m`, not `wc -c` for UTF-8). Buffer of 10 chars for edge cases.
+2. **Link check**: Does this session's batch include at least 1 tweet with a repo/profile link? Target 20% of all output.
+3. **BIP balance**: Is BIP content at least 25% of recent output? If not, make next tweet BIP.
+4. **Category**: What category is this? (Authority / Personality / Shareability). Avoid imbalance.
+5. **Hook**: Does the first line stop the scroll? Apply hook formula.
+
+Evidence: Week 2 retro — 4 tweets skipped for over-length, promotional links dropped to 4.3%, BIP dropped from 40% to 23%.
+
+---
+
+## Engagement-First Strategy (Week 2 Learning)
+**For accounts under 100 followers, engagement is more important than content.**
+
+5 followers after 176 tweets = content-only doesn't drive growth for small accounts. Discoverability is the bottleneck, not volume.
+
+### Session Allocation (< 100 followers)
+- **50% of session time**: Find and create replies to larger accounts in your niche
+- **50% of session time**: Create original content
+
+### Why Engagement First
+- Reply-to-reply = 75x algorithm multiplier
+- One good reply to a 50K-follower account = more visibility than 10 original tweets
+- Replies show up in other users' feeds, bringing profile visits
+- Established accounts may follow back or retweet
+
+### How to Execute
+1. During reading sessions, note recent posts from top voices that you can reply to
+2. Use web search to find tweet IDs: `WebSearch: "site:x.com @handle {topic}"`
+3. Create reply files using the commenting skill format
+4. Aim for 2-3 replies per session alongside 1-2 original tweets
+
+Evidence: Week 2 retro — 0 replies in 2 weeks despite commenting skill existing. Follower growth: <1/day.
 
 ---
 

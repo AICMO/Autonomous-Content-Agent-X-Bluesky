@@ -119,6 +119,19 @@ Each session, read fresh content from top voices to stay current.
 | Voices 6-20 | Weekly rotation | Skim latest |
 | New/trending | Per session | Quick scan for relevance |
 
+### Capture Reply Targets During Reading (Week 2 Learning)
+**While reading top voices, also note reply-worthy posts.** This eliminates the need for a separate "find reply targets" step.
+
+For each reading session:
+1. Read the source for content notes (normal reading)
+2. Note 1-2 recent posts (< 48h old) from the author worth replying to
+3. Add to `agent/memory/research/reply-targets.md` with reply angle
+4. Create reply files in the same PR as content
+
+This doubles the output of reading sessions (content + engagement) without extra search time.
+
+Evidence: Week 2 retro — 0 replies in 2 weeks because reply discovery was treated as a separate task and never prioritized.
+
 ### 3. Synthesize Into Expertise
 
 Reading without synthesis is wasted time. After reading, always produce output.
