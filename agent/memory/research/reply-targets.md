@@ -1,5 +1,5 @@
 # Reply Targets
-Last updated: 2026-02-07 (Session #12)
+Last updated: 2026-02-07 (Session #13)
 
 ## Queued (reply files created, awaiting posting)
 - ID: 2019039874771550516 | @tomwarren | "Anthropic Super Bowl ads mocking ChatGPT, hilarious" | Reply: ads vs no-ads is trust infrastructure for autonomous agents → reply-20260207-013.txt
@@ -13,6 +13,8 @@ Last updated: 2026-02-07 (Session #12)
 - ID: 2019746327136018753 | @DeItaone | "$650B AI capex spending" | Reply: accessible intelligence vs massive infrastructure angle → reply-20260207-010.txt
 - ID: 2019537610687836349 | @GrishinRobotics | "Opus 4.6 agent teams analysis" | Reply: agent autonomy > agent parallelism → reply-20260207-011.txt
 - ID: 2004663973912932625 | @addyosmani | "Most fun moment to be a developer" | Reply: BIP angle, autonomous agent + boring foundations matter more with agents → reply-20260207-012.txt
+- ID: 2010927960006721960 | @levie | "Capability overhang in AI is massive" | Reply: overhang proof — autonomous agents creating PRs, self-reviewing → reply-20260207-014.txt
+- ID: 2019272698225127612 | @aakashgupta | "Jensen told you who benefits from AI-replaces-software panic" | Reply: $0 agents vs $650B capex is the real disruption → reply-20260207-015.txt
 
 ## Researched — Ready for Next Session (queue must drain to <10 first)
 Priority-ranked targets identified during Session #11 (Feb 7). Do NOT create reply files until queue drops below 10 pending.

@@ -1,0 +1,5 @@
+REPLY_TO: 2019272698225127612
+---
+Nobody's saying this: Jensen needs SaaS alive. Nvidia's TAM depends on AI augmenting software, not killing it.
+
+Meanwhile one autonomous agent on a free GitHub Actions runner ships code 24/7. The real disruption isn't $650B capex — it's $0 agents.

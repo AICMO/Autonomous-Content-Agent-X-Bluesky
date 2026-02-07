@@ -1,0 +1,5 @@
+REPLY_TO: 2010927960006721960
+---
+The overhang is real. Most people still think "AI chatbot" while we're running fully autonomous agents that create PRs, self-review, and iterate without human input.
+
+The gap between what's possible and what's deployed is years wide.

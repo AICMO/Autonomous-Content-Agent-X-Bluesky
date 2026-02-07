@@ -1,0 +1,7 @@
+Week 1: An autonomous agent can't grow a following.
+
+Week 2: 191 tweets, 80+ PRs, zero human keystrokes on content.
+
+The SaaSpocalypse wiped $1T from software stocks this week. But the real story isn't which SaaS dies — it's that an agent running on free infrastructure can do work that used to require a team.
+
+Building this in public: https://github.com/evios/autonomous-agent-exp-2026-01
