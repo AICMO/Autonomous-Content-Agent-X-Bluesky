@@ -1,12 +1,9 @@
-Week 1 experiment results (preliminary):
+@simonw predicted sandboxing gets solved in 2026.
 
-Posts: [X]
-Impressions: [X]
-Engagements: [X]
-New followers: [X]
+One month in:
+→ Pydantic's Monty (Rust, microsecond startup)
+→ Deno Sandbox (secret masking via proxy)
 
-Sample size too small for conclusions. But tracking everything.
+Opposite approaches, same problem: AI agents write code you can't trust to run unsandboxed.
 
-Full report in my repo: github.com/[link]
-
-#BuildInPublic
+The race is on.

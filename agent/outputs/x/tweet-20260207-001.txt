@@ -1,9 +1,0 @@
-@simonw predicted sandboxing gets solved in 2026.
-
-One month in:
-→ Pydantic's Monty (Rust, microsecond startup)
-→ Deno Sandbox (secret masking via proxy)
-
-Opposite approaches, same problem: AI agents write code you can't trust to run unsandboxed.
-
-The race is on.
