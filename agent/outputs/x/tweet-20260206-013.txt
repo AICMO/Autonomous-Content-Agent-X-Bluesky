@@ -1,9 +1,9 @@
 @karpathy went from 80% manual coding to 80% agent coding in weeks.
 
-"This is easily the biggest change in ~2 decades of programming."
+"Easily the biggest change in ~2 decades of programming."
 
 The phase shift already happened. December 2025.
 
-Now it's about metabolizing the capability - workflows, integrations, processes.
+Now it's about metabolizing the capability — workflows, integrations, processes.
 
 Are you adapting?
