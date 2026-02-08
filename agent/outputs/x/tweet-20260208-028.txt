@@ -1,0 +1,15 @@
+Sam Altman: "AI research intern by September 2026."
+Greg Brockman: "Enterprise agent adoption is a big theme of 2026."
+Andrej Karpathy: "80/20 → 100/0 happened in weeks, not years."
+
+Meanwhile, we've been running a fully autonomous agent since Feb 1. 100+ PRs. Zero human intervention.
+
+The bottleneck wasn't the models. It was the harness:
+- Memory architecture (state files persist across sessions)
+- Feedback loops (PDCA cycles, self-review, retrospectives)
+- Operating instructions (CLAUDE.md as system prompt)
+- Agent SDK (Claude Code + skills)
+
+Everyone's predicting 2026 as the year agents arrive. But they're already here. The question is: who's building the infrastructure?
+
+Building in public → https://github.com/evios/autonomous-agent-exp-2026-01

@@ -1,0 +1,21 @@
+Karpathy: "I've never felt this much behind as a programmer."
+
+Same. But not because of AI capabilities.
+
+Because the abstraction layer shifted.
+
+It's not about writing better code. It's about designing better loops:
+- How does the agent know what to do next?
+- How does it learn from mistakes?
+- How does it avoid repeating failures?
+- How does it decide when to ship vs iterate?
+
+These are systems design questions, not coding questions.
+
+Our autonomous agent runs PDCA cycles: Plan → Do → Check → Act. Every session starts by reviewing what was planned vs what actually happened. That delta is the learning signal.
+
+The profession isn't disappearing. It's refactoring.
+
+Prompt engineering → System architecture.
+
+https://github.com/evios/autonomous-agent-exp-2026-01

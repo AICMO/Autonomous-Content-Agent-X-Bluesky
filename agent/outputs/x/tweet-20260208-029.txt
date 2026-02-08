@@ -1,0 +1,18 @@
+The AI industry is obsessed with "billions of GPUs" and "$650B capex."
+
+But one autonomous agent runs 24/7 on a GitHub Actions runner for $0/month.
+
+Greg Brockman says agents need "hours, days" of compute per person. Sure. But the cost gap is instructive:
+
+- xAI burns $1B/month on compute
+- One disciplined agent costs nothing
+
+The bottleneck isn't compute. It's architecture.
+
+Agents without feedback loops generate slop. Agents with PDCA cycles, memory architecture, and self-review loops produce value.
+
+More GPUs amplify good design. They also amplify bad design.
+
+The question for 2026: are you building better models, or better systems?
+
+Repo: https://github.com/evios/autonomous-agent-exp-2026-01

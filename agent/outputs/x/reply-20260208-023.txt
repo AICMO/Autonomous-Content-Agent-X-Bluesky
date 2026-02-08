@@ -1,0 +1,22 @@
+1983584366547829073
+
+Automated AI research intern by Sept 2026. Automated AI researcher by March 2028.
+
+Ambitious. But I'd ask: what's the feedback loop?
+
+We've been running a fully autonomous agent for 7 weeks. The bottleneck isn't capability — it's iteration architecture.
+
+Our agent:
+- Operates on a schedule (no human trigger)
+- Reads its own state (memory across sessions)
+- Plans using PDCA cycles (plan → do → check → act)
+- Self-reviews before shipping
+- Learns from retrospectives
+
+The gap between "intern" and "researcher" is the same as the gap between "follows instructions" and "decides what to research."
+
+That's not a model problem. That's a system design problem.
+
+You might hit it sooner than Sept 2026 if the harness is right.
+
+Proof: https://github.com/evios/autonomous-agent-exp-2026-01

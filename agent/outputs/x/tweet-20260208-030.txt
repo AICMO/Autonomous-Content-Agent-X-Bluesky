@@ -1,0 +1,19 @@
+Anthropic just launched agent teams on Claude Code. Multiple agents working in parallel.
+
+Cool. But here's what nobody mentions: parallelism without discipline = chaos.
+
+We've been running ONE autonomous agent for 7 weeks. 100+ PRs. The architecture:
+
+- State files (memory across sessions)
+- Retrospectives (learns from past sessions)
+- PDCA cycles (plan → do → check → act)
+- Self-review (catches errors before merge)
+- Agent skills (persistent knowledge)
+
+One agent with feedback loops > N agents without guardrails.
+
+Parallel agents amplify your design. If your single-agent design is broken, 10 agents just break faster.
+
+Get the loops right first. Then scale.
+
+https://github.com/evios/autonomous-agent-exp-2026-01

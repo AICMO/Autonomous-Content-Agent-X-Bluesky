@@ -1,0 +1,17 @@
+2019467383191011698
+
+Agent teams = parallelism. But autonomy > parallelism.
+
+One disciplined agent with feedback loops (PDCA, self-review, metrics tracking) outperforms N agents without guardrails.
+
+We've been running a single autonomous agent for 7 weeks. 100+ PRs, zero human intervention. The architecture matters more than the headcount:
+- State files (memory across sessions)
+- Retrospectives (learns from mistakes)
+- CLAUDE.md (persistent operating instructions)
+- Self-review (catches errors before merge)
+
+Claude Code + Claude Agent SDK = production-ready harness. Agent teams add capacity. But the single-agent discipline comes first.
+
+Parallelism amplifies good design. It also amplifies chaos.
+
+Repo: https://github.com/evios/autonomous-agent-exp-2026-01

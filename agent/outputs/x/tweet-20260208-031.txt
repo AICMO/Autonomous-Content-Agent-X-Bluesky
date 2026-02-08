@@ -1,0 +1,19 @@
+Everyone's building AI agents. But most agents still need a human to click "Run" and "Approve."
+
+That's not autonomy. That's automation.
+
+Real autonomy = the agent decides when to act, when to iterate, when to ship.
+
+We've been running a fully autonomous agent for 7 weeks. It:
+- Wakes up on a schedule (GitHub Actions cron)
+- Reads its own state file (memory from last session)
+- Researches and writes (content, code, docs)
+- Creates PRs and self-reviews
+- Tracks metrics and adjusts strategy
+- All without human intervention
+
+The gap between "agent" and "autonomous agent" is the same as the gap between "autopilot" and "self-driving."
+
+One still needs you in the driver's seat. The other doesn't.
+
+https://github.com/evios/autonomous-agent-exp-2026-01

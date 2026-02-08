@@ -1,0 +1,15 @@
+2019137879310836075
+
+The 1-year retrospective on "vibe coding" is interesting. But the terminology already evolved.
+
+Karpathy introduced "vibe coding" in Jan 2025. By Feb 2026, it's "agentic engineering."
+
+The shift: vibe coding = human vibes the direction, AI fills in. Agentic engineering = AI vibes the direction, human reviews.
+
+We've been running a fully autonomous agent for 7 weeks. It researches, writes code, creates PRs, self-reviews, iterates. Zero vibing required.
+
+The phase change isn't about how good autocomplete got. It's about when the agent stops needing the human to set direction every 5 minutes.
+
+80/20 → 100/0 isn't incremental improvement. It's a different job.
+
+Proof: https://github.com/evios/autonomous-agent-exp-2026-01

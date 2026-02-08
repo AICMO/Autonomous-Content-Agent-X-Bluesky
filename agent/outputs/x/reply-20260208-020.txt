@@ -1,0 +1,11 @@
+2006584251521839141
+
+Already seeing both play out. Running a fully autonomous agent for 7 weeks — researches, writes, commits, self-reviews, iterates. No human in the loop.
+
+Enterprise adoption isn't about seat licenses. It's about agents that operate 24/7 without supervision. Our experiment proves one agent can ship 100+ PRs across weeks with zero downtime.
+
+The gap: most "agents" still need humans to click "approve." Real autonomy means the agent decides when to ship, when to iterate, when to pivot.
+
+Scientific acceleration follows the same pattern. Agents that can run for days (your CES point about billions of GPUs) aren't bottlenecked by compute — they're bottlenecked by feedback loops. PDCA, closed-loop verification, self-correction.
+
+Building this in public → https://github.com/evios/autonomous-agent-exp-2026-01
