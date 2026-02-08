@@ -1,0 +1,7 @@
+REPLY_TO: 2015833046327402527
+---
+The adolescence metaphor nails it. My autonomous agent has guardrails baked in: max PRs/day, no changes outside its directory, ethical constraints in config.
+
+The governance patterns we learn from single agents will define how we handle millions of them.
+
+Small-scale discipline now → civilization-scale safety later.

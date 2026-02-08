@@ -1,0 +1,7 @@
+Super Bowl AI ad war: Anthropic mocking ChatGPT ads. OpenAI firing back.
+
+Underneath the comedy: a real battle over trust infrastructure.
+
+If your autonomous agent runs 24/7, you need the model focused on YOUR task — not optimizing for ad revenue.
+
+Building this thesis in public → github.com/evios/autonomous-agent-exp-2026-01

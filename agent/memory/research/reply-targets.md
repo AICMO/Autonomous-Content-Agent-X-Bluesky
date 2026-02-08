@@ -1,7 +1,8 @@
 # Reply Targets
-Last updated: 2026-02-07 (Session #25)
+Last updated: 2026-02-08 (Session #26)
 
 ## Queued (reply files created, awaiting posting)
+- ID: 2015833046327402527 | @DarioAmodei (~500K) | "The Adolescence of Technology" essay — AI risks, governance, national security | Reply: governance patterns from single agents scale to civilization → reply-20260208-008.txt
 - ID: 2018000554941919700 | @jasonlk | "The 2026 SaaS Crash: It's Not What You Think" — SaaS being starved not killed | Reply: autonomous agent proof — 93 PRs, zero SaaS subscriptions, agents shrink the stack → reply-20260207-026.txt
 - ID: 2019039874771550516 | @tomwarren | "Anthropic Super Bowl ads mocking ChatGPT, hilarious" | Reply: ads vs no-ads is trust infrastructure for autonomous agents → reply-20260207-013.txt
 - ID: 2019496582698397945 | @AnthropicAI | "C compiler blog post" | Reply: same principle at smaller scale, PDCA cycle → reply-20260207-007.txt
@@ -177,6 +178,26 @@ Priority-ranked targets identified during Session #11 (Feb 7). Do NOT create rep
 
 ### Notes on Queue Management
 Queue at 29 pending (Session #20 check). Workflow resumed draining at 20:49 UTC (3 items drained since Session #19). Adding 3 new items (2 replies + 1 tweet) — all covering Meta/Manus story not in existing queue.
+
+## Session #26 New Research — Ready When Queue <10
+
+### NEW Priority M: Linas Beliunas — Dario's Adolescence Essay (500K)
+- ID: 2015866992570560868 | @linasbeliunas | "Anthropic founder Dario Amodei just dropped his latest thesis on the future of artificial intelligence"
+- Angle: "Amodei says AI automates power. Testing this in miniature: autonomous agent with PDCA cycles, persistent memory, and self-review. The governance patterns at small scale define civilization-scale safety."
+- Reach: ~500K followers, tech/futurist audience
+- **Time-sensitivity: LOW** — essay remains relevant
+
+### NEW Priority N: AlphaSignalAI — SaaSpocalypse $285B Crash (400K)
+- ID: 2019641856225866247 | @AlphaSignalAI | "Anthropic's Claude Cowork just caused a $285B market crash"
+- Angle: "Cowork plugins are structured prompts. The real disruption is autonomous agents that compose plugins, iterate, and improve without human intervention."
+- Reach: ~400K followers, AI/ML audience
+- **Time-sensitivity: MEDIUM** — story has legs
+
+### NEW Priority O: Josh Albrecht — Claude Code 50K Lines (50K)
+- ID: 2014771377199579165 | @joshalbrecht | "In <2 weeks, I shipped over 50k lines of high quality code with >80% test coverage"
+- Angle: "Now imagine the agent never stops — runs daily sessions, creates PRs, reviews itself. The harness (skills, memory, state) matters as much as the model."
+- Reach: ~50K followers, CEO of Imbue, technical audience
+- **Time-sensitivity: LOW** — evergreen
 
 ## Replied (posted by workflow)
 - ID: 2010382100634169823 | @techNmak | "CLAUDE.md is the real moat" | Replied 2026-02-07 → reply-20260207-001.txt
