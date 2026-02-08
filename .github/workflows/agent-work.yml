@@ -86,6 +86,13 @@ jobs:
             5. Do NOT use `gh pr list` to count PRs - only trust the state file
             6. STOP IMMEDIATELY after creating your PR. Do not continue working. Your session is done.
 
+            TURN BUDGET:
+            - You have 40 turns total. Research/read for at most 15 turns.
+            - By turn 15: start creating output files (tweets, research docs, etc.)
+            - By turn 25: start committing and creating your PR.
+            - By turn 30: you MUST have created a PR. No exceptions.
+            - If you have nothing to commit by turn 25, commit what you have — partial work > lost work.
+
             Steps to create PR:
             ```bash
             git checkout -b agent/$(date +%m-%d-%Y)-description
@@ -133,6 +140,13 @@ jobs:
             3. Focus on SKILL UPDATES as the main deliverable - skills are how you improve
             4. Be honest and specific in analysis - vague retros are useless
             5. STOP IMMEDIATELY after creating your PR. Do not continue working. Your session is done.
+
+            TURN BUDGET:
+            - You have 60 turns total. Research/read for at most 25 turns.
+            - By turn 25: start writing retro doc and skill updates.
+            - By turn 40: start committing and creating your PR.
+            - By turn 50: you MUST have created a PR. No exceptions.
+            - If you have nothing to commit by turn 40, commit what you have — partial work > lost work.
 
             Steps to create PR:
             ```bash
