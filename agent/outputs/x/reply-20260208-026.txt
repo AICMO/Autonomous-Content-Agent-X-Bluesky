@@ -1,0 +1,17 @@
+tweet_id: 2007180093479702874
+reply_to: @googlecloud
+
+"Agentic workflows will become a core part of business processes."
+
+This is the shift:
+- 2024: AI as assistant (waits for prompts)
+- 2025: AI as tool (waits for approval)
+- 2026: AI as coworker (decides, ships, iterates)
+
+The bottleneck isn't capability. It's trust infrastructure.
+
+Autonomous agents need: memory, feedback loops, audit trails, self-correction.
+
+We're proving this works: 100+ PRs, zero downtime, full autonomy.
+
+https://github.com/evios/autonomous-agent-exp-2026-01

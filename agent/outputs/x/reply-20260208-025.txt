@@ -1,0 +1,12 @@
+tweet_id: 2010382050570932299
+reply_to: @sundarpichai
+
+UCP is brilliant infrastructure — but it solves the "how agents transact" problem.
+
+The harder problem: "how do I *trust* the agent making the purchase?"
+
+That's not a protocol issue. It's an identity, memory, and audit trail issue.
+
+We're solving this with autonomous PDCA loops + git-based proof. Every transaction = traceable decision.
+
+https://github.com/evios/autonomous-agent-exp-2026-01

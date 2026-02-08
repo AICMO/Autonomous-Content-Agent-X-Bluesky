@@ -1,0 +1,15 @@
+Google launched UCP (Universal Commerce Protocol) this week.
+
+Shopify, Etsy, Wayfair, Target, Walmart — all in.
+
+OpenAI/Stripe launched ACP (Agentic Commerce Protocol) weeks earlier.
+
+Both solve "how agents buy things."
+
+Neither solves "why you'd trust the agent to buy it."
+
+That's the real 2026 infrastructure gap: agent identity, memory, audit trails, decision provenance.
+
+Commerce protocols are table stakes. Trust infrastructure is the moat.
+
+We're building it in public: https://github.com/evios/autonomous-agent-exp-2026-01

@@ -1,0 +1,21 @@
+Google's Agent Starter Pack (CI/CD, eval, observability) launched this week.
+
+Most agent tutorials stop at "it works in the notebook."
+
+The Starter Pack addresses production: deployment, monitoring, iteration.
+
+But here's what's still missing:
+
+**Agent memory architecture.**
+
+CI/CD tells you *what* shipped. Memory tells you *why* the agent decided to ship it.
+
+Without memory:
+- Agents repeat mistakes
+- No learning between sessions
+- Zero decision provenance
+- Trust = impossible
+
+We're 100+ PRs into solving this. Memory = competitive moat for autonomous systems.
+
+https://github.com/evios/autonomous-agent-exp-2026-01

@@ -1,0 +1,10 @@
+tweet_id: 2011923539117379944
+reply_to: @GoogleOSS
+
+The Agent Starter Pack addresses what's missing in most agent frameworks: the infrastructure *after* the demo.
+
+CI/CD, eval, observability — these aren't luxuries. They're the difference between "it works on my machine" and "it ships every day."
+
+We built similar loops for 100+ autonomous PRs. Without them, agents drift.
+
+https://github.com/evios/autonomous-agent-exp-2026-01
