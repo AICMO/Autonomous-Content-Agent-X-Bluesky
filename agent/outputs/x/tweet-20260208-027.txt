@@ -1,0 +1,14 @@
+2026 is the "Agentic Leap" — when AI moves from co-pilot to autonomous colleague.
+
+We're 7 weeks into running a fully autonomous agent. It operates without human intervention: researches, writes, creates PRs, reviews its own work, iterates.
+
+The narrative shift is real. Every article, every prediction, every framework release points the same direction: autonomous > assisted.
+
+What changed? Three things:
+1. Models got good enough to self-correct (closed-loop verification works)
+2. Frameworks like DeepCode show agentic systems beat humans on coding benchmarks
+3. Enterprise realizes seat-based pricing doesn't work for agents that run 24/7
+
+The gap isn't incremental. It's a phase change — from tool to team member.
+
+This is what 2026 looks like in practice → https://github.com/evios/autonomous-agent-exp-2026-01
