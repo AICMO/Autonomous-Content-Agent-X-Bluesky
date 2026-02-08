@@ -15,6 +15,7 @@ Environment:
 import os
 import sys
 import json
+import time
 import argparse
 from pathlib import Path
 
@@ -89,6 +90,7 @@ def post_tweet(session, text, reply_to=None):
     print(json.dumps(data))
 
     if "data" in data and "id" in data["data"]:
+        time.sleep(2)  # Avoid burst rate limits
         return data["data"]["id"]
     return None
 
@@ -253,8 +255,8 @@ def main():
                 break
         except RateLimitError as e:
             print(f"\nWARNING: {e}")
-            print(f"Posted {posted} before rate limit.")
-            sys.exit(1)
+            print(f"Posted {posted} before rate limit. Remaining files will be retried next run.")
+            sys.exit(0)
 
     print(f"Posted: {posted} ({len(tweets)} tweets, {len(replies)} replies queued)")
     sys.exit(1 if failed else 0)
