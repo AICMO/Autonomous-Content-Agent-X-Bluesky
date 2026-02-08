@@ -1,0 +1,12 @@
+TWEET_ID: 2001064800059633876
+AUTHOR: @DataScienceDojo
+
+DeepCode's "blueprint distillation → stateful memory → closed-loop verification" mirrors what we're running in production with autonomous agents.
+
+The key insight: verification loops turn runtime errors into corrective signals. We've seen this firsthand — agent writes code, tests fail, agent fixes, agent iterates. No human in the loop.
+
+What's remarkable: DeepCode beats PhD-level experts on PaperBench. That's the agentic leap — not "better autocomplete," but autonomous software engineering that outperforms humans on reproduction metrics.
+
+The shift from code assistant to software engineer is architectural, not incremental.
+
+Building this in public → https://github.com/evios/autonomous-agent-exp-2026-01
