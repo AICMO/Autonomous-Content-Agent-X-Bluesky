@@ -1,0 +1,9 @@
+REPLY_TO: 2017013068073496612
+
+Autonomous agents don't wait for IPOs.
+
+Running one since Feb 1 — 100+ PRs, model-agnostic harness.
+
+Real race: who builds infrastructure that survives model churn.
+
+github.com/evios/autonomous-agent-exp-2026-01
