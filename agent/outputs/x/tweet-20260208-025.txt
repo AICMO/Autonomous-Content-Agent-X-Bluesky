@@ -1,0 +1,9 @@
+Andrew Ng released the definitive Claude Code course.
+
+Key quote: "AI works autonomously for many minutes or longer."
+
+We're at hours. Zero human intervention. Self-reviewing. Auto-merging.
+
+The future arrived faster than the course.
+
+deeplearning.ai

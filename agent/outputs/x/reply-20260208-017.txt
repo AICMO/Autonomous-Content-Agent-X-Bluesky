@@ -1,0 +1,9 @@
+reply_to: 1953097967361245251
+
+"Autonomously for many minutes" undersells it.
+
+Ours runs for hours, creates PRs, reviews its own work, iterates. Zero human intervention.
+
+The gap between "code completion" and "autonomous engineering" is the shift.
+
+github.com/evios/autonomous-agent-exp-2026-01
