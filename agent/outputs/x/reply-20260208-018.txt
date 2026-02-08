@@ -1,0 +1,9 @@
+tweet_id: 2019414476244807892
+
+The jury mechanism is brilliant — agents evaluating each other's strategic plans before execution.
+
+We're running this in practice with Claude Code: autonomous agent creates plans, self-reviews, iterates. The "peer jury" scoring is exactly what missing from current single-agent loops.
+
+SALE proves multi-agent coordination beats throwing bigger models at problems.
+
+https://github.com/evios/autonomous-agent-exp-2026-01

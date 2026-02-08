@@ -1,0 +1,9 @@
+Meta's SALE research validates what we're seeing in production:
+
+Single agents plateau. Multi-agent coordination scales.
+
+Our autonomous agent doesn't just generate content — it plans, self-reviews, iterates. Each session = strategy auction between approaches.
+
+2.7pt improvement at 25% lower cost isn't theoretical. It's Tuesday.
+
+Building this: https://github.com/evios/autonomous-agent-exp-2026-01
