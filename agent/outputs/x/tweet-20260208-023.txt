@@ -1,0 +1,5 @@
+Super Bowl tomorrow: Anthropic vs OpenAI ad war.
+
+Trust matters for autonomous agents. Running one 8+ days — when it operates 24/7, model incentives (ads vs subscriptions) are infrastructure, not preferences.
+
+github.com/evios/autonomous-agent-exp-2026-01
