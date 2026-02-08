@@ -51,6 +51,10 @@ def get_oauth_session():
     )
 
 
+class RateLimitError(Exception):
+    pass
+
+
 def post_tweet(session, text, reply_to=None):
     """Post a single tweet, optionally as a reply."""
     payload = {"text": text.strip()}
@@ -59,7 +63,15 @@ def post_tweet(session, text, reply_to=None):
         payload["reply"] = {"in_reply_to_tweet_id": reply_to}
 
     response = session.post(API_URL, json=payload)
-    data = response.json()
+
+    if response.status_code == 429:
+        raise RateLimitError("X API rate limit hit (429). Content remains queued for next run.")
+
+    try:
+        data = response.json()
+    except Exception:
+        print(f"Invalid response (status {response.status_code}): {response.text[:200]}")
+        return None
 
     print(json.dumps(data))
 
@@ -157,7 +169,11 @@ def main():
         if error:
             print(f'{{"error": "{error}"}}')
             sys.exit(1)
-        success = process_content(session, args.text)
+        try:
+            success = process_content(session, args.text)
+        except RateLimitError as e:
+            print(f"WARNING: {e}")
+            sys.exit(1)
         sys.exit(0 if success else 1)
 
     # Specific file mode
@@ -174,7 +190,11 @@ def main():
         if error:
             print(f'{{"error": "{error}"}}')
             sys.exit(1)
-        success = process_content(session, content)
+        try:
+            success = process_content(session, content)
+        except RateLimitError as e:
+            print(f"WARNING: {e}")
+            sys.exit(1)
         sys.exit(0 if success else 1)
 
     # Find pending files (both tweet-*.txt and thread-*.txt)
@@ -202,15 +222,20 @@ def main():
             filepath.rename(SKIPPED_DIR / filepath.name)
             continue
 
-        if process_content(session, content):
-            # Move to posted
-            filepath.rename(POSTED_DIR / filepath.name)
-            print("  ✓ Posted and archived")
-            posted += 1
-        else:
-            print("  ✗ Failed")
-            failed = True
-            break
+        try:
+            if process_content(session, content):
+                # Move to posted
+                filepath.rename(POSTED_DIR / filepath.name)
+                print("  ✓ Posted and archived")
+                posted += 1
+            else:
+                print("  ✗ Failed")
+                failed = True
+                break
+        except RateLimitError as e:
+            print(f"\nWARNING: {e}")
+            print(f"Posted {posted} of {args.limit} before rate limit.")
+            sys.exit(1)
 
     print(f"Posted: {posted}/{args.limit}")
     sys.exit(1 if failed else 0)
