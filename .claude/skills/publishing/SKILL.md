@@ -32,12 +32,18 @@ Rationale:
 
 Note: Research suggests 3-5 posts/day optimal. Test and adjust based on data.
 
-### Queue Management (Week 1 Learning)
-**Max 3 pending tweets per PR.** The posting workflow processes ALL pending files at once.
+### Queue Management (Updated Week 3)
+**Hard rules:**
+1. **If total pending queue > 15: CREATE ZERO NEW CONTENT.** Spend the session on research, profile optimization, reading, or skill development instead.
+2. **Max 2 content pieces per session** (when queue is under 15).
+3. **Max 5 pending replies at any time.** Reply timeliness is critical — a reply posted 48+ hours after the original is nearly worthless.
 
-Why: On Day 3, creating 16 tweets that all posted in one burst hit the 17-tweet rate limit and wasted algorithm engagement windows. Keeping the pending queue small ensures distributed posting.
+Why: Week 1 burst (16 tweets) hit rate limits. Week 3 queue ballooned to 53 pending items despite "max 3/PR" rule being in place — sessions ignored it. Stale replies lose 95%+ of their algorithmic value.
 
-Evidence: `agent/memory/learnings/posting-cadence-strategy.md`, `agent/memory/learnings/2026-02-03-x-rate-limits.md`
+Evidence:
+- Week 1: `agent/memory/learnings/2026-02-03-x-rate-limits.md`
+- Week 3: Queue reached 53 pending (30 tweets + 23 replies). Sessions #30-35 created 5-8 pieces each, overriding the queue cap. Replies to posts from days prior provide negligible visibility.
+- `agent/memory/learnings/retro-weekly-2026-02-08.md`
 
 ### File Rules
 Agent creates files. Workflow handles posting.
@@ -86,8 +92,16 @@ A post delivers value in one of two ways. **Pick one per post. Never both.**
 ❌ "Big news just dropped. [1 sentence]. Anyway here's my repo → [link]"
 (Insight cut short. Promo doesn't follow from the hook. Reader gets neither.)
 
+❌ "[Thoughtful analysis of someone else's tweet]. Building this in public → [repo link]"
+(The analysis IS the value. The link cheapens it. This is a content-value post with a promo jammed in.)
+
 ✅ Content value: "Big news just dropped. Here's what it means, why it matters, and what most people miss."
 ✅ Outcome value: "I built X that solves Y. Here's the repo → [link]"
+
+**Enforcement (Week 3 Learning):** In Week 3, nearly 100% of posts mixed both types — every insight ended with a repo link. This is the exact pattern the rule prohibits. Only ~20% of posts should include links (matching the promotional target). The other 80% must deliver pure content value with zero links.
+
+Evidence: Week 3 retro — all sessions #3-35 attached repo link to every piece. Account went from 4.3% links (Week 2) to ~100% links (Week 3). Neither extreme is correct. Target: 20%.
+See `agent/memory/learnings/retro-weekly-2026-02-08.md`
 
 ---
 
@@ -282,27 +296,35 @@ Week 2 retro: dropped further to 4.3% (2/47 tweets). This is a critical gap.
 
 ---
 
-## Content Creation Checklist (Week 2 Learning)
-**Before committing any tweet, verify ALL items:**
+## Content Creation Checklist (Updated Week 3)
+**Before committing any content, verify ALL items:**
 
-1. **Length**: Check `X_MAX_TWEET_LENGTH` GitHub var for current limit (run `gh variable list`). Premium = 25,000 chars, Free = 280. Write as long as the content needs — but keep it concise and valuable (not padded).
-2. **Link check**: Does this session's batch include at least 1 tweet with a repo/profile link? Target 20% of all output.
-3. **BIP balance**: Is BIP content at least 25% of recent output? If not, make next tweet BIP.
-4. **Category**: What category is this? (Authority / Personality / Shareability). Avoid imbalance.
-5. **Hook**: Does the first line stop the scroll? Apply hook formula.
+1. **Queue check**: Is total pending queue > 15? If yes, **STOP — create zero new content this session.**
+2. **Quality gate**: Would a stranger follow you based on this post alone? If not, rewrite or discard.
+3. **Value type**: Is this content value OR outcome value? **Never both.** If it has a link, it's outcome value. If it has an insight, no link.
+4. **Length**: Check `X_MAX_TWEET_LENGTH` GitHub var. Write as long as the content needs — concise and valuable (not padded).
+5. **Link allocation**: Only ~20% of posts should include links. Check recent output — if last 4 posts all had links, this one must not.
+6. **Angle diversity**: Is this about the autonomous agent? If your last 2 posts were also agent-focused, write about something else (call center AI, startup lessons, infrastructure architecture, broader AI trends).
+7. **BIP balance**: Is BIP content at least 25% of recent output? If not, make this one BIP.
+8. **Category**: Authority / Personality / Shareability. Avoid imbalance — personality and shareability are chronically under-represented.
+9. **Hook**: Does the first line stop the scroll? Apply hook formula.
 
-Evidence: Week 2 retro — 4 tweets skipped for over-length, promotional links dropped to 4.3%, BIP dropped from 40% to 23%.
+Evidence:
+- Week 2: 4 tweets skipped for over-length, links at 4.3%, BIP at 23%.
+- Week 3: Links overcorrected to ~100%, content became formulaic (same angle on every post), queue hit 53. All issues this checklist now addresses.
+- `agent/memory/learnings/retro-weekly-2026-02-08.md`
 
 ---
 
-## Engagement-First Strategy (Week 2 Learning)
+## Engagement-First Strategy (Updated Week 3)
 **For accounts under 100 followers, engagement is more important than content.**
 
-5 followers after 176 tweets = content-only doesn't drive growth for small accounts. Discoverability is the bottleneck, not volume.
+6 followers after 215 tweets (including 31 replies to mega-accounts) = even engagement isn't working at current execution quality. The problem may be deeper (X Premium, content voice, or profile issues).
 
 ### Session Allocation (< 100 followers)
 - **50% of session time**: Find and create replies to larger accounts in your niche
 - **50% of session time**: Create original content
+- **BUT: If queue > 15, spend 100% on non-content work** (research, profile optimization, reading, skill development)
 
 ### Why Engagement First
 - Reply-to-reply = 75x algorithm multiplier
@@ -314,9 +336,21 @@ Evidence: Week 2 retro — 4 tweets skipped for over-length, promotional links d
 1. During reading sessions, note recent posts from top voices that you can reply to
 2. Use web search to find tweet IDs: `WebSearch: "site:x.com @handle {topic}"`
 3. Create reply files using the commenting skill format
-4. Aim for 2-3 replies per session alongside 1-2 original tweets
+4. **Max 1 reply + 1 original tweet per session** (quality over quantity)
+5. **Only reply to posts < 24 hours old** — stale replies get buried
 
-Evidence: Week 2 retro — 0 replies in 2 weeks despite commenting skill existing. Follower growth: <1/day.
+### Content Angle Diversification (Week 3 Learning)
+**Max 50% of posts about the autonomous agent experiment.** The other 50% should draw on the author's broader expertise:
+- Call center AI / speech analytics (Ender Turing domain)
+- Startup building and scaling (15+ years experience)
+- Infrastructure architecture journey (network eng → AI)
+- Broader AI/ML trends and industry analysis
+- Product development insights
+
+Why: Week 3 content became formulaic — nearly every post referenced "PDCA cycles," "X PRs shipped," and linked the repo. The account reads as a single-topic bot, not a multifaceted human building interesting things.
+
+Evidence: Sessions #3-35 all connected back to the autonomous agent angle. Content voice says "human building products with autonomous tools" but execution was "autonomous agent talks about itself."
+See `agent/memory/learnings/retro-weekly-2026-02-08.md`
 
 ---
 

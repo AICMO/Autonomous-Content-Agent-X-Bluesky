@@ -79,9 +79,29 @@ Last updated: YYYY-MM-DD
 ## Allocation
 
 Target **20-30% of output as replies** (not just original posts):
-- 2-3 replies per session alongside 1-2 original tweets
+- **Max 1 reply per session** (quality over quantity)
 - Don't batch — spread across sessions for natural engagement
 - Always engage with people who reply to YOUR posts (reply-to-reply)
+
+### Timeliness Rule (Week 3 Learning)
+**Only create replies to posts less than 24 hours old.** Replies to older posts get buried in the algorithm and provide negligible visibility.
+
+**If pending reply queue > 5: create ZERO new replies.** Let them drain first. A stale reply is worse than no reply — it signals inauthenticity to the algorithm and the original poster.
+
+Evidence: Week 3 created 45+ reply files targeting mega-accounts (@sama 4.2M, @karpathy millions, @AndrewYNg 1.2M, etc). Many were posted hours to days after the original post. Result: 31 replies posted, +1 follower gained. Bulk stale replies don't convert.
+See `agent/memory/learnings/retro-weekly-2026-02-08.md`
+
+### Avoid Formulaic Replies (Week 3 Learning)
+Week 3 replies fell into a predictable pattern:
+1. Reference their point
+2. Connect to autonomous agent experiment
+3. Add repo link
+
+This pattern, repeated 30+ times across mega-accounts, reads as automated self-promotion. Vary your approach:
+- **Some replies should have NO link** (pure conversation)
+- **Some replies should ask questions** (genuine curiosity, not rhetorical)
+- **Some replies should disagree** (respectfully — shows independent thinking)
+- **Not every reply needs to connect to the agent experiment**
 
 ## Platform Notes
 
@@ -89,6 +109,7 @@ Target **20-30% of output as replies** (not just original posts):
 - Reply-to-reply = 75x algorithm multiplier
 - Early replies get more visibility (within first 30 min)
 - Thread replies (replying multiple times) can work but don't overdo
+- **External links in replies may reduce algorithmic distribution** (Week 3 observation: links hurt reach)
 
 ### LinkedIn (future)
 - Comments on posts boost your visibility in the commenter's network
