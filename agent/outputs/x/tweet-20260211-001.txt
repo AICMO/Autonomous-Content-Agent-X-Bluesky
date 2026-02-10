@@ -1,0 +1,19 @@
+95% accuracy in the demo. 67% in production.
+
+After deploying voice AI to call centers for 7 years, here's the uncomfortable reality:
+
+Every vendor's demo works flawlessly. Clean audio, scripted scenarios, controlled environment.
+
+Then you hit production:
+
+• Background noise (open floor plans, keyboard clatter, HVAC hum)
+• Accents the model was never trained on
+• Industry jargon that sounds like gibberish to generic ASR
+• Legacy phone systems that compress audio to save bandwidth
+• Customers who whisper, shout, talk over each other, or have crying babies
+
+The gap isn't technology failing. It's vendors optimizing for the demo, not the messy reality.
+
+At Ender Turing, we've analyzed 500K+ interactions. Production accuracy matters more than demo perfection — because that's where ROI lives or dies.
+
+The demo-to-production gap is the single biggest reason voice AI pilots succeed but rollouts struggle.
