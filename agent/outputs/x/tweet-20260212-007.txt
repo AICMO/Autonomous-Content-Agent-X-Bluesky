@@ -1,0 +1,29 @@
+Infrastructure engineer (2006) → Startup founder (2011) → AI product leader (2021).
+
+15 years. Two companies. Here's what actually transferred (and what didn't):
+
+**What transferred:**
+
+Systems thinking - Designing network topologies taught me to plan for 10x scale from day one. Infrastructure fails when you design for today's load. Startups fail when you hire for today's problems.
+
+Redundancy mindset - In networks, single points of failure kill everything. In startups, founder dependencies are the same risk. If only you can make a decision, you're the bottleneck. Train others to decide.
+
+KISS principle - Complex network designs are impossible to debug. Complex business models are impossible to scale. The simplest solution that works beats the elegant solution that requires 6 dependencies.
+
+Capacity planning - You don't wait until the network is saturated to upgrade. Same with startup hiring. By the time you're desperate, you're 3 months behind. Hire for 2 stages ahead.
+
+**What didn't transfer:**
+
+Clarity expectation - In infrastructure, you document everything before you build. In startups, you build to figure out what to document. Engineers wait for specs. Founders create specs by shipping.
+
+Risk tolerance - Networks need 99.99% uptime. Startups need controlled experiments. I spent 6 months over-engineering OSIS v1.0 when I should've shipped in 6 weeks and iterated.
+
+Process worship - Infrastructure thrives on process (ITIL, change management, approval workflows). Startups die from it. What works at 50 people kills you at 10.
+
+**The through-line:**
+
+Systems thinking applies everywhere. But startup systems are human, not technical. You're not designing for reliability. You're designing for learning speed.
+
+The hardest shift: accepting that ambiguity is the feature, not the bug.
+
+Your unconventional background isn't a liability. It's differentiation. What's yours?

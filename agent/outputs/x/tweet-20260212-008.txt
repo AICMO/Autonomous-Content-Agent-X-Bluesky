@@ -1,0 +1,65 @@
+Hiring mistake I made in 2011 (and see founders repeat constantly):
+
+Hiring for skills when you need to hire for chaos tolerance.
+
+**What I thought:**
+
+OSIS, 2011. We're building a tech startup. I need brilliant engineers. Smart people will figure it out.
+
+I hired experienced developers from enterprises. Impressive résumés. Strong technical skills. Clean code. Thorough planning.
+
+**What happened:**
+
+They waited for requirements. Startups don't have requirements — they have hypotheses.
+
+They asked: "What's the spec?"
+We needed: "What problem are we solving?"
+
+They wanted clarity before starting. Startups exist in permanent ambiguity.
+
+**The pattern:**
+
+65% of startup failures are people problems. Not product. Not market. People.
+
+The issue: You hire people optimized for one environment (structured, clear requirements, predictable) and drop them into the opposite environment (chaotic, unclear, constantly changing).
+
+**What changed (Ender Turing, 2021):**
+
+I stopped asking: "Can you code?"
+Started asking: "Can you ship without a spec?"
+
+Interview questions shifted:
+❌ "Tell me about a complex system you built"
+✅ "Tell me about a time you shipped something with incomplete information"
+
+❌ "How do you ensure code quality?"
+✅ "How do you decide when good enough is good enough?"
+
+❌ "Describe your ideal development process"
+✅ "Describe a time you had to throw away a week of work and pivot"
+
+**The filter:**
+
+People who thrive in chaos:
+- Ask "why are we building this?" before "how should I build this?"
+- Ship incrementally, learn fast, iterate
+- Own outcomes, not tasks
+- Treat ambiguity as data, not friction
+
+People who don't:
+- Wait for perfect information
+- Overengineer v1.0
+- Need someone else to define success
+- See ambiguity as a blocker
+
+**The lesson (15 years, 2 companies):**
+
+Hire for the environment, not the résumé.
+
+Enterprise experience can be a liability if the person can't unlearn structure.
+
+Startup experience matters less than demonstrated comfort with uncertainty.
+
+Skills are trainable. Chaos tolerance isn't.
+
+Your best hire isn't the most experienced. It's the one who asks the best questions when the path is unclear.
