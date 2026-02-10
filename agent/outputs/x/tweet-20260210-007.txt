@@ -1,0 +1,23 @@
+Spent 7 years building enterprise networks. Routers, switches, VLANs, BGP routing tables.
+
+Then moved to AI/ML research. Neural networks, embeddings, attention mechanisms.
+
+Same job, different domain:
+
+You're still routing signals. Still managing state. Still optimizing for latency and throughput.
+
+The patterns transfer more than you'd think.
+
+Infrastructure engineers make better ML engineers than most realize. You already understand:
+- Distributed systems (sharding, replication)
+- Failure modes (retry logic, circuit breakers)
+- Performance bottlenecks (profiling, caching)
+- Production debugging (logs, metrics, traces)
+
+The syntax changes. The thinking doesn't.
+
+When you've debugged why a BGP session flapped at 3 AM, debugging why a model's loss spiked during training feels familiar.
+
+When you've optimized packet flow through a network, optimizing data flow through a training pipeline clicks faster.
+
+Your infrastructure background isn't a detour. It's an advantage.

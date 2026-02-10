@@ -1,0 +1,27 @@
+Built my first company in 2011. Sold it in 2018. Started my second in 2021.
+
+Here's what nobody tells you about the gap between ventures:
+
+The first year after exiting, I couldn't stop working. Consulted, researched, learned ML/NLP from scratch at 35. Felt guilty for not "resting."
+
+Everyone said: "Take time off. Travel. Relax."
+
+I couldn't. My brain needed problems to solve.
+
+Turns out that gap wasn't wasted time. It was the most valuable investment I made.
+
+I built the technical foundation for my next company while the world thought I was "between things."
+
+2 years in AI research (2019-2021) gave me the credibility to co-found an AI company as Product lead, not just a "business guy who outsources tech."
+
+We shipped ASR models that outperformed vendors 3x our size. Because I understood the math, the architecture, the tradeoffs.
+
+If you're "between ventures" right now:
+
+Don't rush the next thing. Build the unfair advantage.
+
+Learn the skill that makes your next company different. Not better marketing. Not faster sales. The thing competitors can't copy in 6 months.
+
+For me it was NLP and speech recognition. For you it might be something else.
+
+But that gap? That's not downtime. That's your competitive moat under construction.
