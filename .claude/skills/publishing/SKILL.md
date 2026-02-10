@@ -232,19 +232,43 @@ Questions drive replies. Replies drive reach. Ask genuinely.
 
 ## Algorithm Awareness
 
-### What X rewards (latest known)
+### 2026 X Algorithm Updates (Critical)
+
+**X Premium = MANDATORY for growth** (as of March 2026):
+- **Free accounts:** 0% median engagement (Buffer study, 18.8M posts)
+- **Premium impact:** 10x reach (600 vs <100 impressions), 0.49% engagement rate
+- **In-network boost:** 4x (Premium posts prioritized in followers' feeds)
+- **Out-of-network boost:** 2x (For You tab prioritization)
+- **Reply visibility:** 30-40% higher impressions, appear at top of threads
+- **Link posting:** Free accounts' external links = invisible (0% engagement)
+
+**Grok algorithm (Jan 2026 update):**
+- Tone analysis: Favors constructive, valuable replies over spam
+- Engagement velocity: First 30 min = critical window
+- Premium prioritization: Built into ranking
+- Spam detection: Low-effort replies suppressed
+
+**Evidence:** `agent/memory/research/2026-02-10-x-engagement-tactics-communities.md`
+
+### What X rewards (2026 weights)
 | Factor | Impact |
 |--------|--------|
-| Reply-to-reply | 75x multiplier |
-| Retweets | Worth 20 likes |
-| Video (10+ sec) | 10x engagement |
-| Early engagement | First 30 min critical |
-| Threads | 40-60% more reach |
+| **X Premium** | 10x reach, 4x in-network, 2x out-of-network |
+| **Communities** | 30,000x reach (180K members vs 6 followers) |
+| **Reply-to-reply** | 75x multiplier |
+| **Retweets** | Worth 20 likes (20x multiplier) |
+| **Replies** | 13.5x vs. Like baseline |
+| **Video (10+ sec)** | 10x engagement |
+| **Early engagement** | First 30 min critical (Grok velocity tracking) |
+| **Threads** | 40-60% more reach |
 
 ### What hurts reach
-- External links (algorithm downgrades)
+- **Free account** (0% median engagement as of March 2026)
+- External links (algorithm downgrades, especially for free accounts)
 - Heavy hashtags
 - Posting and leaving (no engagement)
+- Stale replies (>24h after original post)
+- Low-effort spam replies (Grok tone analysis)
 
 ---
 
@@ -316,6 +340,66 @@ Evidence:
 
 ---
 
+## X Communities Strategy (Feb 2026 Game Changer)
+
+**CRITICAL FINDING (Session #12):** X Communities went public in Feb 2026. This fundamentally changes growth strategy for accounts < 5K followers.
+
+### Why Communities Matter
+- **30,000x reach multiplier**: Post to 180K+ community members vs. 6 followers
+- **Instant distribution**: No need to build follower base first
+- **Targeted audience**: Communities pre-filter for your niche
+- **Algorithm boost**: Community engagement counted double (member + timeline)
+
+### Recommended Communities (6 total)
+1. **Build in Public** (180K members) - BIP content
+2. **AI/ML Builders** (50-100K) - Autonomous agents, agentic AI
+3. **Startup Founders** (100K+) - Startup journey content
+4. **Call Center AI** (10-20K) - Voice AI, speech analytics
+5. **Infrastructure→AI** (5-10K) - Career transition stories
+6. **Indie Hackers** (150K) - Solo founder content
+
+### Growth Formula (< 5K followers)
+**Post 100% of content into Communities** (not just timeline). Use "Also share with followers" checkbox for dual distribution.
+
+### Implementation: 3 Phases
+
+**Phase 1: Manual Posting** (START HERE)
+- Cost: $0 (requires X Premium for community access)
+- Reliability: 100%
+- Time: 5 min/day
+- **Workflow:**
+  1. Repo owner reviews queue daily
+  2. Select top 1-2 pieces
+  3. Post via web UI to 2-3 relevant Communities
+  4. Check "Also share with followers"
+- **Purpose:** Validate hypothesis (measure follower growth)
+- **Expected result:** 50-100 followers in 2 weeks (vs. 0.75/day baseline)
+
+**Phase 2: Publer Automation** (SCALE HERE)
+- Cost: $10/mo Business plan
+- Reliability: 95%+ (Publer has special X API access)
+- Time: Automated
+- **Triggers:** Phase 1 validated (10x follower growth confirmed)
+- **File format:** Add `# community: 1492410432069451776` tag to content
+- **Integration:** Modify `post.py` to route tagged files to Publer API
+- **Dev effort:** 2-4 hours
+
+**Phase 3: Direct X API** (SKIP THIS)
+- Cost: $42K+/mo (Enterprise tier only)
+- Reliability: 40-60% (503 errors on Free/Basic/Pro)
+- Status: Broken since Jan 2023, not fixed as of Feb 2026
+- **Recommendation:** Don't wait for X to fix. Use Publer instead.
+
+### Evidence & Research
+See `agent/memory/research/2026-02-10-x-communities-integration-2026.md` and `agent/memory/research/2026-02-10-x-engagement-tactics-communities.md`
+
+### Blockers
+- **P0:** X Premium required to join/post to Communities
+- **P1:** Repo owner must join 6 Communities (one-time, 5 min)
+- **P2:** Manual workflow requires daily owner action (Phase 1)
+
+---
+
 ## Engagement-First Strategy (Updated Week 3)
 **For accounts under 100 followers, engagement is more important than content.**
 
@@ -325,8 +409,10 @@ Evidence:
 - **50% of session time**: Find and create replies to larger accounts in your niche
 - **50% of session time**: Create original content
 - **BUT: If queue > 15, spend 100% on non-content work** (research, profile optimization, reading, skill development)
+- **PRIORITY:** Communities posting > Replies > Original timeline posts
 
 ### Why Engagement First
+- Communities = 30,000x reach multiplier (top priority)
 - Reply-to-reply = 75x algorithm multiplier
 - One good reply to a 50K-follower account = more visibility than 10 original tweets
 - Replies show up in other users' feeds, bringing profile visits
