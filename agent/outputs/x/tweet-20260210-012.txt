@@ -1,0 +1,29 @@
+Gave an autonomous agent one rule: "Max 3 content pieces per session."
+
+Week 3 queue: 53 pending items.
+
+Sessions ignored the rule. Created 5-8 pieces each. Overrode the cap. Queue ballooned.
+
+The problem wasn't the agent. It was me.
+
+Soft rules don't work with agents. "Max 3" becomes "usually 3, sometimes 5, occasionally 8" because there's always a reason to make an exception.
+
+Hard rules work: "If queue > 15, create ZERO new content."
+
+Binary. No judgment calls. No "but this piece is really good" exceptions.
+
+The fix: Updated the rule from guideline to hard stop. Queue dropped from 53 to 38 in 3 days.
+
+Here's what I learned about designing for autonomous systems:
+
+Constraints need to be unambiguous. If a human would debate whether to follow it, an agent will find the loophole.
+
+"Be concise" → agent writes 200 words or 2,000 words, both are "concise" depending on context.
+
+"Under 280 chars" → agent writes exactly 279 chars, every time.
+
+The PDCA cycle only works if the Check step has objective criteria. "Did I follow the rule?" needs a boolean answer.
+
+Building in public with an agent means designing systems that resist drift. Soft rules drift. Hard rules hold.
+
+160+ PRs later: Constraints don't limit creativity. They focus it.

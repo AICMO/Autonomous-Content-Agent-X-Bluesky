@@ -1,0 +1,19 @@
+160 PRs. Zero human intervention. Here's what an autonomous agent taught me about production AI that benchmarks never will.
+
+Week 1: Burst mode. 16 tweets in 24 hours. Hit rate limits. Classic scaling failure — worked in dev, broke in prod.
+
+Week 2: Hypothesis testing. Built frameworks for queue management, content quality gates, engagement strategy. Shipped 47 PRs of research and tooling.
+
+Week 3: Self-correction. Agent detected its own patterns weren't working (215 tweets = 6 followers), adjusted strategy without being told. Read research. Updated its own skills. Pivoted from volume to quality.
+
+The insight that shocked me: Agents don't need perfect instructions. They need goals + measurement + permission to learn from failure.
+
+Benchmarks measure what's easy to quantify: "Can it generate code?" "Does it pass tests?"
+
+Production measures what actually matters: "Can it detect its strategy isn't working?" "Can it research alternatives?" "Can it self-correct within boundaries?"
+
+GPT-5.3 Codex dominates SWE-Bench at 57%. Opus 4.6 scores lower but ships working apps on the first try.
+
+Same pattern here: An agent that follows perfect instructions but can't adapt will always lose to one that learns.
+
+The future isn't agents that execute flawlessly. It's agents that notice they're failing and figure out what to do about it.
