@@ -153,22 +153,182 @@ Balance three content types for maximum reach:
 
 Missing any bucket limits audience growth.
 
-### Hook Engineering
+### Hook Engineering (Session #31 - Validated Framework)
 First line determines if anyone reads. Engineer hooks, don't just write them.
 
-**Hook formula:** Bold Statement + Tension + Credibility
+**Key Finding (2026 Research):** Tweets with compelling opening lines see up to **3x more engagement** than generic starters. First 280 characters determine whether 1,000 people read your tweet or 3 people do.
 
-❌ Weak: "I want to share my thoughts on growing on Twitter."
-✅ Strong: "I went from 0 to 10,000 followers in 57 days without posting a single thread. Here's exactly how."
+**Character Sweet Spot:** Under 110 characters optimal (71-100 chars = 17% higher engagement). Short hooks perform better on mobile (80%+ of X usage), leave room for RT comments, don't overwhelm.
 
-**Hook patterns that work:**
-- Specific numbers: "5 things I learned..."
-- Contrarian: "Most people are wrong about..."
-- Story opener: "Last week I failed publicly..."
-- Question: "Why do 90% of accounts never grow?"
+---
 
-### Thread Strategy
-Threads get 63% more impressions than single tweets.
+#### 8 Proven Hook Formulas (2026)
+
+**Formula 1: Bold Statement**
+- Template: "Nobody talks about this, but [insight]"
+- Why it works: Pattern interrupt + curiosity gap
+- Example: "Nobody talks about this, but 95% accuracy in demos becomes 67% in production. Here's why."
+
+**Formula 2: Contrarian**
+- Template: "[Common belief] is wrong. Here's what actually works:"
+- Why it works: Triggers psychological response — readers want to see if you can back it up
+- Example: "Best programmers don't write code anymore. They write specifications. Here's the shift."
+
+**Formula 3: Story Hook**
+- Template: "[Timeframe] ago I was [struggle]. Today [achievement]..."
+- Why it works: Transformation narrative = instant relatability
+- Example: "3 years ago I was a network engineer. Today I'm shipping Voice AI at scale. The bridge: specification engineering."
+
+**Formula 4: Question Hook**
+- Template: "Want to know the real secret to [outcome]?"
+- Why it works: Direct curiosity gap
+- Example: "Want to know why autonomous agents fail in production? It's not the model."
+
+**Formula 5: Numerical Claim**
+- Template: "I [achieved X] in [timeframe] doing this"
+- Why it works: Specificity = credibility
+- Example: "I went from 0 to 10,000 followers in 57 days without posting a single thread. Here's exactly how."
+
+**Formula 6: Credibility + Promise**
+- Template: "I spent [resource] learning [topic]. Here's everything I learned (so you don't have to)."
+- Why it works: Authority + value proposition
+- Example: "I spent 7 years in call center AI production. Here's what vendors won't tell you."
+
+**Formula 7: Identity Targeting**
+- Template: "If you [identity/situation], read this"
+- Why it works: Immediate self-selection
+- Example: "If you have under 100 followers after 200 tweets, this is why."
+
+**Formula 8: Pattern Interrupt**
+- Template: "Stop [common practice]. Here's what works in 2026:"
+- Why it works: Commands attention, urgency
+- Example: "Stop writing 15-tweet threads. Here's what actually gets read in 2026:"
+
+---
+
+#### Hook Quality Checklist
+
+Before publishing any hook, verify:
+- [ ] Under 110 characters? (optimal for mobile scan)
+- [ ] Pattern interrupt? (unexpected phrasing that breaks scroll)
+- [ ] Credibility marker? (proof/numbers/authority in first line)
+- [ ] Curiosity gap? (creates "I need to know" feeling)
+- [ ] Specific, not generic? ("500K interactions" not "lots of experience")
+- [ ] Emotional trigger? (awe, contrarian, humor — not neutral)
+- [ ] Identity targeting? (clear who this is for)
+- [ ] Buries NO leads? (strongest insight FIRST)
+- [ ] Avoids 2022 templates? ("I studied X for Y. Here's what I learned" = dead)
+- [ ] Engagement driver? (will this spark replies/shares/saves?)
+
+---
+
+#### Our Differentiators (Use in Hooks)
+1. **7 years Voice AI production** (credibility marker)
+2. **500K+ interactions analyzed** (specific proof)
+3. **160 PRs, zero human intervention** (autonomous agent proof)
+4. **95% → 67% accuracy gap** (vulnerability + production reality)
+5. **Specification Engineering** (discourse ownership, timely Feb 2026)
+6. **Ender Turing 20% CSAT increase** (outcome proof)
+
+**Evidence:** `agent/memory/research/reading-notes/2026-02-10-hook-engineering-psychology-formulas.md`
+
+### Content Calendar & Timing Strategy (Session #32 - 2026 Research)
+
+**Critical Finding:** Posting frequency, timing, and engagement velocity are as important as content quality for small account growth.
+
+---
+
+#### Posting Frequency (2026 Data)
+
+**For accounts < 5K followers:** 3-5 posts/day optimal
+- **Why**: Algorithm needs volume to learn what works. Each post is a lottery ticket.
+- **Current gap**: 1 post/session (~1/day) vs. 3-5/day optimal = 3-4 posts/day short
+- **Impact**: 3-5 posts/day drives 3-5x faster algorithm learning vs. 1/day
+
+**Frequency guidance:**
+- 3-5/day = optimal for growth
+- 1-3/day = stronger growth than <1 or >5
+- <1/day = poor algorithm signal
+- >5/day = diminishing returns (quality suffers)
+
+---
+
+#### Optimal Posting Times (2026 Research)
+
+**Weekday Peak Windows:**
+- **9 AM - 2 PM**: Highest overall engagement
+- **10 AM - 12 PM**: Peak window (mid-morning focus break)
+- **Avoid**: 3-5 PM (afternoon slump, low engagement)
+
+**Weekend Peak Windows:**
+- **9-11 AM**: Best weekend time (lazy morning scrolling)
+
+**Sample 4-Post Daily Schedule:**
+- 8 AM: Morning commute/coffee (mobile engagement)
+- 12 PM: Lunch break (desk + mobile)
+- 3 PM: Afternoon break (desk engagement)
+- 7 PM: Evening engagement (mobile, home)
+
+**Impact**: Posts outside peak windows lose 40-60% potential reach.
+
+---
+
+#### Engagement Velocity (First 30 Min = Make or Break)
+
+**Single biggest ranking factor:** Engagement velocity in first 30 minutes determines algorithmic reach.
+- Likes, replies, retweets in first 30 min → algorithm pushes to more people
+- No engagement in first 30 min → algorithmic burial
+
+**Time Decay (Steep):**
+- Post loses 50% visibility every 6 hours
+- After 24 hours: ~6% of initial visibility
+- After 48 hours: effectively dead algorithmically
+
+**Implication**: Replies to posts >24h old provide negligible value. Focus on fresh content (<6h).
+
+---
+
+#### Time Allocation (70/30 Rule)
+
+**For accounts < 5K followers:**
+- **70% time**: Engaging (replies, comments, conversations)
+- **30% time**: Creating new posts
+
+**Why this works:**
+- Reply-to-reply = 75x algorithm multiplier
+- Replies get you in front of other users' audiences
+- Engagement signals to algorithm you're active, boosts all content
+- Builds relationships that lead to retweets, mentions
+
+**Current gap**: ~50/50 allocation vs. 70/30 optimal = need more engagement focus
+
+---
+
+#### Realistic Growth Timeline (2026 Data)
+
+| Month | Expected Followers | What Happens |
+|-------|-------------------|--------------|
+| Month 1 | 100-300 | Finding rhythm, figuring out what resonates |
+| Month 2 | 300-800 | Patterns emerging, content improving |
+| Month 3 | 800-1,500 | Algorithm learning, some viral moments |
+| Month 4-6 | 1,500-10,000 | Compounding growth, established voice |
+
+**Effort requirements (10K in 3-6 months):**
+- Posting: 3-5 times daily
+- Engaging: 20+ accounts daily
+- Time: 2-3 hours daily, consistent
+- Content: Valuable, not mediocre filler
+
+**Evidence:** `agent/memory/research/reading-notes/2026-02-10-content-calendar-posting-strategy.md`
+
+---
+
+### Thread Strategy (Updated 2026)
+Threads get 40-60% more reach than single tweets.
+
+**Optimal length (2026):** 4-8 tweets with visuals/clips
+- **Dead (2023)**: 15-tweet epic threads (people scroll past)
+- **Optimal (2026)**: 3-6 tweets with clear hook and proof
 
 **Structure:**
 - Hook (tweet 1) - Must stop the scroll
@@ -180,7 +340,7 @@ Threads get 63% more impressions than single tweets.
 - Under 250 chars per tweet (under 200 better)
 - Cliffhanger every 1-2 tweets
 - Zero hashtags in main content
-- Use 1x/week for deeper content
+- Use 1-2x/week for deeper content (not daily)
 
 ### Learning Journey as Content
 The process of building expertise IS content. Share what you're reading and learning.
@@ -378,23 +538,103 @@ Visitors decide to follow in <1 second:
   - Simplicity: Bold statement + minimal design
 - **Tools:** Venngage, BrandBird, Canva, Figma (15-30 min with templates)
 
-**3. Bio (160 chars)**
+**3. Bio (160 chars) - Session #30 Validated Formulas**
 - **Formula:** [What you do] helping [who] achieve [result] | [Credibility] | [Personality]
+- **Character sweet spot:** ~91 characters (research shows accounts with this length have highest follower counts). White space improves conversion — don't use all 160.
 - **Conversion killers:** "Founder | Builder | Learner" (generic, no value prop)
-- **Examples:**
-  - "Building Voice AI for call centers. 7 years, 500K+ interactions. Production reality > vendor hype."
-  - "Helping founders ship AI that survives production. Ender Turing co-founder. Infrastructure→AI journey."
-  - "Autonomous agent experiment: 160 PRs, zero human intervention. Building in public."
 
-**4. Pinned Tweet**
-- **Types (ordered by conversion):**
-  1. Intro thread (who you are + expertise + value)
-  2. Best-performing content (let analytics guide)
-  3. Lead magnet (free resource, guide)
-  4. BIP milestone (proof of work, repo link)
-  5. Social proof (results, testimonials)
+**Bio Options (Ready to Deploy):**
+
+**Option 1: Voice AI Authority** (Recommended)
+- "Building Voice AI for call centers. 7 years, 500K+ interactions. Production reality > vendor hype."
+- Character count: 107
+- Why: Strongest differentiator, deepest expertise
+- Audience: Call center operators, AI buyers, enterprise decision-makers
+
+**Option 2: Dual Expertise**
+- "Voice AI (Ender Turing, 7 years) + Autonomous agents (160 PRs). Production systems that survive reality."
+- Character count: 107
+- Why: Dual domain authority
+- Audience: AI builders, founders, technical leaders
+
+**Option 3: Founder Journey**
+- "Infrastructure engineer → AI founder. Helping teams ship Voice AI that works in production, not just demos."
+- Character count: 115
+- Why: Career path credibility
+- Audience: Founders, CTOs, engineering leaders
+
+**Option 4: BIP + Autonomous Agent**
+- "Running an autonomous agent experiment: 160 PRs, zero human intervention. Building Ender Turing (Voice AI). [repo link]"
+- Character count: ~130 (depends on link)
+- Why: Experiment in progress (creates curiosity)
+- Audience: AI enthusiasts, developers, BIP community
+
+**Credibility Markers That Convert:**
+Include 1-2 of these (not all):
+- Results generated ("$10M ARR", "500K+ interactions analyzed")
+- Time in domain ("7 years in production")
+- Company affiliations ("Former @Google", "Ender Turing co-founder")
+- Notable achievements ("160 PRs shipped by autonomous agent")
+- Publications featured in (only if top-tier)
+
+---
+
+**4. Pinned Tweet - Session #30 High-Converting Formats**
 - **Impact:** Optimized pinned = 40-60% better conversion vs random pinned
 - **Update frequency:** Monthly or when you have new best-performer
+
+**Format 1: Thread-Style Resume** (Highest conversion for BIP founders)
+```
+Here's what I do:
+
+1) Build Voice AI for call centers
+   → 7 years in production
+   → 500K+ interactions analyzed
+   → 20% CSAT increase (Ender Turing)
+
+2) Ship systems that survive production reality
+   → Not demos that fall apart
+   → 95% accuracy (demo) → 67% (production)
+   → Integration hell is the real project
+
+3) Run an autonomous agent experiment
+   → 160 PRs shipped, zero human intervention
+   → Specification Engineering at scale
+   → Building in public → [repo link]
+
+Follow for production AI insights, not vendor hype.
+```
+- Why it works: Triple credibility, concrete proof, vulnerability, differentiation, clear CTA
+- Length: 5-6 tweets (optimal per 2026 research)
+
+**Format 2: Transformation Story**
+```
+6 followers after 240 tweets. Here's what an autonomous agent taught me about production AI that benchmarks never will:
+
+1) Agents need goals + measurement + permission to learn (not perfect instructions)
+2) Soft rules drift. Hard rules hold. (PDCA requires binary constraints)
+3) Production reality > vendor hype (95% → 67% accuracy = the truth)
+4) Specification Engineering > Prompt Engineering (160 PRs = proof)
+
+Building in public → [repo link]
+```
+- Why it works: Vulnerability + authority balance, specific learnings, proof
+
+**Format 3: Building in Public Vulnerability**
+```
+3 biggest mistakes building Ender Turing (call center AI):
+
+1) Believed vendor accuracy claims (95% → 67% in production)
+2) Underestimated integration hell (14 systems, zero communication)
+3) Tried to replace agents instead of augment (hybrid = reality)
+
+7 years later: 500K+ interactions, 20% CSAT increase, production systems that survive.
+
+Follow for what actually works, not what sells.
+```
+- Why it works: Vulnerability + authority balance (30/70 ratio validated in Session #25)
+
+**Evidence:** `agent/memory/research/reading-notes/2026-02-10-profile-bio-pinned-tweet-formulas.md`
 
 ### Profile Optimization = 4x Multiplier Effect
 When combined with other strategies:
