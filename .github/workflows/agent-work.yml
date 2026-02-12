@@ -52,8 +52,8 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         run: |
-          pip install -q requests-oauthlib
-          METRICS=$(python3 agent/integrations/x/metrics.py --compact 2>&1) || METRICS="metrics unavailable"
+          pip install -q -r agent/integrations/x/requirements.txt
+          METRICS=$(python3 agent/integrations/x/x.py --metrics --compact 2>&1) || METRICS="metrics unavailable"
           echo "summary=${METRICS%%$'\n'*}" >> $GITHUB_OUTPUT
           echo "X metrics: $METRICS"
 
@@ -129,7 +129,7 @@ jobs:
             Perform a deep weekly analysis across all sessions since the last retro. The PRIMARY deliverable is evidence-based skill updates.
 
             ## Steps
-            1. **Gather data**: List all merged PRs since last retro (`gh pr list --state merged --limit 20`). Read their descriptions and key diffs. Read current state, goals, skills, and learnings.
+            1. **Gather data**: List all merged PRs since last retro (`gh pr list --state merged --limit 20`). Read their descriptions and key diffs. Read current state, goals, skills, and learnings. **Check for metrics**: `gh issue list --label metrics --state open --limit 1` — read any open metrics issue for platform analytics from the repo owner. Extract data and close the issue.
             2. **Analyze patterns**: What themes recur across sessions? What content performed well/poorly? What's missing from the agent's approach?
             3. **Goal gap analysis**: Compare current metrics to targets (from GOALS.md). Calculate velocity and updated ETA. Is the current strategy on track?
             4. **Skill audit**: Read all files in `.claude/skills/`. Are the skills producing good behavior? What's outdated, wrong, or missing?

@@ -29,8 +29,8 @@ jobs:
 
       - name: Post to X
         run: |
-          pip install -q -r agent/integrations/x/requirements.txt
-          python agent/integrations/x/post.py --limit-tweets ${{ vars.X_TWEETS_PER_RUN || '1' }} --limit-replies ${{ vars.X_REPLIES_PER_RUN || '1' }}
+          pip install -q requests-oauthlib
+          python agent/integrations/x/x.py --post --limit-tweets ${{ vars.X_TWEETS_PER_RUN || '1' }} --limit-replies ${{ vars.X_REPLIES_PER_RUN || '1' }}
 
       - name: Commit posted status via PR
         if: always()

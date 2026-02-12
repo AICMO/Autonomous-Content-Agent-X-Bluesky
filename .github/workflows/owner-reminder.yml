@@ -1,0 +1,57 @@
+name: Owner Reminder
+
+# Creates GitHub issues to remind the repo owner about periodic tasks.
+# Extensible: add new schedules and issue templates as needed.
+# Templates live in agent/integrations/{platform}/templates/engagement-data.md
+
+on:
+  schedule:
+    - cron: '0 14 * * 6'  # Saturday 09:00 US Eastern (UTC-5)
+  workflow_dispatch:
+    inputs:
+      type:
+        description: 'Reminder type'
+        required: false
+        default: 'metrics'
+        type: choice
+        options:
+          - metrics
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      OWNER: ${{ github.repository_owner }}
+      REMINDER_TYPE: ${{ inputs.type || 'metrics' }}
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        with:
+          sparse-checkout: agent/integrations
+
+      - name: Weekly metrics reminder
+        if: env.REMINDER_TYPE == 'metrics'
+        run: |
+          WEEK_START=$(date -u -d "7 days ago" +%Y-%m-%d)
+          WEEK_END=$(date -u +%Y-%m-%d)
+
+          # Collect templates from all platform integrations
+          BODY="@${OWNER} — the weekly retro runs tomorrow. Please paste your platform analytics below."
+          BODY="${BODY}"$'\n'
+
+          for template in agent/integrations/*/templates/engagement-data.md; do
+            [ -f "$template" ] || continue
+            PLATFORM=$(basename "$(dirname "$template")")
+            BODY="${BODY}"$'\n'"---"$'\n'$'\n'"## ${PLATFORM}"$'\n'$'\n'"$(cat "$template")"
+          done
+
+          BODY="${BODY}"$'\n'"---"$'\n'"*Auto-created by owner-reminder workflow.*"
+
+          gh issue create \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "Weekly Metrics (${WEEK_START} to ${WEEK_END})" \
+            --label "metrics" \
+            --assignee "$OWNER" \
+            --body "$BODY"

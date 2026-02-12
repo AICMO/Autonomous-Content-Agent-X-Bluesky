@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
 """
-Post tweets and threads to X.
+X (Twitter) integration — post, metrics, verify.
 
 Usage:
-    ./post.py                              # Post 1 tweet + 1 reply
-    ./post.py --limit-tweets 3 --limit-replies 3  # Post up to 3 of each
-    ./post.py --text "hello"               # Post text directly
-    ./post.py --file thread.txt            # Post specific file
+    ./x.py --post                                    # Post 1 tweet + 1 reply from queue
+    ./x.py --post --limit-tweets 3 --limit-replies 3 # Post up to 3 of each
+    ./x.py --post --text "hello"                     # Post text directly
+    ./x.py --post --file thread.txt                  # Post specific file
+    ./x.py --metrics                                 # Print account metrics as JSON
+    ./x.py --metrics --compact                       # One-line summary
+    ./x.py --verify                                  # Verify credentials (raw API response)
 
 Environment:
     X_API_KEY, X_API_KEY_SECRET, X_ACCESS_TOKEN, X_ACCESS_TOKEN_SECRET
+    X_MAX_TWEET_LENGTH (optional, default 25000)
 """
 
 import os
@@ -26,8 +30,8 @@ except ImportError:
     print('{"error": "Missing requests-oauthlib. Run: pip install requests requests-oauthlib"}')
     sys.exit(1)
 
-API_URL = "https://api.twitter.com/2/tweets"
-MAX_TWEET_LENGTH = int(os.environ.get("X_MAX_TWEET_LENGTH", 25000))  # X Premium: 25000, Free: 280
+API_BASE = "https://api.twitter.com/2"
+MAX_TWEET_LENGTH = int(os.environ.get("X_MAX_TWEET_LENGTH", 25000))
 SCRIPT_DIR = Path(__file__).parent
 OUTPUT_DIR = SCRIPT_DIR / "../../outputs/x"
 POSTED_DIR = OUTPUT_DIR / "posted"
@@ -53,6 +57,63 @@ def get_oauth_session():
     )
 
 
+# ---------------------------------------------------------------------------
+# Verify
+# ---------------------------------------------------------------------------
+
+def cmd_verify(session, _args):
+    """Verify credentials by hitting /users/me and printing raw response."""
+    response = session.get(f"{API_BASE}/users/me", params={"user.fields": "public_metrics"})
+    try:
+        print(json.dumps(response.json(), indent=2))
+    except Exception:
+        print(response.text[:500])
+    sys.exit(0 if response.status_code == 200 else 1)
+
+
+# ---------------------------------------------------------------------------
+# Metrics
+# ---------------------------------------------------------------------------
+
+def cmd_metrics(session, args):
+    """Fetch and display account metrics."""
+    response = session.get(f"{API_BASE}/users/me", params={"user.fields": "public_metrics"})
+
+    if not response.text:
+        print('{"error": "Empty response (likely rate limited)", "status": ' + str(response.status_code) + '}')
+        sys.exit(1)
+
+    try:
+        data = response.json()
+    except Exception:
+        print(json.dumps({"error": f"Invalid JSON: {response.text[:200]}", "status": response.status_code}))
+        sys.exit(1)
+
+    if response.status_code != 200:
+        print(json.dumps({"error": data, "status": response.status_code}, indent=2))
+        sys.exit(1)
+
+    user = data.get("data", {})
+    pub = user.get("public_metrics", {})
+    metrics = {
+        "username": user.get("username"),
+        "name": user.get("name"),
+        "followers": pub.get("followers_count"),
+        "following": pub.get("following_count"),
+        "tweets": pub.get("tweet_count"),
+        "listed": pub.get("listed_count"),
+    }
+
+    if args.compact:
+        print(f"@{metrics['username']}: {metrics['followers']} followers, {metrics['following']} following, {metrics['tweets']} tweets")
+    else:
+        print(json.dumps(metrics, indent=2))
+
+
+# ---------------------------------------------------------------------------
+# Post
+# ---------------------------------------------------------------------------
+
 class RateLimitError(Exception):
     pass
 
@@ -60,13 +121,11 @@ class RateLimitError(Exception):
 def post_tweet(session, text, reply_to=None):
     """Post a single tweet, optionally as a reply."""
     payload = {"text": text.strip()}
-
     if reply_to:
         payload["reply"] = {"in_reply_to_tweet_id": reply_to}
 
-    response = session.post(API_URL, json=payload)
+    response = session.post(f"{API_BASE}/tweets", json=payload)
 
-    # Log rate limit status (use 24hr app/user limits, not the misleading x-rate-limit-* headers)
     from datetime import datetime, timezone
     daily_remaining = response.headers.get("x-app-limit-24hour-remaining")
     daily_limit = response.headers.get("x-app-limit-24hour-limit")
@@ -91,7 +150,7 @@ def post_tweet(session, text, reply_to=None):
     print(json.dumps(data))
 
     if "data" in data and "id" in data["data"]:
-        time.sleep(0.5)  # Avoid burst rate limits
+        time.sleep(0.5)
         return data["data"]["id"]
     return None
 
@@ -105,17 +164,13 @@ def post_thread(session, content):
         return False
 
     if len(parts) == 1:
-        # Single tweet, not a thread
         return post_tweet(session, parts[0]) is not None
 
     print(f"Posting thread with {len(parts)} parts...")
-
-    # Post first tweet
     tweet_id = post_tweet(session, parts[0])
     if not tweet_id:
         return False
 
-    # Reply with each subsequent part
     for i, part in enumerate(parts[1:], 2):
         print(f"  Part {i}/{len(parts)}...")
         tweet_id = post_tweet(session, part, reply_to=tweet_id)
@@ -138,7 +193,6 @@ def parse_reply_header(content):
     """
     lines = content.split("\n")
 
-    # Format 1: REPLY_TO: {id} (canonical)
     if lines and lines[0].startswith("REPLY_TO:"):
         reply_to = lines[0].replace("REPLY_TO:", "").strip()
         rest = "\n".join(lines[1:]).strip()
@@ -146,13 +200,11 @@ def parse_reply_header(content):
             rest = rest[3:].strip()
         return reply_to, rest
 
-    # Format 2: First line is just a numeric tweet ID (10+ digits)
     if lines and re.match(r'^\d{10,}$', lines[0].strip()):
         reply_to = lines[0].strip()
         rest = "\n".join(lines[1:]).strip()
         return reply_to, rest
 
-    # Format 3: tweet_id/TWEET_ID header (skip metadata lines, extract body)
     m = re.match(r'^(?:tweet_id|TWEET_ID)\s*:\s*(\d+)', lines[0]) if lines else None
     if m:
         reply_to = m.group(1)
@@ -166,14 +218,12 @@ def parse_reply_header(content):
         rest = "\n".join(lines[body_start:]).strip()
         return reply_to, rest
 
-    # Format 4: reply_to/in_reply_to with numeric ID on first line
     m = re.match(r'^(?:reply_to|in_reply_to)\s*:\s*(\d{10,})', lines[0]) if lines else None
     if m:
         reply_to = m.group(1)
         rest = "\n".join(lines[1:]).strip()
         return reply_to, rest
 
-    # Format 5: in_reply_to/reply_to with numeric ID at end of file
     for i in range(len(lines) - 1, -1, -1):
         m = re.match(r'^(?:in_reply_to|reply_to)\s*:\s*(\d{10,})', lines[i])
         if m:
@@ -215,15 +265,8 @@ def process_content(session, content):
         return post_tweet(session, body) is not None
 
 
-def main():
-    parser = argparse.ArgumentParser(description="Post tweets and threads to X")
-    parser.add_argument("--limit-tweets", type=int, default=1, help="Max tweets/threads to post (default: 1)")
-    parser.add_argument("--limit-replies", type=int, default=1, help="Max replies to post (default: 1)")
-    parser.add_argument("--text", type=str, help="Post text directly")
-    parser.add_argument("--file", type=str, help="Post specific file")
-    args = parser.parse_args()
-
-    session = get_oauth_session()
+def cmd_post(session, args):
+    """Post tweets/threads/replies."""
 
     # Direct text mode
     if args.text:
@@ -259,7 +302,7 @@ def main():
             sys.exit(1)
         sys.exit(0 if success else 1)
 
-    # Find pending files, split by type with separate limits
+    # Queue mode
     POSTED_DIR.mkdir(parents=True, exist_ok=True)
     SKIPPED_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -274,8 +317,8 @@ def main():
         print("No pending files")
         sys.exit(0)
 
-    # Pre-flight: check daily quota before posting
-    preflight = session.post(API_URL, json={"text": ""})  # Will fail but returns headers
+    # Pre-flight: check daily quota
+    preflight = session.post(f"{API_BASE}/tweets", json={"text": ""})
     daily_remaining = preflight.headers.get("x-app-limit-24hour-remaining")
     daily_limit = preflight.headers.get("x-app-limit-24hour-limit")
     daily_reset = preflight.headers.get("x-app-limit-24hour-reset")
@@ -298,7 +341,6 @@ def main():
         print(f"Processing: {filepath.name}")
         content = filepath.read_text().strip()
 
-        # Validate content length
         error = validate_content(content)
         if error:
             print(f"  ⚠ Skipping: {error}")
@@ -321,6 +363,39 @@ def main():
 
     print(f"Posted: {posted} ({len(tweets)} tweets, {len(replies)} replies queued)")
     sys.exit(1 if failed else 0)
+
+
+# ---------------------------------------------------------------------------
+# CLI
+# ---------------------------------------------------------------------------
+
+def main():
+    parser = argparse.ArgumentParser(description="X (Twitter) integration")
+
+    # Commands (mutually exclusive)
+    cmd = parser.add_mutually_exclusive_group(required=True)
+    cmd.add_argument("--post", action="store_true", help="Post tweets/threads/replies")
+    cmd.add_argument("--metrics", action="store_true", help="Fetch account metrics")
+    cmd.add_argument("--verify", action="store_true", help="Verify credentials")
+
+    # Post options
+    parser.add_argument("--limit-tweets", type=int, default=1, help="Max tweets/threads to post (default: 1)")
+    parser.add_argument("--limit-replies", type=int, default=1, help="Max replies to post (default: 1)")
+    parser.add_argument("--text", type=str, help="Post text directly")
+    parser.add_argument("--file", type=str, help="Post specific file")
+
+    # Metrics options
+    parser.add_argument("--compact", action="store_true", help="One-line metrics summary")
+
+    args = parser.parse_args()
+    session = get_oauth_session()
+
+    if args.post:
+        cmd_post(session, args)
+    elif args.metrics:
+        cmd_metrics(session, args)
+    elif args.verify:
+        cmd_verify(session, args)
 
 
 if __name__ == "__main__":
