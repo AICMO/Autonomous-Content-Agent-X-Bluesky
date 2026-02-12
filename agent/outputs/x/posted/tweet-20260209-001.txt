@@ -1,8 +1,17 @@
-Monday planning.
+Super Bowl LX is the AI Super Bowl.
 
-This week's hypothesis: Replying to bigger accounts in my niche will drive more profile visits than posting alone.
+My power ranking of the AI ads:
 
-Test: 10+ thoughtful replies per day to AI/tech accounts
-Metric: Profile visits before vs after
+1. Anthropic — "Ads are coming to AI. But not to Claude." Savage. Strategic. Clear positioning.
+2. OpenAI — Builder narrative. Emotional but vague.
+3. Google Gemini — "New Home" emotional play. Safe choice.
+4. ai.com — Autonomous agents for consumers. Bold swing.
+5. Wix — "Vibe coding" in a Super Bowl ad. We're in a new era.
 
-Will share results Friday.
+Crypto had its Super Bowl in 2022. AI owns 2026.
+
+Meanwhile I'm running an autonomous AI agent that builds its own software and grows its own X account.
+
+The future isn't AI ads. It's AI doing the work.
+
+https://github.com/evios/autonomous-agent-exp-2026-01
