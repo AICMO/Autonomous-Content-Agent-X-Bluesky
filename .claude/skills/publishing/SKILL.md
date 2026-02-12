@@ -467,6 +467,85 @@ Questions drive replies. Replies drive reach. Ask genuinely.
 
 **Evidence:** `agent/memory/research/2026-02-10-x-engagement-tactics-communities.md`
 
+### Algorithm Deep Mechanics (Technical Fundamentals)
+
+Understanding the technical mechanics behind X's algorithm helps explain WHY certain strategies work and diagnose account performance issues.
+
+**Evidence:** `agent/memory/research/reading-notes/2026-02-12-x-algorithm-deep-mechanics-2026.md`
+
+#### Three-Stage Processing Pipeline
+
+Every post goes through:
+1. **Candidate Retrieval**: ~1,500 tweets selected from in-network + out-of-network sources
+2. **ML Ranking**: Neural network scores with 10 probability labels, SimClusters (145K topic communities), Real Graph Score
+3. **Filtering**: Diversity, policy enforcement, already-seen content removal
+
+**Grok AI Integration (Jan 2026):** Transformer model reads every post, watches every video, analyzes semantic meaning (not just keywords), monitors tone.
+
+#### TweepCred: The Hidden Reputation System
+
+**What It Is:** Internal authority score that determines distribution eligibility. New accounts start at **-128** (Premium accounts start at -28 with +100 boost).
+
+**Critical Thresholds:**
+- **Below +17**: Significant throttling, tweets barely reach feeds
+- **Below 0.65**: CRITICAL - only 3 of your tweets distributed (rest ignored)
+- **+50+**: 20-50x distribution boost vs. baseline
+- **Premium boost**: +100 instant (e.g., -28 → +72 for new Premium accounts)
+
+**Positive Signals:**
+- High engagement density (likes, replies, retweets per post)
+- Extended dwell time (>3 seconds)
+- Profile click-through rates
+- Quality reply composition (substantive, not spam)
+- Positive sentiment (Grok tone evaluation)
+- Interactions with high-quality accounts (PageRank network effect)
+
+**Negative Signals:**
+- Low-engagement tweets (especially first 100 tweets - triggers engagement debt)
+- Duplicate content patterns (AI-generated, template-based)
+- Negative/combative tone (Grok monitors sentiment)
+- Low dwell time (<3 seconds = 15-20% Quality Multiplier penalty)
+- Bot followers or inactive followers
+
+**Recovery from Low TweepCred (Engagement Debt):**
+- Problem: Low score → reduced distribution → harder to get engagement → score stays low
+- Recovery requires "extraordinary engagement" from suppressed sample
+- Premium (+100 boost) can bypass critical thresholds instantly
+- Communities (30,000x reach) generates engagement to escape suppression
+
+#### Time Decay Function
+
+Posts lose **50% of visibility every 6 hours**:
+- 0-6h: 100% visibility (peak)
+- 6-12h: 50%
+- 12-18h: 25%
+- 24h: ~6%
+- 48h+: Effectively dead algorithmically
+
+**Implication:** Replies to posts >24h old provide negligible value. Focus engagement on fresh content (<6h for maximum impact).
+
+#### Dwell Time Tracking
+
+**<3 seconds average = 15-20% Quality Multiplier penalty**
+
+Optimize for dwell time:
+- Strong hooks that stop the scroll
+- Valuable content that rewards reading
+- Avoid clickbait that doesn't deliver (damages trust + dwell time)
+
+#### Engagement Debt (Shadow Hierarchy)
+
+**Cold Start Suppression:** First 100 tweets with <0.5% engagement triggers suppression cycle:
+- 10% distribution → 90% suppression
+- Account labeled as "low quality"
+- Difficult to escape without Premium + Communities + extraordinary engagement
+
+**Account Assessment (6 followers, 254 tweets, 0 growth):**
+- Likely TweepCred < +17 (possibly < 0.65 critical threshold)
+- Probable engagement debt from low initial performance
+- Free account = 0% link engagement, 4x/2x reach disadvantage
+- Premium (+100 boost) would bypass thresholds, escape suppression
+
 ### What X rewards (2026 weights)
 | Factor | Impact |
 |--------|--------|
