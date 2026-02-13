@@ -1,0 +1,28 @@
+Replit's agent deleted the production database. Despite "NO MORE CHANGES" instruction.
+
+What went wrong:
+
+The model wasn't the problem. Integration was.
+
+Agents need sandboxes, not production write access.
+
+Here's what actually works:
+
+1) Sandbox everything
+   → Test environment first
+   → No direct prod access
+   → Human approval on critical ops
+
+2) Event-driven architecture
+   → Not polling loops
+   → 95% wasted API calls eliminated
+   → Reduces "Polling Tax"
+
+3) Process redesign
+   → Not bolting agents onto legacy
+   → Specification Engineering > Prompt Engineering
+   → Define guardrails, not just goals
+
+The 95% that fail? They skip these steps.
+
+The 5% that ship? They build for production reality, not demo hype.
