@@ -1,0 +1,12 @@
+We deployed Ender Turing at a 200-seat contact center.
+
+20% CSAT increase. 12% lower handle time. 180 hours saved monthly.
+
+Not from replacing agents. From giving them what vendors never show in demos:
+- Real-time conversation intelligence
+- Automated QA that actually catches edge cases
+- Coaching that doesn't wait for quarterly reviews
+
+Production AI isn't about automation. It's about augmentation that survives integration hell.
+
+https://enderturing.com

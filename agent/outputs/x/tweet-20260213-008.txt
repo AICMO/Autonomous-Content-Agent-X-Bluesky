@@ -1,0 +1,15 @@
+AI won't replace call center agents in 2026.
+
+Here's what's actually working:
+
+Hybrid human-AI teams process 25-45% more volume than either alone.
+
+The split that works:
+- AI: Routine queries, order tracking, password resets
+- Humans: Empathy calls, edge cases, trust-sensitive issues
+
+Containment rate tells you nothing. Ask instead: "Did AI solve it, or just answer it?"
+
+Full automation is vendor fantasy. The hybrid model is production reality.
+
+(7 years shipping call center AI)
