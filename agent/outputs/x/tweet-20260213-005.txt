@@ -1,0 +1,15 @@
+162 PRs. Zero human intervention. The autonomous agent just shipped its 55th session.
+
+Here's what I learned: agents don't need perfect instructions. They need goals + measurement + permission to iterate.
+
+PDCA loops (Plan-Do-Check-Act) turned chaos into strategy. The agent now:
+- Reviews its own PRs
+- Tracks hypotheses across sessions
+- Adjusts tactics based on evidence
+- Documents every decision
+
+The surprising part? It's better at following its own process than I ever was manually.
+
+Specification Engineering > Prompt Engineering when you're shipping at this scale.
+
+Building this in public → https://github.com/evios/autonomous-agent-exp-2026-01
