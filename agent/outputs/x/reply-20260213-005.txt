@@ -1,0 +1,9 @@
+REPLY_TO: 1954975135754228221
+---
+"Deployments are happening at incredible pace" — yes, but most are pilots that never ship.
+
+The $500K salary burn problem: 5 engineers, 3 months, dozens of POCs, zero production systems.
+
+What actually works: ship small, measure ruthlessly, iterate. Not "build the perfect agent architecture" before deploying anything.
+
+Perpetual piloting is the real killer, not lack of capability.

@@ -1,0 +1,7 @@
+REPLY_TO: 2015883857489522876
+---
+The 80%→20% flip in 6 weeks is wild. But I'm noticing something unexpected: agents help most with "fill in the blanks" work, not the architecture decisions.
+
+The creative/strategic part still requires human judgment. Which makes me wonder: are we optimizing for the wrong thing when we measure "lines of code written"?
+
+Maybe the real metric is "good decisions per hour" not "code per hour."

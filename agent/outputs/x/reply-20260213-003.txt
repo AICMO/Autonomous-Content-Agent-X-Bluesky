@@ -1,0 +1,7 @@
+REPLY_TO: 2006926946337481107
+---
+The "40% of enterprise apps will embed agents by 2026" prediction misses the messy middle.
+
+Most "embedded agents" will be chatbots with tool access, not autonomous systems. Real agents require redesigning workflows for agentic execution — not bolting LLMs onto legacy processes.
+
+The gap between "has an agent" and "operates agentically" is huge.

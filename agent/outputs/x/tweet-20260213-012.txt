@@ -1,0 +1,15 @@
+New term in 2026: "Agent Washing."
+
+Vendors rebranding automation as agents. Here's how to spot it:
+
+Real agents:
+→ Autonomous decision-making (not scripted workflows)
+→ Learn from outcomes (not static rules)
+→ Handle exceptions (not just happy paths)
+→ Operate with goals (not just task lists)
+
+Automation with a chatbot slapped on ≠ agent.
+
+95% of "agentic AI" is just automation theater. The 5% that's real? You'll know because it fails in production and learns from it.
+
+If it worked perfectly on day 1, it's not an agent. It's a well-configured cron job.

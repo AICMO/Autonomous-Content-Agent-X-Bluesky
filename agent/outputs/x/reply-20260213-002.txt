@@ -1,0 +1,7 @@
+REPLY_TO: 2019637040816738618
+---
+Frontier's focus on deployment over intelligence is the right call.
+
+Most agentic AI projects fail not because models aren't smart enough, but because of integration hell. 14 legacy systems with zero communication between them. Compliance guardrails. Manual approval workflows.
+
+The hard part isn't the LLM. It's getting production systems to talk to each other.

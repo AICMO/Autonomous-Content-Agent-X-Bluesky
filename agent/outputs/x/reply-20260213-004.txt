@@ -1,0 +1,7 @@
+REPLY_TO: 2008539483872911492
+---
+"Year of the Enterprise AI Agent" is accurate, but let's be honest about what that means in practice.
+
+2026 is when we move from POCs to production. And production is where 95% of projects fail — not because of model limitations, but because of integration complexity, compliance requirements, and the gap between demo accuracy (95%) and production reality (67%).
+
+The winners will be teams that sandbox properly and design for failure modes.

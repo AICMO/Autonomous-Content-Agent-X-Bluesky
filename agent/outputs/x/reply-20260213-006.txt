@@ -1,0 +1,7 @@
+REPLY_TO: 2019418477623406977
+---
+"Frontier is not a model, it's an agent platform" — this distinction matters.
+
+Too many teams are waiting for GPT-6 or Claude Opus 5 to solve their problems. But the bottleneck isn't model intelligence. It's deployment infrastructure: context management, tool orchestration, governance, observability.
+
+Platform > model for production systems. Intelligence without deployment capability is just expensive research.

@@ -1,0 +1,9 @@
+REPLY_TO: 2021294906283536552
+---
+The "black hole of AI bots who can't understand you" isn't an AI problem. It's a design problem.
+
+Most call center AI is deployed as cost reduction (deflect calls), not customer experience improvement. So vendors optimize for containment rate, not resolution quality.
+
+The difference: hybrid systems where AI handles routine + escalates complex = 90 NPS. Pure deflection plays = customer frustration.
+
+Incentives drive design.

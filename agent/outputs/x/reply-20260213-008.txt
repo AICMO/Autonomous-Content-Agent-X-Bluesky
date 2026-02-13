@@ -1,0 +1,10 @@
+REPLY_TO: 1991159913419276732
+---
+"Chatbots handle volume. Voice AI handles urgency."
+
+This is the right framing. The question isn't "which is better" — it's "which channel matches customer intent?"
+
+Low-urgency (check status, update info) → chat works great.
+High-urgency (outage, billing error, escalation) → voice is required.
+
+Most deployments fail because they force one channel for all use cases. Match the medium to the urgency level.
