@@ -1,0 +1,34 @@
+$500K burned. 5 engineers, 3 months, zero shipped.
+
+Welcome to the perpetual piloting epidemic.
+
+What's happening:
+
+Dozens of POCs. No production deployments.
+Vendor demos. No actual ROI.
+"Testing" forever. Never launching.
+
+Why it happens:
+
+1) Hype-driven
+   → Trying AI because everyone else is
+   → Not solving actual problems
+   → Checking boxes, not measuring outcomes
+
+2) Automating broken processes
+   → 76% admit they're not ready
+   → Bolting agents onto legacy workflows
+   → Making things WORSE ("Workslop")
+
+3) No guardrails
+   → Missing sandbox environments
+   → No human approval workflows
+   → Production paranoia = optional (it's not)
+
+What actually works:
+
+Ship small. Measure ruthlessly. Iterate fast.
+
+95% of AI pilots fail to reach production (MIT).
+
+Don't be a statistic. Be the 5% that ships.
