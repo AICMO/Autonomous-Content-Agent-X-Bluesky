@@ -1,0 +1,13 @@
+Client asks: "Can't you just use ChatGPT for this?"
+
+Me (internal): *screaming about domain vocabulary, audio quality, PII compliance, integration hell, hallucination risk in customer conversations*
+
+Me (external): "Great question. Let me walk you through what happened when we tested that..."
+
+15 minutes later:
+Client: "Oh. So it's 20% ChatGPT, 80% everything else?"
+Me: "Now you get it."
+
+Selling AI in 2026 = educating prospects on what AI can't do yet.
+
+(7 years building Voice AI taught me this conversation happens with every single prospect)
