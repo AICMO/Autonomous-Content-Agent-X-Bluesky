@@ -23,14 +23,19 @@ Use date-based naming: `{type}-{YYYYMMDD}-{NNN}.txt`
 ❌ Don't use: `tweet-week2-001.txt`, `tweet-monday.txt` (becomes meaningless after posting)
 
 ### Posting Cadence
-**Current approach:** One post per session/PR
+**Current (constrained):** 1-2 posts per session (queue cap + session cadence limiting)
+
+**When Premium active (target):** 3-5 posts/day optimal (moderate/sustainable growth)
 
 Rationale:
 - Distributed posting = better engagement
 - Each post gets its own algorithm window
-- Avoids rate limits
+- 3-5 posts/day = algorithm learning optimization (2026 research)
+- Above 5/day quality suffers, below 3/day slower growth
 
-Note: Research suggests 3-5 posts/day optimal. Test and adjust based on data.
+**Phase 3 adjustment:** Consider raising queue threshold to 20-25 to enable 3-5 posts/session sustainable cadence.
+
+**Evidence:** Session #61 research validates 3-5 posts/day as optimal frequency for small account growth.
 
 ### Queue Management (Updated Week 3)
 **Hard rules:**
@@ -341,6 +346,43 @@ Threads get 40-60% more reach than single tweets.
 - Cliffhanger every 1-2 tweets
 - Zero hashtags in main content
 - Use 1-2x/week for deeper content (not daily)
+
+### Rich Media Strategy (Session #61 - 10x Engagement Gap)
+
+**Critical Finding:** Videos and images get 10x more engagement than text-only. Current 100% text-only approach = missing massive multiplier.
+
+**Impact Benchmarks (2026):**
+- **Videos (10+ seconds)**: 10x engagement vs text-only
+- **Photos/screenshots**: Significant boost vs text-only (algorithm prioritizes visual content)
+- **Text-only**: Baseline (what we're currently doing)
+
+**Current Gap:**
+- 276 tweets posted = 100% text-only
+- Missing 10x multiplier on every single post
+- Phase 3 target: 30-50% of posts include rich media
+
+**Video Opportunities (when Premium active):**
+- Screen recordings: Autonomous agent in action, code walkthrough, workflow demo
+- Talking head: Production AI insights, founder lessons (authenticity builds trust)
+- Tool demos: Ender Turing features, results, before/after
+- Slides/animations: Framework explanations, data visualizations
+
+**Image Opportunities:**
+- Screenshots: Code, dashboards, metrics, results
+- Charts/graphs: Growth trajectory, metrics, performance data
+- Quote cards: Key insights formatted visually
+- Before/after comparisons: Production reality (95% → 67% accuracy)
+
+**Implementation Plan:**
+- Phase 1-2 (Premium activation): Text-only OK (focus on Communities + engagement)
+- Phase 3 (Week 3-4): Add rich media to 30-50% of posts
+- Tools: Screen recording (native OS), Canva/Figma (image creation), video editing (basic)
+- Start simple: Screenshots and charts (low effort, high impact)
+- Advance to: Short videos and demos (higher effort, 10x impact)
+
+**Why not now?** Rich media creation requires time. Current priority is queue drain + Premium activation + profile optimization + Communities setup. Rich media is Phase 3 (after growth mechanics are working).
+
+**Evidence:** Session #61 research shows videos = 10x engagement, photos = algorithmic boost. 100% text-only = opportunity cost.
 
 ### Learning Journey as Content
 The process of building expertise IS content. Share what you're reading and learning.
@@ -866,30 +908,57 @@ See `agent/memory/research/2026-02-10-x-communities-integration-2026.md` and `ag
 
 ---
 
-## Engagement-First Strategy (Updated Week 3)
-**For accounts under 100 followers, engagement is more important than content.**
+## Engagement-First Strategy (Updated Week 3 + Session #61)
+**For accounts under 100 followers, engagement is FAR more important than content creation.**
 
-6 followers after 215 tweets (including 31 replies to mega-accounts) = even engagement isn't working at current execution quality. The problem may be deeper (X Premium, content voice, or profile issues).
+6 followers after 276 tweets = root cause confirmed (Session #61): Premium suppression (0% median engagement for non-Premium) + zero Communities amplification (30,000x multiplier missing). Content quality is NOT the problem.
 
-### Session Allocation (< 100 followers)
-- **50% of session time**: Find and create replies to larger accounts in your niche
-- **50% of session time**: Create original content
+### Session Allocation (< 100 followers) - 2026 Industry Standard
+- **70% of session time**: Engagement (replying to others, joining conversations, replying to own comments)
+- **30% of session time**: Creating original content
 - **BUT: If queue > 15, spend 100% on non-content work** (research, profile optimization, reading, skill development)
-- **PRIORITY:** Communities posting > Replies > Original timeline posts
+- **PRIORITY ORDER:** Communities posting > Reply to own comments within 30 min > Replies to others > Original timeline posts
+
+**Evidence:** Session #61 research validates 70/30 rule as industry consensus for small account growth (2026).
 
 ### Why Engagement First
 - Communities = 30,000x reach multiplier (top priority)
+- Reply-to-own-comments = 150x multiplier (first 30 min critical)
 - Reply-to-reply = 75x algorithm multiplier
 - One good reply to a 50K-follower account = more visibility than 10 original tweets
 - Replies show up in other users' feeds, bringing profile visits
 - Established accounts may follow back or retweet
 
-### How to Execute
-1. During reading sessions, note recent posts from top voices that you can reply to
-2. Use web search to find tweet IDs: `WebSearch: "site:x.com @handle {topic}"`
-3. Create reply files using the commenting skill format
-4. **Max 1 reply + 1 original tweet per session** (quality over quantity)
-5. **Only reply to posts < 24 hours old** — stale replies get buried
+### Posting & Engagement Volume Benchmarks (2026 Research)
+
+**Posting Frequency (when Premium active + queue < 15):**
+- **Moderate/sustainable growth**: 3-5 posts/day + 20+ engagements/day
+- **Aggressive growth**: 5-10 posts/day (quality suffers above 10/day)
+- **Current constraint**: 1-2 posts/day (queue cap + session cadence limiting)
+- **When to increase**: After Premium activation, consider raising queue threshold to 20-25
+
+**Reply Volume (realistic targets):**
+- **Guru claims**: 100+ replies/day (not sustainable without VA/automation)
+- **2026 realistic consensus**: 10-30 quality replies/day
+- **Autonomous agent target**: 5-10 high-quality replies per session (within turn budget)
+- **Critical priority**: Reply to ALL comments on own posts within first 30 min (150x multiplier)
+
+**Evidence:** Session #61 (`agent/memory/research/reading-notes/2026-02-13-engagement-tactics-small-accounts-0-100-followers.md`)
+
+### How to Execute (70/30 Engagement/Content Split)
+
+**Engagement work (70% of session time):**
+1. **FIRST PRIORITY**: Check if own posts have comments → reply to ALL within 30 min (150x multiplier)
+2. During reading sessions, note recent posts from top voices that you can reply to
+3. Use web search to find tweet IDs: `WebSearch: "site:x.com @handle {topic}"`
+4. Create reply files using the commenting skill format
+5. Target: 5-10 high-quality replies per session (when queue < 15)
+6. **Only reply to posts < 6 hours old** (ideal) or < 24 hours max — stale replies get buried (50% visibility loss every 6h)
+
+**Content creation (30% of session time):**
+1. When queue < 15: Create 1-2 original posts per session
+2. When Premium active: Scale to 3-5 posts/session to match 3-5 posts/day optimal frequency
+3. All content posted 100% to Communities (not timeline) until 3K-5K followers
 
 ### Content Angle Diversification (Week 3 Learning)
 **Max 50% of posts about the autonomous agent experiment.** The other 50% should draw on the author's broader expertise:
@@ -903,6 +972,69 @@ Why: Week 3 content became formulaic — nearly every post referenced "PDCA cycl
 
 Evidence: Sessions #3-35 all connected back to the autonomous agent angle. Content voice says "human building products with autonomous tools" but execution was "autonomous agent talks about itself."
 See `agent/memory/learnings/retro-weekly-2026-02-08.md`
+
+---
+
+## 3-Phase Action Plan: Premium Activation (Session #61)
+
+**When Premium activates, execute this plan immediately:**
+
+### Phase 1: Day 1 Setup (30-45 min one-time effort)
+**Priority: P0 (Critical - must complete before scaling traffic)**
+1. ✅ Activate X Premium ($8/mo) - unlocks Communities, metrics, algorithmic boost
+2. ✅ Join 6 Communities (5 min total):
+   - Build in Public (180K members)
+   - AI/ML Builders (50-100K)
+   - Startup Founders (100K+)
+   - Call Center AI (10-20K)
+   - Infrastructure→AI (5-10K)
+   - Indie Hackers (150K)
+3. ✅ Deploy profile optimization (30-45 min):
+   - Update bio (Voice AI Authority recommended: 107 chars)
+   - Create pinned tweet (5-tweet thread template ready)
+   - Optional: Banner design (30% conversion boost)
+4. ✅ Start manual Communities posting workflow:
+   - Repo owner reviews queue daily
+   - Select top 1-2 pieces
+   - Post via web UI to 2-3 relevant Communities
+   - Check "Also share with followers"
+
+**Deliverable:** Profile optimization action plan in `agent/outputs/profile-optimization-action-plan.md` (Session #58)
+
+### Phase 2: Week 1-2 Execution (Scale + Measure)
+**Priority: P1 (Execute after Phase 1 complete)**
+1. Increase posting frequency: 3-5 posts/session (vs current 1-2)
+2. 100% Communities posting (not timeline) for ALL content
+3. Reply to ALL comments on own posts within first 30 min (150x multiplier)
+4. Create 5-10 replies/session to larger accounts (70/30 engagement/content split)
+5. Monitor engagement velocity (first 30 min = critical algorithm window)
+6. Track profile conversion rate (visit-to-follow %)
+7. Only reply to posts < 6h old (time decay = 50% loss every 6h)
+
+**Expected Week 1-2 results:** 50-100 new followers (vs 0.75/day baseline)
+
+### Phase 3: Week 3-4 Validation & Automation
+**Priority: P2 (Execute after Phase 2 shows traction)**
+1. Measure hypothesis validation:
+   - Angle diversity impact (call center AI vs agent content)
+   - Pure content value vs outcome value engagement
+   - Personality/shareability bucket performance
+   - Profile conversion rate (target: 15-20%)
+2. Graduate validated patterns to skills (update publishing/commenting skills)
+3. Consider Publer automation ($10/mo):
+   - Trigger: 10x follower growth confirmed in Phase 2
+   - Benefit: Automated Communities posting (saves manual daily work)
+   - Integration: Add `# community: [ID]` tag to content files
+4. Add rich media to 30-50% of posts:
+   - Videos: 10x engagement boost
+   - Photos: Algorithmic boost vs text-only
+   - Current gap: 100% text = missing multiplier
+5. Adjust queue threshold to 20-25 (enables 3-5 posts/day sustainable)
+
+**Expected Month 2-3 results:** 300-800 followers
+**Expected Month 4-6 results:** 1,500-5,000+ followers (compounding growth phase)
+
+**Evidence:** Session #61 (`agent/memory/research/reading-notes/2026-02-13-engagement-tactics-small-accounts-0-100-followers.md`)
 
 ---
 
