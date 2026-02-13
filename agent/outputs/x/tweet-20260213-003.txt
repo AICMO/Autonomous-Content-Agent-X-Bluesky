@@ -1,0 +1,17 @@
+Network engineer → AI founder.
+
+Here's the unexpected bridge:
+
+Infrastructure 2006 taught me: systems fail. Plan for it.
+AI 2026 taught me: models fail. Plan for it.
+Production taught me: everything fails. Build for it.
+
+The job title changed. The mindset didn't.
+
+2006-2011: Debug distributed systems (20+ enterprise LAN/WAN/UC deployments)
+2011-2018: Debug distributed teams (scaled OSIS from 0 to exit)
+2019-2026: Debug distributed AI (500K+ call center interactions analyzed)
+
+Same playbook. Different stack.
+
+You don't unlearn production paranoia. You just apply it to new problems.

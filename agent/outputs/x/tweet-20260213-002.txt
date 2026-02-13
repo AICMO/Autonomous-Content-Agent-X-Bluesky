@@ -1,0 +1,21 @@
+7 years building Voice AI for call centers.
+
+The 95% → 67% accuracy gap still keeps me up at night.
+
+Every client demo: "This is amazing! 95% accurate!"
+
+Six weeks into production: "Why is it only hitting 67%?"
+
+Here's the truth vendors won't tell you: that 28-point drop isn't a bug. It's reality hitting the model.
+
+Demo environments: clean audio, scripted scenarios, controlled variables.
+
+Production: background noise, thick accents, crosstalk, ancient phone systems, agents eating lunch on calls.
+
+The gap isn't in the AI. It's in the 14 legacy systems that don't talk to each other.
+
+But here's what I've learned: 67% is still disruptive. It's not perfect. It's just good enough to change the math.
+
+180 hours/month saved. 20% CSAT increase. Even at 67%.
+
+The hardest part of this job? Explaining that production reality beats vendor hype. Every. Single. Time.
