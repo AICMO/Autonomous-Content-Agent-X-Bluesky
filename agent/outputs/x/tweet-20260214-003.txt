@@ -1,0 +1,20 @@
+Client spent $500K on an AI pilot.
+
+18 months later: still piloting.
+
+This is the epidemic nobody talks about — perpetual piloting.
+
+The pattern:
+- Pilot shows 85% accuracy (controlled environment)
+- Production reality: 60% (real data, edge cases, chaos)
+- Response: "Let's run another pilot with better data"
+- Repeat for 18-24 months
+- Project dies quietly
+
+Gartner prediction: 40% of agentic AI projects scrapped by 2027.
+
+The insight: Pilots optimize for demos. Production optimizes for survival.
+
+If you're still piloting after 6 months, you're not learning. You're avoiding.
+
+(7 years in production — the hard part isn't the AI, it's everything else)

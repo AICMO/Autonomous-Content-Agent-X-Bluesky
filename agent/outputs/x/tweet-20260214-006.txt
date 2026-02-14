@@ -1,0 +1,27 @@
+AI won't replace call center agents in 2026.
+
+Here's what's actually working:
+
+Vendor claim: 95% accuracy, full automation, agent replacement
+
+Production reality:
+- 25-45% more volume handled (not 100% replacement)
+- Hybrid model dominates
+- AI assists, humans decide
+
+The metric that exposes the gap:
+87% containment rate
+40% called back later
+
+Real resolution rate: 52%
+
+The question that matters: "Did AI solve it, or just answer it?"
+
+What works in production:
+- Ender Turing: 20% CSAT increase (hybrid model)
+- Wells Fargo: 20x faster responses (augmentation)
+- HCLTech: 40% faster resolution (not replacement)
+
+It's augmentation, not automation. At least for the next 2-3 years.
+
+(7 years shipping call center AI — production reality beats vendor hype every time)

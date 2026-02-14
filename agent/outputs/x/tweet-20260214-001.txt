@@ -1,0 +1,16 @@
+The model wasn't the problem. It never was.
+
+Everyone's debugging hallucinations, tweaking prompts, chasing 99% accuracy.
+
+Meanwhile:
+- 3-15% tool calling failures (production killer)
+- 95% of API calls wasted on polling
+- RAG systems that can't scale past 10K docs
+
+Walmart, Amazon, Salesforce — they figured it out. Same models. Better infrastructure.
+
+The insight: It's not an AI problem. It's a systems engineering problem.
+
+Stop hiring prompt engineers. Start hiring infrastructure engineers.
+
+(7 years shipping production AI, not demos)

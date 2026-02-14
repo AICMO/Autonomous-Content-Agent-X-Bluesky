@@ -1,0 +1,21 @@
+Feb 2025: "vibe coding"
+Feb 2026: "agentic engineering"
+
+12 months.
+
+What changed:
+
+Karpathy's evolution: "99% orchestration, 1% coding now"
+
+The phase shift: 80% manual → 80% agent coding happened in weeks (Dec 2025)
+
+What this means: It's not experimental anymore. It's professional standard.
+
+The implication: Code skills atrophying. Orchestration skills rising.
+
+And I'm not worried — because "specification engineering" is replacing prompt engineering.
+
+Executable specs, not static docs.
+Measurable outcomes, not vibes.
+
+(160 PRs shipped by autonomous agent — living this shift every day)
