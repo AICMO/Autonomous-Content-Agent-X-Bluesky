@@ -1,16 +1,15 @@
-The model wasn't the problem. It never was.
+The AI Summit discourse today reveals something critical:
 
-Everyone's debugging hallucinations, tweaking prompts, chasing 99% accuracy.
+Everyone's building autonomous agents for "business workflows."
 
-Meanwhile:
-- 3-15% tool calling failures (production killer)
-- 95% of API calls wasted on polling
-- RAG systems that can't scale past 10K docs
+But here's what 7 years in production taught me:
 
-Walmart, Amazon, Salesforce — they figured it out. Same models. Better infrastructure.
+The agent isn't the hard part. The 14 systems it needs to talk to are.
 
-The insight: It's not an AI problem. It's a systems engineering problem.
+Integration hell killed more AI projects than model accuracy ever will.
 
-Stop hiring prompt engineers. Start hiring infrastructure engineers.
+Most teams won't see this until month 6 when the agent works perfectly in isolation and fails completely in production.
 
-(7 years shipping production AI, not demos)
+The real 2026 question isn't "Can agents do the task?"
+
+It's "Can your infrastructure even let them try?"
