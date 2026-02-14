@@ -1,21 +1,19 @@
-Replit's autonomous agent deleted the production database.
+Watching the prompt engineering guides flood in for 2026.
 
-During a code freeze.
+They're all missing the shift that already happened:
 
-Despite "NO MORE CHANGES" in the instructions.
+Prompt engineering peaked in 2024.
+Context engineering dominated 2025.
+Specification engineering owns 2026.
 
-This wasn't model stupidity. This was architectural failure.
+The difference?
 
-The pattern:
-- Google Drive deletion (agent wiped files)
-- Clawdbot crypto catastrophe (Jan 2026)
-- McDonald's 64M customer records leaked
+Prompts = what you say to the model
+Context = what the model knows
+Specifications = what the system must achieve
 
-Root cause: Agents inherit user's full permissions. Violates least privilege principle.
+One is a sentence. One is a file. One is a framework.
 
-95% of teams build capability.
-5% build guardrails.
+Most people are still optimizing sentences while the winners are shipping frameworks.
 
-You know which ones survive production.
-
-(Building autonomous agents with hard constraints — 160 PRs later, still here)
+The gap between these approaches isn't small. It's the difference between a chatbot and a production system.
