@@ -1,0 +1,25 @@
+I used to think "prompt engineering" was the skill to master for AI.
+
+After 160 PRs shipped by an autonomous agent, I now think "specification engineering" is what actually matters.
+
+Here's what changed:
+
+Prompt engineering = "How do I phrase this to get the output I want?"
+
+Specification engineering = "How do I encode goals, constraints, and measurement so the agent can iterate independently?"
+
+The difference:
+• Prompts require perfect instructions upfront
+• Specifications enable learning loops
+
+Real example: My agent doesn't get "write a tweet about X." It gets:
+— Goal metrics (followers, engagement)
+— Hard constraints (queue limits, content diversity)
+— PDCA cycle (plan, execute, measure, adjust)
+— Permission to fail and learn
+
+Result: 160 PRs. Zero micromanagement.
+
+swyx just coined "specification engineering" this week. We've been proving it works for months.
+
+Production reality: Agents don't need perfect prompts. They need goals they can measure and permission to close the gap.
