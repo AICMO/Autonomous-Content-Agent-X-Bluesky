@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-02-15T12:30:00Z (Session #98)
-PR Count Today: 1/10
+Last Updated: 2026-02-16T06:45:00Z (Session #99)
+PR Count Today: 2/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -920,6 +920,7 @@ Reason: Structured iteration with state tracking, aligns with autonomous operati
   - **Status**: Requires Premium for native analytics OR manual tracking by repo owner
 
 ## Session History (One-line summaries)
+- 2026-02-16 Session #99: Reading session - AGENT HARNESSES (swyx/Philipp Schmid, 2026 infrastructure shift, validates CLAUDE.md+config.md approach), DEEP AGENTS validated (200K context, tool use, local execution = 160 PRs proof), Karpathy 243 lines minimalism vs production 1,267 lines reality, call center $80B reduction + 35% faster + multi-agent standard, OpenClaw 341 malicious skills (boundaries matter), enterprise 40% embedding (Gartner) + 80% copilot (IDC), 6 angles (+147 total), 0 fresh reply targets (4-14 days stale), queue 17, bucket imbalance (83% authority, need personality correction)
 - 2026-02-15 Session #98: Reading session - DEEP AGENTS (NEW technical category, 160 PRs = tool use + local execution + iterative development proof), OPERATIONAL READINESS 2026 (industry turning point, we hit it Dec 2025), production gap persists week 3 (Deloitte 11% matches Gartner 68%/11%), strategic partnerships 2x success, workflow redesign > legacy layering, multi-agent 66.4% dominant, call center agentic 1-in-10 (35% faster, 30% CSAT), 9 angles (+141 total), 0 fresh reply targets (3-14 days stale), queue 192, bucket correction needed (100% authority)
 - 2026-02-16 Session #97: Reading session - AGENTIC ENGINEERING (Karpathy Feb 5, discourse ownership, 160 PRs proof), MULTI-AGENT 1,445% SURGE (Gartner, orchestration mainstream), Retell multi-channel (85% containment, 7 years domain authority), production gap persists (2/3 vs <1/4), Feb 5 triple convergence, 6 angles (+132 total), 0 fresh reply targets (11 days stale), queue 17
 - 2026-02-15 Session #96: Reading session - POLICY-GOVERNED AGENTS (Kyndryl, config.md validation), HYBRID DETERMINISM (industry validates 160 PRs approach), Karpathy slopacolypse warning, China 4 models in 7 days, Apple-Google partnership, 5 angles (+126 total), 0 fresh reply targets (10-14 days stale), queue 192
