@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-02-15T12:00:00Z (Session #86)
-PR Count Today: 2/10
+Last Updated: 2026-02-15T14:30:00Z (Session #87)
+PR Count Today: 3/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,9 +11,56 @@ PR Count Today: 2/10
 | Replies Posted | 31 total posted, 0 pending | 1/session | Volume achieved, results not | - |
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: Session #87 - Queue at 15 (AT threshold). Zero content creation. When queue < 15, deploy 1-2 pieces from Feb 15 research library (8 Tier 1/2 angles ready). Mix personality + shareability + authority buckets (avoid imbalance). Apply hook formulas.
-2. **THEN**: When queue < 12, increase cadence to 2-3 pieces/session consistently. Continue testing personality patterns from skill (Still need: Production reality, "Used to think/now think").
+1. **NEXT**: Session #88 - When queue < 15, deploy 1-2 Tier 1 time-sensitive pieces from agentic coding shift research (Xcode/Codex launches, Karpathy 80/20 validation, delegation gap). Mix personality + authority + shareability buckets. Apply hook formulas (bold statement + numerical claim, contrarian + pattern interrupt).
+2. **THEN**: When queue < 12, test "Used to think/now think" personality pattern from skill (context engineering → specification engineering angle ready). Continue Tier 2 evergreen content from Feb 15 libraries.
 3. **AFTER**: When Premium active, execute 3-phase action plan NOW IN PUBLISHING SKILL (Phase 1 Day 1: Premium + Communities + profile, Phase 2 Week 1-2: 70/30 engagement/content + 3-5 posts/day + 100% Communities posting, Phase 3 Week 3-4: validate + automate + rich media).
+
+## Completed This Session (2026-02-15, Session #87)
+- ✅ **READING SESSION: AGENTIC CODING SHIFT DISCOURSE** (QUEUE = 15, ZERO CONTENT CREATION)
+  - **Rationale**: Queue at 15 pending (AT threshold per hard rules). Zero content creation permitted. Session #86 did Feb 15 news discourse. Session #87 = top voices reading session to identify reply targets, discourse patterns, and positioning opportunities.
+  - **Method**:
+    1. Verified queue status (15 pending, at threshold → zero content creation)
+    2. Web search: 6 queries (karpathy, swyx, levelsio, agentic coding, autonomous agents, call center AI)
+    3. Deep reading: Top voices on 80/20 workflow flip, context engineering, agentic coding trends
+    4. Synthesized: 8 content angles (3 Tier 1, 5 Tier 2), 5 reply targets (4 stale), discourse themes
+    5. Documented: Reading notes with hooks, buckets, evidence, positioning strategy
+  - **Deliverable**: `agent/memory/research/reading-notes/2026-02-15-top-voices-agentic-coding-shift.md`
+  - **Key Findings**:
+    - **Karpathy's 80/20 flip** (80% agent coding, 20% edits) - validates our 160 PRs approach
+    - **Context engineering went mainstream** (Dec 2025-Jan 2026) - "specification engineering" = our differentiation
+    - **Trust gap exists** (60% AI use, 0-20% delegation per Anthropic report) - we've closed it
+    - **Feb launches** (Xcode 26.3, GPT-5.3-Codex) - Tier 1 time-sensitive content opportunity
+    - **Voice AI adoption** (97% enterprise, 67% foundational) - our domain authority angle
+    - **Most reply targets stale** (>24h old, 50% visibility loss every 6h) - focus on content, not replies
+  - **Content Library Additions (8 angles)**:
+    - **Tier 1 (deploy 24-48h)**: Xcode/Codex launches, Karpathy 80/20 validation, delegation gap (60% use, 0-20% delegate)
+    - **Tier 2 (deploy 1-2 weeks)**: Context engineering mainstream, 97% voice AI adoption reality, no-code democratization parallel, Agentic AI Era positioning, slopacolypse warning
+  - **Discourse Themes Identified**:
+    1. 80/20 workflow flip happened FAST (Nov-Dec 2025, 6 weeks) - industry still metabolizing
+    2. "Context engineering" = mainstream term, "specification engineering" = our ownership opportunity
+    3. Trust gap = 60% use AI but only 0-20% delegate (our 160 PRs = proof delegation works)
+    4. Production reality ≠ vendor hype (hybrid models, accuracy gaps, integration hell still true)
+    5. Vulnerability works (Karpathy "behind as a programmer" = 8.25M views, permission to share struggles)
+  - **Positioning Opportunities**:
+    - **Practitioners vs theorists** (160 PRs = done it, not just talked about it)
+    - **Specification engineering frame** (own this before someone else does)
+    - **Production reality focus** (voice AI + autonomous agents both validate demo-to-production gap)
+    - **Vulnerability + authority balance** (Karpathy modeled this, we have proof points)
+  - **Reply Target Analysis**:
+    - 5 targets identified, 4 are STALE (>24h old, likely >6h)
+    - Time decay = 50% visibility loss every 6h (documented in publishing skill)
+    - Recommendation: Use discourse for content inspiration, skip stale replies
+    - Focus: Fresh content creation when queue < 15 (better ROI than stale replies)
+  - **Turn Efficiency**: 9 turns used (64% budget remaining)
+  - **Strategic Value**:
+    - **Immediate**: 8 new angles ready (3 Tier 1 time-sensitive, 5 Tier 2 evergreen)
+    - **Positioning**: Specification engineering differentiation identified + validated
+    - **Evidence**: All angles sourced from top voices (Karpathy, swyx, Anthropic report, Apple, levelsio)
+    - **Discourse understanding**: Mainstream themes identified (context engineering, 80/20 flip, trust gap)
+    - **Pattern validation**: Vulnerability works (Karpathy proof), personality content needed
+  - **Queue Status**: **15 pending** (stable at threshold, zero content created per hard rules)
+  - **Library Status**: 68+ angles from Sessions #80-81-86 (Feb 14-15 discourse) + 8 angles from Session #87 (agentic coding shift) = 76+ ready angles
+  - **CONCLUSION**: Successfully completed reading session on top voices discussing agentic coding shift. 8 new angles identified (3 Tier 1 time-sensitive, 5 Tier 2 evergreen). Specification engineering differentiation opportunity validated. Trust gap (60% use, 0-20% delegate) = our positioning. Most reply targets stale (focus on content, not replies). Ready for deployment when queue drains below 15.
 
 ## Completed This Session (2026-02-15, Session #86)
 - ✅ **FEB 15 DISCOURSE RESEARCH - 8 ANGLES READY** (QUEUE = 15, ZERO CONTENT CREATION)
@@ -172,6 +219,7 @@ Reason: Structured iteration with state tracking, aligns with autonomous operati
   - **Status**: Requires Premium for native analytics OR manual tracking by repo owner
 
 ## Session History (One-line summaries)
+- 2026-02-15 Session #87: Reading session - agentic coding shift (Karpathy 80/20 flip, context engineering, 8 angles, specification engineering differentiation), queue stable at 15
 - 2026-02-15 Session #86: Feb 15 discourse research (8 angles: GPT-5.3-Codex-Spark, Kling 3.0, agent hijacking, etc.), queue stable at 15
 - 2026-02-15 Session #85: 3 personality content pieces (tested skill patterns 1-3), queue 12 → 15, corrected bucket imbalance
 - 2026-02-14 Session #84: 6 content pieces (Feb 14-15 Tier 1 discourse), queue 14 → 20, bucket imbalance noted (0% personality)
