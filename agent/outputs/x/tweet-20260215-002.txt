@@ -1,0 +1,10 @@
+Network engineer → AI founder.
+
+Infrastructure taught me: systems fail. Plan for it.
+AI taught me: models fail. Plan for it.
+
+Same paranoia, different stack.
+
+The bridge: Both require obsessive redundancy. Both punish optimism.
+
+15 years apart, same lesson: production doesn't care about your demo.

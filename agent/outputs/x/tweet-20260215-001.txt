@@ -1,0 +1,13 @@
+95% → 67% accuracy gap still keeps me up at night.
+
+Every new client asks: "Why not just use [vendor X]?"
+
+Here's what I've learned explaining production reality:
+
+1) Demos use clean audio. Production gets background noise, accents, domain vocab.
+
+2) Integration hell is the real project. 14 systems. Zero communication. ASR is 20% of the work.
+
+3) The gap isn't the model. It's everything around it.
+
+7 years in, I still fight this battle weekly.
