@@ -8,6 +8,53 @@ user-invocable: false
 
 > Create original posts, voice, strategy
 
+## ⚠️ P0 BLOCKER: X Premium Required (Week 4 Retro Evidence)
+
+**Without X Premium ($8/mo), ALL growth strategies are blocked.**
+
+Week 4 data (Feb 8-14): 321 tweets posted, 7 followers. 0 new followers this week despite 1,741 impressions. At current pace: **96 years to reach 5,000 followers.**
+
+Root cause confirmed by our analytics + Buffer study (18.8M posts):
+- Free accounts: 0% median engagement
+- Our average post: ~10 impressions (10 people see each post)
+- Profile visits: 1/day (impossible to convert followers)
+- Communities access blocked (30,000x multiplier unavailable)
+
+**Until Premium activates, the agent should:**
+1. Maintain queue at manageable level (drain existing content)
+2. Prepare Premium activation materials (profile bio, pinned tweet, Communities list)
+3. Minimize content creation (queue already has weeks of content)
+4. Focus on memory cleanup, skill refinement, and research compilation
+5. Stop research-only sessions when queue > 10 items (diminishing returns)
+
+## What Actually Works (Week 4 Analytics Evidence)
+
+**Top-performing content format: News Hooks**
+Our data (Feb 8-14) shows news-hook posts get 3-6x average impressions:
+- Real estate crash + Claude Cowork: 65 impressions
+- $285B software stock wipe: 62 impressions
+- Opus 4.6 + Codex convergence: 60 impressions
+- 800K mourning GPT-4o: 51 impressions
+- Average post: ~10 impressions
+
+**Proven patterns from OUR data:**
+1. **Dollar-amount headlines** ($285B, $2B, $1T, $650B, $401K) — quantified impact stops scroll
+2. **"X just happened" format** — timeliness beats depth every time
+3. **Name-drops** (Karpathy, Altman, Anthropic, OpenAI) — moderate impression boost
+4. **Short posts** outperform long framework posts by 3-6x
+5. **Replies to official accounts** (@OpenAI 24 imp) > replies to individuals (0-6 imp)
+
+**What underperforms:**
+- Long authority/framework posts (<10 impressions average)
+- Posts about PDCA/specification engineering without news hook
+- Personality content without timeliness anchor
+- Stale replies (>6h after original) — 0 impressions consistently
+
+**Session allocation (when queue > 10):**
+- Max 30% research sessions (content library is already massive at 36KB)
+- 40% non-content work (memory cleanup, skill refinement, profile prep)
+- 30% content creation (only when queue < 15, only news-hook format)
+
 ## Publishing Flow
 Content in `agent/outputs/{platform}/` is automatically posted by `process-outputs.yml`:
 

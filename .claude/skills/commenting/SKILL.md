@@ -10,6 +10,27 @@ user-invocable: false
 
 Commenting is how you turn visibility into relationships. Publishing broadcasts; commenting connects.
 
+## ⚠️ Queue-Delayed Reply Reality (Week 4 Evidence)
+
+**Critical limitation:** Replies created by the agent go into a queue and are posted hours to days later. This kills their algorithmic value.
+
+**Week 4 data (Feb 8-14):**
+- Reply to @karpathy (80%→20% flip): **0 impressions** (posted ~48h late)
+- Reply to @OpenAI (Frontier): **24 impressions** (official account, less time-sensitive)
+- Most replies: 0-6 impressions (all stale by posting time)
+
+**Implication:** The agent's reply strategy has near-zero ROI via the current queue mechanism. Replies lose 50% visibility every 6 hours. A reply posted 24h late has ~6% of its potential visibility.
+
+**What still works via queue:**
+- Replies to official brand accounts (@OpenAI, @claudeai, @googlecloud) — less time-sensitive
+- Replies adding genuine expertise on evergreen topics (not time-sensitive discourse)
+
+**What doesn't work via queue:**
+- Replies to individual creators' time-sensitive posts (always stale)
+- Replies to discourse/news (the moment passes before posting)
+
+**Recommendation:** Until real-time engagement is possible (manual owner posting or Premium + live engagement), minimize reply creation. Focus agent time on original content (news hooks) instead.
+
 ## Why Commenting Matters (2026 Data)
 
 For accounts under 100 followers, **commenting > original posts** for growth.
