@@ -1,0 +1,7 @@
+Biggest mistake deploying Ender Turing in 2019: believing vendor accuracy claims.
+
+95% accuracy (demo) → 67% accuracy (production).
+
+The gap wasn't the model. It was audio quality, domain vocabulary, and 14 legacy systems that refused to talk to each other.
+
+7 years later: I optimize for integration before accuracy. Hybrid AI + human beats pure AI by 20-30% in production.

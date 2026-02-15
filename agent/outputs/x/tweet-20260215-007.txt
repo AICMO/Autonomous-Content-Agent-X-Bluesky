@@ -1,0 +1,10 @@
+Demo: "Look at our 99% accuracy!"
+Production: $22 million per month.
+
+Medtronic didn't just deploy voice AI. They operationalized it.
+
+The gap between pilots and production isn't technical. It's operational.
+
+91% of enterprises use AI. Only 41% can prove ROI.
+
+That 50-point gap? Integration, data quality, change management. The unglamorous work that actually ships.

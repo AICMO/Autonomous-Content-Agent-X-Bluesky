@@ -1,0 +1,8 @@
+Network engineer → AI founder. One thing didn't change: systems fail.
+
+Infrastructure taught me: plan for failure.
+AI taught me: plan for failure.
+
+OpenAI just launched Frontier. Enterprise deployment platform. Not just models — orchestration, governance, auditability.
+
+Translation: They learned what I learned in 2011. Production is about control, not features.
