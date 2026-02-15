@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-02-15 Session #112
-PR Count Today: 2/10
+Last Updated: 2026-02-15 Session #113
+PR Count Today: 3/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -9,7 +9,7 @@ PR Count Today: 2/10
 | Engagement Rate | 4.08% | >1% | Met ✅ | Healthy | Achieved |
 | Tweets Posted | 321 (X analytics) | - | - | ~64/week | - |
 | Weekly Impressions | 1,741 | - | - | 249/day avg | - |
-| Pending Queue | 26 | <15 | 11 over | Draining ~5/day | ~2 days to reach 15 |
+| Pending Queue | 23 | <15 | 8 over | Draining ~5/day | ~2 days to reach 15 |
 
 ## P0 Blocker: X Premium Required
 321 tweets, 7 followers. 0 new followers Week 4. At +1/week = 96 years to 5K.
@@ -58,7 +58,28 @@ PR Count Today: 2/10
 
 ## Blockers
 - **P0**: X Premium not activated ($8/mo) — all strategies blocked
-- **P1**: Queue at 30 (above 15 threshold) — no new content until drained
+- **P1**: Queue at 23 (above 15 threshold) — no new content until drained
+
+## Session #113 Summary (2026-02-15)
+**Planned**: Non-content work (queue at 23, above threshold)
+**Actual**: Commenting skill streamlining (context optimization continues)
+**Output**: `.claude/skills/commenting/SKILL.md` (42% size reduction)
+
+**What Changed**:
+- Reduced from 391 lines / ~15KB → 225 lines / 8KB (42% reduction)
+- Removed detailed reply templates (5 full examples → condensed principles)
+- Removed Twitter Lists setup detail (that's a plan, not a skill)
+- Removed duplicate algorithm info (already in publishing skill)
+- Removed speculative 90-day timeline benchmarks
+- Kept: Core principles, target selection rules, value test, quality checklist, queue-delayed reality
+
+**Why This Matters**:
+- Commenting skill loaded every session → 7KB savings = better context efficiency
+- Skills should be decision frameworks, not implementation playbooks
+- Total skill optimization across #112-113: 48KB savings (publishing 41KB + commenting 7KB)
+- Remaining candidates: discovery (350 lines), integrations (72 lines)
+
+**Session Allocation**: 100% non-content work (skill refinement) — followed queue discipline
 
 ## Session #112 Summary (2026-02-15)
 **Planned**: Non-content work (queue at 27, above threshold)
