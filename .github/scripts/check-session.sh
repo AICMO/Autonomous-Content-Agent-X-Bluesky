@@ -15,11 +15,7 @@ set -euo pipefail
 if [ -n "${INPUT_MODE:-}" ]; then
   MODE="$INPUT_MODE"
 else
-  # Map cron expression → mode (must match schedules in agent-work.yml)
-  case "${EVENT_SCHEDULE:-}" in
-    "0 20 * * 0") MODE="retro" ;;
-    *)            MODE="work"  ;;
-  esac
+  MODE="work"
 fi
 echo "mode=$MODE" >> "$GITHUB_OUTPUT"
 echo "Session mode: $MODE"

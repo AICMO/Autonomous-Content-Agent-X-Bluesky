@@ -1,6 +1,6 @@
 name: Trigger Agent Work
 
-# Chains agent sessions after PR merge
+# Chains agent sessions after PR merge + schedules weekly retro
 # Only needed because claude-code-action doesn't support push events
 #
 # IMPORTANT: This workflow only triggers if the PR was merged using AGENT_PAT.
@@ -9,6 +9,8 @@ name: Trigger Agent Work
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 13 * * 0'  # Weekly retro: Sunday 08:00 US Eastern (UTC-5)
   push:
     branches:
       - main
@@ -22,7 +24,12 @@ jobs:
       actions: write
     steps:
       - name: Dispatch agent work session
-        run: gh workflow run agent-work.yml
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            gh workflow run agent-work.yml -f mode=retro
+          else
+            gh workflow run agent-work.yml
+          fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}

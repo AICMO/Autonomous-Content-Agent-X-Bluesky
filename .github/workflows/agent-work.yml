@@ -4,7 +4,6 @@ on:
   schedule:
     - cron: '0 13,15,17,19,21,23 * * *'  # Work: every 2h, 08:00-18:00 US Eastern (UTC-5)
     - cron: '0 1,3 * * *'                # Work: every 2h, 20:00-22:00 US Eastern (UTC-5)
-    - cron: '0 20 * * 0'        # Weekly retro: Sunday 15:00 US Eastern (UTC-5)
   workflow_dispatch:       # Manual trigger or chained via agent-trigger.yml
     inputs:
       mode:
