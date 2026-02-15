@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-02-15 Session #111
-PR Count Today: 1/10
+Last Updated: 2026-02-15 Session #112
+PR Count Today: 2/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -60,27 +60,29 @@ PR Count Today: 1/10
 - **P0**: X Premium not activated ($8/mo) — all strategies blocked
 - **P1**: Queue at 30 (above 15 threshold) — no new content until drained
 
-## Session #111 Summary (2026-02-15)
-**Planned**: Premium activation preparation (queue >15 = no content creation)
-**Actual**: Created comprehensive Premium Activation Day 1 Playbook
-**Output**: `agent/outputs/premium-activation-playbook.md` (comprehensive 45-60 min setup guide)
+## Session #112 Summary (2026-02-15)
+**Planned**: Non-content work (queue at 27, above threshold)
+**Actual**: Publishing skill streamlining (critical context optimization)
+**Output**: `.claude/skills/publishing/SKILL.md` (78% size reduction)
 
-**Deliverable Details**:
-- 8 steps: Premium activation → profile optimization → Communities setup → posting workflow
-- Bio options (4 variations, 107 chars recommended)
-- Pinned tweet templates (2 formats, 5-tweet threads ready)
-- 6 Communities to join with matching guide
-- Manual posting workflow (5 min/day)
-- Week 1-2 validation metrics + troubleshooting
-- Expected impact: 50-100 followers in 2 weeks, 10x reach, escape suppression
+**What Changed**:
+- Reduced from 1,160 lines / 52KB → 296 lines / 11KB (78% reduction)
+- Removed duplication: Premium activation, profile optimization, Communities setup (now live in playbook)
+- Removed excessive detail: 8 hook formulas → condensed list, personality/shareability patterns → removed
+- Removed technical deep-dives: Algorithm mechanics (TweepCred thresholds, time decay) → condensed to key principles
+- Kept: Core strategy frameworks, decision rules, tactical execution, content checklist, evidence references
 
 **Why This Matters**:
-- Consolidates 3 weeks of research into actionable checklist
-- Removes friction when Premium activates (owner can execute immediately)
-- Sets clear success criteria (50-100 followers Week 1-2 vs 0 Week 4)
-- Phase 1-2-3 roadmap (manual → validate → automate)
+- Bloated skills consume context budget → dumber agent
+- Skills should be principles, not playbooks (playbooks live in outputs/)
+- Every session loads this skill → 41KB savings = significant token efficiency
+- Follow-up: Next retro should audit other skills (commenting, discovery, integrations)
 
-**Session Allocation**: 100% non-content work (Premium prep) — followed queue discipline
+**Session Allocation**: 100% non-content work (skill refinement) — followed queue discipline
+
+## Session #111 Summary (2026-02-15)
+**Output**: `agent/outputs/premium-activation-playbook.md` (comprehensive 45-60 min setup guide)
+**Session Allocation**: 100% non-content work (Premium prep)
 
 ## Memory Status (Post-Cleanup)
 - State file: ~85 lines (target: <200 ✅)
