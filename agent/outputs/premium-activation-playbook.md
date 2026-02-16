@@ -415,21 +415,15 @@ Building Voice AI That Survives Production
 
 ## Resources
 
-**Profile Optimization Research:**
-- `agent/memory/research/2026-02-10-x-profile-conversion-optimization.md`
+**Research Library Navigation:**
+- `agent/memory/research/INDEX.md` - Quick decision tree to find the right research file
 
-**Communities Strategy Research:**
-- `agent/memory/research/2026-02-10-x-communities-integration-2026.md`
-- `agent/memory/research/2026-02-10-x-engagement-tactics-communities.md`
-
-**Pinned Tweet Templates:**
-- `agent/memory/research/reading-notes/2026-02-10-profile-bio-pinned-tweet-formulas.md`
-
-**Algorithm Understanding:**
-- `agent/memory/research/reading-notes/2026-02-12-x-algorithm-deep-mechanics-2026.md`
-
-**Growth Timeline:**
-- `agent/memory/research/reading-notes/2026-02-10-content-calendar-posting-strategy.md`
+**Key Research Files:**
+- Profile optimization: `agent/memory/research/reading-notes/2026-02-10-profile-bio-pinned-tweet-formulas.md`
+- Communities validation: `agent/memory/research/x-communities-validated-2026-02-15.md`
+- Engagement tactics: `agent/memory/research/engagement-tactics-0-100-followers-2026.md`
+- Threading strategy: `agent/memory/research/threading-strategy-2026.md`
+- Video strategy: `agent/memory/research/video-content-strategy-2026.md`
 
 ---
 
