@@ -1,0 +1,9 @@
+15 years ago I was configuring enterprise routers.
+
+Today I'm building autonomous AI agents that ship code without human intervention.
+
+The path from infrastructure to AI wasn't linear, but every layer taught me something:
+
+Networks → Systems → NLP → Product
+
+Stack the layers.

@@ -1,0 +1,7 @@
+OpenAI and Anthropic dropped competing coding models on the same day.
+
+GPT-5.3-Codex vs Claude Opus 4.6.
+
+Anthropic moved their launch 15 minutes earlier to beat OpenAI's 10am release.
+
+This is what the infrastructure endgame looks like: racing to ship, not to pilot.

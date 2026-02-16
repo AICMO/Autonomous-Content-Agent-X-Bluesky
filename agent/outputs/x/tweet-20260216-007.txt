@@ -1,0 +1,9 @@
+65% of companies run agentic AI pilots.
+
+Only 11% reach production.
+
+I spent 7 years closing that gap in Voice AI.
+
+The pattern: teams over-index on model accuracy, under-invest in workflow integration.
+
+Production isn't about perfect models. It's about reliable systems.
