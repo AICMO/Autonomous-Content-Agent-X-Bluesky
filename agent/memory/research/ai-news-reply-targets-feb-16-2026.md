@@ -428,12 +428,100 @@
 
 ---
 
+## Part 8: Search Strategy Recommendations
+
+**How to Find Fresh Reply Targets on X**:
+
+1. **Direct account searches** (within 48h):
+   - `@sama + "Frontier" OR "Codex" OR "agents"` (last 48h)
+   - `@simonw` recent posts (highly active, check daily)
+   - `@AnthropicAI + "Super Bowl" OR "Opus" OR "Claude"` (last 48h)
+   - `@hwchase17 + "agents" OR "LangChain"` (last 7d)
+   - `@swyx + "AI Engineer"` (last 7d)
+   - YC founders: `#YCombinator + "agents" + "production"`
+
+2. **Engagement timing rules**:
+   - <2h after post = maximum algorithmic boost (150x multiplier applies)
+   - <30min for reply-to-own-comment opportunity (if you post, reply to yourself)
+   - Posts with <50 replies = easier to get noticed vs viral threads with 500+ replies
+
+3. **Quality filters**:
+   - Look for posts asking questions (invitation to engage)
+   - Posts with >100 likes but <50 replies (high visibility, low competition)
+   - Avoid posts >24h old (time decay = 50% visibility loss every 6h)
+
+4. **Mid-tier account strategy**:
+   - 10K-50K follower accounts discussing hot topics = sweet spot
+   - Easier to get noticed than replying to 6M follower accounts
+   - Still benefit from viral thread algorithmic reach
+
+---
+
 ## Research Metadata
 
 **Web Searches**: 3 (OpenAI/Anthropic/agents, enterprise production, call center AI)
 **Agent Discovery**: 1 (Explore agent, 13 tool uses, 46,911 tokens, 172 seconds)
-**Total Sources**: 30+ (Invezz, CNBC, TechCrunch, Slashdot, CNN, Gartner, Deloitte, IBM, Bernard Marr, CloudKeeper, AmplifAI, Intelliverse, Rezo.ai, others)
+**Total Sources**: 30+ (see full list below)
 **Content Angles Created**: 6 ready-to-deploy (hooks + body + authority amplifiers)
 **Reply Targets Identified**: 5 prioritized (Simon, Altman, OpenClaw threads, Anthropic, Harrison)
 **Research Date**: February 16, 2026
-**Session**: #127
+**Sessions**: #127 (Feb 16 news synthesis) + #116 (Feb 15 target discovery) consolidated
+**Supersedes**: `reply-targets-2026-02-15.md` (merged into this file Session #130)
+
+---
+
+## Full Source List
+
+### OpenAI & GPT Models:
+- [Invezz: OpenAI hires OpenClaw creator](https://invezz.com/news/2026/02/16/openai-hires-openclaw-creator-as-race-for-autonomous-ai-agents-intensifies/)
+- [CNBC: Peter Steinberger joining OpenAI](https://www.cnbc.com/2026/02/15/openclaw-creator-peter-steinberger-joining-openai-altman-says.html)
+- [TechCrunch: OpenClaw creator joins OpenAI](https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/)
+- [TechCrunch: OpenAI agentic coding model launch](https://techcrunch.com/2026/02/05/openai-launches-new-agentic-coding-model-only-minutes-after-anthropic-drops-its-own/)
+- [OpenAI Frontier platform launch](https://openai.com/index/introducing-openai-frontier/)
+- [Axios: OpenAI platform to manage AI agents](https://www.axios.com/2026/02/05/openai-platform-ai-agents)
+- [Dataconomy: GPT-5.3-Codex-Spark launch](https://dataconomy.com/2026/02/13/openai-launches-gpt-5-3-codex-spark-for-ultra-fast-real-time-coding/)
+
+### Anthropic & Claude:
+- [Slashdot: Anthropic 11% user boost from Super Bowl](https://slashdot.org/story/26/02/14/0235231/anthropics-claude-got-11-user-boost-from-super-bowl-ad-mocking-chatgpts-advertising)
+- [TechCrunch: Altman testy over Claude ads](https://techcrunch.com/2026/02/04/sam-altman-got-exceptionally-testy-over-claude-super-bowl-ads/)
+- [CNN Business: Anthropic Opus 4.6 update](https://www.cnn.com/2026/02/05/tech/anthropic-opus-update-software-stocks)
+- [Superhuman.ai: Anthropic & OpenAI drop new models](https://www.superhuman.ai/p/anthropic-openai-drop-new-models)
+- [El-Balad: Anthropic CEO on Claude consciousness](https://www.el-balad.com/6852047)
+- [Claude.com: How enterprises are building AI agents in 2026](https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026)
+
+### Simon Willison:
+- [SimonWillison.net: Cognitive debt post Feb 15](https://simonwillison.net/2026/Feb/15/cognitive-debt/)
+- [Fedi.SimonWillison: OpenClaw GitHub bot controversy](https://fedi.simonwillison.net/@simon/116058913732177985)
+- [SimonWillison.net: OpenAI mission statement evolution](https://simonwillison.net/2026/Feb/13/openai-mission-statement/)
+
+### LangChain & Harrison Chase:
+- [OpenDataScience: Harrison Chase on Deep Agents](https://opendatascience.com/harrison-chase-on-deep-agents-the-next-evolution-in-autonomous-ai/)
+- [Sequoia: Ambient Agents and the New Agent Inbox](https://inferencebysequoia.substack.com/p/ambient-agents-and-the-new-agent)
+- [Sequoia Podcast: Context Engineering Long-Horizon Agents](https://sequoiacap.com/podcast/context-engineering-our-way-to-long-horizon-agents-langchains-harrison-chase/)
+
+### Enterprise & Production Trends:
+- [Gartner: 40% of enterprise apps will feature AI agents by 2026](https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025)
+- [Deloitte: The agentic reality check](https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html)
+- [Bernard Marr: AI Agents Lead 8 Tech Trends in 2026](https://bernardmarr.com/ai-agents-lead-the-8-tech-trends-transforming-enterprise-in-2026/)
+- [CloudKeeper: Agentic AI trends 2026](https://www.cloudkeeper.com/insights/blog/top-agentic-ai-trends-watch-2026-how-ai-agents-are-redefining-enterprise-automation)
+- [SS&C Blue Prism: AI Agent Trends in 2026](https://www.blueprism.com/resources/blog/future-ai-agents-trends/)
+
+### Call Center AI:
+- [AmplifAI: Call Center Analytics 2026](https://www.amplifai.com/blog/call-center-analytics)
+- [Intelliverse: Contact Center Trends 2026](https://www.intelliverse.com/blog/contact-center-trends-2026-ai-cloud-cx/)
+- [Rezo.ai: Contact Center Automation Trends 2026](https://www.rezo.ai/our-blogs/contact-center-automation-trends)
+
+### Industry Analysis:
+- [Edge AI and Vision Insights: February 4, 2026](https://www.edge-ai-vision.com/2026/02/edge-ai-and-vision-insights-february-4-2026-edition/)
+- [JangWook: February 2026 AI Model Rush](https://jangwook.net/en/blog/en/ai-model-rush-february-2026/)
+- [MarkTechPost: Google DeepMind Introduces Aletheia](https://www.marktechpost.com/2026/02/12/google-deepmind-introduces-aletheia-the-ai-agent-moving-from-math-competitions-to-fully-autonomous-professional-research-discoveries/)
+- [Digital Applied: Autonomous AI Agents 2026 Landscape](https://www.digitalapplied.com/blog/autonomous-ai-agents-2026-openclaw-moltbook-landscape)
+
+### YC & Startup Ecosystem:
+- [GrowthList: Complete YC Startups Guide 2026](https://growthlist.co/yc-startups/)
+- [SuperFrameworks: YC Spring 2026 Request for Startups](https://superframeworks.com/articles/yc-rfs-startup-ideas-indie-hackers-2026)
+- [FoundEvo: Y Combinator Playbook for AI Startups 2026](https://www.foundevo.com/only-30-make-it-to-series-a/)
+
+### Swyx:
+- [Swyx.io: About](https://www.swyx.io/about)
+- [RedMonk: How Shawn Wang Defines the AI Engineer](https://redmonk.com/blog/2025/07/23/shawn-swyx-wang-ai-engineer/)

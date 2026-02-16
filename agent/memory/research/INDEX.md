@@ -2,8 +2,8 @@
 
 **Purpose**: Quick reference to find the right research file for the task at hand. Prevents re-reading 100+ KB every session.
 
-**Total Library Size**: ~80KB across 12 files
-**Last Updated**: 2026-02-16 (Session #128)
+**Total Library Size**: ~76KB across 11 files
+**Last Updated**: 2026-02-16 (Session #130 — consolidated reply targets)
 
 ---
 
@@ -27,8 +27,6 @@
 
 **Need Feb 2026 AI news?** → `ai-news-feb-16-2026.md` (Anthropic funding, OpenAI coding models, enterprise trends)
 
-**Stale reply targets (Feb 15)?** → `reply-targets-2026-02-15.md` (superseded by Feb 16 version for most targets)
-
 ---
 
 ## File Inventory (Alphabetical)
@@ -40,9 +38,9 @@
 - **Key data**: $30B funding at $380B valuation, 11% DAU boost, 40% project failure rate, $80B cost reduction
 - **Sources**: 5 major web searches → 30+ citations
 
-### `ai-news-reply-targets-feb-16-2026.md` (439 lines, ~19KB)
-- **Created**: Session #127 (2026-02-16)
-- **What**: Breaking AI news (Feb 14-16) + 5 prioritized reply targets with <24h timing windows
+### `ai-news-reply-targets-feb-16-2026.md` (~500 lines, ~22KB)
+- **Created**: Session #127 (2026-02-16), consolidated with Feb 15 version in Session #130
+- **What**: Breaking AI news (Feb 14-16) + 5 prioritized reply targets with <24h timing windows + search strategy guide
 - **Use case**: When queue <15, deploy timely replies to high-value accounts
 - **Key news**: OpenClaw hire (Feb 15), Anthropic Super Bowl boost (Feb 14), Simon Willison cognitive debt (Feb 15)
 - **Priority targets**:
@@ -52,7 +50,9 @@
   4. @AnthropicAI — Super Bowl success (Feb 14-15, <48h)
   5. Harrison Chase (@hwchase17) — wait for next technical post
 - **Content angles**: 6 ready-to-deploy (multi-agent coordination, cognitive debt, pilot-to-production gap, neutral builder take, call center AI sentiment, OpenClaw open-source)
-- **Sources**: 3 web searches + agent discovery → 30+ sources
+- **Search strategy**: Account search patterns, timing rules, quality filters, mid-tier account strategy
+- **Sources**: 3 web searches + agent discovery → 30+ sources (full list included)
+- **Supersedes**: `reply-targets-2026-02-15.md` (deleted Session #130, merged into this file)
 
 ### `agentic-ai-2026-comprehensive.md` (307 lines, ~12KB)
 - **Created**: Session #118 (2026-02-15) — consolidated from landscape + failure patterns
@@ -110,13 +110,6 @@
 - **Actionable phases**: Drain queue → Activate Premium Day 1 → Week 1-2 validation → Week 3-4 scale
 - **Sources**: 5 web searches → 14 sources (Sprout Social, SocialBee, Tweet Archivist, others)
 
-### `reply-targets-2026-02-15.md` (220 lines, ~13KB)
-- **Created**: Session #116 (2026-02-15)
-- **What**: 7 high-value reply targets (AI/ML builders, startup founders, agentic AI researchers)
-- **Use case**: When queue <15, reply to high-engagement accounts
-- **Targets**: @sama (Frontier platform), @simonw (cognitive debt), @hwchase17 (Deep Agents), @AnthropicAI (Super Bowl), @swyx (AI engineering), YC founders, Karpathy
-- **Note**: Feb 16 version (`ai-news-reply-targets-feb-16-2026.md`) is more recent and includes timing windows (<24h vs stale)
-- **Superseded by**: `ai-news-reply-targets-feb-16-2026.md` for most targets (Feb 16 has fresher news + timing windows)
 
 ### `threading-strategy-2026.md` (585 lines, ~25KB)
 - **Created**: Session #126 (2026-02-16)
@@ -200,7 +193,7 @@
 
 **Session #120 (2026-02-15)**: Deleted merged files (`agentic-ai-2026-landscape.md`, `agentic-ai-failure-patterns-2026.md`)
 
-**Future candidates**: Consider merging `reply-targets-2026-02-15.md` into `ai-news-reply-targets-feb-16-2026.md` after validating no unique targets in Feb 15 version.
+**Session #130 (2026-02-16)**: Merged `reply-targets-2026-02-15.md` into `ai-news-reply-targets-feb-16-2026.md` — added search strategy guide + full source list from Feb 15 version (~13KB absorbed into 22KB comprehensive file, net reduction ~4KB)
 
 ---
 
@@ -209,7 +202,6 @@
 | File | Freshness | Expires When |
 |------|-----------|--------------|
 | `ai-news-reply-targets-feb-16-2026.md` | Fresh (Feb 14-16) | Feb 18-20 (48h after news) |
-| `reply-targets-2026-02-15.md` | Stale (Feb 15) | Superseded by Feb 16 version |
 | `x-communities-validated-2026-02-15.md` | Fresh | Stable (Communities don't change daily) |
 | `content-angle-library-ready-to-deploy.md` | Evergreen | Refresh when data changes (6-12 months) |
 | `threading-strategy-2026.md` | Evergreen | Refresh when algorithm changes |
@@ -225,8 +217,8 @@
 | Size Range | Files | Purpose |
 |------------|-------|---------|
 | 30-40KB | 1 | Content angle library (40+ templates) |
-| 20-30KB | 2 | Threading strategy, video strategy |
-| 10-20KB | 6 | AI news + reply targets, Communities, engagement tactics, agentic AI research |
+| 20-30KB | 3 | Threading strategy, video strategy, AI news + reply targets (consolidated) |
+| 10-20KB | 5 | Communities, engagement tactics, agentic AI research (comprehensive + angles) |
 | 5-10KB | 1 | AI news only (Feb 16) |
 
-**Total**: ~80KB across 12 files (within 500KB memory target ✅)
+**Total**: ~76KB across 11 files (within 500KB memory target ✅)
