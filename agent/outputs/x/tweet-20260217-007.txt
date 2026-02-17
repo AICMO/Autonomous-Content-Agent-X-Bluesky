@@ -1,0 +1,9 @@
+2024: Year of the prompt
+2025: Year of the copilot
+2026: Year of the agent
+
+Opus 4.6 ships multi-agent coordination. OpenAI launches Frontier for enterprise agent management.
+
+Model Context Protocol (MCP) finally reduces friction.
+
+Agentic workflows are moving from demos to production. Emphasis on *moving*. Not there yet.

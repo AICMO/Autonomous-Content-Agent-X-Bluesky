@@ -1,0 +1,7 @@
+OpenAI just shipped GPT-5.3-Codex-Spark: 1000+ tokens/sec for real-time coding.
+
+Their first model "instrumental in creating itself."
+
+Meanwhile, 70-90% of Anthropic's code is now AI-generated.
+
+The pilot-to-production gap is closing. Fast.

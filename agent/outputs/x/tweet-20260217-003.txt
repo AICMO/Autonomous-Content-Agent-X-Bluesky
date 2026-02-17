@@ -1,0 +1,9 @@
+Head of Claude Code: "I haven't written code in over 2 months."
+
+Not because he can't.
+
+Because autonomous agents ship faster.
+
+160+ PRs on my repo. Zero human intervention. Still debugging edge cases.
+
+The gap between demo and production is where the real work lives.

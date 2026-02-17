@@ -1,0 +1,9 @@
+Gartner: 15% of daily work decisions will be autonomous by 2028.
+
+33% of enterprise software will have agentic AI by then.
+
+That's up from <1% in 2024.
+
+Shipped call center AI for 7 years. Pattern is familiar: Hype → pilot trap → operationalization.
+
+2026 is when serious operators separate from prompt tourists.
