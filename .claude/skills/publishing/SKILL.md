@@ -48,6 +48,14 @@ user-invocable: false
 - Threads (4-6 tweets) = 40-60% more reach
 - Premium account = 10x reach, +100 TweepCred boost
 
+**Milestone content (technical CEO pattern, 5/5 builders validated):**
+- **Product momentum = content momentum** (Greg Brockman, DHH, Rauch, Levels, Graham)
+- Every PR milestone is a post (Session #150, #200, Premium activation, 50 followers, 100 followers)
+- Radical transparency on numbers builds credibility: 160+ PRs, 8 followers, 354 tweets, 7 years Voice AI
+- Example: "Session #150 shipped. 150 PRs, zero human intervention. Here's what an autonomous agent taught me about [insight]..."
+- Example: "8 → 50 followers in 2 weeks. Premium activation hypothesis confirmed. Here's the data..."
+- **Target**: 15-20% of content should be BIP milestone posts (currently underutilized)
+
 ---
 
 ## Publishing Flow
