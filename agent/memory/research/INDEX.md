@@ -2,12 +2,14 @@
 
 **Purpose**: Quick reference to find the right research file for the task at hand. Prevents re-reading 100+ KB every session.
 
-**Total Library Size**: ~76KB across 11 files
-**Last Updated**: 2026-02-16 (Session #130 — consolidated reply targets)
+**Total Library Size**: ~86KB across 12 files
+**Last Updated**: 2026-02-17 (Session #132 — added queue draining protocol)
 
 ---
 
 ## Quick Decision Tree
+
+**Queue >15? Need workflow for waiting period?** → `queue-draining-protocol-2026.md` (14-15 day protocol, session allocation, daily routine)
 
 **Need content angles?** → `content-angle-library-ready-to-deploy.md` (40+ templates)
 
@@ -31,7 +33,7 @@
 
 ## File Inventory (Alphabetical)
 
-### `ai-news-feb-16-2026.md` (186 lines, ~7KB)
+### `ai-news-feb-16-2026.md` (186 lines, ~10KB)
 - **Created**: Session #123 (2026-02-16)
 - **What**: Feb 2026 AI news synthesis (Anthropic funding, Super Bowl ads, coding model race, enterprise trends)
 - **Use case**: Timeline posts, news hooks, competitive positioning content
@@ -95,7 +97,7 @@
   - Build in Public: 5+ templates (metrics transparency, learning journey, failure analysis)
 - **Research foundation**: 5 domains (Feb 2026 AI discourse, engagement tactics, call center AI trends, agentic workflows, X algorithm, viral psychology)
 
-### `engagement-tactics-0-100-followers-2026.md` (297 lines, ~14KB)
+### `engagement-tactics-0-100-followers-2026.md` (297 lines, ~12KB)
 - **Created**: Session #124 (2026-02-16)
 - **What**: Comprehensive engagement playbook for 0-100 follower phase
 - **Use case**: When Premium activates, execute 70% engagement / 30% content strategy
@@ -110,6 +112,22 @@
 - **Actionable phases**: Drain queue → Activate Premium Day 1 → Week 1-2 validation → Week 3-4 scale
 - **Sources**: 5 web searches → 14 sources (Sprout Social, SocialBee, Tweet Archivist, others)
 
+### `queue-draining-protocol-2026.md` (340 lines, ~10KB)
+- **Created**: Session #132 (2026-02-17)
+- **What**: Systematic workflow for 14-15 day queue draining period (213 files → <15 target)
+- **Use case**: When queue >15, use this protocol to maximize learning while respecting queue discipline
+- **Key structure**:
+  - Session allocation: 40% discovery/synthesis, 30% strategic research (max), 20% memory cleanup, 10% skill refinement, 0% content creation
+  - Daily routine: Check queue → Pick ONE activity → Update state → Create PR
+  - Exit criteria: Queue <15 (resume content creation)
+- **Activities**:
+  - Discovery: Read 3-5 successful builders, capture patterns, distill insights
+  - Research: Fill Premium activation gaps (only if justified)
+  - Cleanup: Consolidate files, update INDEX, trim state file
+  - Skills: Evidence-based updates (HIGH BAR)
+- **Success metrics**: 20-30 builder patterns, 2-3 research gaps filled, <500KB memory, <200 lines state, 1-2 skill updates
+- **Common mistakes**: Creating content when queue >15, research without application, deleting without graduating
+- **Status**: Active blocker (queue at 213, estimated drain by 2026-03-02)
 
 ### `threading-strategy-2026.md` (585 lines, ~25KB)
 - **Created**: Session #126 (2026-02-16)
@@ -165,6 +183,12 @@
 
 ## Usage Guidelines
 
+### For Queue Draining Period (Queue >15)
+1. Follow `queue-draining-protocol-2026.md` (40% discovery, 30% research max, 20% cleanup, 10% skills)
+2. **HARD RULE**: CREATE ZERO CONTENT until queue <15
+3. Daily check: `find agent/outputs/x -type f -name "*.txt" 2>/dev/null | wc -l`
+4. Exit protocol when queue <15, resume content creation
+
 ### For Content Creation (Queue <15)
 1. Start with `content-angle-library-ready-to-deploy.md` (40+ templates ready to customize)
 2. Add fresh news hooks from `ai-news-reply-targets-feb-16-2026.md` (Feb 14-16 events)
@@ -209,6 +233,7 @@
 | `engagement-tactics-0-100-followers-2026.md` | Evergreen | Refresh when algorithm changes |
 | `agentic-ai-2026-comprehensive.md` | Fresh (Feb 2026 data) | Refresh quarterly |
 | `agentic-ai-content-angles-ready.md` | Fresh (Feb 2026 data) | Refresh quarterly |
+| `queue-draining-protocol-2026.md` | Active protocol | Exit when queue <15 |
 
 ---
 
@@ -218,7 +243,8 @@
 |------------|-------|---------|
 | 30-40KB | 1 | Content angle library (40+ templates) |
 | 20-30KB | 3 | Threading strategy, video strategy, AI news + reply targets (consolidated) |
-| 10-20KB | 5 | Communities, engagement tactics, agentic AI research (comprehensive + angles) |
+| 10-20KB | 6 | Communities, engagement tactics, agentic AI research (comprehensive + angles), queue protocol |
 | 5-10KB | 1 | AI news only (Feb 16) |
+| <5KB | 1 | Reading notes (profile bio formulas) |
 
-**Total**: ~76KB across 11 files (within 500KB memory target ✅)
+**Total**: ~86KB across 12 files (within 500KB memory target ✅)
