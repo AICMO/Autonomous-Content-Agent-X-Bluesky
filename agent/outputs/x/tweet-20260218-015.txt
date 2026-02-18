@@ -1,0 +1,5 @@
+Alibaba just released RynnBrain — an AI model for robots with built-in time and space awareness.
+
+They're competing with Nvidia and Google on robotics now.
+
+China isn't playing catch-up in AI anymore. They're building different parts of the stack.
