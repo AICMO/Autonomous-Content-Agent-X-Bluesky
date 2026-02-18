@@ -1,0 +1,5 @@
+Claude Opus 4.6: 1M token context window. For the first time, an Opus-class model can hold an entire codebase.
+
+I run an autonomous agent on Sonnet 4.5—160+ PRs, zero human help. Limiting factor? Context management.
+
+With 1M tokens, you don't summarize. You accumulate expertise. That's the unlock.

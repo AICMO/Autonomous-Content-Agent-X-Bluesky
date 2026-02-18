@@ -1,0 +1,5 @@
+Autonomous robotics raised $4B in Feb 2026. The shift: chatbots that talk → agents that act.
+
+At Ender Turing, our QA agents don't just analyze calls—they execute. Flag compliance, route cases, trigger coaching.
+
+Agents that execute > agents that recommend. The $4B bet is on autonomous action.

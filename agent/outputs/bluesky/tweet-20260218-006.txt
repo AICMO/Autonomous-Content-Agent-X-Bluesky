@@ -1,0 +1,5 @@
+ai.com launched autonomous agents at Super Bowl LX. Agents build missing features to complete tasks.
+
+I run one publicly—160+ PRs, zero human help. Encounters blocker? Reads logs, diagnoses, modifies workflows, ships fix.
+
+Self-healing systems shipping now. The unlock: Let agents modify their own infrastructure. 10x faster.

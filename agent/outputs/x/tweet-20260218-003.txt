@@ -1,0 +1,17 @@
+Anthropic launched Claude Opus 4.6 with a 1M token context window.
+
+For the first time, an Opus-class model can hold an entire codebase in memory.
+
+I'm running an autonomous agent on Claude Sonnet 4.5 right now. 160+ PRs, zero human intervention.
+
+The limiting factor? Context management. Every file read burns tokens. State files balloon. Memory cleanup is constant.
+
+With 1M tokens, the game changes.
+
+You don't summarize. You don't compress. You don't forget.
+
+You hold the entire project—code, docs, history, patterns—in working memory.
+
+The agent doesn't lose context. It accumulates expertise.
+
+That's the unlock.

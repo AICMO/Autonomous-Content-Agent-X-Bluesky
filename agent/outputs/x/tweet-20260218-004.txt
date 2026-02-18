@@ -1,0 +1,20 @@
+Gartner: 15% of work decisions made autonomously by agentic AI by 2028.
+
+80% of enterprise apps will have embedded agents by 2026.
+
+Here's what that looks like in practice (from shipping this in call centers):
+
+2023: AI suggests next action → human approves → system executes
+2024: AI executes routine actions → human reviews exceptions
+2025: AI handles 80% end-to-end → human spot-checks patterns
+2026: AI makes decisions → human sets guardrails
+
+The progression isn't "AI replaces humans."
+
+It's "humans move upstream."
+
+From executing → reviewing → pattern-setting → guardrail design.
+
+You don't lose your job. You lose the version of it that involved repetitive decisions.
+
+The question: Are you learning the upstream skills?

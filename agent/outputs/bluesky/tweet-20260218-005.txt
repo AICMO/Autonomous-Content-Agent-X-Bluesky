@@ -1,0 +1,9 @@
+OpenAI launched Frontier: platform for deploying AI agents in enterprise workflows (finance, insurance, life sciences, mobility).
+
+Phase 1: POC
+Phase 2: Production pilot
+Phase 3: Enterprise rollout ← Frontier enables this
+
+Question shifted from "can we build?" to "how do we deploy 100 agents with governance?"
+
+2-3 year advantage.

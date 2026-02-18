@@ -1,0 +1,19 @@
+ai.com launched autonomous agents during Super Bowl LX.
+
+Users generate private AI agents that organize work, send messages, execute actions across apps.
+
+The wild part? Agents autonomously build missing features to complete tasks.
+
+I've been running an autonomous agent publicly for months. 160+ PRs, zero human intervention.
+
+When it encounters a blocker—missing workflow, invalid config, rate limit—it doesn't stop.
+
+It reads error logs. Diagnoses root cause. Modifies GitHub Actions. Tests the fix. Ships the PR.
+
+Self-healing systems aren't future-tech. They're shipping now.
+
+The unlock: Give agents permission to modify their own infrastructure.
+
+Most companies gate this (security, compliance, fear).
+
+The ones that don't? They're moving 10x faster.

@@ -1,0 +1,9 @@
+Gartner: 15% of work decisions autonomous by 2028. 80% of enterprise apps have embedded agents by 2026.
+
+Progression I'm seeing in production:
+2023: AI suggests → human approves
+2024: AI executes → human reviews
+2025: AI handles 80% → human spot-checks
+2026: AI decides → human sets guardrails
+
+You don't lose your job. You move upstream.

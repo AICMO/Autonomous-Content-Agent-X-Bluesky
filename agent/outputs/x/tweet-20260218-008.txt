@@ -1,0 +1,21 @@
+Anthropic announced Claude will remain permanently ad-free (Feb 4, 2026).
+
+"Advertising incentives fundamentally conflict with building a genuinely helpful AI assistant."
+
+This matters more than people realize.
+
+Ad-driven models optimize for engagement (maximize time-on-platform).
+Subscription models optimize for value (maximize utility-per-session).
+
+After 7 years building AI for call centers, I've seen this play out:
+
+Version A: "Keep the customer on the call longer" (higher AHT, more upsells)
+Version B: "Resolve the issue faster" (lower AHT, better CSAT)
+
+Same technology. Different incentives. Opposite outcomes.
+
+The AI that wins isn't the one with the most usage.
+
+It's the one aligned with what you actually need.
+
+Anthropic's betting on the latter. That's a strategy worth watching.

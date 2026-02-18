@@ -1,0 +1,7 @@
+Skygen.AI launched multi-tier security: restricted → moderate → full Computer Use.
+
+Shipping AI in regulated industries (banking, healthcare), deployment blocker isn't "does it work?" It's "what can it access?"
+
+Not binary. Permission model. Different agents, different tiers, different blast radius.
+
+Question: What trust level does this task require?

@@ -1,0 +1,25 @@
+Skygen.AI just launched multi-tier security for autonomous agents.
+
+Users choose: restricted access → moderate autonomy → full Computer Use mode.
+
+This is the trust gradient every enterprise needs.
+
+At Ender Turing, we've shipped AI agents in regulated industries (banking, healthcare, insurance).
+
+The deployment blocker is never "does it work?"
+
+It's "what can it access?"
+
+Early conversations:
+"Can it read customer data?" → Yes (need context)
+"Can it modify records?" → No (compliance)
+"Can it trigger alerts?" → Yes (monitoring)
+"Can it delete data?" → Hell no
+
+The answer isn't binary. It's a permission model.
+
+Different agents, different tiers, different blast radius.
+
+The companies shipping fastest? They're not asking "should we trust AI?"
+
+They're designing: "What level of trust does this specific task require?"

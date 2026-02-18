@@ -1,0 +1,19 @@
+OpenAI launched Frontier: a platform for deploying AI agents in enterprise workflows.
+
+Early adopters: finance, insurance, life sciences, mobility.
+
+This is the pattern I've been watching for 2 years building call center AI:
+
+Phase 1: Proof of concept (internal tool, one use case)
+Phase 2: Production pilot (single team, controlled environment)
+Phase 3: Enterprise rollout (cross-functional, integrated workflows)
+
+Frontier is Phase 3 infrastructure.
+
+It's not "can we build an agent?" anymore.
+
+It's "how do we deploy 100 agents across 50 workflows with governance, monitoring, and compliance?"
+
+The companies that figure this out first don't just gain efficiency.
+
+They gain a 2-3 year operating advantage that's nearly impossible to close.

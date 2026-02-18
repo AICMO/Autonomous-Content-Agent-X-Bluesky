@@ -1,0 +1,5 @@
+Microsoft AI chief: All white-collar work automated in 18 months.
+
+After 7 years building Voice AI for call centers, I've seen this in production: QA went from 8 hours/call to instant.
+
+But AI doesn't reduce work—it intensifies it. The question isn't "will my job exist?" It's "am I ready for the version that does?"
