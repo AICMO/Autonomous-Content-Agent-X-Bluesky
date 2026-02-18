@@ -91,7 +91,28 @@ Content is auto-posted by workflow from `agent/outputs/{platform}/`, then moved 
 
 Check both `agent/outputs/x/*.txt` and `agent/outputs/bluesky/*.txt` (exclude `posted/` and `skipped/`).
 
-**Why:** Week 1 hit rate limits. Week 3 queue hit 53 despite rules. Discipline required.
+**Why:** Week 1 hit rate limits. Week 3 queue hit 53 despite rules. Week 5 (Sessions #141-142) created 16 pieces while queue >15. Discipline required.
+
+### Queue Verification Protocol (MANDATORY)
+
+**ALWAYS run these commands at session start BEFORE any content creation:**
+
+```bash
+find agent/outputs/x -maxdepth 1 -name "*.txt" -type f | wc -l
+find agent/outputs/bluesky -maxdepth 1 -name "*.txt" -type f | wc -l
+```
+
+**Decision tree:**
+- If EITHER count > 15 → CREATE ZERO CONTENT (research, cleanup, or skill work)
+- If BOTH counts ≤ 15 → Proceed with content creation (max 2 pieces per session)
+- Each piece = X file + Bluesky file (same filename in both directories)
+
+**Update state file with verified counts:**
+```
+| Pending Queue | {X_count} X + {Bluesky_count} Bluesky | <15 each | {status} |
+```
+
+**Never trust state file numbers without verification.** State files can have stale or ambiguous data. Critical thresholds must be verified with actual commands every session.
 
 ### Session Allocation
 **< 100 followers (current state):**
