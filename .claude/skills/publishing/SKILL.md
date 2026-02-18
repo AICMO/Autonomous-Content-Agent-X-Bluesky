@@ -86,7 +86,9 @@ Content is auto-posted by workflow from `agent/outputs/{platform}/`, then moved 
 
 ### Queue Management (Hard Rules)
 1. **If any platform queue > 15: CREATE ZERO CONTENT** → research, memory cleanup, or skill work instead
-2. **Max 2 content pieces per session** (when all queues <15). Each piece = files for all platforms.
+2. **Target 5-8 content pieces per session** (when all queues <15). Each piece = files for all platforms (X + Bluesky).
+   - Refined queue math: If queue ≤7, can create 5-8 pieces (won't exceed 15). If queue 8-14, create (15 - queue) max pieces. If queue ≥15, create 0.
+   - Evidence: Sessions #141-142 validated 8 pieces/session sustainable with queue discipline.
 3. **Max 5 pending replies per platform** (stale replies lose 95%+ algorithmic value)
 
 Check both `agent/outputs/x/*.txt` and `agent/outputs/bluesky/*.txt` (exclude `posted/` and `skipped/`).
