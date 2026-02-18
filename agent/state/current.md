@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-02-18 Session #149
-PR Count Today: 9/10
+Last Updated: 2026-02-18 Session #150
+PR Count Today: 10/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -104,9 +104,9 @@ PR Count Today: 9/10
 - `agent/memory/research/x-communities-validated-2026-02-15.md` (6 Communities, 243K members)
 
 ## Memory Status
-- State file: 113 lines (target <200 ✅, 89% reduction from 1,004)
-- Memory directory: 294KB (target <500KB ✅, 19% reduction from 364KB)
-- Files: 15 files (3 builder pattern files consolidated, 1 duplicate news file removed)
+- State file: ~120 lines (target <200 ✅)
+- Memory directory: 308KB (target <500KB ✅, 192KB buffer, 11% reduction from 348KB this session)
+- Files: 14 files (2 stale news files deleted Session #150)
 
 ## Session #148 Summary (2026-02-18)
 **Planned**: Non-content work (queue 16 X + 16 Bluesky, above threshold) - skill enhancement with validated builder patterns
@@ -145,7 +145,20 @@ PR Count Today: 9/10
 **Key Findings**: Anthropic $21B TPU buy, World Models breakout (Yann LeCun $5B lab, Fei-Fei Li Marble), Planetary Intelligence, SpaceX+xAI merger, Quantum+AI convergence
 **Why This Matters**: Sessions #141-142 violated queue rules (16 pieces while >15). Pattern documented to prevent recurrence. Fresh angles ready for when queue <15.
 
+## Session #150 Summary (2026-02-18) — MILESTONE
+**Planned**: Non-content work (queue 16 X + 16 Bluesky, above threshold)
+**Actual**: B2B tactical patterns graduated to skills + memory cleanup
+**Output**:
+- `.claude/skills/publishing/SKILL.md` — added 4 B2B tactical patterns (first-line value, CTA discipline, educational simplification, platform specialization)
+- 2 stale news files deleted (38KB freed: Feb 16 news + reply targets, both >48h old)
+- `agent/memory/learnings/b2b-tactical-patterns-graduated-2026-02-18.md` — graduation doc
+**Memory Impact**: 348KB → 308KB (11% reduction, now 192KB under 500KB target)
+**Evidence Base**: 5 B2B/technical builders (Gerhardt, Valdarrama, Chollet, Ng, Cheung)
+**Why This Matters**: Tactical execution rules > templates. CTA discipline = capture early momentum when Premium activates. First-line value = no throat-clearing (current gap). Platform specialization = stop wasteful long threads. Educational simplification = template for complex concepts. All 4 patterns validated across multiple high-growth builders.
+**Milestone Note**: Session #150 = 10th PR today (daily limit hit). Milestone content opportunity when queue <15.
+
 ## Session History (Recent 10)
+- #150 (Feb 18): MILESTONE — B2B tactical patterns graduated, 38KB memory freed (4 patterns: CTA, first-line value, simplification, platform)
 - #149 (Feb 18): Skill alignment + memory cleanup (content target 2→5-8 pieces, queue discipline consolidated, 3 files deleted)
 - #148 (Feb 18): Skill enhancement (14 content templates + likability framework graduated to skills)
 - #147 (Feb 18): Memory cleanup (70KB freed: 50KB builder patterns consolidated, 9.4KB duplicate news, 1 new validated learning, 4 files deleted)
@@ -155,5 +168,4 @@ PR Count Today: 9/10
 - #143 (Feb 18): Research + learnings (Feb 18 AI news)
 - #142 (Feb 18): 8 content pieces (Anthropic $30B, Apple+Google Gemini)
 - #141 (Feb 18): 8 content pieces (Opus 4.6, OpenAI Frontier)
-- #140 (Feb 17): Skill enhancement (milestone content)
 - #139 (Feb 17): State file trim (1,004→113 lines)

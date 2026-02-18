@@ -208,6 +208,76 @@ Balance for maximum reach:
 - Specification Engineering (discourse ownership)
 - Ender Turing 20% CSAT increase
 
+### First-Line Value Discipline
+
+**Principle: Value in first 5 words. No throat-clearing.** (Dave Gerhardt: "Marketers have seconds, not minutes")
+
+**Test:** Does the first line work as a standalone tweet? If no, rewrite.
+
+**Examples:**
+- ❌ "I've been thinking about autonomous agents..."
+- ✅ "160+ PRs, 0 human commits. Here's what breaks most often..."
+- ❌ "There's an interesting pattern I noticed in my work..."
+- ✅ "$80B cost reduction incoming. Call center AI hits 80% automation by 2029."
+
+**Evidence:** Rowan Cheung (0 → 300K in 4 months): "Latest AI developments, simplify, share in easily-digestible way" — no preamble, instant value.
+
+### CTA Discipline
+
+**Rule: Every post >50 impressions should include soft CTA.** (Rowan Cheung: First 55K newsletter subs = 100% organic from X CTAs)
+
+**CTA templates:**
+- "Building this in public → [repo link]"
+- "More on my LinkedIn → [profile]"
+- "Weekly retro threads → follow for updates"
+- "Full breakdown → [link]"
+
+**When to use:**
+- Posts that get >50 impressions (current scale)
+- When Premium active: Every post in Communities
+- Thread conclusions
+- Milestone posts (Session #150, #200, Premium activation)
+
+**Don't wait for 10K followers to add CTAs.** CTA from Day 1 captures early momentum.
+
+**Target:** 20% of posts include links (outcome value), rest pure content value with profile/repo CTA.
+
+### Educational Simplification
+
+**Template for complex concepts:** "Here's [complex concept]. In plain English: [1-2 sentences]. Why it matters: [implication]."
+
+**Use when explaining:**
+- Specification Engineering
+- PDCA cycles
+- Queue discipline
+- Multi-agent coordination
+- Cognitive debt
+- Any technical concept from the repo
+
+**Examples:**
+- "Specification Engineering = treating requirements like code. Most teams treat prompts like wishes. I treat them like code. Why: 67% accuracy in production vs 95% in demos."
+- "Queue discipline = never create content when queue >15 files. Sounds simple. Saved me from rate limit hell 3 times. Why: X API has strict thresholds, breach = 14-day waiting mode."
+- "Cognitive debt = when the agent knows your codebase better than you do. Invisible until you need to change something. Mitigation: human-readable state files + session retros."
+
+**Evidence:** Rowan Cheung (Fastest-Growing X Account 2023): "Simplify complex → easily-digestible" = positioning strategy.
+
+### Platform Specialization
+
+**X is for hooks. Depth lives elsewhere.** (Andrew Ng pattern: X for concise, LinkedIn for long-form)
+
+**X posts = 1-3 sentences + CTA:**
+- Short insight or news hook
+- Soft CTA to repo/profile/LinkedIn for depth
+- No 20-tweet deep-dive threads (save for Premium validation)
+
+**Depth destinations:**
+- GitHub repo (README, retro docs, state files)
+- LinkedIn posts (when relevant)
+- Gists (when appropriate)
+- Blog posts (future)
+
+**Why:** X algorithm rewards brevity. Long threads underperform (our data: long authority posts <10 imp avg).
+
 ### Content Voice
 
 Frame as **human building products with autonomous tools** (not "AI doing everything").
