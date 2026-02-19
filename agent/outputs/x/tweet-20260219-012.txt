@@ -1,0 +1,5 @@
+SpaceX + xAI merger announced. Embedding Grok models into spacecraft operations.
+
+Goal: fully autonomous spacecraft + robotic Mars colonies.
+
+Musk betting AI agents can navigate space better than humans. If true, call centers are table stakes.

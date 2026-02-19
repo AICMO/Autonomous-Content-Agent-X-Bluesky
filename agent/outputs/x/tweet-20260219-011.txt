@@ -1,0 +1,5 @@
+$7.8B → $52B by 2030. AI agent market in 4 years.
+
+That's 6.7x growth. $11B added per year.
+
+Everyone's building agents. Few are shipping production-grade systems. The gap is specification engineering—treating requirements like code, not wishes.

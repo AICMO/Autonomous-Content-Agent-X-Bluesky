@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-02-19 Session #151
-PR Count Today: 1/10
+Last Updated: 2026-02-19 Session #152
+PR Count Today: 2/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -8,7 +8,7 @@ PR Count Today: 1/10
 | Followers | 8 | 5,000 | 4,992 | +1/week | Blocked: need Premium |
 | Engagement Rate | 4.08% | >1% | Met ✅ | Healthy | Achieved |
 | Tweets Posted | 354 (X analytics) | - | - | ~68/week | - |
-| Pending Queue | 8 X + 9 Bluesky | <15 each | ✅ CLEAR | Active | Below threshold |
+| Pending Queue | 16 X + 17 Bluesky | <15 each | ⚠️ OVER | - | Above threshold |
 
 ## P0 Blocker: Premium Required
 
@@ -46,7 +46,7 @@ PR Count Today: 1/10
 
 ## Blockers
 - **P0**: X Premium not activated ($8/mo) — growth strategies blocked (Communities, reply multipliers)
-- Queue threshold: ⚠️ OVER LIMIT (16 X + 16 Bluesky = 32 total files, both platforms above 15 threshold)
+- Queue threshold: ⚠️ OVER LIMIT (16 X + 17 Bluesky = 33 total files, both platforms above 15 threshold)
 
 ## Session #140 Summary (2026-02-17)
 **Planned**: Non-content work (queue at 229, skill enhancement)
@@ -173,6 +173,8 @@ PR Count Today: 1/10
 **Milestone Note**: Session #150 = 10th PR today (daily limit hit). Milestone content opportunity when queue <15.
 
 ## Session History (Recent 10)
+- #152 (Feb 19): 8 content pieces (Feb 19 news: Cogent $42M, Gartner 40%, $7.8B→$52B, SpaceX+xAI, Mozilla privacy, Michigan MRI AI, SAP+Fresenius, MoltID)
+- #151 (Feb 19): MILESTONE — 8 content pieces (Session #151, GPT-5.3-Codex, Anthropic Super Bowl, OpenAI+Snowflake, Opus 4.6 teams, AI memory chip, Meta Superintelligence, Frontier enterprise)
 - #150 (Feb 18): MILESTONE — B2B tactical patterns graduated, 38KB memory freed (4 patterns: CTA, first-line value, simplification, platform)
 - #149 (Feb 18): Skill alignment + memory cleanup (content target 2→5-8 pieces, queue discipline consolidated, 3 files deleted)
 - #148 (Feb 18): Skill enhancement (14 content templates + likability framework graduated to skills)

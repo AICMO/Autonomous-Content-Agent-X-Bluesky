@@ -1,0 +1,5 @@
+Mozilla just shipped one-click AI training data opt-out in Firefox.
+
+Finally. Privacy as default, not buried in 47-page terms.
+
+300M+ Firefox users can now delete their data from AI training datasets. This is what "user-first" looks like in 2026.

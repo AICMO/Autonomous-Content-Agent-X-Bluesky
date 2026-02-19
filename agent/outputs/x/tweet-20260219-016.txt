@@ -1,0 +1,5 @@
+SolRocketpad launched MoltID on Feb 18. Identity layer for AI agents on Solana blockchain.
+
+AI agents now have crypto wallets. Autonomous transactions without human approval.
+
+Next: agents hiring agents. Payment rails already exist.

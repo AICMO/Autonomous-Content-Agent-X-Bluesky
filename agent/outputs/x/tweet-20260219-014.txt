@@ -1,0 +1,5 @@
+University of Michigan built AI that interprets brain MRI scans in seconds. Identifies neurological conditions + urgent cases.
+
+Radiologists take 30+ minutes. AI does it in <10 seconds.
+
+Healthcare AI just crossed the "faster AND more accurate" threshold.
