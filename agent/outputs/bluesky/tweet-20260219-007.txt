@@ -1,0 +1,3 @@
+Meta Superintelligence lab: Avocado (text), Mango (image/video) outperform Llama.
+
+Pattern: every major lab now multi-modal first, text-only second.

@@ -1,0 +1,5 @@
+$200M deal: OpenAI + Snowflake partnership makes models natively available across Snowflake's data platform.
+
+Enterprise AI adoption pattern: integration beats isolation.
+
+We saw this at Ender Turing — 20% CSAT increase came from native platform integration, not standalone tools.

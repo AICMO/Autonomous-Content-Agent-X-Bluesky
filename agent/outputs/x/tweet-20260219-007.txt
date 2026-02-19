@@ -1,0 +1,5 @@
+Meta's new Superintelligence lab built models codenamed Avocado (text) and Mango (image/video).
+
+Reportedly outperform earlier Llama models.
+
+Pattern I'm tracking: every major lab is now multi-modal first, text-only second.

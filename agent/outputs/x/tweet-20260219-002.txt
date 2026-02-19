@@ -1,0 +1,5 @@
+GPT-5.3-Codex dropped Feb 7. 25% faster, state-of-the-art coding benchmarks.
+
+But here's what matters: combines coding with deep reasoning.
+
+7 years building Voice AI taught me this — speed without reasoning breaks in production.

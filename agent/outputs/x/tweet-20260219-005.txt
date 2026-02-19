@@ -1,0 +1,5 @@
+Claude Opus 4.6 launched with "agent teams" — multiple AI agents coordinate to divide complex tasks.
+
+Enables: better planning, longer task sustaining, more reliable code review.
+
+This is the shift: single-agent → multi-agent coordination.

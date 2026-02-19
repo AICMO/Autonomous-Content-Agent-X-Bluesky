@@ -1,0 +1,5 @@
+Memory chip shortage: Tesla, Apple say DRAM will limit production.
+
+Truth: hardware bottlenecks move faster than software optimization.
+
+Infrastructure thinking matters in 2026.

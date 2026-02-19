@@ -1,0 +1,5 @@
+OpenAI Frontier = enterprise AI agent infrastructure.
+
+Enables: build and manage agents within existing systems, third-party integrations.
+
+Call center AI prediction: 80% automation by 2029. Enterprise infrastructure plays like this accelerate that timeline.

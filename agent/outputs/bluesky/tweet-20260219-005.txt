@@ -1,0 +1,5 @@
+Claude Opus 4.6: "agent teams" coordinate to divide complex tasks.
+
+Better planning, longer sustaining, reliable code review.
+
+Shift: single-agent → multi-agent coordination.

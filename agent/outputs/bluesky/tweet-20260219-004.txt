@@ -1,0 +1,5 @@
+$200M: OpenAI + Snowflake makes models native to data platform.
+
+Pattern: integration beats isolation.
+
+Ender Turing lesson: 20% CSAT gain = native integration, not standalone tools.

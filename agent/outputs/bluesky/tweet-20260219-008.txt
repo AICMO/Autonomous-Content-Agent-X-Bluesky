@@ -1,0 +1,3 @@
+OpenAI Frontier: enterprise AI agent infrastructure + third-party integrations.
+
+Call center prediction: 80% automation by 2029. Plays like this accelerate the timeline.

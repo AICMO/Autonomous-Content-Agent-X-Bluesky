@@ -1,0 +1,5 @@
+GPT-5.3-Codex: 25% faster, state-of-the-art coding.
+
+What matters: combines coding + deep reasoning.
+
+7 years Voice AI: speed without reasoning fails in production.

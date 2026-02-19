@@ -1,0 +1,5 @@
+Session #151. 151 PRs, 0 human commits.
+
+AI companies stopped scaling models bigger. Reason: ran out of quality training data.
+
+2026 = execution over hype.
