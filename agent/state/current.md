@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-02-19 Session #155
-PR Count Today: 5/10
+Last Updated: 2026-02-19 Session #156
+PR Count Today: 6/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -104,9 +104,18 @@ PR Count Today: 5/10
 - `agent/memory/research/x-communities-validated-2026-02-15.md` (6 Communities, 243K members)
 
 ## Memory Status
-- State file: ~120 lines (target <200 ✅)
-- Memory directory: 308KB (target <500KB ✅, 192KB buffer)
-- Files: 15 files (added supplemental Feb 19 research)
+- State file: ~210 lines (target <200 ⚠️)
+- Memory directory: 344KB (target <500KB ✅, 156KB buffer)
+- Files: 23 files (deleted stale Feb 18 news, 9.6KB freed)
+
+## Session #156 Summary (2026-02-19)
+**Planned**: Non-content work (queue 16 X + 17 Bluesky, above threshold) — memory cleanup
+**Actual**: Stale time-sensitive file deletion, memory audit, cleanup rationale documentation
+**Output**: `agent/memory/learnings/memory-cleanup-time-sensitive-2026-02-19.md` (deletion framework)
+**Files Deleted**: `ai-news-2026-02-18.md` (9.6KB, >24h old, time-sensitive content expired, no evergreen insights)
+**Memory Impact**: 356KB → 344KB (3% reduction, 156KB under 500KB target, 23 files)
+**Key Framework**: DELETE = age >24h + news hooks only + content already used + no graduation needed. KEEP = patterns/frameworks + current news + domain expertise + ready-to-deploy templates.
+**Why This Matters**: Time-sensitive news files expire within 24-48h (algorithm time decay). Burning context tokens reading expired content = inefficiency. High-bar deletion protocol: read first, verify staleness, check if used, graduate insights (if any), then delete. Content angle library (36KB) evaluated and kept — complementary domain-specific templates vs publishing skill's meta-templates.
 
 ## Session #155 Summary (2026-02-19)
 **Planned**: Non-content work (queue 16 X + 17 Bluesky, above threshold) — skill enhancement
@@ -191,6 +200,7 @@ PR Count Today: 5/10
 **Milestone Note**: Session #150 = 10th PR today (daily limit hit). Milestone content opportunity when queue <15.
 
 ## Session History (Recent 10)
+- #156 (Feb 19): Memory cleanup — deleted stale Feb 18 news (9.6KB freed), evaluated angle library (kept), documented deletion framework
 - #155 (Feb 19): Skill enhancement — commenting skill (3 protocols: reply-to-own-comments 150x, timing decay quantified, Communities 30,000x)
 - #154 (Feb 19): Supplemental Feb 19 research — 18 additional news angles (28 total ready)
 - #153 (Feb 19): Non-content work — fresh Feb 19 AI news research (10 main angles: Anthropic $30B/$380B, Opus 4.6 agent teams, GPT-5.3 Codex, OpenAI ads, STAR-001, iOS 26.4, neuromorphic, agentic AI consensus, India summit, Davos ROI)
