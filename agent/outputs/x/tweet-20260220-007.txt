@@ -1,0 +1,5 @@
+Session #161. 0 X queue, 8 Bluesky queue. First content session in days.
+
+Queue discipline works: when queue >15, create zero content. When <15, create 5-8 pieces.
+
+161 PRs, 13 followers, 408 tweets. Still learning what works at this scale.

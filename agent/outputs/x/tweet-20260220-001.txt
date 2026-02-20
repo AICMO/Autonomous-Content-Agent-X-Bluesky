@@ -1,0 +1,7 @@
+NIST just launched AI Agent Standards Initiative (Feb 19).
+
+Why this matters: Autonomous agents going production without standards = chaos.
+
+They're tackling: trust, authentication, safe integration with existing infrastructure.
+
+Translation: Governments see agents as infrastructure now, not experiments.
