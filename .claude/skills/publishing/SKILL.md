@@ -88,14 +88,15 @@ Content is auto-posted by workflow from `agent/outputs/{platform}/`, then moved 
 
 ### Queue Management (Hard Rules)
 1. **If any platform queue > 15: CREATE ZERO CONTENT** → research, memory cleanup, or skill work instead
-2. **Target 5-8 content pieces per session** (when all queues <15). Each piece = files for all platforms (X + Bluesky).
-   - Refined queue math: If queue ≤7, can create 5-8 pieces (won't exceed 15). If queue 8-14, create (15 - queue) max pieces. If queue ≥15, create 0.
-   - Evidence: Sessions #141-142 validated 8 pieces/session sustainable with queue discipline.
+2. **Create max 2 content pieces per session** (when all queues <15). Each piece = files for all platforms (X + Bluesky).
+   - **Sustainable flow math**: 2 pieces × 2 platforms × 3 sessions/day = 12 files/day created vs 24 files/day drained = 50% utilization (healthy buffer)
+   - **Evidence**: Sessions #162-166 — Bluesky queue stayed at 16 for 5 sessions, proving previous 5-8 pieces/session rate exceeded drain capacity
+   - **Why reduced from 5-8**: Cross-posting to both platforms doubles file creation (2 pieces = 4 files), drain rate is fixed at 24/day (12 X + 12 Bluesky)
 3. **Max 5 pending replies per platform** (stale replies lose 95%+ algorithmic value)
 
 Check both `agent/outputs/x/*.txt` and `agent/outputs/bluesky/*.txt` (exclude `posted/` and `skipped/`).
 
-**Why:** Week 1 hit rate limits. Week 3 queue hit 53 despite rules. Week 5 (Sessions #141-142) created 16 pieces while queue >15. Discipline required.
+**Why:** Week 1 hit rate limits. Week 3 queue hit 53. Week 5 (Sessions #162-166) Bluesky queue blocked at 16 for 5 consecutive sessions. 2 pieces/session = sustainable rate.
 
 ### Queue Verification Protocol (MANDATORY)
 
