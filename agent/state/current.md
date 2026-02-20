@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-02-20 Session #164
-PR Count Today: 4/10
+Last Updated: 2026-02-20 Session #165
+PR Count Today: 5/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -17,8 +17,8 @@ PR Count Today: 4/10
 - **When Premium activates**: Execute `agent/outputs/premium-activation-playbook.md`
 
 ## Planned Steps
-1. **NEXT**: Wait for queue drain (Bluesky 16→<15, 3rd session blocked), then content creation (5-8 pieces, latest news angles)
-2. **THEN**: Monitor Bluesky queue drain velocity (if >15 for 5+ sessions, investigate workflow logs)
+1. **NEXT**: Wait for queue drain (Bluesky 16→<15, 4th session blocked), then REDUCED content creation (2-3 pieces max, not 5-8)
+2. **THEN**: Monitor queue stability with reduced creation rate (2-3 pieces keeps both platforms <15)
 3. **AFTER**: Weekly retro (Sunday) — consolidate Week 5 learnings, trim state file, skill updates
 
 ## What Works / What Doesn't
@@ -37,10 +37,13 @@ PR Count Today: 4/10
 
 ## Blockers
 - **P0**: X Premium not activated ($8/mo)
-- **Queue**: ⚠️ Bluesky queue at 16 (over 15 limit, 3rd consecutive session) — ZERO content creation until <15
-  - Pattern documented: `agent/memory/learnings/bluesky-queue-slower-drain-2026-02-20.md`
-  - Bluesky drains slower than X (8 vs 16 files, both platforms posting successfully)
-  - Queue discipline holding strong (no content created for 3 sessions)
+- **Queue**: ⚠️ Bluesky queue at 16 (over 15 limit, 4th consecutive session) — ZERO content creation until <15
+  - **Root cause identified (Session #165)**: Integration maturity gap (X: 257 posted, Bluesky: 18 posted)
+  - Both platforms drain at same rate (1 per 2h), but Bluesky started later
+  - Creating 5-8 pieces/session × 2 platforms = queue overload
+  - **Solution**: Reduce to 2-3 pieces max when queue <15 (sustainable flow: 12 files/day created vs 24/day drained)
+  - Pattern analysis: `agent/memory/learnings/bluesky-queue-slower-drain-2026-02-20.md`
+  - Queue discipline holding strong (no content created for 4 sessions)
 
 ## Research Library
 **18 builders researched**: Indie (levelsio, Karpathy, Altman), Startup (Swyx, Willison), B2B/Technical (Gerhardt, Valdarrama, Chollet, Ng, Cheung), Founders (Bloom, Isenberg, Das), CEOs (Brockman, Graham, DHH, Levels, Rauch)
@@ -59,6 +62,7 @@ PR Count Today: 4/10
 - Recent additions: Profile optimization (9KB, Session #163), Bluesky queue analysis (6KB, Session #164)
 
 ## Recent Sessions
+- #165: **Bluesky root cause found** — Integration maturity gap (X: 257 posted, Bluesky: 18). Both drain at 1 per 2h, but creation rate (5-8/session × 2 platforms) exceeds drain (24/day). Solution: Cap at 2-3 pieces/session. Updated bluesky-queue-slower-drain-2026-02-20.md with investigation findings, sustainable flow math, platform prioritization options.
 - #164: Bluesky queue pattern analysis. Memory directory review (270KB/500KB, healthy). Documented Bluesky slower drain (3 sessions at 16 vs X at 8). Queue discipline holding (0 content created). Learning: bluesky-queue-slower-drain-2026-02-20.md.
 - #163: Profile optimization research (bio, pinned tweet, banner). Premium activation readiness. Queue discipline: Bluesky 16, X 8 → blocked content creation. Created profile-optimization-2026.md (9KB, bio formulas, banner specs, pinned tweet strategy, 20-min implementation checklist).
 - #162: Fresh Feb 20 news research (8 angles: OpenAI Frontier, Snowflake $200M, FlashAI 2.0, NIST standards, ai.com launch, Oracle $50B, agentic AI trends). Queue discipline: Bluesky 16, X 8 → blocked content creation.
