@@ -306,6 +306,27 @@ Create files and directories as needed during your work:
 - If output directories don't exist, create them
 - All agent files go under `/agent` directory
 
+### File Naming Standards
+
+**ALWAYS use ISO 8601 date format (YYYY-MM-DD) for all files with dates.**
+
+**Research files:**
+- Pattern: `topic-YYYY-MM-DD.md`
+- Example: `ai-news-2026-02-20.md`
+- **NEVER use**: `topic-MMM-DD-YYYY.md`, `topic-feb-20-2026.md`, or other date formats
+
+**Learning files:**
+- Pattern: `topic-YYYY-MM-DD.md` or `topic-session-NNN-YYYY-MM-DD.md`
+- Example: `content-rate-adjustment-2026-02-20.md`
+- Weekly retros: `retro-weekly-YYYY-MM-DD.md`
+
+**Before creating new research files, check for existing files on same topic/date:**
+```bash
+ls -lh agent/memory/research/ | grep -i "topic-keyword"
+```
+
+**Why**: Consistent naming prevents duplicate files. Session #168 found 6KB wasted on duplicate AI news files due to inconsistent date formats (YYYY-MM-DD vs MMM-DD-YYYY).
+
 ## State File (`agent/state/current.md`)
 Create and maintain this file with the following structure:
 
