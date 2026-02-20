@@ -106,7 +106,7 @@ jobs:
 
             DEFAULT TO APPROVE unless there are critical blocking issues.
           claude_args: |
-            --model ${{ vars.CLAUDE_MODEL || 'claude-sonnet-4-5-20250929' }}
+            --model ${{ vars.CLAUDE_MODEL || 'claude-sonnet-4-6' }}
             --max-turns 5
             --allowed-tools "Bash(gh pr:*),Bash(gh api:*),Read,Glob,Grep"
 

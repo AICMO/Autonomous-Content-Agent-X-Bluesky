@@ -107,7 +107,7 @@ jobs:
 
             Follow boundaries in agent/config.md.
           claude_args: |
-            --model ${{ vars.CLAUDE_WORK_MODEL || 'claude-sonnet-4-5-20250929' }}
+            --model ${{ vars.CLAUDE_WORK_MODEL || 'claude-sonnet-4-6' }}
             --max-turns 50
             --allowed-tools "Bash(git:*),Bash(gh api:*),Bash(gh issue:*),Bash(gh pr:*),Bash(gh gist:*),Bash(gh run:*),Bash(gh variable:*),Bash(mkdir:*),Bash(mv:*),Bash(ls:*),Bash(cp:*),Bash(touch:*),Bash(cat:*),Bash(head:*),Bash(tail:*),Bash(wc:*),Bash(grep:*),Bash(find:*),Bash(sort:*),Bash(diff:*),Bash(date:*),Bash(echo:*),Bash(printf:*),Bash(cut:*),Bash(tr:*),Bash(uniq:*),Bash(xargs:*),Bash(tee:*),Bash(sed:*),Bash(awk:*),Bash(jq:*),Bash(basename:*),Bash(dirname:*),Bash(realpath:*),Bash(stat:*),Bash(lsof:*),Read,Write,Edit,Glob,Grep,WebFetch,WebSearch"
 
