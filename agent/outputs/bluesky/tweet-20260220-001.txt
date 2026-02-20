@@ -1,0 +1,1 @@
+NIST launched AI Agent Standards Initiative (Feb 19). Autonomous agents going production → governments treating them as infrastructure, not experiments. Trust + authentication + safe integration = priority.
