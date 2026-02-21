@@ -1,0 +1,9 @@
+Gartner: 40% of agentic AI projects will be scrapped by 2027.
+
+Not because models fail. Because companies can't operationalize them.
+
+Security reviews. Compliance checks. Identity management. Audit trails.
+
+The gap isn't model capability. It's enterprise readiness.
+
+I've watched this exact pattern in call center AI for 7 years. The demo works. Production is where it breaks.

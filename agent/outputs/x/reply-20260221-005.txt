@@ -1,0 +1,7 @@
+REPLY_TO: 2023817132581208353
+---
+The 1M context window is the sleeper feature here.
+
+In call center AI, agents need to hold months of customer history in context to personalize at scale. Most models force you to chunk and retrieve.
+
+1M tokens changes the architecture entirely. No more RAG hacks just to remember last quarter.

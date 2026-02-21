@@ -1,0 +1,7 @@
+Claude Sonnet 4.6: Opus-level performance at Sonnet pricing.
+
+$3/$15 per million tokens. 79.6% on SWE-bench. 1M token context window.
+
+Meanwhile: Anthropic writes 70-90% of its own code with AI. Their models helped build themselves.
+
+The "AI can't replace engineers" debate is officially over.
