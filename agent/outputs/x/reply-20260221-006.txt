@@ -1,0 +1,7 @@
+REPLY_TO: 1990812447641383284
+---
+The "agentic OS" framing is interesting. MCP as the connective tissue means third-party agents plug in natively — not just Microsoft's.
+
+7 years building production AI systems: the OS layer handling agent auth, permissions, and isolation is the piece that's been missing.
+
+Still curious how they handle XPIA injection at scale.
