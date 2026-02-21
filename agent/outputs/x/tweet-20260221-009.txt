@@ -1,0 +1,9 @@
+Microsoft just put AI agents directly in the Windows 11 taskbar.
+
+Not a sidebar. Not a button. In the taskbar itself.
+
+Type "@" → tag an agent → it runs in the background for 10+ minutes while you work.
+
+MCP-powered. Third-party agents supported. File Explorer integration included.
+
+1.4 billion Windows users are about to have their first real AI agent experience.
