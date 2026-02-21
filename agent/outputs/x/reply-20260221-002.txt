@@ -1,0 +1,5 @@
+REPLY_TO: 2024210050718585017
+---
+The 0.8% irreversible figure is interesting. In production call center AI (7 years, 500K+ interactions), we saw similar patterns — the risky 1% was where trust got built or broken.
+
+The gap between "human in the loop" and "humans actually watching" is real. Worth measuring separately.
