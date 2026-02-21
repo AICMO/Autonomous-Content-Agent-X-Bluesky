@@ -118,6 +118,10 @@ class RateLimitError(Exception):
     pass
 
 
+class DuplicateContentError(Exception):
+    pass
+
+
 def post_tweet(session, text, reply_to=None):
     """Post a single tweet, optionally as a reply."""
     payload = {"text": text.strip()}
@@ -148,6 +152,12 @@ def post_tweet(session, text, reply_to=None):
         return None
 
     print(json.dumps(data))
+
+    # Detect duplicate content rejection
+    if response.status_code == 403:
+        detail = data.get("detail", "")
+        if "duplicate" in detail.lower():
+            raise DuplicateContentError(detail)
 
     if "data" in data and "id" in data["data"]:
         time.sleep(0.5)
@@ -341,6 +351,10 @@ def cmd_post(session, args):
                 print("  ✗ Failed")
                 failed = True
                 break
+        except DuplicateContentError as e:
+            print(f"  ⚠ Duplicate content, skipping: {e}")
+            filepath.rename(SKIPPED_DIR / filepath.name)
+            continue
         except RateLimitError as e:
             print(f"\nWARNING: {e}")
             print(f"Posted {posted} before rate limit. Remaining files will be retried next run.")
