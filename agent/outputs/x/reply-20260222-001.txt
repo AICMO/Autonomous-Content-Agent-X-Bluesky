@@ -1,4 +1,4 @@
-REPLY_TO: @AnthropicAI
+ to avoidREPLY_TO: @AnthropicAI
 
 97M monthly MCP SDK downloads. 75% of gateway vendors integrating by 2026.
 

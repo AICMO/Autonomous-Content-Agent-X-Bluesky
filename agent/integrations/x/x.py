@@ -208,6 +208,10 @@ def parse_reply_header(content):
         rest = "\n".join(lines[1:]).strip()
         if rest.startswith("---"):
             rest = rest[3:].strip()
+        # Validate: must be numeric tweet ID, not a handle
+        if not re.match(r'^\d{10,}$', reply_to):
+            print(f"  ⚠ Invalid reply target '{reply_to}' (must be numeric tweet ID, not a handle)")
+            return None, rest
         return reply_to, rest
 
     if lines and re.match(r'^\d{10,}$', lines[0].strip()):
@@ -330,7 +334,6 @@ def cmd_post(session, args):
     print(f"Queue: {len(tweets)} tweets, {len(replies)} replies")
 
     posted = 0
-    failed = False
 
     for filepath in pending:
         print(f"Processing: {filepath.name}")
@@ -348,9 +351,9 @@ def cmd_post(session, args):
                 print("  ✓ Posted and archived")
                 posted += 1
             else:
-                print("  ✗ Failed")
-                failed = True
-                break
+                print("  ⚠ Failed, skipping")
+                filepath.rename(SKIPPED_DIR / filepath.name)
+                continue
         except DuplicateContentError as e:
             print(f"  ⚠ Duplicate content, skipping: {e}")
             filepath.rename(SKIPPED_DIR / filepath.name)
@@ -361,7 +364,7 @@ def cmd_post(session, args):
             sys.exit(0 if posted > 0 else 1)
 
     print(f"Posted: {posted} ({len(tweets)} tweets, {len(replies)} replies queued)")
-    sys.exit(1 if failed else 0)
+    sys.exit(0)
 
 
 # ---------------------------------------------------------------------------

@@ -35,6 +35,20 @@ Stable tokens that don't expire.
 | `X_CLIENT_SECRET` | secret | OAuth 2.0 Client Secret |
 | `X_REFRESH_TOKEN` | secret | Refresh token (rotates!) |
 
+### Reply File Format
+Reply files use `REPLY_TO:` header with the **numeric tweet ID** (NOT a handle or URL).
+
+```
+REPLY_TO: 1893847362910283745
+
+Your reply text here...
+```
+
+**NEVER use handles** like `@AnthropicAI` — the API requires numeric IDs matching `^[0-9]{10,}$`.
+To find a tweet ID: it's the number at the end of the tweet URL (e.g., `https://x.com/user/status/1893847362910283745`).
+
+Invalid reply targets are auto-skipped to `skipped/`.
+
 ### Rate Limits
 - Free tier: 17 tweets per 24-hour rolling window (observed limit; official docs say higher but enforcement is stricter)
 - Workflow adds 5s delay between posts
@@ -58,11 +72,18 @@ App password authentication (no OAuth complexity).
 - Login: 30 per 5 minutes, 300 per day per handle
 - Script adds 0.5s delay between posts
 
-### Reply ID Format
-Bluesky uses AT URIs instead of numeric IDs:
-- Format: `at://did:plc:xxx/app.bsky.feed.post/rkey`
-- Reply files use same `REPLY_TO:` header format, but with AT URIs
-- Script resolves URI → CID automatically for strong refs
+### Reply File Format
+Reply files use `REPLY_TO:` header with an **AT URI** (NOT a handle or URL).
+
+```
+REPLY_TO: at://did:plc:nphpplr7dcdi4wyjuizmz2wg/app.bsky.feed.post/3mfhgscgm4h2o
+
+Your reply text here...
+```
+
+**NEVER use handles** like `@anthropic.com` — the API requires AT URIs starting with `at://`.
+Script resolves URI → CID automatically for strong refs.
+Invalid reply targets are auto-skipped to `skipped/`.
 
 ### Thread Support
 Same `---` separator as X. Each part must be under 300 graphemes.
@@ -87,7 +108,8 @@ gh run view <run-id> --log
 | Symptom | Cause | Fix |
 |---------|-------|-----|
 | 429 errors | Rate limit | Wait 15+ min |
-| Files in `posted/` but not posted | Bad exit code | Check post.sh returns 1 on failure |
+| Files in `posted/` but not posted | Bad exit code | Check integration script logs |
+| Files in `skipped/` | Invalid content (bad reply target, duplicate, etc.) | Check reply format — must use numeric ID (X) or AT URI (Bluesky), not handles |
 | Auth errors | Missing credentials | Check `gh variable list` |
 
 ## Adding New Platforms

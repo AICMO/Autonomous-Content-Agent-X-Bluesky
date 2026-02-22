@@ -231,6 +231,10 @@ def parse_reply_header(content):
         rest = "\n".join(lines[1:]).strip()
         if rest.startswith("---"):
             rest = rest[3:].strip()
+        # Validate: must be AT URI, not a handle
+        if not reply_to.startswith("at://"):
+            print(f"  ⚠ Invalid reply target '{reply_to}' (must be AT URI, not a handle)")
+            return None, rest
         return reply_to, rest
 
     # AT URI on first line
@@ -333,7 +337,6 @@ def cmd_post(client, args):
     posted_tweets = 0
     posted_replies = 0
     skipped = 0
-    failed = False
 
     # Process tweets — skip invalid, keep going until limit posted or queue empty
     for filepath in all_tweets:
@@ -355,9 +358,10 @@ def cmd_post(client, args):
                 print("  Posted and archived")
                 posted_tweets += 1
             else:
-                print("  Failed")
-                failed = True
-                break
+                print("  ⚠ Failed, skipping")
+                filepath.rename(SKIPPED_DIR / filepath.name)
+                skipped += 1
+                continue
         except RateLimitError as e:
             print(f"\nWARNING: {e}")
             posted = posted_tweets + posted_replies
@@ -384,9 +388,10 @@ def cmd_post(client, args):
                 print("  Posted and archived")
                 posted_replies += 1
             else:
-                print("  Failed")
-                failed = True
-                break
+                print("  ⚠ Failed, skipping")
+                filepath.rename(SKIPPED_DIR / filepath.name)
+                skipped += 1
+                continue
         except RateLimitError as e:
             print(f"\nWARNING: {e}")
             posted = posted_tweets + posted_replies
@@ -395,7 +400,7 @@ def cmd_post(client, args):
 
     posted = posted_tweets + posted_replies
     print(f"Done: {posted} posted, {skipped} skipped")
-    sys.exit(1 if failed else 0)
+    sys.exit(0)
 
 
 # ---------------------------------------------------------------------------

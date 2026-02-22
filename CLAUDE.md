@@ -195,6 +195,11 @@ A weekly retro runs every Sunday (or on-demand via `workflow_dispatch` with `mod
 - Read PR descriptions and key diffs to understand what was done
 - Read current state file, GOALS.md, all skills, and recent learnings
 - Check posted content in `agent/outputs/` and `posted/` directories
+- **Check for open metrics issues**: `gh issue list --label metrics --state open`
+  - The `owner-reminder.yml` workflow creates a "Weekly Metrics" issue each Saturday asking the repo owner to paste platform analytics
+  - Read the issue to extract any owner-provided metrics (followers, impressions, engagement, top posts)
+  - Use this data in the retro analysis
+  - **Close the issue** in the retro PR body with `Closes #NNN` (the issue must be closed after the retro consumes it)
 - Note any metrics available (followers, engagement, post count)
 
 #### 2. Pattern Analysis
