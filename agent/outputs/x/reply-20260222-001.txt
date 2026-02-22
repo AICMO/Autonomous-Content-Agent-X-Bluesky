@@ -1,0 +1,7 @@
+REPLY_TO: 2012401485846385012
+
+The pivot to "deterministic automation for mission-critical" is exactly what we learned the hard way in call center AI.
+
+7 years, 500K+ interactions: LLMs hallucinate under pressure. Rules-based systems don't.
+
+The architecture that works: rules for compliance + LLMs for empathy. Salesforce just discovered what contact centers figured out in 2022.

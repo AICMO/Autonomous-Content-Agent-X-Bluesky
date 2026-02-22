@@ -1,0 +1,7 @@
+Only 11% of enterprises have AI agents in production.
+
+30% exploring. 38% still piloting.
+
+And 40% of agentic AI projects will be scrapped by 2027 — not because models fail, but because orgs can't operationalize.
+
+The gap between "demo" and "deployed" is where companies die.
