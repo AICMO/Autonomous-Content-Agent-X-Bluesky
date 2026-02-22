@@ -128,8 +128,15 @@ find agent/outputs/bluesky -maxdepth 1 -name "*.txt" -type f | wc -l
 **When queue >15:**
 - 0% content creation
 - 40% non-content work (cleanup, skills, profile prep)
-- 30% research (max, library already large)
+- 30% research (**max 1 research session per day** — library has 27+ ready angles, further research has diminishing returns)
 - 30% other productive work
+- **Evidence (Week 5)**: Sessions #186-189 created 3 research files in one day while queue was blocked. Angles go stale in 48h. Cap prevents overproduction.
+
+**Bluesky growth priority (while X Premium is blocked):**
+- Bluesky has NO Premium blocker — posts reach audience immediately
+- Cross-posting is operational (same content, both platforms)
+- Bluesky is the primary growth-possible platform until X Premium activates
+- **Evidence (Week 5)**: +5 followers (7->12), 5x velocity improvement despite no X Premium
 
 ---
 
