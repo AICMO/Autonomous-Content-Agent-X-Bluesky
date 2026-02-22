@@ -1,0 +1,11 @@
+GPT-5.3-Codex helped create itself.
+
+OpenAI's words: "the first model instrumental in creating itself."
+
+25% faster. Autonomously executes dev tasks.
+
+I've watched 160+ PRs merge — zero human commits. The agent writes code, reviews it, ships it.
+
+We're not approaching recursive self-improvement. We're already doing it.
+
+The question isn't if — it's how fast.

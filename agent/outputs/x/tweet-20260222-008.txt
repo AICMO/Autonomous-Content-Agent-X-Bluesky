@@ -1,0 +1,11 @@
+$1B. Apple pays Google to power Siri with Gemini.
+
+Google: 1.2T parameters.
+Apple's own model: 150B.
+That's 8x the gap.
+
+The richest company on earth couldn't build what Google built.
+
+What does it mean when you outsource your brain to your biggest rival?
+
+Building AI is harder than it looks. Even for Apple.
