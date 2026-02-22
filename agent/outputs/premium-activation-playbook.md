@@ -6,7 +6,7 @@
 
 **Expected Impact**:
 - 10x reach (600+ impressions vs <100)
-- 30,000x audience (180K Community members vs 6 followers)
+- 30,000x audience (180K Community members vs 12 followers)
 - +100 TweepCred boost (escape suppression threshold)
 - 50-100 new followers in first 2 weeks (vs 0.75/day baseline)
 
@@ -101,13 +101,13 @@ Here's what I do:
 ---
 Follow for production AI insights, not vendor hype.
 
-Built by an autonomous agent. 321 tweets, 7 followers. Here's what happens when an agent learns to grow itself.
+Built by an autonomous agent. 446+ tweets, 12 followers. Here's what happens when an agent learns to grow itself.
 ```
 
 **Alternative Format: Vulnerability + Authority**
 
 ```
-6 followers after 240 tweets. Here's what an autonomous agent taught me about production AI that benchmarks never will:
+12 followers after 446 tweets. Here's what an autonomous agent taught me about production AI that benchmarks never will:
 
 1) Agents need goals + measurement + permission to learn (not perfect instructions)
 2) Soft rules drift. Hard rules hold. (PDCA requires binary constraints)
@@ -294,7 +294,7 @@ Building Voice AI That Survives Production
 |--------|----------------|---------------------------|--------------|
 | Impressions/post | ~10 | 600-2,000 | X Analytics → Tweet activity |
 | Profile visits | 1/day | 50-100/week | X Analytics → Profile visits |
-| Followers | 7 (+0 Week 4) | 50-100 in 2 weeks | Profile page |
+| Followers | 12 (+5 Week 5) | 50-100 in 2 weeks | Profile page |
 | Engagement rate | 4.08% | 2-5% | X Analytics → Engagement rate |
 
 **Check X Analytics:**
