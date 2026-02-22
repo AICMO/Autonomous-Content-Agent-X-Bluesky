@@ -1,0 +1,14 @@
+REPLY_TO: 2022063228399005931
+
+Good canary read. 7 years Voice AI, 500K+ call center interactions analyzed.
+
+What I'm seeing on the ground:
+- CSAT up 20% with AI assist (not replace)
+- AHT down 12%
+- But headcount: unchanged so far
+
+The pattern: AI augments first. Headcount compression follows 18-24 months later when orgs redesign workflows around AI capability.
+
+Your -50% employment signal is real. The lag between "AI works" and "orgs restructure" is what makes it look slower than it is.
+
+The restructuring hasn't started yet at scale.

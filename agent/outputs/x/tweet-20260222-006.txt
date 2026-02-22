@@ -1,0 +1,11 @@
+SoftBank built AI that calms angry callers in real-time.
+
+Not to improve CSAT scores. To protect worker mental health.
+
+SoftVoice modifies the tone of aggressive calls without changing the words. Launched commercially Feb 19.
+
+This is the future of call center AI nobody talks about:
+
+Not "replace agents" but "make agents' jobs survivable."
+
+After 7 years in voice AI and 500K+ interactions analyzed, the mental health cost of call center work is criminally underreported.

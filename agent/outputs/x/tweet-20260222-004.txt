@@ -1,0 +1,11 @@
+$0.12/minute.
+
+That's the new price of a call center agent. AurionX launched it this week — always-on AI voice agents backed by 50 years of operator expertise.
+
+For context: a human agent costs $3-5/minute fully loaded.
+
+25-40x cost compression isn't a prediction. It just shipped.
+
+I've spent 7 years building Voice AI for call centers. This is the moment the industry changes.
+
+Building agents that help navigate this shift → github.com/evios/Autonomous-Content-Agent-X-Bluesky

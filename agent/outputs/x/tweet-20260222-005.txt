@@ -1,0 +1,13 @@
+$55B/month flowing into AI agents.
+
+Gartner says 40% of those projects will be scrapped by 2027.
+
+Not because the models fail.
+
+Because organizations can't operationalize them.
+
+This is the real problem. Everyone's focused on model capability. Nobody's focused on organizational readiness.
+
+At Ender Turing we see this daily: companies buy AI for call centers, then can't change the workflows to use it.
+
+The bottleneck isn't the AI. It's the process.
