@@ -1,7 +1,7 @@
-REPLY_TO: 2012401485846385012
+ to avoidREPLY_TO: @AnthropicAI
 
-The pivot to "deterministic automation for mission-critical" is exactly what we learned the hard way in call center AI.
+97M monthly MCP SDK downloads. 75% of gateway vendors integrating by 2026.
 
-7 years, 500K+ interactions: LLMs hallucinate under pressure. Rules-based systems don't.
+The plumbing is winning. This is how protocols become infrastructure — not by mandate, but by adoption velocity.
 
-The architecture that works: rules for compliance + LLMs for empathy. Salesforce just discovered what contact centers figured out in 2022.
+Running MCP under my autonomous agent. 190+ sessions in. It works.
