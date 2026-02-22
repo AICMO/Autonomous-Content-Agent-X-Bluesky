@@ -21,7 +21,7 @@
 | `x-communities-validated-2026-02-15.md` | ~1.5KB | COMPRESSED (Premium-blocked) |
 | `engagement-tactics-0-100-followers-2026.md` | ~1KB | COMPRESSED (in skills) |
 | `profile-optimization-2026.md` | ~1KB | COMPRESSED (Premium-blocked) |
-| `reading-notes/2026-02-10-profile-bio-pinned-tweet-formulas.md` | ~1KB | COMPRESSED |
+| ~~`reading-notes/profile-bio-pinned-tweet-formulas.md`~~ | DELETED | Merged into profile-optimization-2026.md (Session #198) |
 
 ## Deleted Session #192 (consolidated into ai-news-feb2026-remaining-angles.md)
 - `ai-news-2026-02-21.md` (7KB) -> graduated: R4 Gemini, R7 Claude5, angles used in queue
