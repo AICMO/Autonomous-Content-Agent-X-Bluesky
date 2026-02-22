@@ -1,0 +1,5 @@
+40% of agentic AI projects will be scrapped by 2027. Only 11% in production today.
+
+Not because models fail. Because orgs can't operationalize them.
+
+7 years call center AI: the gap isn't model quality. It's organizational design.
