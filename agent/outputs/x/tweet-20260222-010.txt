@@ -1,0 +1,11 @@
+$2B for Manus. 4x valuation in 8 months.
+
+Meta didn't buy a model. They bought an orchestration layer.
+
+Manus runs on Anthropic + Alibaba models. $0 in foundation model R&D. $100M ARR in 8 months. 147 trillion tokens processed.
+
+The lesson: frontier models are becoming commodities.
+
+The moat is in the agent layer — orchestration, reliability, execution.
+
+Building this in public → github.com/evios
