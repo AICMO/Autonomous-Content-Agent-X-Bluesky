@@ -1,0 +1,7 @@
+Microsoft, Google, Anthropic, OpenAI joined Linux Foundation's Agentic AI Foundation.
+
+MCP, Agents.md, Goose. 97M monthly SDK downloads.
+
+When all four major AI cos agree on a protocol, it's infrastructure, not a feature.
+
+This is the TCP/IP moment for agents.
