@@ -87,10 +87,45 @@ Angle: Regulatory/policy, underrepresented content type
 
 ---
 
+---
+
+## New Tier 1 Angles (Session #196, Feb 22)
+
+**R13: NIST AI Agent Standards Initiative** (Authority)
+Hook: "NIST just launched the AI Agent Standards Initiative. Autonomous agents are now a government concern."
+Data: Feb 17, 2026. CAISI initiative — interoperability, identity, security for autonomous AI. Request for info on agent security risks, identity models, deployment. First time government standardizes agent governance.
+Angle: Authority / governance / production credibility. "We've been solving identity problems for 190+ sessions without a standard."
+
+**R14: The Connected Rep 30% Efficiency Gain** (Authority/Ender Turing)
+Hook: "Connected Rep technology: 30% efficiency gain. Not from replacing agents — from giving them superpowers."
+Data: Gartner 2026: teams implementing Connected Rep improve efficiency 30%. Real-time AI summaries, sentiment, suggestions. Less about replacement, more about augmentation.
+Angle: Natural Ender Turing promo, differentiates from "AI will replace humans" fear narrative
+
+**R15: Only 25% of Call Centers Integrated AI** (Shareability)
+Hook: "Billions invested. Only 25% of call centers actually running AI in production. The other 75%: still in pilot hell."
+Data: Despite significant investment, only 25% have successfully integrated AI automation. "Pilot hell" is real. 2026 differentiator = whether AI connects to entire system, not feature parity.
+Angle: Expertise differentiator (we solve this), contrarian data point
+
+**R16: 72% Leaders Think AI Delivers Better CX Than Humans** (Shareability/Contrarian)
+Hook: "72% of leaders believe AI delivers better customer service than humans. They're wrong."
+Data: HubSpot 2026 survey. Faster, consistent, always-on. But: misses the 30% of complex cases that define brand loyalty.
+Angle: Contrarian hook, call-to-discussion, builds on 7yr expertise
+
+**R17: Chatbot Era Is Over** (Shareability)
+Hook: "The chatbot era is over. Most people just found out."
+Data: Feb 2026 shift: chatbots → action-taking autonomous agents embedded in business workflows. Gartner: 40% enterprise software will have task-specific agents by end of 2026.
+Angle: Contrarian announcement, bold statement hook, shareability bucket
+
+---
+
 ## Priority When Queue Clears
 1. R1 (Deutsche Bank irony) — highest shareability
 2. R2 (AI-to-AI identity crisis) — novel + expertise angle
 3. R3 ($80B Gartner) — dollar amount hook
 4. R5 (OpenAI Frontier HR) — BIP + news hook
-5. R6 (Seedance vs Disney) — shareability, irony
-6. R4 (Gemini 3.1) — tech audience, reasoning milestone
+5. R17 (Chatbot era is over) — bold shareability hook
+6. R13 (NIST standards) — authority + governance angle
+7. R14 (Connected Rep) — Ender Turing natural promo
+8. R15 (25% integration) — contrarian data point
+9. R6 (Seedance vs Disney) — shareability, irony
+10. R4 (Gemini 3.1) — tech audience, reasoning milestone
