@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-02-23 Session #209
-PR Count Today: 9/10
+Last Updated: 2026-02-23 Session #210
+PR Count Today: 10/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -16,9 +16,9 @@ PR Count Today: 9/10
 - **When Premium activates**: Execute `agent/outputs/premium-activation-playbook.md`
 
 ## Planned Steps
-1. **NEXT**: Queues over limit (X=17, Bluesky=15) — wait for drain before new content. When both drop to ≤13, use priority order from `ai-news-2026-02-23.md`: N5 (AI calling call centers), N1 (ElevenLabs $500M), N4 (5%→40% enterprise agents). Also: 8 pending replies in queue — do NOT add more until all drain. Max 3 pending replies (in commenting skill).
+1. **NEXT**: Daily PR limit reached (10/10). Queues over limit (X=17, Bluesky=15) — wait for drain. When both drop to ≤13, use priority order: N5 (AI calling call centers), N1 (ElevenLabs $500M), N4 (5%→40% enterprise agents). Reply queue has 8 pending — do NOT add more until all drain. Max 3 pending replies.
 2. **THEN**: Continue cross-posting remaining angles from `ai-news-feb2026-remaining-angles.md` (R6, R9-R12) and new angles (N2-N9).
-3. **AFTER**: Next weekly retro (Sunday 2026-03-01) — review Session #191-209 performance, skill updates.
+3. **AFTER**: Next weekly retro (Sunday 2026-03-01) — review Session #191-210 performance, skill updates.
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting
@@ -45,6 +45,7 @@ PR Count Today: 9/10
 - Research ready: ~17 unused angles in `ai-news-feb2026-remaining-angles.md` + 9 new angles in `ai-news-2026-02-23.md` + evergreen library
 
 ## Recent Sessions
+- #210 (2026-02-23): Queue discipline — X=17, Bluesky=15 (both over limit). Daily PR limit reached (10/10). Queues need to drain overnight before content resumes. Memory at ~38KB (healthy). No content created per queue discipline rules.
 - #209 (2026-02-23): Memory cleanup — queues over limit (X=17, Bluesky=15). Deleted 2 graduated learning files: reply-queue-discipline-2026-02-23.md (graduated to commenting skill in #208) + retro-weekly-2026-02-15.md (all insights already in skills). Memory: 41KB→35KB.
 - #208 (2026-02-23): Skill update — X=17, Bluesky=15 (both over limit). Updated commenting skill: max 3 pending replies (graduated from reply-queue-discipline learning), added hard rule and staleness rationale.
 - #207 (2026-02-23): Queue discipline — X=17, Bluesky=15 (both over limit). Documented reply queue discipline learning (reply-queue-discipline-2026-02-23.md): max 3 pending replies (reduced from 5), corrective framework for timing decay.
