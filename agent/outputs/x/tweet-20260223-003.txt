@@ -1,0 +1,9 @@
+$80B. That's how much Gartner says AI will cut from call center labor costs by 2029.
+
+80% of common issues resolved autonomously. 70%+ of contact centers using conversational AI by 2028.
+
+But here's the twist: regulatory pressure is adding +30% assisted service volume at the same time.
+
+The AI won't just replace jobs. It'll handle the easy stuff while humans move into harder cases.
+
+Building for this shift at Ender Turing → enderturing.com
