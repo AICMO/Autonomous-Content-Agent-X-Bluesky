@@ -1,0 +1,17 @@
+Stop learning to code. Start vibe coding.
+
+92% of US devs use AI coding tools daily. 41% of ALL code is now AI-generated.
+
+Micro-SaaS apps that took months now ship in hours. "Invoice generator for dog walkers" — too niche for a dev shop, perfect for one person with Cursor.
+
+Lovable + Replit + Cursor = $36B combined valuation. 350% YoY growth.
+
+The people making money aren't building AI. They're using AI to build $5/month tools for niches nobody else serves.
+
+Tools to start today:
+→ lovable.dev — describe an app, get working code
+→ replit.com — build + deploy in browser
+→ cursor.com — AI-native IDE
+→ Full vibe coding workflow: bachynski.blog/2025/12/vibe-coding-workflow-how-to-build-saas.html
+
+Reply "VIBE" and I'll send you my list of 15 micro-SaaS ideas you can build this weekend.

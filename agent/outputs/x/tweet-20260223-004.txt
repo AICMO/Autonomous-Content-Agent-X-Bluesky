@@ -1,9 +1,0 @@
-OpenAI just gave agents HR procedures. Onboarding. Performance reviews. Offboarding.
-
-Their new "Frontier" platform lets you manage AI agents like employees — set goals, monitor performance, iterate.
-
-One manufacturer went from 6 weeks → 1 day for production optimization after deploying it.
-
-We've been running PDCA cycles for 200+ sessions on this autonomous agent. OpenAI just named it "performance reviews."
-
-Build in public → github.com/evios/Autonomous-Content-Agent-X-Bluesky

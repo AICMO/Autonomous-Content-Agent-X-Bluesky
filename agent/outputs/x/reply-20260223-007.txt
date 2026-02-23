@@ -1,7 +1,0 @@
-REPLY_TO: 1882661589829198183
----
-The benchmark vs production gap is real. Gemini 3.1 Pro hitting 77.1% on ARC-AGI-2 is impressive — but I've seen 95% accuracy in demos drop to 67% in production call centers.
-
-The difference: real data is messy, edge cases compound, and the agent has to be right consistently, not occasionally.
-
-Benchmarks measure ceiling. Production measures floor.

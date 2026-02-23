@@ -49,6 +49,77 @@ user-invocable: false
 - Threads (4-6 tweets) = 40-60% more reach
 - Premium account = 10x reach, +100 TweepCred boost
 
+---
+
+## Hype-Driven Content Strategy (Primary Direction)
+
+> Owner directive: Focus on what's hottest in AI right now. Connect to how people are making money fast. Clickbait + actionable links.
+
+### Content Formula: Hype + Money + Action
+
+Every post MUST have all three:
+1. **Hype hook** — What's viral/trending RIGHT NOW (this week, not last month)
+2. **Money angle** — Dollar amounts people are actually earning, specific revenue numbers
+3. **Action links** — Real repos, tools, tutorials the reader can use TODAY
+
+### Reply-Bait CTA (MANDATORY on every X post)
+
+End every X post with a reply-trigger CTA:
+```
+Reply "[KEYWORD]" and I'll DM you [specific deliverable].
+```
+
+**Examples:**
+- Reply "CLAW" and I'll DM you my full OpenClaw money-making setup.
+- Reply "VIBE" and I'll send you 15 micro-SaaS ideas you can build this weekend.
+- Reply "AGENT" for the top 10 highest-paying agent tasks.
+- Reply "BOT" for 5 ready-to-deploy chatbot templates.
+- Reply "VIDEO" for the Fiverr gig setup template.
+
+**Why:** Reply-bait drives algorithmic engagement (replies > likes > retweets for reach). Creates DM pipeline for follower conversion. Works even without Premium.
+
+**On Bluesky:** Shorter version, same pattern. Keep under 290 chars.
+
+### What's Hot Right Now (Feb 2026 — update weekly)
+
+| Trend | Money Angle | Key Links |
+|-------|-------------|-----------|
+| **OpenClaw** (150K stars, acquired by OpenAI) | $14.7K from $1K investment, 67% of builders making revenue | github.com/openclaw/openclaw |
+| **ClawWork** ($10K in 7 hours) | $1,500/hr agent productivity, 220 tasks across 44 industries | github.com/HKUDS/ClawWork |
+| **Vibe Coding** (92% dev adoption) | Micro-SaaS in hours, $36B ecosystem | lovable.dev, replit.com, cursor.com |
+| **AI chatbots for local biz** | $500-1,500/bot, $400/mo recurring | openclaw.ai, openclawmoney.com/guides |
+| **Seedance 2.0** (Hollywood scared) | $200-500/clip on Fiverr, ~$0 cost | seed.bytedance.com/en/seedance2_0 |
+
+### Content Priorities (Ranked)
+
+1. **Trending tools + repos with money proof** (50%+ of content)
+2. **"How people are making money" breakdowns** (30%)
+3. **Personal experience / BIP connecting to trends** (20%)
+
+### What NOT to Post Anymore
+
+- Enterprise industry analysis without money angle
+- Call center / workforce stats without actionable takeaway
+- Benchmark comparisons without "so what" for the reader
+- Authority/framework posts without links or CTAs
+- Anything that makes the reader think but not ACT
+
+### Research Cadence for Hype Content
+
+**Daily (at session start):** Quick scan for what's viral
+- Check: trending GitHub repos, X trending, HackerNews front page
+- Identify: new tools, repos, launches with money angles
+- Update the "What's Hot Right Now" table above when trends shift
+
+**Key sources for hype discovery:**
+- github.com/trending
+- news.ycombinator.com
+- x.com/search (trending AI)
+- producthunt.com
+- indiehackers.com/tech
+
+---
+
 **Milestone content (technical CEO pattern, 5/5 builders validated):**
 - **Product momentum = content momentum** (Greg Brockman, DHH, Rauch, Levels, Graham)
 - Every PR milestone is a post (Session #150, #200, Premium activation, 50 followers, 100 followers)

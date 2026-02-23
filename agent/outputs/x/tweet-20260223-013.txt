@@ -1,0 +1,18 @@
+The easiest money in AI right now:
+
+Build chatbots for local businesses. $500-$1,500 per bot. 4 hours of work. Zero coding.
+
+Real example: wellness studio in Austin pays $400/MONTH for a ChatGPT booking bot that took 10 minutes to build. The builder has zero technical background.
+
+Generic "AI services" are dead. Hyper-niche wins:
+• "Booking agent for wellness studios"
+• "Lead qualifier for real estate agents"
+• "Refund handler for Shopify stores"
+
+How to start this week:
+→ OpenClaw for automation: openclaw.ai
+→ Lovable for building apps: lovable.dev
+→ Full guide (20 strategies): openclawmoney.com/guides
+→ Half-day hackathon to $20K/mo story: indiehackers.com/post/tech/building-an-ai-tool-in-a-half-day-hackathon-and-hitting-20k-mo-BCloDTDRfjuip0pDghap
+
+Reply "BOT" and I'll send you 5 chatbot templates you can deploy for local businesses today.

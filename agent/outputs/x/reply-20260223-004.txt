@@ -1,9 +1,0 @@
-REPLY_TO: https://x.com/sama/status/2023150230905159801
----
-"AI agents interacting with each other" — we're already seeing this in call centers.
-
-Customers using AI tools to navigate IVRs, summarize issues, and escalate before a human agent ever picks up.
-
-Identity systems were designed for humans. The infrastructure assumption is wrong at the base layer.
-
-This is the actual deployment reality in 2026.

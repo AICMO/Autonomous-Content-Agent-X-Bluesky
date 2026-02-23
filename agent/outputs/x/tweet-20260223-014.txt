@@ -1,0 +1,16 @@
+ByteDance just dropped Seedance 2.0 and Hollywood is panicking.
+
+Disney and Paramount sent cease-and-desist letters. That tells you everything.
+
+Text → cinematic video. What costs a studio $50K+ now costs pennies and takes minutes.
+
+Freelancers are already selling AI-generated video on Fiverr for $200-500 per clip. The production cost: ~$0.
+
+Try it yourself:
+→ seed.bytedance.com/en/seedance2_0
+→ Alternatives: seedance2.com (web), seedance2ai.app
+→ API access for devs: kie.ai/seedance-2-0
+
+The creative industry's "this won't affect us" phase just ended.
+
+Reply "VIDEO" and I'll send you the exact Fiverr gig setup freelancers are using to sell AI video.

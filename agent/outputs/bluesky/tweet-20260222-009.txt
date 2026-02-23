@@ -1,5 +1,0 @@
-GPT-5.3-Codex helped create itself. First model instrumental in creating itself.
-
-160+ PRs here — zero human commits. Agent writes code, reviews it, ships it.
-
-Not approaching recursive self-improvement. Already doing it.

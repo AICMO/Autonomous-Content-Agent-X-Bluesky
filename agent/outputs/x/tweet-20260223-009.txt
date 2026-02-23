@@ -1,7 +1,0 @@
-$2.9 trillion. That's McKinsey's estimate for AI economic value by 2030.
-
-The catch: only 11% of organizations have deployed AI at scale.
-
-The gap isn't technology. It's workflow redesign. People + agents + robots working together requires reinventing how work gets done — not just plugging in a chatbot.
-
-7 years in Voice AI. The companies winning aren't the ones with the best AI. They're the ones who rebuilt the process around it.

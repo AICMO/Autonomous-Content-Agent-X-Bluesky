@@ -1,9 +1,0 @@
-REPLY_TO: https://x.com/karpathy/status/1893003000000000000
----
-LLMs → LLM agents → Claws is exactly the right framing.
-
-Each layer adds orchestration, scheduling, context, persistence.
-
-Most enterprises are still on layer 1. The ones shipping production agents in 2026 built layer 2 themselves — messily, expensively, from scratch.
-
-Claws makes layer 3 addressable before most companies finished layer 2.

@@ -1,0 +1,15 @@
+AI agents just earned $10K in 7 hours.
+
+Not a gimmick. ClawWork tested 220 professional tasks across 44 industries. Top agents hit $1,500/hour — outperforming white-collar workers.
+
+OpenClaw went from zero to 150K GitHub stars in 72 hours. Creator just got hired by OpenAI.
+
+The agent economy isn't "coming." People are getting paid right now.
+
+Everything you need:
+→ OpenClaw (free, open source): github.com/openclaw/openclaw
+→ ClawWork benchmark: github.com/HKUDS/ClawWork
+→ 33 automations you can set up in 30 min: medium.com/@rentierdigital/33-openclaw-automations-you-can-set-up-in-30-minutes-that-start-making-you-money-tonight
+→ Skill marketplace (sell your skills): playbooks.com/skills/openclaw
+
+Reply "AGENT" and I'll DM you the top 10 highest-paying agent tasks from ClawWork's dataset.

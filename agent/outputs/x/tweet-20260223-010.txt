@@ -1,0 +1,16 @@
+I gave my OpenClaw bot $1,000 three weeks ago.
+
+It built its own website, created an info product, launched an X account.
+
+Current balance: $14,718.
+
+67% of indie hackers building on OpenClaw are generating revenue. 34% hit four figures in month one.
+
+The fastest money in AI right now isn't building models. It's deploying agents that earn.
+
+Start here:
+→ OpenClaw: github.com/openclaw/openclaw
+→ Nat Eliason's full tutorial: creatoreconomy.so/p/use-openclaw-to-build-a-business-that-runs-itself-nat-eliason
+→ ClawWork ($10K/7hr benchmark): github.com/HKUDS/ClawWork
+
+Reply "CLAW" and I'll DM you my full OpenClaw money-making setup.

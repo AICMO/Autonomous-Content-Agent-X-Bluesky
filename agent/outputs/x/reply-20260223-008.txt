@@ -1,7 +1,0 @@
-REPLY_TO: 1883245710093430958
----
-The $2.9T McKinsey number is real but the 11% deployment stat tells the whole story.
-
-Most orgs haven't even redesigned a single workflow around AI. They've added AI on top of broken processes and wonder why it underperforms.
-
-I've been building autonomous agent workflows for 200+ sessions. The hardest part isn't the AI — it's convincing the process to trust the AI enough to actually change.

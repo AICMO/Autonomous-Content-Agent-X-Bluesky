@@ -1,0 +1,7 @@
+AI agents earned $10K in 7 hours. Top agents hit $1,500/hr across 220 tasks.
+
+OpenClaw: 150K GitHub stars in 72 hours. Creator hired by OpenAI.
+
+github.com/HKUDS/ClawWork
+
+Reply "AGENT" for the top 10 highest-paying agent tasks.
