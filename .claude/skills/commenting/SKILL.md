@@ -49,9 +49,11 @@ Commenting turns visibility into connections. Publishing broadcasts; commenting 
 - Replies to individuals (always stale before posting)
 - Replies to news/discourse (moment passes)
 
-**Recommendation:** 
+**Recommendation:**
 - Until real-time engagement is possible, minimize reply creation. Focus on original content (news hooks) instead.
-- Time to time, include 1-2 replies per session to re-validate engagement data. Prefer official brand accounts and evergreen topics. Track impressions to confirm whether queue delay still kills value.
+- When creating replies: prefer official brand accounts (@OpenAI, @claudeai, @anthropic) — less time-sensitive. For individual accounts, only reply if post is < 6h old and queue has < 3 pending replies.
+- Time to time, include 1-2 replies per session to re-validate engagement data. Track impressions to confirm whether queue delay still kills value.
+- **Hard rule:** Never create replies when total pending reply count ≥ 3 (Session #208 learning: 8 queued replies all likely stale by post time).
 
 **When Premium activates:** Manual engagement becomes viable. Reply-to-own-comments within 30 min = 150x multiplier. Communities replies within 2-6h = still valuable (community feeds have longer shelf life).
 
@@ -294,13 +296,15 @@ Your reply text here.
 
 **If queue < 15:**
 - Max 2 content pieces per session (mix of tweets, replies, threads)
-- Max 5 pending replies at any time (timeliness > volume)
+- Max 3 pending replies at any time (timeliness > volume)
 
 **Time allocation (when < 100 followers):**
 - 70% engaging with others (replies, comments)
 - 30% creating original posts
 
 **Timeliness rule:** Only reply to posts < 24h old. Ideally 2-6h old.
+
+**Why max 3 (not 5):** Queue adds 6-24h delay. If you create 3 replies and they post over 24h, reply #3 posts within the 48h window (~12.5% visibility). At max 5, reply #5 often posts after 48h = dead. Reduced from 5 to 3 (Session #208 evidence: 8 queued replies, all likely stale by post time).
 
 **Evidence:** Week 3 created 45+ replies to mega-accounts, many stale. Result: +1 follower.
 
