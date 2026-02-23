@@ -1,0 +1,7 @@
+REPLY_TO: 2024801530134892560
+---
+The MCP course is particularly worth it right now.
+
+MCP just became a cross-company standard (Linux Foundation backed). Anthropic, OpenAI, Google all aligned.
+
+Building on protocols that all major AI labs agree on = building on infrastructure, not just a vendor's API.

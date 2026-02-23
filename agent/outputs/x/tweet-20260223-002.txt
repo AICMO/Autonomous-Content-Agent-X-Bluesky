@@ -1,0 +1,9 @@
+AI agents are calling your call center.
+
+Not a bot. An AI acting on behalf of a real person — navigating IVR, negotiating debt, comparing prices.
+
+Your identity systems were built for humans.
+
+This is a new attack surface nobody's talking about.
+
+(7 years building Voice AI. I've never seen this coming this fast.)
