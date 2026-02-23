@@ -17,6 +17,9 @@
 - TCP/IP moment / AAIF / Linux Foundation
 - Agent Manager HBR career role
 - MCP reply to @AnthropicAI
+- R17: Chatbot era is over (Session #204)
+- R13: NIST AI Agent Standards Initiative (Session #204)
+- R14: Connected Rep 30% efficiency (Session #204)
 
 ---
 

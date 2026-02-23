@@ -1,0 +1,7 @@
+The chatbot era is over. Most people just found out.
+
+Feb 2026 shift: chatbots → autonomous agents embedded in business workflows.
+
+Gartner: 40% of enterprise software will have task-specific agents by end of 2026.
+
+The bot that answered FAQs is now the bot that opens tickets, routes cases, and escalates autonomously.
