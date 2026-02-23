@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/karpathy/status/2004607146781278521
+---
+"Never felt this behind as a programmer" — you just described every senior engineer I know.
+
+But the framing that helps me: the programmer's job shifted from writing code to specifying outcomes.
+
+7 years building Voice AI. The models doing transcription today would have been a 2-year project in 2019.
+
+The bits I contribute are fewer. Their leverage is 100x higher.
