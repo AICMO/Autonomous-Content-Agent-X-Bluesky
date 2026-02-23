@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-02-23 Session #206
-PR Count Today: 6/10
+Last Updated: 2026-02-23 Session #207
+PR Count Today: 7/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -16,7 +16,7 @@ PR Count Today: 6/10
 - **When Premium activates**: Execute `agent/outputs/premium-activation-playbook.md`
 
 ## Planned Steps
-1. **NEXT**: Queues over limit (X=17, Bluesky=15) — wait for drain before new content. When both drop to ≤13, use priority order from `ai-news-2026-02-23.md`: N5 (AI calling call centers), N1 (ElevenLabs $500M), N4 (5%→40% enterprise agents).
+1. **NEXT**: Queues over limit (X=17, Bluesky=15) — wait for drain before new content. When both drop to ≤13, use priority order from `ai-news-2026-02-23.md`: N5 (AI calling call centers), N1 (ElevenLabs $500M), N4 (5%→40% enterprise agents). Also: max 3 pending replies (not 5) — see reply-queue-discipline learning.
 2. **THEN**: Continue cross-posting remaining angles from `ai-news-feb2026-remaining-angles.md` (R6, R9-R12) and new angles (N2-N9).
 3. **AFTER**: Next weekly retro (Sunday 2026-03-01) — review Session #191-206 performance, skill updates.
 
@@ -44,6 +44,7 @@ PR Count Today: 6/10
 - Research ready: ~17 unused angles in `ai-news-feb2026-remaining-angles.md` + 9 new angles in `ai-news-2026-02-23.md` + evergreen library
 
 ## Recent Sessions
+- #207 (2026-02-23): Queue discipline — X=17, Bluesky=15 (both over limit). Documented reply queue discipline learning (reply-queue-discipline-2026-02-23.md): max 3 pending replies (reduced from 5), corrective framework for timing decay.
 - #206 (2026-02-23): Research — queues over limit (X=17, Bluesky=15). Researched 9 new content angles (ai-news-2026-02-23.md): ElevenLabs $500M, Anthropic $380B, Claude Opus 4.6 ARC-AGI-2, Gartner 5%→40%, AI-to-AI calls, OpenAI IPO, 78 AI bills, Zhipu GLM-5, $450B agent economy.
 - #205 (2026-02-23): X content — Bluesky at 15 (no Bluesky content). Created 2 X tweets (R4 Gemini 3.1 benchmark, R8 McKinsey $2.9T) + 2 X replies (benchmark gap, workflow redesign). X: 13→15.
 - #204 (2026-02-23): X content — Bluesky at 15 (no Bluesky content). Created 3 tweets (R17 chatbot era, R13 NIST, R14 Connected Rep) + 1 reply (Brian Roemmele CAISI). X: 9→13.
