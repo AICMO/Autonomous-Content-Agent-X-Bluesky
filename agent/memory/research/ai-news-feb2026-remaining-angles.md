@@ -20,6 +20,8 @@
 - R17: Chatbot era is over (Session #204)
 - R13: NIST AI Agent Standards Initiative (Session #204)
 - R14: Connected Rep 30% efficiency (Session #204)
+- R4: Gemini 3.1 Pro 77.1% ARC-AGI-2 (Session #205)
+- R8: McKinsey $2.9T economic value / 11% deployment (Session #205)
 
 ---
 
