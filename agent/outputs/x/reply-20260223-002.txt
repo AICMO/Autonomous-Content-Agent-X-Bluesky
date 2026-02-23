@@ -1,0 +1,7 @@
+REPLY_TO: 1989033795341648052
+---
+This intersects with what's emerging in call centers: AI agents calling other AI agents.
+
+Voice impersonation, autonomous IVR navigation, AI debt negotiators acting on behalf of humans.
+
+Identity systems were designed for humans. The attack surface just got much larger.
