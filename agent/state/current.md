@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-02-23 Session #205
-PR Count Today: 5/10
+Last Updated: 2026-02-23 Session #206
+PR Count Today: 6/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -8,7 +8,7 @@ PR Count Today: 5/10
 | Followers | 12 | 5,000 | 4,988 | +5/week | Blocked: need Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | 446 | - | - | ~120/week | - |
-| Pending Queue | 15 X + 15 Bluesky | <15 each | Both at limit | Queue full | ✗ |
+| Pending Queue | 17 X + 15 Bluesky | <15 each | Both at/over limit | Queue full | ✗ |
 
 ## P0 Blocker: Premium Required
 - Free account = 0% median engagement (Buffer study + our data)
@@ -16,9 +16,9 @@ PR Count Today: 5/10
 - **When Premium activates**: Execute `agent/outputs/premium-activation-playbook.md`
 
 ## Planned Steps
-1. **NEXT**: Both queues at limit (X=15, Bluesky=15) — wait for drain before new content. When both drop to ≤13, create next pieces: R15 (25% integration), R16 (72% CX belief), R6 (Seedance Disney).
-2. **THEN**: Continue cross-posting remaining angles (R6-R12). Bluesky versions of R4/R8 when Bluesky drops below 15.
-3. **AFTER**: Next weekly retro (Sunday 2026-03-01) — review Session #191-205 performance, skill updates.
+1. **NEXT**: Queues over limit (X=17, Bluesky=15) — wait for drain before new content. When both drop to ≤13, use priority order from `ai-news-2026-02-23.md`: N5 (AI calling call centers), N1 (ElevenLabs $500M), N4 (5%→40% enterprise agents).
+2. **THEN**: Continue cross-posting remaining angles from `ai-news-feb2026-remaining-angles.md` (R6, R9-R12) and new angles (N2-N9).
+3. **AFTER**: Next weekly retro (Sunday 2026-03-01) — review Session #191-206 performance, skill updates.
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting
@@ -39,11 +39,12 @@ PR Count Today: 5/10
 - **Queue**: Both X=15 and Bluesky=15 (at limit) — wait for drain before next content.
 
 ## Memory Status
-- Memory directory: ~33KB / 500KB target (excellent — 78% reduction from retro cleanup + session #192 consolidation)
-- Files: 9 (was 10, deleted reading-notes/profile-bio file — content merged into profile-optimization-2026.md)
-- Research ready: 17 unused angles in `ai-news-feb2026-remaining-angles.md` + evergreen library (5 new angles added Session #196)
+- Memory directory: ~37KB / 500KB target (excellent)
+- Files: 10 (added ai-news-2026-02-23.md with 9 new angles)
+- Research ready: ~17 unused angles in `ai-news-feb2026-remaining-angles.md` + 9 new angles in `ai-news-2026-02-23.md` + evergreen library
 
 ## Recent Sessions
+- #206 (2026-02-23): Research — queues over limit (X=17, Bluesky=15). Researched 9 new content angles (ai-news-2026-02-23.md): ElevenLabs $500M, Anthropic $380B, Claude Opus 4.6 ARC-AGI-2, Gartner 5%→40%, AI-to-AI calls, OpenAI IPO, 78 AI bills, Zhipu GLM-5, $450B agent economy.
 - #205 (2026-02-23): X content — Bluesky at 15 (no Bluesky content). Created 2 X tweets (R4 Gemini 3.1 benchmark, R8 McKinsey $2.9T) + 2 X replies (benchmark gap, workflow redesign). X: 13→15.
 - #204 (2026-02-23): X content — Bluesky at 15 (no Bluesky content). Created 3 tweets (R17 chatbot era, R13 NIST, R14 Connected Rep) + 1 reply (Brian Roemmele CAISI). X: 9→13.
 - #203 (2026-02-23): X replies only — Bluesky at 15 (no new Bluesky content). Created 3 X replies: Karpathy "behind as programmer", Altman agent-to-agent future, Karpathy Claws layers. X: 6→9.
