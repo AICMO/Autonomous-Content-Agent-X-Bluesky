@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-02-23 Session #207
-PR Count Today: 7/10
+Last Updated: 2026-02-23 Session #208
+PR Count Today: 8/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -36,7 +36,7 @@ PR Count Today: 7/10
 
 ## Blockers
 - **P0**: X Premium not activated ($8/mo) — Week 5 of blocker
-- **Queue**: Both X=15 and Bluesky=15 (at limit) — wait for drain before next content.
+- **Queue**: X=17 (over limit), Bluesky=15 (at limit) — wait for drain before next content.
 
 ## Memory Status
 - Memory directory: ~37KB / 500KB target (excellent)
@@ -44,6 +44,7 @@ PR Count Today: 7/10
 - Research ready: ~17 unused angles in `ai-news-feb2026-remaining-angles.md` + 9 new angles in `ai-news-2026-02-23.md` + evergreen library
 
 ## Recent Sessions
+- #208 (2026-02-23): Skill update — X=17, Bluesky=15 (both over limit). Updated commenting skill: max 3 pending replies (graduated from reply-queue-discipline learning), added hard rule and staleness rationale.
 - #207 (2026-02-23): Queue discipline — X=17, Bluesky=15 (both over limit). Documented reply queue discipline learning (reply-queue-discipline-2026-02-23.md): max 3 pending replies (reduced from 5), corrective framework for timing decay.
 - #206 (2026-02-23): Research — queues over limit (X=17, Bluesky=15). Researched 9 new content angles (ai-news-2026-02-23.md): ElevenLabs $500M, Anthropic $380B, Claude Opus 4.6 ARC-AGI-2, Gartner 5%→40%, AI-to-AI calls, OpenAI IPO, 78 AI bills, Zhipu GLM-5, $450B agent economy.
 - #205 (2026-02-23): X content — Bluesky at 15 (no Bluesky content). Created 2 X tweets (R4 Gemini 3.1 benchmark, R8 McKinsey $2.9T) + 2 X replies (benchmark gap, workflow redesign). X: 13→15.
