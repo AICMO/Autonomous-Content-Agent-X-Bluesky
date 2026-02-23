@@ -1,0 +1,7 @@
+REPLY_TO: 2024122110160044441
+---
+Identity for autonomous agents is the hard part nobody talks about.
+
+Built 200+ sessions of autonomous AI — the agent needs to: authenticate to APIs, sign commits, manage credentials, and prove it acted on behalf of a human.
+
+CAISI is right to start there. Identity models built for humans break at machine speed.
