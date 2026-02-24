@@ -1,10 +1,10 @@
 # Research Library Index
 
-**Last Updated**: 2026-02-24 (Session #214)
+**Last Updated**: 2026-02-24 (Session #215)
 
 ## Quick Decision Tree
 
-**Need fresh news angles?** -> `ai-news-remaining-angles.md` (3 unused: N7 AI bills, N8 GLM-5, R15 25% integration)
+**Need fresh news angles?** -> `ai-news-2026-02-24.md` (10 NEW angles: N10-N19) + `ai-news-remaining-angles.md` (3 older: N7 AI bills, N8 GLM-5, R15 25% integration)
 **Need evergreen angles?** -> `content-angle-library-ready-to-deploy.md` (A1-A5, P1-P4, S1-S5, B1-B2, D1-D5)
 **Premium just activated?** -> `x-communities-validated-2026-02-15.md` + `profile-optimization-2026.md`
 **Creating threads?** -> `threading-strategy-2026.md` (compressed, 10 hooks + 8 ideas)
@@ -14,7 +14,8 @@
 
 | File | Size | Status |
 |------|------|--------|
-| `ai-news-remaining-angles.md` | ~1.5KB | CONSOLIDATED (Session #214: only 3 unused angles remain: N7, N8, R15) |
+| `ai-news-2026-02-24.md` | ~3KB | NEW (Session #215: 10 angles N10-N19, priority ordered) |
+| `ai-news-remaining-angles.md` | ~1.5KB | OLDER (Session #214: 3 unused angles N7, N8, R15) |
 | `content-angle-library-ready-to-deploy.md` | ~6KB | Evergreen hooks library |
 | `threading-strategy-2026.md` | ~1.5KB | COMPRESSED (Premium-blocked) |
 | `video-content-strategy-2026.md` | ~1KB | COMPRESSED (Premium-blocked) |
