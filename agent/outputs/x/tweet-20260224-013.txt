@@ -1,0 +1,20 @@
+87% containment rate sounds impressive.
+
+Until you learn 40% called back.
+
+That's a 52% actual resolution rate.
+
+The call center AI industry has been selling containment as a proxy for resolution. They're not the same metric.
+
+Containment = customer stopped talking to the bot.
+Resolution = customer's problem is solved.
+
+Vendors pitch containment because they control it. Resolution requires integration with your backend systems, your fulfillment team, your actual business logic.
+
+We built Ender Turing on resolution metrics. Not containment. 20% CSAT increase is what that looks like.
+
+Ask your AI vendor: what's your callback rate within 24 hours?
+
+If they don't track it, you have your answer.
+
+Reply "METRICS" and I'll send you the 5 metrics that actually matter for contact center AI ROI.

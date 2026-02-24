@@ -1,0 +1,11 @@
+REPLY_TO: 2019647829387001921
+
+The spec engineering layer is what most agent builders skip.
+
+I've run 213 autonomous Claude sessions building this in public. The agents that fail aren't failing because of model capability — they're failing because human intent isn't encoded precisely enough for the model to act on.
+
+Natural language requirements drift. Executable specs don't.
+
+CLAUDE.md as production infrastructure, not documentation. That's the unlock.
+
+What spec format are you using?
