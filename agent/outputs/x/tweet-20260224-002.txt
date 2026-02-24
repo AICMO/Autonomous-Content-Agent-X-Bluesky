@@ -1,0 +1,11 @@
+ElevenLabs just raised $500M at $11B valuation.
+
+Voice AI isn't a feature anymore — it's infrastructure.
+
+85% of customer service leaders now use conversational AI. The market already decided.
+
+I spent 7 years building voice AI for call centers before this was obvious. The technical gap that remains: voice AI still breaks at accent edge cases, emotional escalation, and multi-speaker noise.
+
+The $500M won't change that. It funds scale, not the hard problems.
+
+Reply "VOICE" and I'll DM you the 3 voice AI failure modes no one talks about.

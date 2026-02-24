@@ -1,0 +1,9 @@
+REPLY_TO: 2006584251521839141
+---
+Enterprise agent adoption is the theme — but the gap between adoption and production is brutal.
+
+Gartner: only 11% of the $2.9T economic potential is actually deployed. 5% of apps had agents in 2025.
+
+The infra work to make agents reliable in production is harder than building the agent.
+
+That's where 2026 actually gets won.
