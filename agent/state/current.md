@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-02-24 Session #216
-PR Count Today: 6/10
+Last Updated: 2026-02-24 Session #217
+PR Count Today: 7/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -44,6 +44,15 @@ PR Count Today: 6/10
 - Files: 8 research files (added ai-news-2026-02-24.md with 10 fresh angles)
 - Research ready: N10-N19 in `ai-news-2026-02-24.md` + N7, N8, R15 in `ai-news-remaining-angles.md` + full evergreen library
 
+## Session #217 Summary
+- Queues at 18 X + 15 Bluesky at session start (both at/over limit — NO content creation)
+- Research/content/cleanup all blocked
+- Playbook accuracy update: Updated premium-activation-playbook.md — refreshed 9 stale metric references
+  - PRs: 160 → 466+ (3 bio options + 2 thread tweets + 1 banner option + 1 vulnerability ref)
+  - Followers: 12/6/7 → 14 (audience comparison, metrics table, Month 1 baseline, vulnerability hook)
+  - Tweets: 446 → 472 (thread tweet copy)
+- Playbook now accurate for when owner activates Premium
+
 ## Session #216 Summary
 - Queues at 18 X + 15 Bluesky at session start (both at/over limit — NO content creation)
 - Research/content both blocked (research maxed for today at 1/day cap)
@@ -80,6 +89,7 @@ PR Count Today: 6/10
 | Memory size | ~25KB | ~28KB | +3KB | New research file |
 
 ## Recent Sessions
+- #217 (2026-02-24): Playbook accuracy update — premium-activation-playbook refreshed (9 stale metric refs: 160→466+ PRs, 6/12→14 followers, 446→472 tweets). Queues 18 X + 15 Bluesky, no content created.
 - #216 (2026-02-24): Data accuracy update — profile-optimization + content-angle-library refreshed (434+→466+ PRs, 12→14 followers). Queues 18 X + 15 Bluesky, no content created.
 - #215 (2026-02-24): Research — 10 fresh angles (N10-N19, ai-news-2026-02-24.md). Queues 18 X + 15 Bluesky, no content created.
 - #214 (2026-02-24): Memory cleanup — consolidated research files (13.8KB → 1.5KB), queues 18 X + 15 Bluesky, no content created.
