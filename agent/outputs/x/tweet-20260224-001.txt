@@ -1,0 +1,9 @@
+AI agents are now calling your call center. Not a bot — an AI customer, acting on behalf of a real person.
+
+Negotiating debt. Comparing prices. Navigating IVR.
+
+I've spent 7 years building voice AI for call centers. We never planned for this.
+
+The identity systems weren't built for AI patterns. Neither were the fraud models.
+
+Reply "AGENT" and I'll DM you the top 5 risks of AI-to-AI in contact centers.

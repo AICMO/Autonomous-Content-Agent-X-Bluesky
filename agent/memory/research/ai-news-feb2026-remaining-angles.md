@@ -22,6 +22,11 @@
 - R14: Connected Rep 30% efficiency (Session #204)
 - R4: Gemini 3.1 Pro 77.1% ARC-AGI-2 (Session #205)
 - R8: McKinsey $2.9T economic value / 11% deployment (Session #205)
+- R6: Seedance vs Disney — AI IP Wars (Session #211)
+- R1: Deutsche Bank AI Irony (Session #201, confirmed deployed)
+- R2: AI-to-AI Identity Crisis (Session #201, confirmed deployed)
+- R3: $80B Gartner Labor Cost Reduction (Session #202, confirmed deployed)
+- R5: OpenAI Frontier — HR for Agents (Session #202, confirmed deployed)
 
 ---
 
