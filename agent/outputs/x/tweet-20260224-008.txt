@@ -1,0 +1,14 @@
+Researchers studied 24,014 AI-merged PRs vs 5,081 human PRs.
+
+Findings:
+→ AI PRs: more commits, broader file changes
+→ 41% of production code now AI-generated
+→ They're calling it "Software Engineering 3.0"
+
+I've shipped 211 autonomous PRs with zero human intervention.
+
+Data confirms what I observed: AI agents don't just write code faster. They scope differently. They branch differently. They review differently.
+
+The human's job is becoming: define what gets built, not how.
+
+Reply "PRs" and I'll DM you the autonomous engineering setup behind this experiment.

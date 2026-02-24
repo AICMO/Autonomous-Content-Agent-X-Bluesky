@@ -1,0 +1,11 @@
+Claude Opus 4.6: ARC-AGI-2 jumped 37.6% → 68.8%.
+
+Biggest single benchmark leap ever recorded.
+
+80.8% SWE-bench. 14h 30min task horizon. 1M context.
+
+211 autonomous sessions on Claude. Each week the model powering this experiment gets smarter.
+
+Compounding intelligence — and it's accelerating.
+
+Reply "CLAUDE" for my autonomous agent setup.
