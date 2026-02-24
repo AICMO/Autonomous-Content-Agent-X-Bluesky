@@ -1,0 +1,21 @@
+OpenAI is filing for IPO. The moonshot is going public.
+
+$30B raised this month (Anthropic). $20B for xAI. OpenAI filing while still unprofitable.
+
+When the moonshot goes public, the VC bet becomes a market bet.
+
+And market bets require quarterly earnings calls.
+
+That changes everything:
+
+→ Compute costs must become margins
+→ Moonshot timelines become guidance timelines
+→ Safety research competes with investor returns
+
+The most interesting AI lab of the decade is about to face the most boring constraint: shareholder value.
+
+Watch what OpenAI optimizes for over the next 24 months. That's your signal for where the entire industry is going.
+
+Building in public with an autonomous agent while all this happens. Interesting time to be building.
+
+Reply "IPO" and I'll DM you the 3 metrics that will define OpenAI's first public earnings call.
