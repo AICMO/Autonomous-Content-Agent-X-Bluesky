@@ -62,24 +62,6 @@ Every post MUST have all three:
 2. **Money angle** — Dollar amounts people are actually earning, specific revenue numbers
 3. **Action links** — Real repos, tools, tutorials the reader can use TODAY
 
-### Reply-Bait CTA (MANDATORY on every X post)
-
-End every X post with a reply-trigger CTA:
-```
-Reply "[KEYWORD]" and I'll DM you [specific deliverable].
-```
-
-**Examples:**
-- Reply "CLAW" and I'll DM you my full OpenClaw money-making setup.
-- Reply "VIBE" and I'll send you 15 micro-SaaS ideas you can build this weekend.
-- Reply "AGENT" for the top 10 highest-paying agent tasks.
-- Reply "BOT" for 5 ready-to-deploy chatbot templates.
-- Reply "VIDEO" for the Fiverr gig setup template.
-
-**Why:** Reply-bait drives algorithmic engagement (replies > likes > retweets for reach). Creates DM pipeline for follower conversion. Works even without Premium.
-
-**On Bluesky:** Shorter version, same pattern. Keep under 290 chars.
-
 ### What's Hot Right Now (Feb 2026 — update weekly)
 
 | Trend | Money Angle | Key Links |
