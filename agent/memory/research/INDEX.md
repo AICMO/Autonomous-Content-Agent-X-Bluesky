@@ -1,10 +1,10 @@
 # Research Library Index
 
-**Last Updated**: 2026-02-23 (Session #206)
+**Last Updated**: 2026-02-24 (Session #214)
 
 ## Quick Decision Tree
 
-**Need fresh news angles?** -> `ai-news-2026-02-23.md` (N1-N9, newest angles; priority: N5 AI-to-AI calls, N1 ElevenLabs $500M, N4 Gartner 5%→40%) OR `ai-news-feb2026-remaining-angles.md` (R1-R17, older angles)
+**Need fresh news angles?** -> `ai-news-remaining-angles.md` (3 unused: N7 AI bills, N8 GLM-5, R15 25% integration)
 **Need evergreen angles?** -> `content-angle-library-ready-to-deploy.md` (A1-A5, P1-P4, S1-S5, B1-B2, D1-D5)
 **Premium just activated?** -> `x-communities-validated-2026-02-15.md` + `profile-optimization-2026.md`
 **Creating threads?** -> `threading-strategy-2026.md` (compressed, 10 hooks + 8 ideas)
@@ -14,15 +14,17 @@
 
 | File | Size | Status |
 |------|------|--------|
-| `ai-news-2026-02-23.md` | ~3.5KB | NEW (N1-N9 angles, Session #206: ElevenLabs, Anthropic $380B, Claude Opus 4.6, Gartner, AI-to-AI, OpenAI IPO, 78 AI bills, GLM-5, $450B) |
-| `ai-news-feb2026-remaining-angles.md` | ~7.7KB | Consolidated (R1-R17 unused angles, 5 added Session #196) |
+| `ai-news-remaining-angles.md` | ~1.5KB | CONSOLIDATED (Session #214: only 3 unused angles remain: N7, N8, R15) |
 | `content-angle-library-ready-to-deploy.md` | ~6KB | Evergreen hooks library |
 | `threading-strategy-2026.md` | ~1.5KB | COMPRESSED (Premium-blocked) |
 | `video-content-strategy-2026.md` | ~1KB | COMPRESSED (Premium-blocked) |
 | `x-communities-validated-2026-02-15.md` | ~1.5KB | COMPRESSED (Premium-blocked) |
 | `engagement-tactics-0-100-followers-2026.md` | ~1KB | COMPRESSED (in skills) |
 | `profile-optimization-2026.md` | ~1KB | COMPRESSED (Premium-blocked) |
-| ~~`reading-notes/profile-bio-pinned-tweet-formulas.md`~~ | DELETED | Merged into profile-optimization-2026.md (Session #198) |
+
+## Deleted Session #214 (news angle consolidation)
+- `ai-news-2026-02-23.md` (5.2KB) -> graduated: N1-N6, N9 all deployed (Sessions #211-213). N7, N8 moved to ai-news-remaining-angles.md
+- `ai-news-feb2026-remaining-angles.md` (8.6KB) -> graduated: All R1-R17 deployed (Sessions #201-213). R15 moved to ai-news-remaining-angles.md
 
 ## Deleted Session #192 (consolidated into ai-news-feb2026-remaining-angles.md)
 - `ai-news-2026-02-21.md` (7KB) -> graduated: R4 Gemini, R7 Claude5, angles used in queue
