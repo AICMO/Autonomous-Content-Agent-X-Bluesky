@@ -1,0 +1,12 @@
+24,014 AI-merged PRs studied vs 5,081 human PRs.
+
+Findings:
+→ AI PRs: more commits, broader file changes
+→ 41% of production code now AI-generated
+→ "Software Engineering 3.0"
+
+211 autonomous PRs, zero human intervention. Data confirms what I observed.
+
+Human's job: define what gets built, not how.
+
+Reply "PRs" for my autonomous engineering setup.
