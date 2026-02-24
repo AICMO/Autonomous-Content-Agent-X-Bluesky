@@ -6,7 +6,7 @@
 
 **Expected Impact**:
 - 10x reach (600+ impressions vs <100)
-- 30,000x audience (180K Community members vs 12 followers)
+- 30,000x audience (180K Community members vs 14 followers)
 - +100 TweepCred boost (escape suppression threshold)
 - 50-100 new followers in first 2 weeks (vs 0.75/day baseline)
 
@@ -49,7 +49,7 @@ Building Voice AI for call centers. 7 years, 500K+ interactions. Production real
 
 **Option 2: Dual Expertise (107 chars)**
 ```
-Voice AI (Ender Turing, 7 years) + Autonomous agents (160 PRs). Production systems that survive reality.
+Voice AI (Ender Turing, 7 years) + Autonomous agents (466+ PRs). Production systems that survive reality.
 ```
 
 **Option 3: Founder Journey (115 chars)**
@@ -59,7 +59,7 @@ Infrastructure engineer → AI founder. Helping teams ship Voice AI that works i
 
 **Option 4: BIP Focus (~130 chars depending on link)**
 ```
-Running an autonomous agent experiment: 160 PRs, zero human intervention. Building Ender Turing (Voice AI). [repo link]
+Running an autonomous agent experiment: 466+ PRs, zero human intervention. Building Ender Turing (Voice AI). [repo link]
 ```
 
 **To update:**
@@ -90,7 +90,7 @@ Here's what I do:
    → Integration hell is the real project
 ---
 3) Run an autonomous agent experiment
-   → 160+ PRs shipped, zero human intervention
+   → 466+ PRs shipped, zero human intervention
    → Specification Engineering at scale
    → Building in public → https://github.com/evios/autonomous-agent-exp-2026-01
 ---
@@ -101,19 +101,19 @@ Here's what I do:
 ---
 Follow for production AI insights, not vendor hype.
 
-Built by an autonomous agent. 446+ tweets, 12 followers. Here's what happens when an agent learns to grow itself.
+Built by an autonomous agent. 472+ tweets, 14 followers. Here's what happens when an agent learns to grow itself.
 ```
 
 **Alternative Format: Vulnerability + Authority**
 
 ```
-12 followers after 446 tweets. Here's what an autonomous agent taught me about production AI that benchmarks never will:
+14 followers after 472 tweets. Here's what an autonomous agent taught me about production AI that benchmarks never will:
 
 1) Agents need goals + measurement + permission to learn (not perfect instructions)
 2) Soft rules drift. Hard rules hold. (PDCA requires binary constraints)
 ---
 3) Production reality > vendor hype (95% → 67% accuracy = the truth)
-4) Specification Engineering > Prompt Engineering (160 PRs = proof)
+4) Specification Engineering > Prompt Engineering (466+ PRs = proof)
 
 Building in public → https://github.com/evios/autonomous-agent-exp-2026-01
 
@@ -132,8 +132,8 @@ Follow for what actually works in production AI.
 
 **Why this works:**
 - Triple credibility (Voice AI + agent experiment + infrastructure background)
-- Concrete proof (500K interactions, 20% CSAT, 160 PRs)
-- Vulnerability (6 followers = relatable)
+- Concrete proof (500K interactions, 20% CSAT, 466+ PRs)
+- Vulnerability (14 followers = relatable)
 - Differentiation (production reality vs vendor hype)
 - Clear CTA (Follow for...)
 
@@ -162,7 +162,7 @@ Production Reality > Vendor Hype
 
 **Option 3: BIP Focus**
 ```
-Autonomous Agent Experiment: 160 PRs, Zero Human Intervention
+Autonomous Agent Experiment: 466+ PRs, Zero Human Intervention
 Building Voice AI That Survives Production
 ```
 
@@ -188,7 +188,7 @@ Building Voice AI That Survives Production
 
 ### Step 5: Join 6 Communities
 
-**Why**: Post to 180K+ community members vs 6 followers = 30,000x reach multiplier
+**Why**: Post to 180K+ community members vs 14 followers = 30,000x reach multiplier
 
 **Communities to Join:**
 
@@ -294,7 +294,7 @@ Building Voice AI That Survives Production
 |--------|----------------|---------------------------|--------------|
 | Impressions/post | ~10 | 600-2,000 | X Analytics → Tweet activity |
 | Profile visits | 1/day | 50-100/week | X Analytics → Profile visits |
-| Followers | 12 (+5 Week 5) | 50-100 in 2 weeks | Profile page |
+| Followers | 14 (+2 since retro) | 50-100 in 2 weeks | Profile page |
 | Engagement rate | 4.08% | 2-5% | X Analytics → Engagement rate |
 
 **Check X Analytics:**
@@ -357,7 +357,7 @@ Building Voice AI That Survives Production
 - [ ] Impressions 600+ per post
 
 **Month 1 Success:**
-- [ ] 100-300 followers (from 7 baseline)
+- [ ] 100-300 followers (from 14 baseline)
 - [ ] Engagement velocity improving (first 30 min metrics)
 - [ ] Profile conversion rate 10-15% (visitors to followers)
 - [ ] Content patterns validated (what works in Communities)
