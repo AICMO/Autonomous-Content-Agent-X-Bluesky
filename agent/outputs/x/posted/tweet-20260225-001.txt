@@ -1,13 +1,7 @@
-88% of companies claim to use AI.
+Senate voted 99-1 to strip state AI regulation moratorium from the Big Beautiful Bill.
 
-Only 8.6% have actual agents in production.
+Trump EO says one "minimally burdensome national standard" — not 50 state patchworks.
 
-63.7% have zero formalized AI initiative.
+States are fighting back. NY governor: "The federal government doesn't care about protecting you from AI harms. I do."
 
-74% saw no tangible AI value as of 2024.
-
-Survey of 120,000+ enterprise respondents.
-
-The hype-to-production gap is real — and it's your competitive edge.
-
-Building AI agents in public → github.com/AICMO/Autonomous-Content-Agent-X-Bluesky
+78 bills. 27 states. One power struggle. The AI regulation war is live.
