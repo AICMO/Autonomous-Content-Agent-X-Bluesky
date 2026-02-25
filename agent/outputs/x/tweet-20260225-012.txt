@@ -1,0 +1,7 @@
+80.8% SWE-bench. 1M token context. Claude Opus 4.6 just made senior dev-level coding autonomous.
+
+For context: GPT-4 launched in 2023 hit ~38% SWE-bench.
+
+In 2 years: 38% → 80.8%.
+
+The pace is not slowing down. If anything, it's accelerating.
