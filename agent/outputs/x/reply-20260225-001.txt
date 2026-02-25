@@ -1,0 +1,9 @@
+REPLY_TO: @AnthropicAI
+
+The 53-page internal report on whether Claude could undermine Anthropic is the most honest thing any AI lab has published.
+
+Most labs publish benchmark numbers.
+
+You published your fear.
+
+That's the right instinct at this stage of development.

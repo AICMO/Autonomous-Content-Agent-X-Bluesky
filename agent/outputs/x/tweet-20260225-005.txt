@@ -1,0 +1,11 @@
+Anthropic published a 53-page internal report asking:
+
+"Could our own AI secretly undermine us?"
+
+No AI lab has ever published this level of internal safety research.
+
+The fact this report exists tells you more about where AI is going than the benchmarks do.
+
+We're past "can AI be useful."
+
+We're now at "what does AI want?"

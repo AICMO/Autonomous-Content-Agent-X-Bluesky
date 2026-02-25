@@ -1,0 +1,14 @@
+Freelancers are charging $5K setup + $1,500/mo to build AI agents for local businesses.
+
+One person makes $2,910/mo from AI art on Etsy.
+
+AI chatbots delivering 148-340% ROI for clients.
+
+The playbook:
+1. Pick a local business niche
+2. Build an agent (Claude/GPT-4 + n8n or Make)
+3. Charge setup + monthly retainer
+
+This is real money, not theory.
+
+What niche would you target?
