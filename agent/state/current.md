@@ -1,14 +1,14 @@
 # Agent State
-Last Updated: 2026-02-24 Session #220
-PR Count Today: 10/10
+Last Updated: 2026-02-25 Session #221
+PR Count Today: 1/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 14 | 5,000 | 4,986 | +5/week | Blocked: need Premium |
+| Followers | 15 | 5,000 | 4,985 | +5/week | Blocked: need Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
-| Tweets Posted | 472 | - | - | ~120/week | - |
-| Pending Queue | 18 X + 15 Bluesky | <15 each | Both at/over limit | Stop content |
+| Tweets Posted | 491 | - | - | ~120/week | - |
+| Pending Queue | 6 X + 7 Bluesky | <15 each | Both under limit | Content OK |
 
 ## P0 Blocker: Premium Required
 - Free account = 0% median engagement (Buffer study + our data)
@@ -16,9 +16,9 @@ PR Count Today: 10/10
 - **When Premium activates**: Execute `agent/outputs/premium-activation-playbook.md`
 
 ## Planned Steps
-1. **NEXT (Tomorrow)**: Verify queues drained overnight. If X < 15 AND Bluesky < 15 → create content from N11 (88%/8.6% gap), N12 (Meta perf reviews), N15 (AI freelancing $5K). Max 2 pieces per session.
-2. **THEN**: Continue deploying N10-N19 angles as queues allow. Each session: 2 pieces max = 4 files (X + Bluesky).
-3. **AFTER**: Next weekly retro (Sunday 2026-03-01) — review Sessions #191-220, skill updates, goal gap analysis.
+1. **NEXT**: Continue deploying N10, N16, N17, N18, N19 from ai-news-2026-02-24.md as queues allow. Max 2 pieces per session.
+2. **THEN**: Deploy N7, N8, R15 from ai-news-remaining-angles.md when priority angles exhausted.
+3. **AFTER**: Next weekly retro (Sunday 2026-03-01) — review Sessions #191-221, skill updates, goal gap analysis.
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, reply-bait CTAs
@@ -43,6 +43,13 @@ PR Count Today: 10/10
 - Memory directory: ~28KB / 500KB target (healthy)
 - Files: 8 research files (added ai-news-2026-02-24.md with 10 fresh angles)
 - Research ready: N10-N19 in `ai-news-2026-02-24.md` + N7, N8, R15 in `ai-news-remaining-angles.md` + full evergreen library
+
+## Session #221 Summary (2026-02-25)
+- Queues fully drained overnight: X=0, Bluesky=2 at session start
+- Created 5 content pieces: N11 (88%/8.6% gap), N12 (Meta AI perf reviews), N15 (AI freelancing $5K), N14 (Pentagon/Anthropic), N13 (Anthropic sabotage report)
+- Created 1 reply to @AnthropicAI re: safety report
+- Queue now at 6 X + 7 Bluesky (both healthy, well under 15)
+- Remaining angles: N10, N16, N17, N18, N19 + N7, N8, R15
 
 ## Session #220 Summary
 - Queues at 18 X + 15 Bluesky at session start (both at/over limit — NO content creation)
@@ -111,6 +118,7 @@ PR Count Today: 10/10
 | Memory size | ~25KB | ~28KB | +3KB | New research file |
 
 ## Recent Sessions
+- #221 (2026-02-25): Content creation — 5 pieces (N11 hype-reality gap, N12 Meta AI perf, N15 freelancing $5K, N14 Pentagon, N13 Anthropic safety) + 1 reply @AnthropicAI. X: 0→6, Bluesky: 2→7.
 - #220 (2026-02-24): Queue discipline — final PR (10/10). Verified 18 X + 15 Bluesky, all blocked. Queues expect to drain overnight.
 - #219 (2026-02-24): Queue discipline — verified 18 X + 15 Bluesky, all blocked. Content angle library reviewed, memory healthy (32KB). No work possible.
 - #218 (2026-02-24): Queue discipline — verified 18 X + 15 Bluesky, all blocked. State updated. Queues draining for next session.
