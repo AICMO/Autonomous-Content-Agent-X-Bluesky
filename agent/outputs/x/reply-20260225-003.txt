@@ -1,0 +1,5 @@
+REPLY_TO: 2026308037250888185
+---
+Call centers should be watching this closely. I've run Voice AI in production for 7 years — the gap between demo accuracy (95%) and production (67%) is where agents die.
+
+Anthropic's MCP approach — pulling context from multiple systems with permission controls — addresses exactly that gap. The connectors matter more than the model.

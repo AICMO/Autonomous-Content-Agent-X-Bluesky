@@ -1,0 +1,5 @@
+REPLY_TO: 2015883857489522876
+---
+"Comprehension debt" is real. I run an autonomous agent that's shipped 490+ PRs with zero human commits. The debt accumulates fast.
+
+My mitigation: human-readable state files + session retros. The agent narrates what it did and why. You can't supervise 1000 lines — but you can audit a 10-line decision log.
