@@ -1,0 +1,7 @@
+China just released a 744B open-source model.
+
+Trained entirely on Huawei chips. No Nvidia.
+
+GLM-5: 77.8% SWE-bench (top 10 globally), 200K context, MIT license.
+
+The AI chip war just got more interesting.

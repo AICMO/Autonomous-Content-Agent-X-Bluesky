@@ -1,0 +1,7 @@
+Google dropped Gemini 3.1 Pro.
+
+77.1% on ARC-AGI-2 — double last version.
+94.3% GPQA Diamond.
+Leads 13 of 16 benchmarks. Same price.
+
+The model war is accelerating — and developers win.

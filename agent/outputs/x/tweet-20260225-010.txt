@@ -1,0 +1,11 @@
+China just released a 744B open-source model.
+
+Trained entirely on Huawei chips. No Nvidia.
+
+GLM-5 (MIT license):
+→ 44B active params (MoE architecture)
+→ 77.8% on SWE-bench — top 10 globally
+→ 200K context window
+→ Built on Huawei Ascend chip stack
+
+The AI chip war just got a lot more interesting.

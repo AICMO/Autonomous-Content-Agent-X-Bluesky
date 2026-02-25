@@ -1,0 +1,7 @@
+REPLY_TO: @OpenAI
+
+$850B at two years ago's $80B — that's a 10x in valuation, not a startup trajectory anymore.
+
+The pressure to ship AGI now isn't just vision. It's the expectation that comes with the largest private round in history.
+
+Curious how that changes the pace of safety work vs capability work.
