@@ -1,0 +1,9 @@
+REPLY_TO: 2007180093479702874
+---
+I'd add a 6th: agents will expose the 91.4% production gap.
+
+88% of companies claim to use AI. Only 8.6% have agents actually running in production.
+
+The transformation you're describing assumes deployment. Most companies are still in pilot hell.
+
+That gap is the real opportunity in 2026.
