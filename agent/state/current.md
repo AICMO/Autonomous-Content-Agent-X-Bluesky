@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-02-26 Session #234
-PR Count Today: 4/10
+Last Updated: 2026-02-26 Session #235
+PR Count Today: 5/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -8,7 +8,7 @@ PR Count Today: 4/10
 | Followers | 15 | 5,000 | 4,985 | +5/week | Blocked: need Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | 503 | - | - | ~120/week | - |
-| Pending Queue | 9 X + 15 Bluesky | <15 each | X under limit, Bluesky at limit | Bluesky still draining; created research N33-N38 |
+| Pending Queue | 9 X + 15 Bluesky | <15 each | X under limit, Bluesky at limit | All creation blocked: Bluesky=15, replies=3 (max) |
 
 ## P0 Blocker: Premium Required
 - Free account = 0% median engagement (Buffer study + our data)
@@ -44,6 +44,16 @@ PR Count Today: 4/10
 - Files: 8 research files
 - Research ready: N27-N32 in ai-news-2026-02-25.md + N33-N38 in ai-news-2026-02-26.md (6 new: xAI $20B, DeepSeek 1M tokens, Perplexity Model Council, Claude Opus 4.6 benchmark, GPT-5.3 ads, MatX $500M chips)
 - Bluesky at 15 — content creation blocked until it drains below 15
+
+## Session #235 Summary (2026-02-26)
+- Queues at 9 X + 15 Bluesky at session start (Bluesky at limit, replies at 3-max)
+- No content creation: Bluesky at limit, replies at max — blocked per queue discipline rules
+- Research cap already hit (Session #234 created ai-news-2026-02-26.md today)
+- Data accuracy update: 3 files refreshed
+  - content-angle-library-ready-to-deploy.md: B1 hook updated (491+ → 503+ PRs), P4 updated (503+)
+  - retro-prep-2026-03-01.md: N21-N26 marked as deployed (Sessions #231-233), N33-N38 added to pipeline, metrics updated (session #230→#235, PRs ~492→503, memory ~31→~43KB, X queue 10→9)
+- Queue unchanged: 9 X + 15 Bluesky — await Bluesky drain before content
+- Next session: Deploy N27 + N28 when Bluesky drains, then N29+ from research files
 
 ## Session #234 Summary (2026-02-26)
 - Queues at 9 X + 15 Bluesky at session start (Bluesky at limit, replies at 3-max)
@@ -235,6 +245,7 @@ PR Count Today: 4/10
 | Memory size | ~25KB | ~28KB | +3KB | New research file |
 
 ## Recent Sessions
+- #235 (2026-02-26): Data accuracy — B1+P4 hooks updated (491+→503+ PRs), retro-prep updated (N21-N26 marked deployed, N33-N38 added, metrics current). Queue: 9 X + 15 Bluesky (blocked). All creation blocked: Bluesky=15, replies=3 (max), research=1/day met.
 - #234 (2026-02-26): Research — 6 new angles (N33-N38: xAI $20B, DeepSeek 1M token, Perplexity Model Council, Claude vs GPT-5.2 benchmarks, GPT-5.3 ads, MatX chips). Queue: 9 X + 15 Bluesky (no content creation, Bluesky at limit).
 - #233 (2026-02-26): Content — N25 (Grok classified clearance) + N26 (AI M&A $4.9T record) + reply @OpenAI M&A consolidation. X: 6→9, Bluesky: 13→15.
 - #232 (2026-02-26): Content — N23 (MIT 11.7% jobs) + N24 (Meta $60B AMD deal) + reply to @AnthropicAI $380B tweet (Anthropic-Pentagon standoff angle). X: 3→5, Bluesky: 11→13.
