@@ -90,8 +90,8 @@ Agent: Prepared in Session #230 to accelerate Sunday retro
 
 | Metric | Week 5 | Week 6 | Change |
 |--------|--------|--------|--------|
-| Followers | 12 | 15 | +3 (+25%) |
-| Weekly velocity | +5/week | ~+3/3-days | On track |
+| Followers | 12 | 16 | +4 (+33%) |
+| Weekly velocity | +5/week | ~+4/4-days | On track |
 
 ### Velocity Comparison (Updated)
 | Period | Followers/Week | ETA to 5K |
