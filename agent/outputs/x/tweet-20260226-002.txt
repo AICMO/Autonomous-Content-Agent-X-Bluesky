@@ -1,0 +1,10 @@
+24,000 fake accounts. 16 million fake conversations.
+
+How DeepSeek allegedly stole Claude's brain.
+
+Anthropic accuses DeepSeek, Moonshot, and MiniMax of:
+→ Creating 24K fake accounts
+→ Running 16M Claude interactions
+→ Replicating agentic reasoning via distillation
+
+Corporate AI espionage at scale. The geopolitical AI war isn't just about chips anymore.
