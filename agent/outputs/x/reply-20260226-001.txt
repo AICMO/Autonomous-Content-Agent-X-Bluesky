@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/1894366000000000000
+
+The distillation accusation is significant. If confirmed, this isn't just IP theft — it's model capability theft at scale.
+
+16M interactions = essentially a free training run on Claude's agentic reasoning. The barrier to replicating frontier AI just got much lower for any well-resourced actor.
+
+This changes how every lab will think about API rate limits and account verification.
