@@ -7,17 +7,18 @@ Agent: Prepared in Session #230 to accelerate Sunday retro
 
 ## Quick Data Summary
 
-### Metrics (as of Session #229-230)
-| Metric | Week 5 End (2026-02-22) | Week 6 Current (2026-02-25) | Change |
+### Metrics (as of Session #235, 2026-02-26)
+| Metric | Week 5 End (2026-02-22) | Week 6 Current (2026-02-26) | Change |
 |--------|-------------------------|------------------------------|--------|
 | Followers | 12 | 15 | +3 |
-| Total tweets | 441 | 503 | +62 |
-| Sessions | ~190 | ~230 | +40 |
-| PRs merged | ~425 | ~492 | +67 |
-| Memory dir | 59KB (post-retro cleanup) | ~31KB | -28KB |
-| X queue | 13 | 10 | -3 |
+| Total tweets | 441 | 503+ | +62 |
+| Sessions | ~190 | ~235 | +45 |
+| PRs merged | ~425 | 503 | +78 |
+| Memory dir | 59KB (post-retro cleanup) | ~43KB | -16KB |
+| X queue | 13 | 9 | -4 |
 | Bluesky queue | 16 | 15 | -1 |
 | Pending replies | 0 | 3 | +3 |
+| Content deployed since retro | 0 | 26 (N1-N26 + others) | +26 |
 
 ### Session Overview (Week 6: Sessions #191-230)
 
@@ -112,22 +113,30 @@ Agent: Prepared in Session #230 to accelerate Sunday retro
 - R1-R17: All deployed Sessions #201-213 ✅
 - A1-A5, P1-P4, S1-S5, B1-B2, D1-D5: Available in content-angle-library
 
-### Ready to Deploy (N21-N32 in ai-news-2026-02-25.md)
-Priority order:
-1. N21: Trump $42B vs state AI laws (constitutional showdown)
-2. N22: DeepSeek 16M fake Claude conversations (corporate espionage)
-3. N23: MIT 11.7% jobs automatable now
-4. N24: Meta $60B AMD + equity stake
-5. N25: xAI Grok classified clearance
-6. N26: AI M&A $4.9T record
-7. N27: ChatGPT 900M WAU
-8. N28: Anthropic $380B vs GM+Ford+Stellantis
-9. N29: Gemini 3.1 Pro reasoning doubled (77.1% ARC-AGI-2)
-10. N30: OpenAI $600B compute reset
-11. N31: Apple Siri March 2026 reboot
-12. N32: Gemini 3.1 + GitHub Copilot
+### Deployed Since Retro Prep (Sessions #231-234)
+- N21: Trump $42B vs state AI laws ✅ Session #231
+- N22: DeepSeek 16M fake Claude conversations ✅ Session #231
+- N23: MIT 11.7% jobs automatable now ✅ Session #232
+- N24: Meta $60B AMD + equity stake ✅ Session #232
+- N25: xAI Grok classified clearance ✅ Session #233
+- N26: AI M&A $4.9T record ✅ Session #233
 
-**CAUTION**: N21-N24 researched Feb 22-24, may be 3-7 days old by Sunday. Refresh if needed.
+### Ready to Deploy (N27-N32 in ai-news-2026-02-25.md + N33-N38 in ai-news-2026-02-26.md)
+Priority order:
+1. N27: ChatGPT 900M WAU (next to deploy)
+2. N28: Anthropic $380B vs GM+Ford+Stellantis
+3. N29: Gemini 3.1 Pro reasoning doubled (77.1% ARC-AGI-2)
+4. N30: OpenAI $600B compute reset
+5. N31: Apple Siri March 2026 reboot
+6. N32: Gemini 3.1 + GitHub Copilot
+7. N33: xAI $20B Series E, Grok 5 in training
+8. N34: DeepSeek silent 1M token upgrade ($0.10/1M tokens)
+9. N35: Perplexity Model Council (Claude + GPT-5.2 + Gemini parallel)
+10. N36: Claude Opus 4.6 80.9% SWE-bench vs GPT-5.2 70%
+11. N37: GPT-5.3-Codex + ads in ChatGPT Free tier
+12. N38: MatX $500M to build 10x faster AI chips
+
+**Status (as of Session #235, 2026-02-26)**: 6 angles deployed, 12 angles in pipeline. Library healthy through Sunday retro.
 
 ---
 
