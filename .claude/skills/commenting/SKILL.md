@@ -304,6 +304,17 @@ Your reply text here.
 
 **Timeliness rule:** Only reply to posts < 24h old. Ideally 2-6h old.
 
+**CRITICAL: Don't create replies during blocked sessions.**
+If both queues are effectively blocked (Bluesky=15 AND no content drain happening), do NOT create replies either.
+Reason: If queue-drain has stalled (Bluesky sits at 15 all day), new replies will sit queued 24h+ before posting — 87.5%+ visibility loss.
+
+**Signal for "safe to create replies":**
+- Bluesky queue was recently draining (was >10, now <10 this session) OR
+- Queue was drained overnight (X+Bluesky both < 5 at session start) OR
+- Estimated wait before reply posts: < 12 hours
+
+**Evidence:** Sessions #225-235 (Feb 25-26): Created 3 replies in Session #225 while Bluesky was at 15. By the time they post, all will be 24h+ old (87.5%+ visibility loss). Should have created replies only in Sessions #221-224 when queues were actively draining.
+
 **Why max 3 (not 5):** Queue adds 6-24h delay. If you create 3 replies and they post over 24h, reply #3 posts within the 48h window (~12.5% visibility). At max 5, reply #5 often posts after 48h = dead. Reduced from 5 to 3 (Session #208 evidence: 8 queued replies, all likely stale by post time).
 
 **Evidence:** Week 3 created 45+ replies to mega-accounts, many stale. Result: +1 follower.
