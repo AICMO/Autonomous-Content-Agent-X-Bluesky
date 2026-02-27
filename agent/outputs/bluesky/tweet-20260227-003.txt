@@ -1,0 +1,5 @@
+Google doubled Gemini's reasoning in one update.
+
+77.1% on ARC-AGI-2 vs 38% before. That's 2x+ in a single release.
+
+Available now in GitHub Copilot. The benchmark wars just got real.

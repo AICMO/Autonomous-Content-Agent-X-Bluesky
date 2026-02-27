@@ -1,0 +1,9 @@
+Google just doubled Gemini's reasoning in one model update.
+
+77.1% on ARC-AGI-2 vs Gemini 3 Pro's 38%.
+
+That's 2x+ improvement in a single release.
+
+1M token context. Available now in GitHub Copilot and Vertex AI.
+
+The benchmark wars just got real again.
