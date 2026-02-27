@@ -1,0 +1,11 @@
+DeepSeek silently upgraded from 128K to 1 million tokens.
+
+No announcement. No press release. No blog post.
+
+Just did it.
+
+8x context increase. >60% accuracy maintained at 1M tokens. Projected pricing: $0.10/1M input tokens.
+
+That's 50x cheaper than GPT-5.2.
+
+The quiet ones are the dangerous ones.
