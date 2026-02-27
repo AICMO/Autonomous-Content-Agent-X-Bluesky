@@ -1,0 +1,5 @@
+Gemini 3.1 Pro is now inside GitHub Copilot.
+
+Every developer's default IDE has Google's best model.
+
+JetBrains: 15% better than Gemini 3 Pro. The AI coding wars went mainstream.

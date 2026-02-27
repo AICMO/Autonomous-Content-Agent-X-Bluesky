@@ -1,0 +1,7 @@
+Gemini 3.1 Pro is now inside GitHub Copilot.
+
+Every developer's default IDE now has Google's most capable model.
+
+JetBrains: 15% improvement over Gemini 3 Pro Preview.
+
+The AI coding wars just went mainstream. VS Code, Android Studio, Vertex AI — Google is everywhere.
