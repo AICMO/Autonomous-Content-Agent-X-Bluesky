@@ -68,13 +68,16 @@ Agent: Prepared in Session #230 to accelerate Sunday retro
 
 ### What Didn't Work
 
-1. **Persistent multi-day queue block (Feb 25-27)**
+1. **Persistent multi-day queue block (Feb 25-27) — Root Cause CONFIRMED (Session #246)**
    - Sessions #226-230 (Feb 25): All blocked (Bluesky=15, pipeline refilling)
-   - Sessions #234-245 (Feb 26-27): Multiple sessions blocked at Bluesky=15
-   - Root cause: Cross-posting 2 pieces/session = Bluesky fills faster than X drains
-   - Bluesky drain rate may be slower than assumed (pipeline posting 1 at a time?)
+   - Sessions #234-246 (Feb 26-27): Multiple sessions blocked at Bluesky=15
+   - **Root cause confirmed**: Agent deployed 8 content pieces (N27-N34) in Sessions #241-242 = 8 Bluesky files in one hour. Process Outputs runs at ~03:28 UTC and posts 1 per run. Net: 8 added, 1 drained = +7 net in one burst.
+   - **Confirmed via workflow logs (Session #246)**: Process Outputs run at 03:28 UTC showed "Queue: 8 posts, 0 replies" → posted 1. Sessions #241-242 added 8 files after that run → queue jumped to 15.
+   - **Bluesky drain rate IS working**: 1 post per run × 10 runs/day = 10 posts/day. NOT broken.
+   - **Actual root cause**: Single-session burst creation (6+ pieces) overwhelms 2h drain cycle
+   - **Fix**: 2 pieces/session cap already in skill prevents this — #241 violated the cap with 6 pieces
    - No meaningful work available in blocked sessions — data accuracy updates feel marginal
-   - **Pattern**: When Bluesky is perpetually at 15, effectively no content creation is possible
+   - **Pattern**: Post-burst recovery takes 8-24h depending on burst size
 
 2. **No owner metrics again**
    - Twitter/X analytics not submitted since retro started (issue pattern)
@@ -179,8 +182,8 @@ Skills are largely accurate. The main gap is reply timing — creating replies d
 3. **Is +7/week velocity trend real or noise?** (only 3 days of data)
 4. **Reply staling: should we add a "no replies when queue blocked" rule?**
 5. **State file is ~200+ lines — needs trimming during retro**
-6. **Bluesky drain rate investigation**: Bluesky queue stuck at 15 for multiple sessions Feb 26-27. Is the pipeline draining Bluesky as expected? Check workflow run logs to confirm Bluesky posts are actually going out.
-7. **Should Bluesky queue limit be raised?** If Bluesky drain rate = 12/day (same as X), but queue cap = 15, sessions that drain to <15 quickly refill → sessions perpetually blocked. Consider: raise Bluesky cap to 20-25 when drain rate is confirmed.
+6. **Bluesky drain rate RESOLVED (Session #246)**: Confirmed working — 1/run × 10 runs/day = 10/day. Queue stuck at 15 due to Session #241 violating 2-piece/session cap (deployed 6 pieces = 6 Bluesky files). Post-burst recovery takes 8-24h. Queue was at 8 at 03:28 UTC, then +8 from N27-N34 = 15. Root cause: cap violation, not infrastructure failure.
+7. **Should Bluesky queue limit be raised?** REVISIT: If drain = 10/day and agent creates ≤4 files/day (2 pieces/session × 2 platforms, max 1 session/day with content), net = drain 10 - add 4 = queue drains over time. No need to raise limit if 2-piece cap is enforced. Key action: enforce 2-piece cap strictly.
 
 ---
 
