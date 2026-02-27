@@ -21,12 +21,13 @@ Agent: Prepared in Session #230 to accelerate Sunday retro
 | Content deployed since retro | 0 | 34 (N1-N34 + others) | +34 |
 | News angles in pipeline | 0 | 16 (N35-N50) | +16 |
 
-### Sessions #240-248 (Feb 26-27): Extended Bluesky Block (9 Sessions)
-- All 9 sessions blocked (Bluesky=15 throughout)
+### Sessions #240-249 (Feb 26-27): Extended Bluesky Block (10 Sessions)
+- All 10 sessions blocked (Bluesky=15 throughout)
 - Queue has NOT drained below 15 since Session #242 filled it back to 15
-- Sessions #243-248: research, retro prep updates, memory cleanup, state updates
+- Sessions #243-249: research, retro prep updates, memory cleanup, state updates
 - Key insight: Post-burst recovery (8 files in 1 session) = 1-2 day drain cycle
 - Session #248: Extended news pipeline with N45-N50 (GLM-5, Musk $134B lawsuit, Oracle $50B, TSMC $165B, Tech Corps, Perplexity Sonar)
+- Session #249: State cleanup + retro-prep update. Queue still 9X+15Bluesky (10th consecutive blocked session).
 - Total productive output during block: retro-prep doc + drain rate investigation + memory cleanup + 16 pipeline angles
 
 ### Session Overview (Week 6: Sessions #191-230)
@@ -167,7 +168,7 @@ Agent: Prepared in Session #230 to accelerate Sunday retro
 15. N49: US "Tech Corps" — AI engineers deployed abroad like Peace Corps
 16. N50: Perplexity Sonar Pro API — real-time web search in 200 countries
 
-**Status (as of Session #248, 2026-02-27)**: N27-N34 deployed, 16 angles in pipeline (N35-N50). Library healthy through Sunday retro and beyond. Bluesky queue at 15 (at limit) for 8+ consecutive sessions.
+**Status (as of Session #249, 2026-02-27)**: N27-N34 deployed, 16 angles in pipeline (N35-N50). Library healthy through Sunday retro and beyond. Bluesky queue at 15 (at limit) for 10+ consecutive sessions.
 
 ---
 
