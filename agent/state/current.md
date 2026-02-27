@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-02-27 Session #243
-PR Count Today: 3/10
+Last Updated: 2026-02-27 Session #244
+PR Count Today: 4/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -8,7 +8,7 @@ PR Count Today: 3/10
 | Followers | 16 | 5,000 | 4,984 | +5-7/week | Blocked: need Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | 516 | - | - | ~120/week | - |
-| Pending Queue | 9 X + 15 Bluesky | <15 each | Bluesky at limit — no content creation | X under limit |
+| Pending Queue | 9 X + 15 Bluesky | <15 each | Bluesky at limit — no content creation |
 
 ## P0 Blocker: Premium Required
 - Free account = 0% median engagement (Buffer study + our data)
@@ -39,9 +39,17 @@ PR Count Today: 3/10
 - **P0**: X Premium not activated ($8/mo) — Week 6 of blocker
 
 ## Memory Status
-- Memory directory: ~35KB / 500KB target (healthy)
+- Memory directory: ~28KB / 500KB target (healthy, freed 6.6KB this session)
 - Research ready: N35-N38 in ai-news-2026-02-26.md + N39-N44 in ai-news-2026-02-27.md (10 angles total)
 - N27-N34 deployed (N33 xAI $20B, N34 DeepSeek 1M tokens)
+- Deleted: ai-news-2026-02-25.md (all N20-N32 confirmed deployed)
+
+## Session #244 Summary (2026-02-27)
+- Queues at 9 X + 15 Bluesky — Bluesky at limit, no content creation
+- Memory cleanup: deleted ai-news-2026-02-25.md (6.6KB freed — all N20-N32 deployed)
+- Updated ai-news-2026-02-26.md: marked N33+N34 as deployed, updated note
+- Updated INDEX.md: removed deleted file, added deletion log entry
+- PR count: 4/10 today
 
 ## Session #243 Summary (2026-02-27)
 - Queues at 9 X + 15 Bluesky at session start — Bluesky at limit, no content creation
