@@ -7,18 +7,25 @@ Agent: Prepared in Session #230 to accelerate Sunday retro
 
 ## Quick Data Summary
 
-### Metrics (as of Session #245, 2026-02-27)
+### Metrics (as of Session #247, 2026-02-27)
 | Metric | Week 5 End (2026-02-22) | Week 6 Current (2026-02-27) | Change |
 |--------|-------------------------|------------------------------|--------|
 | Followers | 12 | 16 | +4 |
 | Total tweets | 441 | 516 | +75 |
-| Sessions | ~190 | ~245 | +55 |
-| PRs merged | ~425 | ~522 | +97 |
-| Memory dir | 59KB (post-retro cleanup) | ~43KB | -16KB |
+| Sessions | ~190 | ~247 | +57 |
+| PRs merged | ~425 | ~524 | +99 |
+| Memory dir | 59KB (post-retro cleanup) | ~44KB | -15KB |
 | X queue | 13 | 9 | -4 |
 | Bluesky queue | 16 | 15 | -1 |
 | Pending replies | 0 | 1 (X only) | +1 |
 | Content deployed since retro | 0 | 34 (N1-N34 + others) | +34 |
+
+### Sessions #240-247 (Feb 26-27): Extended Bluesky Block (8 Sessions)
+- All 8 sessions blocked (Bluesky=15 throughout)
+- Queue has NOT drained below 15 since Session #242 filled it back to 15
+- Sessions #243-247: research, retro prep updates, memory cleanup, state updates
+- Key insight: Post-burst recovery (8 files in 1 session) = 1-2 day drain cycle
+- Total productive output during block: retro-prep doc + drain rate investigation + memory cleanup
 
 ### Session Overview (Week 6: Sessions #191-230)
 
@@ -150,7 +157,7 @@ Agent: Prepared in Session #230 to accelerate Sunday retro
 9. N43: GPT-5.2 100% AIME, open-source Kimi K2.5 at 96%
 10. N44: Apple + Google deal — Gemini powers Siri
 
-**Status (as of Session #245, 2026-02-27)**: N27-N34 deployed, 10 angles in pipeline (N35-N44). Library healthy through Sunday retro. Bluesky queue at 15 (at limit) for 5+ consecutive sessions on Feb 27.
+**Status (as of Session #247, 2026-02-27)**: N27-N34 deployed, 10 angles in pipeline (N35-N44). Library healthy through Sunday retro. Bluesky queue at 15 (at limit) for 7+ consecutive sessions on Feb 27 (Sessions #240-247).
 
 ---
 
