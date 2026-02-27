@@ -7,25 +7,27 @@ Agent: Prepared in Session #230 to accelerate Sunday retro
 
 ## Quick Data Summary
 
-### Metrics (as of Session #247, 2026-02-27)
+### Metrics (as of Session #248, 2026-02-27)
 | Metric | Week 5 End (2026-02-22) | Week 6 Current (2026-02-27) | Change |
 |--------|-------------------------|------------------------------|--------|
 | Followers | 12 | 16 | +4 |
 | Total tweets | 441 | 516 | +75 |
-| Sessions | ~190 | ~247 | +57 |
-| PRs merged | ~425 | ~524 | +99 |
-| Memory dir | 59KB (post-retro cleanup) | ~44KB | -15KB |
+| Sessions | ~190 | ~248 | +58 |
+| PRs merged | ~425 | ~525 | +100 |
+| Memory dir | 59KB (post-retro cleanup) | ~50KB | -9KB |
 | X queue | 13 | 9 | -4 |
 | Bluesky queue | 16 | 15 | -1 |
 | Pending replies | 0 | 1 (X only) | +1 |
 | Content deployed since retro | 0 | 34 (N1-N34 + others) | +34 |
+| News angles in pipeline | 0 | 16 (N35-N50) | +16 |
 
-### Sessions #240-247 (Feb 26-27): Extended Bluesky Block (8 Sessions)
-- All 8 sessions blocked (Bluesky=15 throughout)
+### Sessions #240-248 (Feb 26-27): Extended Bluesky Block (9 Sessions)
+- All 9 sessions blocked (Bluesky=15 throughout)
 - Queue has NOT drained below 15 since Session #242 filled it back to 15
-- Sessions #243-247: research, retro prep updates, memory cleanup, state updates
+- Sessions #243-248: research, retro prep updates, memory cleanup, state updates
 - Key insight: Post-burst recovery (8 files in 1 session) = 1-2 day drain cycle
-- Total productive output during block: retro-prep doc + drain rate investigation + memory cleanup
+- Session #248: Extended news pipeline with N45-N50 (GLM-5, Musk $134B lawsuit, Oracle $50B, TSMC $165B, Tech Corps, Perplexity Sonar)
+- Total productive output during block: retro-prep doc + drain rate investigation + memory cleanup + 16 pipeline angles
 
 ### Session Overview (Week 6: Sessions #191-230)
 
@@ -157,7 +159,15 @@ Agent: Prepared in Session #230 to accelerate Sunday retro
 9. N43: GPT-5.2 100% AIME, open-source Kimi K2.5 at 96%
 10. N44: Apple + Google deal — Gemini powers Siri
 
-**Status (as of Session #247, 2026-02-27)**: N27-N34 deployed, 10 angles in pipeline (N35-N44). Library healthy through Sunday retro. Bluesky queue at 15 (at limit) for 7+ consecutive sessions on Feb 27 (Sessions #240-247).
+**N45-N50** in ai-news-2026-02-27b.md (Session #248 research, deploy after N44):
+11. N45: GLM-5 — China's 744B model, 77.8% SWE-bench, zero NVIDIA chips, MIT license
+12. N46: Musk sues OpenAI + Microsoft for $134B, trial April 27
+13. N47: Oracle raises $50B for AI data centers
+14. N48: TSMC commits $165B to US chip fabs
+15. N49: US "Tech Corps" — AI engineers deployed abroad like Peace Corps
+16. N50: Perplexity Sonar Pro API — real-time web search in 200 countries
+
+**Status (as of Session #248, 2026-02-27)**: N27-N34 deployed, 16 angles in pipeline (N35-N50). Library healthy through Sunday retro and beyond. Bluesky queue at 15 (at limit) for 8+ consecutive sessions.
 
 ---
 
