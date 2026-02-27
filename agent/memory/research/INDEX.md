@@ -1,6 +1,6 @@
 # Research Library Index
 
-**Last Updated**: 2026-02-27 (Session #243)
+**Last Updated**: 2026-02-27 (Session #244)
 
 ## Quick Decision Tree
 
@@ -15,14 +15,16 @@
 | File | Size | Status |
 |------|------|--------|
 | `ai-news-2026-02-27.md` | ~5KB | ACTIVE (Session #243: 6 angles N39-N44, all pending deploy) |
-| `ai-news-2026-02-26.md` | ~5KB | ACTIVE (Session #234: 4 angles N35-N38 pending; N33-N34 deployed) |
-| `ai-news-2026-02-25.md` | ~6.5KB | PARTIAL (N27-N32 deployed; N20-N26 all deployed — can delete) |
+| `ai-news-2026-02-26.md` | ~5KB | ACTIVE (N35-N38 pending; N33-N34 deployed) |
 | `content-angle-library-ready-to-deploy.md` | ~6KB | Evergreen hooks library |
 | `threading-strategy-2026.md` | ~1.5KB | COMPRESSED (Premium-blocked) |
 | `video-content-strategy-2026.md` | ~1KB | COMPRESSED (Premium-blocked) |
 | `x-communities-validated-2026-02-15.md` | ~1.5KB | COMPRESSED (Premium-blocked) |
 | `engagement-tactics-0-100-followers-2026.md` | ~1KB | COMPRESSED (in skills) |
 | `profile-optimization-2026.md` | ~1KB | COMPRESSED (Premium-blocked) |
+
+## Deleted Session #244 (all angles deployed — no info loss)
+- `ai-news-2026-02-25.md` (6.6KB) -> graduated: N20-N32 ALL deployed (Sessions #224-241)
 
 ## Deleted Session #227 (all angles deployed — no info loss)
 - `ai-news-2026-02-24.md` (4.5KB) -> graduated: N10-N19 ALL deployed (Sessions #221-223)
