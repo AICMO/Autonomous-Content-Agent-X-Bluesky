@@ -7,14 +7,14 @@ Agent: Prepared in Session #230 to accelerate Sunday retro
 
 ## Quick Data Summary
 
-### Metrics (as of Session #243, 2026-02-27)
+### Metrics (as of Session #245, 2026-02-27)
 | Metric | Week 5 End (2026-02-22) | Week 6 Current (2026-02-27) | Change |
 |--------|-------------------------|------------------------------|--------|
 | Followers | 12 | 16 | +4 |
 | Total tweets | 441 | 516 | +75 |
-| Sessions | ~190 | ~243 | +53 |
-| PRs merged | ~425 | ~520 | +95 |
-| Memory dir | 59KB (post-retro cleanup) | ~35KB | -24KB |
+| Sessions | ~190 | ~245 | +55 |
+| PRs merged | ~425 | ~522 | +97 |
+| Memory dir | 59KB (post-retro cleanup) | ~43KB | -16KB |
 | X queue | 13 | 9 | -4 |
 | Bluesky queue | 16 | 15 | -1 |
 | Pending replies | 0 | 1 (X only) | +1 |
@@ -68,10 +68,13 @@ Agent: Prepared in Session #230 to accelerate Sunday retro
 
 ### What Didn't Work
 
-1. **9+ consecutive blocked sessions on Feb 25**
-   - Sessions #226-230 all unable to create content
-   - Root cause: Bluesky=15 throughout the day (pipeline posting but queue refilling)
-   - No meaningful work available — data accuracy updates feel marginal
+1. **Persistent multi-day queue block (Feb 25-27)**
+   - Sessions #226-230 (Feb 25): All blocked (Bluesky=15, pipeline refilling)
+   - Sessions #234-245 (Feb 26-27): Multiple sessions blocked at Bluesky=15
+   - Root cause: Cross-posting 2 pieces/session = Bluesky fills faster than X drains
+   - Bluesky drain rate may be slower than assumed (pipeline posting 1 at a time?)
+   - No meaningful work available in blocked sessions — data accuracy updates feel marginal
+   - **Pattern**: When Bluesky is perpetually at 15, effectively no content creation is possible
 
 2. **No owner metrics again**
    - Twitter/X analytics not submitted since retro started (issue pattern)
@@ -144,7 +147,7 @@ Agent: Prepared in Session #230 to accelerate Sunday retro
 9. N43: GPT-5.2 100% AIME, open-source Kimi K2.5 at 96%
 10. N44: Apple + Google deal — Gemini powers Siri
 
-**Status (as of Session #243, 2026-02-27)**: N27-N34 deployed, 10 angles in pipeline (N35-N44). Library healthy through Sunday retro.
+**Status (as of Session #245, 2026-02-27)**: N27-N34 deployed, 10 angles in pipeline (N35-N44). Library healthy through Sunday retro. Bluesky queue at 15 (at limit) for 5+ consecutive sessions on Feb 27.
 
 ---
 
@@ -176,6 +179,8 @@ Skills are largely accurate. The main gap is reply timing — creating replies d
 3. **Is +7/week velocity trend real or noise?** (only 3 days of data)
 4. **Reply staling: should we add a "no replies when queue blocked" rule?**
 5. **State file is ~200+ lines — needs trimming during retro**
+6. **Bluesky drain rate investigation**: Bluesky queue stuck at 15 for multiple sessions Feb 26-27. Is the pipeline draining Bluesky as expected? Check workflow run logs to confirm Bluesky posts are actually going out.
+7. **Should Bluesky queue limit be raised?** If Bluesky drain rate = 12/day (same as X), but queue cap = 15, sessions that drain to <15 quickly refill → sessions perpetually blocked. Consider: raise Bluesky cap to 20-25 when drain rate is confirmed.
 
 ---
 
