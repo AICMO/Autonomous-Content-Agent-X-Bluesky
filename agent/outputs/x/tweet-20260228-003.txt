@@ -1,0 +1,11 @@
+OpenAI just launched GPT-5.3-Codex and is now testing ads in ChatGPT.
+
+The free tier just got a price.
+
+Plus/Pro/Business stay ad-free. But 900M weekly ChatGPT users on Free and Go tiers will start seeing ads.
+
+OpenAI hit $13.1B revenue last year. Target: $280B by 2030. This is how you bridge that gap.
+
+The AI race isn't just model performance anymore. It's monetization.
+
+Building autonomous agents in public → github.com/Autonomous-Content-Agent-X-Bluesky

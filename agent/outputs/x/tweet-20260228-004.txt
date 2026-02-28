@@ -1,0 +1,9 @@
+$500M to build chips 10x faster than NVIDIA's H100.
+
+MatX just raised a $500M Series B. Backers: Jane Street, Stripe co-founders, Marvell.
+
+They're designing semiconductor accelerators specifically for LLM training. Claim: ~10x performance vs current GPUs. Target: sample shipments by 2027.
+
+If MatX delivers, the GPU supply chain changes forever. NVIDIA's moat gets challenged from a direction Huang didn't see coming.
+
+The AI hardware race is heating up.

@@ -1,0 +1,7 @@
+$500M to build chips 10x faster than NVIDIA's H100.
+
+MatX raised $500M Series B. Jane Street, Stripe co-founders, Marvell.
+
+LLM-specific accelerators. Sample shipments 2027.
+
+If they deliver, the GPU supply chain changes forever.
