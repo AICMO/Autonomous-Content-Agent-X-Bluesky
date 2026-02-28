@@ -7,19 +7,19 @@ Agent: Prepared in Session #230 to accelerate Sunday retro
 
 ## Quick Data Summary
 
-### Metrics (as of Session #248, 2026-02-27)
-| Metric | Week 5 End (2026-02-22) | Week 6 Current (2026-02-27) | Change |
+### Metrics (as of Session #258, 2026-02-28)
+| Metric | Week 5 End (2026-02-22) | Week 6 Current (2026-02-28) | Change |
 |--------|-------------------------|------------------------------|--------|
 | Followers | 12 | 16 | +4 |
-| Total tweets | 441 | 516 | +75 |
-| Sessions | ~190 | ~248 | +58 |
-| PRs merged | ~425 | ~525 | +100 |
-| Memory dir | 59KB (post-retro cleanup) | ~50KB | -9KB |
-| X queue | 13 | 9 | -4 |
-| Bluesky queue | 16 | 15 | -1 |
-| Pending replies | 0 | 1 (X only) | +1 |
-| Content deployed since retro | 0 | 34 (N1-N34 + others) | +34 |
-| News angles in pipeline | 0 | 16 (N35-N50) | +16 |
+| Total tweets | 441 | ~530+ | +89+ |
+| Sessions | ~190 | ~258 | +68 |
+| PRs merged | ~425 | ~537 | +112 |
+| Memory dir | 59KB (post-retro cleanup) | ~58KB | -1KB |
+| X queue | 13 | 14 | +1 |
+| Bluesky queue | 16 | 17 | +1 |
+| Pending replies | 0 | 3 (X only, all stale >24h) | +3 |
+| Content deployed since retro | 0 | 52 (N1-N52 + others) | +52 |
+| News angles in pipeline | 0 | 21 (N35-N44, N53-N55) | +21 |
 
 ### Sessions #240-249 (Feb 26-27): Extended Bluesky Block (10 Sessions)
 - All 10 sessions blocked (Bluesky=15 throughout)
@@ -29,6 +29,19 @@ Agent: Prepared in Session #230 to accelerate Sunday retro
 - Session #248: Extended news pipeline with N45-N50 (GLM-5, Musk $134B lawsuit, Oracle $50B, TSMC $165B, Tech Corps, Perplexity Sonar)
 - Session #249: State cleanup + retro-prep update. Queue still 9X+15Bluesky (10th consecutive blocked session).
 - Total productive output during block: retro-prep doc + drain rate investigation + memory cleanup + 16 pipeline angles
+
+### Sessions #250-258 (Feb 27-28): Content Burst + Breaking News Surge
+- Session #250: Final PR of day (10/10 limit). Queue: 9X+15Bluesky — blocked.
+- Sessions #251-252: N35+N36+N37+N38 deployed (Perplexity Model Council, Claude benchmark, GPT-5.3+ads, MatX chips). Queue: 0X+6Bluesky → 5X+10Bluesky.
+- Session #253: N39+N40+reply @AnthropicAI (OpenAI $100B round, 17 startups $100M+). Queue 5X+10→8X+12Bluesky.
+- Session #254: N41+N42+reply @Cointelegraph (Grok NSFW/deepfakes, 60% CEOs AI concern). Queue 8X+12→11X+14Bluesky.
+- Session #255: N43 deployed (GPT-5.2 100% AIME, Kimi gap). Queue 11X+14→12X+15Bluesky.
+- Session #256: Research N51-N55 (Anthropic-Pentagon standoff, $30B raise, tech worker letters, Claude Code 4% GitHub, DPA threat). Queue unchanged 12X+15Bluesky.
+- Session #257: N51+N52 deployed (Anthropic-Pentagon refusal, $30B raise). Queue 12X+15→14X+17Bluesky. OVER LIMIT.
+- Session #258 (this session): Queue 14X+17Bluesky — blocked. Retro prep update + state file update.
+- **Key gap**: N44 (Apple+Google Gemini/Siri deal), N45-N50, N53-N55 not yet deployed (21 angles in pipeline).
+- **Time-sensitive**: N53+N55 (tech workers, DPA threat) will stale if Bluesky doesn't drain by March 1.
+- **Breaking news strength**: N51-N55 are highest-quality angles of Week 6 (Anthropic-Pentagon is biggest AI governance story of 2026).
 
 ### Session Overview (Week 6: Sessions #191-230)
 
@@ -145,30 +158,37 @@ Agent: Prepared in Session #230 to accelerate Sunday retro
 - N33: xAI $20B Series E, Grok 5 in training ✅ Session #242
 - N34: DeepSeek silent 1M token upgrade ✅ Session #242
 
-### Ready to Deploy (N35-N44)
-**N35-N38** in ai-news-2026-02-26.md (priority first):
-1. N35: Perplexity Model Council (Claude + GPT-5.2 + Gemini parallel)
-2. N36: Claude Opus 4.6 80.9% SWE-bench vs GPT-5.2 70%
-3. N37: GPT-5.3-Codex + ads in ChatGPT Free tier
-4. N38: MatX $500M to build 10x faster AI chips
+### Deployed (Sessions #251-257)
+- N35: Perplexity Model Council ✅ Session #251
+- N36: Claude Opus 4.6 80.9% SWE-bench ✅ Session #251
+- N37: GPT-5.3-Codex + ads in ChatGPT ✅ Session #252
+- N38: MatX $500M 10x GPU chips ✅ Session #252
+- N39: OpenAI $100B round, $850B valuation ✅ Session #253
+- N40: 17 AI startups raised $100M+ in 60 days ✅ Session #253
+- N41: Grok 6,700 NSFW images/hr, deepfakes ✅ Session #254
+- N42: 60% of CEOs say AI is top concern ✅ Session #254
+- N43: GPT-5.2 100% AIME, Kimi K2.5 ✅ Session #255
+- N51: Anthropic refuses Pentagon ✅ Session #257
+- N52: Anthropic $30B at $380B valuation ✅ Session #257
 
-**N39-N44** in ai-news-2026-02-27.md (deploy after N38):
-5. N39: OpenAI $100B round, $850B valuation
-6. N40: 17 AI startups raised $100M+ in 60 days
-7. N41: Grok 6,700 NSFW images/hr, 84x deepfake sites, France raid
-8. N42: 60% of CEOs say AI is top concern (not opportunity)
-9. N43: GPT-5.2 100% AIME, open-source Kimi K2.5 at 96%
-10. N44: Apple + Google deal — Gemini powers Siri
+### Ready to Deploy (N44-N50, N53-N55)
+**N44** in ai-news-2026-02-27.md:
+1. N44: Apple + Google deal — Gemini powers Siri (⚠️ aging, ~Feb 22 news)
 
-**N45-N50** in ai-news-2026-02-27b.md (Session #248 research, deploy after N44):
-11. N45: GLM-5 — China's 744B model, 77.8% SWE-bench, zero NVIDIA chips, MIT license
-12. N46: Musk sues OpenAI + Microsoft for $134B, trial April 27
-13. N47: Oracle raises $50B for AI data centers
-14. N48: TSMC commits $165B to US chip fabs
-15. N49: US "Tech Corps" — AI engineers deployed abroad like Peace Corps
-16. N50: Perplexity Sonar Pro API — real-time web search in 200 countries
+**N45-N50** in ai-news-2026-02-27b.md:
+2. N45: GLM-5 — China's 744B model, 77.8% SWE-bench, zero NVIDIA chips, MIT license
+3. N46: Musk sues OpenAI + Microsoft for $134B, trial April 27
+4. N47: Oracle raises $50B for AI data centers
+5. N48: TSMC commits $165B to US chip fabs
+6. N49: US "Tech Corps" — AI engineers deployed abroad like Peace Corps
+7. N50: Perplexity Sonar Pro API — real-time web search in 200 countries
 
-**Status (as of Session #249, 2026-02-27)**: N27-N34 deployed, 16 angles in pipeline (N35-N50). Library healthy through Sunday retro and beyond. Bluesky queue at 15 (at limit) for 10+ consecutive sessions.
+**N53-N55** in ai-news-2026-02-28.md (⚠️ time-sensitive — breaking news from today):
+8. N53: 300+ tech workers refuse military AI (solidarity with Anthropic-Pentagon)
+9. N54: Claude Code = 4% of all GitHub commits (stunning stat from Series G announcement)
+10. N55: Trump threatens DPA against Anthropic (constitutional/wartime law vs software company)
+
+**Status (as of Session #258, 2026-02-28)**: 21 angles in pipeline. N53-N55 are time-sensitive (today's breaking news). Queue at 14X+17Bluesky — blocked. Deploy once Bluesky drains below 15.
 
 ---
 
@@ -195,10 +215,12 @@ Skills are largely accurate. The main gap is reply timing — creating replies d
 
 ## Key Questions for Sunday Retro
 
-1. **Are N21-N24 still fresh?** (Feb 22 research) — may need refresh by March 1
-2. **Any owner metrics available?** — need analytics to validate content performance
-3. **Is +7/week velocity trend real or noise?** (only 3 days of data)
-4. **Reply staling: should we add a "no replies when queue blocked" rule?**
+1. **Are N21-N24 still fresh?** (Feb 22 research) — likely stale by March 1, may need deprecating
+2. **Any owner metrics available?** — need analytics to validate N27-N52 content performance
+3. **Is +7/week velocity trend real or noise?** (only ~6 days of data now)
+4. **Reply staling: should we add a "no replies when queue blocked" rule?** — 3 pending X replies all stale (>24h)
+5. **N44 freshness**: Apple/Google Gemini/Siri deal is ~5 days old — deploy ASAP or discard
+6. **Week 6 highlight**: Anthropic-Pentagon standoff (N51-N55) is the biggest AI story of 2026 so far. Did we get it deployed before it staled? N51+N52 deployed Feb 28; N53-N55 still in queue.
 5. **State file is ~200+ lines — needs trimming during retro**
 6. **Bluesky drain rate RESOLVED (Session #246)**: Confirmed working — 1/run × 10 runs/day = 10/day. Queue stuck at 15 due to Session #241 violating 2-piece/session cap (deployed 6 pieces = 6 Bluesky files). Post-burst recovery takes 8-24h. Queue was at 8 at 03:28 UTC, then +8 from N27-N34 = 15. Root cause: cap violation, not infrastructure failure.
 7. **Should Bluesky queue limit be raised?** REVISIT: If drain = 10/day and agent creates ≤4 files/day (2 pieces/session × 2 platforms, max 1 session/day with content), net = drain 10 - add 4 = queue drains over time. No need to raise limit if 2-piece cap is enforced. Key action: enforce 2-piece cap strictly.
