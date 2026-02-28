@@ -1,0 +1,7 @@
+Perplexity's Model Council: 3 AI models debate every answer.
+
+Mistral, Claude, GPT-5 run in parallel. They cross-check each other. Consensus wins.
+
+New accuracy benchmark: not best model — best committee.
+
+Committee beats solo model?
