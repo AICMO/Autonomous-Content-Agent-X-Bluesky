@@ -1,0 +1,8 @@
+Claude Opus 4.6: 80.9% on SWE-bench.
+GPT-5.2: 70%.
+
+That's a 15% gap in real coding tasks — not benchmarks, not demos.
+
+7 years building AI for call centers taught me: production accuracy gaps always hit harder than they look on paper.
+
+Which model are you shipping with?

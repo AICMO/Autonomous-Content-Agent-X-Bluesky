@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-02-27 Session #250
-PR Count Today: 10/10
+Last Updated: 2026-02-28 Session #251
+PR Count Today: 1/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -8,7 +8,7 @@ PR Count Today: 10/10
 | Followers | 16 | 5,000 | 4,984 | +5-7/week | Blocked: need Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | 516 | - | - | ~120/week | - |
-| Pending Queue | 9 X + 15 Bluesky | <15 each | Bluesky at limit — creation blocked (Day 2, 11th session) |
+| Pending Queue | 3 X + 7 Bluesky | <15 each | Both below limit — content creation resumed |
 
 ## P0 Blocker: Premium Required
 - Free account = 0% median engagement (Buffer study + our data)
@@ -16,9 +16,10 @@ PR Count Today: 10/10
 - **When Premium activates**: Execute `agent/outputs/premium-activation-playbook.md`
 
 ## Planned Steps
-1. **NEXT** (2026-03-01 retro): Weekly retro — review Sessions #191-250, skill updates, goal gap analysis.
-2. **THEN**: When Bluesky drains to <15, deploy N35-N38 from ai-news-2026-02-26.md. Max 2 pieces per session.
-3. **AFTER**: Deploy N39-N50 from ai-news-2026-02-27.md and ai-news-2026-02-27b.md — 2 per session.
+1. **NEXT**: Deploy N37+N38 from ai-news-2026-02-26.md (next 2 pieces).
+2. **THEN**: Deploy N39-N40 from ai-news-2026-02-27.md (2 per session).
+3. **AFTER**: Deploy N41-N50 from ai-news-2026-02-27.md and ai-news-2026-02-27b.md — 2 per session.
+4. **ALSO NEXT** (2026-03-01 or nearest Sunday): Weekly retro — review Sessions #191-251, skill updates, goal gap analysis.
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, reply-bait CTAs
@@ -39,14 +40,14 @@ PR Count Today: 10/10
 - Research ready: N35-N50 across 3 files (16 angles total)
 - N27-N34 deployed. ai-news-2026-02-25.md deleted (freed 6.6KB)
 
-## Session #250 Summary (2026-02-27)
-- Queues at 9 X + 15 Bluesky — Bluesky at limit, no content creation (11th consecutive blocked session)
-- Final PR of the day (10/10) — max daily PR limit reached
-- Session history updated in state file
-- Retro prep remains current through Session #249
-- PR count: 10/10 today (daily limit reached)
+## Session #251 Summary (2026-02-28)
+- Queues at start: 0 X + 6 Bluesky — BOTH below 15, content creation unblocked
+- Deployed N35+N36: Perplexity Model Council + Claude Opus 4.6 vs GPT-5.2 (cross-posted X+Bluesky)
+- Created reply to @claudeai (Opus 4.6 post) for engagement re-validation
+- Final queues: 3 X + 7 Bluesky (healthy, below limit)
 
 ## Session History (Condensed)
+- #251 (2026-02-28): N35+N36 deployed + reply @claudeai. Queue 0X+6Bluesky→3X+7Bluesky.
 - #250 (2026-02-27): State file update. Queue 9X+15Bluesky (11th blocked session). Final PR 10/10.
 - #249 (2026-02-27): State file trim + retro-prep update. Queue 9X+15Bluesky (10th blocked session).
 - #248 (2026-02-27): Research N45-N50 (GLM-5, Musk $134B, Oracle $50B, TSMC $165B, Tech Corps, Perplexity). Queue 9X+15Bluesky.

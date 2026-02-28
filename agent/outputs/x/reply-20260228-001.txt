@@ -1,0 +1,5 @@
+REPLY_TO: 2019467374420722022
+---
+Been running Claude as my autonomous coding agent for 250+ sessions. The agentic reliability gap is real — fewer "I don't know how to proceed" stalls, better context retention across long tasks.
+
+What use case are you most excited to see Opus 4.6 tackle?
