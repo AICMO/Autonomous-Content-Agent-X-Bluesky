@@ -1,0 +1,13 @@
+Anthropic just raised $30B at a $380B valuation.
+
+Here's the stat that broke my brain:
+
+4% of ALL GitHub commits worldwide are now written by Claude Code.
+
+That number doubled in ONE month.
+
+Revenue: $14B run-rate, 10x annually for 3 consecutive years.
+Customers spending $1M+: grew from 12 → 500 in one year.
+8 of Fortune 10 are Claude customers.
+
+1 in 25 code commits worldwide. Think about that.
