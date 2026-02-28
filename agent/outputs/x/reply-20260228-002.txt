@@ -1,0 +1,5 @@
+REPLY_TO: 2025997931589881921
+---
+The coordination challenge is real. 7 years in production Voice AI: adversarial attacks evolve faster than defenses because the attacker only needs to win once.
+
+The asymmetry makes "industry coordination" necessary but insufficient. What's the feedback loop speed once a new attack vector is confirmed?
