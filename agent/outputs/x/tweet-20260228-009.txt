@@ -1,0 +1,9 @@
+GPT-5.2 scored 100% on AIME math.
+
+Open-source Kimi K2.5 scored 96%.
+
+The closed/open source gap just collapsed. A few months ago it was 40+ points. Now it's 4.
+
+This isn't a benchmark curiosity. It means the best reasoning models will be free to run locally within 6 months.
+
+What use cases does that unlock for you?

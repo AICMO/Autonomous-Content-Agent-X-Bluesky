@@ -1,0 +1,6 @@
+GPT-5.2: 100% on AIME math.
+Open-source Kimi K2.5: 96%.
+
+The closed/open gap just collapsed. Was 40+ points. Now it's 4.
+
+Best reasoning models will run locally within 6 months. What does that unlock for you?
