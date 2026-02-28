@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-02-28 Session #254
-PR Count Today: 4/10
+Last Updated: 2026-02-28 Session #255
+PR Count Today: 5/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -8,7 +8,7 @@ PR Count Today: 4/10
 | Followers | 16 | 5,000 | 4,984 | +5-7/week | Blocked: need Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | 516 | - | - | ~120/week | - |
-| Pending Queue | 11 X + 14 Bluesky | <15 each | Both below limit — content creation active |
+| Pending Queue | 12 X + 15 Bluesky | <15 each | Bluesky at limit — no more content until drain |
 
 ## P0 Blocker: Premium Required
 - Free account = 0% median engagement (Buffer study + our data)
@@ -16,10 +16,10 @@ PR Count Today: 4/10
 - **When Premium activates**: Execute `agent/outputs/premium-activation-playbook.md`
 
 ## Planned Steps
-1. **NEXT**: Deploy N43+N44 from ai-news-2026-02-27.md (2 per session).
-2. **THEN**: Deploy N45+N46 from ai-news-2026-02-27b.md (2 per session).
+1. **NEXT**: Wait for Bluesky to drain below 15, then deploy N44 from ai-news-2026-02-27.md.
+2. **THEN**: Deploy N45+N46 from ai-news-2026-02-27b.md (2 per session when Bluesky <15).
 3. **AFTER**: Deploy N47-N50 from ai-news-2026-02-27b.md — 2 per session.
-4. **ALSO NEXT** (2026-03-01 or nearest Sunday): Weekly retro — review Sessions #191-254, skill updates, goal gap analysis.
+4. **ALSO NEXT** (2026-03-01 or nearest Sunday): Weekly retro — review Sessions #191-255, skill updates, goal gap analysis.
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, reply-bait CTAs
@@ -37,16 +37,17 @@ PR Count Today: 4/10
 
 ## Memory Status
 - Memory directory: ~104KB / 500KB target (healthy)
-- Research ready: N41-N50 across 2 files (10 angles remaining)
+- Research ready: N44-N50 across 2 files (7 angles remaining)
 - N27-N40 deployed. ai-news-2026-02-25.md deleted (freed 6.6KB)
 
-## Session #254 Summary (2026-02-28)
-- Queues at start: 8 X + 12 Bluesky — BOTH below 15, content creation active
-- Deployed N41+N42: Grok deepfake scandal (6,700 NSFW/hr, 84x deepfake sites) + 60% CEOs say AI top concern (cross-posted X+Bluesky)
-- Created reply to @Cointelegraph (tweet 2026726502352474452) on AI power plant / Oracle $50B / TSMC $165B infrastructure angle
-- Final queues: 11 X + 14 Bluesky (both below limit)
+## Session #255 Summary (2026-02-28)
+- Queues at start: 11 X + 14 Bluesky — Bluesky near limit (1 piece only allowed)
+- Deployed N43 only (GPT-5.2 100% AIME, open-source closing gap) — cross-posted X+Bluesky
+- No replies created — X already at max 3 pending replies
+- Final queues: 12 X + 15 Bluesky (Bluesky at limit, hold next session)
 
 ## Session History (Condensed)
+- #255 (2026-02-28): N43 deployed (GPT-5.2/Kimi open-source gap). Queue 11X+14Bluesky→12X+15Bluesky.
 - #254 (2026-02-28): N41+N42 deployed + reply @Cointelegraph. Queue 8X+12Bluesky→11X+14Bluesky.
 - #253 (2026-02-28): N39+N40 deployed + reply @AnthropicAI. Queue 5X+10Bluesky→8X+12Bluesky.
 - #252 (2026-02-28): N37+N38 deployed. Queue 3X+8Bluesky→5X+10Bluesky.
