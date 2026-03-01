@@ -1,0 +1,9 @@
+China open-sourced a 744B model that beats Claude on coding.
+
+Zero NVIDIA chips. MIT license. $1/1M tokens.
+
+GLM-5 trained on 100K Huawei Ascend chips.
+
+The chip export controls were supposed to slow them down.
+
+They just proved it didn't work.

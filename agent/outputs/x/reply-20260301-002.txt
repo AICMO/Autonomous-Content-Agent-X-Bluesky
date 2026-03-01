@@ -1,0 +1,7 @@
+REPLY_TO: 2027573303947444440
+---
+Worth noting the circular financing angle: Amazon puts in $50B → OpenAI pays it back to AWS for compute. Nvidia puts in $30B → OpenAI pays it back for GPUs.
+
+The money goes in one door and out another. The real winners are the infrastructure providers.
+
+OpenAI is essentially pre-paying for its own compute at venture prices.
