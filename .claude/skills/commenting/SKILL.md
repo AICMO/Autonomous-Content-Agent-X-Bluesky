@@ -278,7 +278,7 @@ Before posting ANY reply:
 - Stale replies (>24h old)
 - Long essays (save for your posts)
 
-### Predictive & Opinionated Replies (30%+ of replies)
+### Predictive & Opinionated Replies (40-50% of replies)
 
 **Don't just agree or add context — predict where things are headed and state opinions.**
 

@@ -77,7 +77,7 @@ Every post MUST have all three:
 2. **"How people are making money" breakdowns** (30%)
 3. **Personal experience / BIP connecting to trends** (20%)
 
-### Predictions & Opinions (20-30% of content)
+### Predictions & Opinions (40-50% of content)
 
 **Don't just report news — predict where it's going and what it means for business.**
 
