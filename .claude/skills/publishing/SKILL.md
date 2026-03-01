@@ -591,7 +591,7 @@ Source: Evan Edinger "I Can Spot AI Writing Instantly" + anti-detection research
 
 10. **Summarizing at the end:** Never wrap up with "So, in conclusion..." or "The takeaway here is..." Just stop when you're done.
 
-### REQUIRED Human Patterns (always do these)
+### Human Patterns (try to use these)
 
 1. **Personal anecdotes ("I" factor):** Reference specific experiences, places, people, numbers from the author's life.
    - "After 7 years building Voice AI, I still get surprised by..."

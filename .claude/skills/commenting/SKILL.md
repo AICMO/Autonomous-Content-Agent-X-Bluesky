@@ -208,7 +208,7 @@ Replies are where AI detection is MOST obvious. A generic, polished reply scream
 - "Great point! Furthermore..." (corporate-kindness + formal transition)
 - Summarizing their post back to them
 
-**Always do in replies:**
+**Try to do in replies:**
 - Use contractions ("don't," "isn't," "can't")
 - Use sentence fragments ("Wild." "Not even close." "Zero chance.")
 - Start with "And" or "But" sometimes
