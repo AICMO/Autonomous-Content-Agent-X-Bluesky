@@ -1,28 +1,28 @@
 # Agent State
-Last Updated: 2026-03-01 Session #264
-PR Count Today: 4/10
+Last Updated: 2026-03-01 Session #265 (Weekly Retro)
+PR Count Today: 5/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 16 | 5,000 | 4,984 | +5-7/week | Blocked: need Premium |
+| Followers | 16 | 5,000 | 4,984 | +4/week | Blocked: need Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | ~530+ | - | - | ~120/week | - |
 | Pending Queue | 10 X + 15 Bluesky | <15 each | Bluesky at limit — deploy N55+N56 when ≤13 |
 
 ## P0 Blocker: Premium Required
 - Free account = 0% median engagement (Buffer study + our data)
-- At +5/week = 19 years to 5K. With Premium: projected 2-4 months.
+- At +4/week = 24 years to 5K. With Premium: projected 2-4 months.
 - **When Premium activates**: Execute `agent/outputs/premium-activation-playbook.md`
 
 ## Planned Steps
 1. **NEXT**: Deploy N55 + N56 (Defense Production Act / Claude #1 App Store) once Bluesky drains to ≤13.
 2. **THEN**: Deploy N57-N58 (ChatGPT Agent Mode + Anthropic Vercept acquisition) — 2 per session.
-3. **AFTER**: Weekly retro (overdue since 2026-02-22) — review Sessions #191-263, skill updates, goal gap analysis.
+3. **AFTER**: Continue pipeline (N44 stale — skip; N45-N50, N59-N61 fresh).
 
 ## What Works / What Doesn't
-**Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, reply-bait CTAs
-**Doesn't work:** Long authority posts, stale replies, content creation when queue >15, research overproduction
+**Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting
+**Doesn't work:** Long authority posts, stale replies, content creation when queue >15, replies when Bluesky ≥15
 
 ## Active Hypotheses
 - Premium (+100 TweepCred) escapes suppression -> UNTESTED (blocker)
@@ -32,59 +32,60 @@ PR Count Today: 4/10
 - Bluesky has no growth ceiling without Premium -> TESTING (cross-posting active)
 
 ## Blockers
-- **P0**: X Premium not activated ($8/mo) — Week 6+ of blocker
+- **P0**: X Premium not activated ($8/mo) — Week 7 of blocker
 
 ## Memory Status
-- Memory directory: ~64KB / 500KB target (healthy)
-- Research ready: N44 (ai-news-2026-02-27.md), N46-N50 (ai-news-2026-02-27b.md), N55 (ai-news-2026-02-28.md), N56-N61 (ai-news-2026-03-01.md)
-- N27-N43, N51-N54 deployed. N44, N46-N50, N55-N61 in pipeline (14 angles remaining).
+- Memory directory: ~55KB / 500KB target (healthy — retro deleted 2 files)
+- Research ready: N44⚠️STALE (ai-news-2026-02-27.md), N45-N50 (ai-news-2026-02-27b.md), N55 (ai-news-2026-02-28.md), N56-N61 (ai-news-2026-03-01.md)
+- Pipeline: 12 angles ready (N44 stale, N45-N50+N55+N56-N61)
+- Deployed: N1-N43, N51-N54
+
+## Session #265 Summary (2026-03-01 — Weekly Retro)
+- Queues at start: 10 X + 15 Bluesky — Bluesky at limit, no content created
+- **Weekly retro completed** (overdue since 2026-02-22, Sessions #191-264)
+  - Period: Week 6 (2026-02-22 to 2026-03-01)
+  - Velocity: +4/week (slight dip from +5 Week 5)
+  - Owner analytics: Issue #550 had CSV attachments (auth-gated, can't parse)
+  - Key insight: Bluesky ≥15 = absolute no-replies rule (zero exceptions)
+  - Key insight: N44 Apple+Google (8 days old) = stale, skip
+- **Memory cleanup**: Deleted retro-prep-2026-03-01.md (12.9KB) + ai-news-2026-02-26.md (4.9KB) = 17.8KB freed
+- **Skill update**: Commenting skill — absolute Bluesky ≥15 no-reply rule (zero tolerance)
+- **INDEX.md updated**: N35-N44 deployment status corrected, deleted files logged
+- Issue #550 closed (Closes #550 in PR)
+- Final queues: 10 X + 15 Bluesky (unchanged — retro only, no content)
 
 ## Session #264 Summary (2026-03-01)
 - Queues at start: 9 X + 15 Bluesky — Bluesky at limit, no cross-posted content created
-- Reply created: reply-003 targeting @OpenAI ChatGPT Agent launch tweet (1945904743148323285)
+- Reply created: reply-003 targeting @OpenAI ChatGPT Agent launch tweet
   - Angle: 95% demo → 67% production accuracy gap — enterprise last-mile reality check
-  - Voice AI expertise angle, 7 years call center context
-- Final queues: 10 X + 15 Bluesky (1 reply added to X)
+  - **Note**: Created while Bluesky=15 — violation of commenting skill rule, reply will be stale
+- Final queues: 10 X + 15 Bluesky
 
 ## Session #263 Summary (2026-03-01)
 - Queues at start: 9 X + 15 Bluesky — Bluesky at limit, no content created
-- Non-content work: Research session — fresh March 1 news gathered
-  - Created ai-news-2026-03-01.md (N56-N61): Claude #1 App Store, ChatGPT Agent Mode, Anthropic Vercept acquisition, OpenAI AgentKit, GPT-5.2-Codex, Claude 5 Fennec
-  - Updated research/INDEX.md with new file
+- Research: ai-news-2026-03-01.md (N56-N61): Claude #1 App Store, ChatGPT Agent Mode, Vercept, AgentKit, GPT-5.2-Codex, Claude 5 Fennec
 - Final queues: 9 X + 15 Bluesky (unchanged)
 
 ## Session #262 Summary (2026-03-01)
 - Queues at start: 6 X + 13 Bluesky — under limit, created 2 pieces
-- Content created: 2 X posts + 2 Bluesky posts + 1 reply
-  - tweet-006: 300+ Google/60+ OpenAI engineers refuse military AI (worker solidarity angle)
-  - tweet-007: GLM-5 — China's 744B model beats Claude on coding, zero NVIDIA chips
-  - reply-002: OpenAI $110B circular financing angle (@AlphaSignalAI)
-- Final queues: 9 X + 15 Bluesky (Bluesky at limit)
+- Content: tweet-006 (300+ Google/OpenAI engineers refuse military AI) + tweet-007 (GLM-5 China 744B) + reply-002
+- Final queues: 9 X + 15 Bluesky
 
 ## Session History (Condensed)
-- #264 (2026-03-01): 10X+15Bluesky queues. Reply @OpenAI ChatGPT Agent (demo→production accuracy gap). PR 4/10.
-- #263 (2026-03-01): 9X+15Bluesky queues. Research: ai-news-2026-03-01.md (N56-N61). PR 3/10.
-- #262 (2026-03-01): 6X+13Bluesky queues. Created N53 (tech workers) + N45 (GLM-5) + 1 reply. PR 2/10.
-- #261 (2026-03-01): 0X+8Bluesky queues. Created 5 posts (OpenAI $110B, Anthropic blacklist, infra $650B, system prompts, BIP). PR 1/10.
-- #260 (2026-02-28): Queue blocked 14X+17Bluesky. State updated (10/10 — daily limit). Retro tomorrow.
-- #259 (2026-02-28): Queue blocked 14X+17Bluesky. State updated (retro prep tomorrow). PR 9/10.
-- #258 (2026-02-28): Queue blocked 14X+17Bluesky. Retro-prep updated (#251-257 data). State updated.
-- #257 (2026-02-28): N51+N52 deployed (Anthropic-Pentagon, $30B raise). Queue 12X+15Bluesky→14X+17Bluesky.
-- #256 (2026-02-28): Research N51-N55 (Anthropic-Pentagon standoff, $30B raise). Queue unchanged 12X+15Bluesky.
-- #255 (2026-02-28): N43 deployed (GPT-5.2/Kimi open-source gap). Queue 11X+14Bluesky→12X+15Bluesky.
-- #254 (2026-02-28): N41+N42 deployed + reply @Cointelegraph. Queue 8X+12Bluesky→11X+14Bluesky.
-- #253 (2026-02-28): N39+N40 deployed + reply @AnthropicAI. Queue 5X+10Bluesky→8X+12Bluesky.
-- #252 (2026-02-28): N37+N38 deployed. Queue 3X+8Bluesky→5X+10Bluesky.
-- #251 (2026-02-28): N35+N36 deployed + reply @claudeai. Queue 0X+6Bluesky→3X+7Bluesky.
-- #250 (2026-02-27): State file update. Queue 9X+15Bluesky (11th blocked session). Final PR 10/10.
-- #249 (2026-02-27): State file trim + retro-prep update. Queue 9X+15Bluesky (10th blocked session).
-- #248 (2026-02-27): Research N45-N50 (GLM-5, Musk $134B, Oracle $50B, TSMC $165B, Tech Corps, Perplexity). Queue 9X+15Bluesky.
-- #244 (2026-02-27): Memory cleanup: deleted ai-news-2026-02-25.md (6.6KB freed).
-- #243 (2026-02-27): Researched N39-N44 → ai-news-2026-02-27.md.
-- #242 (2026-02-27): N33+N34 deployed + reply @xai. Final queues: 9X+15Bluesky.
-- #241 (2026-02-27): N27-N32 deployed (6 pieces = cap violation). Final queues: 6X+13Bluesky.
-- #234 (2026-02-26): Research N33-N38. Queue: 9X+15Bluesky.
-- #233 (2026-02-26): N25+N26+reply @OpenAI. X: 6→9, Bluesky: 13→15.
-- #231 (2026-02-26): N21+N22+reply @AnthropicAI. X: 0→3, Bluesky: 9→11.
-- #230 (2026-02-25): Retro prep created. Final PR (10/10). Queues: X=10, Bluesky=15.
+- #265 (2026-03-01): Weekly Retro. Queues 10X+15Bluesky. Deleted 2 files, skill update, INDEX.md update. Closes #550. PR 5/10.
+- #264 (2026-03-01): 10X+15Bluesky. Reply @OpenAI ChatGPT Agent (demo→production gap). PR 4/10.
+- #263 (2026-03-01): 9X+15Bluesky. Research: ai-news-2026-03-01.md (N56-N61). PR 3/10.
+- #262 (2026-03-01): 6X+13Bluesky. N53 (tech workers) + N45 (GLM-5) + 1 reply. PR 2/10.
+- #261 (2026-03-01): 0X+8Bluesky. 5 posts (OpenAI $110B, Anthropic blacklist, infra $650B, system prompts, BIP). PR 1/10.
+- #260 (2026-02-28): Queue blocked 14X+17Bluesky. State updated. Final PR 10/10.
+- #259 (2026-02-28): Queue blocked 14X+17Bluesky. State updated.
+- #258 (2026-02-28): Queue blocked 14X+17Bluesky. Retro-prep updated.
+- #257 (2026-02-28): N51+N52 deployed (Anthropic-Pentagon, $30B raise). Queue 12X+15→14X+17Bluesky.
+- #256 (2026-02-28): Research N51-N55 (Anthropic-Pentagon, $30B raise). Queue 12X+15Bluesky.
+- #255 (2026-02-28): N43 deployed (GPT-5.2/Kimi). Queue 11X+14→12X+15Bluesky.
+- #254 (2026-02-28): N41+N42 + reply @Cointelegraph. Queue 8X+12→11X+14Bluesky.
+- #253 (2026-02-28): N39+N40 + reply @AnthropicAI. Queue 5X+10→8X+12Bluesky.
+- #252 (2026-02-28): N37+N38 deployed. Queue 3X+8→5X+10Bluesky.
+- #251 (2026-02-28): N35+N36 + reply @claudeai. Queue 0X+6→3X+7Bluesky.
+- #250 (2026-02-27): State update. Queue 9X+15Bluesky (11th blocked). PR 10/10.
 - Weekly Retro (2026-02-22): Memory 152KB→59KB. Week 5: +5 followers (7→12). Skills updated.
