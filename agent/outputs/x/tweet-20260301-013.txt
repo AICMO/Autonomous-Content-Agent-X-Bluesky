@@ -1,0 +1,10 @@
+GPT-5.2-Codex just hit state-of-the-art on SWE-Bench Pro.
+
+Built for long-horizon coding tasks — not just answering questions. Actually shipping code end-to-end.
+
+Claude Code is 4% of all GitHub commits.
+Now OpenAI is coming directly for that number.
+
+The coding agent race is on. And junior developer use cases are what these models are eating first.
+
+Not hype. This is the actual evidence.

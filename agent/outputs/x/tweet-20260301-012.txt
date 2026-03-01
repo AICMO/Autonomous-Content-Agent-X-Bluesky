@@ -1,0 +1,11 @@
+OpenAI just released AgentKit: visual canvas for multi-agent workflows, plug-and-play connector registry, embeddable chat.
+
+Enterprise AI is now drag-and-drop.
+
+The complexity barrier that kept AI agents out of most companies just collapsed.
+
+We're going from "hire engineers to build agents" to "any PM can deploy one."
+
+The real signal: OpenAI is no longer a model company. They're becoming infrastructure.
+
+Sticky infrastructure beats smarter models every time.
