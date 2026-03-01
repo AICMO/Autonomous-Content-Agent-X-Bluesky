@@ -49,12 +49,19 @@ def get_oauth_session():
         print('{"error": "Missing credentials. Need X_API_KEY, X_API_KEY_SECRET, X_ACCESS_TOKEN, X_ACCESS_TOKEN_SECRET"}')
         sys.exit(1)
 
-    return OAuth1Session(
+    session = OAuth1Session(
         api_key,
         client_secret=api_secret,
         resource_owner_key=access_token,
         resource_owner_secret=access_secret
     )
+    # Default python-requests User-Agent gets flagged by Cloudflare
+    session.headers.update({
+        "User-Agent": "X-API-Client/1.0",
+        "Accept": "application/json",
+        "Accept-Language": "en-US,en;q=0.9",
+    })
+    return session
 
 
 # ---------------------------------------------------------------------------
@@ -127,38 +134,55 @@ class TemporaryError(Exception):
     pass
 
 
+MAX_RETRIES = 3
+RETRY_DELAYS = [5, 10, 20]  # seconds between retries
+
+
 def post_tweet(session, text, reply_to=None):
-    """Post a single tweet, optionally as a reply."""
+    """Post a single tweet, optionally as a reply. Retries on temporary errors."""
     payload = {"text": text.strip()}
     if reply_to:
         payload["reply"] = {"in_reply_to_tweet_id": reply_to}
 
-    response = session.post(f"{API_BASE}/tweets", json=payload)
-
     from datetime import datetime, timezone
-    daily_remaining = response.headers.get("x-app-limit-24hour-remaining")
-    daily_limit = response.headers.get("x-app-limit-24hour-limit")
-    daily_reset = response.headers.get("x-app-limit-24hour-reset")
-    if daily_remaining and daily_limit:
-        print(f"  Daily limit: {daily_remaining}/{daily_limit} remaining", end="")
-        if daily_reset:
-            reset_time = datetime.fromtimestamp(int(daily_reset), tz=timezone.utc).strftime("%H:%M:%S UTC")
-            print(f" (resets {reset_time})", end="")
-        print()
 
-    if response.status_code == 429:
-        body = response.text[:500] if response.text else "(empty body)"
-        raise RateLimitError(f"X API rate limit hit (429). {daily_remaining or '?'}/{daily_limit or '?'} daily posts remaining. Body: {body}")
+    for attempt in range(MAX_RETRIES + 1):
+        response = session.post(f"{API_BASE}/tweets", json=payload)
 
-    if response.status_code >= 500:
-        body = response.text[:500] if response.text else "(empty body)"
-        raise TemporaryError(f"X API server error ({response.status_code}): {body}")
+        daily_remaining = response.headers.get("x-app-limit-24hour-remaining")
+        daily_limit = response.headers.get("x-app-limit-24hour-limit")
+        daily_reset = response.headers.get("x-app-limit-24hour-reset")
+        if daily_remaining and daily_limit:
+            print(f"  Daily limit: {daily_remaining}/{daily_limit} remaining", end="")
+            if daily_reset:
+                reset_time = datetime.fromtimestamp(int(daily_reset), tz=timezone.utc).strftime("%H:%M:%S UTC")
+                print(f" (resets {reset_time})", end="")
+            print()
 
-    # Cloudflare challenge pages return HTML instead of JSON (usually 403)
-    # This is temporary — real X API errors return JSON
-    content_type = response.headers.get("content-type", "")
-    if "text/html" in content_type or (response.text and response.text.strip().startswith("<!DOCTYPE")):
-        raise TemporaryError(f"Cloudflare challenge or proxy block ({response.status_code}): {response.text[:200]}")
+        if response.status_code == 429:
+            body = response.text[:500] if response.text else "(empty body)"
+            raise RateLimitError(f"X API rate limit hit (429). {daily_remaining or '?'}/{daily_limit or '?'} daily posts remaining. Body: {body}")
+
+        # Check for temporary errors (5xx or Cloudflare HTML)
+        is_server_error = response.status_code >= 500
+        content_type = response.headers.get("content-type", "")
+        is_cloudflare = "text/html" in content_type or (response.text and response.text.strip().startswith("<!DOCTYPE"))
+
+        if is_server_error or is_cloudflare:
+            if attempt < MAX_RETRIES:
+                delay = RETRY_DELAYS[attempt]
+                reason = f"server error ({response.status_code})" if is_server_error else f"Cloudflare block ({response.status_code})"
+                print(f"  ⏳ {reason}, retrying in {delay}s (attempt {attempt + 1}/{MAX_RETRIES})...")
+                time.sleep(delay)
+                continue
+            # All retries exhausted
+            body = response.text[:200] if response.text else "(empty body)"
+            if is_server_error:
+                raise TemporaryError(f"X API server error ({response.status_code}) after {MAX_RETRIES} retries: {body}")
+            raise TemporaryError(f"Cloudflare block ({response.status_code}) after {MAX_RETRIES} retries: {body}")
+
+        # Not a temporary error — break out of retry loop
+        break
 
     try:
         data = response.json()
