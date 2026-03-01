@@ -154,6 +154,12 @@ def post_tweet(session, text, reply_to=None):
         body = response.text[:500] if response.text else "(empty body)"
         raise TemporaryError(f"X API server error ({response.status_code}): {body}")
 
+    # Cloudflare challenge pages return HTML instead of JSON (usually 403)
+    # This is temporary — real X API errors return JSON
+    content_type = response.headers.get("content-type", "")
+    if "text/html" in content_type or (response.text and response.text.strip().startswith("<!DOCTYPE")):
+        raise TemporaryError(f"Cloudflare challenge or proxy block ({response.status_code}): {response.text[:200]}")
+
     try:
         data = response.json()
     except Exception:
