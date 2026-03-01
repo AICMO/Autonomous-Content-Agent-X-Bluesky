@@ -8,21 +8,20 @@ user-invocable: false
 
 > Core principles for creating content that grows audience
 
-## Current Constraint: Premium Blocker
+## Premium Status: ACTIVE ($20/mo, activated 2026-03-01)
 
-**Free X accounts have 0% median engagement** (Buffer study + our data).
-- 530+ tweets posted, 16 followers, +4/week velocity (Week 7)
-- Average post: ~10 impressions
-- Communities blocked (30,000x multiplier unavailable)
-- At +4/week = 24 years to 5K followers (need Premium for 2-4 month path)
+X Premium is live. All Premium features unlocked:
+- Communities access (30,000x reach multiplier)
+- +100 TweepCred boost (escaped suppression)
+- 10x algorithmic reach
+- Link posting without suppression
+- Reply visibility boost
 
-**Until X Premium activates:**
-1. Drain X queue to <15 (no new content creation when any queue >15)
-2. Focus on non-content work (memory cleanup, skill refinement, Premium prep)
-3. Max 30% research sessions (content library sufficient at 36KB)
-4. Bluesky has no premium blocker — posts reach audience immediately
-
-**When Premium activates:** Execute `agent/outputs/premium-activation-playbook.md` (Day 1 setup guide)
+**Current priorities (Premium era):**
+1. **Create content aggressively** — X queue is empty, fill it
+2. Post to Communities (Build in Public, AI/ML Builders, etc.)
+3. Reply to own comments within 30 min (150x multiplier)
+4. Continue cross-posting to Bluesky
 
 ---
 
@@ -77,6 +76,39 @@ Every post MUST have all three:
 1. **Trending tools + repos with money proof** (50%+ of content)
 2. **"How people are making money" breakdowns** (30%)
 3. **Personal experience / BIP connecting to trends** (20%)
+
+### Predictions & Opinions (20-30% of content)
+
+**Don't just report news — predict where it's going and what it means for business.**
+
+Every prediction post MUST have:
+1. **A bold stance** — take a side, don't hedge ("I think" > "it remains to be seen")
+2. **Business impact** — how does this help/hurt real companies making money?
+3. **Timeline** — when will this happen? (6 months, 1 year, 3 years)
+
+**Prediction formulas:**
+- "[News event] means [prediction]. Here's why: [reasoning]. Timeline: [when]."
+- "Everyone's talking about [trend]. Nobody's asking: [deeper question]. My take: [opinion]."
+- "[Technology] will [prediction] within [timeframe]. Here's what that means for [industry/business]."
+- "Unpopular opinion: [contrarian take]. The data says [evidence]. Businesses should [action]."
+- "3 things that will change about [domain] by [year]: 1. [prediction] 2. [prediction] 3. [prediction]"
+
+**Examples:**
+- "OpenAI raised $110B. My prediction: within 18 months, 80% of SaaS companies will either embed AI or die. Here's why the math is brutal..."
+- "Everyone's hyped about vibe coding. Nobody's asking: what happens to code quality at scale? My take: we'll see a wave of AI-generated technical debt by 2027."
+- "Agent Mode isn't just a feature. It's the end of per-seat SaaS pricing. Companies charging $50/seat will compete against AI agents at $0.10/task. Timeline: 12-18 months."
+- "Call center AI will automate 80% of Tier 1 support by 2028. But here's what nobody tells you: the remaining 20% becomes 10x harder. That's where the money is."
+
+**Use author's expertise for credible predictions:**
+- Voice AI / call centers (7 years production = earned right to predict)
+- Autonomous agents (this repo = living proof)
+- Infrastructure → AI migration (career arc = trend visibility)
+- Startup economics (15+ years = pattern recognition)
+
+**What NOT to do with predictions:**
+- Wishy-washy "time will tell" conclusions — commit to a position
+- Predictions without business/money angle — always answer "so what for my business?"
+- Fear-mongering without actionable advice — pair warnings with what to do about it
 
 ### What NOT to Post Anymore
 
@@ -190,11 +222,10 @@ find agent/outputs/bluesky -maxdepth 1 -name "*.txt" -type f | wc -l
 - **Evidence (Week 7)**: Sessions #267-270 (March 1) created 4 consecutive state-only PRs consuming 4/10 daily PR budget with zero productive output
 - A session with nothing to commit should skip PR creation entirely
 
-**Bluesky growth priority (while X Premium is blocked):**
-- Bluesky has NO Premium blocker — posts reach audience immediately
-- Cross-posting is operational (same content, both platforms)
-- Bluesky is the primary growth-possible platform until X Premium activates
-- **Evidence (Week 5)**: +5 followers (7->12), 5x velocity improvement despite no X Premium
+**Dual-platform growth (Premium active):**
+- X is now primary growth platform (Premium unlocks reach)
+- Bluesky remains secondary — continue cross-posting
+- Communities posting is highest priority for X growth
 
 ---
 
@@ -496,6 +527,18 @@ Always add your own angle. Credit source. Connect to your domain.
 - **Use when**: Sharing pivots, strategy changes, A/B test results
 - **Example**: "Stopped long authority threads. Now: news hooks + dollar amounts + name drops. Result: 65 impressions (vs 10 avg)."
 
+### 15. Prediction Post (Owner directive)
+**Template**: "[News/trend]. My prediction: [bold take]. Timeline: [when]. Why: [reasoning]. What businesses should do: [action]."
+- **Bucket**: Authority / Shareability
+- **Use when**: Any trending topic — add a future-looking opinion instead of just reporting
+- **Example**: "ChatGPT Agent Mode just launched. My prediction: 60% of knowledge workers will have a personal AI agent by 2028. Why: the ROI is undeniable — $50/mo vs $50/hr. Businesses should start building agent-ready workflows NOW, not in 2 years."
+
+### 16. Business Use Case Breakdown (Owner directive)
+**Template**: "[Technology/trend] + [industry] = [specific use case]. Here's how it works: [explanation]. Revenue impact: [estimate]."
+- **Bucket**: Authority
+- **Use when**: Connecting AI trends to real business applications
+- **Example**: "Vibe coding + call center QA = automated agent coaching scripts. Instead of 3 weeks to write training scenarios, generate 100 in an hour. For a 500-seat center, that's $200K/year saved on training content alone."
+
 **Template Usage Notes:**
 - Use variety — don't repeat same template 3+ times in a row
 - Templates are guides, not scripts — adapt to voice
@@ -535,8 +578,7 @@ Always add your own angle. Credit source. Connect to your domain.
 - Threads (4-6 tweets) = 40-60% more reach
 
 **What hurts reach:**
-- Free account (0% median engagement as of March 2026)
-- External links (algorithm downgrades, especially free accounts)
+- External links (algorithm can downgrade, use sparingly)
 - Heavy hashtags
 - Posting and leaving (no engagement)
 - Stale replies (>24h after original, 50% visibility loss every 6h)
@@ -552,20 +594,16 @@ Always add your own angle. Credit source. Connect to your domain.
 
 ---
 
-## When Premium Activates
+## Premium Active — Growth Phase (Week 1-2)
 
-**Day 1 (45-60 min setup):**
-1. Activate Premium ($8/mo)
-2. Join 6 Communities (Build in Public, AI/ML Builders, Startup Founders, Call Center AI, Infrastructure→AI, Indie Hackers)
-3. Update profile (bio, pinned tweet, optional banner)
-4. Start manual Communities posting workflow
+**Premium activated 2026-03-01 ($20/mo).**
 
-**Week 1-2 (validation):**
-- Post 100% content to Communities (not timeline)
-- Reply to ALL own comments within 30 min
-- Create 5-10 replies/session to larger accounts
-- Track follower growth (target: 50-100 in 2 weeks vs 0.75/day baseline)
-- Monitor profile conversion rate (target: 15-20%)
+**Immediate priorities:**
+1. Join 6 Communities (Build in Public, AI/ML Builders, Startup Founders, Call Center AI, Infrastructure→AI, Indie Hackers)
+2. Post 100% content to Communities (not just timeline)
+3. Reply to ALL own comments within 30 min (150x multiplier)
+4. Create 5-10 replies/session to larger accounts
+5. Track follower growth (target: 50-100 in 2 weeks vs 0.75/day baseline)
 
 **Week 3-4 (scale):**
 - Validate hypotheses, graduate patterns to skills

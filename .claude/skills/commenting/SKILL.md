@@ -55,7 +55,7 @@ Commenting turns visibility into connections. Publishing broadcasts; commenting 
 - Time to time, include 1-2 replies per session to re-validate engagement data. Track impressions to confirm whether queue delay still kills value.
 - **Hard rule:** Never create replies when total pending reply count ≥ 3 (Session #208 learning: 8 queued replies all likely stale by post time).
 
-**When Premium activates:** Manual engagement becomes viable. Reply-to-own-comments within 30 min = 150x multiplier. Communities replies within 2-6h = still valuable (community feeds have longer shelf life).
+**Premium is now active:** Manual engagement is viable. Reply-to-own-comments within 30 min = 150x multiplier. Communities replies within 2-6h = still valuable (community feeds have longer shelf life).
 
 ---
 
@@ -186,7 +186,7 @@ Extract tweet ID from URL (x.com/user/status/**1234567890**)
 - Engagement rate: 3-5% (vs 0.4% free account)
 - Impressions per post: 500-2000 (vs 10 baseline)
 
-**Current blocker:** Premium not activated. This protocol goes live Day 1 when Premium activates.
+**Status:** Premium ACTIVE (2026-03-01). This protocol is now live.
 
 **Reference:** `agent/outputs/premium-activation-playbook.md` (full Day 1 workflow)
 
@@ -252,6 +252,41 @@ Before posting ANY reply:
 - Desperation ("Please follow me")
 - Stale replies (>24h old)
 - Long essays (save for your posts)
+
+### Predictive & Opinionated Replies (30%+ of replies)
+
+**Don't just agree or add context — predict where things are headed and state opinions.**
+
+Opinionated replies stand out because 90% of replies are generic agreement. Taking a stance invites reply-to-reply (75x multiplier) and makes people click your profile.
+
+**Reply patterns for predictions/opinions:**
+
+1. **"This means..." reply** — Connect their news to a future consequence
+   - Someone posts about OpenAI's $110B raise
+   - Reply: "This means AI infrastructure becomes a utility within 2 years. $840B valuation = they're pricing in replacing entire SaaS categories, not just adding features."
+
+2. **"What nobody's saying..." reply** — Add the angle everyone missed
+   - Someone posts about vibe coding adoption
+   - Reply: "What nobody's saying: 92% adoption means we'll see a wave of AI-generated technical debt by 2027. The companies that survive will be the ones who can audit and refactor AI code at scale."
+
+3. **"Here's what this means for [business]..." reply** — Make it practical
+   - Someone posts about ChatGPT Agent Mode
+   - Reply: "For call centers specifically: Agent Mode + voice = 80% of Tier 1 calls handled without humans by 2028. The $200K question: who retrains the workforce?"
+
+4. **"Disagree — here's why..." reply** — Respectful contrarian take
+   - Someone says AI will replace developers
+   - Reply: "Disagree. AI replaces coding, not engineering. The 67% vs 95% accuracy gap I see in production tells me judgment calls still need humans. What changes: the 10x engineer becomes 100x."
+
+5. **"In [timeframe], we'll see..." reply** — Concrete prediction with timeline
+   - Someone posts about AI investment records
+   - Reply: "In 18 months, we'll see the first AI-native Fortune 500 company with <100 employees. The $195B invested this month is building that future. Question is: which industry falls first?"
+
+**Rules for opinionated replies:**
+- **Commit to a position** — no "time will tell" hedging
+- **Add a business angle** — how does this affect companies making money?
+- **Include a timeline when possible** — "by 2028" > "eventually"
+- **Back it up** — use your experience (7 years Voice AI, 500K+ interactions, 15 years startups)
+- **Ask a follow-up question** — invites reply-to-reply (75x multiplier)
 
 ### Diversify Reply Angles
 
@@ -382,7 +417,7 @@ Reason: If queue-drain has stalled (Bluesky sits at 15 all day), new replies wil
 - Scales with every post (not limited like Communities)
 - Drives reciprocal engagement (people reply to your reply)
 
-**Current blocker:** Free accounts get minimal reach regardless. This protocol becomes critical when Premium activates.
+**Status:** Premium ACTIVE. This protocol is now live — execute on every post.
 
 ---
 

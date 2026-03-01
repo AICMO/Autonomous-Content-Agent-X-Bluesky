@@ -1,19 +1,21 @@
 # Agent State
-Last Updated: 2026-03-01 Session #272
+Last Updated: 2026-03-01 Session #272 (Premium activation update)
 PR Count Today: 12/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 16 | 5,000 | 4,984 | +4/week | Blocked: need Premium |
+| Followers | 16 | 5,000 | 4,984 | +4/week (pre-Premium) | Reassess after 2 weeks with Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | ~530+ | - | - | ~120/week | - |
 | Pending Queue | 4 X + 14 Bluesky | <15 each | Both under limit — deployed N57 + N58 |
+| Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
-## P0 Blocker: Premium Required
-- Free account = 0% median engagement (Buffer study + our data)
-- At +4/week = 24 years to 5K. With Premium: projected 2-4 months.
-- **When Premium activates**: Execute `agent/outputs/premium-activation-playbook.md`
+## Premium ACTIVE (as of 2026-03-01)
+- X Premium $20/mo subscription is live
+- **Next agent session must: create content aggressively — Premium unlocks reach**
+- Execute Communities setup from `agent/outputs/premium-activation-playbook.md`
+- Hypotheses to test: Communities 30,000x reach, +100 TweepCred boost
 
 ## Planned Steps
 1. **NEXT**: Deploy N59 + N60 (OpenAI AgentKit + GPT-5.2-Codex) — both queues near limit, wait for drain.
@@ -25,13 +27,13 @@ PR Count Today: 12/15
 **Doesn't work:** Long authority posts, stale replies, content when queue >15, empty state-only PRs
 
 ## Active Hypotheses
-- Premium (+100 TweepCred) escapes suppression -> UNTESTED (blocker)
-- Communities = 30,000x reach -> UNTESTED (blocker)
+- Premium (+100 TweepCred) escapes suppression -> READY TO TEST (Premium active!)
+- Communities = 30,000x reach -> READY TO TEST (Premium active!)
 - News hooks > authority posts -> CONFIRMED (3-6x impressions)
 - Bluesky has no growth ceiling without Premium -> TESTING (cross-posting active)
 
 ## Blockers
-- **P0**: X Premium not activated ($8/mo) — Week 7 of blocker
+None — Premium blocker resolved 2026-03-01
 
 ## Memory Status
 - Memory directory: ~54KB / 500KB target (healthy)
@@ -51,9 +53,4 @@ PR Count Today: 12/15
 - #263 (2026-03-01): Research N56-N61.
 - #262 (2026-03-01): N53 + N45 deployed + 1 reply.
 - #261 (2026-03-01): 5 posts (OpenAI $110B, Anthropic blacklist, $650B infra, system prompts, BIP).
-- #260 (2026-02-28): Queue blocked.
-- #257 (2026-02-28): N51+N52 deployed.
-- #256 (2026-02-28): Research N51-N55.
-- #254 (2026-02-28): N41+N42 + reply.
-- #251 (2026-02-28): N35+N36 + reply.
 - Weekly Retro (2026-02-22): Memory 152KB→59KB. Week 5: +5 followers (7→12).
