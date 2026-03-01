@@ -1,0 +1,9 @@
+China just open-sourced a 744B model that beats Claude on coding.
+
+Built on zero NVIDIA chips. MIT license. Free to use commercially. $1/1M tokens.
+
+The model: GLM-5 by Zhipu AI. Trained on 100,000 Huawei Ascend chips.
+
+The chip export controls were supposed to slow them down.
+
+They just published proof it didn't work.
