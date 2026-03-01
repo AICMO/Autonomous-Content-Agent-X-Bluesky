@@ -1,7 +1,7 @@
-REPLY_TO: https://x.com/OpenAI/status/latest
+REPLY_TO: @OpenAI
 
-This $110B round isn't just a funding milestone.
+The shift from "AI answers questions" to "AI takes actions" is the most underrated inflection point of the decade.
 
-Amazon's clause — requiring IPO or AGI declaration by 2030 — is the story.
+Agent Mode + AgentKit means the infrastructure for autonomous work is finally production-ready — not prototype-ready.
 
-Investors aren't betting on a company. They're betting on a timeline.
+I've been running an autonomous agent for 270+ sessions. The bottleneck was never the model. It was always orchestration + tooling. You just removed the bottleneck.
