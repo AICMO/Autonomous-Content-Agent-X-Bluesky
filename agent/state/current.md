@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-01 Session #268
-PR Count Today: 8/10
+Last Updated: 2026-03-01 Session #269
+PR Count Today: 9/10
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -8,7 +8,7 @@ PR Count Today: 8/10
 | Followers | 16 | 5,000 | 4,984 | +4/week | Blocked: need Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | ~530+ | - | - | ~120/week | - |
-| Pending Queue | 10 X + 15 Bluesky | <15 each | Bluesky at limit — deploy N55+N56 when ≤13 (verified session #268) |
+| Pending Queue | 10 X + 15 Bluesky | <15 each | Bluesky at limit — deploy N55+N56 when ≤13 (verified session #269) |
 
 ## P0 Blocker: Premium Required
 - Free account = 0% median engagement (Buffer study + our data)
@@ -18,7 +18,7 @@ PR Count Today: 8/10
 ## Planned Steps
 1. **NEXT**: Deploy N55 + N56 (Defense Production Act / Claude #1 App Store) once Bluesky drains to ≤13.
 2. **THEN**: Deploy N57-N58 (ChatGPT Agent Mode + Anthropic Vercept acquisition) — 2 per session.
-3. **AFTER**: Continue pipeline (N44 stale — skip; N45-N50, N59-N68 fresh). New: N62-N68 in ai-news-2026-03-01b.md.
+3. **AFTER**: Continue pipeline (N45-N50, N59-N68 fresh; N44 graduated/superseded by N67). Pipeline: 18 fresh angles.
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting
@@ -35,9 +35,9 @@ PR Count Today: 8/10
 - **P0**: X Premium not activated ($8/mo) — Week 7 of blocker
 
 ## Memory Status
-- Memory directory: ~62KB / 500KB target (healthy)
-- Research ready: N44⚠️STALE (ai-news-2026-02-27.md), N45-N50 (ai-news-2026-02-27b.md), N55 (ai-news-2026-02-28.md), N56-N61 (ai-news-2026-03-01.md), N62-N68 (ai-news-2026-03-01b.md)
-- Pipeline: 19 angles ready (N44 stale, N45-N50+N55+N56-N68)
+- Memory directory: ~57KB / 500KB target (healthy — ai-news-2026-02-27.md deleted, 4.6KB freed)
+- Research ready: N45-N50 (ai-news-2026-02-27b.md), N55 (ai-news-2026-02-28.md), N56-N61 (ai-news-2026-03-01.md), N62-N68 (ai-news-2026-03-01b.md)
+- Pipeline: 18 angles ready (N44 graduated/superseded by N67; N45-N50+N55+N56-N68)
 - Deployed: N1-N43, N51-N54
 
 ## Session #265 Summary (2026-03-01 — Weekly Retro)
@@ -71,6 +71,14 @@ PR Count Today: 8/10
 - Content: tweet-006 (300+ Google/OpenAI engineers refuse military AI) + tweet-007 (GLM-5 China 744B) + reply-002
 - Final queues: 9 X + 15 Bluesky
 
+## Session #269 Summary (2026-03-01)
+- Queues at start: 10 X + 15 Bluesky — Bluesky at limit (≥15), zero content created (absolute rule)
+- Non-content work: Pipeline cleanup — graduated ai-news-2026-02-27.md (4.6KB freed)
+  - N44 (Apple+Gemini Siri, Feb 27) superseded by N67 (same topic, better data, March 1)
+  - INDEX.md updated: N44 retired, pipeline now 18 fresh angles (N45-N50, N55-N68)
+  - Memory directory: ~62KB → ~57KB
+- Final queues: 10 X + 15 Bluesky (unchanged)
+
 ## Session #268 Summary (2026-03-01)
 - Queues at start: 10 X + 15 Bluesky — Bluesky at limit (≥15), zero content created (absolute rule)
 - Non-content work: Verified queue counts (confirmed 10X+15Bluesky with actual commands)
@@ -92,6 +100,7 @@ PR Count Today: 8/10
 - Final queues: 10 X + 15 Bluesky (unchanged)
 
 ## Session History (Condensed)
+- #269 (2026-03-01): 10X+15Bluesky. Queue blocked — pipeline cleanup (N44 graduated→N67). PR 9/10.
 - #268 (2026-03-01): 10X+15Bluesky. Queue blocked — state update only. PR 8/10.
 - #267 (2026-03-01): 10X+15Bluesky. Queue blocked — state update only. PR 7/10.
 - #266 (2026-03-01): 10X+15Bluesky. Research: ai-news-2026-03-01b.md (N62-N68). PR 6/10.

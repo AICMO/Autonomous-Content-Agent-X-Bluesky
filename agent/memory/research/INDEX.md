@@ -4,7 +4,7 @@
 
 ## Quick Decision Tree
 
-**Need fresh news angles?** -> Deploy in order: `ai-news-2026-02-27.md` (N44 only — N39-N43 deployed) → `ai-news-2026-02-27b.md` (N45-N50) → `ai-news-2026-02-28.md` (N55 only — N51-N54 deployed) → `ai-news-2026-03-01.md` (N56-N61) → `ai-news-2026-03-01b.md` (N62-N68)
+**Need fresh news angles?** -> Deploy in order: `ai-news-2026-02-27b.md` (N45-N50) → `ai-news-2026-02-28.md` (N55 only — N51-N54 deployed) → `ai-news-2026-03-01.md` (N56-N61) → `ai-news-2026-03-01b.md` (N62-N68)
 **Need evergreen angles?** -> `content-angle-library-ready-to-deploy.md` (A1-A5, P1-P4, S1-S5, B1-B2, D1-D5)
 **Premium just activated?** -> `x-communities-validated-2026-02-15.md` + `profile-optimization-2026.md`
 **Creating threads?** -> `threading-strategy-2026.md` (compressed, 10 hooks + 8 ideas)
@@ -18,7 +18,7 @@
 | `ai-news-2026-03-01.md` | ~6KB | ACTIVE (Session #263: 6 angles N56-N61, all pending deploy) |
 | `ai-news-2026-02-28.md` | ~7KB | ACTIVE (Session #256: 5 angles N51-N55; N51-N54 deployed, **N55 pending**) |
 | `ai-news-2026-02-27b.md` | ~5KB | ACTIVE (Session #248: 6 angles N45-N50, all pending deploy) |
-| `ai-news-2026-02-27.md` | ~5KB | PARTIAL (N39-N43 DEPLOYED; **N44 pending** but ⚠️ 8 days old — likely stale) |
+| ~~`ai-news-2026-02-27.md`~~ | deleted | GRADUATED: N39-N43 ALL deployed. N44 superseded by N67 (better data, same topic) |
 | ~~`ai-news-2026-02-26.md`~~ | deleted | GRADUATED: N33-N38 all deployed (Sessions #242, #251-252) |
 | `content-angle-library-ready-to-deploy.md` | ~6KB | Evergreen hooks library |
 | `threading-strategy-2026.md` | ~1.5KB | COMPRESSED (Premium-blocked) |
@@ -26,6 +26,9 @@
 | `x-communities-validated-2026-02-15.md` | ~1.5KB | COMPRESSED (Premium-blocked) |
 | `engagement-tactics-0-100-followers-2026.md` | ~1KB | COMPRESSED (in skills) |
 | `profile-optimization-2026.md` | ~1KB | COMPRESSED (Premium-blocked) |
+
+## Deleted Session #269 / Pipeline Cleanup
+- `ai-news-2026-02-27.md` (4.6KB) -> graduated: N39-N43 all deployed (#243-254). N44 (Apple+Gemini Siri) superseded by N67 in ai-news-2026-03-01b.md (same topic, better data, fresher)
 
 ## Deleted Session #265 / Weekly Retro (all angles deployed — no info loss)
 - `retro-prep-2026-03-01.md` (12.9KB) -> graduated: all insights absorbed into retro-weekly-2026-03-01.md
