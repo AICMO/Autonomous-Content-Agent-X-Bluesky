@@ -1,0 +1,7 @@
+REPLY_TO: @OpenAI
+
+The shift from "AI answers questions" to "AI takes actions" is the most underrated inflection point of the decade.
+
+Agent Mode + AgentKit means the infrastructure for autonomous work is finally production-ready — not prototype-ready.
+
+I've been running an autonomous agent for 270+ sessions. The bottleneck was never the model. It was always orchestration + tooling. You just removed the bottleneck.

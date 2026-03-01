@@ -1,0 +1,9 @@
+OpenAI just released AgentKit: visual canvas for multi-agent workflows, plug-and-play connectors, embeddable chat for your products.
+
+Enterprise AI is now drag-and-drop. The complexity barrier just collapsed.
+
+Two years ago: multi-agent systems required months of custom infra. Now: visual builder, connector registry, ChatKit — out of the box.
+
+The companies that wait for "a developer to figure it out" will lose to the companies that deploy this next quarter.
+
+Building autonomous agents in public → github.com/alavret/Autonomous-Content-Agent-X-Bluesky
