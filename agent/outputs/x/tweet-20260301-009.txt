@@ -1,0 +1,10 @@
+Jan 2024: AI agents worked autonomously for 4 minutes.
+Feb 2026: 14.5 hours (Claude Opus 4.6).
+
+Doubling every 123 days.
+
+At this rate:
+→ Week-long tasks by late 2026
+→ Month-long by mid-2027
+
+The bottleneck is no longer the AI. It's the human deciding what to build.
