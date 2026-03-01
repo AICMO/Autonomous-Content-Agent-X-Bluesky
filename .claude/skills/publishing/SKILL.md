@@ -549,20 +549,104 @@ Always add your own angle. Credit source. Connect to your domain.
 
 ---
 
+## Anti-AI Writing Rules (MANDATORY)
+
+**Every piece of content MUST pass as human-written. AI-generated text is instantly recognizable and kills trust. These rules override all templates above.**
+
+Source: Evan Edinger "I Can Spot AI Writing Instantly" + anti-detection research.
+
+### BANNED Patterns (never use these)
+
+1. **Em dash abuse (—):** Never use em dashes to join clauses. Use periods, commas, or semicolons instead.
+   - BAD: "This tool is powerful — it changed everything"
+   - GOOD: "This tool is powerful. It changed everything."
+
+2. **"Not just X, it's Y" structure:** This is the #1 AI tell. Never use it.
+   - BAD: "AI isn't just a tool — it's a revolution"
+   - BAD: "This isn't just about automation, it's about freedom"
+   - GOOD: "AI changes how we build. Period."
+
+3. **Perfect rule-of-three lists:** AI groups everything in threes with parallel structure. Break the pattern.
+   - BAD: "...conveying emotion, telling a story, and creating a visually compelling image"
+   - GOOD: "It conveys emotion. Tells a story. And sometimes the image just hits different."
+
+4. **Banned words/phrases** (AI overuses these, humans almost never say them):
+   - "Delve," "elevate," "innovative," "tapestry," "realm," "landscape," "leverage," "robust," "holistic," "comprehensive," "cutting-edge," "game-changer," "paradigm"
+   - "Practical solutions," "in today's digital age," "it's important to note," "at the end of the day"
+   - "Furthermore," "moreover," "additionally" as transitions
+   - "Let's dive in," "without further ado," "buckle up"
+
+5. **Exaggerated praise / corporate kindness:** Never over-compliment.
+   - BAD: "This was genuinely captivating with vivid storytelling"
+   - GOOD: "I liked the part about [specific thing]"
+
+6. **Constant clarification:** Never restate what you just said.
+   - NEVER USE: "To clarify," "In other words," "To put it simply," "What I mean is"
+
+7. **Forced analogies:** No lighthouse-in-fog metaphors. If the analogy doesn't come naturally, skip it.
+
+8. **The LinkedIn format:** Never structure posts as: hook + ethos + bullet list + result + conclusion. Break the formula.
+
+9. **Uniform sentence length:** Vary your sentences dramatically. Short. Then a longer one that builds on the thought. Then short again.
+
+10. **Summarizing at the end:** Never wrap up with "So, in conclusion..." or "The takeaway here is..." Just stop when you're done.
+
+### REQUIRED Human Patterns (always do these)
+
+1. **Personal anecdotes ("I" factor):** Reference specific experiences, places, people, numbers from the author's life.
+   - "After 7 years building Voice AI, I still get surprised by..."
+   - "We hit 500K interactions at Ender Turing before I noticed..."
+   - Use SPECIFIC details, not generic ones.
+
+2. **Go on tangents:** Briefly mention a side thought or connection that isn't strictly necessary. Humans do this. AI doesn't.
+   - "(Side note: this reminds me of how network engineering taught me to think about failure modes)"
+
+3. **Use idioms and shortcuts:** Use casual phrasing, contractions, fragments.
+   - "Hats off" not "I have to take my hat off to you"
+   - "Shipped it" not "Successfully deployed the solution"
+   - Use contractions: "don't," "can't," "it's," "won't"
+
+4. **Be specific, not vague:** Name real tools, real numbers, real companies, real people.
+   - BAD: "Many companies are seeing great results with AI"
+   - GOOD: "Ender Turing cut QA review time by 60% in 3 months"
+
+5. **Have an opinion:** Every post should have a clear stance. Don't hedge.
+   - BAD: "Time will tell how this impacts the industry"
+   - GOOD: "This kills per-seat SaaS. I'd bet on it."
+
+6. **Vary tone within a post:** Mix casual and technical. Mix serious and slightly irreverent.
+
+7. **Use sentence fragments:** "Not kidding." "Zero." "Wild." Humans use these. AI avoids them.
+
+8. **Start sentences with "And" or "But":** AI rarely does this. Humans do it constantly.
+
+### The Vibe Check (Final Gate)
+
+Before committing ANY content, re-read it and ask:
+- Does this sound like a real person typed it, or a chatbot?
+- Is there any sentence that's "lots of words but no real substance"? Cut it.
+- Would I say this out loud to a colleague? If not, rewrite it.
+- Does every sentence add new information or personality? If not, delete it.
+
+**If a post fails the vibe check, rewrite from scratch. Don't polish AI slop.**
+
+---
+
 ## Content Creation Checklist
 
 **Before committing any content, verify:**
 
 1. **Queue check**: Queue > 15? If yes, STOP — create zero content.
 2. **Quality gate**: Would a stranger follow based on this post alone?
-3. **Value type**: Content value OR outcome value? Never both. Link = outcome value only.
-4. **Link allocation**: Only ~20% include links. Check last 4 posts — if all had links, this must not.
-5. **Angle diversity**: Max 50% about agent. Check last 2 posts — if both agent-focused, write about something else.
-6. **BIP balance**: Is BIP content at least 25% of recent output?
-7. **Category**: Authority / Personality / Shareability. Avoid imbalance.
-8. **Hook**: Does first line stop the scroll? Apply formula.
-9. **Length**: Write as long as content needs — concise and valuable (not padded). Check `X_MAX_TWEET_LENGTH` var.
-10. **Bluesky version**: Did you create a Bluesky version? Must be under 280 characters (hard target). Same file name in `agent/outputs/bluesky/`.
+3. **Anti-AI check**: Does it pass the vibe check? No banned patterns? Has personal/specific details?
+4. **Value type**: Content value OR outcome value? Never both. Link = outcome value only.
+5. **Link allocation**: Only ~20% include links. Check last 4 posts — if all had links, this must not.
+6. **Angle diversity**: Max 50% about agent. Check last 2 posts — if both agent-focused, write about something else.
+7. **BIP balance**: Is BIP content at least 25% of recent output?
+8. **Category**: Authority / Personality / Shareability. Avoid imbalance.
+9. **Hook**: Does first line stop the scroll? Apply formula.
+10. **Length**: Write as long as content needs — concise and valuable (not padded). Check `X_MAX_TWEET_LENGTH` var.
+11. **Bluesky version**: Did you create a Bluesky version? Must be under 280 characters (hard target). Same file name in `agent/outputs/bluesky/`.
 
 ---
 

@@ -196,12 +196,37 @@ Extract tweet ID from URL (x.com/user/status/**1234567890**)
 
 ## Writing Good Replies
 
+### Anti-AI Reply Rules (MANDATORY)
+
+Replies are where AI detection is MOST obvious. A generic, polished reply screams "bot."
+
+**Never use in replies:**
+- Em dashes (—) to join clauses
+- "Not just X, it's Y" structure
+- "Delve," "elevate," "innovative," "landscape," "leverage," "robust"
+- "To clarify," "In other words," "To put it simply"
+- "Great point! Furthermore..." (corporate-kindness + formal transition)
+- Summarizing their post back to them
+
+**Always do in replies:**
+- Use contractions ("don't," "isn't," "can't")
+- Use sentence fragments ("Wild." "Not even close." "Zero chance.")
+- Start with "And" or "But" sometimes
+- Reference something SPECIFIC they said (not their whole post)
+- Have an opinion. Don't hedge with "time will tell"
+- Keep it casual. Write like you're texting a smart friend, not writing an essay.
+
+**BAD reply:** "Great insight! This is genuinely compelling. The intersection of AI and enterprise adoption represents a fascinating paradigm shift. To put it simply, we're witnessing the beginning of a new era."
+
+**GOOD reply:** "We saw this exact pattern at Ender Turing. Call centers that adopted AI coaching hit 20% CSAT gains. But the ones that didn't retrain managers? Worse than before. The tool isn't the hard part."
+
 ### The Value Test (Quality Gate)
 
 Before posting ANY reply:
 - Does this add insight the OP missed?
 - Would someone click my profile after reading this?
 - Is this better than 90% of comments on this post?
+- Does it sound like a real person wrote it? (Vibe check)
 
 **If NO to any → don't post.**
 
