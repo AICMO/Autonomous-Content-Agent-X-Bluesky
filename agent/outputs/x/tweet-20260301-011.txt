@@ -1,0 +1,7 @@
+Anthropic just bought the startup that teaches AI to use your computer like a human.
+
+OSWorld score: 72.5% (was <15% in 2024). In 18 months.
+
+Claude can now use Excel, Slack, and your browser — unsupervised.
+
+AI agents taking over knowledge work is no longer theoretical.

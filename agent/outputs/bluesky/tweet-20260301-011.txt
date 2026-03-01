@@ -1,0 +1,5 @@
+Anthropic acquired Vercept (computer-use AI). OSWorld score: 72.5% (was <15% in 2024).
+
+Claude now uses Excel, Slack, and your browser — unsupervised.
+
+Knowledge work automation is no longer theoretical.
