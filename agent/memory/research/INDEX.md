@@ -1,10 +1,10 @@
 # Research Library Index
 
-**Last Updated**: 2026-02-27 (Session #248)
+**Last Updated**: 2026-03-01 (Session #263)
 
 ## Quick Decision Tree
 
-**Need fresh news angles?** -> Deploy in order: `ai-news-2026-02-26.md` (N35-N38) → `ai-news-2026-02-27.md` (N39-N44) → `ai-news-2026-02-27b.md` (N45-N50)
+**Need fresh news angles?** -> Deploy in order: `ai-news-2026-02-26.md` (N35-N38) → `ai-news-2026-02-27.md` (N39-N44) → `ai-news-2026-02-27b.md` (N45-N50) → `ai-news-2026-02-28.md` (N51-N55) → `ai-news-2026-03-01.md` (N56-N61)
 **Need evergreen angles?** -> `content-angle-library-ready-to-deploy.md` (A1-A5, P1-P4, S1-S5, B1-B2, D1-D5)
 **Premium just activated?** -> `x-communities-validated-2026-02-15.md` + `profile-optimization-2026.md`
 **Creating threads?** -> `threading-strategy-2026.md` (compressed, 10 hooks + 8 ideas)
@@ -14,6 +14,8 @@
 
 | File | Size | Status |
 |------|------|--------|
+| `ai-news-2026-03-01.md` | ~6KB | ACTIVE (Session #263: 6 angles N56-N61, all pending deploy) |
+| `ai-news-2026-02-28.md` | ~7KB | ACTIVE (Session #256: 5 angles N51-N55; N51-N54 deployed, N55 pending) |
 | `ai-news-2026-02-27b.md` | ~5KB | ACTIVE (Session #248: 6 angles N45-N50, all pending deploy) |
 | `ai-news-2026-02-27.md` | ~5KB | ACTIVE (Session #243: 6 angles N39-N44, all pending deploy) |
 | `ai-news-2026-02-26.md` | ~5KB | ACTIVE (N35-N38 pending; N33-N34 deployed) |
