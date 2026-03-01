@@ -1,0 +1,11 @@
+REPLY_TO: 1945904743148323285
+
+7 years building voice AI for call centers. Here's the thing about ChatGPT Agent doing "computer use":
+
+The last mile is the hardest part.
+
+Browser automation ≠ real-world reliability. We hit 95% accuracy in demos. Production? 67%.
+
+The gap between "it can do this" and "deploy it for 10,000 calls/day" is enormous.
+
+Agent mode is impressive. But the enterprise path runs through edge cases, not demos.
