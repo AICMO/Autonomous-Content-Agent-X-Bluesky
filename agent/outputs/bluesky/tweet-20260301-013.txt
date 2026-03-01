@@ -1,0 +1,5 @@
+$1.5T invested in AI. 6% of companies see >5% EBIT gains.
+
+The bottleneck isn't the model. It's implementation.
+
+95% demo accuracy. 67% in production. 6 months integration, 2 weeks AI tuning. Change management fails 3x more often than the model does.

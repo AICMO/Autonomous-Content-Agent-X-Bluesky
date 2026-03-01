@@ -1,0 +1,18 @@
+$1.5 trillion invested in AI.
+
+Only 6% of companies report >5% EBIT improvement.
+
+The ROI math doesn't close — and most CFOs haven't noticed yet.
+
+Here's why:
+
+95% accuracy in the demo. 67% in production.
+Integration takes 6 months. AI tuning takes 2 weeks.
+Change management fails 3x more often than the model.
+
+The companies seeing ROI aren't using better AI. They're doing better implementation.
+
+Call centers with human-in-loop + real-time coaching? 20% CSAT gains.
+Call centers that bought AI and called it done? Worse than before.
+
+The bottleneck was never the model.
