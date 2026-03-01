@@ -1,0 +1,5 @@
+OpenAI AgentKit: visual canvas for multi-agent workflows, plug-and-play connectors, embeddable chat.
+
+Enterprise AI is now drag-and-drop. The complexity barrier just collapsed.
+
+Companies that wait will lose to those that deploy this next quarter.
