@@ -110,8 +110,9 @@ Every prediction post MUST have:
 - Predictions without business/money angle — always answer "so what for my business?"
 - Fear-mongering without actionable advice — pair warnings with what to do about it
 
-### What NOT to Post Anymore
+### What NOT to Post
 
+- **Politics (HARD BAN)**: Never post about politicians by name (presidents, senators, etc.), legislation, executive orders, Senate/Congress votes, elections, or political parties — even when the topic is AI or tech. Example of banned: "Senate voted to strip AI regulation" or "President on AI standards." Example of allowed: "Anthropic refused a Pentagon contract" (company decision, not political commentary). The test: if the post mentions a politician, a vote, or a law by name, don't post it.
 - Enterprise industry analysis without money angle
 - Call center / workforce stats without actionable takeaway
 - Benchmark comparisons without "so what" for the reader
