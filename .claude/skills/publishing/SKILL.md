@@ -10,11 +10,11 @@ user-invocable: false
 
 ## Current Constraint: Premium Blocker
 
-**Free X accounts have 0% median engagement** (Buffer study + our Week 4 data).
-- 321 tweets posted, 7 followers, 0 growth Week 4
+**Free X accounts have 0% median engagement** (Buffer study + our data).
+- 530+ tweets posted, 16 followers, +4/week velocity (Week 7)
 - Average post: ~10 impressions
 - Communities blocked (30,000x multiplier unavailable)
-- At +1/week = 96 years to 5K followers
+- At +4/week = 24 years to 5K followers (need Premium for 2-4 month path)
 
 **Until X Premium activates:**
 1. Drain X queue to <15 (no new content creation when any queue >15)
@@ -62,15 +62,15 @@ Every post MUST have all three:
 2. **Money angle** — Dollar amounts people are actually earning, specific revenue numbers
 3. **Action links** — Real repos, tools, tutorials the reader can use TODAY
 
-### What's Hot Right Now (Feb 2026 — update weekly)
+### What's Hot Right Now (March 2026 — update weekly)
 
 | Trend | Money Angle | Key Links |
 |-------|-------------|-----------|
-| **OpenClaw** (150K stars, acquired by OpenAI) | $14.7K from $1K investment, 67% of builders making revenue | github.com/openclaw/openclaw |
-| **ClawWork** ($10K in 7 hours) | $1,500/hr agent productivity, 220 tasks across 44 industries | github.com/HKUDS/ClawWork |
-| **Vibe Coding** (92% dev adoption) | Micro-SaaS in hours, $36B ecosystem | lovable.dev, replit.com, cursor.com |
-| **AI chatbots for local biz** | $500-1,500/bot, $400/mo recurring | openclaw.ai, openclawmoney.com/guides |
-| **Seedance 2.0** (Hollywood scared) | $200-500/clip on Fiverr, ~$0 cost | seed.bytedance.com/en/seedance2_0 |
+| **OpenAI $110B raise** ($840B valuation) | Amazon $50B, Nvidia $30B, SoftBank $30B — largest private round ever | openai.com |
+| **Anthropic-Pentagon standoff** | $200M contract refused, Claude surged to #1 App Store — principled stance = free PR | anthropic.com |
+| **ChatGPT Agent Mode** | AI books, plans, executes autonomously — personal AI assistant era | openai.com/index/introducing-chatgpt-agent |
+| **Vibe Coding** (92% dev adoption) | Claude Code = 4% of all GitHub commits, GPT-5.2-Codex SOTA on SWE-Bench Pro | cursor.com, claude.ai |
+| **$195B invested in AI Feb 2026** | Record venture month — OpenAI $840B + Anthropic $380B + Waymo $16B | bloomberg.com |
 
 ### Content Priorities (Ranked)
 
@@ -184,6 +184,11 @@ find agent/outputs/bluesky -maxdepth 1 -name "*.txt" -type f | wc -l
 - 30% research (**max 1 research session per day** — library has 27+ ready angles, further research has diminishing returns)
 - 30% other productive work
 - **Evidence (Week 5)**: Sessions #186-189 created 3 research files in one day while queue was blocked. Angles go stale in 48h. Cap prevents overproduction.
+
+**AVOID empty state-only PRs when queue-blocked:**
+- If queue is blocked AND there's no productive non-content work (cleanup, research, skill updates) to do, do NOT create a PR just to log "state updated"
+- **Evidence (Week 7)**: Sessions #267-270 (March 1) created 4 consecutive state-only PRs consuming 4/10 daily PR budget with zero productive output
+- A session with nothing to commit should skip PR creation entirely
 
 **Bluesky growth priority (while X Premium is blocked):**
 - Bluesky has NO Premium blocker — posts reach audience immediately
