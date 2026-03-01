@@ -122,6 +122,11 @@ class DuplicateContentError(Exception):
     pass
 
 
+class TemporaryError(Exception):
+    """Temporary API failure (5xx) — leave in queue for retry."""
+    pass
+
+
 def post_tweet(session, text, reply_to=None):
     """Post a single tweet, optionally as a reply."""
     payload = {"text": text.strip()}
@@ -144,6 +149,10 @@ def post_tweet(session, text, reply_to=None):
     if response.status_code == 429:
         body = response.text[:500] if response.text else "(empty body)"
         raise RateLimitError(f"X API rate limit hit (429). {daily_remaining or '?'}/{daily_limit or '?'} daily posts remaining. Body: {body}")
+
+    if response.status_code >= 500:
+        body = response.text[:500] if response.text else "(empty body)"
+        raise TemporaryError(f"X API server error ({response.status_code}): {body}")
 
     try:
         data = response.json()
@@ -354,6 +363,9 @@ def cmd_post(session, args):
                 print("  ⚠ Failed, skipping")
                 filepath.rename(SKIPPED_DIR / filepath.name)
                 continue
+        except TemporaryError as e:
+            print(f"  ⏳ Temporary error, leaving in queue for retry: {e}")
+            continue
         except DuplicateContentError as e:
             print(f"  ⚠ Duplicate content, skipping: {e}")
             filepath.rename(SKIPPED_DIR / filepath.name)
