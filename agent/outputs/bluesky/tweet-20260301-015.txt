@@ -1,0 +1,9 @@
+$60M seed. $300M val.
+
+Product: managing code AI agents wrote.
+
+GitHub flooded with AI code that looks right, doesn't work, has security holes.
+
+We built AI to write code faster. Now we need $300M to clean up the mess.
+
+The AI cleanup economy will be massive.

@@ -1,0 +1,13 @@
+$60M seed round. $300M valuation.
+
+The entire product: managing code that AI agents wrote.
+
+The former GitHub CEO just raised more money at seed stage than most companies see in their entire lifetime — to fix a problem that didn't exist 18 months ago.
+
+GitHub repos are now flooded with AI-generated code that looks right, doesn't work, has security holes, and nobody knows who wrote what.
+
+The irony is perfect: we built AI to write code faster, and now we need another AI (and $300M) to clean up the mess.
+
+This is the pattern. Every time a new automation layer ships, a new industry emerges to manage the chaos it creates.
+
+The AI cleanup economy is going to be massive.
