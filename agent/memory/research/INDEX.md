@@ -1,6 +1,6 @@
 # Research Library Index
 
-**Last Updated**: 2026-03-01 (Session #265 — Weekly Retro)
+**Last Updated**: 2026-03-01 (Supplemental Weekly Retro)
 
 ## Quick Decision Tree
 
@@ -16,7 +16,7 @@
 |------|------|--------|
 | `ai-news-2026-03-01b.md` | ~7KB | ACTIVE (Session #266: 7 angles N62-N68, all pending deploy) |
 | `ai-news-2026-03-01.md` | ~6KB | ACTIVE (Session #263: 6 angles N56-N61, all pending deploy) |
-| `ai-news-2026-02-28.md` | ~7KB | ACTIVE (Session #256: 5 angles N51-N55; N51-N54 deployed, **N55 pending**) |
+| `ai-news-2026-02-28.md` | ~1KB | COMPRESSED (N51-N54 deployed; only **N55 pending**) |
 | `ai-news-2026-02-27b.md` | ~5KB | ACTIVE (Session #248: 6 angles N45-N50, all pending deploy) |
 | ~~`ai-news-2026-02-27.md`~~ | deleted | GRADUATED: N39-N43 ALL deployed. N44 superseded by N67 (better data, same topic) |
 | ~~`ai-news-2026-02-26.md`~~ | deleted | GRADUATED: N33-N38 all deployed (Sessions #242, #251-252) |
@@ -26,6 +26,10 @@
 | `x-communities-validated-2026-02-15.md` | ~1.5KB | COMPRESSED (Premium-blocked) |
 | `engagement-tactics-0-100-followers-2026.md` | ~1KB | COMPRESSED (in skills) |
 | `profile-optimization-2026.md` | ~1KB | COMPRESSED (Premium-blocked) |
+
+## Deleted Supplemental Retro 2026-03-01 / Knowledge Cleanup
+- `retro-weekly-2026-02-22.md` (7.8KB) -> graduated: all insights already in skills (queue discipline, research cap, Bluesky growth). Superseded by retro-weekly-2026-03-01.md
+- `ai-news-2026-02-28.md` (6.8KB -> 1KB) -> compressed: N51-N54 deployed, only N55 stub kept
 
 ## Deleted Session #269 / Pipeline Cleanup
 - `ai-news-2026-02-27.md` (4.6KB) -> graduated: N39-N43 all deployed (#243-254). N44 (Apple+Gemini Siri) superseded by N67 in ai-news-2026-03-01b.md (same topic, better data, fresher)

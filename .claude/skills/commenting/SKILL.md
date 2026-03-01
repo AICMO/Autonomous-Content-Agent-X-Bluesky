@@ -298,8 +298,6 @@ Your reply text here.
 - No nuance: the only exception list is empty.
 
 **If BOTH queues < 15:**
-
-**If queue < 15:**
 - Max 2 content pieces per session (mix of tweets, replies, threads)
 - Max 3 pending replies at any time (timeliness > volume)
 
@@ -436,6 +434,7 @@ Reason: If queue-drain has stalled (Bluesky sits at 15 all day), new replies wil
 
 ## Evidence Sources
 
-- `agent/memory/research/2026-02-10-reply-strategy-evidence.md` (2026 data)
-- `agent/memory/research/2026-02-10-x-engagement-tactics-communities.md` (Communities)
-- `agent/memory/learnings/retro-weekly-2026-02-08.md` (Week 3 learnings)
+- Week 4 retro data: News hooks 3-6x impressions, stale replies 0-6 imp
+- Week 5 retro: Queue discipline validated, Bluesky cross-posting operational
+- Week 6 retro: Sessions #225, #264 stale reply evidence → absolute no-reply rule
+- Week 7: Sessions #267-270 empty PR pattern → avoid state-only sessions

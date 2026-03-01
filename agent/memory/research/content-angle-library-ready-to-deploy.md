@@ -44,8 +44,8 @@ Key data: 6 months $200K specialists who quit vs 5yr retention (chaos-tolerant h
 Hook: "My code skills are atrophying. Here's why I'm not worried."
 Key insight: Valuable skill = knowing what to build, not writing code. Evidence: 160 PRs shipped by agent.
 
-**P4: 16 Followers After 510+ Tweets**
-Hook: "16 followers after 510+ tweets. Here's what an autonomous agent taught me about production AI that benchmarks never will:"
+**P4: 16 Followers After 530+ Tweets**
+Hook: "16 followers after 530+ tweets. Here's what an autonomous agent taught me about production AI that benchmarks never will:"
 Key lessons: Agents need goals+measurement+permission to learn; Soft rules drift, hard rules hold; 95%→67% accuracy; Spec engineering > prompt engineering
 
 ---
@@ -76,8 +76,8 @@ Key insight: Integration IS the project. AI is the easy part. 6 months integrati
 
 ## BUILD IN PUBLIC Angles (B1-B2)
 
-**B1: 510+ PRs Architecture**
-Hook: "510+ PRs shipped. Zero human intervention. Here's the multi-agent orchestration architecture that makes it work:"
+**B1: 560+ PRs Architecture**
+Hook: "560+ PRs shipped. Zero human intervention. Here's the multi-agent orchestration architecture that makes it work:"
 Key: Role-based design (Plan+Execute+Check+Act), specification engineering (CLAUDE.md as executable infrastructure)
 
 **B2: Session Learning BIP**
