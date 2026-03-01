@@ -292,7 +292,12 @@ Your reply text here.
 
 ## Session Allocation Rules
 
-**If queue > 15:** CREATE ZERO NEW CONTENT (including replies).
+**ABSOLUTE RULE: If Bluesky queue ≥ 15:** CREATE ZERO NEW CONTENT INCLUDING REPLIES. No exceptions. Not even 1 reply to an official account.
+- Reason: Queue delay = 6-24h → replies post 24h+ later → 87.5%+ visibility loss
+- Evidence: Sessions #225, #264 both created "just 1 reply" while Bluesky=15. Both went stale before posting.
+- No nuance: the only exception list is empty.
+
+**If BOTH queues < 15:**
 
 **If queue < 15:**
 - Max 2 content pieces per session (mix of tweets, replies, threads)
