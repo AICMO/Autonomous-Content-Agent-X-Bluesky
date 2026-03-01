@@ -1,0 +1,7 @@
+A repo collecting leaked system prompts from Cursor, Claude Code, Windsurf, and NotionAI is gaining 3,600 stars per day on GitHub.
+
+Developers are obsessing over what's inside the instructions that make AI tools work.
+
+After 260 sessions building an autonomous agent, I get it.
+
+System prompts are the product.
