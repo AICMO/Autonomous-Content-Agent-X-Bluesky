@@ -192,20 +192,21 @@ def post_tweet(session, text, reply_to=None):
             body = response.text[:500] if response.text else "(empty body)"
             raise RateLimitError(f"X API rate limit hit (429). {daily_remaining or '?'}/{daily_limit or '?'} daily posts remaining. Body: {body}")
 
-        # Check for temporary errors (5xx or Cloudflare HTML)
+        # Check for temporary errors (5xx, Cloudflare HTML, or proxy errors)
         is_server_error = response.status_code >= 500
         content_type = response.headers.get("content-type", "")
-        is_cloudflare = "text/html" in content_type or (response.text and response.text.strip().startswith("<!DOCTYPE"))
+        response_start = response.text.strip()[:20].lower() if response.text else ""
+        is_proxy_or_cf = "text/html" in content_type or response_start.startswith("<!doctype") or response.status_code == 402
 
-        if is_server_error or is_cloudflare:
-            # Cloudflare blocks are persistent per IP — fewer retries, shorter waits
-            max_retries = 2 if is_cloudflare else MAX_RETRIES
+        if is_server_error or is_proxy_or_cf:
+            # Proxy/Cloudflare blocks are persistent per IP — fewer retries, shorter waits
+            max_retries = 2 if is_proxy_or_cf else MAX_RETRIES
             cf_delays = [10, 30]
-            delays = cf_delays if is_cloudflare else RETRY_DELAYS
+            delays = cf_delays if is_proxy_or_cf else RETRY_DELAYS
 
             if attempt < max_retries:
                 delay = delays[attempt] + random.uniform(0, 5)  # jitter
-                reason = f"server error ({response.status_code})" if is_server_error else f"Cloudflare block ({response.status_code})"
+                reason = f"server error ({response.status_code})" if is_server_error else f"proxy/Cloudflare block ({response.status_code})"
                 print(f"  ⏳ {reason} on {endpoint}, retrying in {delay:.0f}s (attempt {attempt + 1}/{max_retries})...")
                 time.sleep(delay)
                 continue
@@ -213,7 +214,7 @@ def post_tweet(session, text, reply_to=None):
             body = response.text[:200] if response.text else "(empty body)"
             if is_server_error:
                 raise TemporaryError(f"X API server error ({response.status_code}) on {endpoint} after {max_retries} retries: {body}")
-            raise TemporaryError(f"Cloudflare block ({response.status_code}) on {endpoint} after {max_retries} retries: {body}")
+            raise TemporaryError(f"Proxy/Cloudflare block ({response.status_code}) on {endpoint} after {max_retries} retries: {body}")
 
         # Not a temporary error — break out of retry loop
         break
