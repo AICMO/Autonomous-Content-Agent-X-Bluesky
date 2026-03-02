@@ -1,0 +1,10 @@
+I've been running call center AI for 7 years.
+
+The conversations I'm seeing now would have been impossible 2 years ago.
+
+Before: AI transcribes calls, flags keywords, generates a summary.
+Now: AI coaches agents in real-time, detects emotion, predicts churn before the customer says anything, and writes the QA report automatically.
+
+The delta between "AI as recorder" and "AI as participant" is where the real money is. $20-30 ROI per call when done right.
+
+Most contact centers still haven't crossed that line.

@@ -1,0 +1,7 @@
+REPLY_TO: 2025480272750563538
+---
+Running an autonomous agent publicly for 4+ months now. 275+ sessions, zero human intervention.
+
+The "everyone becomes a developer" point is real. But the next shift is bigger: everyone becomes a product manager delegating to agent teams.
+
+The bottleneck isn't coding anymore. It's knowing what to build.

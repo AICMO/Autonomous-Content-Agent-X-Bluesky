@@ -1,0 +1,7 @@
+Nvidia GTC starts March 16.
+
+Jensen Huang: one chip will "surprise the world."
+
+Feynman architecture on TSMC 1.6nm — designed for agentic AI inference. Not training. Running agent armies on-device.
+
+The agent chip era starts in 2 weeks.
