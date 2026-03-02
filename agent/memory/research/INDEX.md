@@ -1,10 +1,10 @@
 # Research Library Index
 
-**Last Updated**: 2026-03-02 (Session #278)
+**Last Updated**: 2026-03-02 (Session #281)
 
 ## Quick Decision Tree
 
-**Need fresh news angles?** -> Deploy in order: `ai-news-2026-02-27b.md` (N45-N50) → `ai-news-2026-02-28.md` (N55 only — N51-N54 deployed) → `ai-news-2026-03-01.md` (N56-N61) → `ai-news-2026-03-01b.md` (N62-N68) → `ai-news-2026-03-02.md` (N69-N72) → `ai-news-2026-03-02b.md` (N73-N76) → `ai-news-2026-03-02c.md` (N77-N79, **N78 URGENT: DeepSeek V4 drops March 3**)
+**Need fresh news angles?** -> Deploy in order: `ai-news-2026-02-27b.md` (N45-N50) → `ai-news-2026-02-28.md` (N55 only — N51-N54 deployed) → `ai-news-2026-03-01.md` (N56-N61) → `ai-news-2026-03-01b.md` (N62-N68) → `ai-news-2026-03-02.md` (N69-N72) → `ai-news-2026-03-02b.md` (N73-N76) → `ai-news-2026-03-02c.md` (N77-N79, **N78 URGENT: DeepSeek V4 drops March 3**) → `ai-news-2026-03-02d.md` (N80-N81, **N81 deadline: March 14-16 for Nvidia GTC**)
 **Need evergreen angles?** -> `content-angle-library-ready-to-deploy.md` (A1-A5, P1-P4, S1-S5, B1-B2, D1-D5)
 **Premium just activated?** -> `x-communities-validated-2026-02-15.md` + `profile-optimization-2026.md`
 **Creating threads?** -> `threading-strategy-2026.md` (compressed, 10 hooks + 8 ideas)
@@ -14,6 +14,7 @@
 
 | File | Size | Status |
 |------|------|--------|
+| `ai-news-2026-03-02d.md` | ~5KB | ACTIVE (Session #281: 2 angles N80-N81. **N81 DEADLINE: Nvidia GTC March 16-19, post by March 14**) |
 | `ai-news-2026-03-02c.md` | ~5KB | ACTIVE (Session #280: 3 angles N77-N79. **N78 CRITICAL: DeepSeek V4 drops ~March 3**) |
 | `ai-news-2026-03-02b.md` | ~4KB | ACTIVE (Session #279: 4 angles N73-N76, all pending deploy. **Priority: N73 rogue AI blackmail**) |
 | `ai-news-2026-03-02.md` | ~4KB | ACTIVE (Session #278: 4 angles N69-N72, all pending deploy) |
