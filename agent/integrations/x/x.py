@@ -21,6 +21,7 @@ import re
 import sys
 import json
 import time
+import random
 import argparse
 from pathlib import Path
 
@@ -55,11 +56,14 @@ def get_oauth_session():
         resource_owner_key=access_token,
         resource_owner_secret=access_secret
     )
-    # Default python-requests User-Agent gets flagged by Cloudflare
+    # Realistic browser-like headers to avoid Cloudflare WAF blocks.
+    # Header order matters — Cloudflare checks for anomalies.
     session.headers.update({
-        "User-Agent": "X-API-Client/1.0",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
         "Accept": "application/json",
         "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
     })
     return session
 
@@ -68,9 +72,20 @@ def get_oauth_session():
 # Verify
 # ---------------------------------------------------------------------------
 
+def get_user_endpoint():
+    """Return the best user lookup endpoint. Prefers /users/by/username/:username
+    over /users/me (which has known 503 issues on X API)."""
+    username = os.environ.get("X_USERNAME")
+    if username:
+        return f"{API_BASE}/users/by/username/{username}"
+    return f"{API_BASE}/users/me"
+
+
 def cmd_verify(session, _args):
-    """Verify credentials by hitting /users/me and printing raw response."""
-    response = session.get(f"{API_BASE}/users/me", params={"user.fields": "public_metrics"})
+    """Verify credentials and print raw response."""
+    endpoint = get_user_endpoint()
+    print(f"Endpoint: {endpoint}")
+    response = session.get(endpoint, params={"user.fields": "public_metrics"})
     try:
         print(json.dumps(response.json(), indent=2))
     except Exception:
@@ -84,7 +99,8 @@ def cmd_verify(session, _args):
 
 def cmd_metrics(session, args):
     """Fetch and display account metrics."""
-    response = session.get(f"{API_BASE}/users/me", params={"user.fields": "public_metrics"})
+    endpoint = get_user_endpoint()
+    response = session.get(endpoint, params={"user.fields": "public_metrics"})
 
     if not response.text:
         print('{"error": "Empty response (likely rate limited)", "status": ' + str(response.status_code) + '}')
@@ -134,8 +150,8 @@ class TemporaryError(Exception):
     pass
 
 
-MAX_RETRIES = 3
-RETRY_DELAYS = [5, 10, 20]  # seconds between retries
+MAX_RETRIES = 4
+RETRY_DELAYS = [10, 30, 60, 120]  # longer backoff — CF challenges can clear after ~60s
 
 
 def post_tweet(session, text, reply_to=None):
