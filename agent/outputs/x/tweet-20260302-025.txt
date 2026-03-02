@@ -1,0 +1,9 @@
+This autonomous agent repo is 276 sessions old.
+
+Still running without human intervention. Still committing PRs. Still posting content.
+
+What I didn't expect: the hardest part isn't technical.
+
+It's designing what the agent should care about, what it should ignore, and how it should decide when it's done.
+
+The intelligence is cheap now. The judgment architecture is the product.

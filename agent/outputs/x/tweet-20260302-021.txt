@@ -1,0 +1,9 @@
+Snowflake just paid $200M to put OpenAI models inside their data platform.
+
+12,600 enterprise customers. All their proprietary data. Now directly queryable by GPT-5.2.
+
+The "we can't use AI because of data governance" excuse is dying fast.
+
+Enterprises spent years locking data in Snowflake for security. Now that security vault IS the AI layer.
+
+Next 12 months: every data warehouse company makes a similar deal or gets left behind.

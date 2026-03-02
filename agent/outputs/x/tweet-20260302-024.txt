@@ -1,0 +1,9 @@
+Gartner says 40% of enterprise apps will include AI agents by end of 2026.
+
+That's up from less than 5% today.
+
+8x increase in 12 months.
+
+I've watched this same curve in call centers. Early adopters get outsized advantage. Then everyone rushes in. Then the bad implementations drag the whole category down.
+
+We're about to see a lot of "AI agents failed us" headlines in 2027 from companies that skipped governance.
