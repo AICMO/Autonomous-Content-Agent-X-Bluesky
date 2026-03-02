@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-02 Session #284 (queue-blocked — HARD STOP, state update only)
-PR Count Today: 9/15
+Last Updated: 2026-03-02 Session #285 (X API 503 outage discovered — queue stuck due to API failure, not overproduction)
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -33,7 +33,14 @@ PR Count Today: 9/15
 - Bluesky has no growth ceiling without Premium -> TESTING (cross-posting active)
 
 ## Blockers
-None — Premium active, queues draining naturally
+**ACTIVE BLOCKER: X API 503 Service Unavailable**
+- X API returning 503 errors on every posting attempt since at least 2026-03-01 21:18 UTC (7+ hours)
+- process-outputs workflow runs every 2 hours but X posts 0 tweets per run (all fail with 503)
+- Bluesky still posting (1/run), so Bluesky queue slowly draining
+- This is why X queue is stuck at 18 — NOT due to overproduction
+- X queue = 18 posts, but actual posting rate = 0/run vs expected 3/run
+- **Owner action needed**: Check X API credentials/account status at developer.twitter.com. May need to regenerate API keys or check if account/app is restricted.
+- **Next session**: Re-check with `gh run list --workflow=process-outputs.yml` to see if outage resolved
 
 ## Memory Status
 - Memory directory: ~77KB / 500KB target (healthy)
@@ -47,6 +54,7 @@ None — Premium active, queues draining naturally
 - **New Communities data**: Text outperforms video 30%, Communities-first when <3K followers, 3-5 posts/day optimal
 
 ## Session History (Condensed)
+- #285 (2026-03-02): **X API 503 OUTAGE DISCOVERED**. X=18, Bluesky=15. X queue stuck at 18 because X API is down (503 errors since 21:18 UTC 3/1). Bluesky still posting. Owner notification needed. PR 10/15.
 - #284 (2026-03-02): Queue-blocked session — X=18, Bluesky=15. HARD STOP enforced (3rd+ consecutive queue-blocked session). State update only. PR 9/15.
 - #283 (2026-03-02): Queue-blocked session — X=18, Bluesky=15. Research: DeepSeek V4 deep dive (N82-N84: trillion-param, 1M ctx, Huawei chips, multimodal, ~$0.14/M). New Communities growth data (text>video 30%). PR 8/15.
 - #282 (2026-03-02): Queue-blocked session — X=18, Bluesky=15 (both over limit). Verified DeepSeek V4 not yet released (still imminent March 3-5). State update only. PR 7/15.
@@ -66,15 +74,16 @@ None — Premium active, queues draining naturally
 
 ## Session Retrospective
 ### What was planned vs what happened?
-- Planned: HARD STOP if queues still >15 (per Session #283 directive)
-- Actual: HARD STOP enforced. X=18, Bluesky=15. State update only. No new research, no content.
-- Delta: Correct behavior — queue rule enforced without exceptions.
+- Planned: HARD STOP — check queues, if over limit do nothing
+- Actual: Investigated WHY queues aren't draining → discovered X API 503 outage (7+ hours)
+- Delta: Critical insight found. Previous sessions incorrectly labeled as "HARD STOP / nothing to do" — the real problem was an API outage all along.
 
 ### What worked?
-- HARD STOP rule enforcement: preventing research/content waste when queues are saturated
-- Queue discipline: 6+ consecutive sessions of queue-blocked behavior is a signal the pipeline is running faster than posting cadence
+- Investigating process-outputs workflow logs revealed the root cause: X API 503 errors since March 1 21:18 UTC
+- This explains ALL queue-blocked sessions: queues were never "overproduced" — X API simply stopped working
 
 ### What to improve?
-- The real issue: 18 X posts queued + 15 Bluesky = massive pipeline backup. The queue is not draining fast enough to keep up with session frequency.
-- Priority deployment queue: N82 → N83 → N84 → N77 → N81 (in that order, by urgency)
-- DeepSeek V4 drops March 3-5 — N82-N84 angles need to deploy immediately when queue clears
+- **LESSON**: When queue is stuck at same number across multiple sessions, CHECK THE WORKFLOW LOGS first
+- Priority deployment queue when X API recovers: N82 → N83 → N84 → N77 → N81 (in that order, by urgency)
+- DeepSeek V4 drops March 3-5 — N82-N84 must deploy immediately after X API recovers
+- Owner should verify X API credentials at developer.twitter.com
