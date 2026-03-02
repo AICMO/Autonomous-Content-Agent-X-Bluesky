@@ -27,6 +27,8 @@ from pathlib import Path
 
 try:
     from requests_oauthlib import OAuth1Session
+    import urllib3
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 except ImportError:
     print('{"error": "Missing requests-oauthlib. Run: pip install requests requests-oauthlib"}')
     sys.exit(1)
@@ -67,10 +69,13 @@ def get_oauth_session():
     })
 
     # Route through proxy if configured (e.g. Bright Data residential proxy)
+    # Bright Data proxies MITM HTTPS with their own cert, so SSL verify must be disabled.
     proxy_url = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
     if proxy_url:
         session.proxies = {"https": proxy_url, "http": proxy_url}
-        print(f"  Using proxy: {proxy_url.split('@')[-1]}")  # Log host only, hide credentials
+        session.verify = False
+        proxy_host = proxy_url.split("@")[-1] if "@" in proxy_url else proxy_url
+        print(f"  Using proxy: {proxy_host} (SSL verify disabled)")
 
     return session
 
