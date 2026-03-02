@@ -31,6 +31,16 @@ Setup: Get all 4 from X Developer Portal → Your App → Keys and tokens
 - `verify.sh` - Verifies credentials are working
 - `auth_2.0.sh` - OAuth 2.0 authorization flow (one-time setup)
 
+## Proxy (Cloudflare bypass)
+
+GitHub Actions runner IPs get blocked by Cloudflare. Set a residential proxy to route API calls through a clean IP.
+
+| Name | Type | Description |
+|------|------|-------------|
+| `HTTPS_PROXY` | secret | Proxy URL (e.g. `http://user:pass@brd.superproxy.io:22225`) |
+
+Optional. If unset, requests go direct. Credentials are hidden in logs (only host:port shown).
+
 ## Rate Limits
 
 **Current tier: X Premium subscription, Free API tier**

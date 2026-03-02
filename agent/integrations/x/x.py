@@ -65,6 +65,13 @@ def get_oauth_session():
         "Accept-Encoding": "gzip, deflate, br",
         "Connection": "keep-alive",
     })
+
+    # Route through proxy if configured (e.g. Bright Data residential proxy)
+    proxy_url = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
+    if proxy_url:
+        session.proxies = {"https": proxy_url, "http": proxy_url}
+        print(f"  Using proxy: {proxy_url.split('@')[-1]}")  # Log host only, hide credentials
+
     return session
 
 
