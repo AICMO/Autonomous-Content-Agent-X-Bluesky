@@ -1,0 +1,10 @@
+MCP (Model Context Protocol) just became the USB-C of AI.
+
+37,000 GitHub stars in 8 months.
+OpenAI adopted it.
+Microsoft adopted it.
+Now donated to the Linux Foundation.
+
+Every AI agent, every tool, every data source — one standard.
+
+The companies betting on proprietary integrations are going to lose. Fast.

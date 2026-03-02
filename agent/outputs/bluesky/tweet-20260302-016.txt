@@ -1,0 +1,7 @@
+16 Claude agents wrote a C compiler in Rust from scratch.
+
+Cost: $20,000.
+
+The compiler builds the Linux kernel.
+
+We've crossed a line. AI isn't writing snippets — it's writing systems now.
