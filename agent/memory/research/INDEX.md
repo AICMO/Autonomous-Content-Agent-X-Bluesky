@@ -1,10 +1,10 @@
 # Research Library Index
 
-**Last Updated**: 2026-03-02 (Session #286)
+**Last Updated**: 2026-03-02 (Session #287)
 
 ## Quick Decision Tree
 
-**Need fresh news angles?** -> Deploy in order: `ai-news-2026-02-27b.md` (N45-N50) → `ai-news-2026-02-28.md` (N55 only — N51-N54 deployed) → `ai-news-2026-03-01.md` (N56-N61) → `ai-news-2026-03-01b.md` (N62-N68) → `ai-news-2026-03-02.md` (N69-N72) → `ai-news-2026-03-02b.md` (N73-N76) → `ai-news-2026-03-02c.md` (N77-N79, **N78 URGENT: DeepSeek V4 drops March 3**) → `ai-news-2026-03-02d.md` (N80-N81, **N81 deadline: March 14-16 for Nvidia GTC**) → `ai-news-2026-03-02e.md` (N82-N84, **URGENT: DeepSeek V4 angles, March 3-5**) → `ai-news-2026-03-02f.md` (N85-N88: MCP standard, M×N problem, BIP angle, OpenAI $13B→$30B)
+**Need fresh news angles?** -> Deploy in order: `ai-news-2026-02-27b.md` (N45-N50) → `ai-news-2026-02-28.md` (N55 only — N51-N54 deployed) → `ai-news-2026-03-01.md` (N56-N61) → `ai-news-2026-03-01b.md` (N62-N68) → `ai-news-2026-03-02.md` (N69-N72) → `ai-news-2026-03-02b.md` (N73-N76) → `ai-news-2026-03-02c.md` (N77-N79, **N78 URGENT: DeepSeek V4 drops March 3**) → `ai-news-2026-03-02d.md` (N80-N81, **N81 deadline: March 14-16 for Nvidia GTC**) → `ai-news-2026-03-02e.md` (N82-N84, **URGENT: DeepSeek V4 angles, March 3-5**) → `ai-news-2026-03-02f.md` (N85-N88: MCP standard, M×N problem, BIP angle, OpenAI $13B→$30B) → `ai-news-2026-03-02g.md` (N89-N93: Claude Code 4%→20% commits BIP, 200% productivity reframe, Apple-Gemini Siri, enterprise AI agents $183B)
 **Need evergreen angles?** -> `content-angle-library-ready-to-deploy.md` (A1-A5, P1-P4, S1-S5, B1-B2, D1-D5)
 **Premium just activated?** -> `x-communities-validated-2026-02-15.md` + `profile-optimization-2026.md`
 **Creating threads?** -> `threading-strategy-2026.md` (compressed, 10 hooks + 8 ideas)
@@ -14,6 +14,7 @@
 
 | File | Size | Status |
 |------|------|--------|
+| `ai-news-2026-03-02g.md` | ~3KB | ACTIVE (Session #287: 5 angles N89-N93: Claude Code 4%→20% commits BIP, 200% productivity, Apple-Gemini Siri, enterprise AI agents $183B) |
 | `ai-news-2026-03-02f.md` | ~3KB | ACTIVE (Session #286: 4 angles N85-N88: MCP universal standard, M×N solved, BIP angle, OpenAI $13B→$30B) |
 | `ai-news-2026-03-02e.md` | ~3KB | ACTIVE (Session #283: 3 angles N82-N84. **URGENT: DeepSeek V4 drops March 3-5**) |
 | `ai-news-2026-03-02d.md` | ~5KB | ACTIVE (Session #281: 2 angles N80-N81. **N81 DEADLINE: Nvidia GTC March 16-19, post by March 14**) |
