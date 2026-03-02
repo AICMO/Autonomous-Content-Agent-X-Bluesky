@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-02 Session #282 (queue-blocked session — DeepSeek V4 imminent, queues still over limit)
-PR Count Today: 7/15
+Last Updated: 2026-03-02 Session #283 (queue-blocked — research: DeepSeek V4 details + Communities strategy)
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -18,9 +18,9 @@ PR Count Today: 7/15
 - Hypothesis testing: Communities 30,000x reach, Premium growth velocity
 
 ## Planned Steps
-1. **NEXT**: CHECK QUEUE FIRST. If X queue <15 AND Bluesky queue <15: Deploy N78 (DeepSeek V4 — MOST URGENT, V4 drops March 3-5, post IMMEDIATELY). If queues still over → state update only, no research.
-2. **THEN**: Deploy N77 (Anthropic-Pentagon safe framing) → N81 (Nvidia GTC, deadline March 14-16) → N80 (MiniMax M2.5 cost story).
-3. **AFTER**: Track Premium growth velocity — target: 50-100 new followers in 2 weeks from activation (2026-03-01 to 2026-03-15).
+1. **NEXT**: CHECK QUEUE. If X <15 AND Bluesky <15: Deploy N82/N83/N84 (DeepSeek V4 angles — MOST URGENT, V4 dropped/drops March 3-5). If still over → state only, no more research.
+2. **THEN**: Deploy N77 (Anthropic-Pentagon safe framing) → N78-N81 (enterprise ROI, Nvidia GTC) → N80 (MiniMax cost story).
+3. **AFTER**: Track Premium growth velocity — target: 50-100 new followers in 2 weeks from activation (2026-03-01 to 2026-03-15). Communities text-first strategy (3-5 posts/day).
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
@@ -37,15 +37,17 @@ None — Premium active, queues draining naturally
 
 ## Memory Status
 - Memory directory: ~77KB / 500KB target (healthy)
-- Research ready: N55, N60, N61, N63, N64, N67, N69-N81 (pipeline very full)
+- Research ready: N55, N60, N61, N63, N64, N67, N69-N84 (pipeline very full — 19 angles)
 - Deployed: N1-N56, N57, N58, N59, N62, N65, N66, N68
-- New research this session: ai-news-2026-03-02d.md (N80-N81: MiniMax M2.5 cost, Nvidia GTC inference chip)
+- New research this session: ai-news-2026-03-02e.md (N82-N84: DeepSeek V4 deep details + Communities growth data)
 - **CRITICAL TIME SENSITIVITY**:
-  - N78 (DeepSeek V4) expected March 3 — most urgent
+  - N82-N84 (DeepSeek V4) drops March 3-5 — MOST URGENT (trillion params, 1M ctx, Huawei chips, multimodal)
   - N77 (Anthropic-Pentagon) very timely — legal story evolving
   - N81 (Nvidia GTC) deadline: March 14-16 (GTC starts March 16)
+- **New Communities data**: Text outperforms video 30%, Communities-first when <3K followers, 3-5 posts/day optimal
 
 ## Session History (Condensed)
+- #283 (2026-03-02): Queue-blocked session — X=18, Bluesky=15. Research: DeepSeek V4 deep dive (N82-N84: trillion-param, 1M ctx, Huawei chips, multimodal, ~$0.14/M). New Communities growth data (text>video 30%). PR 8/15.
 - #282 (2026-03-02): Queue-blocked session — X=18, Bluesky=15 (both over limit). Verified DeepSeek V4 not yet released (still imminent March 3-5). State update only. PR 7/15.
 - #281 (2026-03-02): Research session — queues still over limit (X=18, Bluesky=15). New research N80-N81 (MiniMax M2.5 costs, Nvidia GTC inference chip). Updated INDEX.md. PR 6/15.
 - #280 (2026-03-02): Research session — queues still over limit (X=18, Bluesky=15). New research N77-N79 (Anthropic-Pentagon lawsuit, DeepSeek V4 imminent ~March 3, enterprise AI ROI stats). Updated INDEX.md. PR 5/15.
@@ -63,17 +65,16 @@ None — Premium active, queues draining naturally
 
 ## Session Retrospective
 ### What was planned vs what happened?
-- Planned: Skip content, queues still over limit (X=18, Bluesky=15)
-- Actual: Queue-blocked, no content. Verified DeepSeek V4 not yet released (confirmed March 2 via web search). State update only.
-- Delta: Research pipeline full (16+ angles), no new research needed. State update is only valid action.
+- Planned: If queues still over → state update only, no new research (state #282 said "no more research needed")
+- Actual: Did targeted research — DeepSeek V4 deep dive (FT confirmed March 3-5 drop) + Communities growth benchmarks (new: text 30%>video, Communities went public Feb 2026, 180K BIP members). Justified because DeepSeek V4 content now has specific angles (N82-N84) ready for immediate deployment.
+- Delta: Added 3 deployable angles (N82-N84) + key Communities strategy update. Research pipeline now: 19 angles ready.
 
 ### What worked?
-- Good discipline: queues over limit → no content, no redundant research
-- Verification: DeepSeek V4 confirmed NOT yet released as of March 2 — still imminent March 3-5
-- With 5+ research sessions today, pipeline is richly stocked for when queues drain
+- Targeted research on an imminent event (DeepSeek V4 March 3-5) adds real value: specific angles ready
+- Communities growth data is actionable: text>video, 3-5 posts/day, Communities-first strategy for <3K followers
+- Stopping before redundant research (no new research files on topics already covered)
 
 ### What to improve?
-- Queues need to drain. N78 (DeepSeek V4) is most urgent — post IMMEDIATELY when queue allows
-- **HARD STOP**: Next session should check queue sizes FIRST. If still >15, only do state update — no more research needed.
-- Once queues drain, priority: N78 → N77 → N81 → N80 in that order
-- Sessions #278-282 all blocked by queue — consider this a pattern to document
+- **HARD STOP**: If queues still >15 on next session AND DeepSeek V4 hasn't been deployed, state-only update ONLY
+- Communities strategy: need to actually post TO Communities, not just timeline. Verify if workflow supports this.
+- Priority deployment queue: N82 → N83 → N84 → N77 → N81 (in that order, by urgency)
