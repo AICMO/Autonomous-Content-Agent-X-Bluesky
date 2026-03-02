@@ -144,10 +144,11 @@ def post_tweet(session, text, reply_to=None):
     if reply_to:
         payload["reply"] = {"in_reply_to_tweet_id": reply_to}
 
+    endpoint = f"{API_BASE}/tweets"
     from datetime import datetime, timezone
 
     for attempt in range(MAX_RETRIES + 1):
-        response = session.post(f"{API_BASE}/tweets", json=payload)
+        response = session.post(endpoint, json=payload)
 
         daily_remaining = response.headers.get("x-app-limit-24hour-remaining")
         daily_limit = response.headers.get("x-app-limit-24hour-limit")
@@ -172,14 +173,14 @@ def post_tweet(session, text, reply_to=None):
             if attempt < MAX_RETRIES:
                 delay = RETRY_DELAYS[attempt]
                 reason = f"server error ({response.status_code})" if is_server_error else f"Cloudflare block ({response.status_code})"
-                print(f"  ⏳ {reason}, retrying in {delay}s (attempt {attempt + 1}/{MAX_RETRIES})...")
+                print(f"  ⏳ {reason} on {endpoint}, retrying in {delay}s (attempt {attempt + 1}/{MAX_RETRIES})...")
                 time.sleep(delay)
                 continue
             # All retries exhausted
             body = response.text[:200] if response.text else "(empty body)"
             if is_server_error:
-                raise TemporaryError(f"X API server error ({response.status_code}) after {MAX_RETRIES} retries: {body}")
-            raise TemporaryError(f"Cloudflare block ({response.status_code}) after {MAX_RETRIES} retries: {body}")
+                raise TemporaryError(f"X API server error ({response.status_code}) on {endpoint} after {MAX_RETRIES} retries: {body}")
+            raise TemporaryError(f"Cloudflare block ({response.status_code}) on {endpoint} after {MAX_RETRIES} retries: {body}")
 
         # Not a temporary error — break out of retry loop
         break
