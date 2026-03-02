@@ -1,0 +1,9 @@
+Gartner tracked a 1,445% surge in multi-agent system inquiries from Q1 2024 to Q2 2025.
+
+Not 14%. Not 144%. Fourteen HUNDRED percent.
+
+And 40% of those projects will fail by 2027.
+
+Seven years building call center AI taught me why: agents that can't identify themselves, can't authenticate to each other, can't be audited.
+
+The failure isn't technical. It's identity and governance.

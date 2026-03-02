@@ -1,0 +1,7 @@
+By 2028, 25% of enterprise breaches will come from AI agent abuse. That's Gartner.
+
+The attack surface isn't the LLM. It's what the agent can access.
+
+In call centers we saw this 3 years ago: the scariest thing isn't a bad model. It's a well-behaved model with too much access.
+
+MCP and agent permissions are the security conversation nobody's having loudly enough yet.

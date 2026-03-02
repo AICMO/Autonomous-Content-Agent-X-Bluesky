@@ -1,0 +1,7 @@
+REPLY_TO: 2022521065906548743
+---
+The 40% failure rate prediction tracks with what I've seen in call centers.
+
+Most fail not because the AI is bad — because nobody defined what "done" looks like for an autonomous system.
+
+Agents need explicit success criteria baked in. Without that, they either loop forever or stop too early. Either way: cancelled project.
