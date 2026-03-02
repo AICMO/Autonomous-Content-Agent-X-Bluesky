@@ -22,15 +22,25 @@ import sys
 import json
 import time
 import random
+import logging
 import argparse
+from datetime import datetime, timezone
 from pathlib import Path
+
+logging.basicConfig(
+    format="%(asctime)s %(levelname)s %(message)s",
+    datefmt="%H:%M:%S",
+    level=logging.INFO,
+    stream=sys.stderr,
+)
+log = logging.getLogger("x")
 
 try:
     from requests_oauthlib import OAuth1Session
     import urllib3
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 except ImportError:
-    print('{"error": "Missing requests-oauthlib. Run: pip install requests requests-oauthlib"}')
+    log.error("Missing requests-oauthlib. Run: pip install requests requests-oauthlib")
     sys.exit(1)
 
 API_BASE = "https://api.twitter.com/2"
@@ -49,7 +59,7 @@ def get_oauth_session():
     access_secret = os.environ.get("X_ACCESS_TOKEN_SECRET")
 
     if not all([api_key, api_secret, access_token, access_secret]):
-        print('{"error": "Missing credentials. Need X_API_KEY, X_API_KEY_SECRET, X_ACCESS_TOKEN, X_ACCESS_TOKEN_SECRET"}')
+        log.error("Missing credentials. Need X_API_KEY, X_API_KEY_SECRET, X_ACCESS_TOKEN, X_ACCESS_TOKEN_SECRET")
         sys.exit(1)
 
     session = OAuth1Session(
@@ -68,14 +78,14 @@ def get_oauth_session():
         "Connection": "keep-alive",
     })
 
-    # Route through proxy if configured (e.g. Bright Data residential proxy)
-    # Bright Data proxies MITM HTTPS with their own cert, so SSL verify must be disabled.
+    # Route through proxy if configured (e.g. residential proxy)
+    # Proxies MITM HTTPS with their own cert, so SSL verify must be disabled.
     proxy_url = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
     if proxy_url:
         session.proxies = {"https": proxy_url, "http": proxy_url}
         session.verify = False
         proxy_host = proxy_url.split("@")[-1] if "@" in proxy_url else proxy_url
-        print(f"  Using proxy: {proxy_host} (SSL verify disabled)")
+        log.info("Using proxy: %s (SSL verify disabled)", proxy_host)
 
     return session
 
@@ -96,12 +106,12 @@ def get_user_endpoint():
 def cmd_verify(session, _args):
     """Verify credentials and print raw response."""
     endpoint = get_user_endpoint()
-    print(f"Endpoint: {endpoint}")
+    log.info("Endpoint: %s", endpoint)
     response = session.get(endpoint, params={"user.fields": "public_metrics"})
     try:
         print(json.dumps(response.json(), indent=2))
     except Exception:
-        print(response.text[:500])
+        log.error("Response: %s", response.text[:500])
     sys.exit(0 if response.status_code == 200 else 1)
 
 
@@ -115,17 +125,17 @@ def cmd_metrics(session, args):
     response = session.get(endpoint, params={"user.fields": "public_metrics"})
 
     if not response.text:
-        print('{"error": "Empty response (likely rate limited)", "status": ' + str(response.status_code) + '}')
+        log.error("Empty response (likely rate limited), status=%d", response.status_code)
         sys.exit(1)
 
     try:
         data = response.json()
     except Exception:
-        print(json.dumps({"error": f"Invalid JSON: {response.text[:200]}", "status": response.status_code}))
+        log.error("Invalid JSON (status=%d): %s", response.status_code, response.text[:200])
         sys.exit(1)
 
     if response.status_code != 200:
-        print(json.dumps({"error": data, "status": response.status_code}, indent=2))
+        log.error("API error (status=%d): %s", response.status_code, json.dumps(data))
         sys.exit(1)
 
     user = data.get("data", {})
@@ -140,7 +150,8 @@ def cmd_metrics(session, args):
     }
 
     if args.compact:
-        print(f"@{metrics['username']}: {metrics['followers']} followers, {metrics['following']} following, {metrics['tweets']} tweets")
+        log.info("@%s: %s followers, %s following, %s tweets",
+                 metrics['username'], metrics['followers'], metrics['following'], metrics['tweets'])
     else:
         print(json.dumps(metrics, indent=2))
 
@@ -173,20 +184,30 @@ def post_tweet(session, text, reply_to=None):
         payload["reply"] = {"in_reply_to_tweet_id": reply_to}
 
     endpoint = f"{API_BASE}/tweets"
-    from datetime import datetime, timezone
 
     for attempt in range(MAX_RETRIES + 1):
-        response = session.post(endpoint, json=payload)
+        try:
+            response = session.post(endpoint, json=payload)
+        except Exception as e:
+            # Proxy connection errors (403 tunnel, SSL, timeouts)
+            raise TemporaryError(f"Connection error: {e}")
+
+        # Log raw response for debugging (who answered: X API vs proxy vs Cloudflare)
+        server = response.headers.get("server", "?")
+        via = response.headers.get("via", "")
+        ct = response.headers.get("content-type", "?")
+        body_preview = response.text[:150] if response.text else "(empty)"
+        log.info("HTTP %d | server=%s via=%s ct=%s | %s", response.status_code, server, via or "-", ct, body_preview)
 
         daily_remaining = response.headers.get("x-app-limit-24hour-remaining")
         daily_limit = response.headers.get("x-app-limit-24hour-limit")
         daily_reset = response.headers.get("x-app-limit-24hour-reset")
         if daily_remaining and daily_limit:
-            print(f"  Daily limit: {daily_remaining}/{daily_limit} remaining", end="")
+            reset_info = ""
             if daily_reset:
                 reset_time = datetime.fromtimestamp(int(daily_reset), tz=timezone.utc).strftime("%H:%M:%S UTC")
-                print(f" (resets {reset_time})", end="")
-            print()
+                reset_info = f" (resets {reset_time})"
+            log.info("Daily limit: %s/%s remaining%s", daily_remaining, daily_limit, reset_info)
 
         if response.status_code == 429:
             body = response.text[:500] if response.text else "(empty body)"
@@ -207,7 +228,7 @@ def post_tweet(session, text, reply_to=None):
             if attempt < max_retries:
                 delay = delays[attempt] + random.uniform(0, 5)  # jitter
                 reason = f"server error ({response.status_code})" if is_server_error else f"proxy/Cloudflare block ({response.status_code})"
-                print(f"  ⏳ {reason} on {endpoint}, retrying in {delay:.0f}s (attempt {attempt + 1}/{max_retries})...")
+                log.warning("%s on %s, retrying in %ds (attempt %d/%d)", reason, endpoint, delay, attempt + 1, max_retries)
                 time.sleep(delay)
                 continue
             # All retries exhausted
@@ -222,10 +243,10 @@ def post_tweet(session, text, reply_to=None):
     try:
         data = response.json()
     except Exception:
-        print(f"Invalid response (status {response.status_code}): {response.text[:200]}")
+        log.error("Invalid response (status %d): %s", response.status_code, response.text[:200])
         return None
 
-    print(json.dumps(data))
+    log.info("Response: %s", json.dumps(data))
 
     # Detect duplicate content rejection
     if response.status_code == 403:
@@ -244,22 +265,22 @@ def post_thread(session, content):
     parts = [p.strip() for p in content.split("---") if p.strip()]
 
     if not parts:
-        print('{"error": "Empty thread content"}')
+        log.error("Empty thread content")
         return False
 
     if len(parts) == 1:
         return post_tweet(session, parts[0]) is not None
 
-    print(f"Posting thread with {len(parts)} parts...")
+    log.info("Posting thread with %d parts", len(parts))
     tweet_id = post_tweet(session, parts[0])
     if not tweet_id:
         return False
 
     for i, part in enumerate(parts[1:], 2):
-        print(f"  Part {i}/{len(parts)}...")
+        log.info("Part %d/%d", i, len(parts))
         tweet_id = post_tweet(session, part, reply_to=tweet_id)
         if not tweet_id:
-            print(f'  ✗ Failed at part {i}')
+            log.error("Failed at part %d", i)
             return False
 
     return True
@@ -284,7 +305,7 @@ def parse_reply_header(content):
             rest = rest[3:].strip()
         # Validate: must be numeric tweet ID, not a handle
         if not re.match(r'^\d{10,}$', reply_to):
-            print(f"  ⚠ Invalid reply target '{reply_to}' (must be numeric tweet ID, not a handle)")
+            log.warning("Invalid reply target '%s' (must be numeric tweet ID, not a handle)", reply_to)
             return None, rest
         return reply_to, rest
 
@@ -345,7 +366,7 @@ def process_content(session, content):
     """Process content (tweet, thread, or reply)."""
     reply_to, body = parse_reply_header(content)
     if reply_to:
-        print(f"  Replying to tweet {reply_to}")
+        log.info("Replying to tweet %s", reply_to)
         return post_tweet(session, body, reply_to=reply_to) is not None
     elif is_thread(body):
         return post_thread(session, body)
@@ -360,12 +381,12 @@ def cmd_post(session, args):
     if args.text:
         error = validate_content(args.text)
         if error:
-            print(f'{{"error": "{error}"}}')
+            log.error(error)
             sys.exit(1)
         try:
             success = process_content(session, args.text)
         except RateLimitError as e:
-            print(f"WARNING: {e}")
+            log.warning("%s", e)
             sys.exit(1)
         sys.exit(0 if success else 1)
 
@@ -373,20 +394,20 @@ def cmd_post(session, args):
     if args.file:
         filepath = (OUTPUT_DIR / args.file).resolve()
         if not str(filepath).startswith(str(OUTPUT_DIR.resolve())):
-            print('{"error": "File path must be within output directory"}')
+            log.error("File path must be within output directory")
             sys.exit(1)
         if not filepath.exists():
-            print(f'{{"error": "File not found: {args.file}"}}')
+            log.error("File not found: %s", args.file)
             sys.exit(1)
         content = filepath.read_text().strip()
         error = validate_content(content)
         if error:
-            print(f'{{"error": "{error}"}}')
+            log.error(error)
             sys.exit(1)
         try:
             success = process_content(session, content)
         except RateLimitError as e:
-            print(f"WARNING: {e}")
+            log.warning("%s", e)
             sys.exit(1)
         sys.exit(0 if success else 1)
 
@@ -402,54 +423,54 @@ def cmd_post(session, args):
     pending = tweets + replies
 
     if not pending:
-        print("No pending files")
+        log.info("No pending files")
         sys.exit(0)
 
-    print(f"Queue: {len(tweets)} tweets, {len(replies)} replies")
+    log.info("Queue: %d tweets, %d replies", len(tweets), len(replies))
 
     posted = 0
     cf_blocked = False  # If CF blocks one request, all subsequent will fail too (same IP)
 
     for filepath in pending:
         if cf_blocked:
-            print(f"Skipping {filepath.name}: Cloudflare blocking this IP, will retry next run")
+            log.warning("Skipping %s: blocked, will retry next run", filepath.name)
             continue
 
-        print(f"Processing: {filepath.name}")
+        log.info("Processing: %s", filepath.name)
         content = filepath.read_text().strip()
 
         error = validate_content(content)
         if error:
-            print(f"  ⚠ Skipping: {error}")
+            log.warning("Skipping: %s", error)
             filepath.rename(SKIPPED_DIR / filepath.name)
             continue
 
         try:
             if process_content(session, content):
                 filepath.rename(POSTED_DIR / filepath.name)
-                print("  ✓ Posted and archived")
+                log.info("Posted and archived")
                 posted += 1
             else:
-                print("  ⚠ Failed, skipping")
+                log.warning("Failed, skipping")
                 filepath.rename(SKIPPED_DIR / filepath.name)
                 continue
         except TemporaryError as e:
             err_str = str(e)
-            print(f"  ⏳ Temporary error, leaving in queue for retry: {e}")
-            if "Cloudflare" in err_str:
+            log.warning("Temporary error, leaving in queue: %s", e)
+            if "Cloudflare" in err_str or "Proxy" in err_str or "Connection error" in err_str:
                 cf_blocked = True
-                print("  🛑 Cloudflare is blocking this runner IP. Skipping remaining files.")
+                log.error("Blocked — skipping remaining files")
             continue
         except DuplicateContentError as e:
-            print(f"  ⚠ Duplicate content, skipping: {e}")
+            log.warning("Duplicate content, skipping: %s", e)
             filepath.rename(SKIPPED_DIR / filepath.name)
             continue
         except RateLimitError as e:
-            print(f"\nWARNING: {e}")
-            print(f"Posted {posted} before rate limit. Remaining files will be retried next run.")
+            log.warning("%s", e)
+            log.info("Posted %d before rate limit. Remaining files will be retried next run.", posted)
             sys.exit(0 if posted > 0 else 1)
 
-    print(f"Posted: {posted} ({len(tweets)} tweets, {len(replies)} replies queued)")
+    log.info("Done: %d posted (%d tweets, %d replies queued)", posted, len(tweets), len(replies))
     sys.exit(0)
 
 
