@@ -186,17 +186,22 @@ def post_tweet(session, text, reply_to=None):
         is_cloudflare = "text/html" in content_type or (response.text and response.text.strip().startswith("<!DOCTYPE"))
 
         if is_server_error or is_cloudflare:
-            if attempt < MAX_RETRIES:
-                delay = RETRY_DELAYS[attempt]
+            # Cloudflare blocks are persistent per IP — fewer retries, shorter waits
+            max_retries = 2 if is_cloudflare else MAX_RETRIES
+            cf_delays = [10, 30]
+            delays = cf_delays if is_cloudflare else RETRY_DELAYS
+
+            if attempt < max_retries:
+                delay = delays[attempt] + random.uniform(0, 5)  # jitter
                 reason = f"server error ({response.status_code})" if is_server_error else f"Cloudflare block ({response.status_code})"
-                print(f"  ⏳ {reason} on {endpoint}, retrying in {delay}s (attempt {attempt + 1}/{MAX_RETRIES})...")
+                print(f"  ⏳ {reason} on {endpoint}, retrying in {delay:.0f}s (attempt {attempt + 1}/{max_retries})...")
                 time.sleep(delay)
                 continue
             # All retries exhausted
             body = response.text[:200] if response.text else "(empty body)"
             if is_server_error:
-                raise TemporaryError(f"X API server error ({response.status_code}) on {endpoint} after {MAX_RETRIES} retries: {body}")
-            raise TemporaryError(f"Cloudflare block ({response.status_code}) on {endpoint} after {MAX_RETRIES} retries: {body}")
+                raise TemporaryError(f"X API server error ({response.status_code}) on {endpoint} after {max_retries} retries: {body}")
+            raise TemporaryError(f"Cloudflare block ({response.status_code}) on {endpoint} after {max_retries} retries: {body}")
 
         # Not a temporary error — break out of retry loop
         break
@@ -390,8 +395,13 @@ def cmd_post(session, args):
     print(f"Queue: {len(tweets)} tweets, {len(replies)} replies")
 
     posted = 0
+    cf_blocked = False  # If CF blocks one request, all subsequent will fail too (same IP)
 
     for filepath in pending:
+        if cf_blocked:
+            print(f"Skipping {filepath.name}: Cloudflare blocking this IP, will retry next run")
+            continue
+
         print(f"Processing: {filepath.name}")
         content = filepath.read_text().strip()
 
@@ -411,7 +421,11 @@ def cmd_post(session, args):
                 filepath.rename(SKIPPED_DIR / filepath.name)
                 continue
         except TemporaryError as e:
+            err_str = str(e)
             print(f"  ⏳ Temporary error, leaving in queue for retry: {e}")
+            if "Cloudflare" in err_str:
+                cf_blocked = True
+                print("  🛑 Cloudflare is blocking this runner IP. Skipping remaining files.")
             continue
         except DuplicateContentError as e:
             print(f"  ⚠ Duplicate content, skipping: {e}")
