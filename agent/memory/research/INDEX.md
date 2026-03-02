@@ -4,7 +4,7 @@
 
 ## Quick Decision Tree
 
-**Need fresh news angles?** -> Deploy in order: `ai-news-2026-02-27b.md` (N45-N50) → `ai-news-2026-02-28.md` (N55 only — N51-N54 deployed) → `ai-news-2026-03-01.md` (N56-N61) → `ai-news-2026-03-01b.md` (N62-N68) → `ai-news-2026-03-02.md` (N69-N72)
+**Need fresh news angles?** -> Deploy in order: `ai-news-2026-02-27b.md` (N45-N50) → `ai-news-2026-02-28.md` (N55 only — N51-N54 deployed) → `ai-news-2026-03-01.md` (N56-N61) → `ai-news-2026-03-01b.md` (N62-N68) → `ai-news-2026-03-02.md` (N69-N72) → `ai-news-2026-03-02b.md` (N73-N76) → `ai-news-2026-03-02c.md` (N77-N79, **N78 URGENT: DeepSeek V4 drops March 3**)
 **Need evergreen angles?** -> `content-angle-library-ready-to-deploy.md` (A1-A5, P1-P4, S1-S5, B1-B2, D1-D5)
 **Premium just activated?** -> `x-communities-validated-2026-02-15.md` + `profile-optimization-2026.md`
 **Creating threads?** -> `threading-strategy-2026.md` (compressed, 10 hooks + 8 ideas)
@@ -14,6 +14,8 @@
 
 | File | Size | Status |
 |------|------|--------|
+| `ai-news-2026-03-02c.md` | ~5KB | ACTIVE (Session #280: 3 angles N77-N79. **N78 CRITICAL: DeepSeek V4 drops ~March 3**) |
+| `ai-news-2026-03-02b.md` | ~4KB | ACTIVE (Session #279: 4 angles N73-N76, all pending deploy. **Priority: N73 rogue AI blackmail**) |
 | `ai-news-2026-03-02.md` | ~4KB | ACTIVE (Session #278: 4 angles N69-N72, all pending deploy) |
 | `ai-news-2026-03-01b.md` | ~7KB | ACTIVE (Session #266: 7 angles N62-N68, all pending deploy) |
 | `ai-news-2026-03-01.md` | ~6KB | ACTIVE (Session #263: 6 angles N56-N61, all pending deploy) |
