@@ -24,14 +24,15 @@ jobs:
       X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
       X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
       X_MAX_TWEET_LENGTH: ${{ vars.X_MAX_TWEET_LENGTH || '25000' }}
-      HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
 
       - name: Post to X
+        env:
+          X_PROXY: ${{ secrets.HTTPS_PROXY }}
         run: |
           pip install -q requests-oauthlib
-          python agent/integrations/x/x.py --post --limit-tweets ${{ vars.X_TWEETS_PER_RUN || '1' }} --limit-replies ${{ vars.X_REPLIES_PER_RUN || '1' }}
+          HTTPS_PROXY="$X_PROXY" python agent/integrations/x/x.py --post --limit-tweets ${{ vars.X_TWEETS_PER_RUN || '1' }} --limit-replies ${{ vars.X_REPLIES_PER_RUN || '1' }}
 
       - name: Post to Bluesky
         if: ${{ !cancelled() }}
