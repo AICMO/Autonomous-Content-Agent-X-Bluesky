@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-02 Session #286 (X API 503 still active — research session: MCP adoption + OpenAI revenue angles)
-PR Count Today: 11/15
+Last Updated: 2026-03-02 Session #287 (X API 503 still active — research session: Claude Code 4% commits, Apple-Gemini, AI agents market)
+PR Count Today: 12/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -46,7 +46,8 @@ PR Count Today: 11/15
 - Memory directory: ~77KB / 500KB target (healthy)
 - Research ready: N55, N60, N61, N63, N64, N67, N69-N88 (pipeline full — 23 angles)
 - Deployed: N1-N56, N57, N58, N59, N62, N65, N66, N68
-- New research this session: ai-news-2026-03-02f.md (N85-N88: MCP USB-C standard adoption, M×N problem, founder/BIP angle, OpenAI $13B→$30B)
+- New research this session: ai-news-2026-03-02g.md (N89-N93: Claude Code 4%→20% commits BIP, 200% productivity reframe, Apple-Gemini Siri, enterprise AI agents $183B)
+- New total pipeline: 28 angles ready (N55, N60, N61, N63-N93)
 - **CRITICAL TIME SENSITIVITY**:
   - N82-N84 (DeepSeek V4) drops March 3-5 — MOST URGENT (trillion params, 1M ctx, Huawei chips, multimodal)
   - N77 (Anthropic-Pentagon) very timely — legal story evolving
@@ -55,6 +56,7 @@ PR Count Today: 11/15
 - **New Communities data**: Text outperforms video 30%, Communities-first when <3K followers, 3-5 posts/day optimal
 
 ## Session History (Condensed)
+- #287 (2026-03-02): X API 503 still active. Research: N89-N93 (Claude Code 4%→20% commits, Apple-Gemini Siri deal, enterprise AI agents $183B market). PR 12/15.
 - #286 (2026-03-02): X API 503 still active. Research: MCP adoption angles N85-N88 (MCP 97M downloads, M×N problem, BIP angle, OpenAI $13B→$30B). INDEX.md updated. PR 11/15.
 - #285 (2026-03-02): **X API 503 OUTAGE DISCOVERED**. X=18, Bluesky=15. X queue stuck at 18 because X API is down (503 errors since 21:18 UTC 3/1). Bluesky still posting. Owner notification needed. PR 10/15.
 - #284 (2026-03-02): Queue-blocked session — X=18, Bluesky=15. HARD STOP enforced (3rd+ consecutive queue-blocked session). State update only. PR 9/15.
@@ -77,15 +79,15 @@ PR Count Today: 11/15
 ## Session Retrospective
 ### What was planned vs what happened?
 - Planned: Queue-blocked; research or cleanup work
-- Actual: Confirmed X API 503 still active (last run: 03:29 UTC, all X posts failed 503). Researched MCP adoption (N85-N88) and updated INDEX.md.
-- Delta: Useful pipeline-building done despite queue block. DeepSeek V4 still imminent (March 3-5).
+- Actual: Researched Claude Code 4%→20% commits (SemiAnalysis Feb 2026), Apple-Gemini Siri deal, enterprise AI agents $7.6B→$183B market. Added N89-N93.
+- Delta: Strong BIP angle found (N89 — this repo is part of Claude Code's 4%). Apple-Gemini delayed to iOS 26.5/27.
 
 ### What worked?
-- X API 503 confirmed as platform-level issue (X had 12 incidents last 90 days, Feb 16 major outage)
-- MCP angles are high-value: 97M monthly downloads, universal standard, strong money angle
+- N89 (Claude Code 4% BIP) is a standout angle: personal connection + trending + money angle
+- Enterprise AI agents market data ($183B, 171% ROI) is strong authority content
 
 ### What to improve?
 - **LESSON**: When queue is stuck at same number across multiple sessions, CHECK THE WORKFLOW LOGS first (learned #285)
-- Priority deployment queue when X API recovers: N82 → N83 → N84 → N77 → N81 → N85-N88
+- Priority deployment queue when X API recovers: N82 → N83 → N84 → N89 → N93 → N90 → N77 → N81 → N85-N88
 - DeepSeek V4 drops March 3-5 — N82-N84 must deploy immediately after X API recovers
 - Owner should verify X API credentials at developer.twitter.com (platform-level issue, but credentials check is prudent)
