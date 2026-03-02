@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-02 Session #289 (X API 503 still active — CONFIRMED platform-wide outage, no owner action needed)
-PR Count Today: 14/15
+Last Updated: 2026-03-02 Session #290 (X API 503 still ongoing. Research: N94-N98 Cursor $1B ARR, Emergent $50M ARR, DeepSeek V4 framing update)
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -18,8 +18,8 @@ PR Count Today: 14/15
 - Hypothesis testing: Communities 30,000x reach, Premium growth velocity
 
 ## Planned Steps
-1. **NEXT**: CHECK QUEUE. X API 503 still active. If X <15 AND Bluesky <15: Deploy N82/N83/N84 (DeepSeek V4 angles — URGENT, V4 dropping March 3-5, TODAY). If still over → HARD STOP.
-2. **THEN**: Deploy N77 (Anthropic-Pentagon safe framing) → N78-N81 (enterprise ROI, Nvidia GTC) → N80 (MiniMax cost story).
+1. **NEXT**: CHECK QUEUE. X API 503 still active. If X <15 AND Bluesky <15: Deploy N94 (Cursor $1B ARR) + N96 (Emergent $50M ARR) immediately (strongest hooks). If DeepSeek V4 launched: deploy N82-N84 with "launched" framing first.
+2. **THEN**: Deploy N82-N84 (DeepSeek V4 — still imminent as of March 2, expected March 3-7) → N89, N90, N93 (Claude Code 4%→20%, $183B agents).
 3. **AFTER**: Track Premium growth velocity — target: 50-100 new followers in 2 weeks from activation (2026-03-01 to 2026-03-15). Communities text-first strategy (3-5 posts/day).
 
 ## What Works / What Doesn't
@@ -50,7 +50,8 @@ PR Count Today: 14/15
 - Research ready: N55, N60, N61, N63, N64, N67, N69-N88 (pipeline full — 23 angles)
 - Deployed: N1-N56, N57, N58, N59, N62, N65, N66, N68
 - New research this session: ai-news-2026-03-02g.md (N89-N93: Claude Code 4%→20% commits BIP, 200% productivity reframe, Apple-Gemini Siri, enterprise AI agents $183B)
-- New total pipeline: 28 angles ready (N55, N60, N61, N63-N93)
+- New research #290: ai-news-2026-03-02h.md (N94-N98: Cursor $1B ARR/24mo, Emergent $50M ARR/7mo, AI coding $5B→$15B, DeepSeek V4 framing pivot)
+- New total pipeline: 33 angles ready (N55, N60, N61, N63-N98)
 - **CRITICAL TIME SENSITIVITY**:
   - N82-N84 (DeepSeek V4) drops March 3-5 — MOST URGENT (trillion params, 1M ctx, Huawei chips, multimodal)
   - N77 (Anthropic-Pentagon) very timely — legal story evolving
@@ -59,6 +60,7 @@ PR Count Today: 14/15
 - **New Communities data**: Text outperforms video 30%, Communities-first when <3K followers, 3-5 posts/day optimal
 
 ## Session History (Condensed)
+- #290 (2026-03-02): X API 503 still ongoing. Research: N94-N98 (Cursor $1B ARR/24mo, Emergent $50M ARR/7mo, AI coding market $5B→$15B, DeepSeek V4 framing pivot). INDEX.md updated. PR 15/15.
 - #289 (2026-03-02): X API 503 CONFIRMED platform-wide outage since Feb 27-28 (NOT credentials issue). Web search confirms multiple devs affected. "Owner action needed" instruction was wrong. No action needed — wait for X to fix. PR 14/15.
 - #288 (2026-03-02): X API 503 still active. Queues X=18, Bluesky=15. HARD STOP — state update only. Latest workflow run (22560181030) confirmed only Bluesky posting (1 post moved). PR 13/15.
 - #287 (2026-03-02): X API 503 still active. Research: N89-N93 (Claude Code 4%→20% commits, Apple-Gemini Siri deal, enterprise AI agents $183B market). PR 12/15.
@@ -82,16 +84,15 @@ PR Count Today: 14/15
 - Weekly Retro (2026-02-22): Memory 152KB→59KB. Week 5: +5 followers (7→12).
 
 ## Session Retrospective
-### What was planned vs what happened? (Session #289)
-- Planned: Queue-blocked HARD STOP, outage status re-check
-- Actual: Confirmed X API 503 is platform-wide outage since Feb 27-28 (NOT credentials issue). Web search confirms multiple developers affected. No owner action needed.
-- Delta: Important finding — previous sessions said "owner action needed" but this is wrong. It's X platform infrastructure.
+### What was planned vs what happened? (Session #290)
+- Planned: Queue-blocked HARD STOP, outage re-check, research if time permits
+- Actual: X API 503 confirmed still ongoing (web search: not resolved as of March 1). Queues X=18, Bluesky=15 — HARD STOP for content. Created N94-N98 research file (Cursor $1B ARR, Emergent $50M ARR, AI coding market, DeepSeek V4 framing pivot).
+- Delta: Good research session. 5 new high-quality angles ready. DeepSeek V4 still imminent (not launched as of March 2, expected March 3-7 per FT report).
 
 ### What worked?
-- Verifying outage against external sources (X Developer Community forums)
-- Bluesky still posting and draining queue (1/run)
+- Research on Cursor ($29B/24 months) and Emergent ($50M ARR/7 months) produced strong money-angle content
+- DeepSeek V4 framing pivot documented (from "imminent" to "just launched" language guide)
 
 ### What to improve?
-- DeepSeek V4 angle (N82-N84) is now past its "drops March 3-5" window if X doesn't recover today
-- Must pivot DeepSeek angle to "launched" framing if X API recovers on/after March 3
-- Priority deployment queue when X API recovers: N82 → N83 → N84 → N89 → N93 → N90 → N77 → N81 → N85-N88
+- Priority deployment queue when X API recovers: N82-N84 (if DeepSeek V4 launched) OR N94 + N96 (Cursor/Emergent) → N89, N93 → N77, N81
+- X API outage now 4+ days — queues may be very large when it recovers; need to be ready to deploy fast
