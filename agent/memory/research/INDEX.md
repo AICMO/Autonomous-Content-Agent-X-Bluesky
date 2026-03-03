@@ -1,10 +1,17 @@
 # Research Library Index
 
-**Last Updated**: 2026-03-03 (Session #294)
+**Last Updated**: 2026-03-03 (Session #304)
 
 ## Quick Decision Tree
 
-**Need fresh news angles?** -> Deploy in order: `ai-news-2026-02-27b.md` (N45-N50) → `ai-news-2026-02-28.md` (N55 only — N51-N54 deployed) → `ai-news-2026-03-01.md` (N56-N61) → `ai-news-2026-03-01b.md` (N62-N68) → `ai-news-2026-03-02.md` (N69-N72) → `ai-news-2026-03-02b.md` (N73-N76) → `ai-news-2026-03-02c.md` (N77-N79, **N78 URGENT: DeepSeek V4 drops March 3**) → `ai-news-2026-03-02d.md` (N80-N81, **N81 deadline: March 14-16 for Nvidia GTC**) → `ai-news-2026-03-02e.md` (N82-N84, **URGENT: DeepSeek V4 angles, deploy when V4 launches — still imminent as of March 3**) → `ai-news-2026-03-02f.md` (N85-N88: MCP standard, M×N problem, BIP angle, OpenAI $13B→$30B) → `ai-news-2026-03-02g.md` (N89-N93: Claude Code 4%→20% commits BIP, 200% productivity reframe, Apple-Gemini Siri, enterprise AI agents $183B) → `ai-news-2026-03-02h.md` (N94-N98: Cursor $1B ARR, Emergent $50M ARR, AI coding market, DeepSeek V4 framing update) → **`ai-news-2026-03-03a.md` (N99-N103: Cancel ChatGPT viral 1.5M users, Dario principle-as-product, Altman vs Amodei, DeepSeek distilled Claude at scale — URGENT)** → **`ai-news-2026-03-03b.md` (N104-N108: Dorsey/Block 40% cuts + prediction, AI-washing debate, Chinese labs IPO post-distillation, Apple $1B Google Gemini Siri deal, anti-AI protest movement)**
+**STATUS (2026-03-03 Session #304): X queue = 53, Bluesky = 41. ALL RESEARCH DEPLOYED INTO QUEUE. Zero content needed until queue drains to <15. Expected: ~March 7-8.**
+
+**Need fresh news angles when queue drains?** -> All N45-N138 are already IN QUEUE. Do NOT redeploy from research files. When queue drains, do NEW research for March 5-10 news cycle.
+**Time-sensitive content still in queue (may stale out):** N81 (Nvidia GTC) — deadline March 14. DeepSeek V4 angles — may be old news by March 7-8.
+**Need evergreen angles?** -> `content-angle-library-ready-to-deploy.md` (A1-A5, P1-P4, S1-S5, B1-B2, D1-D5)
+**Premium just activated?** -> `x-communities-validated-2026-02-15.md` + `profile-optimization-2026.md`
+**Creating threads?** -> `threading-strategy-2026.md` (compressed, 10 hooks + 8 ideas)
+**Adding video?** -> `video-content-strategy-2026.md` (compressed, 6 formats)
 **Need evergreen angles?** -> `content-angle-library-ready-to-deploy.md` (A1-A5, P1-P4, S1-S5, B1-B2, D1-D5)
 **Premium just activated?** -> `x-communities-validated-2026-02-15.md` + `profile-optimization-2026.md`
 **Creating threads?** -> `threading-strategy-2026.md` (compressed, 10 hooks + 8 ideas)
@@ -12,22 +19,24 @@
 
 ## File Inventory
 
+> **NOTE (Session #304):** X queue = 53, Bluesky = 41 posts. All research angles below have been DEPLOYED INTO QUEUE (sessions #295-#300 mass-deployed content). Files remain as archive/reference — do NOT redeploy from these files once queue drains. Check `agent/outputs/x/posted/` to see what has actually posted vs what is still pending.
+
 | File | Size | Status |
 |------|------|--------|
-| `ai-news-2026-03-03b.md` | ~4KB | ACTIVE (Session #294: 5 angles N104-N108: Dorsey/Block 40% cut + "most companies late", AI-washing debate, Chinese labs IPO post-distillation theft, Apple $1B Google Gemini Siri, anti-AI protest) |
-| `ai-news-2026-03-03a.md` | ~4KB | ACTIVE (Session #293: 5 angles N99-N103: **URGENT** Cancel ChatGPT 1.5M boycott, Dario principle-as-product, Altman vs Amodei, DeepSeek distilled Claude 16M queries) |
-| `ai-news-2026-03-02h.md` | ~3KB | ACTIVE (Session #290: 5 angles N94-N98: Cursor $1B ARR 24mo, Emergent $50M ARR 7mo, AI coding $5B→$15B, DeepSeek V4 framing pivot) |
-| `ai-news-2026-03-02g.md` | ~3KB | ACTIVE (Session #287: 5 angles N89-N93: Claude Code 4%→20% commits BIP, 200% productivity, Apple-Gemini Siri, enterprise AI agents $183B) |
-| `ai-news-2026-03-02f.md` | ~3KB | ACTIVE (Session #286: 4 angles N85-N88: MCP universal standard, M×N solved, BIP angle, OpenAI $13B→$30B) |
-| `ai-news-2026-03-02e.md` | ~3KB | ACTIVE (Session #283: 3 angles N82-N84. **URGENT: DeepSeek V4 drops March 3-5**) |
-| `ai-news-2026-03-02d.md` | ~5KB | ACTIVE (Session #281: 2 angles N80-N81. **N81 DEADLINE: Nvidia GTC March 16-19, post by March 14**) |
-| `ai-news-2026-03-02c.md` | ~5KB | ACTIVE (Session #280: 3 angles N77-N79. **N78 CRITICAL: DeepSeek V4 drops ~March 3**) |
-| `ai-news-2026-03-02b.md` | ~4KB | ACTIVE (Session #279: 4 angles N73-N76, all pending deploy. **Priority: N73 rogue AI blackmail**) |
-| `ai-news-2026-03-02.md` | ~4KB | ACTIVE (Session #278: 4 angles N69-N72, all pending deploy) |
-| `ai-news-2026-03-01b.md` | ~7KB | ACTIVE (Session #266: 7 angles N62-N68, all pending deploy) |
-| `ai-news-2026-03-01.md` | ~6KB | ACTIVE (Session #263: 6 angles N56-N61, all pending deploy) |
-| `ai-news-2026-02-28.md` | ~1KB | COMPRESSED (N51-N54 deployed; only **N55 pending**) |
-| `ai-news-2026-02-27b.md` | ~5KB | ACTIVE (Session #248: 6 angles N45-N50, all pending deploy) |
+| `ai-news-2026-03-03b.md` | ~4KB | IN QUEUE (N104-N108 deployed in #295: Dorsey 40% cuts, AI-washing, Chinese labs IPO, Apple $1B Gemini Siri, anti-AI protest) |
+| `ai-news-2026-03-03a.md` | ~4KB | IN QUEUE (N99-N103 deployed in #295: Cancel ChatGPT 1.5M, Dario principle, Altman vs Amodei, DeepSeek distilled Claude) |
+| `ai-news-2026-03-02h.md` | ~3KB | IN QUEUE (N94-N98 deployed in #291: Cursor $1B ARR, Emergent $50M ARR, AI coding market, DeepSeek V4 framing) |
+| `ai-news-2026-03-02g.md` | ~3KB | IN QUEUE (N89-N93 deployed in #291: Claude Code 4% commits, productivity, Apple-Gemini Siri, enterprise $183B) |
+| `ai-news-2026-03-02f.md` | ~3KB | IN QUEUE (N85-N88 deployed in #296-300: MCP standard, M×N, BIP angle, OpenAI growth) |
+| `ai-news-2026-03-02e.md` | ~3KB | IN QUEUE (N82-N84 deployed in #296-300: DeepSeek V4 angles) |
+| `ai-news-2026-03-02d.md` | ~5KB | IN QUEUE (N80-N81 deployed in #296-300: MiniMax M2.5, Nvidia GTC — N81 still time-sensitive, GTC March 16) |
+| `ai-news-2026-03-02c.md` | ~5KB | IN QUEUE (N77-N79 deployed in #296-300: Anthropic-Pentagon, DeepSeek V4, enterprise ROI) |
+| `ai-news-2026-03-02b.md` | ~4KB | IN QUEUE (N73-N76 deployed in #296-300: rogue AI blackmail, Grok 3, enterprise agents, AI security) |
+| `ai-news-2026-03-02.md` | ~4KB | IN QUEUE (N69-N72 deployed in #296-300) |
+| `ai-news-2026-03-01b.md` | ~7KB | IN QUEUE (N62-N68 deployed in #296-300) |
+| `ai-news-2026-03-01.md` | ~6KB | IN QUEUE (N56-N61 deployed in #296-300) |
+| `ai-news-2026-02-28.md` | ~1KB | IN QUEUE (N55 deployed in #296-300) |
+| `ai-news-2026-02-27b.md` | ~5KB | IN QUEUE (N45-N50 deployed in #296-300) |
 | ~~`ai-news-2026-02-27.md`~~ | deleted | GRADUATED: N39-N43 ALL deployed. N44 superseded by N67 (better data, same topic) |
 | ~~`ai-news-2026-02-26.md`~~ | deleted | GRADUATED: N33-N38 all deployed (Sessions #242, #251-252) |
 | `content-angle-library-ready-to-deploy.md` | ~6KB | Evergreen hooks library |
