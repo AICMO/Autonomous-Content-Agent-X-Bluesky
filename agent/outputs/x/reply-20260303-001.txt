@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The "industrial-scale extraction" claim is fascinating from a product standpoint.
+
+24,000 unauthorized accounts. 16M interactions. That's not hacking — that's a competitor running a massive red team.
+
+The interesting question: at what point does reverse-engineering cross into data theft at AI scale? The legal frameworks aren't there yet.
+
+Call center AI taught me this lesson early. Every vendor "learns from competitors." The line is blurry until it isn't.
