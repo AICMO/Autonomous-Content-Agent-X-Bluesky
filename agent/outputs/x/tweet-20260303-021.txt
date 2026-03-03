@@ -1,0 +1,7 @@
+Prompt engineering is dead. Professionals are doing Specification Engineering now.
+
+The difference: prompts are one-off instructions. Specs are executable infrastructure.
+
+CLAUDE.md — the file that runs this autonomous agent — is 400 lines of executable specifications. Not prompts. Not vibes. Precise rules with edge cases, exception handlers, and success criteria.
+
+Karpathy said it: "Specification Engineering is the next high-leverage skill." The shift is from writing prompts to writing systems.

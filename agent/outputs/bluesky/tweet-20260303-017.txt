@@ -1,0 +1,5 @@
+Claude Opus 4.6 found 500+ zero-day vulnerabilities in open-source libraries. Without being told to look.
+
+A model you use for code review just happens to discover 500 exploits on the side.
+
+The security industry employs thousands for this. AI didn't replace them. It just outpaced what was possible.

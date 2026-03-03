@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-03 Session #297 (X=26, BS=16. Created 5 X posts + 5 Bluesky posts (N114-N118: Anthropic supply chain risk, Anthropic revenue math, OpenAI defends Anthropic, DeepSeek V4 multimodal launch, 330+ employee activism) + 1 reply (@OpenAI tweet 2027846016423321831).)
-PR Count Today: 7/15
+Last Updated: 2026-03-03 Session #298 (X=32+6=38, BS=21+6=27. Created 6 X posts + 6 Bluesky posts (N119-N124: Claude Opus 4.6 zero-days, Dorsey Block AI-washing, Chinese AI labs IPO, anti-AI protest movement, Specification Engineering, AI code security 2.74x vulnerabilities). No replies — 97 pending already exceeds limit.)
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -8,7 +8,7 @@ PR Count Today: 7/15
 | Followers | 16 | 5,000 | 4,984 | +4/week (pre-Premium) | Reassess after 2 weeks with Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | ~540+ | - | - | ~120/week | - |
-| Pending Queue | 31 X + 21 Bluesky | ≤15 each | Queues over limit — operator directive overrides |
+| Pending Queue | ~38 X + ~27 Bluesky | ≤15 each | Queues over limit — operator directive overrides |
 | Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
 ## Premium ACTIVE (as of 2026-03-01)
@@ -18,9 +18,9 @@ PR Count Today: 7/15
 - Hypothesis testing: Communities 30,000x reach, Premium growth velocity
 
 ## Planned Steps
-1. **NEXT**: Queue draining (X=20+5=25 new added but operator directive overrides). When X queue drops below 15, deploy N82-N84 + N102 (DeepSeek V4 angles — imminent launch) immediately.
-2. **THEN**: Deploy N109 (GLM-5 open weights matching Claude), N112 (OpenAI Pentagon deal — who audits?), N106 (Chinese labs IPO + distillation).
-3. **AFTER**: Deploy N105 (AI-washing), N108 (anti-AI protest), N113 (360+ employees back Anthropic). Track Premium growth. Target 50-100 followers by 2026-03-15.
+1. **NEXT**: Operator directive continues: Create 5-8 pieces per session. Next: N82-N84 (DeepSeek V4 specs — launch expected any day), N109 (GLM-5 open weights), N110 (Huawei chips Nvidia independence).
+2. **THEN**: N111 (Gemini 3.1 Pro), N112 (OpenAI Pentagon self-governance), vibe coding security angle (AI code 2.74x more vulnerable — already deployed as N124 this session).
+3. **AFTER**: Research Two Sessions AI policy angles (China 3/5 of world AI patents), Cursor pricing crisis angles. Track Premium growth — target 50 followers by 2026-03-15.
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
@@ -51,6 +51,7 @@ None — X API 503 RESOLVED as of ~2026-03-03. Workflow runs succeeding. X queue
   - N77 (Anthropic-Pentagon ethics) very timely — still hot
 
 ## Session History (Condensed)
+- #298 (2026-03-03): Queue X=32+6, BS=21+6. 6 posts + 6 Bluesky (N119-N124: Claude Opus 4.6 500 zero-days, Dorsey AI-washing, Chinese AI labs IPO, anti-AI protest, Spec Engineering, AI code 2.74x security). No replies (97 pending). PR 8/15.
 - #297 (2026-03-03): Queue X=26, BS=16. 5 posts + 5 Bluesky (N114-N118: Anthropic supply chain risk/Pentagon, Anthropic $14B revenue math, OpenAI defends Anthropic, DeepSeek V4 multimodal, 330+ employee activism) + 1 reply (@OpenAI 2027846016423321831). PR 7/15.
 - #296 (2026-03-03): Queue X=20. 5 posts + 5 Bluesky (DeepSeek V4 launch, GLM-5 benchmarks, 360+ employee Pentagon petition, BIP 16 followers, OpenAI deal analysis) + 1 reply (DeepSeek V4 benchmarks). Research: N109-N113 (GLM-5, Gemini 3.1 Pro, OpenAI Pentagon deal). PR 6/15.
 - #295 (2026-03-03): Deployed 5 posts: N99 Cancel ChatGPT 1.5M, N100 Dario principle, N101 Altman vs Amodei, N104 Dorsey 40% cuts, N107 Apple $1B Siri. X=15→20, Bluesky=6→11. PR 5/15.
@@ -82,6 +83,20 @@ None — X API 503 RESOLVED as of ~2026-03-03. Workflow runs succeeding. X queue
 - Weekly Retro (2026-02-22): Memory 152KB→59KB. Week 5: +5 followers (7→12).
 
 ## Session Retrospective
+### What was planned vs what happened? (Session #298)
+- Planned: Create 5-8 content pieces per operator directive.
+- Actual: Created 6 X posts + 6 Bluesky posts (12 pieces total). No reply — 97 pending replies already exceeds hard limit of 5. Good diversity: news hooks, contrarian, authority, BIP adjacent.
+- Delta: Solid session. New angles from background research agent (vibe coding security data, Two Sessions China AI data).
+
+### What worked?
+- Background research agent ran in parallel while content was being written — efficient use of turns.
+- Diverse angle mix: 2 hard news hooks (zero-days, AI-washing), 1 contrarian (anti-AI movement), 1 authority (Spec Engineering), 1 money hook (Chinese labs IPO), 1 data hook (AI code vulnerabilities).
+- Claude Opus 4.6 zero-days angle is timely and shareable — security + AI = viral combo.
+
+### What to improve?
+- 97 pending replies is way too many. Replies need to clear out before adding more. Check in next retro.
+- Session #297 reference to N114-N118 is wrong numbering (pipeline tracking is informal). Better to track by filename.
+
 ### What was planned vs what happened? (Session #296)
 - Planned: Queue-blocked (X=20). Research/skills work per queue discipline.
 - Actual: Session directive said "Create 5-8 pieces" — operator override. Created 5 posts + Bluesky pairs covering DeepSeek V4 imminent, GLM-5 open weights, 360+ employee petition, BIP 16 followers, OpenAI Pentagon deal analysis. Also 1 new reply + 1 research file N109-N113.

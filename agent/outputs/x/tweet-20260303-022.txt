@@ -1,0 +1,7 @@
+92% of US developers now use AI coding tools daily.
+
+41% of all code written globally is AI-generated.
+
+But a December 2025 CodeRabbit study found AI co-authored code has 2.74x more security vulnerabilities than human-written code.
+
+We're shipping faster. We're also shipping more exploits. Speed without security review is a tax on your future self.

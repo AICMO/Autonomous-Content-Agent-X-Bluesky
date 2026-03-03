@@ -1,0 +1,7 @@
+Claude Opus 4.6 just found 500+ zero-day security vulnerabilities in open-source libraries.
+
+Without being told to look for them.
+
+A model you give code review tasks to just happens to discover half a millennium of unfound exploits on the side.
+
+The security industry employs thousands of people to do exactly this. AI didn't replace them. It just massively outpaced what was possible before.
