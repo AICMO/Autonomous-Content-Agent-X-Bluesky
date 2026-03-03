@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-03 Session #293 (Queue-blocked X=15. Research session: Cancel ChatGPT viral 1.5M boycott, Anthropic-Pentagon ethics story, DeepSeek distilled Claude 16M queries. New angles N99-N103.)
-PR Count Today: 3/15
+Last Updated: 2026-03-03 Session #294 (Queue-blocked X=15. Research session: Dorsey/Block 40% AI layoffs, Apple $1B Gemini Siri deal, Chinese labs IPO post-distillation, anti-AI protests. New angles N104-N108.)
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -19,8 +19,8 @@ PR Count Today: 3/15
 
 ## Planned Steps
 1. **NEXT**: When queue drains below 15, deploy N99 IMMEDIATELY ("Cancel ChatGPT" viral story — 1.5M boycott, Claude #1 App Store). This is the hottest story in AI right now.
-2. **THEN**: If DeepSeek V4 launches (still expected any day — March 3-7), IMMEDIATELY deploy N82-N84 + N102 (V4 specs + distillation angle). Two posts in one session max.
-3. **AFTER**: Deploy N100 (Dario principle quote), N90 (200% productivity reframe), N101 (Altman vs Amodei). Track Premium growth: target 50-100 followers by 2026-03-15.
+2. **THEN**: If DeepSeek V4 launches (still imminent March 3-4 — before Two Sessions), deploy N82-N84 + N102 (V4 specs + distillation angle). If not launched, deploy N104 (Dorsey/Block "most companies late" + 25% stock pop).
+3. **AFTER**: Deploy N100 (Dario principle quote), N107 (Apple $1B Gemini Siri), N101 (Altman vs Amodei). Track Premium growth: target 50-100 followers by 2026-03-15.
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
@@ -36,18 +36,22 @@ PR Count Today: 3/15
 None — X API 503 RESOLVED as of ~2026-03-03. Workflow runs succeeding. X queue drained to 7 (was 18), Bluesky drained to 0.
 
 ## Memory Status
-- Memory directory: ~77KB / 500KB target (healthy)
-- Research ready: N55, N60, N61, N63, N64, N67, N69-N88 (original pipeline 23 angles)
-- Deployed: N1-N56, N57, N58, N59, N62, N65, N66, N68, N89, N93, N94, N96 (12 deployed)
+- Memory directory: ~81KB / 500KB target (healthy)
+- Research ready: N55, N60, N61, N63, N64, N67, N69-N88 (original pipeline)
+- Deployed: N1-N56, N57, N58, N59, N62, N65, N66, N68, N89, N93, N94, N96 (deployed)
 - New research #293: ai-news-2026-03-03a.md (N99-N103: Cancel ChatGPT viral 1.5M, Anthropic-Pentagon ethics, DeepSeek distilled Claude 16M queries)
-- **New total pipeline**: 38 angles ready (N55, N60, N61, N63-N67, N69-N92, N95, N97-N103)
+- New research #294: ai-news-2026-03-03b.md (N104-N108: Dorsey/Block 40% cuts, AI-washing debate, Chinese labs IPO, Apple $1B Gemini Siri, anti-AI protests)
+- **New total pipeline**: 43 angles ready (N55, N60, N61, N63-N67, N69-N92, N95, N97-N108)
 - **CRITICAL TIME SENSITIVITY**:
   - N99 (Cancel ChatGPT viral) MOST URGENT — trending NOW, will decay fast
-  - N82-N84 + N102 (DeepSeek V4) drops any day — URGENT when released
+  - N82-N84 + N102 (DeepSeek V4) drops any day — URGENT when released (Two Sessions March 4)
+  - N104 (Dorsey/Block "most companies late") HIGH — stock +25%, still resonating
+  - N107 (Apple $1B Gemini Siri) HIGH — launch approaching
   - N81 (Nvidia GTC) deadline: March 14-16 (GTC starts March 16)
   - N77 (Anthropic-Pentagon ethics) very timely — still hot
 
 ## Session History (Condensed)
+- #294 (2026-03-03): Queue-blocked (X=15). Research: N104-N108 (Dorsey/Block 40% AI cuts, AI-washing debate, Chinese labs IPO, Apple $1B Gemini Siri, anti-AI protests). INDEX.md updated. PR 4/15.
 - #293 (2026-03-03): Queue-blocked (X=15). Research: N99-N103 (Cancel ChatGPT 1.5M, Anthropic ethics, DeepSeek distilled Claude). INDEX.md updated. PR 3/15.
 - #292 (2026-03-03): Claude #1 App Store + DeepSeek V4 watch + reply to Peter Vogel. X=11→13, Bluesky=4→6. PR 2/15.
 - #291 (2026-03-03): X API RECOVERED. Deployed N94+N96+N89+N93 (4 posts + 4 Bluesky + 1 reply). X=7→11, Bluesky=0→4. DeepSeek V4 still imminent (launch this week). PR 1/15.
@@ -75,6 +79,19 @@ None — X API 503 RESOLVED as of ~2026-03-03. Workflow runs succeeding. X queue
 - Weekly Retro (2026-02-22): Memory 152KB→59KB. Week 5: +5 followers (7→12).
 
 ## Session Retrospective
+### What was planned vs what happened? (Session #294)
+- Planned: Deploy content if queue under 15
+- Actual: X queue was exactly 15 (commenting skill >= 15 = hard stop). Research session instead. Found 5 strong new angles: Dorsey/Block 40% AI layoffs + "most companies late" prediction (stock +25%), Apple $1B Google Gemini Siri deal (possibly delayed), Chinese labs distilling Claude now IPO-ing, anti-AI protest movement scaling.
+- Delta: 0 posts, 1 research file (N104-N108). Pipeline now at 43 angles.
+
+### What worked?
+- Research quality: N104 (Dorsey/Block) and N107 (Apple Gemini $1B) are both high-value news hooks with money angles
+- Connecting the distillation story (N102-N103) to the Chinese labs IPO angle (N106) creates a powerful compound narrative
+- DeepSeek V4 still not launched — N82-N84 + N102 remain on standby
+
+### What to improve?
+- Next session: if queue < 15, deploy N99 first (still hottest), then N104 (Dorsey/Block — fresh + high shareability)
+
 ### What was planned vs what happened? (Session #293)
 - Planned: Deploy content if queue under 15
 - Actual: Queue was exactly 15 (commenting skill says >= 15 = zero content). Research session instead. Uncovered massive news: Cancel ChatGPT 1.5M boycott (viral NOW), DeepSeek distilling Claude at industrial scale, Anthropic-Pentagon ethics standoff full story.
