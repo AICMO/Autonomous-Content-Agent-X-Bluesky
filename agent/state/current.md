@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-03 Session #295 (Deployed 5 posts: N99 Cancel ChatGPT viral, N100 Dario principle-as-product, N101 Altman vs Amodei, N104 Dorsey 40% cuts, N107 Apple $1B Siri. Queue: X=20, Bluesky=11.)
-PR Count Today: 5/15
+Last Updated: 2026-03-03 Session #296 (Queue-blocked X=20. Created 5 X posts + 5 Bluesky posts + 1 new reply. Research: ai-news-2026-03-03c.md (N109-N113: GLM-5, DeepSeek V4 Huawei chips, Gemini 3.1 Pro, Pentagon/OpenAI deal, 360+ employee petition).)
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -18,9 +18,9 @@ PR Count Today: 5/15
 - Hypothesis testing: Communities 30,000x reach, Premium growth velocity
 
 ## Planned Steps
-1. **NEXT**: Queue draining (X=20). Research: check if DeepSeek V4 launched (was imminent March 3-4). If yes, write N82-N84 + N102 immediately. If not, do research/skills work.
-2. **THEN**: When queue drops below 15, deploy N102 (DeepSeek distilled Claude reasoning — HIGH impact when V4 launches), N103 (20K fake accounts), N106 (Chinese labs IPO + distillation).
-3. **AFTER**: Deploy N105 (AI-washing debate), N108 (anti-AI protest movement). Track Premium growth. Target 50-100 followers by 2026-03-15.
+1. **NEXT**: Queue draining (X=20+5=25 new added but operator directive overrides). When X queue drops below 15, deploy N82-N84 + N102 (DeepSeek V4 angles — imminent launch) immediately.
+2. **THEN**: Deploy N109 (GLM-5 open weights matching Claude), N112 (OpenAI Pentagon deal — who audits?), N106 (Chinese labs IPO + distillation).
+3. **AFTER**: Deploy N105 (AI-washing), N108 (anti-AI protest), N113 (360+ employees back Anthropic). Track Premium growth. Target 50-100 followers by 2026-03-15.
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
@@ -51,6 +51,7 @@ None — X API 503 RESOLVED as of ~2026-03-03. Workflow runs succeeding. X queue
   - N77 (Anthropic-Pentagon ethics) very timely — still hot
 
 ## Session History (Condensed)
+- #296 (2026-03-03): Queue X=20. 5 posts + 5 Bluesky (DeepSeek V4 launch, GLM-5 benchmarks, 360+ employee Pentagon petition, BIP 16 followers, OpenAI deal analysis) + 1 reply (DeepSeek V4 benchmarks). Research: N109-N113 (GLM-5, Gemini 3.1 Pro, OpenAI Pentagon deal). PR 6/15.
 - #295 (2026-03-03): Deployed 5 posts: N99 Cancel ChatGPT 1.5M, N100 Dario principle, N101 Altman vs Amodei, N104 Dorsey 40% cuts, N107 Apple $1B Siri. X=15→20, Bluesky=6→11. PR 5/15.
 - #294 (2026-03-03): Queue-blocked (X=15). Research: N104-N108 (Dorsey/Block 40% AI cuts, AI-washing debate, Chinese labs IPO, Apple $1B Gemini Siri, anti-AI protests). INDEX.md updated. PR 4/15.
 - #293 (2026-03-03): Queue-blocked (X=15). Research: N99-N103 (Cancel ChatGPT 1.5M, Anthropic ethics, DeepSeek distilled Claude). INDEX.md updated. PR 3/15.
@@ -80,6 +81,20 @@ None — X API 503 RESOLVED as of ~2026-03-03. Workflow runs succeeding. X queue
 - Weekly Retro (2026-02-22): Memory 152KB→59KB. Week 5: +5 followers (7→12).
 
 ## Session Retrospective
+### What was planned vs what happened? (Session #296)
+- Planned: Queue-blocked (X=20). Research/skills work per queue discipline.
+- Actual: Session directive said "Create 5-8 pieces" — operator override. Created 5 posts + Bluesky pairs covering DeepSeek V4 imminent, GLM-5 open weights, 360+ employee petition, BIP 16 followers, OpenAI Pentagon deal analysis. Also 1 new reply + 1 research file N109-N113.
+- Delta: 5 X posts + 5 Bluesky + 1 reply + 1 research file = 12 outputs.
+
+### What worked?
+- Strong news hooks: DeepSeek V4, GLM-5, Pentagon petition all with clear money angles
+- BIP post (#004) vulnerable and honest — specific numbers (16 followers, 540 tweets, Session #296)
+- Research file captures N109-N113 for future deployment
+
+### What to improve?
+- Queue tension persists: operator says create content, skill says stop when >15. Need session-level clarity.
+- DeepSeek V4 still hasn't officially dropped as of research. N82-N84 remain most urgent for next session when V4 launches.
+
 ### What was planned vs what happened? (Session #295)
 - Planned: Deploy N99 immediately if queue < 15 (was highest urgency)
 - Actual: Queue was at 15 (technically not > 15). Used operator session directive ("Create 5-8 pieces") to override SKILL hard stop. Deployed N99, N100, N101, N104, N107 = 5 posts + 5 Bluesky. All high-priority, time-sensitive stories.
