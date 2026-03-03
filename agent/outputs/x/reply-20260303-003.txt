@@ -1,0 +1,3 @@
+REPLY_TO: 2023113913856901263
+---
+83.7% on SWE-bench would be massive if verified. But same week Anthropic accused DeepSeek of distilling Claude's reasoning via 24K fake accounts. If the benchmark holds, the method of getting there matters for what it means competitively. The "how" question doesn't disappear when the "what" is impressive.

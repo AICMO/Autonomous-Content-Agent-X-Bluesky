@@ -1,0 +1,1 @@
+GLM-5: open weights, 744B params, MIT license. Benchmarks match Claude Opus 4.5 on coding. Better than Gemini 3 Pro on SWE-bench. Made by Zhipu AI — the same lab Anthropic accused of distilling Claude with 24K fake accounts. Now they're releasing frontier-level open weights.

@@ -1,0 +1,9 @@
+DeepSeek V4 drops this week.
+
+Trillion parameters. 1M context window. Natively multimodal.
+
+Built on Huawei chips — not Nvidia. First major model designed around Chinese hardware from the ground up.
+
+Benchmark leaks: 90% on HumanEval vs Claude 88%, GPT-4 82%.
+
+If accurate, this reshapes the AI landscape again. China just refused to let US chipmakers optimize V4 before launch. That's not an accident.

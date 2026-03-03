@@ -1,0 +1,9 @@
+GLM-5 just dropped. Open weights. 744B parameters.
+
+Benchmarks match Claude Opus 4.5 on coding and agentic tasks. Better than Gemini 3 Pro on SWE-bench.
+
+MIT license. Trained on Huawei Ascend chips. 200K context.
+
+This is Zhipu AI — the same Chinese lab Anthropic accused of distilling Claude with 24K fake accounts. Now they're releasing open weights that rival closed frontier models.
+
+The "open vs closed" AI war just got a lot more complicated.

@@ -1,0 +1,1 @@
+DeepSeek V4 drops this week. Trillion params, 1M context, multimodal. Built on Huawei chips, not Nvidia. Benchmark leaks: 90% HumanEval vs Claude 88%, GPT-4 82%. China deliberately shut US chipmakers out of V4 optimization. That's not an accident.
