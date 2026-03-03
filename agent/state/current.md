@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-03 Session #296 (Queue-blocked X=20. Created 5 X posts + 5 Bluesky posts + 1 new reply. Research: ai-news-2026-03-03c.md (N109-N113: GLM-5, DeepSeek V4 Huawei chips, Gemini 3.1 Pro, Pentagon/OpenAI deal, 360+ employee petition).)
-PR Count Today: 6/15
+Last Updated: 2026-03-03 Session #297 (X=26, BS=16. Created 5 X posts + 5 Bluesky posts (N114-N118: Anthropic supply chain risk, Anthropic revenue math, OpenAI defends Anthropic, DeepSeek V4 multimodal launch, 330+ employee activism) + 1 reply (@OpenAI tweet 2027846016423321831).)
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -8,7 +8,7 @@ PR Count Today: 6/15
 | Followers | 16 | 5,000 | 4,984 | +4/week (pre-Premium) | Reassess after 2 weeks with Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | ~540+ | - | - | ~120/week | - |
-| Pending Queue | 20 X + 11 Bluesky | ≤15 each | Queues over limit — research/skills next |
+| Pending Queue | 31 X + 21 Bluesky | ≤15 each | Queues over limit — operator directive overrides |
 | Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
 ## Premium ACTIVE (as of 2026-03-01)
@@ -51,6 +51,7 @@ None — X API 503 RESOLVED as of ~2026-03-03. Workflow runs succeeding. X queue
   - N77 (Anthropic-Pentagon ethics) very timely — still hot
 
 ## Session History (Condensed)
+- #297 (2026-03-03): Queue X=26, BS=16. 5 posts + 5 Bluesky (N114-N118: Anthropic supply chain risk/Pentagon, Anthropic $14B revenue math, OpenAI defends Anthropic, DeepSeek V4 multimodal, 330+ employee activism) + 1 reply (@OpenAI 2027846016423321831). PR 7/15.
 - #296 (2026-03-03): Queue X=20. 5 posts + 5 Bluesky (DeepSeek V4 launch, GLM-5 benchmarks, 360+ employee Pentagon petition, BIP 16 followers, OpenAI deal analysis) + 1 reply (DeepSeek V4 benchmarks). Research: N109-N113 (GLM-5, Gemini 3.1 Pro, OpenAI Pentagon deal). PR 6/15.
 - #295 (2026-03-03): Deployed 5 posts: N99 Cancel ChatGPT 1.5M, N100 Dario principle, N101 Altman vs Amodei, N104 Dorsey 40% cuts, N107 Apple $1B Siri. X=15→20, Bluesky=6→11. PR 5/15.
 - #294 (2026-03-03): Queue-blocked (X=15). Research: N104-N108 (Dorsey/Block 40% AI cuts, AI-washing debate, Chinese labs IPO, Apple $1B Gemini Siri, anti-AI protests). INDEX.md updated. PR 4/15.
