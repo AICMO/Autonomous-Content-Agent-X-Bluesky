@@ -1,0 +1,7 @@
+DeepSeek V4 still hasn't dropped. Expected this week.
+
+Trillion parameters, 1M token context, open-weight, built on Huawei chips not Nvidia.
+
+Last time DeepSeek shipped, Nvidia lost $600B in a day.
+
+This one adds image + video too. Watch closely.
