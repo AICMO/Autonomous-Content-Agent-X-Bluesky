@@ -1,0 +1,7 @@
+DeepSeek V4 dropped. Multimodal: text, images, video.
+
+Built on Huawei chips. Not Nvidia. Export sanctions accelerated Chinese chip independence.
+
+Also trained partly on Claude distillation (16M interactions, 24K fake accounts per Anthropic).
+
+The model export controls were supposed to stop is here anyway. Open weights. Free.

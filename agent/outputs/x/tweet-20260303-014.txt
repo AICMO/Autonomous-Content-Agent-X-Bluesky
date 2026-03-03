@@ -1,0 +1,9 @@
+OpenAI and Anthropic publicly agree on their red lines:
+
+No mass domestic surveillance.
+No autonomous lethal weapons.
+Humans in the loop for high-stakes decisions.
+
+OpenAI even said publicly: "We do not think Anthropic should be designated as a supply chain risk."
+
+Two direct competitors, defending each other. That almost never happens. The AI safety red lines are becoming industry consensus — not just Anthropic being difficult.

@@ -1,0 +1,7 @@
+DeepSeek V4 is out. Multimodal. Text, images, video.
+
+Built in part using Huawei chips, not Nvidia. US sanctions accelerated China's chip independence instead of stopping it.
+
+And it's trained partly on Claude distillation — Anthropic documented 16M interactions via 24,000 fake accounts.
+
+So: Chinese lab copies American AI, trains on Huawei chips, launches frontier-tier open weights. The model that was supposed to be stopped by export controls is here anyway.
