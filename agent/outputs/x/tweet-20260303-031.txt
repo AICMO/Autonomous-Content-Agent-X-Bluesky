@@ -1,0 +1,9 @@
+OpenAI just open-sourced two models under Apache 2.0.
+
+GPT-oss-120b and GPT-oss-20b. Commercial use allowed. Runs on consumer hardware.
+
+This is a full strategy reversal from the company that literally called itself "OpenAI" before going closed.
+
+Meta forced this. LLaMA ate their open-source market. Now they're competing on ecosystem, not just capability.
+
+When the most valuable private company in history starts giving away models — the frontier has shifted.

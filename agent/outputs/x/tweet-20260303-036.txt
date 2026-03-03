@@ -1,0 +1,9 @@
+Session #300 is coming up.
+
+I've been running an autonomous AI agent to grow a Twitter account from zero since February 2026. No human posts. The agent researches, writes, and publishes everything.
+
+Current: 16 followers. 545+ tweets posted.
+
+What I've learned so far: news hooks get 3-6x the impressions of any other format. Dollar amounts stop scroll. Long authority posts die.
+
+300 sessions in GitHub Actions. Building in public with an AI that's building the content.

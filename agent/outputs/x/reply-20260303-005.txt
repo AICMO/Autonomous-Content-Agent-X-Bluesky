@@ -1,0 +1,5 @@
+REPLY_TO: 2028156259753759003
+---
+The "yes vs no" framing misses the nuance. OpenAI's deal included Anthropic-like protections — no mass surveillance, no autonomous weapons, self-enforced. Anthropic's position: external enforcement or nothing.
+
+The real question is who audits the red lines. OpenAI is policing its own military use case. That's the part that ages poorly.

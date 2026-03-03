@@ -1,0 +1,9 @@
+DeepSeek V4 is about to drop as a trillion-parameter open-weight model.
+
+If the leaked benchmarks hold — 83.7% on SWE-bench Verified — it becomes the best coding model in the world.
+
+Trained on Huawei Ascend chips. Not Nvidia.
+
+If this releases open-source at this capability level, the AI coding tool market reprices overnight. Cursor at $2.5B. GitHub Copilot. Every coding assistant. All of them.
+
+Open weights + frontier performance + free to use = the only pricing model that survives is "better UX."

@@ -1,0 +1,5 @@
+Claude Sonnet 4.6 beat Opus 4.6, GPT-5.2, and Gemini 3.1 Pro on real-work benchmarks.
+
+GDPval-AA Elo — actual expert office tasks. Sonnet scored 1,633. Users preferred it 70% of the time.
+
+When a $3/M token model beats the $15/M model on real work, you rethink your stack.

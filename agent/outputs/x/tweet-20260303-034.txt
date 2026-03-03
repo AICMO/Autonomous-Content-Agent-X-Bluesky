@@ -1,0 +1,9 @@
+New survey: 100% of enterprises plan to expand agentic AI in 2026.
+
+65% already using agents in production. 31% of workflows already automated. Plans to automate another 33%.
+
+AI agent market: $7.6B in 2025. Projected $50B by 2030.
+
+The bottleneck isn't capability anymore. 46% cite legacy system integration as primary challenge. Not the AI. The plumbing.
+
+The real money in the next 5 years is infrastructure. Not the models.

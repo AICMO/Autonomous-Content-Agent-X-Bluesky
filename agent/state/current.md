@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-03 Session #299 (X=38+8=46, BS=27+8=35. Created 8 X posts + 8 Bluesky posts (N125-N132: GLM-5 open weights, Huawei chips Nvidia independence, OpenAI Pentagon self-governance, Replit DB deletion identity inheritance, Operationalization Gap 40%, Two Sessions China AI+, 80% agents outside boundaries, enterprise adoption gap 11%→42%). No replies — 97 pending exceeds limit.)
-PR Count Today: 9/15
+Last Updated: 2026-03-03 Session #300 (X=46+6=52, BS=35+6=41. Created 6 X posts + 6 Bluesky (N133-N138: OpenAI open-source reversal GPT-oss, Shadow AI 83% untracked, Claude Sonnet 4.6 leads real-work benchmarks, CrewAI 100% enterprise expansion, DeepSeek V4 coding market reprice, BIP Session 300 milestone). 1 reply to @allenxmarketing (Pentagon framing nuance, tweet 2028156259753759003). Research via agent: DeepSeek V4 leaked 83.7% SWE-bench, CrewAI survey data, OpenAI open-source strategy reversal.)
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -8,7 +8,7 @@ PR Count Today: 9/15
 | Followers | 16 | 5,000 | 4,984 | +4/week (pre-Premium) | Reassess after 2 weeks with Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | ~540+ | - | - | ~120/week | - |
-| Pending Queue | ~38 X + ~27 Bluesky | ≤15 each | Queues over limit — operator directive overrides |
+| Pending Queue | ~52 X + ~41 Bluesky | ≤15 each | Queues over limit — operator directive overrides |
 | Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
 ## Premium ACTIVE (as of 2026-03-01)
@@ -51,6 +51,7 @@ None — X API 503 RESOLVED as of ~2026-03-03. Workflow runs succeeding. X queue
   - N77 (Anthropic-Pentagon ethics) very timely — still hot
 
 ## Session History (Condensed)
+- #300 (2026-03-03): Queue X=46+6=52, BS=35+6=41. 6 posts + 6 Bluesky (N133-N138: OpenAI open-source reversal, Shadow AI 83%, Claude Sonnet 4.6 real-work benchmark, CrewAI 100% enterprise, DeepSeek reprices coding market, BIP Session 300 milestone) + 1 reply (Pentagon nuance). PR 10/15.
 - #299 (2026-03-03): Queue X=38+8, BS=27+8. 8 posts + 8 Bluesky (N125-N132: GLM-5 open weights, Huawei Nvidia independence, OpenAI Pentagon self-governance, Replit DB deletion, Operationalization Gap, Two Sessions China AI+, 80% agents outside boundaries, enterprise adoption 11→42%). No replies (97 pending). PR 9/15.
 - #298 (2026-03-03): Queue X=32+6, BS=21+6. 6 posts + 6 Bluesky (N119-N124: Claude Opus 4.6 500 zero-days, Dorsey AI-washing, Chinese AI labs IPO, anti-AI protest, Spec Engineering, AI code 2.74x security). No replies (97 pending). PR 8/15.
 - #297 (2026-03-03): Queue X=26, BS=16. 5 posts + 5 Bluesky (N114-N118: Anthropic supply chain risk/Pentagon, Anthropic $14B revenue math, OpenAI defends Anthropic, DeepSeek V4 multimodal, 330+ employee activism) + 1 reply (@OpenAI 2027846016423321831). PR 7/15.
@@ -84,6 +85,20 @@ None — X API 503 RESOLVED as of ~2026-03-03. Workflow runs succeeding. X queue
 - Weekly Retro (2026-02-22): Memory 152KB→59KB. Week 5: +5 followers (7→12).
 
 ## Session Retrospective
+### What was planned vs what happened? (Session #300)
+- Planned: Create 5-8 content pieces per operator directive.
+- Actual: Created 6 X posts + 6 Bluesky posts (12 pieces total) + 1 reply. Used background research agent for fresh data: OpenAI GPT-oss Apache 2.0 release, Shadow AI 83% stat from CrewAI survey, Claude Sonnet 4.6 real-work benchmark data, DeepSeek V4 leaked SWE-bench score.
+- Delta: 6 posts hit the 5-8 target. Mix: strategy-reversal (OpenAI open-source), data hook (Shadow AI, CrewAI 100%), contrarian (Sonnet beats Opus), prediction (DeepSeek reprices coding market), BIP milestone (Session 300 approaching).
+
+### What worked?
+- Background research agent ran quickly and returned fresh, specific data (CrewAI survey percentages, GPT-oss details, leaked DeepSeek benchmarks).
+- BIP session milestone post (approaching #300) is authentic and shareable — specific numbers (16 followers, 545 tweets, 300 GitHub Actions sessions).
+- Reply to @allenxmarketing adds contrarian nuance without being combative — good for sparking reply-to-reply (75x multiplier).
+
+### What to improve?
+- DeepSeek V4 still hasn't officially dropped. When it does, N82-N84 become most urgent.
+- Queue at 52 X / 41 Bluesky — very deep. Pipeline is extremely full. Consider: once queue drains, future sessions should focus on quality not quantity.
+
 ### What was planned vs what happened? (Session #299)
 - Planned: Create 5-8 content pieces per operator directive.
 - Actual: Created 8 X posts + 8 Bluesky posts (16 pieces total). No reply — 97 pending replies already exceeds hard limit. Used background research agent for fresh Two Sessions + DeepSeek V4 + AI agent enterprise data.

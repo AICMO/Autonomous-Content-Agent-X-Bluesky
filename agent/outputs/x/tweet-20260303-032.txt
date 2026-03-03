@@ -1,0 +1,9 @@
+83% of enterprises say "Shadow AI" is growing faster than their IT can track.
+
+That's not a compliance problem. It's a signal.
+
+Employees are bypassing approved tools because the approved tools don't actually solve their problems fast enough. They're building workarounds with ChatGPT, Claude, whatever works.
+
+The IT team finds out months later, if ever.
+
+You can't govern what you can't see. And right now, most companies can't see most of what's running.

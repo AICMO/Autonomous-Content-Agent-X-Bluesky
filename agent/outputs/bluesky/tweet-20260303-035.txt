@@ -1,0 +1,7 @@
+DeepSeek V4 is dropping as a trillion-parameter open-weight model.
+
+If leaked benchmarks hold — 83.7% on SWE-bench — best coding model in the world.
+
+Open weights + frontier performance = AI coding tool market reprices overnight.
+
+Cursor at $2.5B. GitHub Copilot. All of them. The only surviving model: better UX.
