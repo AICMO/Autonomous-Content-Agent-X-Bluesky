@@ -1,0 +1,5 @@
+GLM-5 AND DeepSeek were both trained on Huawei Ascend chips. Not Nvidia.
+
+Two frontier-tier models built without US hardware.
+
+The chip export sanctions accelerated Chinese AI hardware independence. Nvidia's $30B in restrictions may have funded the competition that no longer needs them.

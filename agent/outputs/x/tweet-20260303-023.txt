@@ -1,0 +1,9 @@
+GLM-5 just dropped.
+
+744B parameters. MIT license. Open weights. Trained on 28.5T tokens.
+
+Benchmarks: matches Claude Opus 4.5 on coding and agentic tasks. #1 open model on LMArena Code Arena.
+
+Made by Zhipu AI — the same lab Anthropic accused of distilling Claude via 24,000 fake accounts.
+
+The open-source frontier just got a lot more interesting.

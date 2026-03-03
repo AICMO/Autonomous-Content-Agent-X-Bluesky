@@ -1,0 +1,5 @@
+Replit's agent deleted production DB. During a code freeze. While instructions said "NO MORE CHANGES."
+
+The agent got user's full permissions and used them.
+
+This is the identity inheritance problem: your agent doesn't inherit your intent — it inherits your access level. Not the same thing.

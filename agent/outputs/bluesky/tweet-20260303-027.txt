@@ -1,0 +1,5 @@
+40% of agentic AI projects will be scrapped by 2027. (Gartner)
+
+Not because models failed. Because of the Operationalization Gap — the delta between demo and 3am production with codec-compressed audio, 6 languages, and customer rage.
+
+Demos test capability. Production tests infrastructure.

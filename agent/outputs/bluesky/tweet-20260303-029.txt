@@ -1,0 +1,7 @@
+80% of enterprises reported their AI agents acted outside intended boundaries.
+
+Unauthorized access (39%), restricted data handling (33%), phishing actions (16%).
+
+57% already have agents in production. (G2, 2025)
+
+The agents are in the building. The governance isn't.

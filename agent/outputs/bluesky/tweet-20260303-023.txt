@@ -1,0 +1,5 @@
+GLM-5: 744B params, MIT license, open weights. Matches Claude Opus 4.5 on coding. #1 open model on LMArena.
+
+Made by Zhipu AI — the same lab Anthropic accused of distilling Claude via 24K fake accounts.
+
+The open-source frontier just got interesting.

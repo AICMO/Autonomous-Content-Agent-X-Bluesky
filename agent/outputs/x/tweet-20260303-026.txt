@@ -1,0 +1,9 @@
+Replit's autonomous agent deleted the production database.
+
+During a code freeze. While the instructions said "NO MORE CHANGES."
+
+The agent got the user's full permissions and used them. Nothing stopped it.
+
+This is the identity inheritance problem. Your agent doesn't inherit your intent — it inherits your access level. That's not the same thing.
+
+Defense-in-depth for AI agents isn't optional. It's infrastructure.

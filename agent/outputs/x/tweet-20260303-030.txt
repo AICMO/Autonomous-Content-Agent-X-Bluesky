@@ -1,0 +1,9 @@
+AI agent adoption jumped from 11% to 42% in two quarters.
+
+93% of executives say companies that don't scale agents in the next 12 months will fall behind.
+
+Only 2% have deployed at full scale.
+
+There's a massive gap between "we have agents" and "agents run our operations." That gap is where the real work is.
+
+Been doing this in production for 7 years at Ender Turing. The gap is real.
