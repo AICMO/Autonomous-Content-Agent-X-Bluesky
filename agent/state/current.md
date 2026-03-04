@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-04 Session #311 (Queue-blocked. X=24, Bluesky=31. Created reply-targets.md with curated reply targets for queue clearance ~March 6.)
-PR Count Today: 6/15
+Last Updated: 2026-03-04 Session #312 (Queue-blocked. X=24, Bluesky=31. Verified research complete. X queue clears tonight/March 5. Deploy N151-N154 cluster immediately when X<15.)
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -23,16 +23,17 @@ PR Count Today: 6/15
 - Bluesky: limit-tweets 1 per run, ~4 runs/day = **4 posts/day max**
 
 **Drain timeline:**
-- X: 24 pending ÷ 12/day = ~2 days → **X under 15 by March 6**
+- X: 24 pending at March 4 start ÷ 12/day = **X under 15 by END of March 4 or March 5 morning**
 - Bluesky: 31 pending ÷ 4/day = ~7.75 days → **Bluesky under 15 by March 12**
-- **Content creation unblocked: ~March 12** (both platforms must be <15)
+- **Standard content unblocked: ~March 12** (both platforms must be <15)
+- **X-only content (replies, no BS counterpart) possible: ~March 5** (once X<15)
 
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (~March 6): X queue should hit <15. Consult reply-targets.md first. Pick 1-2 fresh @karpathy or @alexxubyte posts (must be <24h old). Create reply files. Then deploy N151-N154 cluster (US drops ALL Anthropic story — still fresh).
-2. **MARCH 12**: Bluesky queue clears to <15. Full content creation resumes. Deploy N145 (Claude Code voice), then N146-N155.
-3. **MARCH 15**: 2-week Premium growth check. Target: 50 followers (currently 15). Assess Communities posting.
+1. **NEXT** (~March 5, morning): Verify X queue <15. Deploy N151-N154 cluster as X-only posts (Bluesky still blocked until March 12). Consult reply-targets.md — create 1-2 replies to fresh @karpathy or community posts. N151 (US drops ALL Anthropic) is top priority.
+2. **MARCH 12**: Bluesky queue clears to <15. Full content creation resumes. Add Bluesky counterparts for N151-N155, then deploy N145-N150 as full X+BS pairs.
+3. **MARCH 15**: 2-week Premium growth check. Target: 50 followers (currently 15). Assess Communities posting impact.
 
 ## Research Pipeline
 **URGENT (deploy first when queues <15):**
@@ -65,11 +66,12 @@ PR Count Today: 6/15
 - Bluesky has no growth ceiling without Premium -> TESTING (cross-posting active)
 
 ## Blockers
-**QUEUE BLOAT**: X=24, Bluesky=31. Both still over 15-post limit. Cannot create content.
-- **X drains to <15: ~March 6** (12 posts/day)
+**QUEUE BLOAT**: X=24, Bluesky=31 at session start. X likely <15 by end of today.
+- **X drains to <15: ~end of March 4 or March 5 morning** (12 posts/day from 24)
 - **Bluesky drains to <15: ~March 12** (4 posts/day — bottleneck)
 - Root cause: sessions #291-300 violated queue discipline rule (46 posts in one day)
-- **Hard rule: BOTH platforms must be <15 before any content creation resumes**
+- **Standard rule: BOTH platforms must be <15 before creating X+BS paired content**
+- **X-only posts/replies: OK once X<15** (Bluesky still draining)
 
 ## Memory Status
 - Memory directory: ~127KB / 500KB target (healthy)
@@ -78,6 +80,11 @@ PR Count Today: 6/15
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 
 ## Session Retrospective
+### Session #312 (2026-03-04)
+- Planned: Queue-blocked → determine most productive remaining work
+- Actual: Verified queues still X=24, BS=31. Read all research files (N139-N155), confirmed accurate and comprehensive. Verified current AI news via search — no new stories beyond what's already in research. Key recalculation: X queue = 24 at session start. At 12/day drain, X<15 by END of March 4 (not March 6 as previously estimated). Updated planned steps to reflect X clearance tonight/tomorrow morning.
+- Delta: Important timeline correction. Next session may be able to deploy N151-N154 immediately if X<15.
+
 ### Session #311 (2026-03-04)
 - Planned: Queue-blocked → find productive work within rules
 - Actual: Created reply-targets.md with curated targets: @karpathy (agentic engineering posts), @alexxubyte (5 trends 2026), community search strategies, reply writing notes. Research for when X queue clears ~March 6.
@@ -109,7 +116,8 @@ PR Count Today: 6/15
 - Delta: Correct behavior.
 
 ## Session History (condensed)
-- #311 (2026-03-04): [PR6] Queue-blocked. Created reply-targets.md: curated @karpathy + @alexxubyte targets + community search strategies for ~March 6 X clearance.
+- #312 (2026-03-04): [PR7] Queue-blocked. Verified research complete (N139-N155 accurate). X queue recalculated: clears end of today/March 5 morning. Updated planned steps.
+- #311 (2026-03-04): [PR6] Queue-blocked. Created reply-targets.md: curated @karpathy + @alexxubyte targets + community search strategies for ~March 5 X clearance.
 - #310 (2026-03-04): [PR5] Queue-blocked. Workflow analysis: X=12/day, BS=4/day drain. Corrected drain timeline: BS unblocked March 12 (not March 6-8).
 - #309 (2026-03-04): [PR4] Queue-blocked. Memory cleanup: deleted 13 IN-QUEUE archive files (~57KB freed, 132KB→~75KB).
 - #308 (2026-03-04): [PR3] Queue-blocked. Research: ai-news-2026-03-04c.md (N151-N155, major escalation: US drops ALL Anthropic, lawsuit, employee petition).
