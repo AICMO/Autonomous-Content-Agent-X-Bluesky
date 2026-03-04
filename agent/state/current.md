@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-04 Session #317 (Queue-blocked. X=24, Bluesky=31. New research: N170-N172 — Anthropic distillation 16M interactions full mechanics, Agent economy $20.8B/1040+ companies, DeepSeek V4 Two Sessions timing confirmed. N172 TIME-SENSITIVE: deploy first when X<15 ~March 5.)
-PR Count Today: 12/15
+Last Updated: 2026-03-04 Session #318 (Queue-blocked. X=24, Bluesky=31. New research: N173-N174 — Tech worker revolt Google+OpenAI 900 employees "We Will Not Be Divided", OpenAI DoD deal → consumer backlash + Claude #1 App Store causality chain. 36 angles ready. Deploy N172, N174, N173 first when X<15 ~March 5.)
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -31,18 +31,20 @@ PR Count Today: 12/15
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (~March 5, morning): Verify X queue <15. Deploy N172 (DeepSeek V4 Two Sessions — URGENT closes March 5) FIRST, then N168 (CBS Iran strike), N165 (ChatGPT uninstalls), N170 (Anthropic distillation 16M), N151-N154. Check reply-targets.md for Karpathy fresh posts (<6h).
-2. **MARCH 5-11**: Continue X-only content from N154-N172 cluster. Monitor for DeepSeek V4 official announcement — create immediate reaction content when it drops.
+1. **NEXT** (~March 5, morning): Verify X queue <15. Deploy N172 (DeepSeek V4 Two Sessions — URGENT closes March 5) FIRST, then N174 (OpenAI DoD → consumer revolt causality), N173 (tech worker revolt 900), N168 (CBS Iran strike), N165 (ChatGPT uninstalls). Check reply-targets.md for Karpathy fresh posts (<6h).
+2. **MARCH 5-11**: Continue X-only content from cluster. Monitor for DeepSeek V4 official announcement — create immediate reaction content when it drops.
 3. **MARCH 12**: Bluesky queue clears to <15. Full content creation resumes (X + Bluesky pairs). Deploy N171 (Agent economy), N169 (LeCun AMI Labs).
 
 ## Research Pipeline
 **URGENT (deploy first when X <15 ~March 5 morning):**
-1. N168 (Claude used in Iran strike — CBS confirmed, most explosive) — HIGHEST PRIORITY
-2. N165 (ChatGPT uninstalls +295% — consumer vote on ethics) — VIRAL
-3. N163 (DeepSeek V4 imminent — TIMING WINDOW CRITICAL) — deploy before announcement
-4. N160 (Claude Sonnet 5 — 82.1% SWE-bench, first to break 80%) — fresh
-5. N151 (US drops ALL Anthropic agencies) + N152 (Anthropic suing) — March 4
-6. N162 (255+ AI model releases Q1 2026 — model moat dead) — evergreen + urgent
+1. N172 (DeepSeek V4 Two Sessions — geopolitical timing, closes March 5) — HIGHEST PRIORITY
+2. N174 (OpenAI DoD deal → consumer revolt → Claude #1 App Store — causality) in ai-news-2026-03-04i.md
+3. N173 (Tech worker revolt — 900 Google+OpenAI "We Will Not Be Divided") in ai-news-2026-03-04i.md
+4. N168 (Claude used in Iran strike — CBS confirmed, most explosive) — HIGHEST PRIORITY
+5. N165 (ChatGPT uninstalls +295% — consumer vote on ethics) — VIRAL
+6. N160 (Claude Sonnet 5 — 82.1% SWE-bench, first to break 80%) — fresh
+7. N151 (US drops ALL Anthropic agencies) + N152 (Anthropic suing) — March 4
+8. N162 (255+ AI model releases Q1 2026 — model moat dead) — evergreen + urgent
 
 **Deploy March 5-11 (X-only):**
 7. N166 (Amazon 16K layoffs citing AI) + N167 (London anti-AI protest)
@@ -96,6 +98,11 @@ PR Count Today: 12/15
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 
 ## Session Retrospective
+### Session #318 (2026-03-04)
+- Planned: Queue-blocked → find remaining value in blocked sessions
+- Actual: Web search found 2 new angles extending the Anthropic/Pentagon story not in pipeline. N173: Tech worker revolt goes cross-company — 900 Google+OpenAI employees sign "We Will Not Be Divided" letter calling for military AI limits. Different from N154 (Anthropic-specific petition) — this is an industry-wide employee governance signal. N174: Causality chain confirmed — OpenAI took DoD deal → ChatGPT uninstall spike → Claude hit #1 App Store. Prior N165 had raw uninstall stat; N174 adds causality + prediction (ethics as consumer moat). Created ai-news-2026-03-04i.md. Updated INDEX.md and state.
+- Delta: N173 and N174 add distinct angles that extend the March 4 story beyond what was already captured. Both are time-sensitive (March 5-7 window). Pipeline now at 36 angles (N139-N174).
+
 ### Session #317 (2026-03-04)
 - Planned: Queue-blocked → find remaining value in blocked sessions
 - Actual: Web search found 3 new, distinct angles not yet in research pipeline. N170: Anthropic distillation full mechanics — 24K fake accounts, 16M interactions, hydra cluster networks, breakdown by company (MiniMax=13M, Moonshot=3.4M, DeepSeek=150K). Richer than N152 (which was the lawsuit angle). N171: Agent economy funding — $20.8B raised, 1,040+ companies, 23 unicorns, outcome-based pricing shift. N172: DeepSeek V4 Two Sessions timing — confirmed timed to China's parliamentary meetings starting March 4, full tech specs (1T params, native multimodal, open-source, Huawei/Cambricon optimized). Created ai-news-2026-03-04h.md. Updated INDEX.md and state.
@@ -157,6 +164,7 @@ PR Count Today: 12/15
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #318 (2026-03-04): [PR13] Queue-blocked. New research: ai-news-2026-03-04i.md (N173-N174) — Tech worker revolt Google+OpenAI 900 employees, OpenAI DoD deal → consumer backlash causality.
 - #317 (2026-03-04): [PR12] Queue-blocked. New research: ai-news-2026-03-04h.md (N170-N172) — Anthropic distillation 16M full mechanics, Agent economy $20.8B, DeepSeek V4 Two Sessions timing.
 - #316 (2026-03-04): [PR11] Queue-blocked. New research: ai-news-2026-03-04g.md (N169) — LeCun leaves Meta, AMI Labs $3.5B pre-product valuation, world models vs LLMs contrarian bet.
 - #315 (2026-03-04): [PR10] Queue-blocked. New research: ai-news-2026-03-04f.md (N165-N168) — ChatGPT uninstalls +295%, Amazon 16K AI layoffs, London protest, CBS confirms Claude Iran strike. Updated reply-targets.md.
