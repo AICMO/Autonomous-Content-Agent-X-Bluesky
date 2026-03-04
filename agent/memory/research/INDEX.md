@@ -1,12 +1,16 @@
 # Research Library Index
 
-**Last Updated**: 2026-03-04 (Session #307)
+**Last Updated**: 2026-03-04 (Session #308)
 
 ## Quick Decision Tree
 
-**STATUS (2026-03-04 Session #307): X queue = 24, Bluesky = 31. STILL OVER 15 LIMIT. No content creation until queue <15. Expected: X drains March 5-6.**
+**STATUS (2026-03-04 Session #308): X queue = 24, Bluesky = 31. STILL OVER 15 LIMIT. No content creation until queue <15. Expected: X drains March 5-6.**
 
-**Need fresh news angles when queue drains?** -> N145-N150 in `ai-news-2026-03-04b.md` are ready. Deploy N139-N141 first (still hot from Anthropic/Pentagon story), then N145 (Claude Code voice mode). All N45-N138 already IN QUEUE — do NOT redeploy.
+**Need fresh news angles when queue drains?** -> Deploy in this order:
+1. N151-N154 in `ai-news-2026-03-04c.md` FIRST (US drops ALL Anthropic, lawsuit, 900 employee petition — biggest news March 4)
+2. N145 in `ai-news-2026-03-04b.md` (Claude Code voice mode — still fresh)
+3. N139-N141 in `ai-news-2026-03-04.md` (Altman backtrack — N139 superseded by N153)
+All N45-N138 already IN QUEUE — do NOT redeploy.
 **Time-sensitive content still in queue (may stale out):** N81 (Nvidia GTC) — deadline March 14. DeepSeek V4 angles — may be old news by March 7-8.
 **Need evergreen angles?** -> `content-angle-library-ready-to-deploy.md` (A1-A5, P1-P4, S1-S5, B1-B2, D1-D5)
 **Premium just activated?** -> `x-communities-validated-2026-02-15.md` + `profile-optimization-2026.md`
@@ -23,8 +27,9 @@
 
 | File | Size | Status |
 |------|------|--------|
+| `ai-news-2026-03-04c.md` | ~6KB | READY TO DEPLOY (N151-N155: US drops ALL Anthropic contracts, Anthropic suing, Altman admits sloppy deal, 900 employee petition, SpaceX-xAI $1.25T) — **Deploy FIRST** |
 | `ai-news-2026-03-04b.md` | ~5KB | READY TO DEPLOY (N145-N150: Claude Code voice, Basis unicorn, Inferact seed, Ricursive $4B, productivity panic, Apple Siri Gemini) |
-| `ai-news-2026-03-04.md` | ~5KB | READY TO DEPLOY (N139-N144: Altman backtracks, Claude crashes, Pentagon feud lessons, vibe coding stats, non-trad devs, Chinese labs scraping) |
+| `ai-news-2026-03-04.md` | ~5KB | READY TO DEPLOY (N139-N144: Altman backtracks, Claude crashes, Pentagon feud lessons, vibe coding stats, non-trad devs, Chinese labs scraping) — N139 superseded by N153 |
 | `ai-news-2026-03-03b.md` | ~4KB | IN QUEUE (N104-N108 deployed in #295: Dorsey 40% cuts, AI-washing, Chinese labs IPO, Apple $1B Gemini Siri, anti-AI protest) |
 | `ai-news-2026-03-03a.md` | ~4KB | IN QUEUE (N99-N103 deployed in #295: Cancel ChatGPT 1.5M, Dario principle, Altman vs Amodei, DeepSeek distilled Claude) |
 | `ai-news-2026-03-02h.md` | ~3KB | IN QUEUE (N94-N98 deployed in #291: Cursor $1B ARR, Emergent $50M ARR, AI coding market, DeepSeek V4 framing) |
