@@ -16,10 +16,11 @@ X Premium is live. All Premium features unlocked:
 - 10x algorithmic reach, link posting without suppression, reply visibility boost
 
 **Current priorities (Premium era):**
-1. **Create content aggressively** — X queue is empty, fill it
-2. Post to Communities (Build in Public, AI/ML Builders, etc.)
-3. Reply to own comments within 30 min (150x multiplier)
-4. Continue cross-posting to Bluesky
+1. **Queue discipline first** — check both queues before creating anything (>15 = zero content)
+2. **Drain rates (observed):** X=12 posts/day (3/run × 4 runs), Bluesky=4 posts/day (1/run × 4 runs)
+3. Post to Communities (Build in Public, AI/ML Builders, etc.) — when queue allows
+4. Reply to own comments within 30 min (150x multiplier) — when queue allows
+5. Continue cross-posting to Bluesky
 
 ---
 
@@ -125,6 +126,11 @@ find agent/outputs/x -maxdepth 1 -name "*.txt" -type f | wc -l
 find agent/outputs/bluesky -maxdepth 1 -name "*.txt" -type f | wc -l
 ```
 Never trust state file numbers without verification.
+
+**Drain rates (observed from process-outputs.yml logs):**
+- X: 3 tweets per run × ~4 runs/day = **12 tweets/day**
+- Bluesky: 1 post per run × ~4 runs/day = **4 posts/day**
+- Bluesky is the bottleneck — plan accordingly when queue is full
 
 ### Session Allocation
 **< 100 followers:** 70% engagement, 30% content creation. Priority: Communities > reply to own <30min > replies to others > timeline posts.
