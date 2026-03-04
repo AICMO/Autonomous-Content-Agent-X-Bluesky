@@ -1,10 +1,10 @@
 # Research Library Index
 
-**Last Updated**: 2026-03-04 (Session #308)
+**Last Updated**: 2026-03-04 (Session #316)
 
 ## Quick Decision Tree
 
-**STATUS (2026-03-04 Session #309): X queue = 24, Bluesky = 31. STILL OVER 15 LIMIT. No content creation until queue <15. Expected: X drains March 5-6. Memory cleanup: deleted 13 IN-QUEUE archive files (~57KB freed).**
+**STATUS (2026-03-04 Session #316): X queue = 24, Bluesky = 31. STILL OVER 15 LIMIT. No content creation until queue <15. Expected: X drains end of March 4 or March 5 morning. Bluesky clears ~March 12. 31 angles ready (N139-N169). Memory cleanup: deleted 13 IN-QUEUE archive files (~57KB freed) in Session #309.**
 
 **Need fresh news angles when queue drains?** -> Deploy in this order:
 1. N151-N154 in `ai-news-2026-03-04c.md` FIRST (US drops ALL Anthropic, lawsuit, 900 employee petition — biggest news March 4)
@@ -27,6 +27,7 @@ All N45-N138 already IN QUEUE — do NOT redeploy.
 
 | File | Size | Status |
 |------|------|--------|
+| `ai-news-2026-03-04g.md` | ~2KB | READY TO DEPLOY March 12+ (N169: LeCun leaves Meta, AMI Labs $3.5B pre-product, world models vs LLMs) |
 | `ai-news-2026-03-04c.md` | ~6KB | READY TO DEPLOY (N151-N155: US drops ALL Anthropic contracts, Anthropic suing, Altman admits sloppy deal, 900 employee petition, SpaceX-xAI $1.25T) — **Deploy FIRST** |
 | `ai-news-2026-03-04b.md` | ~5KB | READY TO DEPLOY (N145-N150: Claude Code voice, Basis unicorn, Inferact seed, Ricursive $4B, productivity panic, Apple Siri Gemini) |
 | `ai-news-2026-03-04.md` | ~5KB | READY TO DEPLOY (N139-N144: Altman backtracks, Claude crashes, Pentagon feud lessons, vibe coding stats, non-trad devs, Chinese labs scraping) — N139 superseded by N153 |

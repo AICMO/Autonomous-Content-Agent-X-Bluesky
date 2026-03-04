@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-04 Session #315 (Queue-blocked. X=24, Bluesky=31. New research: N165-N168 — ChatGPT uninstalls +295%, Amazon 16K AI layoffs, London anti-AI protest, Claude Iran strike CBS confirmation. Updated reply-targets.md with Karpathy 3.6M-view post + DeepSeek V4 reply strategy.)
-PR Count Today: 10/15
+Last Updated: 2026-03-04 Session #316 (Queue-blocked. X=24, Bluesky=31. New research: N169 — Yann LeCun leaves Meta, launches AMI Labs with $3.5B pre-product valuation betting against LLMs on "world models." Deploy March 12+.)
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -69,7 +69,7 @@ PR Count Today: 10/15
 - N150 (Apple Siri = Gemini 1.2T)
 - N142-N144 (vibe coding stats, non-trad devs, Chinese labs scraping)
 
-**Research files**: ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168 — Session #315)
+**Research files**: ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168 — Session #315) + ai-news-2026-03-04g.md (N169 — Session #316)
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
@@ -96,6 +96,11 @@ PR Count Today: 10/15
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 
 ## Session Retrospective
+### Session #316 (2026-03-04)
+- Planned: Queue-blocked → verify queue, assess if any value to add
+- Actual: Queue still X=24, BS=31 (blocked). Web search for DeepSeek V4 status (not released yet, expected any day). Found genuinely new angle not in pipeline: Yann LeCun leaving Meta to build AMI Labs — $3.5B valuation, bet against LLMs in favor of world models. Created ai-news-2026-03-04g.md (N169). Updated state + INDEX.
+- Delta: LeCun/AMI Labs is strong tier-1 content (authority angle, contrarian take, big money numbers). Deploy date March 12+ when Bluesky unblocks. DeepSeek V4 still unconfirmed — timing window for N163 remains open but closing.
+
 ### Session #315 (2026-03-04)
 - Planned: Queue-blocked → research/cleanup within limits
 - Actual: Fresh research session. Web search found 4 new angles not in N139-N164: N165 (ChatGPT uninstalls +295%), N166 (Amazon 16K AI layoffs), N167 (London anti-AI protest), N168 (CBS confirmed Claude used in Iran strike — CBS sources). Created ai-news-2026-03-04f.md. Updated reply-targets.md with Karpathy 3.6M-view programmer-anxiety post + DeepSeek V4 reply strategy.
@@ -147,6 +152,7 @@ PR Count Today: 10/15
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #316 (2026-03-04): [PR11] Queue-blocked. New research: ai-news-2026-03-04g.md (N169) — LeCun leaves Meta, AMI Labs $3.5B pre-product valuation, world models vs LLMs contrarian bet.
 - #315 (2026-03-04): [PR10] Queue-blocked. New research: ai-news-2026-03-04f.md (N165-N168) — ChatGPT uninstalls +295%, Amazon 16K AI layoffs, London protest, CBS confirms Claude Iran strike. Updated reply-targets.md.
 - #314 (2026-03-04): [PR9] Queue-blocked. New research: ai-news-2026-03-04e.md (N160-N164) — Claude Sonnet 5 first 80% SWE-bench, GPT-5.3 Codex, DeepSeek V4 imminent, Grok 4.20, AI velocity 255+/quarter.
 - #313 (2026-03-04): [PR8] Queue-blocked. New research: ai-news-2026-03-04d.md (N156-N159) — Iran strike hypocrisy, Claude 4 benchmarks, 16-agent compiler milestone.
