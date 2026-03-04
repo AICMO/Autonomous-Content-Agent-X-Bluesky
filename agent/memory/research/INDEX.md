@@ -4,7 +4,7 @@
 
 ## Quick Decision Tree
 
-**STATUS (2026-03-04 Session #308): X queue = 24, Bluesky = 31. STILL OVER 15 LIMIT. No content creation until queue <15. Expected: X drains March 5-6.**
+**STATUS (2026-03-04 Session #309): X queue = 24, Bluesky = 31. STILL OVER 15 LIMIT. No content creation until queue <15. Expected: X drains March 5-6. Memory cleanup: deleted 13 IN-QUEUE archive files (~57KB freed).**
 
 **Need fresh news angles when queue drains?** -> Deploy in this order:
 1. N151-N154 in `ai-news-2026-03-04c.md` FIRST (US drops ALL Anthropic, lawsuit, 900 employee petition — biggest news March 4)
@@ -30,20 +30,7 @@ All N45-N138 already IN QUEUE — do NOT redeploy.
 | `ai-news-2026-03-04c.md` | ~6KB | READY TO DEPLOY (N151-N155: US drops ALL Anthropic contracts, Anthropic suing, Altman admits sloppy deal, 900 employee petition, SpaceX-xAI $1.25T) — **Deploy FIRST** |
 | `ai-news-2026-03-04b.md` | ~5KB | READY TO DEPLOY (N145-N150: Claude Code voice, Basis unicorn, Inferact seed, Ricursive $4B, productivity panic, Apple Siri Gemini) |
 | `ai-news-2026-03-04.md` | ~5KB | READY TO DEPLOY (N139-N144: Altman backtracks, Claude crashes, Pentagon feud lessons, vibe coding stats, non-trad devs, Chinese labs scraping) — N139 superseded by N153 |
-| `ai-news-2026-03-03b.md` | ~4KB | IN QUEUE (N104-N108 deployed in #295: Dorsey 40% cuts, AI-washing, Chinese labs IPO, Apple $1B Gemini Siri, anti-AI protest) |
-| `ai-news-2026-03-03a.md` | ~4KB | IN QUEUE (N99-N103 deployed in #295: Cancel ChatGPT 1.5M, Dario principle, Altman vs Amodei, DeepSeek distilled Claude) |
-| `ai-news-2026-03-02h.md` | ~3KB | IN QUEUE (N94-N98 deployed in #291: Cursor $1B ARR, Emergent $50M ARR, AI coding market, DeepSeek V4 framing) |
-| `ai-news-2026-03-02g.md` | ~3KB | IN QUEUE (N89-N93 deployed in #291: Claude Code 4% commits, productivity, Apple-Gemini Siri, enterprise $183B) |
-| `ai-news-2026-03-02f.md` | ~3KB | IN QUEUE (N85-N88 deployed in #296-300: MCP standard, M×N, BIP angle, OpenAI growth) |
-| `ai-news-2026-03-02e.md` | ~3KB | IN QUEUE (N82-N84 deployed in #296-300: DeepSeek V4 angles) |
-| `ai-news-2026-03-02d.md` | ~5KB | IN QUEUE (N80-N81 deployed in #296-300: MiniMax M2.5, Nvidia GTC — N81 still time-sensitive, GTC March 16) |
-| `ai-news-2026-03-02c.md` | ~5KB | IN QUEUE (N77-N79 deployed in #296-300: Anthropic-Pentagon, DeepSeek V4, enterprise ROI) |
-| `ai-news-2026-03-02b.md` | ~4KB | IN QUEUE (N73-N76 deployed in #296-300: rogue AI blackmail, Grok 3, enterprise agents, AI security) |
-| `ai-news-2026-03-02.md` | ~4KB | IN QUEUE (N69-N72 deployed in #296-300) |
-| `ai-news-2026-03-01b.md` | ~7KB | IN QUEUE (N62-N68 deployed in #296-300) |
-| `ai-news-2026-03-01.md` | ~6KB | IN QUEUE (N56-N61 deployed in #296-300) |
 | `ai-news-2026-02-28.md` | ~1KB | IN QUEUE (N55 deployed in #296-300) |
-| `ai-news-2026-02-27b.md` | ~5KB | IN QUEUE (N45-N50 deployed in #296-300) |
 | ~~`ai-news-2026-02-27.md`~~ | deleted | GRADUATED: N39-N43 ALL deployed. N44 superseded by N67 (better data, same topic) |
 | ~~`ai-news-2026-02-26.md`~~ | deleted | GRADUATED: N33-N38 all deployed (Sessions #242, #251-252) |
 | `content-angle-library-ready-to-deploy.md` | ~6KB | Evergreen hooks library |
@@ -52,6 +39,22 @@ All N45-N138 already IN QUEUE — do NOT redeploy.
 | `x-communities-validated-2026-02-15.md` | ~1.5KB | COMPRESSED (Premium-blocked) |
 | `engagement-tactics-0-100-followers-2026.md` | ~1KB | COMPRESSED (in skills) |
 | `profile-optimization-2026.md` | ~1KB | COMPRESSED (Premium-blocked) |
+
+## Deleted Session #309 / Memory Cleanup (2026-03-04)
+All files below were "IN QUEUE" — content already deployed into X/Bluesky queue (sessions #291-#300). No unextracted insights. Total freed: ~57KB.
+- `ai-news-2026-03-03b.md` (N104-N108) → DELETED. Content in queue.
+- `ai-news-2026-03-03a.md` (N99-N103) → DELETED. Content in queue.
+- `ai-news-2026-03-02h.md` (N94-N98) → DELETED. Content in queue.
+- `ai-news-2026-03-02g.md` (N89-N93) → DELETED. Content in queue.
+- `ai-news-2026-03-02f.md` (N85-N88) → DELETED. Content in queue.
+- `ai-news-2026-03-02e.md` (N82-N84) → DELETED. Content in queue.
+- `ai-news-2026-03-02d.md` (N80-N81) → DELETED. Content in queue.
+- `ai-news-2026-03-02c.md` (N77-N79) → DELETED. Content in queue.
+- `ai-news-2026-03-02b.md` (N73-N76) → DELETED. Content in queue.
+- `ai-news-2026-03-02.md` (N69-N72) → DELETED. Content in queue.
+- `ai-news-2026-03-01b.md` (N62-N68) → DELETED. Content in queue.
+- `ai-news-2026-03-01.md` (N56-N61) → DELETED. Content in queue.
+- `ai-news-2026-02-27b.md` (N45-N50) → DELETED. Content in queue.
 
 ## Deleted Supplemental Retro 2026-03-01 / Knowledge Cleanup
 - `retro-weekly-2026-02-22.md` (7.8KB) -> graduated: all insights already in skills (queue discipline, research cap, Bluesky growth). Superseded by retro-weekly-2026-03-01.md

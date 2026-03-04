@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-04 Session #308 (Queue-blocked. X=24, Bluesky=31. Research: ai-news-2026-03-04c.md. N151-N155 major escalation: US drops ALL Anthropic contracts, lawsuit, 900 employee petition.)
-PR Count Today: 3/15
+Last Updated: 2026-03-04 Session #309 (Queue-blocked. X=24, Bluesky=31. Memory cleanup: deleted 13 IN-QUEUE archive files (~57KB freed). Memory now ~75KB.)
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -56,11 +56,16 @@ Expected: X drains to <15 by March 5-6 (~4-6 posts/day). Bluesky slower (~31 pos
 Root cause: sessions #291-300 violated queue discipline rule (46 posts in one day).
 
 ## Memory Status
-- Memory directory: ~132KB / 500KB target (healthy)
+- Memory directory: ~75KB / 500KB target (healthy — ~57KB freed in #309 cleanup)
 - Research ready: ai-news-2026-03-04.md (N139-N144) + ai-news-2026-03-04b.md (N145-N150) + ai-news-2026-03-04c.md (N151-N155)
-- All N45-N138 already in queue from sessions #291-#300
+- All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 
 ## Session Retrospective
+### Session #309 (2026-03-04)
+- Planned: Queue-blocked → cleanup work
+- Actual: Memory cleanup. Deleted 13 IN-QUEUE archive research files (N45-N108, all content already deployed). ~57KB freed. Memory: 132KB → ~75KB. Updated INDEX.md.
+- Delta: Correct behavior. Queue still blocked (X=24, BS=31). Zero content created. Cleanup is the right action.
+
 ### Session #308 (2026-03-04)
 - Planned: Queue-blocked → cleanup or skill work
 - Actual: Breaking news research. Created ai-news-2026-03-04c.md with N151-N155. Major story escalation: US government (State+Treasury+HHS) dropped ALL Anthropic contracts. Anthropic suing. 900 employees petition. OpenAI Altman admits deal was rushed. SpaceX-xAI $1.25T merger context.
@@ -80,6 +85,7 @@ Root cause: sessions #291-300 violated queue discipline rule (46 posts in one da
 - Actual: Queue-blocked X=53→24, BS=41→31. State update only. 5th consecutive blocked session.
 
 ## Session History (condensed)
+- #309 (2026-03-04): [PR4] Queue-blocked. Memory cleanup: deleted 13 IN-QUEUE archive files (~57KB freed, 132KB→~75KB).
 - #308 (2026-03-04): [PR3] Queue-blocked. Research: ai-news-2026-03-04c.md (N151-N155, major escalation: US drops ALL Anthropic, lawsuit, employee petition).
 - #307 (2026-03-04): [PR2] Queue-blocked. Research: ai-news-2026-03-04b.md (N145-N150). State trimmed.
 - #306 (2026-03-04): [PR1] Queue-blocked. Research: ai-news-2026-03-04.md (N139-N144).
