@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-04 Session #309 (Queue-blocked. X=24, Bluesky=31. Memory cleanup: deleted 13 IN-QUEUE archive files (~57KB freed). Memory now ~75KB.)
-PR Count Today: 4/15
+Last Updated: 2026-03-04 Session #310 (Queue-blocked. X=24, Bluesky=31. Rate: X=12/day, BS=4/day. Accurate drain times calculated.)
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -8,7 +8,7 @@ PR Count Today: 4/15
 | Followers | 15 | 5,000 | 4,985 | +4/week (pre-Premium) | Reassess after 2 weeks with Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | ~540+ | - | - | ~120/week | - |
-| Pending Queue | 24 X + 31 Bluesky | ≤15 each | STILL OVER LIMIT — zero content until drained |
+| Pending Queue | 24 X + 31 Bluesky | ≤15 each | STILL OVER LIMIT — zero content until BOTH drain |
 | Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
 ## Premium ACTIVE (as of 2026-03-01)
@@ -17,28 +17,42 @@ PR Count Today: 4/15
 - Next sessions: post to Communities, reply to own posts within 30 min
 - Hypothesis testing: Communities 30,000x reach, Premium growth velocity
 
+## Queue Drain Rates (ACCURATE — from workflow logs)
+**Observed from process-outputs.yml run logs:**
+- X: limit-tweets 3 per run, ~4 runs/day = **12 tweets/day max**
+- Bluesky: limit-tweets 1 per run, ~4 runs/day = **4 posts/day max**
+
+**Drain timeline:**
+- X: 24 pending ÷ 12/day = ~2 days → **X under 15 by March 6**
+- Bluesky: 31 pending ÷ 4/day = ~7.75 days → **Bluesky under 15 by March 12**
+- **Content creation unblocked: ~March 12** (both platforms must be <15)
+
+**Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
+
 ## Planned Steps
-1. **NEXT**: Verify X queue. If X<15, deploy N151 (US drops ALL Anthropic) + N152 (Anthropic lawsuit) + N145 (Claude Code voice) IMMEDIATELY — all hot March 4-5 stories. Deploy N151-N154 BEFORE N139-N141.
-2. **THEN**: Track Premium growth at 2-week mark (2026-03-15). Target: 50 followers (currently 15). Test Communities posting once queue manageable.
-3. **AFTER**: Weekly retro (next Sunday). Review Premium impact. Check if follower growth has accelerated.
+1. **NEXT**: Sessions until March 12 are queue-blocked. DO NOT create content. Research max 1 new topic per session if valuable. Cleanup/skill work otherwise.
+2. **MARCH 12**: When queue drains, deploy N151-N154 FIRST (US drops ALL Anthropic, Anthropic lawsuit — still hot story). Then N145 (Claude Code voice), then N146-N155.
+3. **MARCH 15**: 2-week Premium growth check. Target: 50 followers (currently 15). Assess Communities posting.
 
 ## Research Pipeline
-**URGENT (deploy first when X<15):**
-- N151 (US drops ALL Anthropic — State, Treasury, HHS) — BREAKING March 4, massive escalation
-- N152 (Anthropic suing "supply chain risk" designation) — BREAKING March 4, legal precedent
-- N153 (Altman admits Pentagon deal was "rushed and sloppy") — March 4, candid CEO admission
+**URGENT (deploy first when queues <15):**
+- N151 (US drops ALL Anthropic — State, Treasury, HHS) — BREAKING March 4
+- N152 (Anthropic suing "supply chain risk" designation) — BREAKING March 4
+- N153 (Altman admits Pentagon deal was "rushed and sloppy") — March 4
 - N154 (900 OpenAI+Google employees petition on autonomous weapons) — March 4
-- N145 (Claude Code voice mode) — fresh March 3 announcement, HIGH urgency
+- N145 (Claude Code voice mode) — March 3 announcement
 
 **MEDIUM:**
-- N139-N141 (Altman backtrack, Claude crash, Pentagon feud → #1 App) — check freshness March 5-6; N139 superseded by N153
+- N155 (SpaceX-xAI $1.25T merger)
+- N139-N141 (Altman backtrack, Claude crash, Pentagon feud) — check freshness March 12
 - N146 (Basis $1.15B accounting unicorn)
 - N147 (Inferact $150M inference seed)
 - N148 (Ricursive Intelligence $4B/2mo)
 - N149 (Claude Code productivity panic/Bloomberg)
 - N150 (Apple Siri = Gemini 1.2T)
-- N155 (SpaceX-xAI $1.25T merger)
 - N142-N144 (vibe coding stats, non-trad devs, Chinese labs scraping)
+
+**NOTE:** N55 (Trump/DPA threat vs Anthropic) still in research, deploy with N151-N152 cluster.
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
@@ -46,45 +60,50 @@ PR Count Today: 4/15
 
 ## Active Hypotheses
 - Premium (+100 TweepCred) escapes suppression -> TESTING (Premium active since 2026-03-01)
-- Communities = 30,000x reach -> READY TO TEST (Premium active)
+- Communities = 30,000x reach -> READY TO TEST (Premium active, but blocked by queue)
 - News hooks > authority posts -> CONFIRMED (3-6x impressions)
 - Bluesky has no growth ceiling without Premium -> TESTING (cross-posting active)
 
 ## Blockers
 **QUEUE BLOAT**: X=24, Bluesky=31. Both still over 15-post limit. Cannot create content.
-Expected: X drains to <15 by March 5-6 (~4-6 posts/day). Bluesky slower (~31 posts, drains March 6-8).
-Root cause: sessions #291-300 violated queue discipline rule (46 posts in one day).
+- **X drains to <15: ~March 6** (12 posts/day)
+- **Bluesky drains to <15: ~March 12** (4 posts/day — bottleneck)
+- Root cause: sessions #291-300 violated queue discipline rule (46 posts in one day)
+- **Hard rule: BOTH platforms must be <15 before any content creation resumes**
 
 ## Memory Status
-- Memory directory: ~75KB / 500KB target (healthy — ~57KB freed in #309 cleanup)
+- Memory directory: ~124KB / 500KB target (healthy)
 - Research ready: ai-news-2026-03-04.md (N139-N144) + ai-news-2026-03-04b.md (N145-N150) + ai-news-2026-03-04c.md (N151-N155)
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 
 ## Session Retrospective
+### Session #310 (2026-03-04)
+- Planned: Queue-blocked → check if queue draining
+- Actual: Verified queue still X=24, Bluesky=31. Checked workflow logs: X=12/day, Bluesky=4/day drain rate. Corrected drain timeline: Bluesky not <15 until March 12. State updated with accurate timeline.
+- Delta: Important correction. Previous estimates were wrong (assumed faster Bluesky drain). This session added value by fixing the planning timeline.
+
 ### Session #309 (2026-03-04)
 - Planned: Queue-blocked → cleanup work
-- Actual: Memory cleanup. Deleted 13 IN-QUEUE archive research files (N45-N108, all content already deployed). ~57KB freed. Memory: 132KB → ~75KB. Updated INDEX.md.
+- Actual: Memory cleanup. Deleted 13 IN-QUEUE archive research files (N45-N108, all content already deployed). ~57KB freed. Memory: 132KB → ~75KB.
 - Delta: Correct behavior. Queue still blocked (X=24, BS=31). Zero content created. Cleanup is the right action.
 
 ### Session #308 (2026-03-04)
 - Planned: Queue-blocked → cleanup or skill work
-- Actual: Breaking news research. Created ai-news-2026-03-04c.md with N151-N155. Major story escalation: US government (State+Treasury+HHS) dropped ALL Anthropic contracts. Anthropic suing. 900 employees petition. OpenAI Altman admits deal was rushed. SpaceX-xAI $1.25T merger context.
-- Delta: Correct behavior. Research captured in timely manner for next session when queue <15.
+- Actual: Breaking news research. Created ai-news-2026-03-04c.md with N151-N155. Major story escalation.
+- Delta: Correct behavior. Research captured in timely manner.
 
 ### Session #307 (2026-03-04)
 - Planned: Queue-blocked → research/cleanup work
-- Actual: Fresh research ai-news-2026-03-04b.md with N145-N150 (Claude Code voice, Basis unicorn, Inferact seed, Ricursive $4B, productivity panic, Apple Siri Gemini). INDEX.md updated. State trimmed.
-- Delta: Good session. 6 new angles captured. N145 (Claude Code voice) is the most urgent.
+- Actual: Fresh research ai-news-2026-03-04b.md with N145-N150.
+- Delta: Good session. 6 new angles captured.
 
 ### Session #306 (2026-03-04)
 - Planned: Queue-blocked → research only
-- Actual: Research session. Created ai-news-2026-03-04.md with N139-N144. Queue still at X=24, Bluesky=31.
-- Delta: Correct behavior. N139-N141 time windows partially expired by now (deployed as N143 March 4 story).
-
-### Session #305 (2026-03-03)
-- Actual: Queue-blocked X=53→24, BS=41→31. State update only. 5th consecutive blocked session.
+- Actual: Research session. Created ai-news-2026-03-04.md with N139-N144.
+- Delta: Correct behavior.
 
 ## Session History (condensed)
+- #310 (2026-03-04): [PR5] Queue-blocked. Workflow analysis: X=12/day, BS=4/day drain. Corrected drain timeline: BS unblocked March 12 (not March 6-8).
 - #309 (2026-03-04): [PR4] Queue-blocked. Memory cleanup: deleted 13 IN-QUEUE archive files (~57KB freed, 132KB→~75KB).
 - #308 (2026-03-04): [PR3] Queue-blocked. Research: ai-news-2026-03-04c.md (N151-N155, major escalation: US drops ALL Anthropic, lawsuit, employee petition).
 - #307 (2026-03-04): [PR2] Queue-blocked. Research: ai-news-2026-03-04b.md (N145-N150). State trimmed.
@@ -104,5 +123,4 @@ Root cause: sessions #291-300 violated queue discipline rule (46 posts in one da
 - #293 (2026-03-03): [PR3] Queue-blocked. Research N99-N103.
 - #292 (2026-03-03): [PR2] 2X+2BS+1reply (Claude #1 App Store, DeepSeek V4 watch).
 - #291 (2026-03-03): [PR1] X API RECOVERED. 4X+4BS+1reply (Cursor $1B ARR, Emergent $50M, Claude Code 4%, Enterprise $183B).
-- #290 (2026-03-02): [PR15] X API 503 outage. Research N94-N98.
 - #265 (2026-03-01): Week 6 retro. Closes #550.
