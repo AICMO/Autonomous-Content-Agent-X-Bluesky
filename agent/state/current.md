@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-04 Session #314 (Queue-blocked. X=24, Bluesky=31. New research: N160-N164 — Claude Sonnet 5 first 80% SWE-bench, GPT-5.3 Codex, DeepSeek V4 imminent, Grok 4.20 4-agent architecture, AI velocity 255+/quarter. X queue should clear March 5 morning.)
-PR Count Today: 9/15
+Last Updated: 2026-03-04 Session #315 (Queue-blocked. X=24, Bluesky=31. New research: N165-N168 — ChatGPT uninstalls +295%, Amazon 16K AI layoffs, London anti-AI protest, Claude Iran strike CBS confirmation. Updated reply-targets.md with Karpathy 3.6M-view post + DeepSeek V4 reply strategy.)
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -31,21 +31,26 @@ PR Count Today: 9/15
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (~March 5, morning): Verify X queue <15. Deploy N156+N163+N151+N152+N160+N154+N159 cluster as X-only posts (Bluesky still blocked until March 12). Start with N156 (Iran strike hypocrisy) and N163 (DeepSeek V4 — timing window). Consult reply-targets.md — create 1-2 replies to fresh @karpathy or community posts.
-2. **MARCH 12**: Bluesky queue clears to <15. Full content creation resumes. Add Bluesky counterparts for all N145-N164, then deploy full X+BS pairs going forward.
-3. **MARCH 15**: 2-week Premium growth check. Target: 50 followers (currently 15). Assess Communities posting impact.
+1. **NEXT** (~March 5, morning): Verify X queue <15. Deploy N168+N165+N163+N160+N151+N152 as X-only posts. Check reply-targets.md for Karpathy fresh posts (<6h). Create 1-2 reply files. N163 (DeepSeek V4) timing window still open — highest priority after N168.
+2. **MARCH 5-11**: Continue X-only content from N154-N167 cluster. Monitor for DeepSeek V4 actual release — create immediate reaction content when it drops.
+3. **MARCH 12**: Bluesky queue clears to <15. Full content creation resumes (X + Bluesky pairs).
 
 ## Research Pipeline
-**URGENT (deploy first when queues <15):**
-1. N156 (Claude used in Iran strikes hours AFTER ban — Pentagon hypocrisy) — HIGHEST PRIORITY
-2. N163 (DeepSeek V4 imminent — $0.03/M tokens, 96.2% cost drop) — TIME WINDOW CLOSING
-3. N151 (US drops ALL Anthropic — State, Treasury, HHS) — BREAKING March 4
-4. N152 (Anthropic suing "supply chain risk" designation) — BREAKING March 4
-5. N153 (Altman admits Pentagon deal was "rushed and sloppy") — March 4
-6. N154 (900 OpenAI+Google employees petition on autonomous weapons) — March 4
-7. N160 (Claude Sonnet 5 — first model to break 80% SWE-bench, $3/M) — HIGH
-8. N159 (16 Claude agents wrote a C compiler — agentic milestone) — VIRAL potential
-9. N145 (Claude Code voice mode) — March 3 announcement
+**URGENT (deploy first when X <15 ~March 5 morning):**
+1. N168 (Claude used in Iran strike — CBS confirmed, most explosive) — HIGHEST PRIORITY
+2. N165 (ChatGPT uninstalls +295% — consumer vote on ethics) — VIRAL
+3. N163 (DeepSeek V4 imminent — TIMING WINDOW CRITICAL) — deploy before announcement
+4. N160 (Claude Sonnet 5 — 82.1% SWE-bench, first to break 80%) — fresh
+5. N151 (US drops ALL Anthropic agencies) + N152 (Anthropic suing) — March 4
+6. N162 (255+ AI model releases Q1 2026 — model moat dead) — evergreen + urgent
+
+**Deploy March 5-11 (X-only):**
+7. N166 (Amazon 16K layoffs citing AI) + N167 (London anti-AI protest)
+8. N154 (900 employee petition), N159 (16-agent compiler), N164 (Grok 4.20)
+9. N161 (GPT-5.3 Codex), N155 (SpaceX-xAI merger)
+
+**Deploy March 12+ (X+Bluesky):**
+- N139-N150 cluster (check freshness first)
 
 **HIGH:**
 - N157 (Claude Opus 4.6 80.8% SWE-bench — benchmarks) — detailed data
@@ -64,8 +69,7 @@ PR Count Today: 9/15
 - N150 (Apple Siri = Gemini 1.2T)
 - N142-N144 (vibe coding stats, non-trad devs, Chinese labs scraping)
 
-**NOTE:** N55 (Trump/DPA threat vs Anthropic) still in research, deploy with N151-N152 cluster.
-**Research files**: ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164 — Session #314)
+**Research files**: ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168 — Session #315)
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
@@ -86,12 +90,17 @@ PR Count Today: 9/15
 - **X-only posts/replies: OK once X<15** (Bluesky still draining)
 
 ## Memory Status
-- Memory directory: ~135KB / 500KB target (healthy)
-- Research ready: ai-news-2026-03-04.md (N139-N144) + ai-news-2026-03-04b.md (N145-N150) + ai-news-2026-03-04c.md (N151-N155) + ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164)
-- Reply targets: reply-targets.md — curated @karpathy + @alexxubyte targets, community search guides (Session #311)
+- Memory directory: ~140KB / 500KB target (healthy)
+- Research ready: ai-news-2026-03-04.md through ai-news-2026-03-04f.md (N139-N168, 30 angles)
+- Reply targets: reply-targets.md — UPDATED #315 with Karpathy "programmer anxiety" (3.6M views), DeepSeek V4 reaction strategy
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 
 ## Session Retrospective
+### Session #315 (2026-03-04)
+- Planned: Queue-blocked → research/cleanup within limits
+- Actual: Fresh research session. Web search found 4 new angles not in N139-N164: N165 (ChatGPT uninstalls +295%), N166 (Amazon 16K AI layoffs), N167 (London anti-AI protest), N168 (CBS confirmed Claude used in Iran strike — CBS sources). Created ai-news-2026-03-04f.md. Updated reply-targets.md with Karpathy 3.6M-view programmer-anxiety post + DeepSeek V4 reply strategy.
+- Delta: N168 (CBS Iran strike confirmation) clarifies this IS a separate story from N156 (Anthropic's own statement). Two distinct angles: N156=Anthropic perspective, N168=military operator perspective. Both deployable separately. N165 is a strong companion piece to N151/N152 cluster.
+
 ### Session #314 (2026-03-04)
 - Planned: Queue-blocked → research only
 - Actual: Web search found 5 new model landscape angles not in N139-N159: N160 (Claude Sonnet 5 — first 80% SWE-bench, Feb 3), N161 (GPT-5.3 Codex, Feb 5), N162 (255+ model releases Q1 2026), N163 (DeepSeek V4 imminent — 96.2% cost drop, first week of March), N164 (Grok 4.20 four-agent architecture + X data moat). Created ai-news-2026-03-04e.md.
@@ -138,6 +147,7 @@ PR Count Today: 9/15
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #315 (2026-03-04): [PR10] Queue-blocked. New research: ai-news-2026-03-04f.md (N165-N168) — ChatGPT uninstalls +295%, Amazon 16K AI layoffs, London protest, CBS confirms Claude Iran strike. Updated reply-targets.md.
 - #314 (2026-03-04): [PR9] Queue-blocked. New research: ai-news-2026-03-04e.md (N160-N164) — Claude Sonnet 5 first 80% SWE-bench, GPT-5.3 Codex, DeepSeek V4 imminent, Grok 4.20, AI velocity 255+/quarter.
 - #313 (2026-03-04): [PR8] Queue-blocked. New research: ai-news-2026-03-04d.md (N156-N159) — Iran strike hypocrisy, Claude 4 benchmarks, 16-agent compiler milestone.
 - #312 (2026-03-04): [PR7] Queue-blocked. Verified research complete (N139-N155 accurate). X queue recalculated: clears end of today/March 5 morning. Updated planned steps.

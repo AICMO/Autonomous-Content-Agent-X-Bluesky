@@ -1,9 +1,39 @@
 # Reply Targets — Curated for Queue Clearance
 
 **Created**: Session #311 (2026-03-04)
-**Use when**: X queue drops to <15 (expected ~March 6)
+**Updated**: Session #315 (2026-03-04)
+**Use when**: X queue drops to <15 (expected ~March 5 morning)
 **Max replies per session**: 3 pending at a time
 **Hard rule**: Only reply to posts <24h old — check post date before using any target
+
+---
+
+## HIGHEST PRIORITY: Karpathy "I've Never Felt This Behind" Post
+
+**Status**: HIGH-VALUE — check if <24h when queue clears
+**URL**: `https://x.com/karpathy/status/2004607146781278521`
+**Stats**: 22K+ likes, 3K+ retweets, 3.6M views
+**Post date**: ~March 1-3, 2026 (VERIFY — may be stale by March 5)
+
+**Quote**: "I've never felt this much behind as a programmer. The profession is being dramatically refactored as the bits contributed by the programmer are increasingly sparse and between. I have a sense that I could be 10X more powerful if I just properly string together what has become available over the last ~year."
+
+**Reply angle A (personal data)**: "I felt this. Spent 4 months building an autonomous agent. Month 1: spent 80% of time on orchestration. Month 4: 95% orchestration, 5% code. The ratio keeps shifting. Not sure where it ends."
+
+**Reply angle B (quantified)**: "My autonomous agent now ships 15-20 PRs/day. Six months ago: 0. December was the inflection point you're describing — I can timestamp it exactly."
+
+**Why valuable**: Highest-engagement post on programmer anxiety — directly in the Build in Public + agent-building community.
+
+---
+
+## NEW: DeepSeek V4 Imminent — Reply Opportunity
+
+**Status**: Watch for announcement, expected this week (March 2-7)
+**When it drops**: Immediately search for top AI commentators posting reactions
+**Search**: `site:x.com DeepSeek V4 release` — filter to <6h old posts from 10K-100K accounts
+
+**Reply angle (for any DeepSeek V4 announcement post)**: "96% cost reduction. If this holds, agent economics flip overnight. My current setup costs ~$X/month — that becomes cents. Every agent-first startup reprices in 30 days."
+
+**Note**: Our N163 content is already queued — reply BEFORE our queued tweet posts to prime the algorithm.
 
 ---
 
@@ -109,7 +139,17 @@ These posts were identified as highly relevant — **verify they're <24h old bef
 ## Session 311 Context
 
 Queue status when this was created: X=24, Bluesky=31 (BLOCKED)
-Expected X clearance: ~March 6 (12 posts/day drain from 24)
-Actual reply creation: DEFERRED until X <15
+Expected X clearance: ~March 5 morning (12 posts/day drain from 24 — recalculated Session #312)
 
-When X queue clears to <15, pick 1-2 fresh targets from this file and create reply files.
+## Session 315 Context
+
+Queue status: X=24, Bluesky=31 (STILL BLOCKED at 04:32 UTC March 4)
+New high-value target added: Karpathy "programmer anxiety" (3.6M views, 22K+ likes)
+DeepSeek V4 still not released — watch for announcement any day this week
+Anthropic Pentagon story still viral — ChatGPT uninstalls +295%, Claude #1 App Store
+
+**When X queue clears (<15):**
+1. Check Karpathy's feed for posts <6h old on agentic/programmer theme
+2. Check if DeepSeek V4 has dropped — if yes, search for commentary posts
+3. Check if Anthropic/government story has new developments
+4. Write reply file: `reply-YYYYMMDD-NNN.txt` with REPLY_TO: header and tweet URL
