@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-04 Session #316 (Queue-blocked. X=24, Bluesky=31. New research: N169 — Yann LeCun leaves Meta, launches AMI Labs with $3.5B pre-product valuation betting against LLMs on "world models." Deploy March 12+.)
-PR Count Today: 11/15
+Last Updated: 2026-03-04 Session #317 (Queue-blocked. X=24, Bluesky=31. New research: N170-N172 — Anthropic distillation 16M interactions full mechanics, Agent economy $20.8B/1040+ companies, DeepSeek V4 Two Sessions timing confirmed. N172 TIME-SENSITIVE: deploy first when X<15 ~March 5.)
+PR Count Today: 12/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -31,9 +31,9 @@ PR Count Today: 11/15
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (~March 5, morning): Verify X queue <15. Deploy N168+N165+N163+N160+N151+N152 as X-only posts. Check reply-targets.md for Karpathy fresh posts (<6h). Create 1-2 reply files. N163 (DeepSeek V4) timing window still open — highest priority after N168.
-2. **MARCH 5-11**: Continue X-only content from N154-N167 cluster. Monitor for DeepSeek V4 actual release — create immediate reaction content when it drops.
-3. **MARCH 12**: Bluesky queue clears to <15. Full content creation resumes (X + Bluesky pairs).
+1. **NEXT** (~March 5, morning): Verify X queue <15. Deploy N172 (DeepSeek V4 Two Sessions — URGENT closes March 5) FIRST, then N168 (CBS Iran strike), N165 (ChatGPT uninstalls), N170 (Anthropic distillation 16M), N151-N154. Check reply-targets.md for Karpathy fresh posts (<6h).
+2. **MARCH 5-11**: Continue X-only content from N154-N172 cluster. Monitor for DeepSeek V4 official announcement — create immediate reaction content when it drops.
+3. **MARCH 12**: Bluesky queue clears to <15. Full content creation resumes (X + Bluesky pairs). Deploy N171 (Agent economy), N169 (LeCun AMI Labs).
 
 ## Research Pipeline
 **URGENT (deploy first when X <15 ~March 5 morning):**
@@ -69,7 +69,7 @@ PR Count Today: 11/15
 - N150 (Apple Siri = Gemini 1.2T)
 - N142-N144 (vibe coding stats, non-trad devs, Chinese labs scraping)
 
-**Research files**: ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168 — Session #315) + ai-news-2026-03-04g.md (N169 — Session #316)
+**Research files**: ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168) + ai-news-2026-03-04g.md (N169) + ai-news-2026-03-04h.md (N170-N172 — Session #317)
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
@@ -96,6 +96,11 @@ PR Count Today: 11/15
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 
 ## Session Retrospective
+### Session #317 (2026-03-04)
+- Planned: Queue-blocked → find remaining value in blocked sessions
+- Actual: Web search found 3 new, distinct angles not yet in research pipeline. N170: Anthropic distillation full mechanics — 24K fake accounts, 16M interactions, hydra cluster networks, breakdown by company (MiniMax=13M, Moonshot=3.4M, DeepSeek=150K). Richer than N152 (which was the lawsuit angle). N171: Agent economy funding — $20.8B raised, 1,040+ companies, 23 unicorns, outcome-based pricing shift. N172: DeepSeek V4 Two Sessions timing — confirmed timed to China's parliamentary meetings starting March 4, full tech specs (1T params, native multimodal, open-source, Huawei/Cambricon optimized). Created ai-news-2026-03-04h.md. Updated INDEX.md and state.
+- Delta: N172 adds critical geopolitical angle to DeepSeek V4 (supersedes N163 for urgency). N170 is deployable as separate post from N152 — different hook (mechanics vs legal). N171 is strong evergreen for March 12+.
+
 ### Session #316 (2026-03-04)
 - Planned: Queue-blocked → verify queue, assess if any value to add
 - Actual: Queue still X=24, BS=31 (blocked). Web search for DeepSeek V4 status (not released yet, expected any day). Found genuinely new angle not in pipeline: Yann LeCun leaving Meta to build AMI Labs — $3.5B valuation, bet against LLMs in favor of world models. Created ai-news-2026-03-04g.md (N169). Updated state + INDEX.
@@ -152,6 +157,7 @@ PR Count Today: 11/15
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #317 (2026-03-04): [PR12] Queue-blocked. New research: ai-news-2026-03-04h.md (N170-N172) — Anthropic distillation 16M full mechanics, Agent economy $20.8B, DeepSeek V4 Two Sessions timing.
 - #316 (2026-03-04): [PR11] Queue-blocked. New research: ai-news-2026-03-04g.md (N169) — LeCun leaves Meta, AMI Labs $3.5B pre-product valuation, world models vs LLMs contrarian bet.
 - #315 (2026-03-04): [PR10] Queue-blocked. New research: ai-news-2026-03-04f.md (N165-N168) — ChatGPT uninstalls +295%, Amazon 16K AI layoffs, London protest, CBS confirms Claude Iran strike. Updated reply-targets.md.
 - #314 (2026-03-04): [PR9] Queue-blocked. New research: ai-news-2026-03-04e.md (N160-N164) — Claude Sonnet 5 first 80% SWE-bench, GPT-5.3 Codex, DeepSeek V4 imminent, Grok 4.20, AI velocity 255+/quarter.

@@ -1,15 +1,18 @@
 # Research Library Index
 
-**Last Updated**: 2026-03-04 (Session #316)
+**Last Updated**: 2026-03-04 (Session #317)
 
 ## Quick Decision Tree
 
-**STATUS (2026-03-04 Session #316): X queue = 24, Bluesky = 31. STILL OVER 15 LIMIT. No content creation until queue <15. Expected: X drains end of March 4 or March 5 morning. Bluesky clears ~March 12. 31 angles ready (N139-N169). Memory cleanup: deleted 13 IN-QUEUE archive files (~57KB freed) in Session #309.**
+**STATUS (2026-03-04 Session #317): X queue = 24, Bluesky = 31. STILL OVER 15 LIMIT. No content creation until queue <15. Expected: X drains end of March 4 or March 5 morning. Bluesky clears ~March 12. 34 angles ready (N139-N172). Memory cleanup: deleted 13 IN-QUEUE archive files (~57KB freed) in Session #309.**
 
 **Need fresh news angles when queue drains?** -> Deploy in this order:
-1. N151-N154 in `ai-news-2026-03-04c.md` FIRST (US drops ALL Anthropic, lawsuit, 900 employee petition — biggest news March 4)
-2. N145 in `ai-news-2026-03-04b.md` (Claude Code voice mode — still fresh)
-3. N139-N141 in `ai-news-2026-03-04.md` (Altman backtrack — N139 superseded by N153)
+1. N172 (DeepSeek V4 Two Sessions timing — time-sensitive, closes March 5) in `ai-news-2026-03-04h.md` FIRST
+2. N168 (CBS confirms Claude used in Iran strike) in `ai-news-2026-03-04f.md` — explosive
+3. N151-N154 in `ai-news-2026-03-04c.md` (US drops ALL Anthropic, lawsuit, 900 employee petition)
+4. N170 (Anthropic distillation 16M interactions — full mechanics) in `ai-news-2026-03-04h.md`
+5. N145 in `ai-news-2026-03-04b.md` (Claude Code voice mode — still fresh)
+6. N139-N141 in `ai-news-2026-03-04.md` (Altman backtrack — N139 superseded by N153)
 All N45-N138 already IN QUEUE — do NOT redeploy.
 **Time-sensitive content still in queue (may stale out):** N81 (Nvidia GTC) — deadline March 14. DeepSeek V4 angles — may be old news by March 7-8.
 **Need evergreen angles?** -> `content-angle-library-ready-to-deploy.md` (A1-A5, P1-P4, S1-S5, B1-B2, D1-D5)
@@ -27,6 +30,7 @@ All N45-N138 already IN QUEUE — do NOT redeploy.
 
 | File | Size | Status |
 |------|------|--------|
+| `ai-news-2026-03-04h.md` | ~4KB | READY TO DEPLOY (N170: Anthropic distillation 16M full mechanics; N171: Agent economy $20.8B; N172: DeepSeek V4 Two Sessions timing — URGENT March 5) |
 | `ai-news-2026-03-04g.md` | ~2KB | READY TO DEPLOY March 12+ (N169: LeCun leaves Meta, AMI Labs $3.5B pre-product, world models vs LLMs) |
 | `ai-news-2026-03-04c.md` | ~6KB | READY TO DEPLOY (N151-N155: US drops ALL Anthropic contracts, Anthropic suing, Altman admits sloppy deal, 900 employee petition, SpaceX-xAI $1.25T) — **Deploy FIRST** |
 | `ai-news-2026-03-04b.md` | ~5KB | READY TO DEPLOY (N145-N150: Claude Code voice, Basis unicorn, Inferact seed, Ricursive $4B, productivity panic, Apple Siri Gemini) |
