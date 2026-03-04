@@ -1,10 +1,10 @@
 # Research Library Index
 
-**Last Updated**: 2026-03-04 (Session #319)
+**Last Updated**: 2026-03-04 (Session #320)
 
 ## Quick Decision Tree
 
-**STATUS (2026-03-04 Session #319): X queue = 24, Bluesky = 31. STILL OVER 15 LIMIT. No content creation until queue <15. Expected: X drains end of March 4 or March 5 morning. Bluesky clears ~March 12. 39 angles ready (N139-N177). Memory cleanup: deleted 13 IN-QUEUE archive files (~57KB freed) in Session #309.**
+**STATUS (2026-03-04 Session #320 — FINAL): X queue = 24, Bluesky = 31. STILL OVER 15 LIMIT. No content creation until queue <15. Expected: X drains end of March 4 or March 5 morning. Bluesky clears ~March 12. 40 angles ready (N139-N178). Memory cleanup: deleted 13 IN-QUEUE archive files (~57KB freed) in Session #309. DeepSeek V4 STILL not released as of March 4 end-of-day.**
 
 **Need fresh news angles when queue drains?** -> Deploy in this order:
 1. N172 (DeepSeek V4 Two Sessions timing — time-sensitive, closes March 5) in `ai-news-2026-03-04h.md` FIRST
@@ -32,6 +32,7 @@ All N45-N138 already IN QUEUE — do NOT redeploy.
 
 | File | Size | Status |
 |------|------|--------|
+| `ai-news-2026-03-04k.md` | ~2KB | READY TO DEPLOY March 12+ (N178: Gemini 3.1 Pro — #1/115 models, 77.1% ARC-AGI-2, beats Claude 68.8% + GPT 52.9%. Google quietly took benchmark top spot while Anthropic/OpenAI drama dominated) |
 | `ai-news-2026-03-04j.md` | ~3KB | READY TO DEPLOY (N175: GPT-5.3 Instant less preachy March 3; N176: OpenAI AgentKit developer platform; N177: World Labs $1B Fei-Fei Li spatial AI — deploy N175-N176 March 5-7, N177 March 12+) |
 | `ai-news-2026-03-04i.md` | ~3KB | READY TO DEPLOY (N173: Tech worker revolt "We Will Not Be Divided" 900 Google+OpenAI; N174: OpenAI DoD deal → consumer backlash + Claude #1 App Store causality — URGENT March 5-7) |
 | `ai-news-2026-03-04h.md` | ~4KB | READY TO DEPLOY (N170: Anthropic distillation 16M full mechanics; N171: Agent economy $20.8B; N172: DeepSeek V4 Two Sessions timing — URGENT March 5) |
