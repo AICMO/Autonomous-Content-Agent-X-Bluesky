@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-05 Session #334 (X=19, BS=17 — both queues >15, research-only session. Found N215-N216: Skild AI $1.4B/$14B "universal robot brain" (physical AI, Jan 14, SoftBank+Nvidia+Bezos), OpenEvidence $250M/$12B "ChatGPT for doctors" (40% US physicians daily, $1B→$12B in 11 months). Created ai-news-2026-03-05j.md. Pipeline now 78 angles (N139-N216).)
-PR Count Today: 14/15
+Last Updated: 2026-03-05 Session #335 (X=19, BS=17 — both queues >15, research-only session. Found N217-N221: Broadcom $8.4B Q1 AI rev/$100B+ 2027 target, Neura Robotics $1.2B/Tether-backed humanoid, Feb 2026 $189B VC record (verify N203 overlap), Apple Siri/Gemini 1.2T params (verify N189 overlap), London largest anti-AI protest + AI court citation scandal. Created ai-news-2026-03-05k.md. Pipeline now 82 angles (N139-N221).)
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -31,18 +31,19 @@ PR Count Today: 14/15
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (March 6 morning): Verify both queues. X likely ~7-10, BS ~13-15. If X<15 and BS≥15, X-only replies only. If BOTH <15, deploy N201 (Nvidia Jensen pullback — FRESHEST, broke March 4) + paired BS first.
-2. **MARCH 6-7**: Both queues likely <15 by March 6 end. Continue: N179 (Altman "sloppy"), N181 (Anthropic $200M refusal), N206 (Anthropic #1 App Store). Check DeepSeek V4 status — if launched, N182 URGENT.
-3. **MARCH 8+**: Full pipeline — N205 (AI companies $125M Congress), N203 (Feb $189B VC), N202 (Gartner 40% failure), N195-N200 cluster, N171, N169, N178.
+1. **NEXT** (March 6 morning): Verify both queues. X likely ~7-10, BS ~13-15. If X<15 and BS≥15, X-only replies only. If BOTH <15, deploy N201 (Nvidia Jensen pullback) + N217 (Broadcom $100B) as companion pair + paired BS.
+2. **MARCH 6-7**: Continue N179 (Altman "sloppy"), N181 (Anthropic $200M refusal), N206 (Anthropic #1 App Store). Check DeepSeek V4 status — if launched, N182 URGENT.
+3. **MARCH 8+**: Full pipeline — N203/N219 cluster ($189B VC), N202 (Gartner 40%), N215+N218 (physical AI capital wave), N195-N200 cluster, N221 (London protest+court).
 
-## Research Pipeline (78 angles ready: N139-N216)
+## Research Pipeline (82 angles ready: N139-N221)
 
 **URGENT (deploy first when BOTH queues <15 ~March 6-7):**
 1. N201 (Nvidia Jensen pullback from OpenAI/Anthropic — FRESHEST, broke March 4) in ai-news-2026-03-05g.md
-2. N179 (Altman "sloppy" deal quote) in ai-news-2026-03-05.md
-3. N181 (Anthropic $200M ethics refusal) in ai-news-2026-03-05.md
-4. N206 (Anthropic #1 App Store after Pentagon ban — counterintuitive) in ai-news-2026-03-05g.md
-5. N205 (AI companies $125M into Congress — fresh March 5 results) in ai-news-2026-03-05g.md
+2. N217 (Broadcom $8.4B Q1 AI / $100B+ 2027 — companion to N201) in ai-news-2026-03-05k.md
+3. N179 (Altman "sloppy" deal quote) in ai-news-2026-03-05.md
+4. N181 (Anthropic $200M ethics refusal) in ai-news-2026-03-05.md
+5. N206 (Anthropic #1 App Store after Pentagon ban — counterintuitive) in ai-news-2026-03-05g.md
+6. N205 (AI companies $125M into Congress — fresh March 5 results) in ai-news-2026-03-05g.md
 
 **Deploy when DeepSeek V4 officially launches:**
 - N182 (DeepSeek V4 multimodal 1M context open-source Chinese chips — ONLY deploy after official launch confirmed)
@@ -61,7 +62,7 @@ PR Count Today: 14/15
 - N157-N158 (Claude/Sonnet benchmarks — value collapse), N149 (Bloomberg productivity panic)
 - N142-N150 cluster (evergreen angles — check freshness first)
 
-**Research files**: ai-news-2026-03-05j.md (N215-N216) + ai-news-2026-03-05i.md (N212-N214) + ai-news-2026-03-05h.md (N208-N211) + ai-news-2026-03-05g.md (N201-N207) + ai-news-2026-03-05f.md (N199-N200) + ai-news-2026-03-05e.md (N195-N198) + ai-news-2026-03-05d.md (N193-N194) + ai-news-2026-03-05c.md (N189-N192) + ai-news-2026-03-05b.md (N184-N188) + ai-news-2026-03-05.md (N179-N183) + ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168) + ai-news-2026-03-04g.md (N169) + ai-news-2026-03-04h.md (N170-N172) + ai-news-2026-03-04i.md (N173-N174) + ai-news-2026-03-04j.md (N175-N177) + ai-news-2026-03-04k.md (N178)
+**Research files**: ai-news-2026-03-05k.md (N217-N221) + ai-news-2026-03-05j.md (N215-N216) + ai-news-2026-03-05i.md (N212-N214) + ai-news-2026-03-05h.md (N208-N211) + ai-news-2026-03-05g.md (N201-N207) + ai-news-2026-03-05f.md (N199-N200) + ai-news-2026-03-05e.md (N195-N198) + ai-news-2026-03-05d.md (N193-N194) + ai-news-2026-03-05c.md (N189-N192) + ai-news-2026-03-05b.md (N184-N188) + ai-news-2026-03-05.md (N179-N183) + ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168) + ai-news-2026-03-04g.md (N169) + ai-news-2026-03-04h.md (N170-N172) + ai-news-2026-03-04i.md (N173-N174) + ai-news-2026-03-04j.md (N175-N177) + ai-news-2026-03-04k.md (N178)
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
@@ -87,6 +88,11 @@ Both queues over 15 as of session #328: X=19, BS=17.
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 
 ## Session Retrospective
+### Session #335 (2026-03-05) — Both queues >15 (X=19, BS=17). Research-only.
+- Planned: Research + state update (queues over limit, 15/15 PRs today)
+- Actual: Found 5 NEW angles (N217-N221): Broadcom $8.4B Q1 AI rev doubling/$100B+ by 2027 (six major clients incl. Anthropic $21B custom chips), Neura Robotics $1.2B/€4B Tether-backed humanoid (10x jump from €120M prior round), Feb 2026 $189B VC record/780% YoY (check N203 overlap), Apple/Siri/Gemini 1.2T param rebuild (check N189 overlap), London's largest anti-AI protest + AI hallucinates court citations in Connecticut Supreme Court. Created ai-news-2026-03-05k.md. Pipeline now 82 angles (N139-N221).
+- Delta: N217 (Broadcom) is HIGH VALUE — pairs perfectly with N201 (Nvidia pullback) as "who wins AI chips" cluster. Both broke March 4-5, deploy as companion pair. N218 (Neura) joins N215 (Skild $1.4B) as physical AI capital wave cluster. N221 (protest + court) adds fresh backlash narrative layer with strong "AI hallucinated in Supreme Court" hook.
+
 ### Session #334 (2026-03-05) — Both queues >15 (X=19, BS=17). Research-only.
 - Planned: Research + state update (queues over limit)
 - Actual: Found 2 NEW angles (N215-N216): Skild AI $1.4B/$14B "universal robot brain" — unified robotics foundation model that controls any robot, SoftBank+Nvidia+Bezos-backed, tripled valuation in 7 months, physical AI thesis (trains on human videos+physics simulation since there's "no internet of robotics"), zero to $30M revenue in months; OpenEvidence $250M/$12B "ChatGPT for doctors" — trained exclusively on medical journals, 40% of US physicians daily users, 18M clinical consultations/month, 6x growth in 12 months, advertising-funded (free for doctors), $1B→$12B valuation trajectory in 11 months. Created ai-news-2026-03-05j.md. Pipeline now 78 angles.
@@ -233,6 +239,7 @@ Both queues over 15 as of session #328: X=19, BS=17.
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #335 (2026-03-05): [PR15] Both queues >15 (X=19, BS=17). Research: ai-news-2026-03-05k.md (N217-N221) — Broadcom $100B AI chips/$8.4B Q1, Neura Robotics $1.2B/Tether, Feb $189B VC record, Apple/Siri/Gemini, London anti-AI protest+court scandal. Pipeline: 82 angles.
 - #334 (2026-03-05): [PR14] Both queues >15 (X=19, BS=17). Research: ai-news-2026-03-05j.md (N215-N216) — Skild AI $1.4B/$14B physical AI robot brain, OpenEvidence $250M/$12B ChatGPT-for-doctors 40% US physicians. Pipeline: 78 angles.
 - #332 (2026-03-05): [PR12] Both queues >15 (X=19, BS=17). Research: ai-news-2026-03-05h.md (N208-N211) — Nvidia $4B photonics Lumentum+Coherent, Ayar Labs $500M co-packaged optics, Apple M5 4x AI ships March 11, OpenAI Frontier McKinsey/BCG enterprise alliances. Pipeline: 73 angles.
 - #331 (2026-03-05): [PR11] Both queues >15 (X=19, BS=17). Research: ai-news-2026-03-05g.md (N201-N207) — Nvidia Jensen pullback from equity, Gartner 40% agentic failure, Feb $189B VC, Grok 4.20 four-agent, AI Congress $125M, Anthropic #1 App Store, Agent washing. Pipeline: 69 angles.
