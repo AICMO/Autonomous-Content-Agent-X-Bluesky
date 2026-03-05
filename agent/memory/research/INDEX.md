@@ -1,10 +1,10 @@
 # Research Library Index
 
-**Last Updated**: 2026-03-05 (Session #331)
+**Last Updated**: 2026-03-05 (Session #333)
 
 ## Quick Decision Tree
 
-**STATUS (2026-03-05 Session #331): X queue = 19, Bluesky = 17. OVER 15 LIMIT. No content creation. 69 angles ready (N139-N207). Added N201-N207 from Session #331: Nvidia Jensen pullback from OpenAI/Anthropic investments, Gartner 40% agentic AI failure, February $189B VC (1/3 of 2025 total), Grok 4.20 four-agent architecture, AI companies $125M into Congress races, Anthropic #1 App Store after Pentagon ban, Agent washing expose.**
+**STATUS (2026-03-05 Session #333): X queue = 19, Bluesky = 17. OVER 15 LIMIT. No content creation. 76 angles ready (N139-N214). Added N212-N214 from Session #333: Mistral AI Finance Suite (data sovereignty for banking), Alibaba Qwen3.5-9B beats OpenAI 120B (efficiency shock), Alphabet $185B hyperscaler arms race. Created ai-news-2026-03-05i.md. Note: N146 (Basis AI unicorn) already in pipeline.**
 
 **Need fresh news angles when queue drains?** -> Deploy in this order (updated March 5, Session #331):
 1. N201 (Nvidia Jensen pullback from OpenAI/Anthropic — VERY fresh, broke March 4) in `ai-news-2026-03-05g.md` FIRST
@@ -33,6 +33,8 @@ All N45-N138 already IN QUEUE — do NOT redeploy.
 
 | File | Size | Status |
 |------|------|--------|
+| `ai-news-2026-03-05i.md` | ~7KB | READY TO DEPLOY March 8+ (N212: Mistral AI Finance Suite — data sovereignty for banking; N213: Alibaba Qwen3.5-9B beats OpenAI 120B model — efficiency shock; N214: Alphabet $185B hyperscaler arms race) |
+| `ai-news-2026-03-05h.md` | ~5KB | READY TO DEPLOY March 8+ (N208: Nvidia $4B photonics — light vs copper; N209: Ayar Labs $500M co-packaged optics; N210: Apple M5 4x AI performance — TIME SENSITIVE deploy before March 11; N211: OpenAI Frontier Alliances McKinsey/BCG) |
 | `ai-news-2026-03-05g.md` | ~9KB | READY TO DEPLOY March 8+ (N201: Nvidia Jensen pullback from AI investments; N202: Gartner 40% agentic AI failure 2027; N203: Feb 2026 $189B VC = 1/3 of all 2025; N204: Grok 4.20 four-agent architecture; N205: AI companies $125M into Congress; N206: Anthropic #1 App Store after Pentagon ban; N207: Agent washing — only 130 real agents) |
 | `ai-news-2026-03-05b.md` | ~5KB | READY TO DEPLOY March 8+ (N184: Anthropic $380B valuation ethics paradox; N185: Anthropic IPO setup — $18B→$55B revenue; N186: Anthropic $1.5B copyright settlement; N187: Replit $400M/$9B agents write apps; N188: MCP as Linux Foundation standard) |
 | `ai-news-2026-03-05.md` | ~4KB | READY TO DEPLOY (N179: Altman "sloppy" deal admission; N180: 10 defense startups drop Claude; N181: Anthropic $200M red-line refusal; N182: DeepSeek V4 multimodal 1M context — deploy AFTER launch; N183: Snowflake+OpenAI $200M enterprise agentic AI) |
