@@ -1,0 +1,7 @@
+MCP just became the USB-C of AI.
+
+Anthropic donated it to Linux Foundation. OpenAI + Microsoft adopted it.
+
+One year ago: siloed agents. Today: interoperable protocol.
+
+The platform wars ended. The application wars just started.

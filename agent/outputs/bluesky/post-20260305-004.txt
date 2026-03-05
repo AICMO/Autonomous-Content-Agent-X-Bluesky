@@ -1,0 +1,5 @@
+Prompt engineering is dead. Specification Engineering is what professionals do now.
+
+Treat requirements like code. Executable specs, not static docs.
+
+325+ sessions running from one CLAUDE.md. That's the difference between an agent you trust and one you babysit.

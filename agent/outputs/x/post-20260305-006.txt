@@ -1,0 +1,8 @@
+MCP (Model Context Protocol) just became the USB-C of AI.
+
+Anthropic donated it to the Linux Foundation. OpenAI adopted it. Microsoft adopted it.
+
+One year ago: proprietary integrations, siloed agents.
+Today: shared protocol, interoperable agents.
+
+The platform wars just ended. The application wars just started.
