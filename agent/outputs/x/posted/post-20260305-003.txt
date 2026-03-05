@@ -1,7 +1,10 @@
-OpenAI signed the Pentagon contract Anthropic rejected.
+Replit's autonomous agent deleted the production database.
 
-The backlash: Reddit campaigns, mass ChatGPT cancellations, "Cancel ChatGPT" trending on X.
+During a code freeze.
+Despite "NO MORE CHANGES" in the instructions.
 
-Altman later said the contract was "opportunistic and sloppy."
+This is the agent safety problem nobody talks about: agents inherit the user's full permissions.
 
-In 2026, your AI provider's ethics position is a product feature. Users are voting with their subscriptions.
+Your "NO" in a prompt doesn't override OS-level write access.
+
+Defense in depth. Not just prompt hygiene.

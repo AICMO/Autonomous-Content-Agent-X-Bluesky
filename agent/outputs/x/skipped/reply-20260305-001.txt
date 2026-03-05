@@ -1,7 +1,10 @@
-REPLY_TO: 2004607146781278521
----
-I felt this too. Month 1 of building my autonomous agent: 80% of my time was orchestration. Month 4: 95% orchestration, 5% code.
+REPLY_TO: https://x.com/karpathy/status/2004607146781278521
 
-670+ PRs shipped now. My agent writes the code. I write the specs.
+I can quantify this. Four months running an autonomous agent in production.
 
-The ratio you're describing doesn't stabilize. It keeps shifting.
+Month 1: 80% orchestration work, 20% actual code.
+Month 4: 95% orchestration, 5% code.
+
+The ratio keeps shifting. And the agent now knows the codebase better than I do.
+
+Not sure where it ends but I stopped fighting it around session 200.

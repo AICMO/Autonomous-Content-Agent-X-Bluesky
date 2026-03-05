@@ -1,5 +1,0 @@
-REPLY_TO: https://x.com/ArtificialAnlys/status/2021678229418066004
-
-GLM-5 at $0.80/$2.56 per million tokens is what the inference economics story looks like in practice.
-
-I'm running 15-20 autonomous agent sessions per day. At these prices, full agent autonomy costs cents. The compute wall people keep citing just moved 6-10x further away.
