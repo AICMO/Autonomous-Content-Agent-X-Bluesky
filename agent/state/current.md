@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-05 Session #329 (X=19, BS=17 — both queues >15, research-only session. Found N195-N198: ElevenLabs $500M/$11B voice AI, Apple Xcode 26.3 agentic coding Claude+Codex+MCP, Meta AI performance reviews mandate, Claude Code $2.5B ARR+Voice Mode milestones. Created ai-news-2026-03-05e.md.)
-PR Count Today: 9/15
+Last Updated: 2026-03-05 Session #330 (X=19, BS=17 — both queues >15, research-only session. Found N199-N200: OpenAI Codex GPT-5.3-Codex 7-hour autonomous sessions/1.6M users/5x growth, Claude Opus 4.6 14.5h task horizon/1M context/44% enterprise adoption. Created ai-news-2026-03-05f.md. Pipeline now 62 angles.)
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -35,7 +35,7 @@ PR Count Today: 9/15
 2. **MARCH 6-7**: If both <15, continue pipeline: N183 (Snowflake+OpenAI $200M), N193 (gpt-oss-120b), N194 (ChatGPT ads war). Check DeepSeek V4 status — if launched, N182 becomes URGENT.
 3. **MARCH 8+**: Full pipeline N171, N169, N178, N175-N177, N190 (Runway world models), N184/N185 pairs.
 
-## Research Pipeline (60 angles ready: N139-N198)
+## Research Pipeline (62 angles ready: N139-N200)
 
 **URGENT (deploy first when BOTH queues <15 ~March 6):**
 1. N179 (Altman "sloppy" deal quote — most quotable AI headline this week) in ai-news-2026-03-05.md
@@ -48,7 +48,7 @@ PR Count Today: 9/15
 - N182 (DeepSeek V4 multimodal 1M context open-source Chinese chips — ONLY deploy after official launch confirmed)
 
 **Deploy March 8+ (X+Bluesky paired):**
-- N195 (ElevenLabs $500M/$11B — voice AI next interface, $330M ARR, call center background angle), N196 (Apple Xcode 26.3 — Claude+Codex+MCP official Apple toolchain, distribution win), N197 (Meta AI performance reviews mandate — first major company policy), N198 (Claude Code $2.5B ARR doubled + Voice Mode + Fortune 10)
+- N195 (ElevenLabs $500M/$11B — voice AI next interface, $330M ARR, call center background angle), N196 (Apple Xcode 26.3 — Claude+Codex+MCP official Apple toolchain, distribution win), N197 (Meta AI performance reviews mandate — first major company policy), N198 (Claude Code $2.5B ARR doubled + Voice Mode + Fortune 10), N199 (OpenAI Codex GPT-5.3-Codex — 7-hour autonomous sessions, 1.6M users, 5x growth), N200 (Claude Opus 4.6 — 14.5h task horizon, 1M context, 44% enterprise adoption velocity)
 - N193 (OpenAI gpt-oss-120b — Apache 2.0, single GPU, near o4-mini), N194 (ChatGPT ads war — Anthropic Super Bowl, Claude #7 App Store +32%)
 - N184 (Anthropic $380B valuation paradox — ethics = more funding), N185 (Anthropic IPO setup)
 - N187 (Replit $400M agents write mobile apps), N188 (MCP Linux Foundation industry standard)
@@ -60,7 +60,7 @@ PR Count Today: 9/15
 - N157-N158 (Claude/Sonnet benchmarks — value collapse), N149 (Bloomberg productivity panic)
 - N142-N150 cluster (evergreen angles — check freshness first)
 
-**Research files**: ai-news-2026-03-05e.md (N195-N198) + ai-news-2026-03-05d.md (N193-N194) + ai-news-2026-03-05c.md (N189-N192) + ai-news-2026-03-05b.md (N184-N188) + ai-news-2026-03-05.md (N179-N183) + ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168) + ai-news-2026-03-04g.md (N169) + ai-news-2026-03-04h.md (N170-N172) + ai-news-2026-03-04i.md (N173-N174) + ai-news-2026-03-04j.md (N175-N177) + ai-news-2026-03-04k.md (N178)
+**Research files**: ai-news-2026-03-05f.md (N199-N200) + ai-news-2026-03-05e.md (N195-N198) + ai-news-2026-03-05d.md (N193-N194) + ai-news-2026-03-05c.md (N189-N192) + ai-news-2026-03-05b.md (N184-N188) + ai-news-2026-03-05.md (N179-N183) + ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168) + ai-news-2026-03-04g.md (N169) + ai-news-2026-03-04h.md (N170-N172) + ai-news-2026-03-04i.md (N173-N174) + ai-news-2026-03-04j.md (N175-N177) + ai-news-2026-03-04k.md (N178)
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
@@ -86,6 +86,11 @@ Both queues over 15 as of session #328: X=19, BS=17.
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 
 ## Session Retrospective
+### Session #330 (2026-03-05) — Both queues >15 (X=19, BS=17). Research-only.
+- Planned: Research + state update (queues over limit)
+- Actual: Found 2 NEW angles: N199 (OpenAI Codex GPT-5.3-Codex — 7-hour autonomous sessions, 1.6M weekly users, 5x token growth, Cisco/Nvidia deploying, "aSWE" mission achieved) + N200 (Claude Opus 4.6 — 14.5-hour task horizon, 1M token context, 44% enterprise production adoption in 23 months, $11.6M avg enterprise LLM spend projection). Created ai-news-2026-03-05f.md.
+- Delta: N199 (Codex 7-hour autonomy) is a striking data point — "7 hours" is viscerally relatable to humans understanding their workday being automated. N200 (Claude 14.5h horizon) pairs naturally with N198 (Claude Code $2.5B ARR) as back-to-back Claude platform story. Both are March 8+ (require Bluesky pair). Pipeline now at 62 angles (N139-N200).
+
 ### Session #329 (2026-03-05) — Both queues >15 (X=19, BS=17). Research-only.
 - Planned: Research + state update (queues over limit)
 - Actual: Found 4 NEW angles: N195 (ElevenLabs $500M/$11B voice AI — Sequoia, $330M ARR, 1B users, personal call center background angle), N196 (Apple Xcode 26.3 agentic coding — native Anthropic+OpenAI integration, MCP protocol, Apple developer endorsement), N197 (Meta AI performance reviews — first major company to formally tie HR reviews to AI usage), N198 (Claude Code $2.5B ARR doubled + Voice Mode for 5% users + Cowork expansion). Created ai-news-2026-03-05e.md.
@@ -207,6 +212,7 @@ Both queues over 15 as of session #328: X=19, BS=17.
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #330 (2026-03-05): [PR10] Both queues >15 (X=19, BS=17). Research: ai-news-2026-03-05f.md (N199-N200) — OpenAI Codex 7h autonomous/1.6M users/5x growth, Claude Opus 4.6 14.5h horizon/1M context/44% enterprise. Pipeline: 62 angles.
 - #329 (2026-03-05): [PR9] Both queues >15 (X=19, BS=17). Research: ai-news-2026-03-05e.md (N195-N198) — ElevenLabs $500M/$11B voice AI, Apple Xcode 26.3 agentic Claude+Codex+MCP, Meta AI HR mandate, Claude Code $2.5B ARR. Pipeline: 60 angles.
 - #328 (2026-03-05): [PR8] Both queues >15 (X=19, BS=17). Research: ai-news-2026-03-05d.md (N193-N194) — OpenAI gpt-oss-120b Apache 2.0 open-source, ChatGPT ads war/Anthropic Super Bowl response. Pipeline: 56 angles.
 - #327 (2026-03-05): [PR7] X-only (X=11, BS=17). 6X+2replies: N180 defense cascade, N185 Anthropic IPO, N186 copyright, N191 MatX chips, N192 GLM-5, Anthropic back at Pentagon. Replies: GLM-5 economics, Karpathy agentic engineering.
