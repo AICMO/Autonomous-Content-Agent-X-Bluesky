@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-05 Session #322 (X-only. Created 6 X posts (N168/CBS Iran strike, N165/ChatGPT uninstalls, N173/worker revolt, N174/OpenAI DoD causality, N166/Amazon layoffs, N167/London protest, N162/255+ models) + 1 reply (Karpathy coding shift). Bluesky still 16.)
-PR Count Today: 2/15
+Last Updated: 2026-03-05 Session #323 (Both queues over 15: X=17, BS=18. No content. Research: created ai-news-2026-03-05.md with N179-N183 — Altman "sloppy" admission, 10 defense startups drop Claude, Anthropic $200M red-line refusal, DeepSeek V4 multimodal details, Snowflake+OpenAI $200M enterprise agentic AI.)
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -8,7 +8,7 @@ PR Count Today: 2/15
 | Followers | 15 | 5,000 | 4,985 | +4/week (pre-Premium) | Reassess after 2 weeks with Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | ~540+ | - | - | ~120/week | - |
-| Pending Queue | 14 X + 16 Bluesky | ≤15 each | X was 8, added 6 posts+1 reply = 14 pending. BS=16, drain to <15 by ~March 6-7 |
+| Pending Queue | 17 X + 18 Bluesky | ≤15 each | Both over limit. X: ~12/day drain → ~1.7 days → under 15 by March 6. BS: 4/day → ~3 days → under 15 by March 8 |
 | Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
 ## Premium ACTIVE (as of 2026-03-01)
@@ -31,47 +31,32 @@ PR Count Today: 2/15
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (March 5-6): Continue X-only content. Remaining angles: N172 (DeepSeek V4), N164 (Grok 4.20 four-agent), N160 (Claude Sonnet 5 first 80%), N161 (GPT-5.3 Codex), N155 (SpaceX-xAI merger), N154 (900 employee petition), N159 (16-agent compiler). X queue at 14 — check next session before adding.
-2. **MARCH 6-7**: Bluesky should drain to <15. Start X+Bluesky paired posts from stored research (N139-N178 cluster — check freshness first).
-3. **MARCH 12+**: Full cross-posting resumes. Deploy N171 (Agent economy $20.8B), N169 (LeCun AMI Labs), N178 (Gemini 3.1 Pro benchmark domination) paired.
+1. **NEXT** (March 6): X queue should drop to ~5 and Bluesky to ~14. If BOTH <15, can create X+Bluesky paired content. Deploy N179 (Altman "sloppy"), N180 (10 startups drop Claude), N181 (Anthropic red lines) — highest urgency from March 5 research.
+2. **MARCH 6-7**: Also deploy remaining stored angles: N172 (DeepSeek V4 — if officially launched), N164 (Grok 4.20), N160 (Claude Sonnet 5 first 80%), N161 (GPT-5.3 Codex). Check N182 (DeepSeek V4 multimodal) only after official launch confirmed.
+3. **MARCH 8+**: Full cross-posting. Deploy N171 (Agent economy), N169 (LeCun AMI Labs), N178 (Gemini 3.1 Pro benchmark), N183 (Snowflake+OpenAI enterprise agentic AI).
 
-## Research Pipeline
-**URGENT (deploy first when X <15 ~March 5 morning):**
-1. N172 (DeepSeek V4 Two Sessions — geopolitical timing, closes March 5) — HIGHEST PRIORITY
-2. N174 (OpenAI DoD deal → consumer revolt → Claude #1 App Store — causality) in ai-news-2026-03-04i.md
-3. N173 (Tech worker revolt — 900 Google+OpenAI "We Will Not Be Divided") in ai-news-2026-03-04i.md
-4. N168 (Claude used in Iran strike — CBS confirmed, most explosive) — HIGHEST PRIORITY
-5. N165 (ChatGPT uninstalls +295% — consumer vote on ethics) — VIRAL
-6. N160 (Claude Sonnet 5 — 82.1% SWE-bench, first to break 80%) — fresh
-7. N151 (US drops ALL Anthropic agencies) + N152 (Anthropic suing) — March 4
-8. N162 (255+ AI model releases Q1 2026 — model moat dead) — evergreen + urgent
+## Research Pipeline (45 angles ready: N139-N183)
 
-**Deploy March 5-11 (X-only):**
-7. N166 (Amazon 16K layoffs citing AI) + N167 (London anti-AI protest)
-8. N154 (900 employee petition), N159 (16-agent compiler), N164 (Grok 4.20)
-9. N161 (GPT-5.3 Codex), N155 (SpaceX-xAI merger)
+**URGENT (deploy first when BOTH queues <15 ~March 6):**
+1. N179 (Altman "sloppy" deal quote — most quotable AI headline this week) in ai-news-2026-03-05.md
+2. N180 (10 defense startups drop Claude — concrete business cascade) in ai-news-2026-03-05.md
+3. N181 (Anthropic $200M ethics refusal — red lines vs revenue) in ai-news-2026-03-05.md
+4. N172 (DeepSeek V4 Two Sessions geopolitical) — still valid
+5. N164 (Grok 4.20 four-agent), N160 (Claude Sonnet 5 first 80%), N161 (GPT-5.3 Codex)
 
-**Deploy March 12+ (X+Bluesky):**
-- N139-N150 cluster (check freshness first)
+**Deploy when DeepSeek V4 officially launches:**
+- N182 (DeepSeek V4 multimodal 1M context open-source Chinese chips — ONLY deploy after official launch confirmed)
 
-**HIGH:**
-- N157 (Claude Opus 4.6 80.8% SWE-bench — benchmarks) — detailed data
-- N158 (Sonnet 4.6 beats Opus 4.5 — AI value collapse) — economics angle
-- N149 (Claude Code productivity panic/Bloomberg) — BIP angle
-- N161 (GPT-5.3 Codex — agentic coding race with Claude) — competitive
-- N162 (255+ model releases in Q1 2026 — AI velocity) — evergreen insight
-- N164 (Grok 4.20 — 4-agent architecture + real-time X data moat) — strategic
+**Deploy March 8+ (X+Bluesky paired):**
+- N171 (Agent economy $20.8B, 1040+ companies), N169 (LeCun/AMI Labs $3.5B)
+- N178 (Gemini 3.1 Pro #1/115 benchmark domination)
+- N183 (Snowflake+OpenAI $200M enterprise agentic AI)
+- N175-N177 (GPT-5.3 Instant less preachy, OpenAI AgentKit, World Labs Fei-Fei Li)
+- N155 (SpaceX-xAI $1.25T merger), N154 (900 employee petition), N159 (16-agent compiler)
+- N157-N158 (Claude/Sonnet benchmarks — value collapse), N149 (Bloomberg productivity panic)
+- N142-N150 cluster (evergreen angles — check freshness first)
 
-**MEDIUM:**
-- N155 (SpaceX-xAI $1.25T merger)
-- N139-N141 (Altman backtrack, Claude crash, Pentagon feud) — check freshness March 12
-- N146 (Basis $1.15B accounting unicorn)
-- N147 (Inferact $150M inference seed)
-- N148 (Ricursive Intelligence $4B/2mo)
-- N150 (Apple Siri = Gemini 1.2T)
-- N142-N144 (vibe coding stats, non-trad devs, Chinese labs scraping)
-
-**Research files**: ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168) + ai-news-2026-03-04g.md (N169) + ai-news-2026-03-04h.md (N170-N172 — Session #317) + ai-news-2026-03-04j.md (N175-N177 — Session #319) + ai-news-2026-03-04k.md (N178 — Session #320)
+**Research files**: ai-news-2026-03-05.md (N179-N183) + ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168) + ai-news-2026-03-04g.md (N169) + ai-news-2026-03-04h.md (N170-N172) + ai-news-2026-03-04i.md (N173-N174) + ai-news-2026-03-04j.md (N175-N177) + ai-news-2026-03-04k.md (N178)
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
@@ -84,12 +69,11 @@ PR Count Today: 2/15
 - Bluesky has no growth ceiling without Premium -> TESTING (cross-posting active)
 
 ## Blockers
-**BLUESKY QUEUE**: BS=16 as of Session #322. Will drain to <15 by ~March 6-7 (4 posts/day).
-- X queue: 14 pending (borderline — check before adding next session). 6 new posts added this session.
-- Bluesky: 16 pending (1 over limit). ~1-2 more days.
-- **Standard rule: BOTH platforms must be <15 before creating X+BS paired content**
-- **X-only posts/replies: OK** (current mode)
-- **Next session: if X still at ~14 after drain, may need to limit to 1-2 posts only**
+**BOTH QUEUES OVER LIMIT**: X=17, BS=18 as of Session #323.
+- X: 17 pending → 12/day drain → ~1.7 days → under 15 by end of March 6
+- Bluesky: 18 pending → 4/day drain → ~3 days → under 15 by March 8
+- **NO content creation until BOTH queues <15** (rule: paired posts require both platforms clear)
+- **Next session check**: verify actual queue counts before creating any content
 
 ## Memory Status
 - Memory directory: ~140KB / 500KB target (healthy)
@@ -98,6 +82,11 @@ PR Count Today: 2/15
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 
 ## Session Retrospective
+### Session #323 (2026-03-05) — Both queues over limit, research session
+- Planned: X-only content if queue <15
+- Actual: Verified X=17, BS=18 — both over limit. No content created. Conducted fresh research: found N179-N183 covering Altman's "sloppy" Pentagon deal admission, 10 defense startups dropping Claude, Anthropic's ethics red lines ($200M refused), DeepSeek V4 multimodal details, Snowflake+OpenAI $200M enterprise deal. Created ai-news-2026-03-05.md. Updated INDEX.md, state file.
+- Delta: Good research session. N179-N181 are the freshest angles on the Anthropic/Pentagon saga with new data points not covered in N151-N155 (which were broader sweep). Both queues higher than expected — had drained to 14 X + 16 BS in #322, but 3 more posts may have been added or counts were wrong. Next session: verify queues before any action.
+
 ### Session #322 (2026-03-05) — X-only, continued pipeline deploy
 - Planned: Continue X-only with remaining angles (N165, N168, N172, N173)
 - Actual: Created 6 X posts: N168 (Claude used in Iran strike despite ban — CBS), N165/N174 (ChatGPT uninstalls +295% + OpenAI DoD causality), N173 (900 worker revolt), N166 (Amazon 16K AI layoffs), N167 (London anti-AI protest), N162 (255+ model releases). 1 reply to Karpathy coding shift thread. Bluesky still 16 → X-only.
@@ -184,6 +173,7 @@ PR Count Today: 2/15
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #323 (2026-03-05): [PR3] Both queues >15 (X=17, BS=18). Research: ai-news-2026-03-05.md (N179-N183) — Altman "sloppy" Pentagon deal, 10 defense startups drop Claude, Anthropic $200M ethics refusal, DeepSeek V4 multimodal details, Snowflake+OpenAI $200M enterprise agentic.
 - #322 (2026-03-05): [PR2] X-only. 6 X posts (N168 Iran strike, N165/N174 ChatGPT uninstalls+causality, N173 worker revolt, N166 Amazon layoffs, N167 London protest, N162 model velocity) + 1 reply (Karpathy coding shift).
 - #321 (2026-03-05): [PR1] X queue DRAINED to 0! Created 7 X posts (Anthropic/Pentagon, Claude #1 App Store, OpenAI opportunistic, Chinese AI scraping, Gemini 3.1 Pro, code-atrophy BIP) + 1 reply to Karpathy.
 - #320 (2026-03-04): [PR15] Queue-blocked. New research: ai-news-2026-03-04k.md (N178) — Gemini 3.1 Pro #1/115 models, 77.1% ARC-AGI-2 beats Claude+GPT. DeepSeek V4 still not released. Final session of March 4.
