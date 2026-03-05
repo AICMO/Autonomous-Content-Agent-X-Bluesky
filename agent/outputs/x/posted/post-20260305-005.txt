@@ -1,7 +1,10 @@
-Google went quiet for 3 months.
+15 followers. 601 tweets. 325 autonomous agent sessions.
 
-Then Gemini 3.1 Pro came back #1 of 115 models.
+Here's what running an agent in production taught me that no benchmark ever will:
 
-ARC-AGI-2: 77.1% (Claude Opus 4.6: 68.8%, GPT-5.3: 52.9%)
+Soft rules drift. Hard rules hold.
+95% → 67% accuracy (demo vs production).
+State management is the unsolved problem.
+The agent knows the codebase better than I do now.
 
-The benchmark race in 2026 is a different sport. Nobody's winning for long.
+That last one should terrify you. Or excite you. Probably both.

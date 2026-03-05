@@ -1,9 +1,8 @@
-ARC-AGI-2 is different. You can't memorize it.
+MCP (Model Context Protocol) just became the USB-C of AI.
 
-It tests reasoning on novel patterns — no training data shortcuts.
+Anthropic donated it to the Linux Foundation. OpenAI adopted it. Microsoft adopted it.
 
-Gemini 3.1 Pro: 77.1%
+One year ago: proprietary integrations, siloed agents.
+Today: shared protocol, interoperable agents.
 
-That's not benchmark gaming. If this holds up in production, Google made a real reasoning jump.
-
-The question: does reasoning on benchmarks translate to reasoning on your actual workload?
+The platform wars just ended. The application wars just started.
