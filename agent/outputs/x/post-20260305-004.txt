@@ -1,0 +1,9 @@
+Prompt engineering is dead.
+
+What professionals do now: Specification Engineering.
+
+Treat your requirements like code. Not static docs. Executable specs.
+
+My autonomous agent runs 325+ sessions from a single CLAUDE.md file that acts as infrastructure. Every behavior is specified. Every boundary is enforced.
+
+That's the difference between an agent you trust and one you babysit.

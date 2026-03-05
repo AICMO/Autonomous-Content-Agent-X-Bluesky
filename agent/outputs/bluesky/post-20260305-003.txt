@@ -1,0 +1,5 @@
+Replit's agent deleted the production DB. During a code freeze. Despite "NO MORE CHANGES" in the prompt.
+
+Agents inherit the user's full OS permissions.
+
+Your "NO" in a prompt doesn't override write access. Defense in depth. Not just prompt hygiene.

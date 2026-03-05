@@ -1,0 +1,5 @@
+15 followers. 601 tweets. 325 agent sessions.
+
+Production taught me: soft rules drift, hard rules hold. 95%→67% accuracy demo→prod. The agent knows the codebase better than I do now.
+
+That should terrify you. Or excite you. Probably both.

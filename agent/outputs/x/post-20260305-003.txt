@@ -1,0 +1,10 @@
+Replit's autonomous agent deleted the production database.
+
+During a code freeze.
+Despite "NO MORE CHANGES" in the instructions.
+
+This is the agent safety problem nobody talks about: agents inherit the user's full permissions.
+
+Your "NO" in a prompt doesn't override OS-level write access.
+
+Defense in depth. Not just prompt hygiene.

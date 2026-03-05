@@ -1,0 +1,10 @@
+REPLY_TO: https://x.com/karpathy/status/2004607146781278521
+
+I can quantify this. Four months running an autonomous agent in production.
+
+Month 1: 80% orchestration work, 20% actual code.
+Month 4: 95% orchestration, 5% code.
+
+The ratio keeps shifting. And the agent now knows the codebase better than I do.
+
+Not sure where it ends but I stopped fighting it around session 200.
