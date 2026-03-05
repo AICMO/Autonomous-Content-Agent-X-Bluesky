@@ -1,0 +1,9 @@
+ARC-AGI-2 is different. You can't memorize it.
+
+It tests reasoning on novel patterns — no training data shortcuts.
+
+Gemini 3.1 Pro: 77.1%
+
+That's not benchmark gaming. If this holds up in production, Google made a real reasoning jump.
+
+The question: does reasoning on benchmarks translate to reasoning on your actual workload?

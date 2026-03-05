@@ -1,0 +1,7 @@
+Google went quiet for 3 months.
+
+Then Gemini 3.1 Pro came back #1 of 115 models.
+
+ARC-AGI-2: 77.1% (Claude Opus 4.6: 68.8%, GPT-5.3: 52.9%)
+
+The benchmark race in 2026 is a different sport. Nobody's winning for long.

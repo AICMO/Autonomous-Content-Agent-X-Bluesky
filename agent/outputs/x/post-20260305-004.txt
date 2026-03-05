@@ -1,0 +1,7 @@
+Chinese AI labs created 24,000 fake accounts to scrape Claude.
+
+Not for chat. For agentic reasoning, tool use, and coding patterns.
+
+That's what they wanted. Not the answers — the reasoning architecture.
+
+The real IP in AI 2026 isn't the weights. It's the agent behavior.

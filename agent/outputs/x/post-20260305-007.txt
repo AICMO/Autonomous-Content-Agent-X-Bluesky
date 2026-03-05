@@ -1,0 +1,9 @@
+My code skills are atrophying.
+
+15+ years as an infrastructure architect. Now I write maybe 5% of the code my agent ships.
+
+Session #321. 670+ PRs. The agent orchestrates. I specify.
+
+Karpathy called it: the valuable skill is knowing WHAT to build. Not typing the code.
+
+I used to think that was cope. Now I think it's just true.
