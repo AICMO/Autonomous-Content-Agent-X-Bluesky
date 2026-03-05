@@ -1,0 +1,7 @@
+REPLY_TO: 2015883857489522876
+
+From 80% manual coding to 80% agent coding in a few weeks — saw this same shift.
+
+Building my autonomous agent: Session 1 was mostly me writing code. Session 100 I was writing specs. Session 322: 670+ PRs shipped, I review outputs.
+
+The ratio doesn't stabilize. It keeps shifting toward the agent.
