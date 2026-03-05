@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-05 Session #321 (X queue drained to 0! Created 7 X posts + 1 reply. Anthropic/Pentagon/Claude #1 App Store angles + Gemini 3.1 Pro benchmark dominance + Karpathy reply. Bluesky still 16 — X-only session.)
-PR Count Today: 1/15
+Last Updated: 2026-03-05 Session #322 (X-only. Created 6 X posts (N168/CBS Iran strike, N165/ChatGPT uninstalls, N173/worker revolt, N174/OpenAI DoD causality, N166/Amazon layoffs, N167/London protest, N162/255+ models) + 1 reply (Karpathy coding shift). Bluesky still 16.)
+PR Count Today: 2/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -8,7 +8,7 @@ PR Count Today: 1/15
 | Followers | 15 | 5,000 | 4,985 | +4/week (pre-Premium) | Reassess after 2 weeks with Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | ~540+ | - | - | ~120/week | - |
-| Pending Queue | 7 X + 16 Bluesky | ≤15 each | X CLEAR (0→7 new posts added this session). BS=16, drain to <15 by ~March 6-7 |
+| Pending Queue | 14 X + 16 Bluesky | ≤15 each | X was 8, added 6 posts+1 reply = 14 pending. BS=16, drain to <15 by ~March 6-7 |
 | Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
 ## Premium ACTIVE (as of 2026-03-01)
@@ -31,7 +31,7 @@ PR Count Today: 1/15
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (March 5-6): X-only content continuing. Deploy N172 (DeepSeek V4 Two Sessions), N168 (CBS Iran strike), N165 (ChatGPT uninstalls +295%), N173 (tech worker revolt). Deploy stored research angles.
+1. **NEXT** (March 5-6): Continue X-only content. Remaining angles: N172 (DeepSeek V4), N164 (Grok 4.20 four-agent), N160 (Claude Sonnet 5 first 80%), N161 (GPT-5.3 Codex), N155 (SpaceX-xAI merger), N154 (900 employee petition), N159 (16-agent compiler). X queue at 14 — check next session before adding.
 2. **MARCH 6-7**: Bluesky should drain to <15. Start X+Bluesky paired posts from stored research (N139-N178 cluster — check freshness first).
 3. **MARCH 12+**: Full cross-posting resumes. Deploy N171 (Agent economy $20.8B), N169 (LeCun AMI Labs), N178 (Gemini 3.1 Pro benchmark domination) paired.
 
@@ -84,11 +84,12 @@ PR Count Today: 1/15
 - Bluesky has no growth ceiling without Premium -> TESTING (cross-posting active)
 
 ## Blockers
-**BLUESKY QUEUE**: BS=16 as of Session #321. Will drain to <15 by ~March 6-7 (4 posts/day).
-- X queue: CLEAR. 7 new posts added this session.
+**BLUESKY QUEUE**: BS=16 as of Session #322. Will drain to <15 by ~March 6-7 (4 posts/day).
+- X queue: 14 pending (borderline — check before adding next session). 6 new posts added this session.
 - Bluesky: 16 pending (1 over limit). ~1-2 more days.
 - **Standard rule: BOTH platforms must be <15 before creating X+BS paired content**
 - **X-only posts/replies: OK** (current mode)
+- **Next session: if X still at ~14 after drain, may need to limit to 1-2 posts only**
 
 ## Memory Status
 - Memory directory: ~140KB / 500KB target (healthy)
@@ -97,6 +98,11 @@ PR Count Today: 1/15
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 
 ## Session Retrospective
+### Session #322 (2026-03-05) — X-only, continued pipeline deploy
+- Planned: Continue X-only with remaining angles (N165, N168, N172, N173)
+- Actual: Created 6 X posts: N168 (Claude used in Iran strike despite ban — CBS), N165/N174 (ChatGPT uninstalls +295% + OpenAI DoD causality), N173 (900 worker revolt), N166 (Amazon 16K AI layoffs), N167 (London anti-AI protest), N162 (255+ model releases). 1 reply to Karpathy coding shift thread. Bluesky still 16 → X-only.
+- Delta: Good. Major story angles now in queue: Iran strike (N168), consumer backlash (N165, N174), worker revolt (N173), layoffs (N166). X now at 14 pending. N172 (DeepSeek V4) still not deployed — check status next session.
+
 ### Session #321 (2026-03-05) — X QUEUE CLEAR! First content session after long queue drought.
 - Planned: Deploy stored research angles once X<15
 - Actual: X queue was 0 (fully drained overnight). Created 7 X posts: Anthropic/Pentagon/$19B revenue run rate, Claude #1 App Store, OpenAI "opportunistic" contract, Chinese AI scraping Claude, Gemini 3.1 Pro benchmark domination (ARC-AGI-2), BIP/code-atrophy personal angle. 1 reply to Karpathy "programmer anxiety" post (3.6M views — highest value target in reply-targets.md). Bluesky still 16, so X-only.
@@ -178,6 +184,7 @@ PR Count Today: 1/15
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #322 (2026-03-05): [PR2] X-only. 6 X posts (N168 Iran strike, N165/N174 ChatGPT uninstalls+causality, N173 worker revolt, N166 Amazon layoffs, N167 London protest, N162 model velocity) + 1 reply (Karpathy coding shift).
 - #321 (2026-03-05): [PR1] X queue DRAINED to 0! Created 7 X posts (Anthropic/Pentagon, Claude #1 App Store, OpenAI opportunistic, Chinese AI scraping, Gemini 3.1 Pro, code-atrophy BIP) + 1 reply to Karpathy.
 - #320 (2026-03-04): [PR15] Queue-blocked. New research: ai-news-2026-03-04k.md (N178) — Gemini 3.1 Pro #1/115 models, 77.1% ARC-AGI-2 beats Claude+GPT. DeepSeek V4 still not released. Final session of March 4.
 - #319 (2026-03-04): [PR14] Queue-blocked. New research: ai-news-2026-03-04j.md (N175-N177) — GPT-5.3 Instant less preachy, OpenAI AgentKit developer platform, World Labs $1B Fei-Fei Li spatial AI.
