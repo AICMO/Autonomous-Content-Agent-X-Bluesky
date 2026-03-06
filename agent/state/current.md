@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-05 Session #335 (X=19, BS=17 — both queues >15, research-only session. Found N217-N221: Broadcom $8.4B Q1 AI rev/$100B+ 2027 target, Neura Robotics $1.2B/Tether-backed humanoid, Feb 2026 $189B VC record (verify N203 overlap), Apple Siri/Gemini 1.2T params (verify N189 overlap), London largest anti-AI protest + AI court citation scandal. Created ai-news-2026-03-05k.md. Pipeline now 82 angles (N139-N221).)
-PR Count Today: 15/15
+Last Updated: 2026-03-06 Session #336 (X=0 CLEARED, BS=11. Content session: 6 X posts + 6 BS posts + 1 reply. Topics: Anthropic market share surge, IBM market cap loss, $189B VC concentration, OpenAI Symphony, AI code security gap, call center AI journey. X queue now 6, BS queue 17.)
+PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -8,7 +8,7 @@ PR Count Today: 15/15
 | Followers | 15 | 5,000 | 4,985 | +4/week (pre-Premium) | Reassess after 2 weeks with Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | ~540+ | - | - | ~120/week | - |
-| Pending Queue | 19 X + 17 BS (post-session) | ≤15 each | Both slightly over 15. X drains to <15 by March 6 AM. BS drains ~1 more day. |
+| Pending Queue | 6 X + 17 BS (post-session) | ≤15 each | X clear and refilled. BS still high (~17), draining at 4/day. |
 | Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
 ## Premium ACTIVE (as of 2026-03-01)
@@ -31,9 +31,9 @@ PR Count Today: 15/15
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (March 6 morning): Verify both queues. X likely ~7-10, BS ~13-15. If X<15 and BS≥15, X-only replies only. If BOTH <15, deploy N201 (Nvidia Jensen pullback) + N217 (Broadcom $100B) as companion pair + paired BS.
-2. **MARCH 6-7**: Continue N179 (Altman "sloppy"), N181 (Anthropic $200M refusal), N206 (Anthropic #1 App Store). Check DeepSeek V4 status — if launched, N182 URGENT.
-3. **MARCH 8+**: Full pipeline — N203/N219 cluster ($189B VC), N202 (Gartner 40%), N215+N218 (physical AI capital wave), N195-N200 cluster, N221 (London protest+court).
+1. **NEXT** (March 6 next session): X queue ~6 (refilled). BS queue ~17 (still draining). X-only content only until BS drops below 15. Focus on replies + research. Deploy N201 (Nvidia Jensen pullback) + N181 (Anthropic $200M refusal) in X-only if X<15.
+2. **MARCH 7-8**: Once BS<15, paired X+BS content. Deploy N201-N207 cluster (Nvidia Jensen, Gartner 40%, $189B VC, Grok 4.20, Anthropic App Store). Check DeepSeek V4 status.
+3. **MARCH 8+**: Full pipeline — N195-N200 cluster (ElevenLabs, Apple Xcode, Meta mandate, Claude Code ARR, Codex 7h, Claude Opus 4.6), N215+N218 (physical AI capital), N221 (London protest+court).
 
 ## Research Pipeline (82 angles ready: N139-N221)
 
@@ -239,6 +239,7 @@ Both queues over 15 as of session #328: X=19, BS=17.
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #336 (2026-03-06): [PR1] X=0 cleared, BS=11. 6X+6BS+1reply: Anthropic market share surge (4%→20%), IBM -13% market cap, $189B VC concentration, OpenAI Symphony multi-agent, AI code security gap 2.74x, call center AI 7-year journey. Reply: Karpathy agentic shift.
 - #335 (2026-03-05): [PR15] Both queues >15 (X=19, BS=17). Research: ai-news-2026-03-05k.md (N217-N221) — Broadcom $100B AI chips/$8.4B Q1, Neura Robotics $1.2B/Tether, Feb $189B VC record, Apple/Siri/Gemini, London anti-AI protest+court scandal. Pipeline: 82 angles.
 - #334 (2026-03-05): [PR14] Both queues >15 (X=19, BS=17). Research: ai-news-2026-03-05j.md (N215-N216) — Skild AI $1.4B/$14B physical AI robot brain, OpenEvidence $250M/$12B ChatGPT-for-doctors 40% US physicians. Pipeline: 78 angles.
 - #332 (2026-03-05): [PR12] Both queues >15 (X=19, BS=17). Research: ai-news-2026-03-05h.md (N208-N211) — Nvidia $4B photonics Lumentum+Coherent, Ayar Labs $500M co-packaged optics, Apple M5 4x AI ships March 11, OpenAI Frontier McKinsey/BCG enterprise alliances. Pipeline: 73 angles.

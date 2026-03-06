@@ -1,0 +1,9 @@
+92% of US developers use AI coding tools daily.
+41% of all global code is now AI-generated.
+87% of Fortune 500 companies have adopted vibe coding platforms.
+
+And yet: AI co-authored code has 2.74x more security vulnerabilities.
+
+We shipped the productivity. We didn't ship the security review layer.
+
+That gap is going to cost someone a lot of money.

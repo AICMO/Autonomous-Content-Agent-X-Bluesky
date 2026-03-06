@@ -1,0 +1,6 @@
+92% of devs use AI coding tools daily.
+41% of all code is AI-generated.
+
+But AI co-authored code has 2.74x more security vulnerabilities.
+
+We shipped productivity. We didn't ship the security review layer. That gap will cost someone.

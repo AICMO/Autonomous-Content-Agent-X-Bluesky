@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/karpathy/status/1886192184808149102
+
+Same. My shift: stopped writing code, started reviewing agent PRs.
+
+Running an autonomous agent that's created 697 PRs without me touching the keyboard. Still feels surreal to approve commits I didn't write.
+
+The skill isn't coding anymore. It's knowing what to let run and what to catch.
