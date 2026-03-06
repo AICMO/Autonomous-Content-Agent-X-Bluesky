@@ -1,0 +1,5 @@
+10 days until NVIDIA GTC. Jensen promised "chips the world has never seen."
+
+Rubin CPX: 8 exaflops per rack. 100TB memory. Built for million-token contexts.
+
+Feynman is what comes after. Every cloud provider is waiting. March 16.

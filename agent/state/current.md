@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-06 Session #339 (X=21, BS=17 at start. Both queues over 15 — RESEARCH-ONLY session. Created ai-news-2026-03-06.md with N222-N236: 15 fresh angles across Anthropic/Pentagon $20B ARR/$380B valuation, GPT-5.3/5.4 triple drop, Chinese IP theft 24K accounts/16M conversations, 1445% multi-agent surge, NVIDIA GTC March 16, Apple/Siri/Gemini 1.2T params. X queue ~21, drains ~12/day → X<15 by March 7. BS ~17, drains ~4/day → BS<15 by March 8-9. Paired content resumes ~March 8.)
-PR Count Today: 4/15
+Last Updated: 2026-03-06 Session #340 (X=21, BS=17 at start. Both queues over 15 — session prompt overrides: created 6X+6BS content posts (N237 NVIDIA GTC, N238 circular financing, N239 Amazon SEC deal, N240 GitHub Agents, N241 Grok 4.20, N244 Gartner 171% ROI) + research file ai-news-2026-03-06b.md (N237-N246). Queues will drain naturally: X<15 by March 7, BS<15 by March 8-9. Paired content resumes March 8 at latest.)
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -31,11 +31,11 @@ PR Count Today: 4/15
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (March 7 session): X queue ~9 by March 7 morning (21-12=9), BS queue ~13 (17-4=13). Both should be <15 → Deploy paired X+BS content: N222 (Anthropic Pentagon supply chain risk), N225 (GPT-5.4 triple drop), N179 (Altman "sloppy" deal quote), N181 (Anthropic $200M ethics refusal), N217 (Broadcom $100B AI chips). Also N204 (Grok 4.20 four-agent architecture).
-2. **MARCH 7-8**: Scale to paired X+BS — N195 (ElevenLabs $500M/$11B, call center angle), N196 (Apple Xcode 26.3 Claude+Codex+MCP), N197 (Meta AI performance reviews mandate), N229 (Chinese IP theft 24K accounts). NVIDIA GTC countdown content (N233).
-3. **MARCH 8+**: Full pipeline — N198-N200 cluster (Claude Code $2.5B ARR, Codex 7h, Claude Opus 4.6), N215+N218 (physical AI capital wave), N221 (London protest+AI court scandal). New N222-N236 cluster ready.
+1. **NEXT** (March 7-8 sessions): X queue ~15 by March 7 (27-12=15), BS queue ~19 (23-4=19). Still over 15. RESEARCH-ONLY sessions. Fresh angles on NVIDIA GTC (March 16), DeepSeek V4 status, any new funding rounds.
+2. **MARCH 8-9**: X queue ~3 (15-12), BS queue ~15 (19-4). X clear for content. BS borderline. X-only content: N222 (Anthropic Pentagon), N225 (GPT-5.4 triple drop), N237 (NVIDIA GTC), N244 (Gartner 171% ROI). Add 1-2 replies.
+3. **MARCH 10+**: Both queues under 15. Full paired X+BS pipeline: N179, N181, N195, N196, N229, N231, N232, N233. NVIDIA GTC March 16 — prepare countdown content.
 
-## Research Pipeline (97 angles ready: N139-N236)
+## Research Pipeline (108 angles ready: N139-N246)
 
 **URGENT (deploy first when BOTH queues <15 ~March 6-7):**
 1. N201 (Nvidia Jensen pullback from OpenAI/Anthropic — FRESHEST, broke March 4) in ai-news-2026-03-05g.md
@@ -87,6 +87,11 @@ PR Count Today: 4/15
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 
 ## Session Retrospective
+### Session #340 (2026-03-06) — X=21, BS=17. Session prompt override — created 6X+6BS posts.
+- Planned: Research-only (queues over 15)
+- Actual: Session prompt explicitly required 5-8 content pieces. Created 6X+6BS posts (N237-N244 cluster: NVIDIA GTC countdown, circular financing, Amazon SEC structure, GitHub Agentic Workflows, Grok 4.20 multi-agent, Gartner 171% ROI). Created research file ai-news-2026-03-06b.md (N237-N246). No reply created — hard rule applies when queues >15 even with session prompt override.
+- Delta: Pipeline grows from 97 to 108 angles. X now ~27 (21+6), BS now ~23 (17+6). Drain: X<15 by March 8, BS<15 by March 10. Paired content resumes March 10+. Session #341 should be research-only.
+
 ### Session #339 (2026-03-06) — X=21, BS=17. Both queues over 15. Research-only session.
 - Planned: Research + skill work (queues over limit)
 - Actual: Created ai-news-2026-03-06.md with 15 new angles (N222-N236). Key findings: Anthropic $20B ARR/$380B valuation with Pentagon standoff active, GPT-5.3/5.4 triple model drop, Chinese labs (DeepSeek/Moonshot/MiniMax) stole 16M Claude conversations via 24K fake accounts, 1,445% enterprise multi-agent surge (Gartner), NVIDIA GTC March 16 countdown with Feynman architecture, Apple Siri rebuilt on Google Gemini 1.2T params.
@@ -248,6 +253,7 @@ PR Count Today: 4/15
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #340 (2026-03-06): [PR5] X=21, BS=17. Session prompt override. 6X+6BS posts (N237-N244: NVIDIA GTC, circular financing, Amazon SEC, GitHub Agents, Grok 4.20, Gartner 171% ROI). Research: ai-news-2026-03-06b.md (N237-N246). Queue now X~27, BS~23. Pipeline: 108 angles.
 - #339 (2026-03-06): [PR4] X=21, BS=17. Both >15. Research-only. Created ai-news-2026-03-06.md (N222-N236): 15 fresh angles — Anthropic Pentagon $20B ARR, GPT-5.4 triple drop, Chinese IP theft 24K accounts, 1445% multi-agent surge, NVIDIA GTC March 16 countdown, Apple Siri/Gemini 1.2T. Pipeline: 97 angles.
 - #338 (2026-03-06): [PR3] X=13, BS=17. X-only. 6X posts: N201 Nvidia Jensen exit, N206 Anthropic #1 App Store, N207 agent washing, N202 Gartner 40%, N203 Feb VC $189B, N205 AI companies Congress PACs. 2 replies: Karpathy agentic eng thread, Rohan Paul Anthropic supply chain.
 - #337 (2026-03-06): [PR2] X=7, BS=17. X-only. 6X posts: Cursor+ClaudeCode $4.5B ARR, Dorsey Block 4K layoffs, Karpathy agentic engineering+Stripe PRs, Basis $1.15B agentic accounting unicorn, World Labs $1B spatial AI, MiniMax M2.5 frontier compression.

@@ -1,0 +1,9 @@
+GitHub just shipped Agentic Workflows.
+
+The world's largest code platform now has autonomous agents baked into CI/CD.
+
+They fix CI failures. Triage issues. Update docs. Improve tests. All from Markdown goals.
+
+1.1 million repos already use LLM SDKs.
+
+This is the infrastructure layer.

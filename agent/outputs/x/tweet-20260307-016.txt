@@ -1,0 +1,11 @@
+Grok 4.20 Beta 2 doesn't just use agents.
+
+It IS a multi-agent system. Every query gets four specialized sub-agents collaborating at inference time.
+
+Trained on Colossus: 200,000 GPUs.
+
+Current ranking: #1 on LMArena at 1,483 Elo.
+
+And they just cut agent API pricing 50%.
+
+xAI is shipping fast.

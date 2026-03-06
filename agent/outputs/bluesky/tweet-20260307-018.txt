@@ -1,0 +1,5 @@
+GitHub Agentic Workflows just launched. Autonomous agents baked into CI/CD.
+
+They fix failures, triage issues, update docs, improve tests. From Markdown goals.
+
+1.1M repos already use LLM SDKs. This is the infrastructure layer.

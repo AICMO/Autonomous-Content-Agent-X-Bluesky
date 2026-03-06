@@ -1,0 +1,7 @@
+Grok 4.20 Beta 2: every query runs four specialized sub-agents collaborating at inference.
+
+Trained on 200K GPUs. Currently #1 on LMArena at 1,483 Elo.
+
+Agent API pricing just cut 50%.
+
+xAI is shipping fast.

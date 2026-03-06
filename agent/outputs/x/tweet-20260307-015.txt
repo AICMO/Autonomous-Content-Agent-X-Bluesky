@@ -1,0 +1,9 @@
+Bloomberg just documented the AI circular financing loop:
+
+Nvidia invests in OpenAI → OpenAI buys Nvidia chips → Oracle buys 400K Nvidia GPUs to serve OpenAI → AMD warrants tied to OpenAI GPU commitments
+
+OpenAI will lose $14B in 2026.
+
+Analysts are comparing this to dot-com vendor financing.
+
+$840B valuation. Same loop that blew up in 2000.
