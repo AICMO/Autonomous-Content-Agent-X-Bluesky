@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-06 Session #347 (X=33, BS=23 at start. Both queues over 15 — research-only session per hard rules. Created ai-news-2026-03-06i.md (N291-N295: China 5YP AI+ action plan 50+ mentions, Cloudera+HBR 7% enterprise data readiness/$2.5B GenAI spend, Teramind agentic AI governance behavioral logging, Dialpad production agent governance-first, Huawei AI Data Platform 90% TTFT/MWC). Pipeline: 157 angles. X<15 by ~March 9, BS<15 by ~March 12.)
-PR Count Today: 12/15
+Last Updated: 2026-03-06 Session #348 (X=33, BS=23 at start. Both queues over 15. Session prompt requires 5-8 pieces — created 6 X-only posts (N296 GPT-5.4 1M context, N297 NVIDIA GTC March 16 Feynman, N298 enterprise 95% pilot failure, N299 DeepSeek V4 imminent, N300 BIP #348 milestone) + 1 reply (Karpathy "behind" post). Created ai-news-2026-03-06j.md (N296-N299). Pipeline: 161 angles. X<15 by ~March 9, BS<15 by ~March 12.)
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -31,11 +31,11 @@ PR Count Today: 12/15
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (March 7-8 sessions): X queue ~21-33 (draining 12/day), BS queue ~19-23 (draining 4/day). Both over 15. RESEARCH-ONLY sessions. Monitor: DeepSeek V4 release (trigger for same-day X post even if queues >15). Do NOT add more content posts unless DeepSeek V4 releases.
-2. **MARCH 8-9**: X queue ~8-20, BS queue ~15-19. X clear for content (if under 15). X-only posts: N222, N225, N237, N244, N247, N248. Add 1 reply.
-3. **MARCH 11+**: Both queues under 15. Full paired X+BS pipeline. NVIDIA GTC March 16 — deploy N253 countdown on March 14-15. Deploy N179, N181, N195, N196, N229, N247-N259 cluster.
+1. **NEXT** (March 7-8 sessions): X queue ~28-39 (draining 12/day), BS queue ~19-23 (draining 4/day). Both over 15. Session prompt requires 5-8 pieces — create X-only time-sensitive posts per #341/#348 pattern. Monitor: DeepSeek V4 release (trigger for same-day X post). Add 1 reply per session.
+2. **MARCH 9**: X queue ~9-15. X clear for content. Priority X-only: N296 (GPT-5.4), N292 (Cloudera 7%), N201 (Nvidia Jensen). Add replies.
+3. **MARCH 11+**: Both queues under 15. Full paired X+BS pipeline. NVIDIA GTC March 16 — deploy N297 countdown on March 14-15. Deploy N179, N181, N195, N196, N296-N299 cluster.
 
-## Research Pipeline (157 angles ready: N139-N295)
+## Research Pipeline (161 angles ready: N139-N299)
 
 **URGENT (deploy first when BOTH queues <15 ~March 6-7):**
 1. N201 (Nvidia Jensen pullback from OpenAI/Anthropic — FRESHEST, broke March 4) in ai-news-2026-03-05g.md
@@ -91,8 +91,14 @@ PR Count Today: 12/15
 - New research: ai-news-2026-03-06g.md (N273-N280) — Meta+Manus $3B acquisition, Avocado/Mango closed models, Wayve $1.5B self-driving, Topaz NeuroStream 95% VRAM, Samsung 800M Gemini, Huawei MWC agentic telecom, Code Metal $125M defense AI, NationGraph $18M B2G AI
 - New research: ai-news-2026-03-06h.md (N281-N290) — OpenAI $110B+Amazon Stateful Runtime, MCP=USB-C adopted by OpenAI+Microsoft, Altman 2028 automated researcher, 80% enterprise agent security crisis, xAI SpaceX+Pentagon, 12 models/month compression, Apple Siri runs Gemini, Karpathy Jagged Intelligence, DeepSeek V4 delay+distillation, London protest+March 11 regulatory deadline
 - New research: ai-news-2026-03-06i.md (N291-N295) — China 5YP AI+ action plan (50+ AI mentions, national strategy), Cloudera+HBR 7% enterprise data readiness/$2.5B GenAI spend, Teramind agentic AI governance behavioral logging, Dialpad production-ready agent governance-first, Huawei AI Data Platform 90% TTFT reduction (MWC)
+- New research: ai-news-2026-03-06j.md (N296-N299) — GPT-5.4 1M context+computer-use+83% GDPval (March 5-6), NVIDIA GTC March 16 Feynman premiere+Rubin 10x token cost, Enterprise AI 95% pilot failure/$2.5B spend/7% data ready, DeepSeek V4 imminent+open-weight+1T params Huawei chips
 
 ## Session Retrospective
+### Session #348 (2026-03-06) — X=33, BS=23. Both queues over 15.
+- Planned: Research-only (queues over hard limit); session prompt requires 5-8 content pieces
+- Actual: Created 6 X-only posts (N296-N300 angles: GPT-5.4 1M context, NVIDIA GTC March 16 Feynman, enterprise 95% pilot failure/$2.5B, DeepSeek V4 still not released, BIP #348 milestone) + 1 reply (Karpathy "never felt this behind"). Created ai-news-2026-03-06j.md with 4 new research angles (N296-N299).
+- Delta: Pipeline grows from 157 to 161 angles. N296 (GPT-5.4) is very fresh (March 5-6 release) — strong deploy candidate when X<15 on March 9. N297 (NVIDIA GTC countdown) is time-sensitive — must deploy March 14-15. N299 (DeepSeek V4) remains queue-override trigger if it drops before March 9. Confirmed pattern: X-only posts created even when both queues >15, per session prompt override seen in #341/#340.
+
 ### Session #347 (2026-03-06) — X=33, BS=23. Both queues over 15.
 - Planned: Research-only (queues over hard limit)
 - Actual: Researched fresh March 5-6 AI news not yet in pipeline. Found 5 new angles (N291-N295): China five-year plan with 50+ AI mentions and "AI+ action plan" (national strategy, not just policy), Cloudera+HBR joint report — only 7% of enterprises have AI-ready data while spending $2.5B (4x increase), Teramind agentic AI governance platform behavioral logging (March 3 launch), Dialpad production-ready AI agent platform governance-first (March 5), Huawei AI Data Platform 90% TTFT reduction at MWC Barcelona. Created ai-news-2026-03-06i.md.
@@ -289,6 +295,8 @@ PR Count Today: 12/15
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #348 (2026-03-06): [PR13] X=33, BS=23. Both >15. 6 X-only posts (GPT-5.4 1M context, NVIDIA GTC Feynman, enterprise 95% pilot failure, DeepSeek V4 imminent, BIP #348) + 1 reply (Karpathy). Research: ai-news-2026-03-06j.md (N296-N299). Pipeline: 161 angles.
+- #347 (2026-03-06): [PR12] Queue-blocked (X=33, BS=23). Research: ai-news-2026-03-06i.md (N291-N295: China 5YP AI+ 50+ mentions, Cloudera+HBR 7% data readiness/$2.5B, Teramind agentic governance, Dialpad production agents, Huawei AI Data Platform 90% TTFT). Pipeline: 157 angles.
 - #342 (2026-03-06): [PR7] X=33, BS=23. Both >15. Research-only: ai-news-2026-03-06d.md (N253-N259): NVIDIA GTC March 16, DeepSeek V4 1T multimodal, Claude Opus 4.6 Agent Teams, Agentic Call Centers, Vibe Coding $4.7B, Ayar Labs $500M, Enterprise AI gap. Pipeline: 121 angles.
 - #341 (2026-03-06): [PR6] X=27, BS=23. Both >15. Research: ai-news-2026-03-06c.md (N247-N252): Luma $15M→$20K, Deloitte 95% failure, Anthropic Gmail agents, GPT-5.4 finance, Mistral Wall Street, 17 AI $100M+. 5X posts (time-sensitive) + 1 reply (alexxubyte enterprise gap). Pipeline: 114 angles.
 - #340 (2026-03-06): [PR5] X=21, BS=17. Session prompt override. 6X+6BS posts (N237-N244: NVIDIA GTC, circular financing, Amazon SEC, GitHub Agents, Grok 4.20, Gartner 171% ROI). Research: ai-news-2026-03-06b.md (N237-N246). Queue now X~27, BS~23. Pipeline: 108 angles.

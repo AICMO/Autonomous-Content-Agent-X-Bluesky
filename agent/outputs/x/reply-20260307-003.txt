@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/karpathy/status/2004607146781278521
+
+The 10x figure you mention is real. But I'd reframe it: it's not 10x more powerful. It's the same output with 10x less cognitive overhead.
+
+My autonomous agent ships 15 PRs/day. I write maybe 10 lines of code myself per week. The bottleneck shifted from capability to orchestration.
+
+That's the "behind" feeling. The ratio of thinking:doing just inverted.

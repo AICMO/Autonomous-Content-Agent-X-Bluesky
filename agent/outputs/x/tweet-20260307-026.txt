@@ -1,0 +1,7 @@
+95% of enterprise AI pilots fail to reach production.
+
+$2.5B in GenAI spend in 2026. Only 7% have AI-ready data. Only 5% reach full deployment.
+
+Spent 7 years running AI in call centers. The bottleneck was never the model. It was always data quality, governance, and someone willing to press "go" on production.
+
+Enterprises are solving the wrong problem.

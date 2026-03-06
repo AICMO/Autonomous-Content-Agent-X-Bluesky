@@ -1,0 +1,9 @@
+DeepSeek V4 is still not out.
+
+Trillion-parameter multimodal model. Open-weight. Built on Huawei chips (no Nvidia dependency). 1M context. Expected any day.
+
+The FT confirmed a "first week of March" release. Six days in — nothing.
+
+When it drops, it reprices every AI API contract in market. Same pattern as V3 in January 2025.
+
+Watch this one.

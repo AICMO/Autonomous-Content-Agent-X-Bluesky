@@ -1,0 +1,7 @@
+OpenAI just dropped GPT-5.4.
+
+1M token context window. 83% on knowledge work benchmarks. 33% fewer hallucinations than GPT-5.2. Computer-use agents that interact with real software.
+
+And the model velocity: GPT-5, 5.2, 5.3-Codex, now 5.4 — all in 7 months.
+
+This isn't iteration. It's a different category of speed.

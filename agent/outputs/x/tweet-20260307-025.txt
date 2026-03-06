@@ -1,0 +1,7 @@
+NVIDIA GTC is March 16. Jensen Huang promised chips "the world has never seen before."
+
+Rubin is already in full production — 10x cheaper tokens than Blackwell, 5x faster, zero fans/cables, 5-minute install vs 2 hours.
+
+And Feynman — the next gen after Rubin — gets its first reveal.
+
+If you build AI products, this is the supply chain event of the year.
