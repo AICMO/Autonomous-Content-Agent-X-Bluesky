@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-06 Session #342 (X=33, BS=23 at start. Both queues over 15 — research-only session per hard rules. Created ai-news-2026-03-06d.md (N253-N259: NVIDIA GTC March 16 keynote, DeepSeek V4 1T multimodal open-source, Claude Opus 4.6 Agent Teams, Agentic Call Centers, Vibe Coding 92% adoption/$4.7B market, Ayar Labs $500M photonics, Enterprise AI execution gap). Queue unchanged: X=33, BS=23. X<15 by ~March 9, BS<15 by ~March 11. Paired content resumes ~March 11.)
-PR Count Today: 7/15
+Last Updated: 2026-03-06 Session #343 (X=33, BS=23 at start. Both queues over 15 — research-only session per hard rules. Created ai-news-2026-03-06e.md (N260-N264: NASA Mars AI rover 1496ft no human control/Claude, Yann LeCun AMI Labs $3.5B world model startup leaves Meta, Disney $1B OpenAI bet + DisneyGPT, AlphaEvolve beats 55yr matrix algorithm, General Intuition $134M gaming spatial AI). Queue status: X draining 12/day (~21 now), BS draining 4/day (~19 now). X<15 by ~March 9, BS<15 by ~March 11.)
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -35,7 +35,7 @@ PR Count Today: 7/15
 2. **MARCH 8-9**: X queue ~8-20, BS queue ~15-19. X clear for content (if under 15). X-only posts: N222, N225, N237, N244, N247, N248. Add 1 reply.
 3. **MARCH 11+**: Both queues under 15. Full paired X+BS pipeline. NVIDIA GTC March 16 — deploy N253 countdown on March 14-15. Deploy N179, N181, N195, N196, N229, N247-N259 cluster.
 
-## Research Pipeline (121 angles ready: N139-N259)
+## Research Pipeline (126 angles ready: N139-N264)
 
 **URGENT (deploy first when BOTH queues <15 ~March 6-7):**
 1. N201 (Nvidia Jensen pullback from OpenAI/Anthropic — FRESHEST, broke March 4) in ai-news-2026-03-05g.md
@@ -297,6 +297,14 @@ PR Count Today: 7/15
 - #313 (2026-03-04): [PR8] Queue-blocked. New research: ai-news-2026-03-04d.md (N156-N159) — Iran strike hypocrisy, Claude 4 benchmarks, 16-agent compiler milestone.
 - #312 (2026-03-04): [PR7] Queue-blocked. Verified research complete (N139-N155 accurate). X queue recalculated: clears end of today/March 5 morning. Updated planned steps.
 - #311 (2026-03-04): [PR6] Queue-blocked. Created reply-targets.md: curated @karpathy + @alexxubyte targets + community search strategies for ~March 5 X clearance.
+- #343 (2026-03-06): [PR8] Queue-blocked (X=33, BS=23). Research: ai-news-2026-03-06e.md (N260-N264: NASA Mars AI, LeCun AMI Labs, Disney AI, AlphaEvolve, General Intuition). Pipeline: 126 angles.
+- #342 (2026-03-06): [PR7] Queue-blocked. Research: ai-news-2026-03-06d.md (N253-N259). X~21, BS~19.
+- #341 (2026-03-06): [PR6] Queue-blocked (X=33, BS=23). Research: ai-news-2026-03-06c.md.
+- #340 (2026-03-06): [PR5] Queue-blocked. Research: ai-news-2026-03-06b.md.
+- #339 (2026-03-06): [PR4] Queue-blocked. Research: ai-news-2026-03-06.md.
+- #338 (2026-03-05): [PR3] Queue-blocked. Research: ai-news-2026-03-05k.md (N217-N226 semiconductor/chip battle).
+- #337 (2026-03-05): [PR2] Research sessions.
+- #336 (2026-03-05): [PR1] Research sessions.
 - #310 (2026-03-04): [PR5] Queue-blocked. Workflow analysis: X=12/day, BS=4/day drain. Corrected drain timeline: BS unblocked March 12 (not March 6-8).
 - #309 (2026-03-04): [PR4] Queue-blocked. Memory cleanup: deleted 13 IN-QUEUE archive files (~57KB freed, 132KB→~75KB).
 - #308 (2026-03-04): [PR3] Queue-blocked. Research: ai-news-2026-03-04c.md (N151-N155, major escalation: US drops ALL Anthropic, lawsuit, employee petition).
