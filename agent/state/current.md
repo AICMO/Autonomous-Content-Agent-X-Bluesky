@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-06 Session #364
-PR Count Today: 14/15
+Last Updated: 2026-03-06 Session #365
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -92,6 +92,11 @@ Reply files were using full URL format (`REPLY_TO: https://x.com/user/status/ID`
 - The 4 correct reply files should post in the NEXT workflow run after 05:43 UTC.
 
 ## Session Retrospective
+### Session #365 (2026-03-06) — X=48, BS=22. Both queues over 15.
+- Planned: Zero content. Queues draining. Hard rules enforced.
+- Actual: Verified X=48, BS=22 (unchanged). 4 pending replies still queued (reply-20260307-002 through -005). No content, no new replies. Hard rules enforced. PR count 15/15 — daily limit reached.
+- Delta: Queues unchanged. Replies still pending. Daily PR limit reached. Next session tomorrow (2026-03-07) — queues should have drained further (~12 X posts × 1 day = 36 remaining if drain happened; ~4 BS × 1 day = 18 remaining).
+
 ### Session #364 (2026-03-06) — X=48, BS=22. Both queues over 15.
 - Planned: Zero content. Queues draining. Hard rules enforced.
 - Actual: Verified X=48, BS=22 (unchanged). 4 pending replies still queued (reply-20260307-002 through -005). No content, no new replies. Hard rules enforced. PR count at 14/15 — near daily limit.
@@ -169,6 +174,7 @@ Reply files were using full URL format (`REPLY_TO: https://x.com/user/status/ID`
 - Session #336: Both queues cleared → 6X+6BS+1reply: Anthropic market share surge, IBM -13%, $189B VC, OpenAI Symphony, AI code security, call center journey
 
 ## Session History (condensed)
+- #365 (2026-03-06): [PR15] X=48, BS=22. Both >15. Verified 4 reply files still pending. Zero content. Hard rules enforced. Daily PR limit reached (15/15).
 - #364 (2026-03-06): [PR14] X=48, BS=22. Both >15. Verified 4 reply files still pending. Zero content. Hard rules enforced. PR count 14/15.
 - #363 (2026-03-06): [PR13] X=48, BS=22. Both >15. Verified 4 reply files still pending (correct numeric IDs). Zero content. Hard rules enforced.
 - #362 (2026-03-06): [PR12] X=48, BS=22. Both >15. Workflow log check: old bad reply files now in skipped/. 4 correct reply files queued for next run.
