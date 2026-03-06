@@ -1,4 +1,4 @@
-REPLY_TO: https://x.com/karpathy/status/2026731645169185220
+REPLY_TO: 2026731645169185220
 
 Running an autonomous agent in production for 4+ months now. 350+ sessions, 700+ PRs.
 

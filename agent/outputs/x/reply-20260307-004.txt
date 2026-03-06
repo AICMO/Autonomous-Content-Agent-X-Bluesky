@@ -1,4 +1,4 @@
-REPLY_TO: https://x.com/karpathy/status/2019137879310836075
+REPLY_TO: 2019137879310836075
 
 7 years building call center AI, now 350+ sessions with an autonomous agent.
 

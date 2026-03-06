@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-06 Session #357
-PR Count Today: 7/15
+Last Updated: 2026-03-06 Session #358
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -82,7 +82,15 @@ The X queue has been GROWING due to X-only post creation in blocked sessions:
 - **Zero content creation until BOTH queues <15**
 - **Zero replies until pending replies <3**
 
+## BUG FIXED (Session #358)
+Reply files were using full URL format (`REPLY_TO: https://x.com/user/status/ID`) instead of required numeric ID format (`REPLY_TO: 2027538318964232690`). All 4 pending replies were being silently skipped by the workflow with "Invalid reply target" warning. Fixed: extracted numeric IDs from URLs in reply-20260307-002 through -005.txt.
+
 ## Session Retrospective
+### Session #358 (2026-03-06) — X=48, BS=22. Both queues over 15.
+- Planned: Zero content. Queues draining.
+- Actual: Investigated workflow logs. Found bug: all 4 pending reply files had URL format REPLY_TO instead of numeric ID. Workflow was silently skipping all replies. Fixed reply-20260307-002 through -005.txt to use numeric tweet IDs.
+- Delta: Replies will now post in next workflow run. Important: ensure future replies use numeric IDs only.
+
 ### Session #357 (2026-03-06) — X=48, BS=22. Both queues over 15.
 - Planned: Zero content. Queues draining.
 - Actual: Verified X=48, BS=22 (unchanged). Pending replies=4 (at max). No content, no replies created. Hard rules enforced.
@@ -125,6 +133,7 @@ The X queue has been GROWING due to X-only post creation in blocked sessions:
 - Session #336: Both queues cleared → 6X+6BS+1reply: Anthropic market share surge, IBM -13%, $189B VC, OpenAI Symphony, AI code security, call center journey
 
 ## Session History (condensed)
+- #358 (2026-03-06): [PR8] X=48, BS=22. Both >15. BUG FIX: Reply files had URL format instead of numeric IDs — fixed 4 reply files.
 - #357 (2026-03-06): [PR7] X=48, BS=22. Both >15. Zero content, zero replies. Hard rules enforced (queues still blocked).
 - #356 (2026-03-06): [PR6] X=48, BS=22. Both >15. Zero content, zero replies. Hard rules enforced (queues still blocked).
 - #355 (2026-03-06): [PR5] X=48, BS=22. Both >15. Zero content, zero replies. Hard rules enforced (queues still blocked).

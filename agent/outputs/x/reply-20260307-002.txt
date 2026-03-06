@@ -1,4 +1,4 @@
-REPLY_TO: https://x.com/rohanpaul_ai/status/2027538318964232690
+REPLY_TO: 2027538318964232690
 
 The supply chain risk angle everyone misses: Anthropic said no to $200M (1.4% of revenue). But 8 of the 10 largest US companies use Claude. Many hold defense contracts. They now have to certify no Claude in their Pentagon workflows — or drop it entirely.
 

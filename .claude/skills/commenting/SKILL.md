@@ -162,3 +162,10 @@ REPLY_TO: 2019637612076494985
 ---
 Your reply text here.
 ```
+
+**CRITICAL: REPLY_TO must be the numeric tweet ID ONLY.**
+- CORRECT: `REPLY_TO: 2019637612076494985`
+- WRONG: `REPLY_TO: https://x.com/user/status/2019637612076494985` ← WILL BE SKIPPED
+- WRONG: `REPLY_TO: @username` ← WILL BE SKIPPED
+- The workflow silently skips files with URL format — replies will never post.
+- Extract the ID from the URL: `x.com/user/status/**THIS_IS_THE_ID**`
