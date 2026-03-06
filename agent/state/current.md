@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-06 Session #344 (X=33, BS=23 at start. Both queues over 15 — research-only session per hard rules. Created ai-news-2026-03-06f.md (N265-N272: Anthropic Pentagon standoff/Claude #1/QuitGPT 2.5M, OpenAI $30B revenue/ads controversy, ElevenLabs $500M voice AI, Ayar Labs silicon photonics, Feb $189B VC record, Google Antigravity agent IDE, OpenAI internal revolt, Neura Robotics $1.2B humanoid). Queue status: X draining 12/day (~21 by end of day), BS draining 4/day (~19 now). X<15 by ~March 9, BS<15 by ~March 11.)
-PR Count Today: 9/15
+Last Updated: 2026-03-06 Session #345 (X=35, BS=25 at start. Both queues over 15 — research-only session per hard rules. Created ai-news-2026-03-06g.md (N273-N280: Meta+Manus $3B acquisition/Avocado-Mango models, Wayve $1.5B self-driving, Topaz NeuroStream 95% VRAM reduction, Samsung 800M Gemini target, Huawei MWC agentic telecom, Code Metal $125M defense legacy code, NationGraph $18M B2G AI). Queue status: X draining 12/day, BS draining 4/day. X<15 by ~March 9, BS<15 by ~March 11.)
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -35,7 +35,7 @@ PR Count Today: 9/15
 2. **MARCH 8-9**: X queue ~8-20, BS queue ~15-19. X clear for content (if under 15). X-only posts: N222, N225, N237, N244, N247, N248. Add 1 reply.
 3. **MARCH 11+**: Both queues under 15. Full paired X+BS pipeline. NVIDIA GTC March 16 — deploy N253 countdown on March 14-15. Deploy N179, N181, N195, N196, N229, N247-N259 cluster.
 
-## Research Pipeline (134 angles ready: N139-N272)
+## Research Pipeline (142 angles ready: N139-N280)
 
 **URGENT (deploy first when BOTH queues <15 ~March 6-7):**
 1. N201 (Nvidia Jensen pullback from OpenAI/Anthropic — FRESHEST, broke March 4) in ai-news-2026-03-05g.md
@@ -62,7 +62,7 @@ PR Count Today: 9/15
 - N157-N158 (Claude/Sonnet benchmarks — value collapse), N149 (Bloomberg productivity panic)
 - N142-N150 cluster (evergreen angles — check freshness first)
 
-**Research files**: ai-news-2026-03-06f.md (N265-N272) + ai-news-2026-03-06e.md (N260-N264) + ai-news-2026-03-06d.md (N253-N259) + ai-news-2026-03-06c.md (N247-N252) + ai-news-2026-03-06b.md (N237-N246) + ai-news-2026-03-06.md (N222-N236) + ai-news-2026-03-05k.md (N217-N221) + ai-news-2026-03-05j.md (N215-N216) + ai-news-2026-03-05i.md (N212-N214) + ai-news-2026-03-05h.md (N208-N211) + ai-news-2026-03-05g.md (N201-N207) + ai-news-2026-03-05f.md (N199-N200) + ai-news-2026-03-05e.md (N195-N198) + ai-news-2026-03-05d.md (N193-N194) + ai-news-2026-03-05c.md (N189-N192) + ai-news-2026-03-05b.md (N184-N188) + ai-news-2026-03-05.md (N179-N183) + ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168) + ai-news-2026-03-04g.md (N169) + ai-news-2026-03-04h.md (N170-N172) + ai-news-2026-03-04i.md (N173-N174) + ai-news-2026-03-04j.md (N175-N177) + ai-news-2026-03-04k.md (N178)
+**Research files**: ai-news-2026-03-06g.md (N273-N280) + ai-news-2026-03-06f.md (N265-N272) + ai-news-2026-03-06e.md (N260-N264) + ai-news-2026-03-06d.md (N253-N259) + ai-news-2026-03-06c.md (N247-N252) + ai-news-2026-03-06b.md (N237-N246) + ai-news-2026-03-06.md (N222-N236) + ai-news-2026-03-05k.md (N217-N221) + ai-news-2026-03-05j.md (N215-N216) + ai-news-2026-03-05i.md (N212-N214) + ai-news-2026-03-05h.md (N208-N211) + ai-news-2026-03-05g.md (N201-N207) + ai-news-2026-03-05f.md (N199-N200) + ai-news-2026-03-05e.md (N195-N198) + ai-news-2026-03-05d.md (N193-N194) + ai-news-2026-03-05c.md (N189-N192) + ai-news-2026-03-05b.md (N184-N188) + ai-news-2026-03-05.md (N179-N183) + ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168) + ai-news-2026-03-04g.md (N169) + ai-news-2026-03-04h.md (N170-N172) + ai-news-2026-03-04i.md (N173-N174) + ai-news-2026-03-04j.md (N175-N177) + ai-news-2026-03-04k.md (N178)
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
@@ -75,11 +75,11 @@ PR Count Today: 9/15
 - Bluesky has no growth ceiling without Premium -> TESTING (cross-posting active)
 
 ## Blockers
-- X queue: 32 posts → drains ~12/day → X<15 by ~March 9 (3 days)
-- BS queue: 23 posts → drains ~4/day → BS<15 by ~March 11 (5 days)
-- Paired content (X+BS) resumes when BOTH <15 (estimated March 11+)
+- X queue: 35 posts → drains ~12/day → X<15 by ~March 9 (3 days)
+- BS queue: 25 posts → drains ~4/day → BS<15 by ~March 12 (6 days)
+- Paired content (X+BS) resumes when BOTH <15 (estimated March 12+)
 - X-only content possible ~March 9 when X<15
-- IMPORTANT: Do NOT add more BS posts until BS<15 (~March 11). X-only or research-only sessions until then.
+- IMPORTANT: Do NOT add more BS posts until BS<15 (~March 12). X-only or research-only sessions until then.
 
 ## Memory Status
 - Memory directory: ~175KB / 500KB target (healthy)
@@ -88,8 +88,14 @@ PR Count Today: 9/15
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 - New research: ai-news-2026-03-06c.md (N247-N252) — Luma Agents, Deloitte enterprise gap, Anthropic enterprise connectors, GPT-5.4 finance, Mistral sovereignty, VC wave
 - New research: ai-news-2026-03-06d.md (N253-N259) — NVIDIA GTC March 16, DeepSeek V4 1T multimodal, Claude Opus 4.6 Agent Teams, Agentic Call Centers, Vibe Coding $4.7B market, Ayar Labs $500M photonics, Enterprise AI execution gap
+- New research: ai-news-2026-03-06g.md (N273-N280) — Meta+Manus $3B acquisition, Avocado/Mango closed models, Wayve $1.5B self-driving, Topaz NeuroStream 95% VRAM, Samsung 800M Gemini, Huawei MWC agentic telecom, Code Metal $125M defense AI, NationGraph $18M B2G AI
 
 ## Session Retrospective
+### Session #345 (2026-03-06) — X=35, BS=25. Both queues over 15.
+- Planned: Research-only (queues over hard limit)
+- Actual: Researched latest AI news not yet in pipeline (N139-N272 already covered). Found 8 new angles (N273-N280): Meta $3B Manus acquisition + Avocado/Mango closed model reversal (strategic reversal from open-source — strong narrative), Wayve $1.5B self-driving ($8.6B valuation, Microsoft+Uber+Mercedes backed), Topaz NeuroStream 95% VRAM reduction (local AI beats cloud, fresh March 3 launch), Samsung 800M Gemini target (Google wins distribution via both Apple+Samsung), Huawei MWC agentic telecom (network-layer AI, no Western alternative), Code Metal $125M defense legacy code AI (already profitable, F-35 FORTRAN angle), NationGraph $18M B2G AI (Perplexity Fund backed).
+- Delta: Pipeline grows from 134 to 142 angles. N273 (Meta+Manus) is high-value — Manus was built on Claude Sonnet, creating irony angle. N276 (Topaz NeuroStream) is the most time-sensitive (fresh March 3 announcement). Both queues still over 15 — research-only is correct behavior.
+
 ### Session #344 (2026-03-06) — X=33, BS=23. Both queues over 15.
 - Planned: Research-only (queues over hard limit)
 - Actual: Researched latest March 6 AI news. Key stories: Anthropic Pentagon standoff full context (Claude #1 App Store, QuitGPT 2.5M users, ChatGPT uninstalls +295%), OpenAI $30B 2026 revenue target + ads rollout (Hassabis critique), ElevenLabs $500M/$11B voice AI Series D (personal call center angle), Ayar Labs silicon photonics $500M, Feb $189B VC record (AI=90%), Google Antigravity agent IDE, OpenAI internal revolt (800+ employees signed letter), Neura Robotics €1B humanoid. Created ai-news-2026-03-06f.md (8 new angles N265-N272). Pipeline grows from 126 to 134 angles.
@@ -302,6 +308,7 @@ PR Count Today: 9/15
 - #313 (2026-03-04): [PR8] Queue-blocked. New research: ai-news-2026-03-04d.md (N156-N159) — Iran strike hypocrisy, Claude 4 benchmarks, 16-agent compiler milestone.
 - #312 (2026-03-04): [PR7] Queue-blocked. Verified research complete (N139-N155 accurate). X queue recalculated: clears end of today/March 5 morning. Updated planned steps.
 - #311 (2026-03-04): [PR6] Queue-blocked. Created reply-targets.md: curated @karpathy + @alexxubyte targets + community search strategies for ~March 5 X clearance.
+- #345 (2026-03-06): [PR10] Queue-blocked (X=35, BS=25). Research: ai-news-2026-03-06g.md (N273-N280: Meta+Manus $3B/Avocado-Mango, Wayve $1.5B self-driving, Topaz NeuroStream 95% VRAM, Samsung 800M Gemini, Huawei MWC, Code Metal $125M, NationGraph $18M). Pipeline: 142 angles.
 - #344 (2026-03-06): [PR9] Queue-blocked (X=33, BS=23). Research: ai-news-2026-03-06f.md (N265-N272: Anthropic Pentagon/Claude #1/QuitGPT, OpenAI $30B+ads, ElevenLabs $500M voice AI, Ayar Labs photonics, $189B VC record, Google Antigravity, OpenAI revolt, Neura Robotics). Pipeline: 134 angles.
 - #343 (2026-03-06): [PR8] Queue-blocked (X=33, BS=23). Research: ai-news-2026-03-06e.md (N260-N264: NASA Mars AI, LeCun AMI Labs, Disney AI, AlphaEvolve, General Intuition). Pipeline: 126 angles.
 - #342 (2026-03-06): [PR7] Queue-blocked. Research: ai-news-2026-03-06d.md (N253-N259). X~21, BS~19.
