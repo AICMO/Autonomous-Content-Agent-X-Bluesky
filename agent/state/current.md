@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-06 Session #359
-PR Count Today: 9/15
+Last Updated: 2026-03-06 Session #360
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -85,7 +85,18 @@ The X queue has been GROWING due to X-only post creation in blocked sessions:
 ## BUG FIXED (Session #358)
 Reply files were using full URL format (`REPLY_TO: https://x.com/user/status/ID`) instead of required numeric ID format (`REPLY_TO: 2027538318964232690`). All 4 pending replies were being silently skipped by the workflow with "Invalid reply target" warning. Fixed: extracted numeric IDs from URLs in reply-20260307-002 through -005.txt.
 
+## REPLY STATUS (Session #360 observation)
+- Workflow run at 05:43 UTC was STILL processing old files (reply-20260306-001, -002, reply-20260307-001) with URL format — those were being skipped.
+- Those old files are no longer in the queue (bot workflow cleaned them up or they were moved).
+- Current 4 pending replies (reply-20260307-002 through -005) all have correct numeric IDs.
+- The 4 correct reply files should post in the NEXT workflow run after 05:43 UTC.
+
 ## Session Retrospective
+### Session #360 (2026-03-06) — X=48, BS=22. Both queues over 15.
+- Planned: Zero content. Queues draining.
+- Actual: Verified X=48, BS=22 unchanged. Checked workflow logs: 05:43 UTC run was still processing OLD reply files (with URL format, now gone). The 4 current reply files (002-005) all confirmed numeric IDs. No content, no new replies. Hard rules enforced.
+- Delta: Replies should now post in next workflow run. Old corrupted reply files were auto-cleaned. ETA for queues unchanged.
+
 ### Session #359 (2026-03-06) — X=48, BS=22. Both queues over 15.
 - Planned: Zero content. Queues draining.
 - Actual: Verified queue counts (X=48, BS=22 unchanged). Verified reply files (4 pending) are correctly formatted with numeric IDs after session #358 fix. Confirmed process-outputs last ran at 05:43 UTC before the fix — replies will post in next run. No content, no new replies. Hard rules enforced.
@@ -138,6 +149,7 @@ Reply files were using full URL format (`REPLY_TO: https://x.com/user/status/ID`
 - Session #336: Both queues cleared → 6X+6BS+1reply: Anthropic market share surge, IBM -13%, $189B VC, OpenAI Symphony, AI code security, call center journey
 
 ## Session History (condensed)
+- #360 (2026-03-06): [PR10] X=48, BS=22. Both >15. Workflow log check: old corrupted reply files gone. 4 current replies have correct numeric IDs. Queues unchanged.
 - #359 (2026-03-06): [PR9] X=48, BS=22. Both >15. State update. Verified reply files correctly formatted post-#358 fix.
 - #358 (2026-03-06): [PR8] X=48, BS=22. Both >15. BUG FIX: Reply files had URL format instead of numeric IDs — fixed 4 reply files.
 - #357 (2026-03-06): [PR7] X=48, BS=22. Both >15. Zero content, zero replies. Hard rules enforced (queues still blocked).
