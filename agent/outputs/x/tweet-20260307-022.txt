@@ -1,0 +1,7 @@
+Wall Street AI race: now 3-way.
+
+OpenAI: ChatGPT in Excel + FactSet + Moody's integrations.
+Anthropic: enterprise agents with Gmail and DocuSign connectors.
+Mistral: model stays on YOUR servers. Data never leaves your firm.
+
+Finance is the most regulated industry in the world. Mistral's pitch is the one compliance approves.

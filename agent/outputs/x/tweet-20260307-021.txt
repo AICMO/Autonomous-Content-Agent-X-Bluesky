@@ -1,0 +1,9 @@
+OpenAI just dropped GPT-5.4 with ChatGPT directly in Excel.
+
+Integrated with FactSet, MSCI, and Moody's.
+
+Anthropic launched Claude for Financial Services in July 2025.
+
+OpenAI came for those exact customers five months later. With spreadsheet-native AI.
+
+Finance is the battleground now.

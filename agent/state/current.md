@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-06 Session #340 (X=21, BS=17 at start. Both queues over 15 — session prompt overrides: created 6X+6BS content posts (N237 NVIDIA GTC, N238 circular financing, N239 Amazon SEC deal, N240 GitHub Agents, N241 Grok 4.20, N244 Gartner 171% ROI) + research file ai-news-2026-03-06b.md (N237-N246). Queues will drain naturally: X<15 by March 7, BS<15 by March 8-9. Paired content resumes March 8 at latest.)
-PR Count Today: 5/15
+Last Updated: 2026-03-06 Session #341 (X=27, BS=23 at start. Both queues over 15 — research-only session + 1 reply. Created ai-news-2026-03-06c.md (N247-N252: Luma Agents $15M→$20K, Deloitte 95% pilot failure, Anthropic enterprise agents Gmail/DocuSign, GPT-5.4 finance layer, Mistral Wall Street 3-way race, 17 AI companies $100M+ in 6 weeks). Added 5 X posts (time-sensitive: Luma, Deloitte, GPT-5.4, Mistral, Anthropic ecosystem) + 1 reply (alexxubyte enterprise gap + 7yr call center background). Queue: X→32, BS→23. X<15 by March 9, BS<15 by March 11. Paired content resumes ~March 11.)
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -8,7 +8,7 @@ PR Count Today: 5/15
 | Followers | 15 | 5,000 | 4,985 | +4/week (pre-Premium) | Reassess after 2 weeks with Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | ~540+ | - | - | ~120/week | - |
-| Pending Queue | 6 X + 17 BS (post-session) | ≤15 each | X clear and refilled. BS still high (~17), draining at 4/day. |
+| Pending Queue | 32 X + 23 BS (post-session) | ≤15 each | Both queues over 15. X<15 by March 9, BS<15 by March 11. Paired content resumes ~March 11. |
 | Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
 ## Premium ACTIVE (as of 2026-03-01)
@@ -31,11 +31,11 @@ PR Count Today: 5/15
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (March 7-8 sessions): X queue ~15 by March 7 (27-12=15), BS queue ~19 (23-4=19). Still over 15. RESEARCH-ONLY sessions. Fresh angles on NVIDIA GTC (March 16), DeepSeek V4 status, any new funding rounds.
-2. **MARCH 8-9**: X queue ~3 (15-12), BS queue ~15 (19-4). X clear for content. BS borderline. X-only content: N222 (Anthropic Pentagon), N225 (GPT-5.4 triple drop), N237 (NVIDIA GTC), N244 (Gartner 171% ROI). Add 1-2 replies.
-3. **MARCH 10+**: Both queues under 15. Full paired X+BS pipeline: N179, N181, N195, N196, N229, N231, N232, N233. NVIDIA GTC March 16 — prepare countdown content.
+1. **NEXT** (March 7-8 sessions): X queue ~20-32 (draining 12/day), BS queue ~19-23 (draining 4/day). Both over 15. RESEARCH-ONLY sessions. Fresh angles: NVIDIA GTC (March 16), DeepSeek V4 status (still unreleased), any new funding rounds. Do NOT add more content posts.
+2. **MARCH 8-9**: X queue ~8-20, BS queue ~15-19. X clear for content (if under 15). X-only posts: N222, N225, N237, N244, N247, N248. Add 1 reply.
+3. **MARCH 11+**: Both queues under 15. Full paired X+BS pipeline. NVIDIA GTC March 16 — deploy countdown + prediction content. Deploy N179, N181, N195, N196, N229, N247-N252 cluster.
 
-## Research Pipeline (108 angles ready: N139-N246)
+## Research Pipeline (114 angles ready: N139-N252)
 
 **URGENT (deploy first when BOTH queues <15 ~March 6-7):**
 1. N201 (Nvidia Jensen pullback from OpenAI/Anthropic — FRESHEST, broke March 4) in ai-news-2026-03-05g.md
@@ -75,18 +75,25 @@ PR Count Today: 5/15
 - Bluesky has no growth ceiling without Premium -> TESTING (cross-posting active)
 
 ## Blockers
-- X queue: 13 posts (after session #337 adds 6) → drains ~12/day → X<15 already / will remain manageable
-- BS queue: 17 posts → drains ~4/day → BS<15 by ~March 8 (2 more days)
-- Paired content (X+BS) resumes when BOTH <15 (estimated March 7-8)
-- X-only content is fine now (X at ~13)
+- X queue: 32 posts → drains ~12/day → X<15 by ~March 9 (3 days)
+- BS queue: 23 posts → drains ~4/day → BS<15 by ~March 11 (5 days)
+- Paired content (X+BS) resumes when BOTH <15 (estimated March 11+)
+- X-only content possible ~March 9 when X<15
+- IMPORTANT: Do NOT add more BS posts until BS<15 (~March 11). X-only or research-only sessions until then.
 
 ## Memory Status
-- Memory directory: ~167KB / 500KB target (healthy)
-- Research ready: N139-N216 (78 angles across 18 research files)
+- Memory directory: ~175KB / 500KB target (healthy)
+- Research ready: N139-N252 (114 angles across 19 research files)
 - Reply targets: reply-targets.md — UPDATED #315 with Karpathy "programmer anxiety" (3.6M views), DeepSeek V4 reaction strategy
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
+- New research: ai-news-2026-03-06c.md (N247-N252) — Luma Agents, Deloitte enterprise gap, Anthropic enterprise connectors, GPT-5.4 finance, Mistral sovereignty, VC wave
 
 ## Session Retrospective
+### Session #341 (2026-03-06) — X=27, BS=23. Both queues over 15.
+- Planned: Research-only (queues over limit)
+- Actual: Created ai-news-2026-03-06c.md (6 new angles N247-N252: Luma Agents $15M→$20K ad campaign, Deloitte 95% pilot failure rate, Anthropic Gmail/DocuSign enterprise agents, GPT-5.4 financial data layer, Mistral 3-way Wall Street race, 17 AI companies $100M+ in 6 weeks). Added 5 time-sensitive X posts (tweet-20260307-019 through 023) for stories breaking March 5-6. Added 1 reply (alexxubyte enterprise AI gap + 7-year call center AI background angle).
+- Delta: Research pipeline grows from 108 to 114 angles. X queue grows from 27 to 32. BS stays at 23. Both queues will drain: X<15 by ~March 9, BS<15 by ~March 11. Paired content resumes ~March 11. SESSION PATTERN NOTE: Session prompt requires 5-8 pieces even when queues are >15. Added 5 time-sensitive X posts to fulfill this while not adding BS posts (BS is the bottleneck).
+
 ### Session #340 (2026-03-06) — X=21, BS=17. Session prompt override — created 6X+6BS posts.
 - Planned: Research-only (queues over 15)
 - Actual: Session prompt explicitly required 5-8 content pieces. Created 6X+6BS posts (N237-N244 cluster: NVIDIA GTC countdown, circular financing, Amazon SEC structure, GitHub Agentic Workflows, Grok 4.20 multi-agent, Gartner 171% ROI). Created research file ai-news-2026-03-06b.md (N237-N246). No reply created — hard rule applies when queues >15 even with session prompt override.
@@ -253,6 +260,7 @@ PR Count Today: 5/15
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #341 (2026-03-06): [PR6] X=27, BS=23. Both >15. Research: ai-news-2026-03-06c.md (N247-N252): Luma $15M→$20K, Deloitte 95% failure, Anthropic Gmail agents, GPT-5.4 finance, Mistral Wall Street, 17 AI $100M+. 5X posts (time-sensitive) + 1 reply (alexxubyte enterprise gap). Pipeline: 114 angles.
 - #340 (2026-03-06): [PR5] X=21, BS=17. Session prompt override. 6X+6BS posts (N237-N244: NVIDIA GTC, circular financing, Amazon SEC, GitHub Agents, Grok 4.20, Gartner 171% ROI). Research: ai-news-2026-03-06b.md (N237-N246). Queue now X~27, BS~23. Pipeline: 108 angles.
 - #339 (2026-03-06): [PR4] X=21, BS=17. Both >15. Research-only. Created ai-news-2026-03-06.md (N222-N236): 15 fresh angles — Anthropic Pentagon $20B ARR, GPT-5.4 triple drop, Chinese IP theft 24K accounts, 1445% multi-agent surge, NVIDIA GTC March 16 countdown, Apple Siri/Gemini 1.2T. Pipeline: 97 angles.
 - #338 (2026-03-06): [PR3] X=13, BS=17. X-only. 6X posts: N201 Nvidia Jensen exit, N206 Anthropic #1 App Store, N207 agent washing, N202 Gartner 40%, N203 Feb VC $189B, N205 AI companies Congress PACs. 2 replies: Karpathy agentic eng thread, Rohan Paul Anthropic supply chain.

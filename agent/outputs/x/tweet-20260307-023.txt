@@ -1,0 +1,7 @@
+Anthropic just launched enterprise agents with Gmail, DocuSign, and Clay connectors.
+
+And they made Agent Skills an open standard. Skills that work across any AI platform.
+
+This isn't a model release.
+
+It's a bet that if you build the standard, you own the runtime. Microsoft did this with Office. Salesforce did it with AppExchange.

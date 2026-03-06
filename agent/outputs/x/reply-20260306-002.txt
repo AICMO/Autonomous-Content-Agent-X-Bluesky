@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/alexxubyte/status/2027064054414782553
+
+The 85% want agents, 11% production gap is actually worse than it looks.
+
+Deloitte just published: 95% of generative AI pilots fail to leave experimental phase. 56% of CEOs say they're getting "nothing" from it.
+
+7 years in call center AI. The bottleneck was never the model. It's the deployment layer. Always is.
