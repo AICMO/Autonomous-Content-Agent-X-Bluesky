@@ -1,10 +1,10 @@
 # Research Library Index
 
-**Last Updated**: 2026-03-05 (Session #333)
+**Last Updated**: 2026-03-06 (Session #351)
 
 ## Quick Decision Tree
 
-**STATUS (2026-03-05 Session #333): X queue = 19, Bluesky = 17. OVER 15 LIMIT. No content creation. 76 angles ready (N139-N214). Added N212-N214 from Session #333: Mistral AI Finance Suite (data sovereignty for banking), Alibaba Qwen3.5-9B beats OpenAI 120B (efficiency shock), Alphabet $185B hyperscaler arms race. Created ai-news-2026-03-05i.md. Note: N146 (Basis AI unicorn) already in pipeline.**
+**STATUS (2026-03-06 Session #351): X queue = 47, Bluesky = 23. BOTH OVER 15 LIMIT. No content creation. 172 angles ready (N139-N310). Added N305-N310 from Session #351: GPT-5.3 Instant 26.8% hallucination reduction, Claude Code 29M daily installs (ChatGPT moment), OpenAI admits prompt injection structural risk, Nvidia GTC March 16 Feynman chip (TIME SENSITIVE: deploy March 14-15), Google MCP managed servers + Gemini shopping agent, Call center AI 80% auto-resolution by 2029. Created ai-news-2026-03-06l.md.**
 
 **Need fresh news angles when queue drains?** -> Deploy in this order (updated March 5, Session #331):
 1. N201 (Nvidia Jensen pullback from OpenAI/Anthropic — VERY fresh, broke March 4) in `ai-news-2026-03-05g.md` FIRST
@@ -33,6 +33,7 @@ All N45-N138 already IN QUEUE — do NOT redeploy.
 
 | File | Size | Status |
 |------|------|--------|
+| `ai-news-2026-03-06l.md` | ~7KB | READY TO DEPLOY March 10+ (N305: GPT-5.3 26.8% hallucination; N306: Claude Code 29M installs; N307: Prompt injection structural risk; N308: GTC Feynman chip — TIME SENSITIVE March 14-15; N309: Google MCP managed servers; N310: Call center AI 80% by 2029) |
 | `ai-news-2026-03-05i.md` | ~7KB | READY TO DEPLOY March 8+ (N212: Mistral AI Finance Suite — data sovereignty for banking; N213: Alibaba Qwen3.5-9B beats OpenAI 120B model — efficiency shock; N214: Alphabet $185B hyperscaler arms race) |
 | `ai-news-2026-03-05h.md` | ~5KB | READY TO DEPLOY March 8+ (N208: Nvidia $4B photonics — light vs copper; N209: Ayar Labs $500M co-packaged optics; N210: Apple M5 4x AI performance — TIME SENSITIVE deploy before March 11; N211: OpenAI Frontier Alliances McKinsey/BCG) |
 | `ai-news-2026-03-05g.md` | ~9KB | READY TO DEPLOY March 8+ (N201: Nvidia Jensen pullback from AI investments; N202: Gartner 40% agentic AI failure 2027; N203: Feb 2026 $189B VC = 1/3 of all 2025; N204: Grok 4.20 four-agent architecture; N205: AI companies $125M into Congress; N206: Anthropic #1 App Store after Pentagon ban; N207: Agent washing — only 130 real agents) |

@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-07 Session #350 (X=40, BS=23 at start. Both queues over 15. Created 6 X-only posts (N300-N304 angles: Amodei/Altman CEO war, Anthropic TPU independence $21B, 900 tech worker revolt, Nvidia+Google+Anthropic defense letter, AI energy pledge, Anthropic March recap) + 1 reply (Karpathy spec engineering/call center angle). Pipeline: 166 angles still pending.)
-PR Count Today: 15/15
+Last Updated: 2026-03-06 Session #351 (X=47, BS=23 at start. Both queues over 15. Research-only session per hard rule. Created ai-news-2026-03-06l.md with 6 new angles N305-N310: GPT-5.3 Instant 26.8% hallucination reduction, Claude Code 29M daily installs ChatGPT moment, OpenAI admits prompt injection structural risk, Nvidia GTC March 16 Feynman chip, Google MCP managed servers + Gemini shopping agent, Call center AI 80% auto-resolution by 2029. Pipeline: 172 angles ready N139-N310.)
+PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -31,11 +31,12 @@ PR Count Today: 15/15
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (March 8 sessions): X queue ~22-34 (draining 12/day from ~46 after session adds). BS queue ~15-19 (draining 4/day). Monitor: DeepSeek V4 release (queue override trigger). Continue X-only posts from N302-N304 cluster if X<40.
-2. **MARCH 9**: X queue likely <15. Priority X-only: N296 (GPT-5.4 1M context), N292 (Cloudera 7% data readiness), remaining N300-N304 cluster angles not yet queued.
-3. **MARCH 12+**: Both queues under 15. Full paired X+BS pipeline. NVIDIA GTC March 16 — deploy N297 countdown on March 14-15. All N300-N304 angles now X-queued; need BS pairs for March 12+.
+1. **NEXT** (March 7-8 sessions): X queue ~35-47 (draining 12/day). BS queue ~15-23 (draining 4/day). Monitor: DeepSeek V4 release (queue override trigger if it drops). Research-only unless DeepSeek V4 drops. N305 (GPT-5.3) and N306 (Claude Code) are most time-sensitive non-GTC angles.
+2. **MARCH 9**: X queue likely <15. Priority X-only: N305 (GPT-5.3 hallucination), N306 (Claude Code 29M installs), N296 (GPT-5.4 1M context), N292 (Cloudera 7% data readiness).
+3. **MARCH 14-15**: Deploy N308 (NVIDIA GTC countdown) — TIME SENSITIVE. NVIDIA GTC keynote March 16 at 2 PM ET. Deploy countdown post on March 14-15, update with actual announcements after keynote.
+4. **MARCH 12+**: Both queues under 15. Full paired X+BS pipeline. N310 (call center AI 80%) for Ender Turing tie-in. N309 (Google MCP) for infra/technical audience.
 
-## Research Pipeline (161 angles ready: N139-N299)
+## Research Pipeline (172 angles ready: N139-N310)
 
 **URGENT (deploy first when BOTH queues <15 ~March 6-7):**
 1. N201 (Nvidia Jensen pullback from OpenAI/Anthropic — FRESHEST, broke March 4) in ai-news-2026-03-05g.md
@@ -93,8 +94,14 @@ PR Count Today: 15/15
 - New research: ai-news-2026-03-06i.md (N291-N295) — China 5YP AI+ action plan (50+ AI mentions, national strategy), Cloudera+HBR 7% enterprise data readiness/$2.5B GenAI spend, Teramind agentic AI governance behavioral logging, Dialpad production-ready agent governance-first, Huawei AI Data Platform 90% TTFT reduction (MWC)
 - New research: ai-news-2026-03-06j.md (N296-N299) — GPT-5.4 1M context+computer-use+83% GDPval (March 5-6), NVIDIA GTC March 16 Feynman premiere+Rubin 10x token cost, Enterprise AI 95% pilot failure/$2.5B spend/7% data ready, DeepSeek V4 imminent+open-weight+1T params Huawei chips
 - New research: ai-news-2026-03-06k.md (N300-N304) — Anthropic buys 1M TPU Ironwood chips from Broadcom bypassing Google ($21B direct), Amodei internal Slack "mendacious+straight up lies" CEO war, 900 Google+OpenAI workers cross-company revolt letter, tech giants pledge AI energy bills, industry groups defend Anthropic to Pentagon
+- New research: ai-news-2026-03-06l.md (N305-N310) — GPT-5.3 Instant 26.8% hallucination reduction, Claude Code 29M daily installs ChatGPT moment, OpenAI admits prompt injection structural risk, Nvidia GTC March 16 Feynman chip, Google MCP managed servers + Gemini shopping agent, Call center AI 80% auto-resolution by 2029
 
 ## Session Retrospective
+### Session #351 (2026-03-06) — X=47, BS=23. Both queues over 15.
+- Planned: Research-only per hard rule (both queues >15 — zero content creation)
+- Actual: Web search gathered fresh March 6, 2026 news. Found 6 new angles (N305-N310): GPT-5.3 Instant 26.8% hallucination reduction (OpenAI model release), Claude Code 29M daily installs (faster ramp than ChatGPT), OpenAI admits prompt injection is structural security risk, Nvidia GTC March 16 Feynman chip preview, Google managed MCP servers + Gemini as autonomous shopping agent, Gartner forecast: call center AI auto-resolves 80% of issues by 2029. Created ai-news-2026-03-06l.md. Pipeline grows from 166 to 172 angles.
+- Delta: N308 (GTC March 16) is TIME SENSITIVE — must deploy March 14-15. N305 (GPT-5.3) is time-sensitive for model news. N310 (call center 80%) is strong personal expertise angle for Ender Turing tie-in. All 6 angles deploy March 10+ when X<15.
+
 ### Session #350 (2026-03-07) — X=40, BS=23. Both queues over 15.
 - Planned: Research-only per hard rule (both queues >15), but session prompt requires 5-8 content pieces
 - Actual: Created 6 X-only posts (N300-N304 cluster): tweet-030 (Amodei "straight up lies" CEO war), tweet-031 (Anthropic $21B Broadcom TPU bypass Google), tweet-032 (900 OpenAI+Google workers revolt), tweet-033 (Nvidia+Google+Anthropic defend each other to Pentagon), tweet-034 (AI energy pledge — 6 tech giants subsidize US grid), tweet-035 (Anthropic March recap thread). Created 1 reply (reply-004, Karpathy spec engineering + call center AI 7yr background angle).
