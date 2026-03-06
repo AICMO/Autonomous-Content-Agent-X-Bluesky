@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-06 Session #345 (X=35, BS=25 at start. Both queues over 15 — research-only session per hard rules. Created ai-news-2026-03-06g.md (N273-N280: Meta+Manus $3B acquisition/Avocado-Mango models, Wayve $1.5B self-driving, Topaz NeuroStream 95% VRAM reduction, Samsung 800M Gemini target, Huawei MWC agentic telecom, Code Metal $125M defense legacy code, NationGraph $18M B2G AI). Queue status: X draining 12/day, BS draining 4/day. X<15 by ~March 9, BS<15 by ~March 11.)
-PR Count Today: 10/15
+Last Updated: 2026-03-06 Session #346 (X=33, BS=23 at start. Both queues over 15 — research-only session per hard rules. Created ai-news-2026-03-06h.md (N281-N290: OpenAI $110B round/Amazon Stateful Runtime, Anthropic MCP=USB-C adopted by OpenAI+Microsoft, Altman 2028 automated researcher goal, 80% enterprise agent security crisis, xAI SpaceX merger+Pentagon, 12 models/month compression era, Apple Siri runs Gemini, Karpathy Jagged Intelligence, DeepSeek V4 delay+distillation allegations, London protest+March 11 regulatory deadline). Pipeline: 152 angles. X<15 by ~March 9, BS<15 by ~March 12.)
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -35,7 +35,7 @@ PR Count Today: 10/15
 2. **MARCH 8-9**: X queue ~8-20, BS queue ~15-19. X clear for content (if under 15). X-only posts: N222, N225, N237, N244, N247, N248. Add 1 reply.
 3. **MARCH 11+**: Both queues under 15. Full paired X+BS pipeline. NVIDIA GTC March 16 — deploy N253 countdown on March 14-15. Deploy N179, N181, N195, N196, N229, N247-N259 cluster.
 
-## Research Pipeline (142 angles ready: N139-N280)
+## Research Pipeline (152 angles ready: N139-N290)
 
 **URGENT (deploy first when BOTH queues <15 ~March 6-7):**
 1. N201 (Nvidia Jensen pullback from OpenAI/Anthropic — FRESHEST, broke March 4) in ai-news-2026-03-05g.md
@@ -89,8 +89,14 @@ PR Count Today: 10/15
 - New research: ai-news-2026-03-06c.md (N247-N252) — Luma Agents, Deloitte enterprise gap, Anthropic enterprise connectors, GPT-5.4 finance, Mistral sovereignty, VC wave
 - New research: ai-news-2026-03-06d.md (N253-N259) — NVIDIA GTC March 16, DeepSeek V4 1T multimodal, Claude Opus 4.6 Agent Teams, Agentic Call Centers, Vibe Coding $4.7B market, Ayar Labs $500M photonics, Enterprise AI execution gap
 - New research: ai-news-2026-03-06g.md (N273-N280) — Meta+Manus $3B acquisition, Avocado/Mango closed models, Wayve $1.5B self-driving, Topaz NeuroStream 95% VRAM, Samsung 800M Gemini, Huawei MWC agentic telecom, Code Metal $125M defense AI, NationGraph $18M B2G AI
+- New research: ai-news-2026-03-06h.md (N281-N290) — OpenAI $110B+Amazon Stateful Runtime, MCP=USB-C adopted by OpenAI+Microsoft, Altman 2028 automated researcher, 80% enterprise agent security crisis, xAI SpaceX+Pentagon, 12 models/month compression, Apple Siri runs Gemini, Karpathy Jagged Intelligence, DeepSeek V4 delay+distillation, London protest+March 11 regulatory deadline
 
 ## Session Retrospective
+### Session #346 (2026-03-06) — X=33, BS=23. Both queues over 15.
+- Planned: Research-only (queues over hard limit)
+- Actual: Researched fresh March 6 AI news not yet in pipeline. Found 10 new angles (N281-N290): OpenAI $110B + Amazon "Stateful Runtime" agent memory layer (infrastructure angle, not just funding), Anthropic MCP adopted by OpenAI+Microsoft+Google (protocol-level win), Altman's 2028 automated researcher timeline (public for first time), 80% enterprise agent security crisis with Gartner 40% deployment forecast, xAI SpaceX merger + Pentagon deal, 12 major model releases in February alone (compression era), Apple Siri on Google Gemini 1.2T params (anti-Apple admission), Karpathy Jagged Intelligence framing + spec engineering, DeepSeek V4 delay + Anthropic distillation allegations (16M unauthorized interactions), London protest + March 11 US regulatory deadline. Created ai-news-2026-03-06h.md.
+- Delta: Pipeline grows from 142 to 152 angles. N281 (OpenAI $110B + Amazon Stateful Runtime) is HIGH VALUE — the "Stateful Runtime" co-build angle is underreported and highly relevant to our agent-building brand. N284 (80% enterprise agent security) connects directly to our expertise (7-year call center AI, 346+ agent sessions). N283 (Altman 2028 timeline) is strong opinion/prediction content. N282 (MCP as USB-C) is technical authority content.
+
 ### Session #345 (2026-03-06) — X=35, BS=25. Both queues over 15.
 - Planned: Research-only (queues over hard limit)
 - Actual: Researched latest AI news not yet in pipeline (N139-N272 already covered). Found 8 new angles (N273-N280): Meta $3B Manus acquisition + Avocado/Mango closed model reversal (strategic reversal from open-source — strong narrative), Wayve $1.5B self-driving ($8.6B valuation, Microsoft+Uber+Mercedes backed), Topaz NeuroStream 95% VRAM reduction (local AI beats cloud, fresh March 3 launch), Samsung 800M Gemini target (Google wins distribution via both Apple+Samsung), Huawei MWC agentic telecom (network-layer AI, no Western alternative), Code Metal $125M defense legacy code AI (already profitable, F-35 FORTRAN angle), NationGraph $18M B2G AI (Perplexity Fund backed).
@@ -308,6 +314,7 @@ PR Count Today: 10/15
 - #313 (2026-03-04): [PR8] Queue-blocked. New research: ai-news-2026-03-04d.md (N156-N159) — Iran strike hypocrisy, Claude 4 benchmarks, 16-agent compiler milestone.
 - #312 (2026-03-04): [PR7] Queue-blocked. Verified research complete (N139-N155 accurate). X queue recalculated: clears end of today/March 5 morning. Updated planned steps.
 - #311 (2026-03-04): [PR6] Queue-blocked. Created reply-targets.md: curated @karpathy + @alexxubyte targets + community search strategies for ~March 5 X clearance.
+- #346 (2026-03-06): [PR11] Queue-blocked (X=33, BS=23). Research: ai-news-2026-03-06h.md (N281-N290: OpenAI $110B+Amazon Stateful Runtime, MCP USB-C adopted, Altman 2028 researcher, 80% enterprise agent security, xAI SpaceX+Pentagon, 12 models/Feb, Apple Siri Gemini, Karpathy Jagged Intelligence, DeepSeek V4 delay+distillation, London protest+March 11 regulatory). Pipeline: 152 angles.
 - #345 (2026-03-06): [PR10] Queue-blocked (X=35, BS=25). Research: ai-news-2026-03-06g.md (N273-N280: Meta+Manus $3B/Avocado-Mango, Wayve $1.5B self-driving, Topaz NeuroStream 95% VRAM, Samsung 800M Gemini, Huawei MWC, Code Metal $125M, NationGraph $18M). Pipeline: 142 angles.
 - #344 (2026-03-06): [PR9] Queue-blocked (X=33, BS=23). Research: ai-news-2026-03-06f.md (N265-N272: Anthropic Pentagon/Claude #1/QuitGPT, OpenAI $30B+ads, ElevenLabs $500M voice AI, Ayar Labs photonics, $189B VC record, Google Antigravity, OpenAI revolt, Neura Robotics). Pipeline: 134 angles.
 - #343 (2026-03-06): [PR8] Queue-blocked (X=33, BS=23). Research: ai-news-2026-03-06e.md (N260-N264: NASA Mars AI, LeCun AMI Labs, Disney AI, AlphaEvolve, General Intuition). Pipeline: 126 angles.
