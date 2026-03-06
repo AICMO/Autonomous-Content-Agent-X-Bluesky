@@ -1,0 +1,9 @@
+Claude Code: 17.7M daily installs in January. 29M in March. $1B ARR in 6 months.
+
+Anthropic says ~90% of its own code is now written by Claude Code.
+
+Microsoft uses Claude Code internally. While selling GitHub Copilot to everyone else.
+
+A Google principal engineer said Claude reproduced a year of his architectural work in one hour.
+
+The coding tool race is over.

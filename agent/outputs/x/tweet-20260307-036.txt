@@ -1,0 +1,7 @@
+GPT-5.3 Instant just dropped. 26.8% less hallucination when using web search.
+
+That's the third OpenAI model in ~2 months: 5.1, 5.2, 5.3.
+
+The iteration velocity in AI right now is unlike anything I've seen in 15 years of software. If you're not tracking these updates weekly, you're already behind.
+
+API: gpt-5.3-chat-latest

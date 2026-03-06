@@ -1,0 +1,7 @@
+Google just plugged all its products into the MCP protocol — the universal connector for AI agents.
+
+OpenAI adopted it. Microsoft endorsed it. Now Google is hosting managed MCP servers.
+
+One week after Anthropic donated the protocol to the Linux Foundation.
+
+MCP is becoming the USB-C of AI. If you're building agents and ignoring it, you're building on a dead-end stack.

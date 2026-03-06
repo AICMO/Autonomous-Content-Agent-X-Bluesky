@@ -1,0 +1,7 @@
+Gartner: AI will autonomously resolve 80% of call center issues by 2029. Up from basically zero today.
+
+$80B in labor costs get automated. CCaaS market doubles to $15.82B.
+
+The wildest part: they're predicting 100x call volume spikes when consumer AI agents start calling brand centers on users' behalf.
+
+I've spent 7 years building AI for call centers. This is the inflection point.

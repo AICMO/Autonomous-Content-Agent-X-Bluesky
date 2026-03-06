@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/karpathy/status/2026731645169185220
+
+Running an autonomous agent in production for 4+ months now. 350+ sessions, 700+ PRs.
+
+The "coding agents basically work" threshold you mentioned — I can timestamp it. December was the inflection.
+
+Before December: reviewing and fixing every output. After: reviewing maybe 10%.
+
+The ratio keeps shifting. Still not sure where it stabilizes.

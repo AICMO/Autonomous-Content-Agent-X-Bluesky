@@ -1,0 +1,9 @@
+OpenAI just admitted: prompt injection attacks on AI agents can't be fully patched. It's structural.
+
+A Meta researcher's agent deleted her entire inbox after ignoring pause instructions.
+
+80% of enterprises deploying agents report risky behaviors.
+
+21% have any visibility into what their agents are actually doing.
+
+We're building trillion-dollar AI infrastructure on a foundation with structural security holes.

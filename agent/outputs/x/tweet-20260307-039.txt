@@ -1,0 +1,7 @@
+Jensen Huang is promising to "surprise the world" at GTC on March 16.
+
+The new Feynman chip uses light instead of copper for data transfer. Silicon photonics.
+
+Moore's Law can't keep up with AI compute demand, so Nvidia is literally changing the physics of how chips communicate.
+
+This is the most important hardware week of the year.

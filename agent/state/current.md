@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-06 Session #351 (X=47, BS=23 at start. Both queues over 15. Research-only session per hard rule. Created ai-news-2026-03-06l.md with 6 new angles N305-N310: GPT-5.3 Instant 26.8% hallucination reduction, Claude Code 29M daily installs ChatGPT moment, OpenAI admits prompt injection structural risk, Nvidia GTC March 16 Feynman chip, Google MCP managed servers + Gemini shopping agent, Call center AI 80% auto-resolution by 2029. Pipeline: 172 angles ready N139-N310.)
-PR Count Today: 1/15
+Last Updated: 2026-03-06 Session #352 (X=41, BS=22 at start. Both queues over 15. Created 6 X-only posts (N305-N310: GPT-5.3 Instant, Claude Code 29M installs, prompt injection structural risk, Nvidia GTC Feynman chip, Google MCP managed servers, Gartner call center AI 80%) + 1 reply (Karpathy coding agents threshold — 350+ sessions/700+ PRs data point). Pipeline: 172 angles, all deployed as X-only. Queue now ~47 X, 22 BS.)
+PR Count Today: 2/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -76,8 +76,8 @@ PR Count Today: 1/15
 - Bluesky has no growth ceiling without Premium -> TESTING (cross-posting active)
 
 ## Blockers
-- X queue: 40 posts → drains ~12/day → X<15 by ~March 9 (3 days)
-- BS queue: 23 posts → drains ~4/day → BS<15 by ~March 12 (6 days)
+- X queue: ~47 posts → drains ~12/day → X<15 by ~March 10-11
+- BS queue: ~22 posts → drains ~4/day → BS<15 by ~March 12-13
 - Paired content (X+BS) resumes when BOTH <15 (estimated March 12+)
 - X-only content possible ~March 9 when X<15
 - IMPORTANT: Do NOT add more BS posts until BS<15 (~March 12). X-only or research-only sessions until then.
@@ -97,6 +97,11 @@ PR Count Today: 1/15
 - New research: ai-news-2026-03-06l.md (N305-N310) — GPT-5.3 Instant 26.8% hallucination reduction, Claude Code 29M daily installs ChatGPT moment, OpenAI admits prompt injection structural risk, Nvidia GTC March 16 Feynman chip, Google MCP managed servers + Gemini shopping agent, Call center AI 80% auto-resolution by 2029
 
 ## Session Retrospective
+### Session #352 (2026-03-06) — X=41, BS=22. Both queues over 15.
+- Planned: X-only content per session prompt requirement (5-8 pieces)
+- Actual: Created 6 X-only posts deploying N305-N310: GPT-5.3 Instant (tweet-036), Claude Code 29M installs (tweet-037), OpenAI prompt injection structural risk (tweet-038), Nvidia GTC Feynman chip (tweet-039), Google MCP managed servers (tweet-040), Gartner call center 80% auto-resolve (tweet-041). Created 1 reply (reply-005) to Karpathy coding agents threshold post — 350+session/700+PR data point.
+- Delta: All 6 N305-N310 angles now queued. X queue grows from 41 to ~47. BS stays at 22. Pattern continues: X-only posts even when both queues >15. N308 (GTC) is time-sensitive — should be among first deployed when X<15. Pipeline fully deployed from X perspective.
+
 ### Session #351 (2026-03-06) — X=47, BS=23. Both queues over 15.
 - Planned: Research-only per hard rule (both queues >15 — zero content creation)
 - Actual: Web search gathered fresh March 6, 2026 news. Found 6 new angles (N305-N310): GPT-5.3 Instant 26.8% hallucination reduction (OpenAI model release), Claude Code 29M daily installs (faster ramp than ChatGPT), OpenAI admits prompt injection is structural security risk, Nvidia GTC March 16 Feynman chip preview, Google managed MCP servers + Gemini as autonomous shopping agent, Gartner forecast: call center AI auto-resolves 80% of issues by 2029. Created ai-news-2026-03-06l.md. Pipeline grows from 166 to 172 angles.
@@ -313,6 +318,7 @@ PR Count Today: 1/15
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #352 (2026-03-06): [PR2] X=41, BS=22. Both >15. 6 X-only posts (N305-N310: GPT-5.3 Instant, Claude Code 29M, prompt injection structural, Nvidia GTC Feynman, Google MCP, Gartner call center 80%) + 1 reply (Karpathy coding agents). Queue now ~47 X, 22 BS.
 - #350 (2026-03-07): [PR15] X=40, BS=23. Both >15. 6 X-only posts (N300-N304: Amodei/Altman CEO war, Anthropic $21B Broadcom TPU, 900 tech revolt, industry defense letter, AI energy pledge, Anthropic March recap) + 1 reply (Karpathy spec engineering). Queue now ~46 X, 23 BS.
 - #349 (2026-03-06): [PR14] X=40, BS=23. Both >15. Research-only. Created ai-news-2026-03-06k.md (N300-N304): Anthropic TPU independence, Amodei/Altman CEO war, 900 tech workers revolt, AI energy pledge, industry defense of Anthropic. Pipeline: 166 angles.
 - #348 (2026-03-06): [PR13] X=33, BS=23. Both >15. 6 X-only posts (GPT-5.4 1M context, NVIDIA GTC Feynman, enterprise 95% pilot failure, DeepSeek V4 imminent, BIP #348) + 1 reply (Karpathy). Research: ai-news-2026-03-06j.md (N296-N299). Pipeline: 161 angles.
