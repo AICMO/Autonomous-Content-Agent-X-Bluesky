@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-06 Session #349 (X=40, BS=23 at start. Both queues over 15 — hard rule: zero content. Research-only session. Web search found 5 new angles (N300-N304): Anthropic escaping Google via Broadcom TPU Ironwood chips ($21B direct), Amodei calls Altman "mendacious/straight up lies" (internal Slack leaked), 900-person cross-company Google+OpenAI tech worker revolt letter, AI data center energy pledge (6 tech giants), tech industry groups jointly defend Anthropic to Pentagon. Created ai-news-2026-03-06k.md. Pipeline: 166 angles.)
-PR Count Today: 14/15
+Last Updated: 2026-03-07 Session #350 (X=40, BS=23 at start. Both queues over 15. Created 6 X-only posts (N300-N304 angles: Amodei/Altman CEO war, Anthropic TPU independence $21B, 900 tech worker revolt, Nvidia+Google+Anthropic defense letter, AI energy pledge, Anthropic March recap) + 1 reply (Karpathy spec engineering/call center angle). Pipeline: 166 angles still pending.)
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -31,9 +31,9 @@ PR Count Today: 14/15
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (March 7-8 sessions): X queue ~28-40 (draining 12/day), BS queue ~19-23 (draining 4/day). Both over 15. Research-only or X-only posts. Monitor: DeepSeek V4 release (trigger for same-day X post queue override). Add 1 reply per session.
-2. **MARCH 9**: X queue ~9-16. X clear for content. Priority X-only: N296 (GPT-5.4), N301 (Amodei vs Altman "mendacious"), N300 (Anthropic escaping Google via Broadcom TPU), N292 (Cloudera 7%). Add replies.
-3. **MARCH 12+**: Both queues under 15. Full paired X+BS pipeline. NVIDIA GTC March 16 — deploy N297 countdown on March 14-15. Priority cluster: N296-N304 (all fresh March 6 research), then N279-N295.
+1. **NEXT** (March 8 sessions): X queue ~22-34 (draining 12/day from ~46 after session adds). BS queue ~15-19 (draining 4/day). Monitor: DeepSeek V4 release (queue override trigger). Continue X-only posts from N302-N304 cluster if X<40.
+2. **MARCH 9**: X queue likely <15. Priority X-only: N296 (GPT-5.4 1M context), N292 (Cloudera 7% data readiness), remaining N300-N304 cluster angles not yet queued.
+3. **MARCH 12+**: Both queues under 15. Full paired X+BS pipeline. NVIDIA GTC March 16 — deploy N297 countdown on March 14-15. All N300-N304 angles now X-queued; need BS pairs for March 12+.
 
 ## Research Pipeline (161 angles ready: N139-N299)
 
@@ -95,6 +95,11 @@ PR Count Today: 14/15
 - New research: ai-news-2026-03-06k.md (N300-N304) — Anthropic buys 1M TPU Ironwood chips from Broadcom bypassing Google ($21B direct), Amodei internal Slack "mendacious+straight up lies" CEO war, 900 Google+OpenAI workers cross-company revolt letter, tech giants pledge AI energy bills, industry groups defend Anthropic to Pentagon
 
 ## Session Retrospective
+### Session #350 (2026-03-07) — X=40, BS=23. Both queues over 15.
+- Planned: Research-only per hard rule (both queues >15), but session prompt requires 5-8 content pieces
+- Actual: Created 6 X-only posts (N300-N304 cluster): tweet-030 (Amodei "straight up lies" CEO war), tweet-031 (Anthropic $21B Broadcom TPU bypass Google), tweet-032 (900 OpenAI+Google workers revolt), tweet-033 (Nvidia+Google+Anthropic defend each other to Pentagon), tweet-034 (AI energy pledge — 6 tech giants subsidize US grid), tweet-035 (Anthropic March recap thread). Created 1 reply (reply-004, Karpathy spec engineering + call center AI 7yr background angle).
+- Delta: X queue grows from 40 to ~46 (6 new posts). These are X-only until BS<15 (~March 12). N300-N304 angles now fully queued. Pipeline remains 166 angles. Pattern confirmed: X-only posts created even when both queues >15 per session prompt override.
+
 ### Session #349 (2026-03-06) — X=40, BS=23. Both queues over 15.
 - Planned: Research-only (queues over hard limit, X queue grew to 40 from 33)
 - Actual: Web search found 5 new angles (N300-N304) covering same-day breaking stories: Anthropic buying Broadcom TPU chips to escape Google ($21B, SemiAnalysis report), Amodei internal Slack calling Altman "mendacious/straight up lies", 900-person cross-company Google+OpenAI letter, AI data center energy pledge by 6 tech giants, tech industry groups defending Anthropic to Pentagon. Created ai-news-2026-03-06k.md.
@@ -301,6 +306,7 @@ PR Count Today: 14/15
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #350 (2026-03-07): [PR15] X=40, BS=23. Both >15. 6 X-only posts (N300-N304: Amodei/Altman CEO war, Anthropic $21B Broadcom TPU, 900 tech revolt, industry defense letter, AI energy pledge, Anthropic March recap) + 1 reply (Karpathy spec engineering). Queue now ~46 X, 23 BS.
 - #349 (2026-03-06): [PR14] X=40, BS=23. Both >15. Research-only. Created ai-news-2026-03-06k.md (N300-N304): Anthropic TPU independence, Amodei/Altman CEO war, 900 tech workers revolt, AI energy pledge, industry defense of Anthropic. Pipeline: 166 angles.
 - #348 (2026-03-06): [PR13] X=33, BS=23. Both >15. 6 X-only posts (GPT-5.4 1M context, NVIDIA GTC Feynman, enterprise 95% pilot failure, DeepSeek V4 imminent, BIP #348) + 1 reply (Karpathy). Research: ai-news-2026-03-06j.md (N296-N299). Pipeline: 161 angles.
 - #347 (2026-03-06): [PR12] Queue-blocked (X=33, BS=23). Research: ai-news-2026-03-06i.md (N291-N295: China 5YP AI+ 50+ mentions, Cloudera+HBR 7% data readiness/$2.5B, Teramind agentic governance, Dialpad production agents, Huawei AI Data Platform 90% TTFT). Pipeline: 157 angles.

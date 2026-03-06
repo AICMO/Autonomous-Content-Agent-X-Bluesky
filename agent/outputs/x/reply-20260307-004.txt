@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/karpathy/status/2019137879310836075
+
+7 years building call center AI, now 350+ sessions with an autonomous agent.
+
+The transition you're describing — from coding to orchestrating — happened faster in agent work than in voice AI.
+
+Voice AI: 2 years to feel comfortable trusting the model. Agents: 2 months.
+
+The trust curve is compressing with each generation. Spec engineering is the next skill gap.
