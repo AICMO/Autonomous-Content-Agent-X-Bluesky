@@ -1,0 +1,7 @@
+MiniMax M2.5 is being compared directly to Claude Opus 4.6.
+
+From China. Costs a fraction.
+
+Google writes 25%+ of its own code with AI. Microsoft: 30%. And now the models that power those tools are getting cheaper, faster, from more places.
+
+The frontier is compressing. The lead time between "new capability" and "cheap commodity" is now measured in weeks, not years.
