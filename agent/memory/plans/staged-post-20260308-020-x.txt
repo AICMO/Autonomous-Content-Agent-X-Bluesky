@@ -1,0 +1,9 @@
+92% of US devs use AI coding tools daily.
+
+41% of all code is now AI-generated.
+
+The hangover is starting: $1.5T in projected tech debt by 2027. 45% of AI code introduces security vulnerabilities.
+
+Vibe coding isn't free. Someone pays the debt later.
+
+And right now, that someone is writing 30% of code. The most consequential 30% in history.

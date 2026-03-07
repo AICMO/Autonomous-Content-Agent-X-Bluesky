@@ -1,0 +1,7 @@
+Nvidia just posted a $68B quarter. 73% year-over-year.
+
+GTC 2026 is in 9 days. Jensen's about to reveal the chip built for AI agents. Not training. Not chatbots. Inference for agents that loop, plan, and act.
+
+IBM and Salesforce are projecting 1 billion AI agents deployed by end of 2026.
+
+The hardware layer just became the business story.
