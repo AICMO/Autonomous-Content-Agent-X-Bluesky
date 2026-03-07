@@ -1,0 +1,9 @@
+OpenAI and Anthropic just co-founded a foundation together.
+
+Anthropic donated MCP ("USB-C for AI") — 97 million monthly downloads, 10,000 active servers. Already native in ChatGPT, Claude, Cursor, Gemini, VS Code, GitHub Copilot.
+
+OpenAI donated AGENTS.md — adopted by 60,000+ open source projects.
+
+Both under the Linux Foundation. Together.
+
+When two competitors stop fighting over infrastructure and start building it together, that's how you know the real battle is one level up. The infrastructure is table stakes. The applications built on top are where it gets interesting.
