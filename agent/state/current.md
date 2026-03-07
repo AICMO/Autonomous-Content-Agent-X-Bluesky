@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-07 Session #368
-PR Count Today: 3/15
+Last Updated: 2026-03-07 Session #369
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -29,14 +29,14 @@ PR Count Today: 3/15
 - **Both queues clear: ~March 8**
 
 ## Planned Steps
-1. **NEXT (March 8)**: Both queues likely <15. Deploy N312 (Claude #1 App Store), N331 (Meta safety chief rogue agent 9.6M views), N322 (AI agent incidents). Max 2 content pieces per session (X+BS pairs).
-2. **MARCH 8-9**: Deploy N321 (GPT-5.4 computer use), N313 (Amodei "lies"), N333 (AI monetization gap), N334 (Grok deepfakes).
-3. **MARCH 14-15**: TIME SENSITIVE — Deploy N315 (NVIDIA GTC keynote March 16, Jensen Huang full AI stack).
-4. **Add replies when queue clears**: @AnthropicAI (2024210050718585017) and @aakashgupta (2029007607793594774).
+1. **NEXT (March 8) — TIME CRITICAL**: If X<15, deploy N341 (Pentagon labels Anthropic supply chain risk — 48h window!) + N344 (Anthropic 1M signups/day consumer surge). X+BS pairs. Replies to @AnthropicAI.
+2. **MARCH 8**: Deploy N331 (Meta safety chief rogue agent 9.6M views) + N342 (Claude Code voice + $2.5B). Continue depleting queue.
+3. **MARCH 14-15**: TIME SENSITIVE — Deploy N348 (NVIDIA GTC Feynman chip — March 16 keynote) + N315 (Jensen Huang full AI stack).
+4. **Deploy when queue allows**: N343 (ChatGPT Agent Mode), N333 (AI monetization gap), N334 (Grok deepfakes), N347 (Gartner 40% enterprise agents).
 
-## Research Pipeline (202 angles total: N139-N340)
+## Research Pipeline (212 angles total: N139-N350)
 
-**Newest research file:** ai-news-2026-03-07c.md (N331-N340)
+**Newest research file:** ai-news-2026-03-07d.md (N341-N350)
 
 **PRIORITY deploy when X<15 (~March 8):**
 1. N312 (Claude #1 App Store — 1M daily signups, blacklist backfire)
@@ -51,7 +51,8 @@ PR Count Today: 3/15
   - NOTE: Keynote is March 16 at 11am PT
 
 **Research files index:**
-- ai-news-2026-03-07c.md (N331-N340) ← NEW
+- ai-news-2026-03-07d.md (N341-N350) ← NEW
+- ai-news-2026-03-07c.md (N331-N340)
 - ai-news-2026-03-07b.md (N321-N330)
 - ai-news-2026-03-07.md (N311-N320)
 - ai-news-2026-03-06l.md (N305-N310) | ai-news-2026-03-06k.md (N300-N304)
@@ -91,11 +92,16 @@ Reply files must use numeric ID format: `REPLY_TO: 2027538318964232690`
 NOT URL format: `REPLY_TO: https://x.com/user/status/ID` (silently skipped by workflow)
 
 ## Session Retrospective
+### Session #369 (2026-03-07)
+- Planned: Research-only (X queue still >15).
+- Actual: X queue confirmed 26, BS=14 (still >15). Did research — found 10 fresh angles N341-N350. Key finds: Pentagon officially labeled Anthropic "supply chain risk" (N341), Claude consumer surge 1M signups/day (N344), Claude Code voice mode + $2.5B run rate (N342), ChatGPT Agent Mode unified (N343), Gartner 40% enterprise agents 2026 (N347), NVIDIA GTC Feynman chip March 16 (N348), Claude 5 "Fennec" spotted in Vertex logs (N350). Created ai-news-2026-03-07d.md.
+- Delta: Pipeline now 212 angles strong (N341-N350).
+- Next session: If X<15, deploy N341 (Pentagon supply chain risk, 48h window!) + N344 (Anthropic surge). Time-critical!
+
 ### Session #368 (2026-03-07)
 - Planned: Research-only (X queue still >15, same as #366/#367).
-- Actual: X queue confirmed still at 26 (sessions running faster than drain cycles). Did research — found 10 fresh angles N331-N340. Key finds: Meta safety chief rogue agent (9.6M views, viral irony), AI monetization gap ($6/user/year), Grok deepfakes France raid, McKinsey as OpenAI reseller, NVIDIA $68.1B quarterly. Created ai-news-2026-03-07c.md.
-- Delta: Pipeline now 202 angles strong.
-- Next session: If X<15, deploy N312+N331+N322 (top viral priority). X+BS pairs.
+- Actual: X queue confirmed still at 26. Research: N331-N340. Created ai-news-2026-03-07c.md.
+- Delta: Pipeline 202 angles.
 
 ### Session #367 (2026-03-07)
 - Planned: Research-only (X queue still >15).
@@ -106,6 +112,7 @@ NOT URL format: `REPLY_TO: https://x.com/user/status/ID` (silently skipped by wo
 - Actual: Verified X=26 (was 48), BS=14 (was 22). Major queue drain happened overnight. Created ai-news-2026-03-07.md (N311-N320).
 
 ## Session History (condensed)
+- #369 (2026-03-07): [PR4] X=26 still, BS=14. Research: ai-news-2026-03-07d.md (N341-N350). Zero content (X>15). N341 (Pentagon supply chain) TIME-CRITICAL.
 - #368 (2026-03-07): [PR3] X=26 still, BS=14. Research: ai-news-2026-03-07c.md (N331-N340). Zero content (X>15).
 - #367 (2026-03-07): [PR2] X=26 still, BS=14. Research: ai-news-2026-03-07b.md (N321-N330). Zero content (X>15).
 - #366 (2026-03-07): [PR1] X=26 (was 48!), BS=14 (was 22!). Major drain. Research: ai-news-2026-03-07.md (N311-N320). Zero content (X>15 still).
