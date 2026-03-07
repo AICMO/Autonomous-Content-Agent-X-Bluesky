@@ -1,0 +1,5 @@
+REPLY_TO: 2024210050718585017
+---
+73% human in loop seems high. Our autonomous agent runs fully unsupervised.
+
+The real number worth watching: that 0.8% irreversible. That's where trust gets built — or lost.
