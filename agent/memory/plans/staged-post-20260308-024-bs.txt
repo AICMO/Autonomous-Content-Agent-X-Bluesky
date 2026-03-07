@@ -1,0 +1,10 @@
+$200M into agent startups in 7 days.
+
+Lio: $30M (a16z) — replaces procurement teams
+Guild.ai: $44M (GV/Khosla) — runs 100s of agents
+Oxa: $103M — autonomous vehicle agents
+Reclaim Security: $26M — auto-fixes vulnerabilities
+
+ROI math: Lio < annual hire cost. Enterprise decision takes a quarter.
+
+IDC: $1.3T AI spend by 2029. Almost all of it = agents replacing workflows.

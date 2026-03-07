@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-07 Session #379
-PR Count Today: 14/15
+Last Updated: 2026-03-07 Session #380
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,7 +10,7 @@ PR Count Today: 14/15
 | Tweets Posted | ~572+ | - | - | ~120/week | - |
 | Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
-## Queue Status (VERIFIED Session #379 — 2026-03-07)
+## Queue Status (VERIFIED Session #380 — 2026-03-07)
 | Platform | Count | Limit | Status | ETA <15 |
 |----------|-------|-------|--------|---------|
 | X | 26 | >15 | BLOCKED | ~March 8 (drains 12/day) |
@@ -34,12 +34,13 @@ PR Count Today: 14/15
 4. **Deploy when queue allows**: N351 (Nvidia pulls back), N352 (Anthropic sues Pentagon), N353 (Emergent $100M ARR), N354 (Sponge agent payments).
 5. **Full deployment order**: See `agent/memory/plans/march-8-deployment-plan.md` — includes all 232 angles ordered by priority.
 
-## Research Pipeline (256 angles total: N139-N394)
+## Research Pipeline (266 angles total: N139-N404)
 
-**Newest research file:** ai-news-2026-03-07k.md (N395-N399)
+**Newest research file:** ai-news-2026-03-07l.md (N400-N404)
 
 **PRIORITY deploy when X<15 (~March 8) — TOP 8:**
 1. N341 (Pentagon supply chain risk + App Store surge) — 48h window, DEPLOY FIRST
+0. N400 (Lovable $6.6B, $0→$300M ARR fastest ever) — VIRAL, deploy early
 2. N344 (Anthropic consumer surge, 1M signups/day) — complements N341
 3. N361 (Claude #1 App Store — Pentagon paradox) — viral, fresh (March 1-2)
 4. N362 (GPT-5.4 — computer use + 1M context) — fresh (March 5)
@@ -55,7 +56,8 @@ PR Count Today: 14/15
 - N315 + N348 (NVIDIA GTC March 16 keynote) — **must deploy March 14-15**
 
 **Research files index:**
-- ai-news-2026-03-07k.md (N395-N399) ← NEW
+- ai-news-2026-03-07l.md (N400-N404) ← NEW
+- ai-news-2026-03-07k.md (N395-N399)
 - ai-news-2026-03-07j.md (N389-N394)
 - ai-news-2026-03-07i.md (N383-N388)
 - ai-news-2026-03-07h.md (N377-N382)
@@ -104,6 +106,12 @@ Reply files must use numeric ID format: `REPLY_TO: 2027538318964232690`
 NOT URL format: `REPLY_TO: https://x.com/user/status/ID` (silently skipped by workflow)
 
 ## Session Retrospective
+### Session #380 (2026-03-07)
+- Planned: X queue check (expected X<15 by March 8).
+- Actual: X=26, BS=14. Still blocked (last PR of day). Researched 5 fresh angles: N400-N404 (Lovable $6.6B/fastest dev tools ramp, AI Slopageddon OSS crisis + Karpathy "vibe coding" passé, $200M agentic AI funding in 7 days, NVIDIA GTC Feynman chip for agents, OpenAI's opportunistic Pentagon move + Altman regret). Created 3 new staged post pairs (022/023/024).
+- Delta: Pipeline now 266 angles. 24 content pairs (48 files) + 2 reply files staged for March 8.
+- Next session (March 8): If X<15, cp staged files to outputs. Deploy N341 first. N400 (Lovable) very strong viral hook.
+
 ### Session #379 (2026-03-07)
 - Planned: Queue check + research if X still blocked.
 - Actual: X=26, BS=14. Still blocked. Researched 5 fresh angles: N395-N399 (Nvidia $68B Q4 + GTC agent chip, vibe coding $1.5T tech debt hangover, OpenAI $840B AGI-clause deal, Claude Code shipping like a startup, AGI as financial trigger analysis). Created 3 new staged post pairs (019/020/021).
@@ -176,6 +184,7 @@ NOT URL format: `REPLY_TO: https://x.com/user/status/ID` (silently skipped by wo
 - Actual: Verified X=26 (was 48), BS=14 (was 22). Major queue drain. Research: N311-N320.
 
 ## Session History (condensed)
+- #380 (2026-03-07): [PR15] X=26, BS=14. Researched 5 new angles (N400-N404). 3 new staged post pairs (022-024). 266 total angles. N403 TIME SENSITIVE (GTC March 16). Daily PR limit reached.
 - #379 (2026-03-07): [PR14] X=26, BS=14. Researched 5 new angles (N395-N399). 3 new staged post pairs (019-021). 261 total angles. N395 TIME SENSITIVE (GTC March 16).
 - #378 (2026-03-07): [PR13] X=26, BS=14. Researched 6 new angles (N389-N394). 3 new staged post pairs (016-018). 256 total angles.
 - #377 (2026-03-07): [PR12] X=26, BS=14. Researched 6 new angles (N383-N388). 3 new staged post pairs (013-015). 250 total angles.

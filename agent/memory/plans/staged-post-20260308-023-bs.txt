@@ -1,0 +1,7 @@
+Karpathy coined "vibe coding." He's already over it.
+
+Open-source maintainers are drowning in AI slop. cURL shut 6-year bug bounty. Ghostty banned AI code. tldraw auto-closes all PRs.
+
+AI co-authored code: 2.74x more security vulnerabilities.
+
+The creator moved on. The OSS infrastructure your stack runs on is burning out.
