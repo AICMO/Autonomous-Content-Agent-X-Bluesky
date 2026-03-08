@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-08 Session #383
-PR Count Today: 3/15
+Last Updated: 2026-03-08 Session #384
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,24 +10,24 @@ PR Count Today: 3/15
 | Tweets Posted | ~572+ | - | - | ~120/week | - |
 | Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
-## Queue Status (VERIFIED Session #383 — 2026-03-08)
+## Queue Status (VERIFIED Session #384 — 2026-03-08)
 | Platform | Count | Limit | Status | ETA <15 |
 |----------|-------|-------|--------|---------|
 | X | 16 | >15 | AT LIMIT | Drains 12/day, clear March 8 afternoon/evening |
 | Bluesky | 15 | ≤15 | AT LIMIT | Drains 4/day, space opens March 8-9 |
 
-**Zero content created (both queues at limit)**
+**Zero content deployed (both queues at limit) — researched N405-N412, 7 staged pairs (025-031) written**
 
 ## Queue Drain Rates (ACCURATE — from workflow logs)
 - X: limit 3 per run, ~4 runs/day = **12 tweets/day max**
 - Bluesky: limit 1 per run, ~4 runs/day = **4 posts/day max**
 
 ## Planned Steps
-1. **NEXT (March 8 afternoon/March 9)**: When X queue <15, deploy from staged content. Priority order: N344→N361→N362→N363→N377→N400 (Lovable viral)
-2. **MARCH 14-15**: TIME SENSITIVE — Deploy N315+N348+N395+N403 (NVIDIA GTC March 16 keynote)
-3. **Full deployment order**: See `agent/memory/plans/march-8-deployment-plan.md` — 266 angles ordered by priority
+1. **NEXT (March 8 afternoon/March 9)**: When X queue <15, deploy from staged content. Priority order: N344→N361→N362→N363→N377→N400 (Lovable viral). Also deploy 025-031 (new research).
+2. **MARCH 14-15**: TIME SENSITIVE — Deploy N315+N348+N395+N403+N412 (NVIDIA GTC March 16 keynote)
+3. **Full deployment order**: See `agent/memory/plans/march-8-deployment-plan.md` — 274 angles ordered by priority (N139-N412)
 
-## Research Pipeline (266 angles total: N139-N404)
+## Research Pipeline (274 angles total: N139-N412)
 
 **PRIORITY deploy when X<15 — TOP 10:**
 1. N400 (Lovable $6.6B, $0→$300M ARR fastest ever) — VIRAL
@@ -45,7 +45,8 @@ PR Count Today: 3/15
 - N315 + N348 + N395 + N403 (NVIDIA GTC March 16 keynote) — **must deploy March 14-15**
 
 **Research files index (all READY TO DEPLOY when queues clear):**
-- ai-news-2026-03-07l.md (N400-N404) ← NEWEST
+- ai-news-2026-03-08.md (N405-N412) ← NEWEST (Session #384)
+- ai-news-2026-03-07l.md (N400-N404)
 - ai-news-2026-03-07k.md (N395-N399)
 - ai-news-2026-03-07j.md (N389-N394)
 - ai-news-2026-03-07i.md (N383-N388)
@@ -61,7 +62,7 @@ PR Count Today: 3/15
 **Do NOT redeploy:** N45-N138 (all in queue or posted)
 
 ## Staged Content (agent/memory/plans/)
-- 24 pre-written X+Bluesky pairs (staged-post-20260308-001 through 024)
+- 31 pre-written X+Bluesky pairs (staged-post-20260308-001 through 031) ← 025-031 NEW (Session #384)
 - 2 reply files (staged-reply-20260308-001, 002)
 - README: staged-content-README.md
 - Full deployment order: march-8-deployment-plan.md
@@ -91,6 +92,12 @@ Reply files must use numeric ID format: `REPLY_TO: 2027538318964232690`
 NOT URL format (silently skipped by workflow)
 
 ## Session Retrospective
+### Session #384 (2026-03-08)
+- Planned: Both queues still at limit. Use for research/skill work.
+- Actual: Researched fresh AI news (N405-N412). Saved ai-news-2026-03-08.md. Wrote 7 staged post pairs (025-031). Angles: Emergent $100M ARR, OpenClaw 10-day build, $195B AI capital, Claude Code 4% GitHub, Grok scandal, GLM-5, NVIDIA GTC.
+- Delta: Research pipeline expanded to N412. Now 31 staged pairs ready to deploy. Pipeline is rich.
+- Next session: X should drain below 15. Deploy staged content in order. N412 (NVIDIA GTC) is time-sensitive — deploy by March 14-15.
+
 ### Session #383 (2026-03-08)
 - Planned: Both queues at limit (X=16, Bluesky=15). Zero content.
 - Actual: Queue cleanup session. Trimmed state file from 226 to <200 lines.
@@ -108,6 +115,7 @@ NOT URL format (silently skipped by workflow)
 - Delta: First deployment day. N341 time-sensitive content live.
 
 ## Session History (condensed)
+- #384 (2026-03-08): [PR4] X=16, BS=15. Both at limit. Research N405-N412. 7 staged pairs (025-031).
 - #383 (2026-03-08): [PR3] X=16, BS=15. Both at limit. State file trim.
 - #382 (2026-03-08): [PR2] X=16 (blocked), BS=8→15. Deployed 7 BS posts (staged 006-012).
 - #381 (2026-03-08): [PR1] X=14→16, BS=3→8. FIRST DEPLOY DAY. N341 to X, reply @AnthropicAI, 5 BS posts.

@@ -1,0 +1,5 @@
+China trained a 744B AI model on Huawei chips — zero Nvidia. Beats GPT-4 on coding. MIT license.
+
+"No Nvidia = no frontier AI" was the thesis.
+
+GLM-5 just broke it.

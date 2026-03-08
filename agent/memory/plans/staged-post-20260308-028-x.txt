@@ -1,0 +1,9 @@
+4% of all GitHub commits are now made by Claude Code.
+
+By end of 2026, it could be 20%.
+
+95% of developers use AI tools weekly. 75% at smaller companies use Claude Code as their primary tool. Standalone ARR: $2.5B.
+
+Claude Code isn't replacing developers. It's becoming how they work.
+
+The question isn't if AI writes your code. It's how much of it already does.
