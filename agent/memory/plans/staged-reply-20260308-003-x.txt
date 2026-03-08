@@ -1,0 +1,9 @@
+REPLY_TO: 2030156251821392096
+---
+Running autonomous agents 24/7 taught me the hard way why Auto Mode matters.
+
+Every time the agent pauses to ask permission, you lose the context that made the decision obvious. By the time a human responds, the moment's gone.
+
+The permission-gate design problem isn't UX. It's a fundamental tension between oversight and throughput.
+
+Curious how Anthropic handles prompt injection in truly unattended environments.

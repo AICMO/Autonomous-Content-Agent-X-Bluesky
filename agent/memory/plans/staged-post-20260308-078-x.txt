@@ -1,0 +1,11 @@
+NVIDIA and AMD are direct competitors.
+
+They both just invested in the same startup.
+
+Ayar Labs: $500M raised, $3.75B valuation. Technology: transmit GPU data as LIGHT instead of copper wire.
+
+One chiplet does 8 terabits/sec. 4-20x more compute per watt.
+
+When two bitter rivals both fund the same company, the problem they're solving is existential.
+
+Copper bottlenecks are AI's next wall.

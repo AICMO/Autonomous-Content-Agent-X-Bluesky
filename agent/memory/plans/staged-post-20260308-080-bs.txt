@@ -1,0 +1,9 @@
+Google NotebookLM just shipped something wild.
+
+Upload your research notes. Get a cinematic documentary video back.
+
+AI picks the narrative, generates visuals, self-critiques footage and iterates.
+
+No hallucination. Grounded in your sources.
+
+Researcher → video producer gap: closed.

@@ -1,0 +1,9 @@
+Fei-Fei Li created ImageNet. That dataset unlocked the entire last wave of AI.
+
+Now she raised $1B for World Labs. Goal: teach AI to understand 3D space, geometry, and physics.
+
+Autodesk (a $50B company) put in $200M alone.
+
+Every AI breakthrough so far has been 2D: text, images, video.
+
+The next frontier is spatial. And the person who built the foundation for the last wave just bet everything on it.
