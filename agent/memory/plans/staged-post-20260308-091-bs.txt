@@ -1,9 +1,0 @@
-7 years building call center AI. Here's what I keep seeing:
-
-The bottleneck was never "can AI do this task."
-
-It's always: "can we trust it enough to actually deploy it."
-
-80% of companies have agents in production with zero governance framework.
-
-Technical problem: solved. Trust problem: nobody building fast enough.

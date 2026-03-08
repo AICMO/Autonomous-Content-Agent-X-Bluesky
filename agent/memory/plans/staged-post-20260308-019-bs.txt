@@ -1,7 +1,0 @@
-Nvidia: $68B quarter. 73% YoY growth.
-
-GTC is in 9 days. Jensen's revealing the chip built for AI agents — not training, not chatbots. Inference for agents that loop and act.
-
-IBM + Salesforce: 1 billion agents by year-end.
-
-Hardware just became the business story.

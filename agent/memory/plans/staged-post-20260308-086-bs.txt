@@ -1,9 +1,0 @@
-Gartner: 40% of enterprise AI agent projects abandoned by 2027.
-
-Not because models are bad. Because organizations can't safely connect them.
-
-80% deploy agents with zero governance framework.
-
-The tech problem is solved. The trust problem isn't.
-
-Biggest untapped market: agent governance tooling. Companies solving "safe in production" — not "can it reason" — win enterprise AI.

@@ -1,9 +1,0 @@
-1 in 25 GitHub commits is written by Claude Code right now.
-
-A month ago: 1 in 50.
-By end of 2026: analysts say 1 in 5.
-
-Cursor: $500M ARR, $15M per employee.
-Devin: $1M → $73M ARR in 9 months.
-
-Software dev is being rebuilt, not disrupted.

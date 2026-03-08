@@ -1,7 +1,0 @@
-REPLY_TO: 2028872381477929185
-
-84.6% on ARC-AGI-2 from Gemini 3 Deep Think is the number that matters.
-
-That benchmark was specifically designed to resist the pattern-matching tricks that made previous models look smarter than they were.
-
-Hitting 84.6% means something different than a leaderboard number. Genuine reasoning advance, not benchmark gaming.

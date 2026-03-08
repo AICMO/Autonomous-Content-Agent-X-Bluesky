@@ -1,9 +1,0 @@
-OpenAI's Frontier platform puts AI agents inside Salesforce, Workday, SAP.
-
-Not competing WITH them. Running ON TOP of them.
-
-1,500 hours/month saved at one tech company. 90% time savings at another.
-
-This isn't "AI features in your CRM."
-
-It's agents that make the CRM optional.

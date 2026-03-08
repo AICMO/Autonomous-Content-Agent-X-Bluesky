@@ -1,7 +1,0 @@
-China trained a 744B parameter AI model without a single Nvidia chip.
-
-GLM-5 runs on Huawei Ascend hardware. Beats GPT-4 on software engineering benchmarks. MIT license — commercial use free.
-
-The US chip export ban was supposed to prevent exactly this. A multi-hundred-billion-dollar containment strategy is being stress-tested by a 44B active parameter model on domestic hardware.
-
-This is the most concrete refutation of "no Nvidia, no frontier AI" we've seen.

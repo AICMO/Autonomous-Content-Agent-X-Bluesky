@@ -1,1 +1,0 @@
-GPT-5.4: beats humans 83% across 44 professions. Controls mouse/keyboard. Claude Opus 4.6: spawns parallel agent teams with independent context windows. Both dropped this month. The gap between "chatbot" and "digital employee" is closing fast.

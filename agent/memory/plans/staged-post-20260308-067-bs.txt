@@ -1,9 +1,0 @@
-7 years building AI for call centers. What changed in 2026:
-
-2019: "AI replaces agents." (Didn't happen.)
-2022: "AI assists agents." (Helped, slowly.)
-2026: AI runs post-call: coaching, compliance, QA. Automatically.
-
-Results at Ender Turing: 20% CSAT up, 12% lower handle time, 180 hrs saved/month.
-
-Real story: the QA analyst job is different, not gone.

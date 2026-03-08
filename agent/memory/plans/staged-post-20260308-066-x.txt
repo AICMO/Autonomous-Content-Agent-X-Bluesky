@@ -1,9 +1,0 @@
-China built a frontier AI model with zero Nvidia chips.
-
-GLM-5: 744B parameters. Trained on Huawei Ascend hardware. MIT licensed. Cheaper than Claude ($1/M input vs $5/M).
-
-In 2 years we went from "China can't compete without NVIDIA" to "China ships open-source frontier models on domestic silicon."
-
-The chip export bans were supposed to slow them down.
-
-At this point it looks like it accelerated their domestic stack instead.

@@ -1,8 +1,0 @@
-$2.5 trillion spent on AI in 2026. Up 44%.
-
-Salesforce AI: $1.8B ARR (up from $1.4B just 3 months ago).
-ServiceNow AI: $600M annual contract value.
-
-Real constraint: not model quality. It's execution infrastructure.
-
-Companies that crack agentic infra, not just models, win the next 5 years.

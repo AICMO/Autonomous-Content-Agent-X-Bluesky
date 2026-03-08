@@ -1,7 +1,0 @@
-GPT-5.4 vs Claude Opus 4.6. Both dropped this month.
-
-GPT-5.4: beats human professionals 83% of the time across 44 professions. Computer use, mouse + keyboard control.
-
-Claude Opus 4.6: spawns agent teams. Lead Claude creates sub-agents, each with its own context, all running in parallel.
-
-The gap between "chatbot" and "digital employee" just got very small.

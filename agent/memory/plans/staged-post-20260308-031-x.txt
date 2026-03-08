@@ -1,9 +1,0 @@
-NVIDIA GTC is next week (March 17-20).
-
-Jensen's keynote could announce Blackwell Ultra and confirm ship dates for Project Digits — a $3,000 personal AI supercomputer.
-
-Last GTC, NVIDIA crossed $1T market cap. Today: $2.8T.
-
-Every enterprise AI budget gets repriced after this keynote. Blackwell Ultra availability changes what's economically viable to run in-house.
-
-This is the hardware keynote of 2026. Pay attention.

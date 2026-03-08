@@ -1,7 +1,0 @@
-Jensen Huang just said Nvidia's $30B OpenAI investment "might be the last."
-
-The real story: Nvidia invested $30B into OpenAI, who spent it on Nvidia chips.
-
-It's a circular trade. Nvidia gets paid twice. Once as investor, once as supplier.
-
-Now they're stepping back because OpenAI is going public. The circular deal ends. The GPU sales never will.

@@ -1,9 +1,0 @@
-Google's NotebookLM just did something wild.
-
-Upload your research notes. It creates a full cinematic documentary video. Automatically.
-
-Three AI models in one pipeline: one picks the narrative format, one generates visuals, one produces the video. The "creative director" model self-critiques its own footage and iterates.
-
-No hallucination — grounded in your sources.
-
-The gap between "researcher" and "video producer" is gone.

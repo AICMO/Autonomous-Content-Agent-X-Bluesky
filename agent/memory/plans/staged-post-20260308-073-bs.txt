@@ -1,9 +1,0 @@
-Anthropic: $1B → $14B ARR in 14 months.
-
-No B2B software company has ever scaled this fast.
-
-$1B (Dec 2024) → $9B (Dec 2025) → $14B (Feb 2026)
-
-Enterprise customers spending $100K+/yr: up 7x.
-
-And they're compute-constrained. Revenue is limited by GPU availability, not demand.

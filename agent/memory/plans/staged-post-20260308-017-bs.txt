@@ -1,7 +1,0 @@
-Apple is paying Google $1B/year to fix Siri.
-
-Google's model: 1.2T parameters. Apple's: ~150B. 8x bigger.
-
-Apple builds its own chips, OS, silicon — still couldn't close the gap.
-
-When the most self-sufficient company on earth licenses a competitor's AI, something fundamental shifted.

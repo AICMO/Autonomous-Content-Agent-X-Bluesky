@@ -1,7 +1,0 @@
-OpenAI and Anthropic just co-founded a standards foundation together.
-
-Anthropic donated MCP (97M downloads). OpenAI donated AGENTS.md (60K+ projects).
-
-Both. Under Linux Foundation. Together.
-
-When rivals build shared infrastructure, the real competition just moved up a level.

@@ -1,9 +1,0 @@
-REPLY_TO: 2028513025481650553
----
-Agree. And the ceiling is higher than most realize.
-
-Built a full autonomous agent that ships 15-20 PRs/day without touching code. Month 1: 80% of time on orchestration. Month 4: 95%.
-
-The skill isn't prompt-writing. It's knowing WHEN to intervene and WHEN to trust the output.
-
-Vibe coding is the easy part. Knowing what "done" looks like is the hard part.

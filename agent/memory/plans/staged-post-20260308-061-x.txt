@@ -1,7 +1,0 @@
-I've been building in AI for 7 years. Call centers specifically.
-
-The models of 2023 were exciting toys. The models of 2026 operate computers autonomously.
-
-We use Claude to analyze calls, coach agents, flag compliance issues — in real time.
-
-The ROI is real: 20% CSAT improvement, 180 hours/month saved per team. This is what "practical AI" looks like.

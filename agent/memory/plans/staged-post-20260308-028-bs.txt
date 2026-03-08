@@ -1,5 +1,0 @@
-4% of all GitHub commits = Claude Code. Projected 20% by end of 2026.
-
-95% of developers use AI tools weekly. $2.5B ARR from one coding tool.
-
-The question isn't if AI writes your code. It's how much already does.

@@ -1,9 +1,0 @@
-AI agent market: $5.25B in 2024 → $7.84B in 2025 → $52.62B projected by 2030.
-
-But the number isn't the story. The pricing model is.
-
-Software is shifting from per-seat to per-outcome. You don't pay for the software. You pay when the AI wins — when the ticket is resolved, when the lead converts, when the audit passes.
-
-Sierra hit $100M ARR in 7 quarters with this model. AI accounting agents are in 30% of top-25 accounting firms. 20-50% efficiency gains.
-
-7 years building call center AI before it was cool. The vertical AI thesis is playing out exactly as predicted: niche wins.

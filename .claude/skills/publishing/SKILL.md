@@ -50,15 +50,16 @@ Every post MUST have all three:
 2. **Money angle** — Dollar amounts, specific revenue numbers
 3. **Action links** — Real repos, tools, tutorials the reader can use TODAY
 
-### What's Hot Right Now (March 2026 — update weekly)
+### What's Hot Right Now (March 8, 2026 — update weekly)
 
 | Trend | Money Angle | Key Links |
 |-------|-------------|-----------|
-| **OpenAI $110B raise** ($840B valuation) | Amazon $50B, Nvidia $30B, SoftBank $30B | openai.com |
-| **Anthropic-Pentagon standoff** | $200M contract refused, Claude #1 App Store | anthropic.com |
-| **ChatGPT Agent Mode** | AI books, plans, executes autonomously | openai.com/index/introducing-chatgpt-agent |
-| **Vibe Coding** (92% dev adoption) | Claude Code = 4% of GitHub commits | cursor.com, claude.ai |
-| **$195B invested in AI Feb 2026** | Record venture month | bloomberg.com |
+| **GPT-5.4 native computer control** | $300B enterprise software stress-tested | openai.com |
+| **Anthropic $30B Series G** ($380B val, $14B ARR) | $0→$14B in 3 years, fastest B2B ever | anthropic.com |
+| **NVIDIA GTC March 16** | Rubin GPUs 5x Blackwell, mystery chip | nvidia.com/gtc |
+| **$195B invested in AI Feb 2026** | Record venture month, beats all 2024 VC | bloomberg.com |
+| **Big Four deploy AI agents** | 42% enterprises in production, self-disrupting | deloitte.com |
+| **Vibe Coding** (92% dev adoption) | Cursor $2B ARR, Claude Code 4% GitHub commits | cursor.com, claude.ai |
 
 ### Content Priorities (Ranked)
 
@@ -119,6 +120,9 @@ Content is auto-posted by workflow from `agent/outputs/{platform}/`, then moved 
 1. **If any platform queue > 15: CREATE ZERO CONTENT** → research, cleanup, or skill work instead
 2. **Create max 2 content pieces per session** (when all queues <15). Each piece = X + Bluesky files.
 3. **Max 5 pending replies per platform**
+4. **Max 20 staged pairs in `agent/memory/plans/`** — when >20, STOP staging. Do cleanup, engagement, or skip PR.
+   - Evidence: Week 8 accumulated 91 staged pairs (7.5 days backlog), caused 1.1MB memory bloat and 13 wasted sessions.
+   - At 12 X posts/day drain rate, 20 pairs = ~1.7 days buffer. More than enough.
 
 **Queue check (MANDATORY at session start):**
 ```bash
@@ -135,7 +139,10 @@ Never trust state file numbers without verification.
 ### Session Allocation
 **< 100 followers:** 70% engagement, 30% content creation. Priority: Communities > reply to own <30min > replies to others > timeline posts.
 
-**When queue >15:** 0% content, 40% cleanup/skills, 30% research (max 1/day), 30% other. Skip PR creation if nothing to commit.
+**When queue >15 AND staged pairs <20:** 0% content, 40% cleanup/skills, 30% research (max 1 file/day), 30% staging from existing research.
+
+**When queue >15 AND staged pairs >=20:** 0% content, 0% research, 0% staging. 50% cleanup/memory management, 50% skill work or engagement prep. Skip PR creation if nothing to commit. DO NOT create more research or staged files.
+- Evidence: Week 8 had 13 consecutive sessions all doing research+staging while queue-blocked. Result: 1.1MB memory (2x over limit), zero value delivered.
 
 ---
 
@@ -272,13 +279,18 @@ Does this sound like a real person typed it? Would I say this to a colleague? Do
 
 ---
 
-## Premium Growth Phase (Week 1-2)
+## Premium Growth Phase — OVERDUE (Day 8 of Premium, zero community posts)
 
+**STATUS: CRITICAL** — Premium activated 2026-03-01. As of 2026-03-08, zero community posts made. Follower growth dropped to +1/week (was +4). Communities are the single highest-leverage action available (30,000x multiplier) and have not been used once.
+
+**IMMEDIATE PRIORITY when queue allows:**
 1. Join 6 Communities (Build in Public, AI/ML Builders, Startup Founders, Call Center AI, Infra→AI, Indie Hackers)
-2. Post 100% content to Communities
-3. Reply to ALL own comments within 30 min
+2. Post FIRST content to Build in Public community — this is overdue by 8 days
+3. Reply to ALL own comments within 30 min (150x multiplier)
 4. Create 5-10 replies/session to larger accounts
 5. Track follower growth (target: 50-100 in 2 weeks vs 0.75/day baseline)
+
+**Evidence (Week 8 retro):** Without Communities, follower velocity: +1/week. At +1/week, 5K goal ETA = 95 years. Communities are the only untested high-leverage lever remaining.
 
 **Full details:** `agent/outputs/premium-activation-playbook.md`
 

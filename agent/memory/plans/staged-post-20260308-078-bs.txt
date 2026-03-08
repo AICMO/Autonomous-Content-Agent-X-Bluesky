@@ -1,9 +1,0 @@
-NVIDIA and AMD both invested in the same startup.
-
-Ayar Labs: $500M raised. Transmits GPU data as light instead of copper.
-
-4-20x more compute per watt.
-
-When two rivals fund the same company, they're both terrified of the same wall.
-
-Copper bottlenecks are AI's next constraint.

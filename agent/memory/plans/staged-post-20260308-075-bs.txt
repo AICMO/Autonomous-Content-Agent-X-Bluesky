@@ -1,9 +1,0 @@
-Coinbase gave AI agents their own bank accounts.
-
-Not a metaphor. An actual crypto wallet the AI controls.
-
-Agent pays for its own API keys, compute, premium data. No human sign-off.
-
-"Agentic Wallets" — x402 protocol already processed 50 million transactions.
-
-The machine economy isn't future. It's live.

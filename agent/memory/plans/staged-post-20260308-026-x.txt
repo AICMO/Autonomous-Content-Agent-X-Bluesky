@@ -1,9 +1,0 @@
-One person. 10 days. 1,374 GitHub commits in a single day.
-
-OpenClaw: a fully local AI assistant connecting to every chat app you use. WhatsApp, Telegram, Slack, Discord, iMessage, Teams. All of them. Runs on your hardware. 5,700+ community extensions.
-
-Then it went viral.
-
-Then the creator got hired by OpenAI.
-
-The fastest path to an OpenAI job in 2026: ship something insane in 10 days.

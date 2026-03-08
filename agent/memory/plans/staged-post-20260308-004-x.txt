@@ -1,5 +1,0 @@
-GPT-5.4 just dropped.
-
-1 million token context. Native computer use that beat humans on OSWorld. You can steer its reasoning mid-task if it goes wrong. Tool search cuts token usage 47%.
-
-This isn't iteration. This is a new capability class.
