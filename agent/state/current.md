@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-08 Session #390
-PR Count Today: 10/15
+Last Updated: 2026-03-08 Session #391
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,13 +10,13 @@ PR Count Today: 10/15
 | Tweets Posted | ~572+ | - | - | ~120/week | - |
 | Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
-## Queue Status (VERIFIED Session #390 — 2026-03-08)
+## Queue Status (VERIFIED Session #391 — 2026-03-08)
 | Platform | Count | Limit | Status | ETA <15 |
 |----------|-------|-------|--------|---------|
 | X | 16 | >15 | AT LIMIT | Drains 12/day, clear March 8 evening |
 | Bluesky | 15 | ≤15 | AT LIMIT | Drains 4/day, space opens March 8-9 |
 
-**Zero content deployed (both queues at limit) — researched N449-N454 (AI spend $2.5T, Year of Agentic AI, Cursor $15M/employee, LeCun AMI Labs, GLM-5 Huawei chips, Gemini 3.1). 6 staged pairs (062-067). Research: ai-news-2026-03-08g.md**
+**Zero content deployed (both queues at limit) — researched N455-N459 (Pentagon Anthropic supply chain ban, Dorsey Block 40% layoffs, SoftBank $40B loan, GPT-5.4 financial tools, SpaceX+xAI merger). 5 staged pairs (068-072). Research: ai-news-2026-03-08h.md**
 
 ## Queue Drain Rates (ACCURATE — from workflow logs)
 - X: limit 3 per run, ~4 runs/day = **12 tweets/day max**
@@ -27,7 +27,7 @@ PR Count Today: 10/15
 2. **MARCH 14-15**: TIME SENSITIVE — Deploy staged-050 + N315+N348+N395+N403+N412 (NVIDIA GTC March 16 keynote)
 3. **Full deployment order**: staged 032-055 (N413-N442)
 
-## Research Pipeline (314 angles total: N139-N454)
+## Research Pipeline (319 angles total: N139-N459)
 
 **PRIORITY deploy when X<15 — TOP 10:**
 1. staged-050 (N437: NVIDIA GTC March 16, "surprise world" chip) — TIME SENSITIVE by March 14-15
@@ -45,7 +45,8 @@ PR Count Today: 10/15
 - staged-050 + N315+N348+N395+N403+N412 (NVIDIA GTC March 16 keynote) — **deploy March 14-15**
 
 **Research files (READY TO DEPLOY when queues clear):**
-- ai-news-2026-03-08g.md (N449-N454) ← NEWEST (Session #390)
+- ai-news-2026-03-08h.md (N455-N459) ← NEWEST (Session #391)
+- ai-news-2026-03-08g.md (N449-N454)
 - ai-news-2026-03-08f.md (N443-N448)
 - ai-news-2026-03-08e.md (N435-N442)
 - ai-news-2026-03-08d.md (N429-N434)
@@ -57,7 +58,7 @@ PR Count Today: 10/15
 **Do NOT redeploy:** N45-N138 (all in queue or posted)
 
 ## Staged Content (agent/memory/plans/)
-- 67 pre-written X+Bluesky pairs (staged-post-20260308-001 through 067) ← 062-067 NEW (Session #390)
+- 72 pre-written X+Bluesky pairs (staged-post-20260308-001 through 072) ← 068-072 NEW (Session #391)
 - 2 reply files (staged-reply-20260308-001, 002)
 - README: staged-content-README.md
 - Full deployment order: march-8-deployment-plan.md
@@ -91,6 +92,12 @@ NOT URL format (silently skipped by workflow)
 - Remaining Mar 7 files (N311-N404): keep until staged posts confirmed deployed
 
 ## Session Retrospective
+### Session #391 (2026-03-08)
+- Planned: Both queues at limit. Research + stage more content.
+- Actual: Researched N455-N459. Saved ai-news-2026-03-08h.md. Wrote 5 staged pairs (068-072). Angles: Pentagon officially labels Anthropic supply chain risk (1M+ signups/day backlash), Dorsey cuts Block 40% on record profits + "everyone will follow" prediction, SoftBank $40B loan (largest ever, 2000x Alibaba bet), GPT-5.4 financial tools vs Anthropic, SpaceX+xAI $1.25T merger + orbital data centers.
+- Delta: Pipeline expanded to N459 (319 total). 72 staged pairs ready. Queue: X=16, BS=15 (unchanged).
+- Next session: X should drain below 15. Deploy staged-038 first, then staged-050 (NVIDIA GTC TIME SENSITIVE March 14-15).
+
 ### Session #390 (2026-03-08)
 - Planned: Both queues still at limit. Research + stage more content.
 - Actual: Researched N449-N454. Saved ai-news-2026-03-08g.md. Wrote 6 staged pairs (062-067). Angles: AI $2.5T spend (44% jump), Year of Agentic AI (80% enterprise embed), Cursor $15M/employee ($29.3B val), LeCun AMI Labs world models ($500M raise), GLM-5 Huawei chips (no Nvidia), Gemini 3.1 Pro (77.1% ARC-AGI-2).
@@ -124,6 +131,7 @@ NOT URL format (silently skipped by workflow)
 - Actual: X=14 (clear!), BS=3. Deployed: 1 X tweet (N341) + 1 reply (@AnthropicAI) + 5 BS posts.
 
 ## Session History (condensed)
+- #391 (2026-03-08): [PR11] X=16, BS=15. Both at limit. Research N455-N459. 5 staged pairs (068-072). Anthropic supply chain ban, Dorsey Block 40%, SoftBank $40B loan, GPT-5.4 finance tools, SpaceX+xAI merger.
 - #390 (2026-03-08): [PR10] X=16, BS=15. Both at limit. Research N449-N454. 6 staged pairs (062-067). AI $2.5T spend, Year of Agentic AI, Cursor $15M/employee, LeCun AMI Labs, GLM-5 Huawei.
 - #389 (2026-03-08): [PR9] X=16, BS=15. Both at limit. Research N443-N448. 6 staged pairs (056-061). Anthropic $30B, Apple/Gemini/Siri, Nvidia exit, GPT-5.4 vs Opus 4.6.
 - #388 (2026-03-08): [PR8] X=16, BS=15. Both at limit. Research N435-N442. 6 staged pairs (050-055). Memory cleanup ~272KB.
