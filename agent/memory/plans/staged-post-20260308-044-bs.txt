@@ -1,0 +1,7 @@
+Claude Code is getting Auto Mode (rolling out March 11-12).
+
+Right now devs choose: approve every action (slow) or bypass permissions (risky).
+
+Auto Mode = Claude judges which of its own actions are safe. First coding AI that manages its own permission logic.
+
+Different level of agency.
