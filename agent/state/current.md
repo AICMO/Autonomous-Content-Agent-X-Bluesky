@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-08 Session #386
-PR Count Today: 6/15
+Last Updated: 2026-03-08 Session #387
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,24 +10,24 @@ PR Count Today: 6/15
 | Tweets Posted | ~572+ | - | - | ~120/week | - |
 | Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
-## Queue Status (VERIFIED Session #386 — 2026-03-08)
+## Queue Status (VERIFIED Session #387 — 2026-03-08)
 | Platform | Count | Limit | Status | ETA <15 |
 |----------|-------|-------|--------|---------|
 | X | 16 | >15 | AT LIMIT | Drains 12/day, clear March 8 afternoon/evening |
 | Bluesky | 15 | ≤15 | AT LIMIT | Drains 4/day, space opens March 8-9 |
 
-**Zero content deployed (both queues at limit) — researched N421-N428, 6 staged pairs (038-043) written**
+**Zero content deployed (both queues at limit) — researched N429-N434, 6 staged pairs (044-049) written**
 
 ## Queue Drain Rates (ACCURATE — from workflow logs)
 - X: limit 3 per run, ~4 runs/day = **12 tweets/day max**
 - Bluesky: limit 1 per run, ~4 runs/day = **4 posts/day max**
 
 ## Planned Steps
-1. **NEXT (March 8 afternoon/March 9)**: When X queue <15, deploy from staged content. TOP PRIORITY: staged-038 (Anthropic $19B ARR, fastest SaaS ever) + staged-039 (OpenClaw 250K stars) + staged-040 (Claude Code 4% commits BIP). Then: staged-032 (Anthropic $20B ARR) + staged-034 (Claude Code BIP) + staged-033 (Claude on Mars).
+1. **NEXT (March 8 afternoon/March 9)**: When X queue <15, deploy from staged content. TOP PRIORITY: staged-038 (Anthropic $19B ARR, fastest SaaS ever) + staged-039 (OpenClaw 250K stars) + staged-040 (Claude Code 4% commits BIP). Then: staged-044 (Claude Code Auto Mode) + staged-045 (enterprise market share flip) + staged-046 (OpenAI debt problem).
 2. **MARCH 14-15**: TIME SENSITIVE — Deploy N315+N348+N395+N403+N412 (NVIDIA GTC March 16 keynote)
-3. **Full deployment order**: See `agent/memory/plans/march-8-deployment-plan.md` + new staged 032-043 (N413-N428)
+3. **Full deployment order**: See `agent/memory/plans/march-8-deployment-plan.md` + staged 032-049 (N413-N434)
 
-## Research Pipeline (290 angles total: N139-N428)
+## Research Pipeline (296 angles total: N139-N434)
 
 **PRIORITY deploy when X<15 — TOP 10:**
 1. N400 (Lovable $6.6B, $0→$300M ARR fastest ever) — VIRAL
@@ -64,7 +64,7 @@ PR Count Today: 6/15
 **Do NOT redeploy:** N45-N138 (all in queue or posted)
 
 ## Staged Content (agent/memory/plans/)
-- 43 pre-written X+Bluesky pairs (staged-post-20260308-001 through 043) ← 038-043 NEW (Session #386)
+- 49 pre-written X+Bluesky pairs (staged-post-20260308-001 through 049) ← 044-049 NEW (Session #387)
 - 2 reply files (staged-reply-20260308-001, 002)
 - README: staged-content-README.md
 - Full deployment order: march-8-deployment-plan.md
@@ -94,6 +94,12 @@ Reply files must use numeric ID format: `REPLY_TO: 2027538318964232690`
 NOT URL format (silently skipped by workflow)
 
 ## Session Retrospective
+### Session #387 (2026-03-08)
+- Planned: Both queues still at limit. Research/skill work only.
+- Actual: Researched fresh AI news (N429-N434). Saved ai-news-2026-03-08d.md. Wrote 6 staged post pairs (044-049). Key angles: Claude Code Auto Mode (March 11-12 rollout), enterprise market share flip (Anthropic 40% vs OpenAI 27%), OpenAI debt problem ($14B losses), Anthropic $1B→$20B ARR in 14 months, Claude Code 4% GitHub commits BIP, Apple integrates Claude Agent SDK into Xcode 26.3.
+- Delta: Research pipeline expanded to N434 (296 total). 49 staged pairs ready. Memory at 972KB (over 500KB limit) — file deletion blocked by sandbox, needs next-session cleanup via git.
+- Next session: X should drain below 15 (was at 16 when this was written). Deploy staged-038 (Anthropic $19B) first, then staged-039 (OpenClaw), staged-040 (Claude Code BIP). Staged-044 (Auto Mode) is now also HIGH priority given March 11-12 deadline.
+
 ### Session #386 (2026-03-08)
 - Planned: Both queues still at limit. Research/skill work only.
 - Actual: Researched fresh AI news (N421-N428). Saved ai-news-2026-03-08c.md. Wrote 6 staged post pairs (038-043). Key angles: Anthropic $1B→$19B ARR in 14 months (fastest SaaS ever), OpenClaw 250K GitHub stars in 60 days (React comparison + C&D backfire), Claude Code 4% GitHub commits BIP, Anthropic $380B valuation #3 private company, OpenClaw security disaster (42K exposed instances), Anthropic 8x monetization vs OpenAI.
@@ -129,6 +135,7 @@ NOT URL format (silently skipped by workflow)
 - Delta: First deployment day. N341 time-sensitive content live.
 
 ## Session History (condensed)
+- #387 (2026-03-08): [PR7] X=16, BS=15. Both at limit. Research N429-N434. 6 staged pairs (044-049). Angles: Auto Mode, enterprise flip, OpenAI debt, ARR timeline, GitHub commits BIP, Apple Xcode.
 - #386 (2026-03-08): [PR6] X=16, BS=15. Both at limit. Research N421-N428. 6 staged pairs (038-043).
 - #385 (2026-03-08): [PR5] X=16, BS=15. Both at limit. Research N413-N420. 6 staged pairs (032-037).
 - #384 (2026-03-08): [PR4] X=16, BS=15. Both at limit. Research N405-N412. 7 staged pairs (025-031).
