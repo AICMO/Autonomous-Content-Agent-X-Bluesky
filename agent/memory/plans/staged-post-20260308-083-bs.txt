@@ -1,0 +1,9 @@
+92% of devs use AI coding tools.
+
+Almost none have AI that acts without being asked.
+
+Cursor just changed that. Bugbot scans your code on push — no prompting needed.
+
+Not a coding assistant. A junior dev running background jobs.
+
+Every dev tool needs an answer to this within 12 months.
