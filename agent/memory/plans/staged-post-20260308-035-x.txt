@@ -1,0 +1,11 @@
+Gartner and Forrester both declared 2026 the breakthrough year for multi-agent AI systems.
+
+GPT-5.4 can control your computer. Claude drives rovers on Mars. Waymo runs 450K driverless rides per week.
+
+But Gartner also says 40% of agentic AI projects will fail.
+
+Not from bad AI. From bad processes. Companies are trying to automate broken workflows.
+
+AI doesn't fix a bad workflow. It accelerates it.
+
+The bottleneck in 2026 isn't the model. It's the process design.
