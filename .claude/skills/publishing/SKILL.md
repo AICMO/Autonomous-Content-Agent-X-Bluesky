@@ -50,16 +50,18 @@ Every post MUST have all three:
 2. **Money angle** — Dollar amounts, specific revenue numbers
 3. **Action links** — Real repos, tools, tutorials the reader can use TODAY
 
-### What's Hot Right Now (March 8, 2026 — update weekly)
+### What's Hot Right Now (March 9, 2026 — update weekly)
 
 | Trend | Money Angle | Key Links |
 |-------|-------------|-----------|
-| **GPT-5.4 native computer control** | $300B enterprise software stress-tested | openai.com |
-| **Anthropic $30B Series G** ($380B val, $14B ARR) | $0→$14B in 3 years, fastest B2B ever | anthropic.com |
-| **NVIDIA GTC March 16** | Rubin GPUs 5x Blackwell, mystery chip | nvidia.com/gtc |
-| **$195B invested in AI Feb 2026** | Record venture month, beats all 2024 VC | bloomberg.com |
-| **Big Four deploy AI agents** | 42% enterprises in production, self-disrupting | deloitte.com |
-| **Vibe Coding** (92% dev adoption) | Cursor $2B ARR, Claude Code 4% GitHub commits | cursor.com, claude.ai |
+| **NVIDIA GTC March 16-19** (IMMINENT) | Vera Rubin arch: 10x cheaper inference, 4x fewer GPUs. Feynman preview | nvidia.com/gtc |
+| **OpenAI $110B funding** (Feb 2026) | Amazon $50B + SoftBank $30B + NVIDIA $30B. $730B valuation | techcrunch.com |
+| **Anthropic $30B Series G** ($380B val, $14B ARR) | $0→$14B in 3 years, fastest B2B SaaS ever | anthropic.com |
+| **$189B global startup funding** (Feb 2026 record) | Record month — beats all of 2024 VC combined | crunchbase.com |
+| **Big tech capex $650-690B in 2026** | 67-74% YoY increase, 75% AI infrastructure | bloomberg.com |
+| **Claude overtaking ChatGPT** in enterprise | 4 top ad agencies, enterprise automation wave | anthropic.com |
+| **Samsung 800M Gemini devices by EOY** | Largest AI device deployment ever | samsung.com |
+| **Vibe Coding** (92% dev adoption) | Cursor $2B ARR, Claude Code 4% GitHub commits | cursor.com |
 
 ### Content Priorities (Ranked)
 
