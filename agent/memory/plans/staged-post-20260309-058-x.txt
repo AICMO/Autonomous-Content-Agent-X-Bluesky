@@ -1,0 +1,7 @@
+Claude Code Auto Mode drops March 12.
+
+It automatically handles permission prompts during coding. You don't have to approve every tool call.
+
+This is the thing everyone missed in the enterprise agents announcement. The friction was always the constant "do you want me to do X?" interruptions.
+
+Autonomous = actually autonomous.

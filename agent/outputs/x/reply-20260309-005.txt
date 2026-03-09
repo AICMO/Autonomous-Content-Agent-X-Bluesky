@@ -1,0 +1,7 @@
+REPLY_TO: 2029546127846945055
+
+"The constraint is no longer 'can we build it' — it's 'do we understand the workflow deeply enough.'"
+
+Exactly right. 7 years building AI for call centers taught me: the hardest part was never the model. It was encoding what the best agents actually do, step by step.
+
+Tribal knowledge → agent workflow is where the real work is.
