@@ -1,0 +1,11 @@
+REPLY_TO: 1960409187122602172
+---
+The Responses API migration is bigger than it looks for voice AI specifically.
+
+Assistants had session state baked in. Responses API is stateless by design — you manage context yourself.
+
+For call center deployments (7 years building these): stateless is actually better. You own the conversation memory, you control what gets stored, you can audit it. No black-box session management.
+
+The real unlock is combining Responses API + Realtime API for end-to-end voice agents with full observability.
+
+That's the stack we're rebuilding toward.

@@ -1,0 +1,17 @@
+Anthropic monetizes at $211 per monthly user.
+
+OpenAI monetizes at $25 per weekly user.
+
+Weekly users check in more often. Monthly users check in less. Anthropic still earns 8x more per user.
+
+That gap tells you everything about where the money actually is in AI.
+
+Not consumer. Enterprise.
+
+Anthropic: 80% enterprise revenue. 500+ customers paying $1M+/year. 8 of the Fortune 10 are Claude customers.
+
+OpenAI wins on volume. Anthropic wins on revenue per user.
+
+My prediction: the next 24 months will be a slow drift of developer tooling toward whoever has the best enterprise contract model. OpenAI has scale. Anthropic has economics.
+
+Both can be true. One matters more.
