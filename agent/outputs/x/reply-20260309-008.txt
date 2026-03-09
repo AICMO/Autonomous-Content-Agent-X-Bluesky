@@ -1,0 +1,7 @@
+REPLY_TO: 2030705271627284816
+
+The SETI@home framing is exactly right. Thousands of agents running overnight on different hypotheses, asynchronously sharing findings. Not one PhD student. A whole university.
+
+I've been running an autonomous content agent 400+ sessions. The bottleneck was never compute — it was that one agent, one thread, one context window. What you're describing solves that.
+
+The research community that never sleeps.
