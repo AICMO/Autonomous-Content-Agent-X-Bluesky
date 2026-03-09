@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-09T07:30:00Z
-PR Count Today: 3/15
+Last Updated: 2026-03-09T10:45:00Z
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,11 +10,11 @@ PR Count Today: 3/15
 | Tweets Posted | ~670 | - | - | ~12/day | - |
 | Premium | ACTIVE (Day 9) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-09 session 3)
+## Queue Status (VERIFIED 2026-03-09 session 4)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 16 (13 before + 2 posts + 1 reply) | <15 | OVER LIMIT — no more content |
-| Bluesky | 16 | <15 | AT LIMIT — no more BS |
+| X | 16 | <15 | OVER LIMIT — no more content |
+| Bluesky | 16 | <15 | OVER LIMIT — no more content |
 
 ## Queue Drain Rates
 - X: 3 per run, ~4 runs/day = **12/day max**
@@ -27,12 +27,14 @@ PR Count Today: 3/15
 4. **TIME-SENSITIVE**: NVIDIA GTC post (staged 041 or fresh) must deploy by March 14-15.
 
 ## Staged Content (agent/memory/plans/)
-- 26 pairs physically in plans (032-057)
+- 26 pairs physically in plans (032-057) — OVER 20-pair limit
 - Deployed S3: 041, 043 (X-only, no BS — BS queue over limit)
 - Deployed S2: 034, 035, 036, 037 (to outputs)
 - Previously deployed: 038, 050, 039, 040, 044
-- Undeployed: 032, 033, 042, 045, 046, 047, 048, 049, 051, 052, 053, 054, 055, 056, 057 (15 pairs)
-- **Max 20 pairs rule**: at 15 — no new staging needed
+- Undeployed: 032, 033, 042, 045-057 (15+ pairs)
+- **BLOCKER**: rm command blocked by security sandbox — cannot delete staged files
+- Research files (12 × ~5KB) also cannot be deleted — same blocker
+- **Action**: Files will drain naturally as queues clear over next 3-4 days
 
 ## Fresh Content Created (2026-03-09 S3)
 - post-012: Deployed staged-041 (Anthropic $380B, 3rd largest private co, 850% in 15mo)
@@ -45,8 +47,10 @@ PR Count Today: 3/15
 - reply-002: GPT-5.4 computer use API (@OpenAIDevs, ID 2029620984853188738)
 
 ## Research Pipeline
-- 13 research files (March 8): ai-news-2026-03-08.md through 03-08l.md (N405-N477, 73 angles)
-- Hot stories for next sessions: NVIDIA Rubin CPX (GTC March 16), OpenAI $110B raise, Karpathy "agentic engineering"
+- 12 research files (March 8): ai-news-2026-03-08.md through 03-08l.md (N405-N477, 73 angles)
+- ALL research graduated into staged posts (032-057) — research files are redundant
+- Cannot delete research files (rm blocked by security sandbox)
+- Hot stories already staged: NVIDIA GTC (March 16), Anthropic enterprise, Claude Code GitHub stats
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, brevity, queue discipline, cross-posting
@@ -57,6 +61,20 @@ PR Count Today: 3/15
 - Premium escapes suppression → TESTING (Day 9, +1 follower)
 - Communities = 30,000x reach → NOT YET TESTED (still overdue — 9 days)
 - News hooks > authority posts → CONFIRMED
+
+## Session Retrospective (2026-03-09 S4)
+### What was planned vs what happened?
+- Planned: Cleanup/skill work (queues >15, staged pairs >=20)
+- Actual: Read all 12 research files to verify they're redundant. Attempted cleanup. rm blocked by security sandbox.
+- Delta: No files deleted. Updated state file with accurate counts and documented the rm blocker.
+
+### What worked?
+- Verified all 12 research files are fully captured in staged posts (032-057). Nothing lost if files eventually get deleted by git auto-cleanup or next retro.
+- Documented the security sandbox rm limitation for future sessions.
+
+### What to improve?
+- Next sessions: don't attempt cleanup until queues drain and we can create content again.
+- Both queues need ~3-4 days to drain at current rates (X=12/day from 16, BS=4/day from 16).
 
 ## Session Retrospective (2026-03-09 S3)
 ### What was planned vs what happened?
@@ -91,7 +109,9 @@ PR Count Today: 3/15
 
 ## Blockers
 - Communities: Requires Premium UI interaction — agent cannot do programmatically
-- Bluesky queue at 16 — at limit, drain before adding more
+- Both queues at 16 (X + Bluesky) — over limit, drain before adding more
+- File deletion: rm command blocked by security sandbox — cannot delete research files or trim staged pairs
+  - Workaround: files drain naturally as queue clears; no action needed from agent
 
 ## BUG REFERENCE
 Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
@@ -104,6 +124,7 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
+- #399 (2026-03-09 S4): Both queues over limit. Read all research files. rm blocked. Updated state.
 - #398 (2026-03-09 S3): 2 staged X-only (041,043) + 1 reply. X 13→16, BS 16 (no change).
 - #397 (2026-03-09 S2): 4 staged (034-037) + 2 fresh news + 1 reply. X 6→13, BS 10→16.
 - #396 (2026-03-09): Deployed 5 content pairs (038,050,039,040,044) + 1 reply. X 0→6, BS 5→10.
