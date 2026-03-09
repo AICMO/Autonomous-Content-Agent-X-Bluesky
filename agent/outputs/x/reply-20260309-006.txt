@@ -1,0 +1,9 @@
+REPLY_TO: 2030371219518931079
+
+The autoresearch loop is the same architecture I built for autonomous content agents.
+
+Human writes the .md prompt. Agent runs the experiment. Measures what worked. Iterates without you.
+
+The only difference: my experiments are content posts, not ML training runs. Compounding feedback loop, same concept.
+
+Prompt-as-program unlocked everything.
