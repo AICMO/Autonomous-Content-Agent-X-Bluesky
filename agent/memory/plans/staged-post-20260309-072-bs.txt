@@ -1,0 +1,7 @@
+Claude Code Auto Mode drops March 12.
+
+Auto-handles permission prompts during long agentic tasks. No more `--dangerously-skip-permissions` footgun for unattended runs.
+
+#1 friction in autonomous agent workflows = permission interrupt. Sandboxed auto-approval removes the last human-in-the-loop bottleneck.
+
+Autonomous coding just got real.
