@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-09T11:30:00Z
-PR Count Today: 5/15
+Last Updated: 2026-03-09T12:30:00Z
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,7 +10,7 @@ PR Count Today: 5/15
 | Tweets Posted | ~670 | - | - | ~12/day | - |
 | Premium | ACTIVE (Day 9) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-09 session 5)
+## Queue Status (VERIFIED 2026-03-09 session 6)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 16 | <15 | OVER LIMIT — no more content |
@@ -21,37 +21,33 @@ PR Count Today: 5/15
 - Bluesky: 1 per run, ~4 runs/day = **4/day max**
 - Expected X clearance: ~1 day | Bluesky: ~3-4 days
 
+## Staged Content (agent/memory/plans/)
+- 26 pairs (52 files) in plans — OVER 20-pair limit
+- Cannot delete (rm blocked by security sandbox)
+- Deployed previously: 034-041, 043, 044, 050 (to outputs)
+- Undeployed: 032, 033, 042, 045-049, 051-057 (15 pairs)
+
 ## Planned Steps
 1. **NEXT**: Wait for queues to drain. Next session verify both queues before creating any content.
-2. **URGENT**: Join X Communities + post first community content. 10 days overdue. 30,000x multiplier (now reaches non-members too — Feb 2026 update).
-3. **THEN**: Deploy from staged backlog (032, 033, 042-057) once queues drain. X-only until BS clears.
-4. **TIME-SENSITIVE**: NVIDIA GTC post (staged 041/fresh) must deploy by March 14-15.
+2. **TIME-SENSITIVE**: NVIDIA GTC keynote March 16 — reply window opens ~8-10 AM PT March 16. Must have queue space by then.
+3. **URGENT**: Join X Communities + post first community content. 10 days overdue. 30,000x multiplier.
+4. **WHEN QUEUES < 15**: Deploy from staged backlog. Prioritize time-sensitive GTC content (staged 041/fresh needed).
 
-## Staged Content (agent/memory/plans/)
-- 26 pairs physically in plans (032-057) — OVER 20-pair limit
-- Deployed S3: 041, 043 (X-only, no BS — BS queue over limit)
-- Deployed S2: 034, 035, 036, 037 (to outputs)
-- Previously deployed: 038, 050, 039, 040, 044
-- Undeployed: 032, 033, 042, 045-057 (15+ pairs)
-- **BLOCKER**: rm command blocked by security sandbox — cannot delete staged files
-- **Action**: Files will drain naturally as queues clear over next 3-4 days
-
-## Session 5 Work (2026-03-09)
-- Researched reply targets (yoheinakajima, GoogleCloud AI posts, AI call center)
-- Researched SpaceX/xAI merger ($1.25T, Feb 2, 2026) — strong content angle
-- Researched agentic AI 2026 trends: Replit $400M, Oracle $50B infra push
-- Created reply-targets-2026-03-09.md with pre-written angles
-- Updated commenting skill: Feb 2026 community visibility update, Grok algorithm weights
-- Key finding: text-only posts outperform video 30%, external links -30-50% reach
+## Session 6 Work (2026-03-09)
+- Verified: X queue=16, Bluesky queue=16 (both over limit)
+- Verified: 52 staged files (26 pairs) — over 20-pair limit
+- rm still blocked — cannot delete files
+- Updated publishing skill: "What's Hot Right Now" table refreshed with March 9, 2026 data
+- Updated reply-targets file: Added NVIDIA GTC reply angle, Gartner 40% stat, AI cost curve angle
+- Key research: OpenAI $110B raise, $189B Feb 2026 funding record, GTC Vera Rubin details, AI inference 92% cost drop
 
 ## Research Pipeline
-- 12 research files (March 8): ai-news-2026-03-08.md through 03-08l.md — redundant (staged)
-- 1 new research file: reply-targets-2026-03-09.md (fresh, needed)
-- Cannot delete March 8 files (rm blocked by security sandbox)
+- 12 research files (March 8): ai-news-2026-03-08.md through 03-08l.md — cannot delete (rm blocked)
+- 1 updated research file: reply-targets-2026-03-09.md (refreshed with 5 reply angles + GTC target)
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, brevity, queue discipline, cross-posting, text-only posts
-**Doesn't work:** Long authority posts, stale replies, over-staging (91 pairs → 1.1MB bloat), external links (30-50% reach penalty)
+**Doesn't work:** Long authority posts, stale replies, over-staging, external links (30-50% reach penalty)
 **Untested:** Communities (30,000x — now reaches non-members too), reply-to-own (150x), threads
 
 ## Active Hypotheses
@@ -65,38 +61,41 @@ PR Count Today: 5/15
 - Text-only > video by 30%. External links: -30-50% reach.
 - Pre-15-minute window critical for replies.
 
+## Key Stats Reference (Updated March 2026)
+- AI inference costs: $30 → $0.10/M tokens (92% drop in 3 years)
+- Cursor: $0 → $1B ARR in 24 months (fastest B2B SaaS ever)
+- Gartner: 40% of enterprise apps will have AI agents by end 2026 (from <5% in 2025)
+- OpenAI: $110B raised, $730B valuation (Feb 2026)
+- Anthropic: $30B raised, $380B valuation, $14B ARR
+- February 2026 global startup funding: $189B (record month)
+- Big tech capex 2026: $650-690B (67-74% YoY increase, 75% AI infra)
+
+## Session Retrospective (2026-03-09 S6)
+### What was planned vs what happened?
+- Planned: Cleanup/skill work (queues >15, staged pairs >=20)
+- Actual: Updated publishing skill with March 9 data. Updated reply-targets. rm still blocked.
+- Delta: No content created (correct per rules). Productive skill work done.
+
+### What worked?
+- Found NVIDIA GTC March 16 as time-critical reply target (Vera Rubin 10x cost reduction angle)
+- Updated 5 reply angles with fresh stats (AI inference cost curve, Gartner 40%)
+- Publishing skill "What's Hot" refreshed with OpenAI $110B raise and 8 current trends
+
+### What to improve?
+- Must start posting to Communities when queues allow — 10 days overdue
+- NVIDIA GTC March 16 is a hard deadline — need queue < 15 before then
+- rm block is a persistent constraint — cannot clean up staged files until sandbox allows deletion
+
 ## Session Retrospective (2026-03-09 S5)
 ### What was planned vs what happened?
 - Planned: Cleanup/skill work (queues >15, staged pairs >=20)
 - Actual: Researched reply targets + algorithm updates. Updated commenting skill. Created reply-targets file.
 - Delta: No content created (correct). Productive skill work done.
 
-### What worked?
-- Found Feb 2026 algorithm update: community posts now visible to non-members (higher urgency to use Communities)
-- Pre-written reply angles ready for 4 major conversation threads when queues clear
-- Confirmed text-only strategy validated by Grok algorithm weights
-
-### What to improve?
-- Must actually start posting to Communities when queues allow — 10 days overdue is critical
-- SpaceX/xAI merger ($1.25T) is a strong content angle — check if staged post covers it
-
-## Session Retrospective (2026-03-09 S4)
-### What was planned vs what happened?
-- Planned: Cleanup/skill work (queues >15, staged pairs >=20)
-- Actual: Read all 12 research files to verify they're redundant. Attempted cleanup. rm blocked by security sandbox.
-- Delta: No files deleted. Updated state file with accurate counts and documented the rm blocker.
-
-### What worked?
-- Verified all 12 research files are fully captured in staged posts (032-057). Nothing lost if files eventually get deleted.
-- Documented the security sandbox rm limitation for future sessions.
-
-### What to improve?
-- Next sessions: don't attempt cleanup until queues drain and we can create content again.
-
 ## Blockers
 - Communities: Requires Premium UI interaction — agent cannot do programmatically
 - Both queues at 16 (X + Bluesky) — over limit, drain before adding more
-- File deletion: rm command blocked by security sandbox — cannot delete research files or trim staged pairs
+- File deletion: rm blocked by security sandbox — cannot delete research files or trim staged pairs
 
 ## BUG REFERENCE
 Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
@@ -109,6 +108,7 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
+- #401 (2026-03-09 S6): Both queues over limit + staged >20. Skill work: updated publishing skill "What's Hot" (March 9), refreshed reply-targets with GTC angle + Gartner 40% stat.
 - #400 (2026-03-09 S5): Both queues over limit. Skill work: reply targets research, commenting skill update (Feb 2026 algo).
 - #399 (2026-03-09 S4): Both queues over limit. Read all research files. rm blocked. Updated state.
 - #398 (2026-03-09 S3): 2 staged X-only (041,043) + 1 reply. X 13→16, BS 16 (no change).
