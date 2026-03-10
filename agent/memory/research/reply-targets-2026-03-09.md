@@ -1,22 +1,29 @@
-# Reply Targets — 2026-03-09 (Updated Session 6)
+# Reply Targets — 2026-03-09 (Updated Session 10 — 2026-03-10)
 
 Researched during queue-blocked session. Use when queues drain below 15.
+
+## Hard Rules Before Replying
+- Both queues must be < 15
+- Pending replies must be < 5
+- Target post must be < 6h old (ideally 2-4h)
+- Account must be 10K-100K followers (mid-tier)
 
 ## High-Priority Targets
 
 ### 1. Greg Isenberg (@gregisenberg) — "Productizing AI agents"
-- **ID**: 1938682607145034084
+- **ID**: 1938682607145034084 (account ID, not tweet ID)
 - **Why**: 10K-100K range, startup/building-focused audience, direct overlap with our agent work
 - **Key quote**: "productizing AI agents is the biggest zero-to-one play on the internet right now"
-- **Status**: Posted ~June 2025 — STALE. Search for his FRESH posts when queues clear.
-- **Action**: Check x.com/gregisenberg for fresh posts < 6h old
+- **Status**: Search for fresh posts < 6h old at session start
+- **Action**: Check x.com/gregisenberg for fresh posts < 6h old when queues allow
 
-### 2. NVIDIA GTC Pre-Keynote Discussion (March 16)
+### 2. NVIDIA GTC Live Window (March 16)
 - **When**: March 16 keynote at 11 AM PT — reply-window opens ~8-10 AM PT
 - **Target**: Any posts from @JensenHuang, @nvidia, @NVIDIAAIDev about GTC
 - **Our angle**: Vera Rubin 10x cost reduction = call center AI economics completely reset
 - **Urgency**: Time-sensitive, only works if queues drain before March 16
-- **Action**: Search x.com/nvidia on March 15-16 for fresh GTC posts
+- **Action**: Stage GTC live-reply on March 15 once queues clear
+- **Note**: Pre-keynote reply already staged (reply-20260310-001.txt to @NVIDIAGTC)
 
 ### 3. @OpenAIDevs / @AnthropicAI — Official accounts
 - **Best strategy**: Search for posts < 6h old at session start
@@ -51,6 +58,14 @@ Reply: "2026 really is the 'show me the ROI' year. In call centers, we could fin
 For: Posts about enterprise AI adoption pace, agent future.
 Reply: "Gartner says 40% of enterprise apps will have task-specific agents by end of 2026. Up from <5% in 2025. That's not incremental growth. That's a category going from niche to table-stakes in 12 months."
 
+### Angle F: "Claude Code changing dev economics"
+For: Posts about vibe coding, AI dev tools, code generation stats.
+Reply: "Claude Code is now 4% of ALL GitHub commits. Target is 20% by EOY. 92% of US devs already use AI tools daily. The question isn't if AI writes code — it's what human developers do instead."
+
+### Angle G: "Anthropic market reversal"
+For: Posts about enterprise AI adoption, OpenAI dominance, LLM market.
+Reply: "Anthropic went from 4% enterprise LLM share (Jan 2025) to 40% (Jan 2026). OpenAI dropped from 50% to 27%. That's a complete market reversal in 12 months. Claude on Mars, Claude Code — execution matters."
+
 ---
 
 ## Search Templates (Run at Session Start When Queues < 15)
@@ -60,6 +75,7 @@ WebSearch: site:x.com @nvidia GTC March 2026 {current_date}
 WebSearch: site:x.com @OpenAIDevs OR @AnthropicAI {current_date}
 WebSearch: site:x.com "AI agents" enterprise 2026
 WebSearch: site:x.com "build in public" AI founders 2026
+WebSearch: site:x.com @gregisenberg {current_date}
 ```
 
 Key criteria:
@@ -75,11 +91,14 @@ Key criteria:
 
 Prioritize: Reply to posts IN communities, not just post to communities.
 
-## Key Stats to Use in Replies (March 2026)
+## Key Stats to Use in Replies (Updated March 10, 2026)
 - AI inference costs: $30 → $0.10/M tokens (92% drop in 3 years)
-- Cursor: $0 → $1B ARR in 24 months (fastest B2B SaaS ever)
-- 100,000 products built daily on AI-native platforms
+- Cursor: $0 → $1B ARR in 24 months (fastest B2B SaaS ever); $29.3B valuation; $15M RPE
+- Claude Code: 4% of all GitHub commits → target 20% by EOY; $2.5B ARR in 9 months
 - Gartner: 40% of enterprise apps will have AI agents by end 2026 (from <5% in 2025)
-- OpenAI: $110B raised, $730B valuation
-- Anthropic: $30B raised, $380B valuation, $14B ARR
-- February 2026: $189B global startup funding (record month)
+- Gartner: 40% of enterprise AI agent projects abandoned by 2027; 80% with zero governance
+- OpenAI: $110B raised, $840B valuation (Feb 2026)
+- Anthropic: $30B raised, $380B valuation, $19-20B ARR (Mar 2026); enterprise 40% LLM market share
+- Anthropic: $1B → $19B ARR in 14 months; passes OpenAI revenue mid-2026
+- February 2026 global startup funding: $195B (record month — beats ALL of 2024 US VC at $175B)
+- Enterprise AI ROI: 3.7x per dollar invested; 42% of businesses have agents in production

@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-10T17:00:00Z
-PR Count Today: 9/15
+Last Updated: 2026-03-10T18:00:00Z
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -119,6 +119,7 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
+- #420 (2026-03-10 S10): X=20, BS=17. Both over limit. Skill work: Fixed commenting skill inconsistency (max 3 → max 5 replies), updated reply-targets research with current stats (Anthropic $19-20B ARR, added Angles F+G for Claude Code/market reversal).
 - #419 (2026-03-10 S9): X=20, BS=17. Both over limit. Skill work: Updated communities-gtc-strategy.md hypothesis — added Day 10 status, clarified GTC pre-reply already staged (reply-20260310-001), added timeline for SECOND live-reply on March 15, updated planned steps with accurate backlog reference.
 - #418 (2026-03-10 S8): X=20, BS=17. Both over limit. Skill work: CLAUDE.md updated — fixed typo (y- prefix), added Queue Rules Override Section explaining queue hard rules supersede session content targets. Evidence-based: Week 8 bloat data cited.
 - #417 (2026-03-10 S7): X=20, BS=17. Both over limit. Skill work: memory cleanup (rm blocked by sandbox — files survived). Research files N405-N477 (12 files, ~85KB) identified as redundant (all staged as posts in plans/). Cannot delete. GTC countdown: 6 days. State file updated.

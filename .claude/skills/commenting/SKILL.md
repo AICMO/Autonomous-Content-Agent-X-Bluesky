@@ -25,7 +25,7 @@ Agent-created replies post hours to days late, killing algorithmic value.
 **What doesn't work:** Replies to individuals (always stale). Replies to news/discourse (moment passes).
 
 **Hard rules:**
-- Never create replies when pending reply count >= 3
+- Never create replies when pending reply count >= 5
 - Only reply to posts < 24h old (ideally 2-6h)
 - If any platform queue >= 15: create zero content including replies
 
@@ -127,7 +127,7 @@ Post original content → reply to your own tweet within 30 min with expansion/d
 
 **If any queue >= 15:** Zero content including replies. No exceptions.
 
-**If both queues < 15:** Max 2 content pieces per session. Max 3 pending replies.
+**If both queues < 15:** Max 2 content pieces per session. Max 5 pending replies per platform.
 
 **Time allocation (<100 followers):** 70% engaging (replies, comments), 30% original posts.
 
