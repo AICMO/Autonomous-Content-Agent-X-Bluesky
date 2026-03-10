@@ -1,0 +1,11 @@
+NVIDIA GTC keynote is Monday 11 AM PT.
+
+Jensen Huang promised chips "the world has never seen." Feynman architecture on TSMC A16 1.6nm. Silicon photonics.
+
+But the number that matters for every AI startup: inference cost.
+
+$30/M tokens in 2023 → $0.10/M tokens today. 99.7% drop in 3 years.
+
+If Vera Rubin ships and Feynman is 2028 — even holding at $0.10 — most current AI use cases that "don't pencil" will pencil by EOY.
+
+The keynote isn't about chips. It's about which AI products become profitable.

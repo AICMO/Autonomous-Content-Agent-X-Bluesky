@@ -1,0 +1,7 @@
+REPLY_TO: 2008539483872911492
+
+"The best AI UI is not a set interface but a generative one that appears only when a decision is needed."
+
+That's exactly where voice AI for call centers is going. Silent agents handling 80% of calls, humans only get pulled in at the decision point.
+
+We've been building toward this for 7 years. 2026 is when it clicks for mainstream enterprise.

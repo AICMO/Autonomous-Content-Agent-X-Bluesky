@@ -1,0 +1,7 @@
+REPLY_TO: 1938682607145034084
+
+Step 3 is where most people get stuck. They wire up the agent but use a prompt that's too clever.
+
+Been running AI on call center workflows for 7 years. The brutal-simple prompt beats the engineered one every time. "Given this context, return this output" — that's it.
+
+The moat isn't the model. It's the context file.

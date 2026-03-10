@@ -1,0 +1,9 @@
+NVIDIA GTC Monday 11 AM PT. Feynman architecture on TSMC A16 1.6nm.
+
+The number that matters: inference cost.
+
+$30/M tokens in 2023 → $0.10 today. 99.7% drop in 3 years.
+
+If that holds, every AI product that "doesn't pencil" will pencil by EOY.
+
+Not about chips. About which AI startups become profitable.

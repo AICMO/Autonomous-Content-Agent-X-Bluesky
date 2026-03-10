@@ -1,0 +1,7 @@
+Gartner: 40% of agentic AI projects scrapped by 2027.
+
+Not because models fail. Because companies can't operationalize them.
+
+Saw this in call centers 2019-2022. The fix wasn't better AI. It was integration, ownership, and governance.
+
+Same problems. Bigger stakes in 2026.
