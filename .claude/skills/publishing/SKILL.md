@@ -50,18 +50,22 @@ Every post MUST have all three:
 2. **Money angle** — Dollar amounts, specific revenue numbers
 3. **Action links** — Real repos, tools, tutorials the reader can use TODAY
 
-### What's Hot Right Now (March 9, 2026 — update weekly)
+### What's Hot Right Now (March 10, 2026 — update weekly)
 
 | Trend | Money Angle | Key Links |
 |-------|-------------|-----------|
-| **NVIDIA GTC March 16-19** (IMMINENT) | Vera Rubin arch: 10x cheaper inference, 4x fewer GPUs. Feynman preview | nvidia.com/gtc |
-| **OpenAI $110B funding** (Feb 2026) | Amazon $50B + SoftBank $30B + NVIDIA $30B. $730B valuation | techcrunch.com |
-| **Anthropic $30B Series G** ($380B val, $14B ARR) | $0→$14B in 3 years, fastest B2B SaaS ever | anthropic.com |
-| **$189B global startup funding** (Feb 2026 record) | Record month — beats all of 2024 VC combined | crunchbase.com |
-| **Big tech capex $650-690B in 2026** | 67-74% YoY increase, 75% AI infrastructure | bloomberg.com |
-| **Claude overtaking ChatGPT** in enterprise | 4 top ad agencies, enterprise automation wave | anthropic.com |
-| **Samsung 800M Gemini devices by EOY** | Largest AI device deployment ever | samsung.com |
-| **Vibe Coding** (92% dev adoption) | Cursor $2B ARR, Claude Code 4% GitHub commits | cursor.com |
+| **NVIDIA GTC March 16-19** (6 DAYS AWAY) | Vera Rubin arch: 10x cheaper inference, 4x fewer GPUs. Feynman chip on 1nm TSMC | nvidia.com/gtc |
+| **OpenAI $110B funding** (Feb 2026) | Amazon $50B + SoftBank $30B + NVIDIA $30B. $840B valuation | techcrunch.com |
+| **Anthropic $30B Series G** ($380B val, $19B ARR) | $1B→$19B ARR in 14 months, fastest B2B SaaS ever | anthropic.com |
+| **$195B AI investment** (Feb 2026 — 1 month beats all 2024 VC) | OpenAI $110B + Anthropic $30B + Waymo $16B + humanoids $19B | crunchbase.com |
+| **GPT-5.4 desktop control** (March 5, 2026) | AI that uses your computer. 83% GDPval, 75% OSWorld. $300B+ enterprise software disrupted | openai.com |
+| **Meta acquires Manus AI for $2B+** | 3B users get AI agents via WhatsApp/Instagram/Facebook | bloomberg.com |
+| **Gemini 3 Deep Think** (84.6% ARC-AGI-2) | The test designed to be AI-resistant. 48.4% Humanity's Last Exam without tools | deepmind.google |
+| **Cursor Automations + Bugbot** ($29.3B val) | 92% of devs use AI coding tools. Cursor: AI acts without being asked | cursor.com |
+| **Big Four AI agents in production** | Deloitte Zora AI, EY.ai, KPMG, PwC. 42% of businesses have agents live. 3.7x ROI | deloitte.com |
+| **Gartner: 40% enterprise agent projects abandoned by 2027** | 80% deployed with zero governance. $450B+ enterprise agentic AI by 2035 | gartner.com |
+| **Basis $1.15B unicorn** — agentic accounting | $100M Series B. Automates full audit+tax. $600B global accounting market disrupted | basis.ai |
+| **Vibe Coding** (92% dev adoption) | Claude Code 4% of ALL GitHub commits. Cursor $29.3B. | cursor.com |
 
 ### Content Priorities (Ranked)
 

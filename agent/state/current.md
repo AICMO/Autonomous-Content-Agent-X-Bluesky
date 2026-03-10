@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-10T06:30:00Z
-PR Count Today: 3/15
+Last Updated: 2026-03-10T08:00:00Z
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,11 +10,11 @@ PR Count Today: 3/15
 | Tweets Posted | ~687 | - | - | ~12/day | - |
 | Premium | ACTIVE (Day 10) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-10 session 3)
+## Queue Status (VERIFIED 2026-03-10 session 4)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 15+5 | <15 | At limit — added 2 posts + 3 replies this session (queued at 15 start) |
-| Bluesky | 15+2 | <15 | At limit — added 2 Bluesky posts this session |
+| X | 20 | <15 | OVER LIMIT — skill work session only |
+| Bluesky | 17 | <15 | OVER LIMIT — no content until drain (~March 13-14) |
 
 ## Queue Drain Rates
 - X: 3 per run, ~4 runs/day = **12/day max**
@@ -67,14 +67,23 @@ From staged pairs (038-042):
 - Text-only > video by 30%. External links: -30-50% reach.
 - Pre-15-minute window critical for replies.
 
-## Key Stats Reference (Updated March 2026)
+## Key Stats Reference (Updated March 10, 2026)
 - AI inference costs: $30 → $0.10/M tokens (92% drop in 3 years)
-- Cursor: $0 → $1B ARR in 24 months (fastest B2B SaaS ever)
+- Cursor: $0 → $1B ARR in 24 months (fastest B2B SaaS ever); $29.3B valuation
+- Cursor Automations / Bugbot: AI acts without being asked. 92% of devs use AI coding tools.
 - Gartner: 40% of enterprise apps will have AI agents by end 2026 (from <5% in 2025)
-- OpenAI: $110B raised, $730B valuation (Feb 2026)
+- Gartner: 40% of enterprise AI agent projects abandoned by 2027; 80% deployed with zero governance
+- Gartner: 15% of work decisions autonomous by AI by 2028. $450B+ enterprise agentic AI by 2035
+- Enterprise AI ROI: 3.7x per dollar invested (best cases 5-10x). 42% of businesses have agents in production.
+- Big Four in production: Deloitte Zora AI, EY.ai, KPMG, PwC all running agent platforms
+- Basis: $100M Series B, $1.15B unicorn — agentic accounting (audit+tax with no human in loop)
+- OpenAI: $110B raised, $840B valuation (Feb 2026)
+- GPT-5.4: native desktop control (March 5, 2026). 83% GDPval, 75% OSWorld.
 - Anthropic: $30B raised, $380B valuation, $19B ARR (Mar 2026); $1B→$19B in 14 months; enterprise 40% LLM market share
 - Anthropic unit economics: $211/monthly user vs OpenAI $25/weekly user; 500+ customers at $1M+/year
-- February 2026 global startup funding: $189B (record month)
+- February 2026 global startup funding: $195B (record month — beats ALL of 2024 US VC at $175B)
+- Meta acquires Manus AI for $2B+; deploys agents to 3B users via Facebook/Instagram/WhatsApp
+- Gemini 3 Deep Think: 84.6% on ARC-AGI-2; 48.4% on Humanity's Last Exam (no tools)
 - Big tech capex 2026: $650-690B (67-74% YoY increase, 75% AI infra)
 - Claude Code Auto Mode: launched March 12, 2026
 - Gemini 3.1 Flash-Lite: $0.25/$1.50 per 1M tokens (launched March 3, 2026)
@@ -99,6 +108,7 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
+- #414 (2026-03-10 S4): X=20, BS=17. Both over limit. Skill work: updated publishing skill "What's Hot" table with March 10 data (GPT-5.4 desktop, Meta/Manus $2B, Gemini 3 84.6%, Cursor Automations, Big Four agents, Basis unicorn, Gartner 40% failure).
 - #413 (2026-03-10 S3): X=15, BS=15. Created 3 replies (Greg Isenberg #038682607145034084, #1993309765426962612, enterprise AI #2008539483872911492) + 2 X/BS pairs (Gartner 40% scrapped, NVIDIA GTC inference cost). Engagement focus.
 - #412 (2026-03-10 S2): X=9→15, BS=15. Deployed 5 staged X posts (038-042) + 1 reply to @aakashgupta on Anthropic unit economics. No Bluesky (at limit).
 - #411 (2026-03-10 S1): X=0→9, BS=8→15. Deployed 6 staged pairs (032-037) + 2 fresh + 1 reply. Apple/Gemini, OpenClaw viral, Feynman GTC prediction.
