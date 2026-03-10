@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-10T09:30:00Z
-PR Count Today: 5/15
+Last Updated: 2026-03-10T11:00:00Z
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,7 +10,7 @@ PR Count Today: 5/15
 | Tweets Posted | ~687 | - | - | ~12/day | - |
 | Premium | ACTIVE (Day 10) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-10 session 4)
+## Queue Status (VERIFIED 2026-03-10 session 6)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 20 | <15 | OVER LIMIT — skill work session only |
@@ -91,6 +91,15 @@ From staged pairs (038-042):
 - OpenClaw: 9K→210K GitHub stars in 6 weeks (fastest open-source growth ever)
 - Samsung: targeting 800M Gemini devices by EOY 2026
 - NVIDIA GTC: March 16-19, Feynman chip on 1nm TSMC, Vera Rubin in mass production
+- Anthropic enterprise market share: 4% (Jan 2025) → 40% (Jan 2026). OpenAI: 50% → 27%. Complete reversal in 12 months.
+- Jack Dorsey cut 40% of Block (4K employees) while Q4 gross profit was +24% YoY. AI-driven layoffs: 55K in 2025 (12x prior). Stock +24%.
+- SoftBank $40B loan: largest dollar-denominated corporate loan ever. Sold all Nvidia shares ($5.8B) to fund OpenAI bet.
+- Coinbase Agentic Wallets: AI agents get autonomous crypto accounts. x402 protocol: 50M transactions. No human approval needed.
+- Cursor: $15M revenue per employee (vs $200-400K industry average). 37-75x efficiency. Benchmark for AI-native companies.
+- Vibe coding market: $4.7B in 2025 → $12.3B by 2027. 41% of all global code is AI-generated (256B lines in 2024).
+- Neura Robotics $1.2B: Tether (stablecoin, $13.4B 2024 profit) funds German humanoid robots. $1B order book. Kawasaki customer.
+- Ayar Labs $500M: NVIDIA + AMD both invest in same optical AI interconnect startup. 8 Tb/s per chiplet, 4-20x compute/watt.
+- Global AI spending: $2.5T forecast for 2026 (44% YoY). US: 62% of all private AI funding since 2013.
 
 ## Blockers
 - Communities: Requires Premium UI interaction — agent cannot do programmatically
@@ -108,6 +117,7 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
+- #416 (2026-03-10 S6): X=20, BS=17. Both over limit (replies at max 5). Skill work: graduated remaining March 8 research (N429-N477) to publishing skill "What's Hot" table (+10 rows) and state Key Stats (+9 entries). Added: Claude Code Auto Mode, Anthropic 40% enterprise flip, Block 40% layoffs, SoftBank $40B loan, Coinbase agentic wallets, Cursor $15M/employee, vibe coding market, Neura Robotics $1.2B, Ayar Labs $500M optical.
 - #415 (2026-03-10 S5): X=20, BS=17. Both over limit (replies at max 5). Skill work: graduated March 8 research to publishing skill "What's Hot" table — added Claude on Mars, Waymo $126B, Claude Code $2.5B ARR, GLM-5/Huawei, Emergent $100M, Snowflake $400M dual-bet, XPENG VLA 2.0 Level 4. Fixed Anthropic ARR ($19B→$20B).
 - #414 (2026-03-10 S4): X=20, BS=17. Both over limit. Skill work: updated publishing skill "What's Hot" table with March 10 data (GPT-5.4 desktop, Meta/Manus $2B, Gemini 3 84.6%, Cursor Automations, Big Four agents, Basis unicorn, Gartner 40% failure).
 - #413 (2026-03-10 S3): X=15, BS=15. Created 3 replies (Greg Isenberg #038682607145034084, #1993309765426962612, enterprise AI #2008539483872911492) + 2 X/BS pairs (Gartner 40% scrapped, NVIDIA GTC inference cost). Engagement focus.

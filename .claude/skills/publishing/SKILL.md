@@ -72,6 +72,14 @@ Every post MUST have all three:
 | **Emergent $100M ARR** — vibe coding in 8 months | Fastest startup ARR ramp ever. 6M users, 70% had zero prior coding experience. $70M raise. | emergent.sh |
 | **Snowflake $400M AI dual-bet** | $200M each to OpenAI AND Anthropic in same month. 12,600 enterprise customers in scope. | snowflake.com |
 | **XPENG VLA 2.0** — Level 4 consumer AVs | First Level 4 autonomous driving deployed to consumer vehicles via software update. Shipped before Tesla/Waymo. | xpeng.com |
+| **Claude Code Auto Mode** (March 11-12 launch) | AI autonomously decides which actions need approval vs can self-handle. 4% GitHub commits → 20% by EOY. $2.5B ARR. | anthropic.com |
+| **Anthropic 40% enterprise share** (was 4% in Jan 2025) | OpenAI lost 23 points (50%→27%), Anthropic gained 36 points in 12 months. Complete market reversal. | winbuzzer.com |
+| **Jack Dorsey cuts 40% of Block on record profits** | Q4 2025 gross profit: $2.87B (+24%). Stock up 24% on layoff news. Dorsey: "Every CEO will follow." AI-driven layoffs hit 55K in 2025 (12x prior). | fortune.com |
+| **SoftBank $40B loan** — largest ever sought | Largest dollar-denominated corporate loan in history. SoftBank sold entire Nvidia stake ($5.8B) to fund AI bets. $19.8B OpenAI gains in 9 months. | bloomberg.com |
+| **Coinbase Agentic Wallets** — AI gets a bank account | AI agents spend/earn/trade crypto without human approval. x402 protocol: 50M transactions. Deploy in <2 min. | coinbase.com |
+| **Cursor $15M revenue/employee** | $29.3B valuation, 360K paying users. $15M RPE vs industry $200-400K = 37-75x efficiency. Benchmark for AI-native companies. | cursor.com |
+| **Vibe coding: $4.7B → $12.3B by 2027** | 41% of all global code is AI-generated (256B lines in 2024). 92% of US devs use AI daily. | cursor.com |
+| **Neura Robotics $1.2B** — crypto funds humanoid robots | Tether (stablecoin issuer, $13.4B profit in 2024) funds German humanoid robot maker. $1B order book. Kawasaki customer. | neura.ai |
 
 ### Content Priorities (Ranked)
 
