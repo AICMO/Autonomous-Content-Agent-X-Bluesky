@@ -84,6 +84,10 @@ Without Communities: follower velocity = +1/week → 5K goal ETA = 95 years.
 ## GTC Deadline (March 16, 2026)
 
 - Pre-reply staged: `reply-20260310-001.txt` (to @NVIDIAGTC, Feynman chip angle)
-- Need: Second live-reply when queue drains (stage March 13-15)
+- **5 replies staged as of March 10 (MAX)** — do NOT add another until queue drains and reply count drops below 5
+- Second live-reply: Stage on March 15 once reply count < 5. Use Angle H from reply-targets-2026-03-09.md.
+  - Angle H: "Vera Rubin promises 4x fewer GPUs per workload. Add to the 92% inference cost drop since 2023. At this rate, GPU cost stops being the constraint entirely. The new bottleneck: data quality and distribution strategy."
+  - Find live @JensenHuang/@nvidia/@NVIDIAAIDev tweet from the keynote (post < 2h old)
 - Our angle: Vera Rubin 10x cheaper = call center AI economics reset
 - X clears March 11-12, Bluesky clears March 13-14
+- **Deploy order when X < 15:** staged pairs 043-049 (plans/) first, then GTC content

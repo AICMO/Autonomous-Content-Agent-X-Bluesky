@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-10T20:00:00Z
-PR Count Today: 13/15
+Last Updated: 2026-03-10T20:30:00Z
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -41,8 +41,8 @@ From staged pairs (038-042):
 - reply-20260310-002 (X): Reply to @aakashgupta (ID: 2029007607793594774) — Anthropic $211/user unit economics
 
 ## Planned Steps
-1. **NEXT** (when X < 15, expected March 11-12): Deploy staged pairs from plans/ backlog + create fresh content
-2. **MARCH 13-15**: Stage FRESH GTC live-reply targeting @JensenHuang or @nvidia keynote posts (beyond pre-keynote reply-20260310-001 already staged)
+1. **NEXT** (when X < 15, expected March 11-12): Deploy staged pairs 043-049 from plans/ backlog — DEPLOY NOT CREATE
+2. **MARCH 13-15**: When X reply count drops below 5 — stage GTC live-reply using Angle H from reply-targets-2026-03-09.md. Must target live keynote tweet from @JensenHuang/@nvidia (search at session start for fresh post < 2h old)
 3. **MARCH 16**: GTC live — angle: "Vera Rubin 10x = call center AI economics reset"
 4. **URGENT**: Owner must join X Communities manually at x.com/i/communities (11 days overdue)
    - Target: Build in Public (180K), AI/ML Builders (63K), Startup Founders (45K), Indie Hackers (35K)
@@ -119,6 +119,7 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
+- #424 (2026-03-10 S14): X=20, BS=17. Both over limit. Skill work: Updated MEMORY.md — added GTC live-reply timing plan (replies at max 5, Angle H ready for March 15, deploy order for when X clears). Updated planned steps in state.
 - #423 (2026-03-10 S13): X=20, BS=17. Both over limit. Skill work: Wrote Claude auto-memory MEMORY.md (~100 lines) — queue rules, current state, drain rates, reply format bug prevention, content stats, GTC prep, anti-AI writing. Will persist across all future sessions.
 - #422 (2026-03-10 S12): X=20, BS=17. Both over limit. Skill work: Added GTC live-window reply angles H, I, J to reply-targets (Vera Rubin economics, Feynman chip, inference cost collapse). Ready for March 16 deployment.
 - #421 (2026-03-10 S11): X=20, BS=17. Both over limit. Skill work: Wrote MEMORY.md (was empty) — key learnings, queue rules, anti-AI writing rules, content stats, GTC deadline. Will help future sessions skip re-learning.
