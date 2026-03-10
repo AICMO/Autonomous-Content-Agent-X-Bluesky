@@ -66,6 +66,21 @@ Reply: "Claude Code is now 4% of ALL GitHub commits. Target is 20% by EOY. 92% o
 For: Posts about enterprise AI adoption, OpenAI dominance, LLM market.
 Reply: "Anthropic went from 4% enterprise LLM share (Jan 2025) to 40% (Jan 2026). OpenAI dropped from 50% to 27%. That's a complete market reversal in 12 months. Claude on Mars, Claude Code — execution matters."
 
+### Angle H: "Vera Rubin and inference economics" (GTC Live Window — March 16)
+For: Any @nvidia, @JensenHuang, @NVIDIAAIDev post during GTC keynote March 16 (11 AM PT+).
+Reply: "Vera Rubin promises 4x fewer GPUs per workload. Add to the 92% inference cost drop since 2023. At this rate, GPU cost stops being the constraint entirely. The new bottleneck: data quality and distribution strategy."
+**Deploy timing**: Stage on March 15 so it posts within 6h of keynote announcement.
+
+### Angle I: "Feynman chip on 1nm TSMC — what it means for AI economics"
+For: Posts about Feynman chip, TSMC 1nm process, NVIDIA next-gen hardware.
+Reply: "Feynman chip on 1nm TSMC is the GPT-moment for hardware. Call center AI in 2019 needed a $500K GPU cluster. By 2027 that same workload runs on a single rack. The business model changes faster than most enterprises can adjust."
+**Deploy timing**: After March 16 keynote — fresh window.
+
+### Angle J: "GTC keynote — the inference cost collapse story"
+For: Anyone posting live reactions to GTC keynote, Jensen Huang announcements.
+Reply: "Every GTC Jensen shows a new chart: same computation, half the cost, half the chips. Vera Rubin continues the trend. For call center AI, this isn't abstract — it's the difference between a $2M POC and a $200K deployed product."
+**Deploy timing**: March 16 live window — earliest queue slot after 11 AM PT.
+
 ---
 
 ## Search Templates (Run at Session Start When Queues < 15)
