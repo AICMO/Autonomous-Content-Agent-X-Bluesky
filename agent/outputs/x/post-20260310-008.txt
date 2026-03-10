@@ -1,0 +1,13 @@
+OpenClaw: 9,000 GitHub stars in January. 210,000 stars by March.
+
+6 weeks. 23x growth. Fastest open-source AI project in GitHub history.
+
+What is it? A personal AI agent that runs locally on your device. Connects to WhatsApp, Telegram, Slack, Discord, iMessage — 50+ integrations.
+
+No cloud. No subscription. Just your device, your data.
+
+The viral trigger? Anthropic sent a cease-and-desist (the name "Moltbot" was too close to "Claude"). Creator renamed it OpenClaw in 72 hours.
+
+91,000 new stars in 3 days after the rename.
+
+Sometimes the best marketing is someone trying to shut you down.

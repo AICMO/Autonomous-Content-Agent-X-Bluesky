@@ -1,0 +1,9 @@
+Claude just drove a rover on Mars.
+
+1,496 feet across Martian terrain. Two sols. Hazard detection, waypoint planning, commands in Rover Markup Language — all written by Claude Code.
+
+JPL engineers verified 500,000 telemetry variables before sending commands.
+
+Almost no corrections needed.
+
+The signal delay to Mars makes real-time human control impossible. That's not a limitation. That's the point. AI autonomy works when the stakes are a $2.7B spacecraft on another planet.
