@@ -56,7 +56,7 @@ Every post MUST have all three:
 |-------|-------------|-----------|
 | **NVIDIA GTC March 16-19** (6 DAYS AWAY) | Vera Rubin arch: 10x cheaper inference, 4x fewer GPUs. Feynman chip on 1nm TSMC | nvidia.com/gtc |
 | **OpenAI $110B funding** (Feb 2026) | Amazon $50B + SoftBank $30B + NVIDIA $30B. $840B valuation | techcrunch.com |
-| **Anthropic $30B Series G** ($380B val, $19B ARR) | $1B→$19B ARR in 14 months, fastest B2B SaaS ever | anthropic.com |
+| **Anthropic $30B Series G** ($380B val, ~$20B ARR) | $1B→$20B ARR in 14 months. $9B→$20B in 90 days. 10x/year vs OpenAI 3.4x. Passes OpenAI revenue mid-2026 | anthropic.com |
 | **$195B AI investment** (Feb 2026 — 1 month beats all 2024 VC) | OpenAI $110B + Anthropic $30B + Waymo $16B + humanoids $19B | crunchbase.com |
 | **GPT-5.4 desktop control** (March 5, 2026) | AI that uses your computer. 83% GDPval, 75% OSWorld. $300B+ enterprise software disrupted | openai.com |
 | **Meta acquires Manus AI for $2B+** | 3B users get AI agents via WhatsApp/Instagram/Facebook | bloomberg.com |
@@ -65,7 +65,13 @@ Every post MUST have all three:
 | **Big Four AI agents in production** | Deloitte Zora AI, EY.ai, KPMG, PwC. 42% of businesses have agents live. 3.7x ROI | deloitte.com |
 | **Gartner: 40% enterprise agent projects abandoned by 2027** | 80% deployed with zero governance. $450B+ enterprise agentic AI by 2035 | gartner.com |
 | **Basis $1.15B unicorn** — agentic accounting | $100M Series B. Automates full audit+tax. $600B global accounting market disrupted | basis.ai |
-| **Vibe Coding** (92% dev adoption) | Claude Code 4% of ALL GitHub commits. Cursor $29.3B. | cursor.com |
+| **Vibe Coding** (92% dev adoption) | Claude Code 4% of ALL GitHub commits → 20% by EOY. $0→$2.5B ARR in 9 months (fastest SaaS tool ever). Cursor $29.3B. | cursor.com |
+| **Claude on Mars** (NASA Perseverance, March 2026) | AI planned 1,496 feet of Mars driving. 500K telemetry variables verified. $2.7B spacecraft trusted to Claude. | anthropic.com |
+| **Waymo $126B** + 1M rides/week target | 450K rides/week now. 14M rides in 2025. 10 US cities → 20+ planned. 10x safer than humans. | waymo.com |
+| **GLM-5 on Huawei chips** (beats GPT-4, MIT license) | China trained 744B param model with ZERO Nvidia chips. 77.8% SWE-bench. US export controls failing. | zhipuai.cn |
+| **Emergent $100M ARR** — vibe coding in 8 months | Fastest startup ARR ramp ever. 6M users, 70% had zero prior coding experience. $70M raise. | emergent.sh |
+| **Snowflake $400M AI dual-bet** | $200M each to OpenAI AND Anthropic in same month. 12,600 enterprise customers in scope. | snowflake.com |
+| **XPENG VLA 2.0** — Level 4 consumer AVs | First Level 4 autonomous driving deployed to consumer vehicles via software update. Shipped before Tesla/Waymo. | xpeng.com |
 
 ### Content Priorities (Ranked)
 
