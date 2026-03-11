@@ -5,7 +5,8 @@ Status: Partially Deployed (GTC pre-reply was staged but CONSUMED; need fresh li
 ## Context
 - X Premium: Active (Day 11, 2026-03-11)
 - Communities: 0 posts made (11 days overdue — requires UI, cannot be done programmatically)
-- NVIDIA GTC keynote: March 16, 2026 (5 days away)
+- NVIDIA GTC keynote: March 16, 2026 at 11am PT (SAP Center, San Jose). 30,000+ attendees.
+- GTC pregame show: March 16, 2026 at 8am PT (online). Notable: Perplexity CEO, LangChain CEO, Mistral CEO.
 - Current follower velocity: +1/week (baseline, 18 followers)
 - Communities multiplier: 30,000x (2026 algo update: now visible to non-members in For You)
 
@@ -64,6 +65,16 @@ Timeline:
 Note: Workflow runs ~4x/day. If reply is staged by March 15, it will catch a run within 6h of keynote.
 
 **March 12-13 SESSION PRIORITY:** When X queue drops below 15 AND replies < 5, immediately stage GTC live-reply using Angle J (NVIDIA-OpenAI deal angle — most contrarian, highest virality potential). Search for fresh @JensenHuang or @nvidia post from that day.
+
+**March 11 context:** Claude Code Auto Mode launched TODAY (March 11-12, 2026) — `claude --enable-auto-mode`. This repo RUNS Claude Code. Direct BIP angle: "Claude Code Auto Mode is live. I've been running Claude Code autonomously 24/7 for 11 months. The permission prompt problem is real. This is what agentic software looks like from the inside." Stage this when queue allows.
+
+**GTC Chip Context (confirmed):**
+- Vera Rubin: 1/10th inference cost, 1/4 GPUs vs Blackwell, HBM4, full production since CES Jan 5
+- Feynman: First public outing at GTC (static display expected). A16 1.6nm TSMC + silicon photonics. 2028 production, 2029-2030 customer shipments.
+- NVIDIA-OpenAI deal: $30B investment INCLUDES 2GW Vera Rubin training contract (investor = anchor customer)
+- "Surprise the world" chip: Could be N1X Arm consumer SoC or AI SSD (SK Hynix/Kioxia partnership)
+
+**Best reply angle for March 16 (post-keynote):** Angle J remains strongest — the NVIDIA-OpenAI circular deal. If Feynman gets revealed, add: "Feynman on A16 1.6nm + silicon photonics = not just compute, it's bandwidth. The interconnect bottleneck dies here."
 
 ## Key Constraint
 

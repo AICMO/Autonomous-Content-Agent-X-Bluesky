@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-11T15:30:00Z
-PR Count Today: 8/15
+Last Updated: 2026-03-11T16:00:00Z
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,7 +10,7 @@ PR Count Today: 8/15
 | Tweets Posted | ~687 | - | - | ~12/day | - |
 | Premium | ACTIVE (Day 10) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-11 session 8)
+## Queue Status (VERIFIED 2026-03-11 session 9)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 15 (at limit, 13 tweets + 2 replies) | <15 posts | AT LIMIT — zero content this session |
@@ -93,7 +93,8 @@ From staged pairs (038-042):
 - Meta acquires Manus AI for $2B+; deploys agents to 3B users via Facebook/Instagram/WhatsApp
 - Gemini 3 Deep Think: 84.6% on ARC-AGI-2; 48.4% on Humanity's Last Exam (no tools)
 - Big tech capex 2026: $650-690B (67-74% YoY increase, 75% AI infra)
-- Claude Code Auto Mode: launched March 12, 2026
+- Claude Code Auto Mode: launched March 11-12, 2026. `--enable-auto-mode` flag. Safer alternative to `--dangerously-skip-permissions`. Adds risk classification per action. Enterprise: MDM/registry controls. Increases token cost + latency.
+- Claude Code Review: launched March 9-10, 2026. Parallel AI agents review PRs for logic errors, bugs, security. Team/Enterprise research preview.
 - Gemini 3.1 Flash-Lite: $0.25/$1.50 per 1M tokens (launched March 3, 2026)
 - Apple Siri: now powered by Google Gemini 1.2T params (iOS 26.4, March 2026)
 - OpenClaw: 9K→210K GitHub stars in 6 weeks (fastest open-source growth ever)
@@ -129,6 +130,7 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
+- #434 (2026-03-11 S9): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Skill work: Researched GTC 2026 keynote timing (March 16, 11am PT; pregame 8am PT, 30K+ attendees), Claude Code Auto Mode live (March 11-12, `--enable-auto-mode`), Feynman chip context (A16 1.6nm + silicon photonics, 2028 prod). Updated GTC hypothesis doc with precise timing, new chip angles, BIP hook for Claude Code Auto Mode. Follower count: 18.
 - #433 (2026-03-11 S8): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Skill work: Updated GTC hypothesis doc — confirmed pre-reply (reply-20260310-001) is gone from outputs, updated Angle J as primary GTC live-reply angle, clarified March 12-13 as target staging window. Planned steps updated. Follower count: 18.
 - #432 (2026-03-11 S7): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Memory cleanup: Compressed ai-news-2026-03-08c through 2026-03-08l (10 files, ~35KB freed). All content graduated to publishing skill in sessions #414-416. Memory: 468KB→436KB. Follower count: 18.
 - #431 (2026-03-11 S6): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Skill work: Researched 3 fresh March 11 stories (LeCun $1.03B/12 employees, OpenAI GitHub killer, NVIDIA-OpenAI Vera Rubin deal). Added all 3 to publishing skill "What's Hot" table. Updated state Key Stats. Follower count: 18.
