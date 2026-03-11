@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-11T17:00:00Z
-PR Count Today: 10/15
+Last Updated: 2026-03-11T17:30:00Z
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -41,15 +41,13 @@ From staged pairs (038-042):
 - reply-20260310-002 (X): Reply to @aakashgupta (ID: 2029007607793594774) — Anthropic $211/user unit economics
 
 ## Planned Steps
-1. **NEXT (when X < 15, March 12)**: Deploy staged pairs 057-073 (16 pairs ready in plans/). Also stage from fresh research (ai-news-2026-03-11.md): Decagon $250M BIP angle, Nscale $2B European AI infra, Claude Code Auto Mode BIP.
-2. **MARCH 12-13 (URGENT)**: When replies < 5, stage GTC live-reply using Angle J (most contrarian):
-   - Angle J: "The hidden story in Vera Rubin: NVIDIA's $30B OpenAI investment INCLUDES a 2GW Vera Rubin training contract. The investor IS the anchor customer. Jensen sells chips to a company he funded."
-   - Search @JensenHuang or @nvidia for post < 6h old that day as REPLY_TO target
-   - MUST be staged by March 15 EOD to catch workflow run within 6h of keynote
-3. **MARCH 16**: GTC keynote at 11 AM PT. Pair 050 + pre-staged live-reply will auto-post. Create fresh content on actual Feynman/Vera Rubin announcements.
-4. **URGENT (owner action)**: Join X Communities at x.com/i/communities (11+ days overdue)
+1. **NEXT (March 12, when X < 15)**: Deploy staged pairs 057-073 (16 pairs ready in plans/). Bluesky queue expected lower by then (~10). Start with Decagon $250M BIP post (pair exists or create fresh).
+2. **MARCH 12-13 (URGENT)**: When replies < 5, create GTC live-reply targeting fresh @JensenHuang/@nvidia post (< 6h old). Use Angle J (investor = anchor customer). See reply-targets-2026-03-11.md for pre-written draft and deployment checklist.
+   - MUST be staged by March 15 EOD to catch workflow run within 6h of March 16 keynote
+3. **MARCH 16**: GTC keynote at 11 AM PT. Create fresh content on actual Feynman/Vera Rubin announcements.
+4. **URGENT (owner action)**: Join X Communities at x.com/i/communities (12+ days overdue)
    - Target: Build in Public (180K), AI/ML Builders (63K), Startup Founders (45K), Indie Hackers (35K)
-5. **Best BIP angle ready**: Decagon $250M — "I've spent 7 years in call center AI. Decagon just raised $250M to automate what we built manually." Stage first when queue clears.
+5. **Queue note**: 84 staged files (42 pairs) in plans/ — OVER limit, but cannot delete (rm blocked). Deploy from front of queue each session when X < 15.
 
 ## GTC Deadline Countdown (CRITICAL)
 - March 16 keynote: **5 days away (as of March 11)**
@@ -133,6 +131,7 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
+- #436 (2026-03-11 S11): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Skill work: Created reply-targets-2026-03-11.md with pre-written GTC reply drafts (Angles B, C, J), specific tweet IDs, and deployment checklist for March 12-13 window. GTC keynote in 5 days.
 - #435 (2026-03-11 S10): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Research: Found fresh March 11 stories: Nscale $2B/$14.6B (Europe's largest Series C, NVIDIA-backed), Decagon $250M/$4.5B (AI call center agents — BIP angle for owner's 7 years in space), Baseten $300M/$5B (inference infra, Jan 2026), Claude Code Auto Mode details confirmed. Saved to ai-news-2026-03-11.md. Follower count: 18.
 - #434 (2026-03-11 S9): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Skill work: Researched GTC 2026 keynote timing (March 16, 11am PT; pregame 8am PT, 30K+ attendees), Claude Code Auto Mode live (March 11-12, `--enable-auto-mode`), Feynman chip context (A16 1.6nm + silicon photonics, 2028 prod). Updated GTC hypothesis doc with precise timing, new chip angles, BIP hook for Claude Code Auto Mode. Follower count: 18.
 - #433 (2026-03-11 S8): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Skill work: Updated GTC hypothesis doc — confirmed pre-reply (reply-20260310-001) is gone from outputs, updated Angle J as primary GTC live-reply angle, clarified March 12-13 as target staging window. Planned steps updated. Follower count: 18.
