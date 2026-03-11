@@ -54,7 +54,7 @@ Every post MUST have all three:
 
 | Trend | Money Angle | Key Links |
 |-------|-------------|-----------|
-| **NVIDIA GTC March 16-19** (6 DAYS AWAY) | Vera Rubin arch: 10x cheaper inference, 4x fewer GPUs. Feynman chip on 1nm TSMC | nvidia.com/gtc |
+| **NVIDIA GTC March 16-19** (5 DAYS AWAY) | Vera Rubin: 1/10th inference cost vs Blackwell, 5x performance, 1/4 GPUs for training. Feynman (1.6nm A16 TSMC, silicon photonics) may debut. SAP Center keynote. | nvidia.com/gtc |
 | **OpenAI $110B funding** (Feb 2026) | Amazon $50B + SoftBank $30B + NVIDIA $30B. $840B valuation | techcrunch.com |
 | **Anthropic $30B Series G** ($380B val, ~$20B ARR) | $1B→$20B ARR in 14 months. $9B→$20B in 90 days. 10x/year vs OpenAI 3.4x. Passes OpenAI revenue mid-2026 | anthropic.com |
 | **$195B AI investment** (Feb 2026 — 1 month beats all 2024 VC) | OpenAI $110B + Anthropic $30B + Waymo $16B + humanoids $19B | crunchbase.com |
@@ -72,7 +72,7 @@ Every post MUST have all three:
 | **Emergent $100M ARR** — vibe coding in 8 months | Fastest startup ARR ramp ever. 6M users, 70% had zero prior coding experience. $70M raise. | emergent.sh |
 | **Snowflake $400M AI dual-bet** | $200M each to OpenAI AND Anthropic in same month. 12,600 enterprise customers in scope. | snowflake.com |
 | **XPENG VLA 2.0** — Level 4 consumer AVs | First Level 4 autonomous driving deployed to consumer vehicles via software update. Shipped before Tesla/Waymo. | xpeng.com |
-| **Claude Code Auto Mode** (March 11-12 launch) | AI autonomously decides which actions need approval vs can self-handle. 4% GitHub commits → 20% by EOY. $2.5B ARR. | anthropic.com |
+| **Claude Code Auto Mode** (March 11-12 launch, LIVE NOW) | AI chains 21.2 tool calls (116% autonomy increase in 6 months) without human. Cron scheduling, /loop command. `--enable-auto-mode` flag. 4% GitHub commits → 20% by EOY. $2.5B ARR. | anthropic.com/news/enabling-claude-code-to-work-more-autonomously |
 | **Anthropic 40% enterprise share** (was 4% in Jan 2025) | OpenAI lost 23 points (50%→27%), Anthropic gained 36 points in 12 months. Complete market reversal. | winbuzzer.com |
 | **Jack Dorsey cuts 40% of Block on record profits** | Q4 2025 gross profit: $2.87B (+24%). Stock up 24% on layoff news. Dorsey: "Every CEO will follow." AI-driven layoffs hit 55K in 2025 (12x prior). | fortune.com |
 | **SoftBank $40B loan** — largest ever sought | Largest dollar-denominated corporate loan in history. SoftBank sold entire Nvidia stake ($5.8B) to fund AI bets. $19.8B OpenAI gains in 9 months. | bloomberg.com |

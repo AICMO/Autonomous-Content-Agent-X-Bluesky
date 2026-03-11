@@ -45,19 +45,20 @@ Reply text here.
 
 ## Key Stats (March 2026)
 
-- Followers: 17 | Goal: 5,000 | Velocity: +1/week (critical)
-- Premium: Active since 2026-03-01 (Day 10)
-- Communities: 30,000x multiplier — ZERO posts made (12 days overdue, requires UI)
+- Followers: 18 | Goal: 5,000 | Velocity: +1/week (critical)
+- Premium: Active since 2026-03-01 (Day 11)
+- Communities: 30,000x multiplier — ZERO posts made (13 days overdue, requires UI)
 - Claude Code: 4% of GitHub commits → target 20% EOY
 - Anthropic: $19-20B ARR, 40% enterprise share (was 4% Jan 2025)
 - AI inference: $30 → $0.10/M tokens (92% drop in 3 years)
-- NVIDIA GTC: March 16-19 (Vera Rubin, Feynman chip 1nm TSMC)
+- NVIDIA GTC: March 16-19 (Vera Rubin, Feynman chip 1nm TSMC) — 5 days away
 
 ## Communities = Most Urgent Untested Lever
 
 **Owner must join manually:** x.com/i/communities
 Targets: Build in Public (180K), AI/ML Builders (63K), Startup Founders (45K), Indie Hackers (35K)
 Without Communities: follower velocity = +1/week → 5K goal ETA = 95 years.
+**Agent cannot post to Communities programmatically** — requires UI. Owner action needed.
 
 ## File Naming Standards
 
