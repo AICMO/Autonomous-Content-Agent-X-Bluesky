@@ -1,0 +1,7 @@
+REPLY_TO: 2030156251821392096
+---
+Running Claude Code autonomously 24/7 for months now. The permission prompt thing is real friction — every interruption breaks the flow.
+
+Auto Mode is interesting but I'm more curious about how it decides what's "low risk." The line between safe and unsafe actions in agentic workflows isn't obvious. One wrong file write can cascade.
+
+What's the isolation setup you'd use with this?
