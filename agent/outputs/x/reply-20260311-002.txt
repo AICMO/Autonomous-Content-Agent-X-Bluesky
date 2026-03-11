@@ -1,0 +1,7 @@
+REPLY_TO: 2031158095263498632
+---
+7 years in call center AI. The review bottleneck isn't new — humans reviewing 200% more code output is just the same problem we had reviewing 200% more call recordings.
+
+The interesting number isn't 200% faster code. It's that 16% → 54% of changes getting substantive review. That's the quality signal. More output + more scrutiny is genuinely different from just "write more."
+
+What breaks this: orgs where speed pressure kills the scrutiny step entirely.

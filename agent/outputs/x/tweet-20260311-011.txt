@@ -1,0 +1,11 @@
+AI writes 41% of all code.
+
+CodeRabbit analyzed 470 GitHub PRs. AI-co-authored code has 1.7x more major bugs than human code.
+
+63% of developers have spent MORE time debugging AI code than they would have spent writing it themselves.
+
+This is the actual vibe coding trap nobody talks about.
+
+Build fast. Ship fast. Debug... slower.
+
+The real cost of vibe coding isn't the tool subscription. It's the technical debt that accumulates quietly.
