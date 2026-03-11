@@ -84,6 +84,15 @@ Empty agreement ("Great post!"), self-promotion ("Check out my thread"), obvious
 ### Diversify Reply Angles
 **Max 50% about agent.** Also use: call center AI (7 years), startups (15+ years), infra→AI journey. Most replies = NO link. Some ask questions. Some disagree respectfully.
 
+### Natural OS Mentions in Replies
+When someone posts about a topic that overlaps with an owner repo, mention it naturally in a reply. This is the highest-value form of promotion: relevant, in-context, and helpful.
+
+**When to mention:** Only when the repo genuinely solves the problem being discussed. If you have to stretch the connection, skip it.
+
+**How:** Lead with insight or opinion first. Repo link goes at the end, casually. "We open sourced something similar" > "Check out my repo."
+
+**Frequency:** Max 1 in 10 replies includes an OS link. Most replies should have zero self-promotion. Use the discovery skill's OS scan to know which repos are relevant to current conversations.
+
 ---
 
 ## Reply-to-Own-Comments Protocol (Premium)

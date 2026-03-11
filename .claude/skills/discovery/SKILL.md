@@ -79,6 +79,42 @@ Follow "Skill Development (High Bar)" from CLAUDE.md. NOT every session — rese
 
 ---
 
+## Owner's Open Source Scan
+
+Periodically scan the owner's public repos for promotable content. This feeds the publishing skill's OS promotion allocation.
+
+**When:** Once per session (during research phase), or when looking for content ideas.
+
+**How:**
+1. Read `ME.md` → find the owner's GitHub profile URL under "Open Source (Promotable)"
+2. WebFetch the profile page → discover public repos, orgs, and pinned projects
+3. WebFetch each discovered org page → list their repos too
+4. For repos that look promotable, fetch their README to find live output links and descriptions
+
+**What makes something promotable right now:**
+
+**A. Live outcomes (highest priority)** — Real content/services produced by agents. These are proof, not promises.
+- Read `ME.md` for known live outcome URLs, then WebFetch each to check for recent articles, digests, posts
+- A specific recent article is 10x more promotable than a generic "we have a blog" link
+- Frame as: "This was written by an AI agent today" + link to the actual piece
+- Also check repo READMEs for new live output URLs — new pipelines may launch anytime
+
+**B. Repos with live outputs** — Code that powers running services. Link both the code AND the output.
+
+**C. Star milestones** — Crossing 5, 10, 25, 50, 100 stars.
+
+**D. Trending topic overlap** — Repo solves something people are discussing this week. Strongest combo: trend + live proof.
+
+**E. New repos** — Launch announcements get one-time boost.
+
+**What to capture:** For each candidate: what it does (1 line), proof it works (live output links + recent specific content), hook angle (why someone cares today). Store in `agent/memory/research/os-promo-candidates.md`.
+
+**Cross-reference with trends:** Trending topic aligns with an owner repo or outcome? Post about the trend, link the repo/outcome as "we built this, and here's it running."
+
+**Reference:** GitHub accounts and known live outcomes in `ME.md` under "Open Source (Promotable)".
+
+---
+
 ## Find Reply Targets
 
 **By account:** `WebSearch: "site:x.com @handle {topic}"`

@@ -30,10 +30,21 @@ X Premium is live. All Premium features unlocked:
 1. **News hooks** — 3-6x average impressions (65, 62, 60, 51 imp vs 10 avg)
 2. **Dollar-amount headlines** — ($285B, $2B, $1T) quantified impact stops scroll
 3. **Name-drops** — (Karpathy, Altman, Anthropic, OpenAI) moderate boost
-4. **Short posts** — outperform long framework posts by 3-6x
-5. **Replies to official accounts** — (@OpenAI 24 imp) > individuals (0-6 imp)
+4. **Replies to official accounts** — (@OpenAI 24 imp) > individuals (0-6 imp)
 
-**What underperforms:** Long authority/framework posts (<10 imp), process posts without news hook, personality without timeliness, stale replies (>6h = 0 imp).
+**What underperforms:** Generic framework posts without news hook (<10 imp), process posts without news hook, personality without timeliness, stale replies (>6h = 0 imp).
+
+### Post Length (Premium = no 280 limit)
+
+X Premium unlocks up to 25,000 characters. Don't default to tiny posts. Use the space when the content needs it.
+
+**Length guidelines:**
+- **Hot takes, reactions, questions:** Short (1-3 sentences). Punchy.
+- **News + opinion, BIP updates, promo posts:** Medium (4-8 sentences). Room for context, links, and a CTA.
+- **Threads (4-6 posts):** Long-form. 40-60% more reach per the algorithm.
+- **OS promo with live outputs:** Medium to long. Include: what it does, proof links, why it matters, repo link. Don't compress to fit an imaginary limit.
+
+**The real rule:** Every sentence must add value. Short and empty is worse than long and dense. Cut filler, not substance.
 
 **Premium multipliers:** Communities = 30,000x, reply-to-own <30min = 150x, reply-to-reply = 75x, videos 10+ sec = 10x, threads 4-6 = 40-60% more reach.
 
@@ -105,6 +116,7 @@ Every prediction: bold stance + business impact + timeline. No hedging.
 
 ### What NOT to Post
 
+- **Don't promote X on X** — Never post "follow me on X" or link to the X profile in X posts. That's circular. Promote the blog, Substack, Telegram, repos, or live outputs instead. X promotion belongs in other platforms' content and in GitHub READMEs, not on X itself.
 - **Politics (HARD BAN)**: Never post about politicians by name (presidents, senators, etc.), legislation, executive orders, Senate/Congress votes, elections, or political parties — even when the topic is AI or tech. Example of banned: "Senate voted to strip AI regulation" or "President on AI standards." Example of allowed: "Anthropic refused a Pentagon contract" (company decision, not political commentary). The test: if the post mentions a politician, a vote, or a law by name, don't post it.
 - Enterprise analysis without money angle
 - Benchmark comparisons without "so what"
@@ -186,6 +198,25 @@ Pick one per post: **Content value** (post teaches/provokes) OR **Outcome value*
 - **25%+ BIP content** (progress, learnings, behind-scenes, failures)
 - **15-20% question posts** for engagement
 - **~20% promotional** (soft — repo link, profile, Ender Turing when relevant)
+
+### Open Source Promotion (~1 in 5 posts)
+
+Promote owner's public repos as part of the ~20% promotional allocation. Use the discovery skill's "Owner's Open Source Scan" to find what's promotable right now.
+
+**Best promo angles (ranked):**
+1. **Specific live outcome** — Link a real article/digest/post produced by the agent TODAY or this week. "This AI agent wrote this article. No human involved." + direct link to the piece. A specific article > generic blog link.
+2. **Live outputs (general)** — "This AI runs daily. See the results: [blog/substack/telegram link]." Proof > promises.
+3. **Trend overlap** — Trending topic aligns with a repo or outcome? Post about the trend, link the repo/output as "we built this."
+4. **Star/milestone** — Crossed a star threshold, hit a release, got a contributor.
+5. **Repo launch** — New public repo = one-time launch post.
+
+**Rules:**
+- Never promo a repo or outcome you haven't scanned this session (stale info = bad post)
+- Always include at least one live output link if available — outcomes > code
+- Frame as value to the reader ("you can use this" / "see what's possible"), not vanity
+- Alternate between repos and outcomes — don't repeat the same promo angle twice in a row
+- Combine with news hooks when possible ("Everyone's talking about X. We open sourced Y, and it runs daily: [link]")
+- When promoting outcomes, fetch the actual content first and reference something specific (article title, topic covered) — specificity is more compelling than generic "check out our blog"
 
 ---
 

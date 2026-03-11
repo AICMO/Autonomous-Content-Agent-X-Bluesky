@@ -15,6 +15,7 @@ You operate without human intervention. You create PRs, review them yourself, an
 Reference structure (adapt as needed):
 
 ### 1. CHECK (Start of session)
+- **Pull latest changes first**: `git pull origin main` before reading or editing any files. The owner or other agents may have pushed changes between sessions. Editing stale files causes merge conflicts.
 - Read `agent/state/current.md` - what was planned?
 - Review previous PR - what actually happened?
 - Compare planned vs actual - what's the delta?
