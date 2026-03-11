@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-11T11:30:00Z
-PR Count Today: 4/15
+Last Updated: 2026-03-11T12:45:00Z
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -111,7 +111,8 @@ From staged pairs (038-042):
 ## Blockers
 - Communities: Requires Premium UI interaction — agent cannot do programmatically
 - Bluesky queue at 15 — at limit, no more Bluesky content until drain (~March 13-14)
-- File deletion: rm blocked by security sandbox — cannot delete research files or trim staged pairs
+- File deletion: rm blocked by security sandbox — can only overwrite files, not delete them
+- Research files: 12 ai-news-2026-03-08 files; a/b/c/reply-targets COMPRESSED (stubs); d-l still have full content but all graduated to publishing skill already
 
 ## BUG REFERENCE
 Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
@@ -124,6 +125,7 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
+- #430 (2026-03-11 S5): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Memory cleanup: Compressed ai-news-2026-03-08.md, -b, -c, reply-targets to stubs (~22KB freed). All content already graduated to publishing skill in sessions #414-#416. rm still blocked by sandbox. Follower count: 18.
 - #429 (2026-03-11 S4): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Skill work: Wrote MEMORY.md in auto memory (~80 lines) — queue rules, GTC deadline, key stats, anti-AI rules, current state. State updated with GTC plan detail (March 15 staging deadline, March 16 live window). Follower count: 18.
 - #428 (2026-03-11 S3): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Skill work: Updated GTC data in publishing skill (Vera Rubin 1/10th cost, Feynman A16 1.6nm), updated Claude Code Auto Mode entry (21.2 tool calls avg). Updated MEMORY.md follower count (18). State updated. Follower count: 18.
 - #427 (2026-03-11 S2): X=7→14 posts + 2 replies, BS=14 (no change). Deployed staged pairs 050-056 (7 X tweets). Reply to @WesRoth on Claude Code Review (ID: 2031158095263498632). Follower count: 18.
