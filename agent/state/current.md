@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-11T16:00:00Z
-PR Count Today: 9/15
+Last Updated: 2026-03-11T17:00:00Z
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -41,7 +41,7 @@ From staged pairs (038-042):
 - reply-20260310-002 (X): Reply to @aakashgupta (ID: 2029007607793594774) — Anthropic $211/user unit economics
 
 ## Planned Steps
-1. **NEXT (when X < 15)**: Deploy staged pairs 057-073 (16 pairs ready in plans/). X expected to drain below 15 by March 12 (12/day drain, 15 queued now).
+1. **NEXT (when X < 15, March 12)**: Deploy staged pairs 057-073 (16 pairs ready in plans/). Also stage from fresh research (ai-news-2026-03-11.md): Decagon $250M BIP angle, Nscale $2B European AI infra, Claude Code Auto Mode BIP.
 2. **MARCH 12-13 (URGENT)**: When replies < 5, stage GTC live-reply using Angle J (most contrarian):
    - Angle J: "The hidden story in Vera Rubin: NVIDIA's $30B OpenAI investment INCLUDES a 2GW Vera Rubin training contract. The investor IS the anchor customer. Jensen sells chips to a company he funded."
    - Search @JensenHuang or @nvidia for post < 6h old that day as REPLY_TO target
@@ -49,7 +49,7 @@ From staged pairs (038-042):
 3. **MARCH 16**: GTC keynote at 11 AM PT. Pair 050 + pre-staged live-reply will auto-post. Create fresh content on actual Feynman/Vera Rubin announcements.
 4. **URGENT (owner action)**: Join X Communities at x.com/i/communities (11+ days overdue)
    - Target: Build in Public (180K), AI/ML Builders (63K), Startup Founders (45K), Indie Hackers (35K)
-5. **Claude Code Auto Mode post (next session with X < 15)**: "21.2 tool calls chained without human input. This is what software development looks like now." Stage as Claude Code Auto Mode content pair.
+5. **Best BIP angle ready**: Decagon $250M — "I've spent 7 years in call center AI. Decagon just raised $250M to automate what we built manually." Stage first when queue clears.
 
 ## GTC Deadline Countdown (CRITICAL)
 - March 16 keynote: **5 days away (as of March 11)**
@@ -112,6 +112,9 @@ From staged pairs (038-042):
 - OpenAI GitHub killer (March 2026): Building internal GitHub alternative after 109 incidents H1 2025 (+58% YoY). Could challenge Microsoft's $7.5B GitHub asset — Microsoft is OpenAI's $13B investor.
 - NVIDIA-OpenAI Vera Rubin deal: NVIDIA's $30B OpenAI investment includes 2GW Vera Rubin training contract — the investor IS the guaranteed anchor customer for GTC chip launch March 16.
 - Global AI spending: $2.5T forecast for 2026 (44% YoY). US: 62% of all private AI funding since 2013.
+- Nscale $2B Series C (March 9, 2026): Europe's largest-ever AI infra raise. $14.6B valuation. NVIDIA, Dell, Nokia, Citadel, Jane Street in. Sheryl Sandberg + Nick Clegg on board. $14B Microsoft deal, OpenAI Stargate Norway.
+- Decagon $250M Series D (2026): AI customer support agents. $4.5B valuation. Coatue + a16z. Customers: Avis, Hertz, Block, Affirm, Chime, Deutsche Telekom. Direct call center AI relevance.
+- Baseten $300M (Jan 2026): AI inference infra at $5B val. NVIDIA invested $150M. Customers: Cursor, Lovable. Inference = 2/3 of all AI compute by EOY 2026 (from 1/3 in 2023).
 
 ## Blockers
 - Communities: Requires Premium UI interaction — agent cannot do programmatically
@@ -130,6 +133,7 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
+- #435 (2026-03-11 S10): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Research: Found fresh March 11 stories: Nscale $2B/$14.6B (Europe's largest Series C, NVIDIA-backed), Decagon $250M/$4.5B (AI call center agents — BIP angle for owner's 7 years in space), Baseten $300M/$5B (inference infra, Jan 2026), Claude Code Auto Mode details confirmed. Saved to ai-news-2026-03-11.md. Follower count: 18.
 - #434 (2026-03-11 S9): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Skill work: Researched GTC 2026 keynote timing (March 16, 11am PT; pregame 8am PT, 30K+ attendees), Claude Code Auto Mode live (March 11-12, `--enable-auto-mode`), Feynman chip context (A16 1.6nm + silicon photonics, 2028 prod). Updated GTC hypothesis doc with precise timing, new chip angles, BIP hook for Claude Code Auto Mode. Follower count: 18.
 - #433 (2026-03-11 S8): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Skill work: Updated GTC hypothesis doc — confirmed pre-reply (reply-20260310-001) is gone from outputs, updated Angle J as primary GTC live-reply angle, clarified March 12-13 as target staging window. Planned steps updated. Follower count: 18.
 - #432 (2026-03-11 S7): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Memory cleanup: Compressed ai-news-2026-03-08c through 2026-03-08l (10 files, ~35KB freed). All content graduated to publishing skill in sessions #414-416. Memory: 468KB→436KB. Follower count: 18.
