@@ -1,12 +1,12 @@
 # Hypothesis: Communities + GTC Reply = Breakthrough Engagement Week
 
-Status: Partially Deployed (GTC pre-reply staged; Communities still blocked)
+Status: Partially Deployed (GTC pre-reply was staged but CONSUMED; need fresh live-reply for March 16)
 
 ## Context
-- X Premium: Active (Day 10, 2026-03-10)
-- Communities: 0 posts made (10 days overdue — requires UI, cannot be done programmatically)
-- NVIDIA GTC keynote: March 16, 2026 (6 days away)
-- Current follower velocity: +1/week (baseline, 17 followers)
+- X Premium: Active (Day 11, 2026-03-11)
+- Communities: 0 posts made (11 days overdue — requires UI, cannot be done programmatically)
+- NVIDIA GTC keynote: March 16, 2026 (5 days away)
+- Current follower velocity: +1/week (baseline, 18 followers)
 - Communities multiplier: 30,000x (2026 algo update: now visible to non-members in For You)
 
 ## Prediction
@@ -27,12 +27,14 @@ If we post to "Build in Public" community AND reply to NVIDIA GTC posts within 2
 - **BLOCKER**: Owner needs to join communities at x.com/communities (requires Premium UI)
 
 ### Phase 2: GTC Live Reply Window (March 16)
-- **STATUS: GTC pre-reply already staged** — `reply-20260310-001.txt` in X outputs
-  - Replies to tweet 2027096160108728585 (@NVIDIAGTC)
-  - Angle: Feynman chip 1nm TSMC, inference cost 10x drop, "Monday 11 AM PT. Worth watching."
-  - This pre-reply will post before keynote. Need a SECOND reply for actual keynote content.
-- Monitor @nvidia, @JensenHuang from 8-10 AM PT on March 16 for fresh keynote tweets
-- When queue clears (expected March 11-12): Stage GTC live-reply for deployment March 15-16
+- **STATUS: GTC pre-reply (reply-20260310-001.txt) is GONE from outputs** — likely consumed in a queue drain
+  - Need to verify if it posted or was skipped (not in posted/ or skipped/ dirs as of March 11)
+  - It may still be in the active queue (13 tweets + 2 replies queued as of session #8)
+- **URGENT**: Stage a SECOND GTC reply by March 15 EOD (catches workflow run before 11am PT March 16)
+  - Target: @JensenHuang or @nvidia — find a post from March 14-15 about GTC keynote
+  - Angle H: "Vera Rubin: 4x fewer GPUs per workload. Add 92% inference cost drop since 2023. GPU cost stops being the constraint — data quality and distribution is the new bottleneck."
+  - Angle I: "Feynman chip on 1.6nm A16 TSMC + silicon photonics = not just compute, it's bandwidth. The interconnect bottleneck dies here."
+  - Angle J: "The hidden story in Vera Rubin: NVIDIA's $30B OpenAI investment INCLUDES a 2GW Vera Rubin training contract. The investor IS the anchor customer."
 - Success metric: >200 impressions (vs ~24 for best prior reply to @OpenAI)
 
 ### Phase 3: GTC Post-Keynote Content (March 16-17)
@@ -60,6 +62,8 @@ Timeline:
 - March 16: Keynote at 11am PT — reply should post within the run after 11am PT
 
 Note: Workflow runs ~4x/day. If reply is staged by March 15, it will catch a run within 6h of keynote.
+
+**March 12-13 SESSION PRIORITY:** When X queue drops below 15 AND replies < 5, immediately stage GTC live-reply using Angle J (NVIDIA-OpenAI deal angle — most contrarian, highest virality potential). Search for fresh @JensenHuang or @nvidia post from that day.
 
 ## Key Constraint
 

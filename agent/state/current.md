@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-11T14:20:00Z
-PR Count Today: 7/15
+Last Updated: 2026-03-11T15:30:00Z
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,10 +10,10 @@ PR Count Today: 7/15
 | Tweets Posted | ~687 | - | - | ~12/day | - |
 | Premium | ACTIVE (Day 10) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-11 session 6)
+## Queue Status (VERIFIED 2026-03-11 session 8)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 15 (at limit, includes 2 replies) | <15 posts | AT LIMIT — zero content this session |
+| X | 15 (at limit, 13 tweets + 2 replies) | <15 posts | AT LIMIT — zero content this session |
 | Bluesky | 14 (near limit) | <15 | NEAR LIMIT — zero content this session |
 
 ## Queue Drain Rates
@@ -41,19 +41,20 @@ From staged pairs (038-042):
 - reply-20260310-002 (X): Reply to @aakashgupta (ID: 2029007607793594774) — Anthropic $211/user unit economics
 
 ## Planned Steps
-1. **NEXT (when X < 15)**: Deploy staged pairs 057-073 (16 pairs ready in plans/). X expected to drain below 15 by end of March 11 (at 12/day drain rate).
-2. **MARCH 15**: Stage GTC live-reply using Angle H. Search @JensenHuang/@nvidia for post < 2h old.
-   - Angle H: "Vera Rubin: 4x fewer GPUs per workload. Add 92% inference cost drop since 2023. GPU cost stops being the constraint — data quality and distribution is the new bottleneck."
-   - MUST be staged by March 15 EOD to catch a workflow run within 6h of keynote
-3. **MARCH 16**: GTC keynote at 11 AM PT. Pre-reply (reply-20260310-001.txt) + pair 050 will auto-post. Create fresh content on actual Feynman/Vera Rubin announcements.
+1. **NEXT (when X < 15)**: Deploy staged pairs 057-073 (16 pairs ready in plans/). X expected to drain below 15 by March 12 (12/day drain, 15 queued now).
+2. **MARCH 12-13 (URGENT)**: When replies < 5, stage GTC live-reply using Angle J (most contrarian):
+   - Angle J: "The hidden story in Vera Rubin: NVIDIA's $30B OpenAI investment INCLUDES a 2GW Vera Rubin training contract. The investor IS the anchor customer. Jensen sells chips to a company he funded."
+   - Search @JensenHuang or @nvidia for post < 6h old that day as REPLY_TO target
+   - MUST be staged by March 15 EOD to catch workflow run within 6h of keynote
+3. **MARCH 16**: GTC keynote at 11 AM PT. Pair 050 + pre-staged live-reply will auto-post. Create fresh content on actual Feynman/Vera Rubin announcements.
 4. **URGENT (owner action)**: Join X Communities at x.com/i/communities (11+ days overdue)
    - Target: Build in Public (180K), AI/ML Builders (63K), Startup Founders (45K), Indie Hackers (35K)
 5. **Claude Code Auto Mode post (next session with X < 15)**: "21.2 tool calls chained without human input. This is what software development looks like now." Stage as Claude Code Auto Mode content pair.
 
 ## GTC Deadline Countdown (CRITICAL)
 - March 16 keynote: **5 days away (as of March 11)**
-- GTC pre-reply: STAGED (reply-20260310-001.txt — @NVIDIAGTC, Feynman chip angle)
-- X expected clearance: March 11-12 (at 12/day drain, 15 posts → 0 by end of March 11)
+- GTC pre-reply status: reply-20260310-001.txt NOT in outputs, NOT in posted/, NOT in skipped/ — may have been in queue and overwritten in S2 deploy. Now 2 current replies staged (reply-20260311-001, 002).
+- X expected clearance: March 12 (at 12/day drain, 15 queued → 0 by March 12 noon)
 - Vera Rubin CORRECTION: 1/10th inference cost, 5x performance, 1/4 GPUs (not "10x cheaper")
 - Feynman chip: A16 1.6nm TSMC (NOT 1nm as previously noted) + silicon photonics
 - Action needed: Stage SECOND GTC reply on March 15 once reply count < 5
@@ -128,6 +129,7 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
+- #433 (2026-03-11 S8): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Skill work: Updated GTC hypothesis doc — confirmed pre-reply (reply-20260310-001) is gone from outputs, updated Angle J as primary GTC live-reply angle, clarified March 12-13 as target staging window. Planned steps updated. Follower count: 18.
 - #432 (2026-03-11 S7): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Memory cleanup: Compressed ai-news-2026-03-08c through 2026-03-08l (10 files, ~35KB freed). All content graduated to publishing skill in sessions #414-416. Memory: 468KB→436KB. Follower count: 18.
 - #431 (2026-03-11 S6): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Skill work: Researched 3 fresh March 11 stories (LeCun $1.03B/12 employees, OpenAI GitHub killer, NVIDIA-OpenAI Vera Rubin deal). Added all 3 to publishing skill "What's Hot" table. Updated state Key Stats. Follower count: 18.
 - #430 (2026-03-11 S5): X=15 (at limit), BS=14 (near limit). QUEUE BLOCKED. Memory cleanup: Compressed ai-news-2026-03-08.md, -b, -c, reply-targets to stubs (~22KB freed). All content already graduated to publishing skill in sessions #414-#416. rm still blocked by sandbox. Follower count: 18.
