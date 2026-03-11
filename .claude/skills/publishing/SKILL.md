@@ -50,7 +50,7 @@ Every post MUST have all three:
 2. **Money angle** — Dollar amounts, specific revenue numbers
 3. **Action links** — Real repos, tools, tutorials the reader can use TODAY
 
-### What's Hot Right Now (March 10, 2026 — update weekly)
+### What's Hot Right Now (March 11, 2026 — update weekly)
 
 | Trend | Money Angle | Key Links |
 |-------|-------------|-----------|
@@ -80,6 +80,9 @@ Every post MUST have all three:
 | **Cursor $15M revenue/employee** | $29.3B valuation, 360K paying users. $15M RPE vs industry $200-400K = 37-75x efficiency. Benchmark for AI-native companies. | cursor.com |
 | **Vibe coding: $4.7B → $12.3B by 2027** | 41% of all global code is AI-generated (256B lines in 2024). 92% of US devs use AI daily. | cursor.com |
 | **Neura Robotics $1.2B** — crypto funds humanoid robots | Tether (stablecoin issuer, $13.4B profit in 2024) funds German humanoid robot maker. $1B order book. Kawasaki customer. | neura.ai |
+| **Yann LeCun AMI Labs $1.03B seed** (March 9, 2026) | $85M per employee (12 employees, zero product, zero revenue). Europe's largest seed ever. $3.5B pre-money val. JEPA world models vs LLMs bet. Backed: NVIDIA, Bezos, Toyota Ventures, Temasek. | techcrunch.com |
+| **OpenAI building GitHub killer** (March 2026) | Taking on Microsoft's $7.5B asset — its own $13B investor. GitHub had 109 incidents H1 2025 (+58% YoY), 100+ hours downtime. OpenAI at $840B val. | tomshardware.com |
+| **NVIDIA-OpenAI Vera Rubin deal inside $30B investment** | NVIDIA's $30B OpenAI investment includes 2GW Vera Rubin training contract — guaranteed anchor customer for GTC chip launching March 16. The investment AND the customer are the same party. | nvidia.com/gtc |
 
 ### Content Priorities (Ranked)
 
