@@ -94,6 +94,9 @@ Every post MUST have all three:
 | **Yann LeCun AMI Labs $1.03B seed** (March 9, 2026) | $85M per employee (12 employees, zero product, zero revenue). Europe's largest seed ever. $3.5B pre-money val. JEPA world models vs LLMs bet. Backed: NVIDIA, Bezos, Toyota Ventures, Temasek. | techcrunch.com |
 | **OpenAI building GitHub killer** (March 2026) | Taking on Microsoft's $7.5B asset — its own $13B investor. GitHub had 109 incidents H1 2025 (+58% YoY), 100+ hours downtime. OpenAI at $840B val. | tomshardware.com |
 | **NVIDIA-OpenAI Vera Rubin deal inside $30B investment** | NVIDIA's $30B OpenAI investment includes 2GW Vera Rubin training contract — guaranteed anchor customer for GTC chip launching March 16. The investment AND the customer are the same party. | nvidia.com/gtc |
+| **Google closes $32B Wiz acquisition** (March 11-12, 2026) | Google's largest deal ever. Wiz ARR $1B+. Cloud security → AI security play. Index Ventures: $3.8B payout. Sequoia: $3.2B. 1,800 employees share $3B equity. Originally said no to $23B. Came back for $32B. | techcrunch.com |
+| **Wayve $1.2B Series D** (March 2026) | $8.6B valuation. Uber invested. London public robotaxi trials 2026. Alternative AV path to Waymo. European challenger building AI-native autonomous driving. | wayve.ai |
+| **Claude Code Auto Mode** (March 12, 2026 — LIVE TODAY) | Research preview: `claude --enable-auto-mode`. Claude classifies risk of each action, auto-approves low-risk ops. Enterprise: MDM/registry disable. Increases token cost + latency. 21.2 avg tool calls per session. Direct BIP angle: this repo runs this tool. | anthropic.com |
 
 ### Content Priorities (Ranked)
 

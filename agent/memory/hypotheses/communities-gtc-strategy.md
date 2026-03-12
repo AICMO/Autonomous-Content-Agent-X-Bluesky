@@ -3,11 +3,11 @@
 Status: Partially Deployed (GTC pre-reply was staged but CONSUMED; need fresh live-reply for March 16)
 
 ## Context
-- X Premium: Active (Day 11, 2026-03-11)
-- Communities: 0 posts made (11 days overdue — requires UI, cannot be done programmatically)
-- NVIDIA GTC keynote: March 16, 2026 at 11am PT (SAP Center, San Jose). 30,000+ attendees.
+- X Premium: Active (Day 12, 2026-03-12)
+- Communities: 0 posts made (12+ days overdue — requires UI, cannot be done programmatically)
+- NVIDIA GTC keynote: March 16, 2026 at 11am PT (SAP Center, San Jose). 30,000+ attendees. **4 DAYS AWAY**
 - GTC pregame show: March 16, 2026 at 8am PT (online). Notable: Perplexity CEO, LangChain CEO, Mistral CEO.
-- Current follower velocity: +1/week (baseline, 18 followers)
+- Current follower velocity: +1/week (baseline, 17 followers as of March 12)
 - Communities multiplier: 30,000x (2026 algo update: now visible to non-members in For You)
 
 ## Prediction
@@ -54,17 +54,18 @@ If we post to "Build in Public" community AND reply to NVIDIA GTC posts within 2
 
 ## Hard Deadline
 
-**March 16 keynote window = critical.**
+**March 16 keynote window = critical. 4 DAYS REMAINING (as of March 12).**
 
 Timeline:
-- March 11-12: X queue should drain below 15 (current pace: 12/day drain)
-- March 13: Stage fresh GTC reply targeting specific @JensenHuang or @nvidia post
-- March 15: Ensure GTC reply file is in X output dir (catches a run before 11am PT March 16)
-- March 16: Keynote at 11am PT — reply should post within the run after 11am PT
+- March 12: X at 15 (limit). Drain expected by March 12 afternoon/evening.
+- March 13: Stage fresh GTC reply targeting @JensenHuang or @nvidia post from March 12-13.
+- March 15 (HARD DEADLINE): Ensure GTC reply file is in X output dir. Catches a run before 11am PT March 16.
+- March 16: Keynote at 11am PT. Also Pregame at 8am PT. Reply should deploy within 6h of keynote.
 
 Note: Workflow runs ~4x/day. If reply is staged by March 15, it will catch a run within 6h of keynote.
+**Reply budget March 12:** 3 replies pending (rohanpaul_ai + WesRoth + altryne). At 5-reply max, 2 slots remain for GTC.
 
-**March 12-13 SESSION PRIORITY:** When X queue drops below 15 AND replies < 5, immediately stage GTC live-reply using Angle J (NVIDIA-OpenAI deal angle — most contrarian, highest virality potential). Search for fresh @JensenHuang or @nvidia post from that day.
+**March 12-13 SESSION PRIORITY (UPDATED):** X queue = 15 (at limit) as of March 12 session 3. Wait for queue to drain below 15 before deploying GTC reply. X clears ~March 12 afternoon at 12/day drain. When X < 15 AND replies < 5, stage GTC live-reply using Angle J.
 
 **March 11 context:** Claude Code Auto Mode launched TODAY (March 11-12, 2026) — `claude --enable-auto-mode`. This repo RUNS Claude Code. Direct BIP angle: "Claude Code Auto Mode is live. I've been running Claude Code autonomously 24/7 for 11 months. The permission prompt problem is real. This is what agentic software looks like from the inside." Stage this when queue allows.
 

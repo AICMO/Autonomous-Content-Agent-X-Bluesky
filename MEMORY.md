@@ -45,13 +45,13 @@ Reply text here.
 
 ## Key Stats (March 2026)
 
-- Followers: 18 | Goal: 5,000 | Velocity: +1/week (critical)
-- Premium: Active since 2026-03-01 (Day 11)
-- Communities: 30,000x multiplier — ZERO posts made (13 days overdue, requires UI)
+- Followers: 17 | Goal: 5,000 | Velocity: +1/week (critical)
+- Premium: Active since 2026-03-01 (Day 12)
+- Communities: 30,000x multiplier — ZERO posts made (12+ days overdue, requires UI)
 - Claude Code: 4% of GitHub commits → target 20% EOY
 - Anthropic: $19-20B ARR, 40% enterprise share (was 4% Jan 2025)
 - AI inference: $30 → $0.10/M tokens (92% drop in 3 years)
-- NVIDIA GTC: March 16-19 (Vera Rubin, Feynman chip 1nm TSMC) — 5 days away
+- NVIDIA GTC: March 16-19 (Vera Rubin, Feynman chip A16 1.6nm TSMC) — **4 days away**
 
 ## Communities = Most Urgent Untested Lever
 
@@ -85,10 +85,12 @@ Without Communities: follower velocity = +1/week → 5K goal ETA = 95 years.
 ## GTC Deadline (March 16, 2026)
 
 - Pre-reply staged: `reply-20260310-001.txt` (to @NVIDIAGTC, Feynman chip angle)
-- **5 replies staged as of March 10 (MAX)** — do NOT add another until queue drains and reply count drops below 5
-- Second live-reply: Stage on March 15 once reply count < 5. Use Angle H from reply-targets-2026-03-09.md.
-  - Angle H: "Vera Rubin promises 4x fewer GPUs per workload. Add to the 92% inference cost drop since 2023. At this rate, GPU cost stops being the constraint entirely. The new bottleneck: data quality and distribution strategy."
-  - Find live @JensenHuang/@nvidia/@NVIDIAAIDev tweet from the keynote (post < 2h old)
-- Our angle: Vera Rubin 10x cheaper = call center AI economics reset
-- X clears March 11-12, Bluesky clears March 13-14
-- **Deploy order when X < 15:** staged pairs 043-049 (plans/) first, then GTC content
+- **2 replies staged as of March 12** (reply-20260311-001 @rohanpaul_ai, reply-20260311-002 @WesRoth)
+- Plus 1 reply just added to @altryne (Claude Code Auto Mode) — now 3 replies pending
+- Second live-reply: Stage on March 15 once reply count < 5. Use Angle J (NVIDIA-OpenAI circular deal).
+  - Angle J: "NVIDIA's $30B OpenAI investment includes a guaranteed 2GW Vera Rubin training contract. The investor IS the anchor customer."
+  - Find live @JensenHuang/@nvidia post from March 14-15 (must be < 24h old)
+- Our angle: Vera Rubin 1/10th inference cost = call center AI economics reset
+- X clears March 12 (at 12/day drain, 15 queued → 0 by March 12 afternoon)
+- Bluesky clears March 14 (4/day drain, 14 queued → 0 by March 14-15)
+- **Deploy order when X < 15:** staged pairs 069-073 first, then fresh GTC content
