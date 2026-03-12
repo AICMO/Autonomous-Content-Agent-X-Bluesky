@@ -1,0 +1,5 @@
+Claude Code Auto Mode drops March 12.
+
+Automatically handles permission prompts. No more constant "do you want me to do X?" interruptions.
+
+This is the thing everyone missed. Autonomous = actually autonomous.
