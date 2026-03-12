@@ -1,0 +1,7 @@
+Gartner says 40% of enterprise apps will have task-specific AI agents by end of 2026.
+
+In 2025 it was under 5%.
+
+That's not growth. That's a category going from "pilot project" to "table stakes" in 12 months flat.
+
+I've been building in this space since before it was hot. The adoption curve always felt distant. Now I'm watching it happen in real time.

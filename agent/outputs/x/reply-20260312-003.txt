@@ -1,0 +1,7 @@
+REPLY_TO: 2031154046762140116
+---
+The contact center angle is the one nobody's covering.
+
+NVIDIA pitching this to Salesforce, Cisco — those are the two biggest platforms running call center AI at scale. NemoClaw being hardware-agnostic is the tell: they want the software data moat, not just GPU sales.
+
+7 years building in call center AI. This is the compute shift we've been waiting for.

@@ -1,0 +1,8 @@
+Karpathy just described the next evolution: thousands of AI agents running asynchronously, sharing findings, like SETI@home for research.
+
+One agent = one PhD student working alone.
+A thousand agents = an entire university never sleeping.
+
+The bottleneck in agentic systems has always been the single context window. Async collaboration breaks that.
+
+This architecture is coming to every domain. Content. Research. Code review. Call center QA.
