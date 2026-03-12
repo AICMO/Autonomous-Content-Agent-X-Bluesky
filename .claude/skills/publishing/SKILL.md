@@ -34,17 +34,24 @@ X Premium is live. All Premium features unlocked:
 
 **What underperforms:** Generic framework posts without news hook (<10 imp), process posts without news hook, personality without timeliness, stale replies (>6h = 0 imp).
 
-### Post Length (Premium = no 280 limit)
+### X Post Length (Premium = up to 25,000 chars)
 
-X Premium unlocks up to 25,000 characters. Don't default to tiny posts. Use the space when the content needs it.
+X Premium unlocks long-form posts. The agent has been writing 270-450 char posts (old free-tier length). This wastes Premium. **Write X posts at full length. Bluesky is a separate platform with separate constraints — never let Bluesky's 290-char limit shrink X posts.**
 
-**Length guidelines:**
-- **Hot takes, reactions, questions:** Short (1-3 sentences). Punchy.
-- **News + opinion, BIP updates, promo posts:** Medium (4-8 sentences). Room for context, links, and a CTA.
-- **Threads (4-6 posts):** Long-form. 40-60% more reach per the algorithm.
-- **OS promo with live outputs:** Medium to long. Include: what it does, proof links, why it matters, repo link. Don't compress to fit an imaginary limit.
+**Hard minimums for X (characters, not words):**
 
-**The real rule:** Every sentence must add value. Short and empty is worse than long and dense. Cut filler, not substance.
+| Post type | Min chars | Target chars | Notes |
+|-----------|-----------|-------------|-------|
+| Hot takes, reactions | 150 | 200-350 | Only category allowed to be short |
+| News + opinion | 500 | 600-1000 | Hook + context + opinion + so-what. Use the space. |
+| BIP / milestone | 400 | 500-800 | Numbers + story + what changed + what's next |
+| Promo / OS | 500 | 600-1000 | What it does + proof links + why it matters + repo |
+| Predictions | 500 | 600-900 | Stance + evidence + timeline + business impact |
+| Threads (4-6 posts) | 1500 total | 2000-3000 | Each post 300-600 chars. 40-60% more reach. **Minimum 2 threads per week.** |
+
+**If a news/opinion/BIP/promo post is under 500 chars, you haven't said enough. Add:** the "so what," a personal angle, a prediction, specific numbers, or a CTA. Don't pad with filler — add substance.
+
+**Every sentence must add value.** Short and empty is worse than long and dense. Cut filler, not substance.
 
 **Premium multipliers:** Communities = 30,000x, reply-to-own <30min = 150x, reply-to-reply = 75x, videos 10+ sec = 10x, threads 4-6 = 40-60% more reach.
 
@@ -145,20 +152,30 @@ Every prediction: bold stance + business impact + timeline. No hedging.
 
 Content is auto-posted by workflow from `agent/outputs/{platform}/`, then moved to `posted/`.
 
-### Cross-Posting (X + Bluesky)
+### Platform-Independent Publishing
 
-1. Write the X version first → `agent/outputs/x/`
-2. Write a Bluesky version (max 290 chars hard limit) → `agent/outputs/bluesky/`
-3. Use the same file name in both directories
+**X and Bluesky are separate platforms. Write for each independently. Never let one platform's constraints affect the other.**
 
-**Bluesky rules:** If X post <290 chars → copy verbatim. If over → rewrite shorter. Posts >300 chars are auto-skipped by pipeline.
+#### X Posts
+1. Write the X version at full Premium length → `agent/outputs/x/`
+2. Follow the X length minimums above (most posts 500-1000 chars)
+3. X has no meaningful character limit with Premium (25,000 chars)
+
+#### Bluesky Posts
+1. Write a separate Bluesky version → `agent/outputs/bluesky/`
+2. Bluesky hard limit: 290 chars. Posts >300 chars are auto-skipped by pipeline.
+3. Same file name as X version, but the content should be independently written for Bluesky's format
+4. Bluesky posts are compressed summaries, NOT the template for X posts
+5. If a topic can't be meaningfully compressed to 290 chars, it's OK to skip the Bluesky version
+
+**The old pattern was:** write short → copy to both. **The new pattern is:** write X at full length → write Bluesky separately as a short summary.
 
 ### File Naming
 `{type}-{YYYYMMDD}-{NNN}.txt` — Threads: `thread-20260215-001.txt` (use `---` separator)
 
 ### Queue Management (Hard Rules)
 1. **If any platform queue > 15: CREATE ZERO CONTENT** → research, cleanup, or skill work instead
-2. **Create max 2 content pieces per session** (when all queues <15). Each piece = X + Bluesky files.
+2. **Create max 2 content pieces per session** (when all queues <15). X post is required. Bluesky version is optional (write separately if topic compresses well).
 3. **Max 5 pending replies per platform**
 4. **Max 20 staged pairs in `agent/memory/plans/`** — when >20, STOP staging. Do cleanup, engagement, or skip PR.
    - Evidence: Week 8 accumulated 91 staged pairs (7.5 days backlog), caused 1.1MB memory bloat and 13 wasted sessions.
@@ -315,16 +332,18 @@ Does this sound like a real person typed it? Would I say this to a colleague? Do
 ## Content Creation Checklist
 
 1. **Queue check**: Queue > 15? STOP.
-2. **Quality gate**: Would a stranger follow based on this post alone?
-3. **Anti-AI check**: Vibe check passed? No banned patterns?
-4. **Value type**: Content value OR outcome value, never both.
-5. **Link allocation**: Only ~20% include links.
-6. **Angle diversity**: Max 50% about agent. Check last 2 posts.
-7. **BIP balance**: At least 25% of recent output.
-8. **Category**: Authority / Personality / Shareability balanced.
-9. **Hook**: First line stops the scroll.
-10. **Bluesky version**: Under 290 chars, same filename in `agent/outputs/bluesky/`.
-11. **Politics check**: No politicians, votes, or laws by name.
+2. **X length check**: News/opinion/BIP/promo/prediction post under 500 chars? Add more substance.
+3. **Thread check**: Have you created 2+ threads this week? If not, make one now.
+4. **Quality gate**: Would a stranger follow based on this post alone?
+5. **Anti-AI check**: Vibe check passed? No banned patterns?
+6. **Value type**: Content value OR outcome value, never both.
+7. **Link allocation**: Only ~20% include links.
+8. **Angle diversity**: Max 50% about agent. Check last 2 posts.
+9. **BIP balance**: At least 25% of recent output.
+10. **Category**: Authority / Personality / Shareability balanced.
+11. **Hook**: First line stops the scroll.
+12. **Bluesky version**: Written separately, under 290 chars. OK to skip if topic doesn't compress.
+13. **Politics check**: No politicians, votes, or laws by name.
 
 ---
 
