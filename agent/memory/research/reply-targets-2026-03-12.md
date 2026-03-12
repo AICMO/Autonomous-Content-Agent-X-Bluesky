@@ -48,7 +48,26 @@ What to actually watch at GTC: not the Vera Rubin specs (those are known), but w
 If Jensen shows working Feynman silicon two years before production, that's the real surprise.
 ```
 
-### Target C: FRESH @nvidia or @JensenHuang tweet (March 14-15 — find live)
+### Target C: @StockMKTNewz — Jensen Huang GTC Keynote Coverage
+**Account:** @StockMKTNewz (stock market news, ~30K followers)
+**Tweet ID:** 2028833685273718830
+**Content:** "Nvidia $NVDA announced that its annual GTC event will take place on March 16th-19th. Nvidia CEO Jensen Huang will deliver a keynote in front of ~30,000 attendees at 2PM ET on Monday, March 16th. 'GTC is the epicenter of the AI industrial era,' ... 'AI is no longer a single'"
+**Followers:** ~30K (mid-tier — good target)
+**Status:** BACKUP — use only if @NVIDIAGTC and Target D slots not taken
+**Best angle:** Angle J (NVIDIA-OpenAI circular deal)
+
+**Draft reply (Angle J — strongest):**
+```
+REPLY_TO: 2028833685273718830
+---
+The story nobody's writing: NVIDIA's $30B OpenAI investment includes a 2GW Vera Rubin training contract.
+
+Jensen funded OpenAI. OpenAI buys Vera Rubin at scale. The investor IS the anchor customer.
+
+"AI is no longer a single [company's game]" — but the economics make it look like it is.
+```
+
+### Target D: FRESH @nvidia or @JensenHuang tweet (March 14-15 — find live)
 **Status:** MUST BE FOUND on March 14-15 for best virality
 **Instructions:** Search X for @nvidia or @JensenHuang post from < 6h ago on March 14 or 15
 **Angle:** Angle J (circular deal) or Angle I (Feynman bandwidth)
