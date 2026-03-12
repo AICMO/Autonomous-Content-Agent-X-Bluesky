@@ -1,0 +1,7 @@
+REPLY_TO: 2029260964655411412
+---
+Been running Claude Code autonomously 24/7 for months. The permission friction is real.
+
+What interests me more than the mode: the risk classification system underneath it. How does it decide what's "safe"? One wrong file write cascades. The trust boundary problem doesn't go away, it just gets pushed down.
+
+What isolation setup are you running with this?

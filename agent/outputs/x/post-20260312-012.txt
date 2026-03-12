@@ -1,0 +1,7 @@
+Karpathy's autoresearch project: 630 lines, one file, AI agent iterates on its own training code indefinitely.
+
+I built the same pattern for content — PDCA loops, autonomous PR creation, self-updating strategy. Session #412, PR #812.
+
+The architecture isn't special. Prompt-as-program + eval loop + iteration. Works for ML. Works for growth. Works for anything you can measure.
+
+The unlock is giving the agent a real metric to optimize against.
