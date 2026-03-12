@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-12T05:15:00Z
-PR Count Today: 4/15
+Last Updated: 2026-03-12T06:15:00Z
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,11 +10,11 @@ PR Count Today: 4/15
 | Tweets Posted | ~687 | - | - | ~12/day | - |
 | Premium | ACTIVE (Day 10) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-12 session 4)
+## Queue Status (VERIFIED 2026-03-12 session 5, ~04:00 UTC)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 15 | <15 posts | AT LIMIT — zero content. Expected to drain March 12 afternoon (~12/day drain) |
-| Bluesky | 14 | <15 | NEAR LIMIT — zero content. Expected to drain March 14 (~4/day drain) |
+| Bluesky | 14 | <15 | NEAR LIMIT — zero content. Expected to drain March 13-14 (~4/day drain) |
 
 ## Queue Drain Rates
 - X: 3 per run, ~4 runs/day = **12/day max**
@@ -41,20 +41,23 @@ From staged pairs (038-042):
 - reply-20260310-002 (X): Reply to @aakashgupta (ID: 2029007607793594774) — Anthropic $211/user unit economics
 
 ## Planned Steps
-1. **NEXT (March 12, S4+)**: Deploy staged pairs 069-073 when X queue drains to <12. Deploy 2 pairs max per session. Then fresh content: Google Wiz $32B angle or GTC preview angle.
-2. **MARCH 15 (URGENT)**: Stage GTC live-reply targeting fresh @JensenHuang/@nvidia post from March 14-15. Use Angle J (NVIDIA-OpenAI circular deal). Must be in outputs/ by March 15 EOD to catch pre-keynote run.
-3. **MARCH 16**: GTC keynote at 11 AM PT. Reply to live keynote tweet immediately. Create fresh content on actual Feynman/Vera Rubin announcements.
-4. **URGENT (owner action)**: Join X Communities at x.com/i/communities (12+ days overdue)
+1. **NEXT (March 12, S6+)**: Deploy staged pairs 069-073 when X queue drains to <12. Deploy 2-3 pairs max per session. Then fresh content: Google Wiz $32B angle or Claude Code Auto Mode BIP angle.
+2. **MARCH 13-14**: Search for fresh @JensenHuang or @nvidia tweet from March 12-14. Stage GTC live-reply using Angle J (NVIDIA-OpenAI circular deal). Fallback target: @NVIDIAGTC tweet ID 2027096160108728585 (keynote pregame), Angle J.
+3. **MARCH 15 (HARD DEADLINE)**: GTC live-reply MUST be in outputs/x/ by EOD March 15. Catches workflow run before 11am PT March 16 keynote. See reply-targets-2026-03-12.md for drafts.
+4. **MARCH 16**: GTC keynote at 11 AM PT. Reply to live keynote tweet immediately. Create fresh content on actual Feynman/Vera Rubin announcements.
+5. **URGENT (owner action)**: Join X Communities at x.com/i/communities (12+ days overdue)
    - Target: Build in Public (180K), AI/ML Builders (63K), Startup Founders (45K), Indie Hackers (35K)
-5. **Queue note**: 84 staged files (42 pairs) in plans/ — OVER limit, but cannot delete (rm blocked). Continue deploying when queues drain.
-6. **New angles ready**: Google Wiz $32B (March 12), Claude Code Auto Mode BIP angle, GTC "surprise chip" preview — stage when X < 15.
+6. **Queue note**: 84 staged files (42 pairs) in plans/ — OVER limit, but cannot delete (rm blocked). Continue deploying when queues drain.
+7. **New angles ready**: Google Wiz $32B (March 12 confirmed closed), Claude Code Auto Mode BIP angle (live now as research preview) — stage when X < 15.
 
 ## GTC Deadline Countdown (CRITICAL)
 - March 16 keynote: **4 days away (as of March 12)**
-- GTC pre-reply status: reply-20260310-001.txt NOT in outputs, NOT in posted/, NOT in skipped/ — may have been in queue and overwritten in S2 deploy. Now 2 current replies staged (reply-20260311-001, 002).
-- X expected clearance: March 12 (at 12/day drain, 15 queued → 0 by March 12 noon)
-- Vera Rubin CORRECTION: 1/10th inference cost, 5x performance, 1/4 GPUs (not "10x cheaper")
-- Feynman chip: A16 1.6nm TSMC (NOT 1nm as previously noted) + silicon photonics
+- GTC live-reply: NOT yet staged. 2 reply slots available (5 max, 2 queued). Stage by March 15 EOD.
+- Fallback target: @NVIDIAGTC tweet ID 2027096160108728585 (keynote pregame). Use Angle J.
+- Primary: Find @JensenHuang or @nvidia tweet from March 14-15 for max freshness.
+- X expected clearance: March 12 afternoon (at 12/day drain rate, 15 queued → ~3 by March 12 evening)
+- Vera Rubin specs (confirmed): 1/10th inference cost, 5x performance, 1/4 GPUs for MoE training
+- Feynman chip: A16 1.6nm TSMC (silicon photonics, 2028 production, static display expected GTC)
 - Action needed: Stage SECOND GTC reply on March 15 once reply count < 5
 
 ## What Works / What Doesn't
@@ -131,6 +134,7 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
+- #445 (2026-03-12 S5): X=15 (limit), BS=14 (near limit). QUEUE BLOCKED. Research: Found @NVIDIAGTC tweet ID 2027096160108728585 (keynote pregame) as fallback GTC reply target. Confirmed Google Wiz $32B closed March 11. Created reply-targets-2026-03-12.md with Angle J draft ready for March 15 staging. Updated GTC deadline section with fallback target.
 - #444 (2026-03-12 S4): X=15 (limit), BS=14 (near limit). QUEUE BLOCKED. Skill work: Researched confirmed Vera Rubin specs (10x cost, 5x perf, 4x fewer GPUs, Vera CPU for agentic AI). Updated GTC hypothesis doc, ai-news-2026-03-12.md, and publishing skill "What's Hot" table with corrected NVIDIA stats. NVIDIA market cap: $4.6T. Feynman static display confirmed expected at GTC.
 - #443 (2026-03-12 S3): X=15 (limit), BS=14 (near limit). QUEUE BLOCKED. Skill work: Updated MEMORY.md (follower count 18→17, GTC countdown 5→4 days), updated GTC hypothesis doc with March 12 status, researched fresh March 12 stories (Google Wiz $32B closed, Claude Code Auto Mode research preview live, GTC final preview). Saved to ai-news-2026-03-12.md. Added 3 new rows to publishing skill "What's Hot" table.
 - #442 (2026-03-12 S2): X=7→14, BS=10→14. Deployed staged pairs 062-068 (7 X posts) + 062-065 (4 BS posts) + 1 reply to @altryne on Claude Code Auto Mode (ID: 2029260964655411412). Both queues near limit.
