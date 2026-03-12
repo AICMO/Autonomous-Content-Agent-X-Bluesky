@@ -97,18 +97,37 @@ NVIDIA pitching this to Salesforce, Cisco — those are the two biggest platform
 
 ## Secondary Targets (Deploy after GTC if slots available)
 
-### Target D: Claude Code Auto Mode (still fresh, <3 days)
+### Target F (NEW): @ghumare64 — Claude Code Auto Mode (Fresh, March 12)
+**Account:** @ghumare64 (Rohit Ghumare — AI dev, ~15-50K followers)
+**Tweet ID:** 2029256120683127289
+**Content:** "Claude is launching 'claude --enable-auto-mode' in claude code on march 12, 2026 this will allow users to run long-running tasks with more safeguards but still recommended to use in isolated envs and sandboxes."
+**Already replied?** NO — fresh target, not yet used
+**Status:** READY — deploy when X < 15 AND replies < 5
+**Best angle:** BIP angle — this repo runs Claude Code autonomously, auto mode solves our real problem
+
+**Draft reply:**
+```
+REPLY_TO: 2029256120683127289
+---
+Running Claude Code autonomously 24/7 in this repo. The permission prompt problem is exactly what killed our throughput.
+
+Auto mode classification per action is the right approach. Much safer than --dangerously-skip-permissions. The tradeoff: token cost goes up. At our session volume (~200+), that math is real.
+
+Worth it for the control.
+```
+
+### Target G: Claude Code Auto Mode (still fresh, <3 days)
 **Account:** @altryne (Alex Volkov, ~45K followers)
 **Tweet ID:** 2029260964655411412
 **Already replied?** YES — reply-20260312-002 is in queue targeting this ID
 **Status:** SKIP — already queued
 
-### Target E: rohanpaul_ai (Claude Code Auto Mode)
+### Target H: rohanpaul_ai (Claude Code Auto Mode)
 **Tweet ID:** 2030156251821392096
 **Already replied?** YES — reply-20260311-001 in queue
 **Status:** SKIP — already queued
 
-### Target F: WesRoth (Claude Code Review)
+### Target I: WesRoth (Claude Code Review)
 **Tweet ID:** 2031158095263498632
 **Already replied?** YES — reply-20260311-002 in queue
 **Status:** SKIP — already queued
