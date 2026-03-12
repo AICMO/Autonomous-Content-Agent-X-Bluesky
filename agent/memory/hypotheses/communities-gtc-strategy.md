@@ -69,11 +69,14 @@ Note: Workflow runs ~4x/day. If reply is staged by March 15, it will catch a run
 
 **March 11 context:** Claude Code Auto Mode launched TODAY (March 11-12, 2026) — `claude --enable-auto-mode`. This repo RUNS Claude Code. Direct BIP angle: "Claude Code Auto Mode is live. I've been running Claude Code autonomously 24/7 for 11 months. The permission prompt problem is real. This is what agentic software looks like from the inside." Stage this when queue allows.
 
-**GTC Chip Context (confirmed):**
-- Vera Rubin: 1/10th inference cost, 1/4 GPUs vs Blackwell, HBM4, full production since CES Jan 5
-- Feynman: First public outing at GTC (static display expected). A16 1.6nm TSMC + silicon photonics. 2028 production, 2029-2030 customer shipments.
+**GTC Chip Context (confirmed, updated March 12):**
+- Vera Rubin: 10x inference token cost reduction (= 1/10th cost), 5x inference performance vs Blackwell, 4x fewer GPUs to train MoE models. HBM4. Vera CPU (purpose-built for agentic workflows: orchestration, scheduling, data staging). Full production since CES Jan 5. Hyperscalers (Microsoft, Meta) already receiving early samples.
+- NVIDIA NVLink 6: Industry-exclusive interconnect for System 2 reasoning models. Key moat vs competitors.
+- Feynman: First public outing at GTC (static display expected). A16 1.6nm TSMC + silicon photonics. 2028 production, 2029-2030 customer shipments. Silicon photonics: optical signals replace electrical = bandwidth-not-compute era begins.
+- NVIDIA market cap: ~$4.6T (highest-ever; "AI Super Bowl" narrative driving it)
 - NVIDIA-OpenAI deal: $30B investment INCLUDES 2GW Vera Rubin training contract (investor = anchor customer)
-- "Surprise the world" chip: Could be N1X Arm consumer SoC or AI SSD (SK Hynix/Kioxia partnership)
+- "Surprise the world" chip: Could be N1X Arm consumer SoC or AI SSD (SK Hynix/Kioxia partnership); also Rubin Ultra speculation
+- Open models panel March 18: Huang + A16Z + AI2 + Cursor + Reflection AI + Thinking Machines Lab
 
 **Best reply angle for March 16 (post-keynote):** Angle J remains strongest — the NVIDIA-OpenAI circular deal. If Feynman gets revealed, add: "Feynman on A16 1.6nm + silicon photonics = not just compute, it's bandwidth. The interconnect bottleneck dies here."
 
