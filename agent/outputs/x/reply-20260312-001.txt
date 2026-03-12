@@ -1,0 +1,9 @@
+REPLY_TO: 2030997269160366129
+---
+What to actually watch at GTC: not the Vera Rubin specs (those are known), but whether Feynman makes an appearance.
+
+1.6nm A16 TSMC + silicon photonics = you're not just buying compute, you're buying bandwidth. The interconnect bottleneck dies there.
+
+Also: NVIDIA's $30B OpenAI investment INCLUDES a 2GW Vera Rubin training contract. The investor IS the anchor customer. Jensen funded OpenAI. OpenAI buys Jensen's chips.
+
+If Jensen shows a working Feynman prototype two years early, that's the real surprise at SAP Center March 16.

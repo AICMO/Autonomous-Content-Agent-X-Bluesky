@@ -1,0 +1,5 @@
+Karpathy's autoresearch: 630 lines, single GPU.
+
+Let an agent experiment overnight. 110 changes in 12 hours. Loss improved automatically.
+
+"Do boring iterations automatically" is solved. Next: "design interesting experiments."

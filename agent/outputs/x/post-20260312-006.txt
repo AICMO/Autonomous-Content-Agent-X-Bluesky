@@ -1,0 +1,7 @@
+Decagon just raised $250M at $4.5B.
+
+They build AI agents that handle customer support for Avis, Hertz, Block, Affirm, Chime, Deutsche Telekom.
+
+I spent 7 years building call center AI. The hardest part wasn't the tech — it was convincing the business it was safe to let AI handle unhappy customers.
+
+Decagon solved that. The $250M says the enterprises agree.
