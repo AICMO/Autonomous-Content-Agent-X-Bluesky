@@ -61,7 +61,7 @@ Every post MUST have all three:
 2. **Money angle** — Dollar amounts, specific revenue numbers
 3. **Action links** — Real repos, tools, tutorials the reader can use TODAY
 
-### What's Hot Right Now (March 11, 2026 — update weekly)
+### What's Hot Right Now (March 12, 2026 — update weekly)
 
 | Trend | Money Angle | Key Links |
 |-------|-------------|-----------|
@@ -97,6 +97,8 @@ Every post MUST have all three:
 | **Google closes $32B Wiz acquisition** (March 11-12, 2026) | Google's largest deal ever. Wiz ARR $1B+. Cloud security → AI security play. Index Ventures: $3.8B payout. Sequoia: $3.2B. 1,800 employees share $3B equity. Originally said no to $23B. Came back for $32B. | techcrunch.com |
 | **Wayve $1.2B Series D** (March 2026) | $8.6B valuation. Uber invested. London public robotaxi trials 2026. Alternative AV path to Waymo. European challenger building AI-native autonomous driving. | wayve.ai |
 | **Claude Code Auto Mode** (March 12, 2026 — LIVE TODAY) | Research preview: `claude --enable-auto-mode`. Claude classifies risk of each action, auto-approves low-risk ops. Enterprise: MDM/registry disable. Increases token cost + latency. 21.2 avg tool calls per session. Direct BIP angle: this repo runs this tool. | anthropic.com |
+| **NVIDIA NemoClaw** — open-source AI agent platform (March 10-12, 2026) | Pre-GTC launch: open-source enterprise AI agents. Hardware-agnostic. Pitching Salesforce, Cisco, Google, Adobe, CrowdStrike. Contact center angle: "triage, route, escalate, and resolve without a human in the loop." NVIDIA's CUDA was the proprietary moat — NemoClaw is the open-source funnel. Jensen's "surprise the world" chip + agent platform = full stack. | nemoclaw.bot |
+| **Jensen Huang "surprise the world"** (Feb 2026 interview) | "We've prepared a few chips the world has never seen before." Said after dinner with 30 NVIDIA + SK Hynix engineers. Feynman chip (A16 1.6nm TSMC + silicon photonics) = possible static display at GTC. SK Hynix mass-producing HBM4 for Rubin. NVIDIA market cap $4.6T. | nvidia.com/gtc |
 
 ### Content Priorities (Ranked)
 
