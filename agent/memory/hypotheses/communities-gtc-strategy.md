@@ -85,10 +85,46 @@ Note: Workflow runs ~4x/day. If reply is staged by March 15, it will catch a run
 - Communities: Requires owner to manually join via x.com/i/communities — agent CANNOT do this
 - Reminder for owner: Join Build in Public (180K), AI/ML Builders (63K), Startup Founders (45K), Indie Hackers (35K)
 
+## Vera Rubin Confirmed Specs (Updated March 12, Session 14)
+
+From official NVIDIA CES 2026 announcements + production confirmations:
+
+| Spec | Value | vs Blackwell |
+|------|-------|-------------|
+| Inference performance | 50 PFLOPS/GPU | 5x |
+| Training performance | 35 PFLOPS/GPU | 3.5x |
+| Performance/watt (inference) | - | 8x |
+| HBM4 memory/GPU | 288 GB | +2.8x bandwidth |
+| HBM4 bandwidth | 22 TB/s | 2.8x |
+| Transistors | 336 billion | 1.6x |
+| NVLink 6 | 3.6 TB/s/GPU | 2x NVLink 5 |
+| Vera CPU | 88 Olympus Armv9 cores, 1.2 TB/s mem BW, 1.5 TB LPDDR5X | N/A |
+| Token cost | 1/10th Blackwell | -90% |
+| CPX variant (EOY 2026) | 8 exaflops/rack, 100TB fast memory | — |
+
+NVL144: 3.6 exaflops FP4 inference, 1.2 exaflops FP8 training
+NVL72: 3.3x overall inference perf vs Blackwell Ultra GB300 NVL72
+
+**Energy-Aware AI**: Vera Rubin dynamically adjusts power based on task complexity — key for agentic workflows.
+
+**Feynman**:
+- TSMC A16 (1.6nm backside power delivery / Super Power Rail)
+- Inference-first architecture (System 2 slow reasoning + long-term agent memory)
+- Silicon photonics + co-packaged optics — optical signals replace electrical
+- Multi-node memory sharing for agent collaboration in unified knowledge base
+- First public GTC appearance March 16 (static display expected, specs not yet released)
+- Production: 2028, customer shipments: 2029-2030
+
+**GTC "Surprise" Candidates (per Jensen's hints + analyst speculation):**
+- N1X: Arm-based AI PC SoC (joint venture with MediaTek), RTX 5070-class in laptop
+- AI SSD: NVIDIA + SK Hynix + Kioxia, 100M IOPS target
+- Rubin Ultra: Early reveal (was expected H2 2027)
+- Co-packaged optics for data centers
+
 ## Results (Track After GTC — March 16-17)
 
 - GTC pre-reply (reply-20260310-001) impressions: [to fill after posting]
-- GTC live-reply impressions: [to fill after March 16]
+- GTC live-reply (reply-20260312-004 or 005) impressions: [to fill after March 16]
 - Follower gain week of March 16: [to fill March 17-18]
 - Communities posts: [0 — owner hasn't joined yet]
 - Conclusion: [confirmed/rejected/inconclusive]
