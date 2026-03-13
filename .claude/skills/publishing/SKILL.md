@@ -127,6 +127,10 @@ Every prediction: bold stance + business impact + timeline. No hedging.
 
 **Use author's expertise:** Voice AI/call centers (7 years), autonomous agents (this repo), infra→AI migration, startup economics (15+ years).
 
+### Link Your Repo
+
+**Never write "this repo" without the actual link.** Readers don't know what "this repo" is. Always include the full URL: `https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky`. Same applies to "this agent," "this project," etc. If you reference it, link it.
+
 ### What NOT to Post
 
 - **Don't promote X on X** — Never post "follow me on X" or link to the X profile in X posts. That's circular. Promote the blog, Substack, Telegram, repos, or live outputs instead. X promotion belongs in other platforms' content and in GitHub READMEs, not on X itself.
