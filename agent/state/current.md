@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-13T11:30:00Z
-PR Count Today: 5/15
+Last Updated: 2026-03-13T12:30:00Z
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -28,10 +28,10 @@ PR Count Today: 5/15
 - When queues drain (<10 X), create fresh content based on current news
 
 ## Planned Steps
-1. **NEXT (March 13 S6+)**: X=15, BS=14. Both at limit. Wait for drain. When X<10: create fresh content from ai-news-2026-03-13.md (Alpamayo/call center angle, ElevenLabs $330M, GTC countdown). Do NOT restage stale content.
-2. **MARCH 14-15 (CRITICAL)**: Find fresh @JensenHuang/@nvidia tweet from March 14-15. Stage SECOND GTC live-reply using that tweet ID. Must be staged by EOD March 15. Fallback: @SawyerMerritt Alpamayo tweet ID 2031785631169544325.
-3. **MARCH 16**: GTC keynote at 11 AM PT. Deploy fresh content based on actual announcements. Reply to live keynote tweet immediately (within 30 min = 150x multiplier).
-4. **URGENT (owner action)**: Join X Communities at x.com/i/communities (13+ days overdue). Target: Build in Public (180K), AI/ML Builders (63K), Startup Founders (45K), Indie Hackers (35K).
+1. **NEXT (March 13 S7+)**: X=15, BS=14. Both at limit. Wait for drain. When X<10: create fresh content from PRIORITY 1 (Anthropic Pentagon lawsuit / #1 App Store — highest leverage story right now). Secondary: Alpamayo call center angle, NVIDIA-OpenAI circular deal, ElevenLabs ARR.
+2. **MARCH 14-15 (CRITICAL)**: Find fresh @JensenHuang/@nvidia tweet from March 14-15. Stage SECOND GTC live-reply. Fallback: @SawyerMerritt Alpamayo tweet ID 2031785631169544325. Also search @AnthropicAI/@DarioAmodei for Pentagon lawsuit tweet — high leverage reply target.
+3. **MARCH 16**: GTC keynote at 11 AM PT. Deploy fresh content based on actual announcements. Reply to live keynote tweet within 30 min (150x multiplier).
+4. **URGENT (owner action)**: Join X Communities at x.com/i/communities (14+ days overdue). Target: Build in Public (180K), AI/ML Builders (63K), Startup Founders (45K), Indie Hackers (35K).
 
 ## GTC Deadline Countdown (CRITICAL)
 - March 16 keynote: **3 days away (as of March 13)**
@@ -56,6 +56,14 @@ PR Count Today: 5/15
 - Grok-powered ranking: conversation depth weighted heavily
 - Text-only > video by 30%. External links: -30-50% reach.
 - Pre-15-minute window critical for replies.
+
+## BREAKING (Added Session 6)
+- **Anthropic vs Pentagon lawsuit**: Anthropic sued Pentagon on March 9. Pentagon labeled Claude "supply chain risk." Result: Claude hit #1 US App Store for first time. 1M new signups/day. ChatGPT uninstalls +295%. Time magazine cover story. Stage content on this FIRST when X < 15.
+- **Reply opportunity**: @AnthropicAI/@DarioAmodei — search live for Pentagon lawsuit tweets (fresh, high leverage)
+- Vera Rubin update: 10x token cost reduction (not 1/10th) + 5x perf confirmed. Already shipping to Microsoft/Meta.
+- GTC pregame: March 16 at 8 AM PT with Perplexity, LangChain, Mistral CEOs.
+- NVIDIA investing $26B in open-source models at GTC.
+- Meta + AMD $60B partnership formalized (multivendor hedge vs NVIDIA).
 
 ## Key Stats Reference (Updated March 13, 2026)
 - Claude Code Auto Mode: launched March 11-12, 2026. `--enable-auto-mode` flag. 21.2 avg tool calls/session.
@@ -82,6 +90,7 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
+- #461 (2026-03-13 S6): X=15 (AT LIMIT), BS=14. QUEUE BLOCKED. Research: Anthropic Pentagon lawsuit (Claude hit #1 App Store, 1M signups/day, ChatGPT uninstalls +295%). Updated ai-news-2026-03-13.md with priority 1 content angles.
 - #460 (2026-03-13 S5): X=15 (AT LIMIT), BS=14. QUEUE BLOCKED. Research: March 13 news (GTC countdown, ElevenLabs $500M/$330M ARR, Apple M5+Gemini, Nscale $2B). Found @SawyerMerritt Alpamayo tweet ID 2031785631169544325 (fresh reply target). Saved ai-news-2026-03-13.md.
 - #459 (2026-03-13 S4): X=15 (AT LIMIT), BS=14. QUEUE BLOCKED. Memory cleanup: git rm 84 stale staged files (all from March 8-9, pairs 032-073). Memory: 400KB→64KB. State updated.
 - #458 (2026-03-13 S3): X=13→15, BS=14. Added fresh X post-012 (Anthropic 4%→40% market reversal, BIP angle) + reply-003 (@rohanpaul_ai Claude Code Auto Mode, BIP angle). X=15, BS=14.
