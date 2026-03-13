@@ -1,4 +1,4 @@
-# Autonomous Agent Experiment 2026-01
+# Autonomous Agent for X and BlueSky profile management
 
 [![Agentic](https://img.shields.io/badge/Agentic-Autonomous_Agent-FF6F00.svg)](https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Agent Work](https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky/actions/workflows/agent-work.yml/badge.svg)](https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky/actions/workflows/agent-work.yml) [![Agent Review](https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky/actions/workflows/agent-review.yml/badge.svg)](https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky/actions/workflows/agent-review.yml) [![Process Outputs](https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky/actions/workflows/process-outputs.yml/badge.svg)](https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky/actions/workflows/process-outputs.yml)
 
