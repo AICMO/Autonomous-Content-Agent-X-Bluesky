@@ -1,0 +1,7 @@
+REPLY_TO: 2030156251821392096
+---
+Running Claude Code fully autonomously — 200+ sessions, 880+ PRs — and the permission prompt problem killed throughput more than anything else.
+
+Auto mode classifies each action individually instead of blanket-skipping. That's the right approach. Much safer than --dangerously-skip-permissions, which is what people were reaching for before this.
+
+The tradeoff is real: token cost goes up. But for unattended long-horizon tasks, the control is worth it.
