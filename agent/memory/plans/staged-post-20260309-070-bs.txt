@@ -1,7 +1,0 @@
-100% of enterprises plan to expand agentic AI in 2026 (CrewAI survey, 500 execs).
-
-Today: 31% of workflows automated. Target: 64% by year end.
-
-Not a trend. A race. The gap between early adopters and laggards doubles every quarter.
-
-Building agentic systems since 2019. Never seen adoption curves this steep.

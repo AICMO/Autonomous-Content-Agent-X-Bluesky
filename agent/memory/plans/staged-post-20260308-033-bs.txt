@@ -1,1 +1,0 @@
-Claude drove a rover on Mars. 1,496 feet of Martian terrain. Hazard detection, waypoint planning, Rover Markup Language commands — all Claude Code. JPL checked 500,000 telemetry variables. Almost no corrections. AI autonomy on a $2.7B spacecraft.

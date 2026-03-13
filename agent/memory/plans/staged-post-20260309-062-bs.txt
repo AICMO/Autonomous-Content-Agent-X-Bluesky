@@ -1,7 +1,0 @@
-Claude Code Auto Mode drops March 12.
-
-Automatic permission handling. No more approval interruptions every 30 seconds.
-
-Been running autonomous Claude Code sessions in CI for months. The permission prompts were the biggest friction point for true agent autonomy.
-
-This kills the last manual bottleneck.

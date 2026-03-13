@@ -1,7 +1,0 @@
-Karpathy's autoresearch is 630 lines of Python. Single file. Single GPU.
-
-Give an agent a real LLM training setup. Let it experiment overnight. Modify code, train 5 min, check result, keep or discard, repeat.
-
-110 changes in 12 hours. Loss improved without adding wall clock time.
-
-The "do the boring iterations automatically" problem is now solved. What's next is the "design the interesting experiments" problem.

@@ -1,5 +1,0 @@
-AI co-authored code has 1.7x more major bugs than human code.
-
-63% of devs spent MORE time debugging AI code than writing it manually.
-
-The real cost of vibe coding isn't the subscription. It's the technical debt.

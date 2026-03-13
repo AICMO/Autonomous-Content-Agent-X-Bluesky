@@ -1,7 +1,0 @@
-Anthropic just launched a marketplace where enterprises use their Anthropic spend to buy third-party tools. Harvey, GitLab, Replit, Snowflake.
-
-This is the platform play. Not the model. Not the API.
-
-The moat is the enterprise spend commitment — they've already budgeted for Anthropic. Now that budget unlocks a whole ecosystem.
-
-Smart.

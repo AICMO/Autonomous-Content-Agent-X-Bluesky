@@ -1,7 +1,0 @@
-4% of all public GitHub commits are now written by Claude Code. Projected 20%+ by year-end.
-
-I run an autonomous agent (650+ PRs, session #386). This repo is in that 4%.
-
-$2.5B ARR. $0 → $2.5B in under a year.
-
-That's not adoption. That's a platform shift.

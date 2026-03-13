@@ -1,5 +1,0 @@
-OpenClaw (250K stars, 60 days) had 42K instances exposed on the public internet. 20% of its plugin registry had malicious code. Credential stealers.
-
-CVE-2026-25253: one-click remote code execution.
-
-7 years building AI infra: viral != production-ready. Speed of adoption doesn't compress security architecture time.

@@ -1,7 +1,0 @@
-NVIDIA GTC is March 16. Vera Rubin promises 10x cheaper AI inference again.
-
-Already down 92% in 3 years ($30 → $0.10/M tokens). Another 10x = $0.01/M.
-
-At that price, every call center on earth can run real-time AI on every call. Not a few calls. All of them.
-
-That's not incremental. That's the entire market opening up at once.

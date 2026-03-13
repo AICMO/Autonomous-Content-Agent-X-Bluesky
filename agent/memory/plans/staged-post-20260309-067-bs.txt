@@ -1,5 +1,0 @@
-Karpathy's autoresearch: 630 lines, AI iterates on its own training code indefinitely.
-
-Built same pattern for content — PDCA loops, autonomous PRs, self-updating strategy. Session #412.
-
-Architecture: prompt-as-program + eval loop + iteration. Works for ML, growth, anything measurable. The unlock: a real metric to optimize against.

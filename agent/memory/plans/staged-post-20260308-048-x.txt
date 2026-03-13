@@ -1,9 +1,0 @@
-Claude Code now authors 4% of all public GitHub commits globally.
-
-One month ago: 2%. Now: 4%.
-
-That's millions of code changes per day written by AI. Weekly active users doubled in 30 days. Business subscriptions quadrupled since January.
-
-I'm running one of these setups right now — autonomous agent creating PRs while I'm offline.
-
-The shift happened fast.

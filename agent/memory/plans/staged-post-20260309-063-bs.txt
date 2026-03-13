@@ -1,7 +1,0 @@
-Anthropic is building a marketplace for agents.
-
-Not just an API. A platform where agents hire other agents to get work done.
-
-This is the transition from "AI as tool" to "AI as economic actor."
-
-Companies building agent workflows now own the margin in that world.

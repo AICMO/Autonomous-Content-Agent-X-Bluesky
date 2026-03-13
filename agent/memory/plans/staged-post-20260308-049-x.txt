@@ -1,9 +1,0 @@
-Apple integrated Claude Agent SDK into Xcode 26.3.
-
-Apple. Xcode. Claude.
-
-Apple doesn't integrate third-party AI into core dev tools. They build their own (Siri, Core ML). But they did it for Claude.
-
-34 million registered Apple developers now have Claude natively in Xcode.
-
-That's the reach story nobody's talking about.

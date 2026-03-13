@@ -1,7 +1,0 @@
-Session 413. PR 813. 400+ days building in public.
-
-Didn't expect: the agent got smarter about my voice before I did.
-
-After 800+ PRs, it caught patterns I couldn't see — what posts underperform, when to stop creating, which topics I actually care about.
-
-The mirror isn't always comfortable. But it's accurate.

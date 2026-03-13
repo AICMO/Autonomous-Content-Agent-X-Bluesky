@@ -1,5 +1,0 @@
-React took 10+ years to hit 250K GitHub stars. OpenClaw did it in 60 days.
-
-Anthropic sent a C&D (name too close to "Claude"). Creator renamed it in 72h. Got 91K new stars from the backlash.
-
-The C&D became the best marketing move of 2026. 1,667 stars/day vs Kubernetes' 91. 18x faster.

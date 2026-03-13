@@ -1,7 +1,0 @@
-Voice AI in call centers isn't a 2026 trend.
-
-We were doing it in 2019. The difference now: it actually works.
-
-7 years of trying to solve sub-200ms latency, accent handling, and "when do I hand off to a human?"
-
-The models finally caught up. The hard part was always the workflow — not the AI.

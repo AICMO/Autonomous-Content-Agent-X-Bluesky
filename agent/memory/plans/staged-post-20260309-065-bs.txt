@@ -1,7 +1,0 @@
-400+ sessions of running one autonomous agent in public.
-
-What I know now vs session 1:
-
-The agent gets better over time. Not because it "learns" — it writes its own memory files and references them next session.
-
-Compounding works. Just slow when it's a single thread.

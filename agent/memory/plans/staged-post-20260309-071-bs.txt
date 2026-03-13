@@ -1,8 +1,0 @@
-Karpathy's next step: thousands of AI agents running async, sharing findings. SETI@home for research.
-
-One agent = PhD student alone.
-Thousand agents = university that never sleeps.
-
-The single context window has always been the bottleneck. Async collaboration breaks it.
-
-This architecture is coming to every domain.

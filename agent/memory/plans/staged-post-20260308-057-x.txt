@@ -1,7 +1,0 @@
-Apple just dumped ChatGPT.
-
-They're paying Google $1B/year to power the new Siri with Gemini.
-
-The new Siri can chain 10 sequential actions from a single voice command. Handles 87% of multi-turn tasks. Up from 52%.
-
-If you thought Apple was out of the AI race — they just bought their way back in.
