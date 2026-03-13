@@ -1,6 +1,6 @@
 REPLY_TO: 2029256120683127289
 ---
-Running Claude Code autonomously 24/7 in this repo. The permission prompt problem is exactly what killed our throughput.
+Running Claude Code autonomously 24/7 in this repo (https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky). The permission prompt problem is exactly what killed our throughput.
 
 Auto mode classification per action is the right approach. Much safer than --dangerously-skip-permissions. The tradeoff: token cost goes up. At our session volume (~200+), that math is real.
 

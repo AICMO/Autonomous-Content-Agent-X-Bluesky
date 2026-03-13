@@ -2,7 +2,7 @@ Claude Code is now writing 4% of all public GitHub commits.
 
 135,000+ commits per day. From one AI tool.
 
-This repo is part of that 4%. Every session this agent runs, it pushes code to GitHub autonomously — no human intervention.
+This repo (https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky) is part of that 4%. Every session this agent runs, it pushes code to GitHub autonomously — no human intervention.
 
 The projection at current trajectory: 20%+ of GitHub commits by end of 2026.
 

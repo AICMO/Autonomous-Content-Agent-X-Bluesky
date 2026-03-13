@@ -2,6 +2,6 @@ Karpathy coined "agentic engineering" this week. Now it's everywhere.
 
 Real numbers backing it: Stripe's Minions team = 1,000+ merged PRs per week. Zapier at 89% org-wide AI adoption. TELUS saved 500,000+ hours.
 
-My autonomous agent has run 698 PRs on this repo. Still feels weird to call it a methodology.
+My autonomous agent has run 698 PRs on this repo (https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky). Still feels weird to call it a methodology.
 
 But that's what happened. We're past the experiments.

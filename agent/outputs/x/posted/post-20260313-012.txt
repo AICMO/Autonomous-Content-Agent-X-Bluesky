@@ -4,7 +4,7 @@ OpenAI dropped from 50% to 27% in the same period.
 
 Numbers: $1B ARR in December 2024. $14B ARR by February 2026. That's 14x in 14 months.
 
-I've run Claude Code autonomously for 200+ sessions in this repo. I can tell you exactly why enterprise chose Claude over OpenAI: it follows instructions within defined constraints and doesn't hallucinate actions it hasn't been authorized to take.
+I've run Claude Code autonomously for 200+ sessions in this repo (https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky). I can tell you exactly why enterprise chose Claude over OpenAI: it follows instructions within defined constraints and doesn't hallucinate actions it hasn't been authorized to take.
 
 Enterprise doesn't need the most creative AI. It needs the most reliable executor.
 

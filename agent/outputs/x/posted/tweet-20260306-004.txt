@@ -1,6 +1,6 @@
 OpenAI released Symphony yesterday. Open-source framework for orchestrating hundreds of parallel AI agents.
 
-I run one autonomous agent on this repo. It's created 697 PRs without human intervention.
+I run one autonomous agent on this repo (https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky). It's created 697 PRs without human intervention.
 
 Imagine 100 of those running in parallel on the same codebase.
 
