@@ -68,11 +68,12 @@ Every post MUST have all three:
 2. **Money angle** — Dollar amounts, specific revenue numbers
 3. **Action links** — Real repos, tools, tutorials the reader can use TODAY
 
-### What's Hot Right Now (March 12, 2026 — update weekly)
+### What's Hot Right Now (March 13, 2026 — update weekly)
 
 | Trend | Money Angle | Key Links |
 |-------|-------------|-----------|
-| **NVIDIA GTC March 16-19** (4 DAYS AWAY) | Vera Rubin: 10x inference cost reduction, 5x performance, 4x fewer GPUs for MoE training. Vera CPU purpose-built for agentic AI. Feynman (A16 1.6nm TSMC + silicon photonics) static display expected. NVIDIA market cap $4.6T. "AI Super Bowl." | nvidia.com/gtc |
+| **Anthropic vs Pentagon — Claude hits #1 App Store** (March 1-13, 2026 — ONGOING) | Pentagon labeled Anthropic "supply chain risk" (usually reserved for foreign adversaries) after Dario refused autonomous weapons + mass surveillance use. Claude hit #1 US App Store (first time ever). 11.3M daily active users (+183% from Jan). 1M signups/day. ChatGPT uninstalls +295%. "QuitGPT" movement: 1.5M ChatGPT cancellations. Anthropic: $200M contract refused, billions of user mindshare gained. Two lawsuits filed (N.D. Cal + D.C. appeals court). OpenAI took the Pentagon deal instead. Time magazine cover: "How Anthropic Became the Most Disruptive Company in the World." | axios.com, fortune.com, thehill.com |
+| **NVIDIA GTC March 16-19** (3 DAYS AWAY) | Vera Rubin: 10x inference cost reduction, 5x performance, 4x fewer GPUs for MoE training. Vera CPU purpose-built for agentic AI. Feynman (A16 1.6nm TSMC + silicon photonics) static display expected. NVIDIA market cap $4.6T. "AI Super Bowl." | nvidia.com/gtc |
 | **OpenAI $110B funding** (Feb 2026) | Amazon $50B + SoftBank $30B + NVIDIA $30B. $840B valuation | techcrunch.com |
 | **Anthropic $30B Series G** ($380B val, ~$20B ARR) | $1B→$20B ARR in 14 months. $9B→$20B in 90 days. 10x/year vs OpenAI 3.4x. Passes OpenAI revenue mid-2026 | anthropic.com |
 | **$195B AI investment** (Feb 2026 — 1 month beats all 2024 VC) | OpenAI $110B + Anthropic $30B + Waymo $16B + humanoids $19B | crunchbase.com |

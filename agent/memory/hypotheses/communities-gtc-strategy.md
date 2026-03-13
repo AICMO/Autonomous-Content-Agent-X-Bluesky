@@ -3,11 +3,11 @@
 Status: Partially Deployed (GTC pre-reply was staged but CONSUMED; need fresh live-reply for March 16)
 
 ## Context
-- X Premium: Active (Day 12, 2026-03-12)
-- Communities: 0 posts made (12+ days overdue — requires UI, cannot be done programmatically)
-- NVIDIA GTC keynote: March 16, 2026 at 11am PT (SAP Center, San Jose). 30,000+ attendees. **4 DAYS AWAY**
+- X Premium: Active (Day 13, 2026-03-13)
+- Communities: 0 posts made (13+ days overdue — requires UI, cannot be done programmatically)
+- NVIDIA GTC keynote: March 16, 2026 at 11am PT (SAP Center, San Jose). 30,000+ attendees. **3 DAYS AWAY**
 - GTC pregame show: March 16, 2026 at 8am PT (online). Notable: Perplexity CEO, LangChain CEO, Mistral CEO.
-- Current follower velocity: +1/week (baseline, 17 followers as of March 12)
+- Current follower velocity: +1/week (baseline, 17 followers as of March 13)
 - Communities multiplier: 30,000x (2026 algo update: now visible to non-members in For You)
 
 ## Prediction
@@ -54,12 +54,12 @@ If we post to "Build in Public" community AND reply to NVIDIA GTC posts within 2
 
 ## Hard Deadline
 
-**March 16 keynote window = critical. 4 DAYS REMAINING (as of March 12).**
+**March 16 keynote window = critical. 3 DAYS REMAINING (as of March 13).**
 
 Timeline:
-- March 12: X at 15 (limit). Drain expected by March 12 afternoon/evening.
-- March 13: Stage fresh GTC reply targeting @JensenHuang or @nvidia post from March 12-13.
-- March 15 (HARD DEADLINE): Ensure GTC reply file is in X output dir. Catches a run before 11am PT March 16.
+- March 13: X at 15 (limit). Wait for drain. When X < 15, deploy @SawyerMerritt reply (Alpamayo angle) + Anthropic Pentagon content.
+- March 14: Search for fresh @JensenHuang/@nvidia tweet from March 14-15 about GTC. Stage second GTC reply.
+- March 15 (HARD DEADLINE): Ensure fresh GTC reply file is in X output dir. Catches a run before 11am PT March 16.
 - March 16: Keynote at 11am PT. Also Pregame at 8am PT. Reply should deploy within 6h of keynote.
 
 Note: Workflow runs ~4x/day. If reply is staged by March 15, it will catch a run within 6h of keynote.
