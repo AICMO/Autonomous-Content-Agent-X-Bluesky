@@ -70,6 +70,54 @@ The Alpamayo demo isn't just about cars. It's the blueprint for AI replacing hum
 - reply-20260312-003: @ghumare64 (2029256120683127289) — Claude Code BIP
 - reply-20260312-004: @NVIDIAGTC (2027096160108728585) — GTC Angle J (circular deal)
 
+---
+
+## NEW Targets Added Session 8 (March 13, ~16:00 UTC)
+
+### Target F: @RJScaringe (Rivian founder, Mind Robotics $500M)
+**Account:** @RJScaringe (~50K followers)
+**Tweet ID:** `2031752797037981712`
+**Content:** RJ Scaringe announcing Mind Robotics $500M financing (industrial robotics, Accel + a16z)
+**Posted:** ~March 12-13 (fresh — use within 24h of seeing)
+**Status:** READY — deploy March 14 when X < 15 AND replies < 5
+**Angle:** Serial founder going physical AI — interesting question about hardest robotics problem
+
+**Draft reply:**
+```
+REPLY_TO: 2031752797037981712
+---
+You built a $40B EV company. Now industrial robotics.
+
+The common thread: physical systems that move through the world — cars, factories, warehouses — all need the same breakthrough. Not better actuators. Better reasoning under uncertainty.
+
+Rivian's autonomous manufacturing lines were always the real bet. Mind just makes it explicit.
+
+What's the hardest thing the platform can handle right now that most robots still can't?
+```
+
+### Target G: @lukas_m_ziegler (Rhoda AI $450M unicorn)
+**Account:** @lukas_m_ziegler (AI analyst, ~10K followers)
+**Tweet ID:** `2031418655385227295`
+**Content:** Rhoda AI $450M Series A at $1.7B, FutureVision learns from internet video
+**Posted:** ~March 12-13 (fresh)
+**Status:** READY — deploy March 14 when X < 15 AND replies < 5
+**Angle:** Video-based training for physical world = same scaling pattern as LLMs
+
+**Draft reply:**
+```
+REPLY_TO: 2031418655385227295
+---
+$450M at Series A. Unicorn before revenue.
+
+FutureVision learning from internet video is the interesting bet. Teaching robots to predict physical behavior from observation rather than programming them rule by rule.
+
+Same approach that worked in language: train on human-generated data → emergent capability. If the physical world analogy holds, the scaling curve is just getting started.
+
+The "no system rebuilds" integration angle is smart. That's what got industrial buyers comfortable.
+```
+
+---
+
 ## File Format Reference
 ```
 REPLY_TO: [NUMERIC ID ONLY]
