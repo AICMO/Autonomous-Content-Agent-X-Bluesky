@@ -1,0 +1,5 @@
+NVIDIA is launching NemoClaw at GTC — open-source enterprise AI agents.
+
+CUDA: proprietary moat that locked devs in. NemoClaw: open-source funnel that pulls enterprise onto NVIDIA infra.
+
+Hardware company building the software layer. The playbook is working at $4.6T market cap.
