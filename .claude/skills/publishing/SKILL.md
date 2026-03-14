@@ -8,19 +8,13 @@ user-invocable: false
 
 > Core principles for creating content that grows audience
 
-## Premium Status: ACTIVE ($20/mo, activated 2026-03-01)
+## Platform Status
 
-X Premium is live. All Premium features unlocked:
-- Communities access (30,000x reach multiplier)
-- +100 TweepCred boost (escaped suppression)
-- 10x algorithmic reach, link posting without suppression, reply visibility boost
+Check current platform status (Premium tier, features, limits) in the integration plan files:
+- X: `agent/integrations/x/plan.md`
+- Bluesky: `agent/integrations/bluesky/plan.md`
 
-**Current priorities (Premium era):**
-1. **Queue discipline first** — check both queues before creating anything (>15 = zero content)
-2. **Drain rates (observed):** X=12 posts/day (3/run × 4 runs), Bluesky=4 posts/day (1/run × 4 runs)
-3. Post to Communities (Build in Public, AI/ML Builders, etc.) — when queue allows
-4. Reply to own comments within 30 min (150x multiplier) — when queue allows
-5. Continue cross-posting to Bluesky
+If plan files don't exist, create them from current state.
 
 ---
 
@@ -234,26 +228,29 @@ Pick one per post: **Content value** (post teaches/provokes) OR **Outcome value*
 - **Spread across pillars** — don't let any single pillar dominate more than 50% of output. Check last 5 posts for balance.
 - **25%+ BIP content** (progress, learnings, behind-scenes, failures)
 - **15-20% question posts** for engagement
-- **~10% promotional** (repo link only when post is genuinely about agents/automation; Ender Turing when relevant to call center AI)
+- **~10-15% promotional** — CTAs that drive stars, subscriptions, leads (see below)
 
-### Open Source Promotion (~1 in 5 posts)
+### Promotion & CTAs (~1 in 7 posts)
 
-Promote owner's public repos as part of the ~20% promotional allocation. Use the discovery skill's "Owner's Open Source Scan" to find what's promotable right now.
+**Goal of every CTA:** Drive a measurable action — GitHub stars, blog/Substack subscribers, Telegram joins, Ender Turing leads. Not vanity ("follow me"), but funneling attention into the owner's properties.
+
+**What to promote** (discover from ME.md, don't hardcode):
+- Owner's repos and orgs (use discovery skill's OS scan)
+- Live agent outputs: blog, Substack, Telegram channel
+- Owner's company (Ender Turing) when post topic aligns with call center AI
+- Owner's profiles (LinkedIn, GitHub) as secondary CTAs
 
 **Best promo angles (ranked):**
-1. **Specific live outcome** — Link a real article/digest/post produced by the agent TODAY or this week. "This AI agent wrote this article. No human involved." + direct link to the piece. A specific article > generic blog link.
-2. **Live outputs (general)** — "This AI runs daily. See the results: [blog/substack/telegram link]." Proof > promises.
-3. **Trend overlap** — Trending topic aligns with a repo or outcome? Post about the trend, link the repo/output as "we built this."
-4. **Star/milestone** — Crossed a star threshold, hit a release, got a contributor.
-5. **Repo launch** — New public repo = one-time launch post.
+1. **Specific live outcome** — Link a real article/post produced by the agent this week. "This was written by an AI agent. No human." + direct link. Specific > generic.
+2. **Live outputs** — "This AI runs daily. See the results: [link]." Proof > promises.
+3. **Trend overlap** — Trending topic aligns with a repo or outcome? Post about the trend, link as "we built this."
+4. **Milestone** — Star threshold, subscriber count, new release.
 
 **Rules:**
-- Never promo a repo or outcome you haven't scanned this session (stale info = bad post)
-- Always include at least one live output link if available — outcomes > code
-- Frame as value to the reader ("you can use this" / "see what's possible"), not vanity
-- Alternate between repos and outcomes — don't repeat the same promo angle twice in a row
-- Combine with news hooks when possible ("Everyone's talking about X. We open sourced Y, and it runs daily: [link]")
-- When promoting outcomes, fetch the actual content first and reference something specific (article title, topic covered) — specificity is more compelling than generic "check out our blog"
+- CTA must match the post topic. Agent post → repo link. Voice AI post → Ender Turing. Don't cross-wire.
+- Only promo what you've scanned this session (stale info = bad post)
+- Frame as value to reader ("you can use this"), not vanity
+- Don't repeat same promo angle twice in a row
 
 ---
 
@@ -282,7 +279,7 @@ Frame as **human building products with autonomous tools**.
 **Use:** creating, building, shipping, launching. **Avoid:** testing, experimenting, trying. **Say:** product, tool, solution (never "content").
 
 ### CTA Discipline
-Every post >50 impressions should include soft CTA. Templates: "Building this in public → [repo link]", "More on my LinkedIn → [profile]". CTA from Day 1.
+Every post should drive attention toward owner's properties (repos, blog, Substack, Telegram, company). Match CTA to post topic — agent posts → repo, voice AI → Ender Turing, general → blog/Substack. Discover links from ME.md, don't hardcode.
 
 ### Educational Simplification
 For complex concepts: "Here's [concept]. In plain English: [1-2 sentences]. Why it matters: [implication]."
@@ -373,26 +370,10 @@ Does this sound like a real person typed it? Would I say this to a colleague? Do
 
 ---
 
-## Premium Growth Phase — OVERDUE (Day 8 of Premium, zero community posts)
-
-**STATUS: CRITICAL** — Premium activated 2026-03-01. As of 2026-03-08, zero community posts made. Follower growth dropped to +1/week (was +4). Communities are the single highest-leverage action available (30,000x multiplier) and have not been used once.
-
-**IMMEDIATE PRIORITY when queue allows:**
-1. Join 6 Communities (Build in Public, AI/ML Builders, Startup Founders, Call Center AI, Infra→AI, Indie Hackers)
-2. Post FIRST content to Build in Public community — this is overdue by 8 days
-3. Reply to ALL own comments within 30 min (150x multiplier)
-4. Create 5-10 replies/session to larger accounts
-5. Track follower growth (target: 50-100 in 2 weeks vs 0.75/day baseline)
-
-**Evidence (Week 8 retro):** Without Communities, follower velocity: +1/week. At +1/week, 5K goal ETA = 95 years. Communities are the only untested high-leverage lever remaining.
-
-**Full details:** `agent/outputs/premium-activation-playbook.md`
-
----
-
 ## Reference Links
 
-- Premium activation: `agent/outputs/premium-activation-playbook.md`
 - Commenting/engagement: `.claude/skills/commenting/SKILL.md`
 - Author info: `ME.md`
+- Platform plans: `agent/integrations/x/plan.md`, `agent/integrations/bluesky/plan.md`
 - Research archive: `agent/memory/research/`
+- Content pillars: `agent/memory/pillars.md`

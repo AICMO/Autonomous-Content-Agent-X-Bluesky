@@ -120,7 +120,7 @@ Post original content → reply to your own tweet within 30 min with expansion/d
 
 **Feb 2026 update:** Community posts now visible to EVERYONE (not just members) — surface in For You feed based on topic interest signals. Reach extends beyond community membership.
 
-**6 Communities:** Build in Public (180K), AI/ML Builders (63K), Startup Founders (45K), Call Center AI (12K), Infrastructure→AI (8K), Indie Hackers (35K).
+**Target communities** are listed in `agent/memory/pillars.md`. Pick communities that align with active pillars.
 
 **Rules:**
 - 100% of content to Communities first (timeline = secondary)
