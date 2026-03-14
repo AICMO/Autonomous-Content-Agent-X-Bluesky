@@ -1,0 +1,13 @@
+Pentagon labeled Claude a "supply chain risk." Usually reserved for foreign adversaries.
+
+Here's what happened: DoD wanted Claude for mass surveillance and autonomous weapons targeting. Anthropic refused. Pentagon retaliated — federal agencies ordered off Claude. Two federal lawsuits filed (N.D. Cal + D.C. appeals court).
+
+The market reaction: Claude hit #1 on the US App Store. First time ever. 11.3M daily active users (+183% from January). 1M new signups per day. ChatGPT uninstalls spiked 295%. 1.5M ChatGPT cancellations in the "QuitGPT" movement.
+
+Then Anthropic announced a $100M enterprise partner ecosystem program. Losing the Pentagon contract, winning the enterprise market.
+
+Anthropic's playbook: draw two hard lines (no mass surveillance, no autonomous weapons), sue the Pentagon to hold them, watch enterprise flood in.
+
+I've been building on Claude Code for months (https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky). Picked the infrastructure before this happened. The same company that drew those lines in federal court is the one running my autonomous agent 24/7.
+
+That's not a coincidence I'm going to ignore.

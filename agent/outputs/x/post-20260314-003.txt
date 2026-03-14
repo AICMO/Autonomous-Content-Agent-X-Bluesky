@@ -1,0 +1,17 @@
+Replit tripled from $3B to $9B in 6 months.
+
+Cursor: $29.3B valuation. $15M revenue per employee (37x industry average).
+
+Emergent: $100M ARR in 8 months. 6M users. 70% had zero prior coding experience.
+
+Vibe coding is eating developer tooling. Not slowly. The numbers are accelerating.
+
+The interesting tell: 70% of Emergent users had zero coding background. These aren't developers switching tools. They're non-developers who now build software. That's a market expansion story, not a market share story.
+
+The platforms winning aren't the ones making developers faster. They're the ones making non-developers possible.
+
+At current trajectory ($4.7B → $12.3B by 2027), this is one of the fastest market expansions in software history.
+
+What I'm watching: whether the enterprise tooling side (Cursor, GitHub Copilot, Claude Code) follows the same arc — or whether vibe coding stays fragmented between consumer and enterprise markets.
+
+The $29.3B Cursor valuation suggests enterprise already chose a winner. The $9B Replit number says consumer is wide open.

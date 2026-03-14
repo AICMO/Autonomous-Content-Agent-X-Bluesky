@@ -1,0 +1,15 @@
+NVIDIA GTC keynote is in 2 days (March 16, 11 AM PT). Here's what we know before Jensen takes the stage:
+
+Vera Rubin (confirmed): 5x inference vs Blackwell, 10x token cost reduction, 4x fewer GPUs for MoE training. Already shipping to Microsoft and Meta.
+
+Feynman chip (expected static display): A16 1.6nm TSMC + silicon photonics. 2028 production. Jensen called it "something the world has never seen." SK Hynix is mass-producing HBM4 for it now.
+
+NVIDIA-OpenAI circular deal: NVIDIA invested $30B in OpenAI. Inside that deal: a 2GW Vera Rubin training contract for OpenAI. NVIDIA is simultaneously the investor AND the anchor customer. Jensen built a captive buyer network, not just a chip business.
+
+NemoClaw: NVIDIA's open-source enterprise AI agent platform. Hardware-agnostic. Pitching Salesforce, Cisco, Google, Adobe, CrowdStrike. Jensen's CUDA was the proprietary moat. NemoClaw is the open-source funnel that keeps compute running on NVIDIA chips.
+
+$26B into open-source models announced at GTC.
+
+NVIDIA market cap: $4.6T.
+
+The "AI Super Bowl" framing isn't wrong. Two days.

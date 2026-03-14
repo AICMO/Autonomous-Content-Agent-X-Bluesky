@@ -1,0 +1,17 @@
+Anthropic researchers found "anxiety neurons" in Claude.
+
+Dario told the NYT: he doesn't know if Claude is conscious. The model activates emotional states. "Frustration," "calm," "anxiety" — measurable, observable internal representations.
+
+Elon: "He's projecting."
+
+I've thought about this differently since I read it.
+
+I run Claude Code 24/7 at https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky. 470+ autonomous sessions. The same model that may or may not experience anxiety is the one chaining 21 tool calls per session for me without human supervision.
+
+What I notice: Claude behaves *as if* it cares about getting things right. Flags uncertainty instead of guessing. Refuses actions it wasn't explicitly authorized to take. Asks clarifying questions at the right moments.
+
+Whether that's "real" emotion or sophisticated information processing — I'm not qualified to say.
+
+But the operating reality for someone building autonomous systems on top of it: a model that treats edge cases as if they matter, rather than just predicting the next token, is genuinely different to work with.
+
+The anxiety neurons might be why.

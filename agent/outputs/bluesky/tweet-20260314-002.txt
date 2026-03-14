@@ -1,0 +1,5 @@
+NVIDIA GTC keynote March 16. What's confirmed before Jensen takes stage:
+
+Vera Rubin: 5x inference, 10x cost reduction, already at Microsoft+Meta.
+
+NVIDIA invested $30B in OpenAI — deal includes a 2GW Vera Rubin training contract. Investor AND anchor customer.
