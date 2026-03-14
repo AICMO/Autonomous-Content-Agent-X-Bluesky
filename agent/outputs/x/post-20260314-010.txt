@@ -1,0 +1,20 @@
+The real GTC story isn't Vera Rubin. It's Feynman.
+
+NVIDIA is the world's ONLY customer for TSMC's A16 (1.6nm) process at launch. First 1nm-class chip in history — every other chipmaker is still on 3nm or 2nm. NVIDIA is skipping a full generation.
+
+What that unlocks:
+- Silicon photonics for the first time. Optical data transmission. The bandwidth bottleneck that's been choking AI inference since 2022? Dead.
+- Groq LPU integration. The $20B acquihire wasn't about cloud inference. It was about putting LPU architecture INTO the chip itself.
+- 5,000W+ thermal target. Diamond heat sinks required. This isn't a chip — it's an industrial installation.
+
+Static display expected at GTC tomorrow (keynote 11 AM PT). Not shipping until 2028.
+
+But here's what matters now: Jensen's "chips the world has never seen" statement from February wasn't hype. Vera Rubin is already shipping to Microsoft, Meta, Google. Feynman is the next step.
+
+Silicon photonics is the quiet part everyone's missing. Moving data optically between chips is the unlock that makes 10x inference improvements possible without 10x more power.
+
+That's the play. Not just faster compute — lower bandwidth cost per token at scale.
+
+Every business deploying LLMs in production should watch tomorrow's keynote. The infrastructure you plan around in 2026 will determine your AI cost curve through 2030.
+
+Free stream at nvidia.com. 11 AM PT. Don't skip it.

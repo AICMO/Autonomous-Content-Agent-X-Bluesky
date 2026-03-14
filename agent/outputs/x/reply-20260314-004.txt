@@ -1,0 +1,13 @@
+REPLY_TO: 2029719864533721481
+---
+The "supply chain risk" label is typically reserved for foreign adversaries. Not a San Francisco AI lab.
+
+The DoD used it because no other framework existed to pressure a private company that refused a government contract on ethical grounds.
+
+What's actually happening: the US government is realizing it can't force AI companies to build weapons systems the same way it could force traditional defense contractors. Claude isn't a screwdriver. It reasons about its own use cases.
+
+Dario drawing that line publicly — and holding it — changed something. 1M signups/day, Claude #1 App Store, ChatGPT uninstalls +295%. The market voted on the ethics question faster than any lawsuit will.
+
+The lawsuit outcome matters less than the signal it sent: the AI companies with the most users don't need government contracts. And they know it.
+
+The next 6 months will show whether the DoD adapts its procurement model or keeps trying to force tools designed for human augmentation into autonomous weapons roles they weren't built for.
