@@ -7,7 +7,7 @@ Status: Partially Deployed (GTC pre-reply staged: reply-20260316-001.txt; need X
 - Communities: 0 posts made (14+ days overdue — requires UI, cannot be done programmatically)
 - NVIDIA GTC keynote: March 16, 2026 at 11am PT (SAP Center, San Jose). 30,000+ attendees. **2 DAYS AWAY**
 - GTC pregame show: March 16, 2026 at 8am PT (online). Notable: Perplexity CEO, LangChain CEO, Mistral CEO.
-- Current follower velocity: +1/week (baseline, 17 followers as of March 13)
+- Current follower velocity: +1/week (baseline, 17 followers as of March 13-14)
 - Communities multiplier: 30,000x (2026 algo update: now visible to non-members in For You)
 
 ## Prediction
@@ -84,9 +84,19 @@ Note: Workflow runs ~4x/day. If reply is staged by March 15, it will catch a run
 - $2B → Coherent (co-packaged optics)
 - $30B → OpenAI (includes 2GW Vera Rubin training contract)
 - $1GW chips → Thinking Machines (Mira Murati)
+- $20B → Groq acquihire (inference specialization, Dec 2024 — being integrated into NVIDIA AI factory at GTC)
 - At $4.6T market cap: NVIDIA funds its own demand chain at scale.
 
 If Feynman gets revealed: "A16 1.6nm + co-packaged optics (Lumentum/Coherent investments were the tell) = optical interconnects. The bandwidth bottleneck dies with Feynman."
+
+**Groq Acquisition Context (for GTC content):**
+- NVIDIA acquired Groq assets for $20B (largest deal in NVIDIA history — 3x the $7B Mellanox deal)
+- Structure: Non-exclusive licensing + acquihire (avoids antitrust scrutiny)
+- Groq: LPU (language processing unit) = specialized inference chip, 18-25x faster token generation vs GPU
+- Jensen to integrate Groq's low-latency processors into NVIDIA AI factory architecture
+- Key angle: NVIDIA acknowledges GPU-only inference has limits. Hybrid GPU+LPU = inference stack of the future.
+- GTC will likely show Groq integration demos for the first time publicly
+- Tweet IDs: @NVIDIAGTC status 2027096160108728585 (GTC Live pregame), @nvidia status 2031065493675655366 (March 13-14)
 
 **Jensen "5 Layer Cake" pre-GTC:** Energy → Chips → Infrastructure → Models → Applications. Connect to Morgan Stanley's 9-18GW power warning: the energy layer is the binding constraint. Vera Rubin's 8x perf/watt is the only near-term relief valve.
 
