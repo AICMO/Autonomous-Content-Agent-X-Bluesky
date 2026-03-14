@@ -1,0 +1,7 @@
+NVIDIA Vera Rubin ships in H2 2026.
+
+336B transistors. 50 PFLOPs. 22 TB/s bandwidth. 10x cheaper tokens.
+
+Install time: 2 hours (Blackwell) → 5 minutes (Vera). Fanless. Cableless. 100% liquid-cooled.
+
+Keynote Monday 11AM PT. Jensen said "chips the world has never seen."
