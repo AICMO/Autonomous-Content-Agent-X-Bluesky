@@ -1,11 +1,11 @@
 # Hypothesis: Communities + GTC Reply = Breakthrough Engagement Week
 
-Status: Partially Deployed (GTC pre-reply was staged but CONSUMED; need fresh live-reply for March 16)
+Status: Partially Deployed (GTC pre-reply staged: reply-20260316-001.txt; need X queue to drain before March 16)
 
 ## Context
-- X Premium: Active (Day 13, 2026-03-13)
-- Communities: 0 posts made (13+ days overdue — requires UI, cannot be done programmatically)
-- NVIDIA GTC keynote: March 16, 2026 at 11am PT (SAP Center, San Jose). 30,000+ attendees. **3 DAYS AWAY**
+- X Premium: Active (Day 14, 2026-03-14)
+- Communities: 0 posts made (14+ days overdue — requires UI, cannot be done programmatically)
+- NVIDIA GTC keynote: March 16, 2026 at 11am PT (SAP Center, San Jose). 30,000+ attendees. **2 DAYS AWAY**
 - GTC pregame show: March 16, 2026 at 8am PT (online). Notable: Perplexity CEO, LangChain CEO, Mistral CEO.
 - Current follower velocity: +1/week (baseline, 17 followers as of March 13)
 - Communities multiplier: 30,000x (2026 algo update: now visible to non-members in For You)
@@ -78,7 +78,17 @@ Note: Workflow runs ~4x/day. If reply is staged by March 15, it will catch a run
 - "Surprise the world" chip: Could be N1X Arm consumer SoC or AI SSD (SK Hynix/Kioxia partnership); also Rubin Ultra speculation
 - Open models panel March 18: Huang + A16Z + AI2 + Cursor + Reflection AI + Thinking Machines Lab
 
-**Best reply angle for March 16 (post-keynote):** Angle J remains strongest — the NVIDIA-OpenAI circular deal. If Feynman gets revealed, add: "Feynman on A16 1.6nm + silicon photonics = not just compute, it's bandwidth. The interconnect bottleneck dies here."
+**Best reply angle for March 16 (post-keynote):** Angle J EXPANDED (confirmed March 14). The circular deal is now a PATTERN:
+- $2B → Nebius (AI cloud, March 11)
+- $2B → Lumentum (silicon photonics)
+- $2B → Coherent (co-packaged optics)
+- $30B → OpenAI (includes 2GW Vera Rubin training contract)
+- $1GW chips → Thinking Machines (Mira Murati)
+- At $4.6T market cap: NVIDIA funds its own demand chain at scale.
+
+If Feynman gets revealed: "A16 1.6nm + co-packaged optics (Lumentum/Coherent investments were the tell) = optical interconnects. The bandwidth bottleneck dies with Feynman."
+
+**Jensen "5 Layer Cake" pre-GTC:** Energy → Chips → Infrastructure → Models → Applications. Connect to Morgan Stanley's 9-18GW power warning: the energy layer is the binding constraint. Vera Rubin's 8x perf/watt is the only near-term relief valve.
 
 ## Key Constraint
 
