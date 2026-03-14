@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-14T10:15:00Z
-PR Count Today: 9/15
+Last Updated: 2026-03-14T10:45:00Z
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,18 +10,17 @@ PR Count Today: 9/15
 | Tweets Posted | ~754 | - | - | ~12/day | - |
 | Premium | ACTIVE (Day 14) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-14 session 9, ~10:15 UTC)
+## Queue Status (VERIFIED 2026-03-14 session 10, ~10:45 UTC)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 15 | <15 | AT LIMIT — no more X content |
-| Bluesky | 14 | <15 | NEAR LIMIT — at >=15 trigger, zero content |
+| X | 13 | <15 | UNDER LIMIT |
+| Bluesky | 15 | <15 | AT LIMIT — no more Bluesky content |
 
-## Queue Composition (X, 15 files)
-- 8 posts (post-20260314-001 through -008)
-- 7 replies (reply-20260314-001 through -006 + reply-20260316-001)
-- WARNING: Duplicate reply targets detected — 3 tweet IDs each targeted TWICE (pairs -001/-004, -002/-005, -003/-006)
-- Duplicate targets: 2031785631169544325 (@SawyerMerritt Alpamayo), 2031752797037981712 (@RJScaringe Mind Robotics), 2031418655385227295 (@lukas_m_ziegler Rhoda AI)
-- AGE RISK: These March 12-13 tweets may be 48-72h old by time queue drains (March 14-15 evening)
+## Queue Composition (X, 13 files)
+- 9 posts (post-20260314-001 through -009)
+- 4 replies (reply-20260314-001, -002, -003 + reply-20260316-001)
+- Duplicate replies FIXED: removed 004, 005, 006 (targeted same IDs as 001, 002, 003)
+- AGE RISK: @SawyerMerritt, @RJScaringe, @lukas_m_ziegler March 12-13 tweets may be stale by drain time
 
 ## Queue Drain Rates
 - X: 3 per run, ~4 runs/day = **12/day max**
@@ -36,13 +35,16 @@ PR Count Today: 9/15
 ## Staged Content (agent/memory/plans/)
 - **0 files** — All content staged directly to outputs.
 
+## Session 10 Output (March 14)
+**Bug fix:** Removed 3 duplicate reply files (004, 005, 006 — same tweet IDs as 001, 002, 003). X queue dropped from 15 to 12.
+**X files created (1):** post-20260314-009 — NVIDIA Circular Deal Pattern ($57B across 6 deals). Angle B from gtc-2026-preday-2026-03-14.md.
+**Bluesky posts created (1):** post-20260314-013 — compressed circular deal pattern (284 chars, under 290 limit).
+
 ## Session 9 Output (March 14)
 **X files created (0):** Queue at 15 (AT LIMIT) — zero X content.
 **Bluesky posts created (0):** Queue at 14 — X queue >=15, so zero content.
 **Research:** Fresh tweet ID search conducted — no new @JensenHuang tweet IDs found for March 14. Existing targets confirmed:
-- @NVIDIAGTC ID 2027096160108728585 (GTC pregame promo)
-- @nvidia ID 2031065493675655366 (March 13-14, targeted by reply-20260316-001)
-**Bug flagged:** Duplicate reply targets in queue (same tweet IDs targeted by 2 files each)
+**Bug flagged:** Duplicate reply targets in queue (same tweet IDs targeted by 2 files each) — FIXED in S10.
 **Reply age risk noted:** @SawyerMerritt, @RJScaringe, @lukas_m_ziegler tweets from March 12-13 may be stale by drain time
 
 ## Session 8 Output (March 14)
@@ -136,6 +138,7 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
+- #480 (2026-03-14 S10): X=15→12 (fixed 3 dupe replies), BS=14→15. Fixed duplicate reply bug. Created post-20260314-009 (NVIDIA Circular Deal $57B) + BS post-013. PR#10.
 - #479 (2026-03-14 S9): X=15 (AT LIMIT), BS=14. QUEUE BLOCKED. Research: Fresh GTC tweet ID search — no new @JensenHuang IDs found. Flagged duplicate reply targets + tweet age risk in queue. State update. PR#9.
 - #478 (2026-03-14 S8): X=15 (AT LIMIT), BS=14. QUEUE BLOCKED. Research: GTC pre-keynote synthesis — Feynman chip details (A16, silicon photonics, Groq LPU), circular deal 6 entries, post-GTC content plan. gtc-2026-preday-2026-03-14.md created. PR#8.
 - #477 (2026-03-14 S7): X=15 (AT LIMIT), BS=14. QUEUE BLOCKED. Research: NVIDIA Groq $20B acquihire — added to GTC circular deal pattern + Angle K. PR#7.
