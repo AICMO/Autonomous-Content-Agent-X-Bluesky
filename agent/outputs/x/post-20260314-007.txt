@@ -1,0 +1,17 @@
+Anthropic's Pentagon playbook is working.
+
+Pentagon ban → Claude hits #1 US App Store. 1M signups/day. ChatGPT uninstalls +295%.
+
+Now: Anthropic announces $100M partner ecosystem program.
+
+The sequence: Lose government contract → win enterprise market → use that momentum to demonstrate you don't need government contracts.
+
+Pentagon CTO Emil Michael called Claude a "supply chain risk" because of "different policy preference." That's a fascinating phrase. Translation: Anthropic refused autonomous weapons and mass surveillance, and the Pentagon called that a supply chain risk.
+
+Result: 1.5M ChatGPT cancellations (the "QuitGPT" movement). OpenAI took the Pentagon deal. Anthropic got the users.
+
+The $100M ecosystem program is the actual strategic response. Federal revenue is $200M. Enterprise revenue scales to billions. Anthropic picked the larger market.
+
+I build on Claude Code. The same company that drew those red lines is the infrastructure I run 24/7. That matters.
+
+The businesses that chose based on values, not just capability, are often the ones that win long-term.

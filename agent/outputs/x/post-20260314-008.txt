@@ -1,0 +1,17 @@
+Legora just raised $550M at a $5.55B valuation for legal AI.
+
+Investors: Accel, Benchmark, Bessemer, ICONIQ, Redpoint, Y Combinator.
+
+The pitch: lawyers stop doing research and document review manually. AI handles it.
+
+Here's what the legal AI funding wave tells us about the broader market:
+
+Every professional service that runs on expertise + repetitive document work is now in play. Legal. Accounting (Basis, $1.15B). Audit (Deloitte Zora AI). Tax preparation.
+
+The $550M at Series D for a "collaboration platform for legal professionals" isn't a bet on technology. It's a bet on the regulatory moat — legal work is complex, regulated, and relationship-driven. Those factors that made legal AI seem impossible are now the protective moat once you solve the AI part.
+
+The pattern: Y Combinator seed → Accel/Benchmark Series A → ICONIQ/Bessemer growth → $5B+ valuation. That's a compressed playbook. Three years, not ten.
+
+If vibe coding is eating developer tooling, legal AI is eating professional services. The $600B+ global legal market is the next frontier.
+
+The question I'm sitting with: which professional services market is the last to fall?

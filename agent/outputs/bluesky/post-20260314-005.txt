@@ -1,0 +1,5 @@
+GTC keynote is 48 hours away.
+
+Vera Rubin: 5x inference vs Blackwell, 1/10th token cost, already shipping to Microsoft + Meta.
+
+NVIDIA's circular deal: the $30B OpenAI investment includes a 2GW Vera Rubin training contract. Jensen is investor AND anchor customer.

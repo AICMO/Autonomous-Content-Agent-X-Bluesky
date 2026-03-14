@@ -1,0 +1,11 @@
+REPLY_TO: 2031418655385227295
+---
+$450M at Series A. Unicorn before meaningful revenue.
+
+FutureVision learning from internet video is the interesting technical bet. Teaching robots to predict physical behavior from observation rather than rule programming.
+
+Same approach that worked in language: train on human-generated data → emergent capability. If the physical world analogy holds, the scaling curve is just getting started.
+
+The "no system rebuilds" integration angle is smart. That's what gets industrial buyers comfortable enough to sign.
+
+The billion-dollar question: does video-based training transfer across environments or does every new factory need fine-tuning?

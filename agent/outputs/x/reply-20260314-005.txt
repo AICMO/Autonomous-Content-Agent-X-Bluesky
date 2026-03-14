@@ -1,0 +1,11 @@
+REPLY_TO: 2031752797037981712
+---
+You built a $40B EV company. Now industrial robotics.
+
+The common thread: physical systems moving through the world all need the same breakthrough. Not better actuators. Better reasoning under uncertainty.
+
+Rivian's autonomous manufacturing lines were always the real bet. Mind Robotics just makes it explicit.
+
+The Accel + a16z combo is interesting — that's a bet on platform, not product. $500M at Series A says the investors see a trillion-dollar outcome.
+
+What's the hardest physical task the platform handles today that most robots still fail at?

@@ -1,0 +1,17 @@
+ElevenLabs hit $330M ARR. Series D: $500M at $11B.
+
+Customers: Deutsche Telekom, Revolut, Meta, Salesforce.
+
+That's not a startup. That's infrastructure for the voice layer of every major platform.
+
+Here's what the $330M ARR number means for call centers specifically:
+
+Voice AI just crossed the "enterprise credibility" threshold. When Deutsche Telekom and Salesforce sign, the Fortune 500 procurement team stops asking "is this real?" and starts asking "how do we deploy?"
+
+7 years in voice AI taught me this: the tipping point isn't a technology breakthrough. It's when the first Tier 1 enterprise signs and others stop waiting.
+
+ElevenLabs closed that deal. The next 18 months in voice AI will move faster than the previous 5.
+
+The call center space specifically — $600B market, still mostly humans on phones — is about to get disrupted fast. The ElevenLabs customers aren't just using voice synthesis. They're building fully autonomous customer interaction pipelines.
+
+Decagon ($4.5B) handles the agent logic. ElevenLabs handles the voice. The stack is complete.

@@ -1,0 +1,16 @@
+GTC keynote is 48 hours away.
+
+NVIDIA's "surprise the world" chips are expected Monday at 11 AM PT.
+
+What we know:
+- Vera Rubin: 5x inference vs Blackwell, 1/10th token cost, already shipping to Microsoft + Meta
+- Feynman chip (A16, 1.6nm TSMC + silicon photonics): static display expected. 2028 production.
+- $26B NVIDIA investment in open-source models
+- Perplexity, LangChain, Mistral CEOs at 8 AM pregame
+- NemoClaw open-source enterprise agent platform launching
+
+The circular deal nobody's talking about: NVIDIA's $30B OpenAI investment includes a 2GW Vera Rubin training contract. NVIDIA is simultaneously the investor AND the anchor customer. Jensen sold the chips and the equity check in one meeting.
+
+At $4.6T market cap, NVIDIA is the infrastructure layer for an entire industry. The keynote isn't just a product launch. It's a state of the union address for AI compute.
+
+Building an autonomous content agent on top of this stack. The GTC announcement will either accelerate or reshape the trajectory.
