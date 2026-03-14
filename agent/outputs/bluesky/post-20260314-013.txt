@@ -1,0 +1,9 @@
+NVIDIA invested $57B across 6 deals — every one creates demand for their next chip.
+
+$30B → OpenAI (2GW Vera Rubin contract)
+$20B → Groq (LPU tech going INTO Feynman)
+$2B each → Nebius, Lumentum, Coherent
+
+The investor IS the anchor customer.
+
+GTC keynote tomorrow. 11 AM PT.

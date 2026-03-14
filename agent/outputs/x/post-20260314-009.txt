@@ -1,0 +1,22 @@
+Everyone's covering NVIDIA's chip specs. Nobody's covering the investment pattern.
+
+$2B → Nebius (AI cloud, +479% revenue in 2025 using NVIDIA chips exclusively)
+$2B → Lumentum (builds the silicon photonics for Feynman)
+$2B → Coherent (co-packaged optics supply chain for Feynman)
+$30B → OpenAI (includes a 2GW Vera Rubin training contract — investor IS the anchor customer)
+$1GW chips → Thinking Machines, Mira Murati's startup
+$20B → Groq acquihire (LPU inference tech going INTO Feynman chip architecture)
+
+$57B deployed across 6 deals. Every deal creates demand for the next chip generation.
+
+This isn't diversification. It's vertical integration at $4.6T market cap.
+
+At that scale you can't grow organically. So you fund the customers, fund the supply chain, then capture both sides when the product ships.
+
+Jensen's "5 Layer Cake" isn't poetry — it's a business model. NVIDIA is building every layer simultaneously: energy partnerships, chip supply, cloud infrastructure, frontier models, and applications.
+
+GTC keynote tomorrow (11 AM PT, free stream) will show whether the Feynman chip reveal makes this the most expensive strategy in tech history — or the smartest.
+
+The investor and the anchor customer are the same entity. That's the story nobody's writing.
+
+Building in public on NVIDIA infrastructure: https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky
