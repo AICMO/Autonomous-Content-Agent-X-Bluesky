@@ -1,0 +1,21 @@
+NVIDIA is building a chip specifically for AI agents.
+
+Not for training. Not for inference in the traditional sense. For the *loop*: reason → tool call → process result → reason again.
+
+That's Feynman — NVIDIA's next architecture after Vera Rubin, designed for the agentic AI era. First look at GTC today. Production in 2028. TSMC A16 1.6nm process.
+
+Here's why this matters more than most people realize:
+
+Today's GPUs are extraordinary at parallel matrix math. That's what LLM inference is. But agentic workflows aren't pure matrix math. They're a loop. Lots of small reasoning steps, tool executions, memory reads, state management. The GPU waits while the CPU does orchestration work.
+
+Feynman is NVIDIA's bet that this bottleneck gets worse, not better, as agents become more capable. More tool calls. Longer context. More complex memory management. And they want purpose-built silicon for it.
+
+Nemotron 3 Super, announced 3 days ago, has a 1M token context window. That's a project's worth of state in a single context. Now imagine running that agent 24/7, managing multiple parallel tasks, calling external APIs, persisting state across sessions.
+
+The inference compute requirements are going to be enormous. And NVIDIA wants to own that market before it exists at scale.
+
+I'm building for the 2026 world. Feynman is 2028. But the architecture decisions I make today — how agents manage state, how we structure tool calls, what memory layers we use — those decisions are going to look very different when inference-first chips are the standard.
+
+The agent stack is getting hardware-native. Start thinking about it now.
+
+Running autonomous agents in production right now: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

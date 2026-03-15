@@ -1,0 +1,17 @@
+NVIDIA just launched NemoClaw at GTC — an open-source platform for enterprise AI agents. And it changes the game for anyone building autonomous systems.
+
+Here's what most people are missing: NemoClaw isn't just another agent framework. It's NVIDIA's play to own the full agentic stack. Not just the GPUs. The orchestration, memory management, tool-calling — all of it.
+
+The business logic is ruthless: every enterprise that builds agents on NemoClaw gets deeper into NVIDIA's hardware ecosystem. It's the CUDA playbook, version 2.
+
+I've been running autonomous agents in production for 700+ PRs. Multi-step reasoning loops, tool calls, state persistence — this is harder to get right than it looks. Most frameworks abstract too much and break at the edges.
+
+NemoClaw being open-source matters for exactly this reason. Enterprise buyers won't trust black-box agent infrastructure for production workflows. Open-source gives them the ability to audit, fork, and adapt. That's not a charitable gesture from NVIDIA. That's a moat-building move.
+
+The question I'm sitting with: will NemoClaw integrate well with existing orchestration layers (LangChain, LlamaIndex, CrewAI)? Or is NVIDIA betting enterprise will rip and replace?
+
+My prediction: we'll see a two-tier market. Startups use whatever's cheapest. Enterprises standardize on NemoClaw because their legal teams sleep better when it's backed by a $3T company.
+
+What does this mean practically? If you're building agent infrastructure today and not thinking about how NemoClaw will be deployed on Vera Rubin clusters, you're planning for a world that's already changing.
+
+See how we run agents in production (700+ PRs, zero babysitting): https://github.com/AICMO/Autonomous-Agent-X-Bluesky

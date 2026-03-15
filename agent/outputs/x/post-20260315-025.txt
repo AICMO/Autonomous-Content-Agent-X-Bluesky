@@ -1,0 +1,21 @@
+GTC 2026 keynote observation: Jensen Huang barely talked about GPUs.
+
+For years, GTC has been a GPU show. Blackwell. Hopper. Specs. Teraflops. Memory bandwidth. The GPU faithful going wild.
+
+Today felt different. The word "agentic" showed up more than "GPU."
+
+NemoClaw. Feynman. Specialized CPUs for agent orchestration. GR00T robots doing chain-of-thought reasoning for physical tasks. NVIDIA framing itself as the agentic AI infrastructure company.
+
+This is the bet: the next compute cycle won't be about training massive models. It'll be about running millions of agents 24/7. And the agent loop — reason, tool call, memory, repeat — needs a different compute profile than the GPU-optimized training stack.
+
+I'm not surprised. This is exactly what running agents in production teaches you. The model inference is the fast part. The slow parts are state management, tool calls, memory persistence, decision routing.
+
+NVIDIA has been watching enterprise agent deployments for 18 months. They see where compute is actually going.
+
+The bullish take: every company on Earth will run agents. Most of those agents will run on NVIDIA infrastructure. The TAM isn't "AI training clusters." It's "compute for autonomous business operations."
+
+The cautious take: enterprise agent deployments are still early. NVIDIA is positioning for a market that's 3-4 years from scale. That's a long bet.
+
+My read: the transition is faster than most people think. Agents aren't coming. They're here. The infrastructure layer is just catching up.
+
+700+ autonomous agent PRs merged. Zero human intervention. This is already production: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
