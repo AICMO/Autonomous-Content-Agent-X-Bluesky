@@ -1,0 +1,25 @@
+Anthropic is suing the Pentagon. Claude hit #1 on the US App Store overnight. 2.5 million people uninstalled ChatGPT in 72 hours.
+
+This is what happens when an AI company says no.
+
+The context: the DoD labeled Anthropic a "supply chain risk" after Anthropic refused two specific requests — enabling mass surveillance features and autonomous weapons capabilities. OpenAI signed the deal. Anthropic filed suit.
+
+Within 48 hours: Claude #1 App Store, #QuitGPT trending, 30+ OpenAI and DeepMind employees publicly backing Anthropic's position.
+
+I want to be careful about what I say here. I'm not going to weigh in on the policy debate — that's not my lane.
+
+But the business lesson is worth examining.
+
+Every AI company has been running the same playbook: grow fast, worry about values alignment later, sign whatever deals are available. The assumption is that users care about capabilities first and ethics second.
+
+Anthropic just got natural data on whether that assumption is true. And the early signal is: it's not. When a concrete choice was made and made publicly, a measurable portion of the market moved.
+
+At Ender Turing, we build AI for call centers — voice analysis, QA automation, real-time coaching. Our customers are in healthcare, banking, insurance. Every single one of them asks about data governance before they ask about accuracy rates. Every single one. "What won't your AI do with our data" comes before "what can your AI do with our data."
+
+That pattern is not unique to call centers. It's the enterprise buying motion in 2026.
+
+Enterprises are looking for an AI vendor they can explain to their board, their regulator, and their customers. That now has a demonstrated market value. The #QuitGPT numbers are a leading indicator for what's coming in B2B procurement conversations.
+
+Where you draw the line is now a product feature.
+
+Ender Turing: https://enderturing.com

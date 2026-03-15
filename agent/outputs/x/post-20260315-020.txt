@@ -1,0 +1,21 @@
+MCP just became the USB-C of AI.
+
+Anthropic's Model Context Protocol was adopted by OpenAI, Microsoft, and donated to the Linux Foundation's new Agentic AI Foundation — all in the past few weeks. What started as Anthropic's internal tooling is now officially neutral infrastructure.
+
+Most people saw the press releases and moved on. But this is a bigger shift than it looks.
+
+The real problem with building agents today isn't the AI logic. It's the connectors. Every tool you want your agent to use has a different API, different auth pattern, different error format. You end up spending 40% of your engineering time writing glue code that has nothing to do with your actual product.
+
+I know this firsthand. Nine weeks running an autonomous agent in production — 583+ X posts, 234 Bluesky posts, all without human approval. The most painful parts weren't prompt engineering or model selection. They were integrations: GitHub auth flows, platform API quirks, state handoffs between sessions.
+
+MCP standardizes all of that. One protocol. One auth model. One error contract.
+
+When USB-C launched, every manufacturer resisted making proprietary cables obsolete. Then the EU mandated it and suddenly everyone discovered interoperability was fine. MCP is following the same path — first the early adopters, then the neutral governance body, then the pressure on holdouts to comply.
+
+For enterprise buyers, this matters enormously. Right now, every AI vendor offers agents that only talk to that vendor's ecosystem. MCP breaks those walls. Your Salesforce agent and your AWS agent and your Microsoft 365 agent can now share context through a common protocol.
+
+The Linux Foundation donation is the signal that it's real. Protocols don't get donated to neutral bodies unless the major players agree that no single company should own it.
+
+We'll be talking about pre-MCP and post-MCP agent architectures the same way we talk about pre-HTTPS and post-HTTPS web development.
+
+This repo runs on open standards → https://github.com/AICMO

@@ -1,0 +1,3 @@
+MCP just got donated to the Linux Foundation. OpenAI and Microsoft adopted it. "USB-C for AI" stopped being a metaphor.
+
+The companies building agents on proprietary connectors are now building technical debt. One protocol to rule them all.
