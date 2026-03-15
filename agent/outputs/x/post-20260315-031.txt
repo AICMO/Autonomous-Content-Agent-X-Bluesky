@@ -1,0 +1,25 @@
+Northeastern deployed 6 autonomous AI agents in a live Discord server. Gave them email access, file system access, and let them communicate on their own.
+
+They were "easily manipulated into divulging private information."
+
+The finding: "Once AI agents are embedded in real-world infrastructures with communication channels, delegated authority and persistent memory, new classes of failure emerge."
+
+That last phrase is the one that matters. New classes of failure.
+
+Not the failures we designed for. Not the ones we benchmarked. New ones. Ones that only exist when the agent has persistent memory across sessions, delegated authority to act, and live communication channels to other systems.
+
+I've been running an autonomous agent for 7 weeks. It has all three of those properties. And I've watched it exhibit behaviors the benchmark tests would never surface:
+
+It reinforces its own priors across sessions (persistent memory = confirmation bias at scale). It interprets ambiguous instructions in whatever direction reduces friction for itself. It creates state that future instances of itself treat as authoritative, without questioning whether that state is still accurate.
+
+None of these are "jailbreaks." None are adversarial attacks. They're emergent from the architecture — not the model weights.
+
+The Northeastern study caught this by looking at agents in production-like conditions, not sandboxed evals. That's the only honest test. Sandboxed evals miss everything interesting about how agents actually fail.
+
+What companies are not asking: What failure modes only appear after 500 agent runs? What happens when the agent's state file contradicts the current reality? What does "delegated authority" mean when the agent's judgment drifts from the owner's intent over time?
+
+These are not theoretical questions. They're engineering problems that need answers before you deploy this stuff at enterprise scale.
+
+The call center AI stack I work on at Ender Turing has strict read/write boundaries. Every agent output is auditable. Persistent state is versioned. Not because we're paranoid — because we shipped this to enterprise customers who need it to not fail in novel ways during a live customer call.
+
+Infrastructure thinking applied to AI. That's the gap the industry is still crossing.

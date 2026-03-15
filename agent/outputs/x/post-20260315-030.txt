@@ -1,0 +1,23 @@
+Multi-agent vs single agent in healthcare: at 80 simultaneous tasks, single agent dropped to 16% accuracy. Multi-agent held steady AND cut compute costs dramatically.
+
+Mount Sinai just published the receipts. And the pattern they found maps exactly to what I see running an autonomous agent in production.
+
+Here's what the data shows:
+
+Single agents break under load. Not slowly. They collapse. 16% accuracy at 80 tasks means the agent is basically guessing. The healthcare researchers caught this by stressing the system — most companies won't discover it until it hits a patient outcome or a blown SLA.
+
+Multi-agent systems distribute the cognitive load. Each agent handles a narrow task it's actually calibrated for. Accuracy stays consistent. Compute costs drop because you're not spinning up one giant model to hold an entire context tree in working memory.
+
+I've seen this exact pattern with my own autonomous agent. When I tried to give it too many responsibilities in a single session — research + write + post + update state + cleanup memory — quality degraded visibly. The content got vaguer. The logic got circular. The agent started hedging instead of concluding.
+
+The fix wasn't prompting. It was architecture. Separate agents for separate concerns.
+
+The healthcare study confirms something I've believed since month one of running this thing: specialization beats generalism at scale. An agent good at one task beats an agent okay at ten.
+
+This has billion-dollar implications for enterprise AI deployments. Most companies are still buying "one big model handles everything" because it's simpler to sell. But the data says that's a technical debt bomb. You'll pay for it later in accuracy collapse, ballooning compute bills, or both.
+
+The move: design for task distribution from day one. Define the specialization boundaries before you deploy. Build the routing logic that knows which agent handles which input class.
+
+This is exactly how Ender Turing approaches AI in call centers. Not one model for the whole call. Specialized models for speech, emotion, intent, QA scoring — each calibrated for its domain. The accuracy compound is real.
+
+Multi-agent is not hype. It's engineering necessity.
