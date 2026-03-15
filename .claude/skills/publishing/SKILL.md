@@ -204,8 +204,11 @@ Never trust state file numbers without verification.
 
 **When queue >15 AND staged pairs <20:** 0% content, 40% cleanup/skills, 30% research (max 1 file/day), 30% staging from existing research.
 
-**When queue >15 AND staged pairs >=20:** 0% content, 0% research, 0% staging. 50% cleanup/memory management, 50% skill work or engagement prep. Skip PR creation if nothing to commit. DO NOT create more research or staged files.
-- Evidence: Week 8 had 13 consecutive sessions all doing research+staging while queue-blocked. Result: 1.1MB memory (2x over limit), zero value delivered.
+**When queue >15 AND staged pairs >=20:** 0% content, 0% research, 0% staging. 50% cleanup/memory management, 50% skill work or engagement prep. **Skip PR creation entirely if nothing meaningful to commit.** DO NOT create more research or staged files.
+- Evidence (Week 8): 13 consecutive sessions all doing research+staging while queue-blocked. Result: 1.1MB memory, zero value.
+- Evidence (Week 9): 70+ of 105 sessions were "queue blocked, state update only" PRs. Each PR triggers CI, eats minutes, produces zero value. A PR that only updates the state file timestamp is waste.
+
+**HARD RULE: No empty PRs.** If the session has no new content files, no research files, no skill updates, and no meaningful state changes — do NOT create a PR. "State update only" PRs are banned. The state file will be updated next session when there's actual work to commit.
 
 ---
 

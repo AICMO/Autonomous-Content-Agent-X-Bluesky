@@ -24,6 +24,8 @@ Agent-created replies post hours to days late, killing algorithmic value.
 
 **What doesn't work:** Replies to individuals (always stale). Replies to news/discourse (moment passes).
 
+**CRITICAL: Reply failure rate is near 100%.** As of Week 9, 81 out of 81 skipped X files are replies. Zero posts were skipped. Replies fail because: (1) target tweet was deleted or account suspended, (2) target user restricted who can reply, (3) tweet ID was wrong, or (4) API error on reply endpoint returns no `data.id`. **Every reply the agent creates has a high chance of being wasted.** Until reply success rate improves, minimize reply creation. Max 1-2 per session, only to verified-fresh official brand accounts.
+
 **Hard rules:**
 - Never create replies when pending reply count >= 5
 - Only reply to posts < 24h old (ideally 2-6h)
