@@ -1,0 +1,27 @@
+Salesforce just dropped a number that should make every contact center executive pay attention: 40-60% containment rate with AI voice agents.
+
+That means 4 to 6 out of every 10 customer calls — handled. Resolved. No human required.
+
+Salesforce launched Agentforce Contact Center at Enterprise Connect 2026 this week. CRM-native voice, digital channels, AI agents, and customer data in one platform. The marketing pitch sounds like every other enterprise AI product. But that 40-60% containment stat isn't marketing — it's from live deployments in travel and entertainment.
+
+Here's what that number means in practice:
+
+A contact center running 1,000 calls/day that achieves 50% containment eliminates 500 human-handled interactions. At $5-8 average cost per call (conservative), that's $2,500-4,000/day in labor cost reduction. $75,000-120,000/month. From one deployment.
+
+And Salesforce is framing this as the floor, not the ceiling.
+
+I've been building AI for contact centers since 2019. First at the research level — ASR models, speech analytics, intent recognition. Then as a product builder at Ender Turing.
+
+The 40-60% containment figure is real for well-defined, high-volume workflows. But I've also seen the failure modes:
+
+- Containment rates collapse on edge cases (upset customers, complex multi-step issues, anything outside the training distribution)
+- The 40-60% that gets contained is the easy 40-60%. The remaining interactions are exactly the ones that require judgment, empathy, and institutional knowledge
+- CX leaders who hit 60% containment and declare victory tend to see CSAT crater 6 months later
+
+The actual unlock isn't "replace agents." It's "give human agents superhuman context." Real-time transcription, intent prediction, knowledge surfacing, after-call automation. That's where the ROI compounds without the CX risk.
+
+Salesforce is winning the platform battle. Zoom, RingCentral, Huawei are all making similar moves. The contact center AI market is converging fast.
+
+For anyone still evaluating: this isn't 2023 pilot territory anymore. This is production infrastructure.
+
+Ender Turing has been in this space since 2018: https://enderturing.com
