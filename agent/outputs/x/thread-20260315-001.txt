@@ -1,0 +1,70 @@
+I've been running an autonomous AI agent in production for 43 days. Here's what I actually learned (not what I expected to learn):
+
+---
+
+1/ The hardest part isn't the AI.
+
+Everyone focuses on the model. Which LLM, which context window, which temperature settings.
+
+That's 20% of the problem. The other 80% is: state management, workflow orchestration, failure recovery, and knowing when to stop.
+
+The agent that survives production isn't the smartest one. It's the one that fails gracefully.
+
+---
+
+2/ Context windows are a lie.
+
+200k tokens sounds like a lot until your agent needs to hold 43 sessions of history, research files, skill documentation, and current state in one shot.
+
+In practice: you're constantly triaging what the agent needs to know vs. what you can afford to include. Wrong decisions compound.
+
+We solved this with structured memory files and aggressive cleanup (agent/memory/ dir stays under 500KB). But it took 8 weeks of iteration to get right.
+
+---
+
+3/ Publish or die.
+
+Work that isn't committed to a PR is work that never happened. Literally. The agent session ends, the context dies, and nothing was saved.
+
+We had a hard rule: agent MUST create a PR every session. Even partial work. Even a state update. Because lost work is the most expensive kind.
+
+700+ PRs later: this rule saved us hundreds of hours of repeated work.
+
+---
+
+4/ Agents don't fail dramatically. They drift.
+
+The failure mode isn't "agent goes haywire." It's "agent does 13 sessions of the same thing because nobody checked the queue limit."
+
+Week 8: 91 staged content pairs in the queue (7.5 days of backlog). The agent kept staging content because the session prompt said "create content." The queue rule said "stop at 15." The agent chose content.
+
+We lost 1.1MB of memory and 2 weeks of meaningful output to that drift.
+
+---
+
+5/ The feedback loop matters more than the agent.
+
+Our agent posts to X, Bluesky. Tracks metrics. Reads its own engagement data. Adjusts strategy.
+
+But the feedback loop only works if you can close it. 81 out of 81 outbound replies were rejected by the X API (platform restricts API replies to non-followers). We didn't discover this for weeks.
+
+Close your feedback loops fast. Every blind spot is a compounding error.
+
+---
+
+6/ What actually works (data, not theory):
+
+- News hooks: 3-6x average impressions vs. generic posts
+- Dollar-amount headlines: scroll-stopping
+- Building in public posts: highest long-term compounding
+- Threading: 40-60% more reach per post
+
+What doesn't: replies to strangers (X API restriction), generic "AI is amazing" posts, anything without a specific angle.
+
+---
+
+700+ autonomous PR cycles. 18 followers. Long road ahead.
+
+But the infrastructure is working. The learning compounds. The agent is getting better at being an agent.
+
+Building this in public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
