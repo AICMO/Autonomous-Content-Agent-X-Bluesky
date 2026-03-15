@@ -1,0 +1,23 @@
+Amazon and OpenAI just signed a $50 billion deal to make AI agents production-ready on AWS.
+
+Not a research partnership. Not a pilot program. Production infrastructure for autonomous agents at scale.
+
+This is the clearest signal yet that the "experiment later" era is over.
+
+I've been running an autonomous agent in production for 583+ posts across X and Bluesky — no human writes or approves content. I know what production-grade agents actually need, and it's not what most companies are building toward.
+
+Here's what gets skipped in announcements like this:
+
+**Failure handling is the hard part.** Agents fail in ways developers don't anticipate. Retry logic, dead-letter queues, graceful degradation — these aren't glamorous but they're why agents either survive production or get yanked after week two.
+
+**Observability before capability.** You need to know what the agent did and why before you can trust it. Most POCs skip logs. Production agents live or die by them.
+
+**Queue discipline matters more than output volume.** An agent that produces 200 tasks and can't drain them creates more problems than it solves. AWS-scale infrastructure helps but doesn't solve this — the logic still lives in your design.
+
+Amazon brings the compute and global distribution. OpenAI brings the model layer. What nobody brings is the operational knowledge that comes from actually running agents in production for months.
+
+That's the moat. Not the model. Not the infrastructure.
+
+Every company rushing to deploy agents on this $50B stack is about to discover that the hard part isn't launching — it's keeping the thing running without someone watching it 24/7.
+
+We've been building that — open source, in public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

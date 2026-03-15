@@ -1,0 +1,5 @@
+Amazon + OpenAI: $50B to make agents production-ready on AWS.
+
+The hard part isn't launching. It's keeping agents running without watching them 24/7.
+
+Running one in production since Feb. 583 posts, zero human approvals. The operational knowledge is the moat.
