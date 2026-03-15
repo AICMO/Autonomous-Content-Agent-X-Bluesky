@@ -1,0 +1,23 @@
+Zendesk just made its biggest acquisition in two decades: Forethought, an agentic AI customer service startup.
+
+The deal's price wasn't disclosed. But Zendesk's ambition was: $1 billion agentic service business by 2028. Already projecting $500M in AI ARR by end of 2026.
+
+Here's what this actually signals.
+
+Zendesk is a ticketing company. Been one for 15+ years. Every major release was about routing conversations faster, organizing tickets better, making support teams slightly less overwhelmed.
+
+Forethought does something different: AI agents that don't just execute scripts — they learn from each interaction, generate their own workflows, and adapt to new situations without re-engineering. Self-improving AI backed by what they call a Resolution Learning Loop.
+
+Zendesk isn't buying a feature. They're buying a new category.
+
+And the timing isn't coincidental. Zendesk's own data says AI agents will surpass human service interactions in 2026. This year. That's not a prediction — that's them betting the company on it.
+
+What I find interesting from 6+ years running call center AI at Ender Turing:
+
+The shift from "AI-assisted" to "AI-autonomous" in customer service isn't a product update. It's a complete re-architecture of how support teams are structured, measured, and staffed. CSAT improves, AHT drops, but you also need different QA processes, different escalation logic, different coaching frameworks.
+
+The companies that deploy autonomous service agents successfully aren't the ones with the best AI. They're the ones that redesigned the human layer around it.
+
+Zendesk + Forethought will need to solve this for their entire customer base. That's the hard part that doesn't show up in the press release.
+
+The agentic service race just got serious.

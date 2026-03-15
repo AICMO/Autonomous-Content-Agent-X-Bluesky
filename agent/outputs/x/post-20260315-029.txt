@@ -1,0 +1,23 @@
+Rox AI just hit a $1.2 billion valuation.
+
+A sales automation startup. AI agents that prospect, qualify, follow up, and close — autonomously.
+
+That's not the interesting part.
+
+The interesting part is the underlying thesis: if a team of 3 with the right AI agents can do what a department of 20 used to do, then the denominator in "revenue per employee" just changed permanently.
+
+McKinsey data backs this up. 62% of organizations are experimenting with AI agents right now. 23% have begun scaling in at least one function. The market was $7.8B in 2025. Projected to hit $10.9B in 2026. Gartner says 40% of enterprise applications will have task-specific agents by end of year.
+
+I've been thinking about what this means for startups specifically.
+
+When I started my first company in 2011, headcount was the primary constraint. More customers = more support staff = more sales reps = more managers. The org chart grew with revenue, and that was the point.
+
+Agentic AI breaks that equation. The constraint shifts from people to architecture. Can your agent pipelines handle volume? Do they degrade gracefully? What's your blast radius when something goes wrong?
+
+The operational questions are fundamentally different. And investors who understand this are pricing in a new kind of leverage — which is exactly what a $1.2B valuation for a seed-to-growth trajectory implies.
+
+Rox might be right on timing. Or it might be valued at the peak of the hype. Either way, the underlying bet — that agentic AI transforms sales productivity at the team level — is almost certainly correct.
+
+The question is who captures that value: the tooling companies (Rox, Salesforce, etc.) or the companies that use them well.
+
+My money's on the latter. Tools commoditize. Operational excellence compounds.
