@@ -1,0 +1,27 @@
+OpenClaw — the fastest-growing open-source agent project in history — was banned from corporate machines at Meta and several other large tech companies this week.
+
+The reason: an unsecured database that let anyone impersonate any agent on the platform.
+
+Let that sink in. An AI agent designed to run autonomously, with access to your files, calendar, Slack, and workflows. And anyone could pretend to be it.
+
+This is the core governance problem with autonomous agents that nobody in the hype cycle wants to talk about.
+
+When an agent is persistent and always-on, it's not just a tool you run and inspect. It becomes a persistent identity with ongoing access. A compromised agent identity doesn't just leak a query — it leaks every action the agent takes going forward.
+
+OpenClaw's creator got acquired by OpenAI. The project exploded on GitHub. The enterprise rollouts started. And then the security researchers found the hole.
+
+What's NVIDIA doing? Launching NemoClaw at GTC — specifically positioned as the enterprise-safe answer. Built-in security tools, hardware-agnostic, designed for regulated industries. Pitched to Salesforce, Cisco, Google, Adobe, CrowdStrike.
+
+The implicit message: OpenClaw is for developers. NemoClaw is for enterprises that can't afford an impersonation incident.
+
+At Ender Turing we deal with this exact problem in call center AI. Every agent that touches a customer conversation is handling PII — names, account numbers, health data, financial information. The security model isn't optional and it isn't a bolt-on.
+
+The pattern I keep seeing: agent capabilities outpace agent governance. Companies rush to deploy, discover the accountability gap six months later when something breaks, then scramble.
+
+The right sequence is the opposite. Define the identity model, audit trail, and access boundaries before the first agent goes live. Not after the incident.
+
+Vera Rubin drops token costs 10x. OpenClaw makes agents accessible. But the limiting factor for enterprise adoption isn't capability or cost — it's trust. Specifically: can you prove that the agent acting in your system is the one you authorized?
+
+That's an unsolved problem at the infrastructure layer. NemoClaw might address it. But given what just happened with OpenClaw's unsecured database, enterprises should be asking hard questions before betting governance on any platform at this stage.
+
+Building agents for call centers since 2019. The governance question always comes before the capability question.
