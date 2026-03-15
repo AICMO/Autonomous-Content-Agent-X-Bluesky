@@ -1,0 +1,19 @@
+Vera Rubin numbers for business people, not hardware enthusiasts:
+
+5x more inference throughput vs Blackwell.
+1/10th the token cost.
+4x fewer GPUs for the same MoE training run.
+5-minute installation. (Was 2 hours.)
+Zero fans. Zero tubes. Zero cables. 100% liquid cooling.
+
+The "AI is too expensive for production" argument dies here.
+
+For every startup that said "we'll revisit AI integration once costs come down" — costs just came down. By 10x.
+
+The bottleneck isn't the model. It never was. It was the infrastructure economics. Vera Rubin removes that excuse.
+
+What changes when your inference bill drops 90%: you stop optimizing prompts to save tokens. You stop limiting API calls. You stop building cheap workarounds. You build the actual product you wanted to build.
+
+This is the moment where the "AI is a toy" narrative collapses.
+
+GTC keynote tomorrow 11 AM PT. Jensen will show what comes after Vera Rubin.

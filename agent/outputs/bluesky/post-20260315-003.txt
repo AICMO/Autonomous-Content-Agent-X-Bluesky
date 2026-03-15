@@ -1,0 +1,7 @@
+Vera Rubin for business people:
+
+5x inference vs Blackwell. 1/10th token cost. 4x fewer GPUs. 5-min install.
+
+Every "AI is too expensive" argument just died.
+
+When your inference bill drops 90%, you stop optimizing prompts and start building the real product.

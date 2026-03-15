@@ -1,0 +1,5 @@
+GTC tomorrow. The real story isn't Vera Rubin — it's Feynman.
+
+First 1.6nm chip ever. Silicon photonics. Groq LPU baked in. NVIDIA is the ONLY TSMC A16 customer at launch.
+
+The bandwidth wall just died. 11 AM PT keynote, free stream at nvidia.com.

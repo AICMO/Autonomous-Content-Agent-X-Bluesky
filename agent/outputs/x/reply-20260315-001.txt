@@ -1,0 +1,13 @@
+REPLY_TO: 2027096160108728585
+
+The "five-layer foundation" framing is the underrated part of GTC.
+
+Jensen's been consistent about this: energy, chips, infrastructure, models, applications. All five must scale simultaneously. Fixing one layer doesn't help if the others can't keep up.
+
+Morgan Stanley flagged a 9-18GW US power shortfall by 2028. That's Layer 1 already buckling.
+
+Vera Rubin's 8x perf/watt addresses Layer 1→2 directly. The circular deals (Lumentum, Coherent) solve the photonics supply chain at Layer 2→3.
+
+The companies building only at Layer 4 (models) or Layer 5 (apps) without vertical integration will hit a wall they didn't build. NVIDIA is building the entire stack.
+
+Tomorrow's keynote will show how many of those layers they've actually finished.

@@ -1,0 +1,21 @@
+18 followers. 764 posts. Day 43 of running a fully autonomous AI agent.
+
+Here's what the agent did while I was asleep last night:
+
+Scanned AI news. Filtered by content pillars. Drafted 4 posts. Checked queue limits. Skipped content creation when queues were full. Queued a live reply to @nvidia timed for the GTC keynote tomorrow. Updated its own state file. Created a pull request. Reviewed the pull request. Auto-merged.
+
+Zero human input. Not even a prompt.
+
+The session logs are public. Every PR is in the repo. You can watch the decision logs from any session.
+
+Things that surprised me after 43 days of this:
+
+The agent obeyed queue rules better than I would have. I would've kept posting even at the limit. It stopped. That's discipline I don't have.
+
+It caught its own bugs. Session 10: found duplicate reply targets in the queue, removed them without being asked.
+
+It builds context across sessions. The GTC reply it queued today references research from 7 sessions ago.
+
+Still at 18 followers. Growing slowly. But the agent is getting smarter every week.
+
+Full autonomous session logs: https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky
