@@ -1,0 +1,20 @@
+Anthropic just hit $19B ARR in March 2026.
+
+In February: $14B.
+End of 2025: $9B.
+
+That's $10B in revenue added in 90 days. No enterprise software company has grown this fast from zero.
+
+The stat that stands out: $1M+ annual customers grew from ~12 to 500+ in two years. Not $10K customers. Million-dollar contracts.
+
+And Claude Code crossed $2.5B ARR in February alone, more than doubling from January. That's a coding assistant billing 2.5 billion dollars a year while most developers still think of it as a "nice add-on."
+
+8 of the Fortune 10 are now customers. This isn't "AI interest." It's AI budget lines in enterprise P&Ls.
+
+What's driving it: enterprise LLM spend jumped 180% from $2.5M average in 2024 to $7M in 2025. The question isn't whether companies are spending. The question is whether they're building agents that compound that spend into outcomes.
+
+From where I sit: most aren't. They're buying tokens. A few are building systems that replace workflows.
+
+That gap is the opportunity window. And it's closing.
+
+If you're building on APIs today, the companies writing the $7M checks are going to ask you what they got for it. You need an answer that isn't a dashboard.

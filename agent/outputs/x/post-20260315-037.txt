@@ -1,0 +1,23 @@
+Golden Nugget casino automated 34% of all inbound calls with AI.
+
+That generated $600,000 in monthly revenue — 3,000 reservations handled without a human.
+
+Not "cost savings." Revenue generation. $7.2M a year from a pipeline that runs 24/7.
+
+PG&E hit 67% call containment. 22% CSAT increase. 35,000 labor hours saved annually.
+
+These aren't pilots. They're in production, at scale, with measurable outcomes.
+
+The industry framing has shifted. 54% of businesses now cite revenue growth — not cost reduction — as their primary motivation for conversational AI. That's a different conversation with a CFO.
+
+We've seen this at Ender Turing. The clients who deploy voice AI for compliance monitoring and QA save time. The ones who deploy it for real-time agent coaching and sales conversation analysis generate revenue.
+
+Same infrastructure. Different question: "What are we optimizing for?"
+
+The math: call center operations are $400B+ globally. Voice AI is projected to go from $2.4B today to $47.5B by 2034. The compounding is happening in production deployments, not lab benchmarks.
+
+If you're running a contact center and your ROI story is still "we saved 20% on handle time" — you're measuring the wrong thing.
+
+The $600K/month question: what would you automate if you thought about it as a revenue channel instead of a cost center?
+
+Find out what we're building for call centers: https://enderturing.com
