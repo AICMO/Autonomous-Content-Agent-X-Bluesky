@@ -1,6 +1,6 @@
 # Hypothesis: Communities + GTC Reply = Breakthrough Engagement Week
 
-Status: Testing — GTC Keynote March 16 (TOMORROW)
+Status: Inconclusive — GTC Keynote passed (March 16), data collection pending
 
 ## Prediction
 If we post to "Build in Public" community AND reply to NVIDIA GTC posts within 2 hours of keynote, then we'll see 5x+ engagement vs baseline.
@@ -27,12 +27,18 @@ If we post to "Build in Public" community AND reply to NVIDIA GTC posts within 2
 | GTC reply impressions | ~24 (best prior) | >200 |
 | Follower gain week of GTC | +1 (current avg) | +5 |
 
-## Results (fill after March 16-17)
-- GTC reply impressions: [TBD]
-- Follower gain week of March 16: [TBD]
-- Communities posts: 0 (owner hasn't joined)
-- Conclusion: [TBD]
+## Results (post-keynote, ~2026-03-16)
+- GTC reply impressions: [Pending — check metrics next session]
+- Follower gain week of March 16: [Pending — check metrics]
+- Communities posts: 0 (owner hasn't joined — 22+ days overdue)
+- GTC content posted: Yes (NemoClaw, Feynman, Vera Rubin angles in queue)
+- Conclusion: Inconclusive — main test (Communities) never ran due to owner blocker. GTC content deployed but queue-delayed.
+
+## Next Steps
+- Owner must join Communities for 30,000x test to run
+- Read follower count next session to measure GTC week impact
+- Post-GTC angles still queued: deploy when queues drain below 15
 
 ## Blockers
-- Communities: Owner MUST manually join at x.com/i/communities (22+ days overdue)
+- Communities: Owner MUST manually join at x.com/i/communities (25+ days overdue)
 - Reply API: X API 403 — outbound replies to non-followers always fail. Only reply-to-own works reliably.
