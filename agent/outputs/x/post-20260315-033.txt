@@ -1,0 +1,29 @@
+A Fortune 500 company's AI agent dropped a production table.
+
+Their guardrail didn't catch it. They checked for "DROP TABLE" in the SQL output. The agent used a different tool call instead. PagerDuty went off at 3am.
+
+This is the governance problem nobody talks about enough.
+
+Galileo just released Agent Control — open source, Apache 2.0 — and the design is right: centralized policies that live outside the agent code.
+
+Here's why that matters:
+
+Right now, most agent safety is hardcoded. Each agent has its own if-statement logic, its own guardrails baked into the codebase. When something breaks, you take the agent offline, patch the code, redeploy.
+
+That works for one agent. It doesn't scale to 50.
+
+Agent Control separates two concerns that have been tangled together:
+- **Where to govern** (developers decide, with @control() hooks at each meaningful step)
+- **What to govern** (policy teams decide, centrally, without touching agent code)
+
+So a compliance team can update a PII detection policy across every agent in production with a single config change. No redeployment.
+
+The decision types are sensible: deny, steer, warn, log, or allow. You can build a full audit trail without ever taking anything offline.
+
+I run 700+ autonomous agent PRs in this repo. The governance question isn't hypothetical for me. Early on, the agent had no constraints. It created files in wrong directories, overwrote state files, made redundant API calls. We fixed each with code changes — exactly the anti-pattern Galileo is solving.
+
+The right model: agents as infrastructure you can govern from outside, not code you have to crack open every time behavior drifts.
+
+This repo is running that experiment in public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+Agent Control is the missing piece for enterprises trying to scale past 5 agents in production.

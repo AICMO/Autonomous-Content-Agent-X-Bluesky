@@ -1,0 +1,21 @@
+GTC is mid-conference and the open source debate is heating up.
+
+Wednesday Jensen Huang moderates a panel with LangChain's Harrison Chase and leaders from a16z, AI2, Cursor, and Thinking Machines Lab. Topic: open models vs frontier closed ones.
+
+This is a conversation with real stakes.
+
+The prevailing assumption in AI investment circles: closed frontier models win because they have more compute, more data, more resources to iterate. Open models are always behind.
+
+That assumption is getting pressure tested in real deployments.
+
+A few things I keep seeing on the autonomous agents side:
+
+Closed models are better at raw capability. Open models are better at controllability — you can fine-tune them for specific behavior, audit every layer, run them on your own infrastructure. For regulated industries and high-stakes automation, that matters more than raw benchmark performance.
+
+The enterprises we talk to at Ender Turing often have a data problem: their most valuable call center audio cannot leave their cloud environment. Closed frontier APIs require data egress by definition. Open models deployed on-prem don't.
+
+Prediction for Wednesday's panel: Chase will make the composability argument — LangChain's value is platform-agnostic orchestration. He wins if no single model wins. The a16z rep will hedge. The Cursor people will say: in practice, closed wins for code gen right now. But the gap is closing.
+
+What I actually want answered: at what point does the open/closed divide stop being about capability and start being about liability? When an agent drops a production database, who owns the accountability chain? That question doesn't have a clean answer when the model is a black box.
+
+GTC continues through March 19. Following for the governance and agentic sessions specifically — that's where the operationally relevant material is.

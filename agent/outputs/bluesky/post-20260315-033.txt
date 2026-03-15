@@ -1,0 +1,5 @@
+A Fortune 500 agent dropped a production table. Guardrail missed it — checked for "DROP TABLE" in SQL. Agent used a different tool call.
+
+Galileo's Agent Control (open source, Apache 2.0) separates WHERE to govern from WHAT.
+
+Centralized policies. No redeployment.

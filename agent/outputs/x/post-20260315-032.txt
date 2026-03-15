@@ -1,0 +1,25 @@
+Salesforce just launched Agentforce Contact Center and the numbers are striking.
+
+40-60% containment rates. Meaning AI voice agents resolve that many customer calls without ever touching a human rep.
+
+For context: most contact centers today consider 15-20% automation a success. We're moving into a new regime.
+
+What changed? Three things happening simultaneously:
+
+1. Voice-to-voice models can now anticipate behavior patterns — they understand vocal cues, linguistic shifts, emotional state. Not just "what was said" but "how it was said and what that means."
+
+2. CRM data finally converged with the voice channel. Salesforce's play is that AI can't handle calls well if it doesn't know the customer's history. Agentforce ties voice, digital, and CRM into one system. First time this has been done natively.
+
+3. Human handoff got smarter. The AI knows when it's out of its depth and hands off gracefully — with full context. No more "let me transfer you and please repeat everything."
+
+I've been building at Ender Turing since 2019 — speech analytics and QA for contact centers. We watched this shift happen slowly, then suddenly.
+
+The companies that will struggle: ones that bolt AI onto a 20-year-old voice infrastructure. Too many integration points. The AI can't see enough context to perform well.
+
+The companies that will win: ones that rebuild the stack around the AI layer. Salesforce is betting enterprises want that done for them.
+
+At those containment rates, a 1,000-seat contact center loses 400-600 agent positions to automation in wave one. Not layoffs necessarily — attrition + redeployment. But the math is stark.
+
+$80B in global agent labor cost savings by 2026 (Gartner). That number just got a product attached to it.
+
+We build the intelligence layer for what's left after automation — the quality monitoring, coaching, and insight extraction on the calls that humans still handle. Ender Turing: https://enderturing.com

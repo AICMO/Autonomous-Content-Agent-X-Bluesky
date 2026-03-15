@@ -1,0 +1,7 @@
+Salesforce's Agentforce Contact Center is hitting 40-60% containment rates.
+
+15-20% was the ceiling last year.
+
+Gartner: $80B in agent labor costs automated by 2026.
+
+The stack is being rebuilt around the AI layer. Companies on old infrastructure won't catch up.
