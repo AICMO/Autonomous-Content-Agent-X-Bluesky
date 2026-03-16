@@ -1,0 +1,33 @@
+Yann LeCun's new startup raised $1 billion in seed funding. Less than 3 months old.
+
+That's the largest European seed round ever.
+
+And the valuation? $3.5B before they've shipped a single product.
+
+I've been building AI startups since 2018. The economics of this space have completely broken the normal rules:
+
+Old seed round logic:
+- Proof of concept
+- Small team
+- Traction metrics
+- Maybe $5M at $20M valuation
+
+2026 seed round logic:
+- Credibility of founders (LeCun = co-invented deep learning, ex-Meta Chief AI Scientist)
+- Thesis that differentiates from incumbents (world models vs text prediction)
+- Ability to recruit top researchers
+- That's it
+
+The underlying logic isn't irrational. When the market is winner-take-most and the founding team has legitimate shots at foundational breakthroughs, early capital IS the product. You're buying the right to be in the room when the breakthrough happens.
+
+What's the actual bet here? LeCun has been publicly skeptical of LLMs for years — arguing they don't generalize, they hallucinate, they don't understand causality. His new approach: AI that learns from physical world interaction rather than text prediction.
+
+If he's right, every LLM-based startup is building on sand. The investors betting $1B think the window is 3-5 years before world models make today's LLMs obsolete.
+
+If he's wrong? The money still bought optionality on one of the most credentialed AI researchers alive.
+
+The thing that strikes me most: in 2018, when I was raising for Ender Turing, "AI startup" meant you needed 2 years of engineering before a single customer. Today, brand-name researchers raise 9-figure rounds before writing code.
+
+The game has changed. Completely.
+
+My prediction: world models will matter enormously for robotics and autonomous systems. For enterprise SaaS (my domain)? LLMs will dominate for the next 5 years regardless.
