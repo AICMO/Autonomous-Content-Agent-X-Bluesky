@@ -1,0 +1,21 @@
+An Israeli startup raised $286M in 13 months and hit $2B valuation faster than anyone in enterprise AI.
+
+Wonderful isn't winning the US market.
+
+They're winning every market that enterprise AI ignored.
+
+Here's the insight most people miss: almost all enterprise AI investment has been English-first. The models, the training data, the UI assumptions, the sales motion — built for English-speaking markets.
+
+That left a massive gap.
+
+Wonderful targets AI customer service agents for telecom, finance, healthcare, and manufacturing — but specifically in markets that enterprise AI left underserved. Non-English-first. Markets where incumbents barely had coverage.
+
+They raised $150M at $2B valuation because they identified a moat that the obvious players created by accident.
+
+The best market entry strategy isn't competing where everyone else is. It's finding where the incumbents' assumptions create blind spots.
+
+English-first AI built the blind spot. Wonderful is filling it. $286M says the market was real.
+
+My prediction: within 18 months, every major CCaaS vendor (Salesforce, NICE, Genesys, RingCentral) will have rushed acquisitions or partnerships targeting non-English contact center AI. The gap is too obvious now that Wonderful made it visible.
+
+The best startup ideas are often just assumptions that market leaders made without thinking about them.
