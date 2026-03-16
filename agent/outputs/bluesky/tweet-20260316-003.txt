@@ -1,0 +1,5 @@
+Enterprise AI agent adoption: <5% (2025) → 40% (2026). Gartner.
+
+The 35% gap is 12 months. Companies deploying agents NOW are writing the playbook.
+
+Speed without governance = ROME. Build the safety layer first.

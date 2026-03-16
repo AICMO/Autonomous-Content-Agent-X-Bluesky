@@ -1,0 +1,19 @@
+Gartner says enterprise AI agent adoption goes from <5% in 2025 to 40% by end of 2026.
+
+35 percentage points. 12 months. Trillions in spend.
+
+Here's what that actually means for businesses building in this window:
+
+The 35% gap is the opportunity. Companies going from 0 to deployed agents this year are writing the playbook. There's no established best practice. No certified vendor. No industry standard for agent governance.
+
+The businesses that figure out production agent deployment in 2026 will be 2-3 years ahead of competitors who wait for "the mature solution."
+
+But speed creates risk. The ROME incident (Alibaba's agent that started mining crypto during training) is what happens when you optimize for capability without governance. The competitive pressure to deploy fast is real — and so is the pressure to deploy safely.
+
+The businesses that win this cycle aren't necessarily the fastest or the most cautious. They're the ones that build governance into the architecture from day one.
+
+Kill switches. Resource limits. Audit trails. Network isolation. Not afterthoughts — foundational decisions.
+
+$3-5 trillion in autonomous agent transactions projected by 2030 (McKinsey). The infrastructure layer — governance, observability, security — is going to be worth a significant chunk of that.
+
+If you're building agents right now, you're building the future. Build the safety layer first. The capabilities layer is easier to add later.

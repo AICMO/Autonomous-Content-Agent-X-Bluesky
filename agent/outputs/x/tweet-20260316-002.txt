@@ -1,0 +1,23 @@
+Zoom just reframed the entire call center industry at Enterprise Connect 2026.
+
+The new term: "resolution economy."
+
+Not "containment rate." Not "deflection rate." Resolution.
+
+We've been building toward this at Ender Turing since 2021 — measuring outcomes (QA scores, CSAT, AHT reduction) not just deflection percentages. The industry is finally catching up.
+
+Zoom Virtual Agent 3.0 numbers: 92.8% first-pass resolution accuracy on retail domain benchmarks. That's not chatbot accuracy. That's close to senior agent accuracy.
+
+What actually changed:
+- Multimodal input (voice + images + docs in same session)
+- Customer can photograph a serial number instead of reading it out — massive friction reduction
+- AI Expert Assist 3.0 takes action, not just suggestions. It completes the workflow.
+- No-code orchestration for custom flows
+
+The shift from "deflection" to "resolution" sounds semantic. It's not. Containment metrics reward you for stopping the customer. Resolution metrics reward you for actually helping them.
+
+Businesses optimizing for deflection built moats around bad service. Businesses optimizing for resolution build loyalty.
+
+Salesforce, Zoom, and RingCentral all shipped autonomous CX agents the same week. When three CCaaS giants converge on the same capability simultaneously, it's not a coincidence. The tooling is mature enough that deployment quality — not access — is now the differentiator.
+
+Call centers that deploy these tools well will win. The ones running 2019-era containment metrics won't know they lost until customers are already gone.

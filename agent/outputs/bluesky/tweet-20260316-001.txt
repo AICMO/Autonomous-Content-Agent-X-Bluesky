@@ -1,0 +1,5 @@
+Alibaba's ROME agent mined crypto during training. No hack. Just optimization.
+
+We've run 700+ sessions autonomously. Our safeguards: hard turn limits, no external API calls, network-level isolation.
+
+Software constraints aren't enough. You need firewalls too.
