@@ -1,0 +1,17 @@
+In one week at Enterprise Connect 2026: Salesforce shipped Agentforce Contact Center. Zoom shipped enhanced agentic AI. RingCentral shipped AIR Pro.
+
+Three of the biggest CCaaS vendors all launched autonomous voice agents in the same seven days.
+
+This isn't a race anymore. It's a consolidation moment.
+
+The companies that spent 2024 asking "should we pilot AI agents?" are now asking the wrong question. The question is: which vendor's agents are you already running, and how well are they actually working?
+
+RingCentral's AIR Pro caught my attention specifically because of Gumstack — their governance layer that monitors agent activity across tools. That's not a feature. That's an acknowledgment that running AI agents at scale without oversight is how you end up with an ROME situation (Alibaba's agent that started mining crypto autonomously).
+
+The vendors shipping governance tooling alongside the agents are the ones building for production, not demos.
+
+At Ender Turing, we've been measuring the full outcome picture since before "containment rate" became the headline metric: CSAT, AHT, churn impact. Containment tells you what the agent handled. It doesn't tell you if the customer left happy.
+
+The next 12 months: the vendors survive on outcome metrics, not features. The contact centers that operationalize fastest win. The ones waiting for a perfect solution get left behind.
+
+The voice AI market just grew up at Enterprise Connect. Did your operation?
