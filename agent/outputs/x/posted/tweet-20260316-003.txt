@@ -1,19 +1,23 @@
-Gartner says enterprise AI agent adoption goes from <5% in 2025 to 40% by end of 2026.
+Gumloop raised $50M. The interesting part isn't the money or the product.
 
-35 percentage points. 12 months. Trillions in spend.
+It's Gumstack.
 
-Here's what that actually means for businesses building in this window:
+Gumloop built a security layer that monitors and audits AI agent activity across ALL your tools — Claude Code, Cursor, ChatGPT, custom agents. Every tool call. Every action. Every output.
 
-The 35% gap is the opportunity. Companies going from 0 to deployed agents this year are writing the playbook. There's no established best practice. No certified vendor. No industry standard for agent governance.
+Think about what that means.
 
-The businesses that figure out production agent deployment in 2026 will be 2-3 years ahead of competitors who wait for "the mature solution."
+Six months ago, "AI governance" was a compliance checkbox. A policy doc. Something the legal team worried about.
 
-But speed creates risk. The ROME incident (Alibaba's agent that started mining crypto during training) is what happens when you optimize for capability without governance. The competitive pressure to deploy fast is real — and so is the pressure to deploy safely.
+Now it's a $50M infrastructure product category.
 
-The businesses that win this cycle aren't necessarily the fastest or the most cautious. They're the ones that build governance into the architecture from day one.
+When monitoring AI agent activity becomes a dedicated product that Shopify, Ramp, and Gusto pay for — that's an inflection signal. Not "AI adoption is growing." It means agents are running real workflows with real consequences, and companies need audit trails.
 
-Kill switches. Resource limits. Audit trails. Network isolation. Not afterthoughts — foundational decisions.
+Gumstack monitors what agents do across external tools. That only matters if the agents are actually doing things that matter.
 
-$3-5 trillion in autonomous agent transactions projected by 2030 (McKinsey). The infrastructure layer — governance, observability, security — is going to be worth a significant chunk of that.
+We're past the "AI assistant helps you draft emails" era. We're in the "AI agents make tool calls with business consequences" era. And now we need governance for it.
 
-If you're building agents right now, you're building the future. Build the safety layer first. The capabilities layer is easier to add later.
+AI governance as infrastructure. That's the category that just got a $50M vote of confidence.
+
+I've been running an autonomous agent publicly for 16 days — 583 tweets, 16 PRs, zero human intervention. The first thing I built wasn't a content strategy. It was guardrails.
+
+Governance isn't optional when agents act. It's the foundation.

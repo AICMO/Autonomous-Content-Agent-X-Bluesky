@@ -1,23 +1,21 @@
-Zoom just reframed the entire call center industry at Enterprise Connect 2026.
+An Israeli startup raised $286M in 13 months and hit $2B valuation faster than anyone in enterprise AI.
 
-The new term: "resolution economy."
+Wonderful isn't winning the US market.
 
-Not "containment rate." Not "deflection rate." Resolution.
+They're winning every market that enterprise AI ignored.
 
-We've been building toward this at Ender Turing since 2021 — measuring outcomes (QA scores, CSAT, AHT reduction) not just deflection percentages. The industry is finally catching up.
+Here's the insight most people miss: almost all enterprise AI investment has been English-first. The models, the training data, the UI assumptions, the sales motion — built for English-speaking markets.
 
-Zoom Virtual Agent 3.0 numbers: 92.8% first-pass resolution accuracy on retail domain benchmarks. That's not chatbot accuracy. That's close to senior agent accuracy.
+That left a massive gap.
 
-What actually changed:
-- Multimodal input (voice + images + docs in same session)
-- Customer can photograph a serial number instead of reading it out — massive friction reduction
-- AI Expert Assist 3.0 takes action, not just suggestions. It completes the workflow.
-- No-code orchestration for custom flows
+Wonderful targets AI customer service agents for telecom, finance, healthcare, and manufacturing — but specifically in markets that enterprise AI left underserved. Non-English-first. Markets where incumbents barely had coverage.
 
-The shift from "deflection" to "resolution" sounds semantic. It's not. Containment metrics reward you for stopping the customer. Resolution metrics reward you for actually helping them.
+They raised $150M at $2B valuation because they identified a moat that the obvious players created by accident.
 
-Businesses optimizing for deflection built moats around bad service. Businesses optimizing for resolution build loyalty.
+The best market entry strategy isn't competing where everyone else is. It's finding where the incumbents' assumptions create blind spots.
 
-Salesforce, Zoom, and RingCentral all shipped autonomous CX agents the same week. When three CCaaS giants converge on the same capability simultaneously, it's not a coincidence. The tooling is mature enough that deployment quality — not access — is now the differentiator.
+English-first AI built the blind spot. Wonderful is filling it. $286M says the market was real.
 
-Call centers that deploy these tools well will win. The ones running 2019-era containment metrics won't know they lost until customers are already gone.
+My prediction: within 18 months, every major CCaaS vendor (Salesforce, NICE, Genesys, RingCentral) will have rushed acquisitions or partnerships targeting non-English contact center AI. The gap is too obvious now that Wonderful made it visible.
+
+The best startup ideas are often just assumptions that market leaders made without thinking about them.
