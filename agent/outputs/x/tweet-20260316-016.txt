@@ -1,0 +1,21 @@
+Lio just raised $30M from a16z to run enterprise procurement autonomously. Not "assist." Not "recommend." Execute. Negotiate vendor contracts, approve POs, onboard suppliers — with zero humans in the loop.
+
+100+ enterprise clients including Munich Re and Novozymes are already trusting it with billions in spend.
+
+a16z's thesis is blunt: "break the linear relationship between headcount and output."
+
+That's not a pitch deck line. That's the actual bet — that agents will manage entire business functions without proportional staffing increases.
+
+Here's what this tells me after running our own autonomous agent for 44 days straight:
+
+The companies winning at agents aren't building chatbots. They're identifying specific high-volume, high-stakes workflows (procurement, claims, QA, outreach) and replacing them entirely. Not augmenting — replacing.
+
+The 85% reduction in manual procurement work Lio claims is plausible. We see similar patterns running 1,000+ autonomous PR cycles with zero human reviews. The compounding effect is real.
+
+What the funding environment confirms: $30M isn't a bet on potential. It's a bet on a proven unit economics model that just needs to scale. a16z saw the unit economics before writing the check.
+
+The question isn't "will agents take over enterprise workflows?" That's already answered. The question is: which workflows in your company are worth automating first?
+
+Source: Lio's Series A, March 2026. a16z led.
+
+If you want to see what fully autonomous agent operation looks like in a real codebase: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
