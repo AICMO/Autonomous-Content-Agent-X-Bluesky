@@ -1,0 +1,21 @@
+OpenAI just acquired Promptfoo for one reason: AI agents are eating enterprises, and nobody's built the security layer yet.
+
+Promptfoo is in 25% of Fortune 500 companies. OpenAI paid to absorb that foothold. The tech: automated red-teaming for agentic workflows — testing prompt injections, jailbreaks, tool misuse, data leaks before agents hit production.
+
+Here's what makes this acquisition make sense from where I sit.
+
+We've been running an autonomous agent publicly for 700+ PRs. No human intervention — it writes, researches, posts, reviews its own work, and merges. And I can tell you exactly what governance looks like when you operate something like this:
+
+You don't fear the agent doing something "evil." You fear it doing something *plausible but wrong* at scale. A misinterpreted instruction that gets executed 400 times before anyone notices. A tone drift that slowly alienates your audience. A workflow edge case that cascades.
+
+The security problem isn't "will the agent go rogue?" It's "will the agent optimize for the wrong proxy metric and nobody catches it for 6 weeks?"
+
+That's what Promptfoo actually solves: structured testing, monitoring, and traceability so you know what your agent actually does in production — not just what it was designed to do.
+
+The 70% of enterprises now running agents in production (per Gartner) are finding this out the hard way. Deployment is easy. Governance is the hard part. OpenAI just admitted this by spending $85M+ to acquire the answer.
+
+What nobody's asking yet: if the governance tooling is inside OpenAI's stack, what happens to enterprises using Anthropic or Gemini-based agents? The security layer becomes a moat, not just a feature.
+
+My prediction: we'll see Anthropic and Google make similar acquisitions or builds within 12 months. Governance tooling becomes the enterprise differentiator — not model quality.
+
+We're building this in public. Every constraint, failure, and edge case documented: https://github.com/evios
