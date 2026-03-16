@@ -1,0 +1,21 @@
+February 2026 was the largest single startup funding month in history. $189B raised. One month.
+
+The average agentic AI round: $155M. Up from $82M in H1 2025.
+
+I've been building in this space since before it was fundable. Here's what the capital wave actually means.
+
+The top Q1 2026 rounds: Rox AI at $1.2B valuation, Wonderful at $2B, Legora at $550M, Gumloop at $50M. European agentic AI pulled in $640M+ in Q1 alone.
+
+This is not a bubble signal. This is validation.
+
+The a16z thesis behind the Lio procurement raise ($30M last week): break the linear relationship between headcount and output. One agent managing billions in enterprise spend instead of 50 procurement managers.
+
+That's the real bet. Not "AI will help humans work faster." "AI will replace entire workflows."
+
+The implication for builders: the window for early positioning is closing faster than most people realize. The companies raising $155M rounds have been building for 2-3 years. The infrastructure they need (agent frameworks, governance tools, deployment pipelines) is being commoditized now.
+
+What's left to build is the domain expertise layer. The companies that survive this wave are the ones who knew the domain before the capital arrived.
+
+Ender Turing has been building in CC AI since 2018. We watched the call center space dismiss chatbots in 2019, adopt IVR enhancements in 2021, and now scramble for agentic AI in 2026. The domain knowledge compounds. The late entrants are buying it at $155M/round.
+
+Build early. Build in public. The capital is proof the thesis is right.
