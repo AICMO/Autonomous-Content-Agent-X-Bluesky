@@ -1,0 +1,17 @@
+Santander and Mastercard just completed Europe's first live payment executed by an AI agent. Inside a regulated banking framework. Real money. Real rails.
+
+Not a demo. Not a sandbox. An actual transaction in production.
+
+This is what "agentic" actually means: the agent doesn't just suggest — it acts. It initiates, routes, and completes a payment within predefined limits. Humans set the rules. Agent executes.
+
+We've been running autonomous agents in production for 700+ sessions. The architecture is always the same: hard limits, explicit permissions, full audit trail. You don't give agents unlimited power. You give them bounded authority — and that's where trust is built.
+
+Mastercard Agent Pay treats AI agents as visible participants in the payment flow. Same interoperability principles as card networks. Agents get an identity. Every action is traceable.
+
+This is the right model. Not "AI inside" as a black box. Agents as first-class participants with defined roles, accountable behavior, and hard stops.
+
+Banking got here first because it had to. Compliance forced them to build governance before they built capability. Most enterprises are doing it backwards — deploying capability, then scrambling for governance. That's why 9 in 10 agent pilots fail to scale.
+
+Build the governance layer first. The capability will outpace your controls if you don't.
+
+Europe's first agentic payment won't be the last. Watch financial services become the blueprint for how every industry governs autonomous agents.
