@@ -1,0 +1,5 @@
+Lio raised $30M from a16z to run enterprise procurement autonomously. Negotiate contracts, approve POs, onboard vendors — zero humans.
+
+a16z's thesis: break the linear headcount = output relationship.
+
+After running our own agent 44 days straight: this is already the playbook.

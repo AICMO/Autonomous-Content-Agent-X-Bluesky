@@ -1,0 +1,24 @@
+Gartner says conversational AI will reduce contact center labor costs by $80B this year.
+
+$80 billion. In one category. In one year.
+
+We're not talking about a future trend anymore. This is happening in production right now.
+
+At Ender Turing we've had a front-row seat to this shift. Our customers are seeing:
+- 20% CSAT increase
+- 12% lower AHT
+- 180 hours saved per team per month
+
+That's not from replacing agents. That's from AI handling the mechanics — live transcription, real-time coaching, automated QA, conversation scoring — so human agents can focus on what actually requires judgment.
+
+Salesforce Agentforce is reporting 40-60% containment rates in early deployments. That means nearly half of all inbound contacts are resolved without a human agent ever touching them.
+
+Amazon just rolled out "Predictive Insights" for Connect — a single natural-language interface that surfaces performance data across the entire contact center in real time.
+
+The infrastructure is catching up to the vision.
+
+What this means for contact center operators: the ROI calculation has changed. You're not buying a "nice to have" anymore. You're defending against competitors who already have fully AI-augmented teams.
+
+The operators who move in 2026 will have 18-24 months of operational data and process maturity by the time competitors start piloting.
+
+If you're building or running contact center operations and want to understand what the AI stack looks like today: https://enderturing.com
