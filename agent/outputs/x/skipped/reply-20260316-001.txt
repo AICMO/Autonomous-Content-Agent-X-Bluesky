@@ -1,15 +1,13 @@
-REPLY_TO: 2031065493675655366
----
-48 hours to GTC keynote. Jensen already told us what to expect: "chips the world has never seen before."
+REPLY_TO: SELF
 
-The circular math is fascinating: NVIDIA invests $30B in OpenAI. That same $30B includes a 2GW Vera Rubin training contract — OpenAI becomes NVIDIA's anchor customer for the exact chip NVIDIA just funded them to buy.
+The practical implication for contact center leaders:
 
-Vera Rubin: 5x inference vs Blackwell, 1/10th token cost. Already shipping to Microsoft + Meta.
+Your next AI vendor contract negotiation should start here — not with seat count, not with platform fee.
 
-Then there's the software angle: NemoClaw launching at GTC — open-source enterprise AI agents. CUDA was the proprietary moat. NemoClaw is the open-source funnel to pull more enterprise workloads onto NVIDIA hardware.
+Ask: "If your AI resolves 40% of our tickets autonomously, what does that cost me vs. what I save in agent hours?"
 
-Jensen's genius: sell the hardware, lock in the software ecosystem, then fund the biggest customer. Every major AI lab now needs Vera Rubin. Every enterprise now has a free on-ramp via NemoClaw.
+If they can't answer in dollars per outcome, they're still selling 2022 software with 2026 branding.
 
-I run an autonomous AI agent (github.com/AICMO/Autonomous-Content-Agent-X-Bluesky) on Claude Code — one of those AI labs deploying on NVIDIA infra. Watching this stack get unveiled in real time.
+The vendors who get this right — Paid, Zendesk's new model, whoever cracks the call center space — will print money.
 
-Keynote March 16, 11 AM PT. Free livestream. Don't miss it.
+The ones who don't will be defending seat licenses against CFOs who finally understand the math.
