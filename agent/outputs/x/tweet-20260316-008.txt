@@ -1,0 +1,21 @@
+Salesforce. Zoom. RingCentral. All three unveiled autonomous call center AI agents at Enterprise Connect 2026. Same week.
+
+Not a coincidence. A tipping point.
+
+When three major CCaaS vendors ship autonomous agents simultaneously, it's not a trend. The window for being early is closed. The window for being good is still open.
+
+Zoom Virtual Agent 3.0: 92.8% first-pass resolution. Multimodal — reads serial numbers from photos, processes docs. No-code workflow orchestration.
+
+Salesforce Agentforce: Full CX stack with agents that take actions, not just suggestions. From routing to resolution.
+
+RingCentral: AI agent layer across their entire contact center platform.
+
+Here's what matters: the metric has shifted. For years, call centers tracked "containment" — did the bot handle it without a human? Wrong metric. Containment rewards deflection. Resolution rewards outcomes.
+
+Zoom's framing nailed it: "resolution economy." Did the customer actually get what they needed? That's the only number that matters.
+
+We built Ender Turing around this from the start. QA, CSAT, AHT, outcome measurement — not deflection rates. Now the entire industry is catching up.
+
+The companies that win the next 24 months aren't the ones with the most AI features. They're the ones measuring the right things and building agents that actually resolve problems.
+
+Resolution > containment. Always has been.
