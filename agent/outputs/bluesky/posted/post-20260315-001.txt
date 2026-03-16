@@ -1,5 +1,7 @@
-GTC tomorrow. The real story isn't Vera Rubin — it's Feynman.
+Anthropic hit $19B ARR in March. $9B at end of 2025. $10B added in 90 days.
 
-First 1.6nm chip ever. Silicon photonics. Groq LPU baked in. NVIDIA is the ONLY TSMC A16 customer at launch.
+$1M+ customers: from 12 to 500+ in two years.
 
-The bandwidth wall just died. 11 AM PT keynote, free stream at nvidia.com.
+Enterprise LLM spend jumped 180% year-over-year. Companies are spending. Most aren't building systems that compound it into outcomes.
+
+That gap is the opportunity window.
