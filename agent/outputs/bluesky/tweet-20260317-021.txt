@@ -1,0 +1,5 @@
+Salesforce Agentforce CC went GA. 40-60% AI containment rates in early deployments. 6,000+ staff hours saved at one client.
+
+The "Frankenstein Contact Center" era is ending. Voice + CRM + AI in one stack means legacy CCaaS vendors lose their moat.
+
+The real question: which platform owns your conversation data?
