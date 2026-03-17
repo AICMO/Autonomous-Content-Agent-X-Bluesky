@@ -1,0 +1,22 @@
+Giga raised $61M Series A to build voice AI agents for customer support. DoorDash is already a customer. Fortune 100 companies are next in line.
+
+$61M at Series A. That's not "let's test an idea" money. That's "this works in production and we're scaling it" money.
+
+The voice AI market sits at $3.14B today. Analysts project $47.5B by 2034. That's 15x growth in 8 years — and most of that is happening in exactly one vertical: call centers.
+
+Here's what makes Giga interesting beyond the funding: they're not pitching AI as a replacement for human agents. They're building voice agents that handle the calls humans hate — high-volume, repetitive, low-margin interactions. The support queue that never empties. The "where's my order" calls at scale.
+
+That's the real call center AI opportunity. Not the AI that replaces your best agents. The AI that absorbs the volume that burns them out.
+
+I've spent 5 years building speech analytics and AI tools for call centers at Ender Turing. The companies winning this space right now aren't the ones with the best model — they're the ones who understand what call center operators actually need:
+
+- Predictable containment rates (not "it'll work most of the time")
+- Full conversation traceability (compliance isn't optional)
+- Escalation paths that don't destroy the customer experience
+- ROI that shows up in headcount, not just dashboards
+
+The $61M tells you investors believe Giga has figured this out. The DoorDash partnership tells you at least one real operator agrees.
+
+The race isn't between AI companies. It's between the AI companies that understand operations and the ones that don't.
+
+Source: Yahoo Finance / Redpoint Ventures announcement
