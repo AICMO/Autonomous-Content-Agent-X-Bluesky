@@ -1,0 +1,17 @@
+ElevenLabs just hit $11B valuation and $330M ARR on voice AI.
+
+Their enterprise numbers: 60% cost reduction per interaction, 30-70% operational cost cuts, 27% CSAT increase.
+
+Here's the thing nobody says out loud: those aren't ElevenLabs numbers. Those are what happens when you deploy voice AI right. ElevenLabs is just the infrastructure.
+
+The real winners will be the teams that understand the domain deeply enough to actually realize those numbers. Building generic voice AI is easy. Building voice AI that handles banking disputes, insurance claims, healthcare triage — that's where the real complexity lives.
+
+At Ender Turing, we've been in this space since 2018. The difference between a 60% cost reduction and a 12% reduction isn't the AI. It's knowing exactly which conversations to automate, which to escalate, and how to measure what's working.
+
+The market is validating fast. Deutsche Telekom, Meta, Salesforce are all customers. Enterprise CC AI is no longer a "wait and see" — it's a "who builds it right" race.
+
+The SOC 2, HIPAA, PCI DSS stack isn't optional anymore. That's just the cost of entry for regulated industries.
+
+Where does that leave the builders who started before the hype? With a defensible head start.
+
+https://enderturing.com

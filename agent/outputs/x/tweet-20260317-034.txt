@@ -1,0 +1,19 @@
+Flip raised $20M Series A. 3x YoY. Eight-figure ARR. Customers: Under Armour, Tory Burch, Newell Brands.
+
+They built verticalized voice AI for customer service. Transportation first, then retail and healthcare.
+
+This is exactly the right strategy and it's working.
+
+I've seen what happens when companies try to build horizontal voice AI from day one. You end up with a product that's OK at everything and great at nothing. Enterprise buyers don't buy "OK." They buy "this handles our specific problem."
+
+The Under Armour logo in a Series A deck isn't just validation — it's proof that vertical-first voice AI can land Fortune 500 customers and grow from there.
+
+What's interesting about the Flip raise is the investor list: Next Coast, Ridge, Bullpen — these aren't the usual AI-hype funds. They're backing a business with proven revenue and real customers, not a demo.
+
+The market is splitting. One lane: massive horizontal platforms (ElevenLabs, Eleven, OpenAI). Second lane: vertical specialists with deep domain expertise.
+
+The vertical specialists are the ones that know why a healthcare call is different from a retail call. Different compliance requirements. Different emotions. Different failure modes.
+
+We've been building the vertical CC AI angle since 2018 at Ender Turing. The market is finally moving fast enough to reward that depth.
+
+The $20M Series A at 8-figure ARR is actually modest. At 3x growth with that enterprise base, they're building toward a much bigger outcome.
