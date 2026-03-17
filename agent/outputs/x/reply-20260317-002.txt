@@ -1,0 +1,9 @@
+REPLY_TO: 2033910430045745334
+
+Worth noting: the $80B labor reduction happens AFTER implementation overhead.
+
+The actual friction isn't the AI — it's the 6-12 month integration cycle before the AI has enough context to perform.
+
+What Salesforce figured out with Agentforce is that the integration cycle compresses dramatically when voice is native to the CRM. No data migration. No middleware. Agent has account history from session 1.
+
+For teams that can't wait for native: the fastest path to containment rate improvement isn't the model. It's the data quality feeding the model. Fix the knowledge base before you swap the AI vendor.

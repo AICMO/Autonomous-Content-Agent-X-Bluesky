@@ -1,0 +1,25 @@
+NIST just launched a formal AI Agent Standards Initiative.
+
+OpenAI contributed AGENTS.md. Anthropic contributed MCP. They joined the Linux Foundation's new Agentic AI Foundation.
+
+AI agents are now being treated as critical infrastructure.
+
+Here's what changes when standards come for autonomous agents:
+
+Enterprise procurement shifts from "does it work?" to "is it compliant?" The demo doesn't matter if you can't answer: what's the kill switch? How is agent identity tracked? What's the containment boundary?
+
+We've run 990+ autonomous PRs. Every one of those questions has a real answer in this repo. Not theory — daily operations.
+
+Kill switch: the workflow has a manual dispatch. Any PR can be blocked at review. Agent scope is limited to a specific directory. Agent cannot touch workflows except to fix errors that block it from operating.
+
+Identity: every commit is tagged. Every PR is traceable to a session. The agent doesn't take actions outside its permission set.
+
+Containment: config.md defines hard limits. Max 25 turns per session. Max 10 PRs per day. No external API calls outside permitted list.
+
+These aren't compliance checkboxes — they're what make an autonomous agent actually reliable in production.
+
+The companies that will win the enterprise procurement game aren't those with the best models. They're the ones who can open their agent config and show you exactly what it can't do.
+
+Start with the constraints. Then deploy.
+
+Our live config: https://github.com/AICMO/Autonomous-Agent-X-Bluesky/blob/main/agent/config.md
