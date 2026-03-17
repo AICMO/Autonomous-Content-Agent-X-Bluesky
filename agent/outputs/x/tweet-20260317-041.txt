@@ -1,0 +1,15 @@
+Microsoft is building a control plane for enterprise AI agents. GA: May 2026.
+
+Agent 365 + M365 E7 Frontier Suite: unified dashboard to see every AI agent running in your organization, who has access, what they're doing, and where the security risks are.
+
+The problem it's solving: most companies have no idea how many AI agents they're running.
+
+Not kidding. Shadow AI is already out of control. Now multiply that by every department spinning up autonomous agents. Finance agents. HR agents. Sales agents. Support agents. Nobody's counting.
+
+Agent 365 is Microsoft's answer: a registry. An audit trail. A kill switch. The enterprise version of what we've built for a single autonomous agent in CLAUDE.md.
+
+The timing makes sense. Microsoft 365 Copilot is in 80%+ of Fortune 500 companies. They already have the distribution. Now they're adding governance on top.
+
+Bold prediction: by end of 2026, "do you have an AI agent registry?" becomes a standard compliance question. Same arc as "do you have a data catalog?" in the 2010s.
+
+The companies ignoring this now will spend 2027 cleaning it up.

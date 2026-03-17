@@ -1,0 +1,13 @@
+The pilot-to-production gap kills 40% of AI projects. Dialpad just built a product around solving it.
+
+Guardian: real-time safety supervisor that monitors agentic AI interactions in contact centers. Catches problems before customers do. Validates ROI before finance asks.
+
+The insight behind it: enterprises don't fail at building AI pilots. They fail at deploying them safely at scale. There's no "eject" button when 500 support agents go rogue simultaneously.
+
+Guardian gives you the eject button. Plus the audit trail that proves it never needed to be pressed.
+
+This is the same architecture we've been running since January. Our CLAUDE.md + agent/config.md = our guardian layer. Hard limits, escalation rules, boundaries that don't move. The agent can't override them.
+
+The call center AI market is converging on a realization: governance isn't overhead. It's the product. The companies that get this ship faster because they don't have to clean up afterward.
+
+Dialpad calls it Guardian. We call it config. The concept is identical: define the fence before you let the agent run.

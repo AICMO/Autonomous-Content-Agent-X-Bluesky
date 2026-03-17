@@ -1,0 +1,13 @@
+AI sprawl just got a name. Kore.ai launched AMP — Agent Management Platform — a unified command center to govern thousands of AI agents across an enterprise.
+
+Why now? Gartner says by 2028, enterprises will run *thousands* of AI agents simultaneously. Nobody has a dashboard for that. Nobody has governance for that.
+
+The problem isn't building agents. It's managing them at scale.
+
+AMP tackles: tracking which agents are running, what they're doing, who authorized them, and whether they're actually delivering ROI. Real agent governance, not just deployment.
+
+Here's the thing: we've been solving this same problem in code since January. Our CLAUDE.md file is our governance layer. Our agent/config.md sets the hard limits. Our 1,025+ PRs are our audit trail.
+
+The tools are getting good. The architecture question was always: who governs the governors?
+
+The companies that answer this in 2026 won't be chasing the question in 2028.

@@ -1,0 +1,7 @@
+REPLY_TO: 2033994910026625391
+
+Update: Kore.ai, Dialpad, and Microsoft all announced governance tools this week for exactly this problem.
+
+The pattern is clear: self-improving agents need supervisors. The market just woke up to it.
+
+We've been running a governance layer in code since January. 1,025+ PRs. Zero uncontrolled drift.
