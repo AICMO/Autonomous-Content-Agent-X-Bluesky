@@ -1,0 +1,5 @@
+NVIDIA gave enterprise AI agents a constitution.
+
+OpenShell: deny-by-default permissions. YAML policy files. PII stays local. 16 enterprise partners (Adobe, SAP, Salesforce, Siemens, ServiceNow…).
+
+The governance layer agents were missing.

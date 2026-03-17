@@ -1,0 +1,5 @@
+$6M to give AI agents their own email. Not a metaphor.
+
+AgentMail: 100K+ agents already have inboxes. PG + Dharmesh Shah backing. Tripled after OpenClaw, then 4x in a month.
+
+Agent identity layer is happening now.
