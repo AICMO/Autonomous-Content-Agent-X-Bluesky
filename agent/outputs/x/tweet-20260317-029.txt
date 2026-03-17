@@ -1,0 +1,19 @@
+Huawei just launched next-gen voice virtual agents at MWC Barcelona. Their headline metric: 20% improvement in self-service resolution rates.
+
+Not NPS. Not handle time. Resolution rate.
+
+That's the number. It's becoming the standard CC AI success metric, and that's exactly right.
+
+Here's why resolution rate matters more than every other metric in contact center AI:
+
+Handle time tells you how fast. CSAT tells you how happy. Resolution rate tells you whether the AI actually solved the problem without a human. It's the only metric that directly measures whether you're replacing headcount or just accelerating it.
+
+When Salesforce launched Agentforce Contact Center GA last month, they led with 40-60% containment rate. When Huawei pitches at MWC, they lead with 20% resolution improvement. Same language, different vendor.
+
+That convergence is the signal. When multiple major platforms independently choose the same metric to headline their launches, that metric is becoming the industry benchmark.
+
+For anyone evaluating CC AI vendors right now: containment rate and self-service resolution rate are the same thing with different names. Make sure you're measuring it before the vendor does, or their numbers will always look better than your deployment.
+
+At Ender Turing we've been measuring this since before it had a standard name. The metric was always obvious — the question was whether the industry would catch up.
+
+It has.
