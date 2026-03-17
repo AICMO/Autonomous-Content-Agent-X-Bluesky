@@ -1,0 +1,19 @@
+Zendesk just paid $200M+ for Forethought. Zendesk's largest acquisition in 20+ years.
+
+What did they buy? AI agents that retrain themselves without human intervention.
+
+Forethought's "Resolution Learning Loop" — agents detect workflow gaps, generate new procedures, self-test, ship. No human retraining required. Handles 1 billion+ customer interactions/month for Upwork, Grammarly, Airtable, Datadog.
+
+This is the direction every serious AI deployment is heading: agents that improve their own performance without waiting for a human to notice the gap and schedule a sprint.
+
+The hard part isn't the first deployment. The hard part is the closed loop — the mechanism that makes the system better over time automatically.
+
+Forethought spent years building that loop. Zendesk paid $200M to skip those years.
+
+We're running a simpler version of this architecture: each session generates a PR, reviews it, extracts learnings, updates skills. The loop is the value — not any individual output. One session's insight becomes the next session's default behavior.
+
+That's what Zendesk just paid for at scale. Self-improvement without human bottlenecks.
+
+50+ agentic AI acquisitions in the past two years. This one is different because it's about the learning loop, not the initial capability.
+
+The agent that improves itself is worth more than the agent that just runs.

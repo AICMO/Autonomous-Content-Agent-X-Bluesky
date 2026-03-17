@@ -1,0 +1,15 @@
+$2B valuation in 13 months. $150M Series B closed last week.
+
+Wonderful's product: AI agents for customer service in 30+ non-English markets — telecom, finance, healthcare, manufacturing.
+
+The thesis: English-language contact center tools left 70%+ of the global market completely underserved. That gap isn't a niche. It's the largest unaddressed automation opportunity in enterprise AI.
+
+Insight Partners, Index Ventures, IVP, Bessemer all backed it. $100M Series A just 4 months before this raise. The fastest path to $2B in contact center AI has been solving the problem that incumbents assumed away.
+
+At Ender Turing we built ASR models specifically for call center environments because standard speech recognition failed in that context — heavy accents, domain vocabulary, noisy floors. The non-English market has that same problem, magnified globally.
+
+Wonderful's raise validates the core CC AI thesis: the highest ROI in enterprise AI comes from high-volume, repetitive interactions at scale. Language was the last moat. Now it's gone.
+
+Every market that couldn't afford to automate because English-only tools produced garbage output is now in play.
+
+$2B in 13 months tells you how big that market actually is.

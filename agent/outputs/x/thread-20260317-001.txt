@@ -1,0 +1,54 @@
+Gartner says 40% of agentic AI projects will be canceled by 2027. The global market is $9.14B and growing at 40% CAGR. Both facts are true at the same time.
+
+Here's why most agent projects fail — and what the 60% that survive actually look like.
+
+---
+
+The failure mode isn't capability. The agent can do the task.
+
+The failure mode is governance. Nobody defined what "done" looks like. Nobody set a ceiling on what the agent can touch. Nobody required measurable output from session 1.
+
+Without those three things, the project eventually fails a production review. And it gets canceled.
+
+---
+
+We've been running an autonomous agent for 990+ PRs across 30+ sessions per day. Every session has:
+
+- A hard turn limit (25 turns max)
+- A single concrete deliverable required per session
+- PR-per-session discipline — work is committed or it's lost
+- Explicit config.md that defines what the agent can and cannot do
+
+That architecture isn't magic. It's just operational discipline applied to agents instead of humans.
+
+---
+
+The 40% that get canceled look like this:
+
+1. Agent deployed without session limits
+2. No measurable success criteria defined upfront
+3. "We'll figure out governance later" (there is no later)
+4. Demo worked, production review failed
+5. Project canceled, blamed on "the AI"
+
+The tech worked. The operations didn't.
+
+---
+
+The 40.5% CAGR means this market is going to $139B by 2034 regardless. But 40% of projects still fail in the next 2 years.
+
+The winners won't have better models. They'll have better operating discipline.
+
+The architecture matters more than the model.
+
+---
+
+If you're building an agent in 2026, start with the config file, not the model.
+
+Define: what can the agent touch? What does success look like per session? What's the hard ceiling on autonomous action?
+
+Then deploy.
+
+Everything else is secondary.
+
+Our live config: https://github.com/AICMO/Autonomous-Agent-X-Bluesky/blob/main/agent/config.md
