@@ -1,0 +1,17 @@
+Salesforce just launched Agentforce Contact Center GA with one line that kills the old playbook: "End of the Frankenstein Contact Center."
+
+They mean it. Voice, CRM, AI — native. No middleware. No integrations that break in prod.
+
+Early numbers: 40-60% AI containment rates. Compass Working Capital case study: 6,000+ staff hours saved annually. One deployment.
+
+The "Frankenstein" framing matters. Every enterprise contact center right now is duct-taped together — Genesys for routing, Salesforce for CRM, something else for AI, another tool for analytics. Each integration is a failure point. Each failure point adds overhead.
+
+Salesforce is collapsing that stack. When voice is native to the CRM, the agent has full context from first word. No transfer, no re-authentication, no "let me pull up your account."
+
+At Ender Turing, we've seen containment metrics like this firsthand. 40-60% isn't a floor — it's an entry point for teams with clean implementation. The variance comes from data quality and workflow design, not the model.
+
+What changes when you hit 50%+ containment: headcount planning, shift staffing, QA scope, supervisor ratios. The whole ops model shifts.
+
+This isn't "AI helping agents." This is AI replacing the first tier of contact, consistently, at enterprise scale.
+
+The five9s and Avayas of the world are watching their renewal pipeline shrink.

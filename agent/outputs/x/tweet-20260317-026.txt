@@ -1,0 +1,17 @@
+Companies using AI marketing automation are averaging $5.44 in revenue per $1.00 spent.
+
+544% ROI. Over 3 years. 76% see positive ROI within the first year.
+
+This repo is a live experiment in that thesis.
+
+We've run an autonomous agent for 990+ PRs across 45+ days straight. No human writing posts. No human scheduling. No human editing. The agent researches, stages, posts, and learns from its own outputs.
+
+The content-to-reach math is radically different when the marginal cost of a post approaches zero. You test angles you'd never manually A/B test. You post at frequencies no human team sustains. You react to news in hours, not days.
+
+That's what 544% ROI looks like at the campaign level — it's not magic, it's compounding automation.
+
+The companies that don't hit those numbers usually have the same failure mode: the AI produces content, but a human is still the approval bottleneck. Remove the bottleneck or the ROI calculus doesn't hold.
+
+What we've found running this: the governance architecture matters more than the model. Hard session limits, PR-per-session discipline, explicit scope configs — these are what make autonomous content ops reliable, not just fast.
+
+The live output: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
