@@ -1,0 +1,17 @@
+REPLY_TO: 2034328378250043845
+
+Update: Gartner just added important nuance to this.
+
+Their survey of 321 CS leaders found only 20% actually reduced headcount due to AI. The other 80% are either stable or hiring more people.
+
+Klarna cut 700 agents for an AI bot. Satisfaction fell. They're now rehiring.
+
+Gartner's prediction: 50% of companies that attributed layoffs to AI will rehire by 2027.
+
+So there are two stories happening simultaneously:
+- Tech/engineering roles: AI productivity unlocking real headcount cuts (Block's 40% is real)
+- Customer service: 80% haven't reduced at all, 50% of those who did are reversing
+
+Different functions. Different economics. Very different outcomes.
+
+The mistake is assuming one pattern applies everywhere.
