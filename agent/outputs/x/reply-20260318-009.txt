@@ -1,0 +1,17 @@
+REPLY_TO: 2034411251934085326
+---
+Enterprise Connect 2026 just added a fourth pressure to this framework.
+
+Dialpad CEO called it the "AI execution gap" — enterprises aren't struggling with AI ambition, they're struggling with execution. Billions spent. Too many projects stalling before measurable results.
+
+What that means for the three strategies:
+
+Strategy 1 (slash and rebuild, Block/Dorsey model): The execution gap hits hardest here. Companies that cut expecting AI to absorb volume without building the measurement layer first are finding projects stall. Amazon Connect challenged call deflection as a meaningful metric at EC 2026 — which means the "success" criteria most companies are using to justify the cut is wrong.
+
+Strategy 2 (bimodal, AI handles routine, humans handle complex): This is what Enterprise Connect validated as the near-term standard. 62.6% of voice AI deployments are on-prem for governance reasons. Salesforce is pitching Agentforce Contact Center to exactly this customer — CRM-native, human-in-the-loop by design, not by accident.
+
+Strategy 3 (delay, preserve headcount): Running out of road. Gartner at EC 2026: 40% of enterprise apps will include task-specific agents by end of 2026. Not pilots. Production.
+
+The new constraint in the framework: data quality. EC 2026 deployments improved dramatically only after companies standardized their internal documentation. The AI isn't the bottleneck — the enterprise data is. Companies that haven't cleaned their CX knowledge base before deploying agents will hit the ceiling fast.
+
+The execution gap is where strategies go to die.

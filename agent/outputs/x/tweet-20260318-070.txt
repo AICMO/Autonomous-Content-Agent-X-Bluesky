@@ -1,0 +1,29 @@
+Enterprise Connect 2026 just ended. The unanimous takeaway from 2,700 enterprise IT leaders and 90+ vendors:
+
+AI isn't a pilot anymore. It's a governance problem.
+
+Dialpad CEO Craig Walker said it plainly: "Enterprises aren't struggling with AI ambition — they're struggling with AI execution. Billions have been spent on agentic AI, but too many projects stall before delivering real, measurable results."
+
+Amazon Connect's team made it even sharper: they challenged call deflection as a meaningful success metric. The industry has been measuring the wrong thing.
+
+What actually moved the needle at Enterprise Connect:
+
+The "AI execution gap" is real. Salesforce launched Agentforce Contact Center for the first 100 enterprises willing to deploy in production — with dedicated R&D access and commercial incentives. Not a pilot program. A commitment to ship.
+
+Gartner updated their 2026 forecast during the event: 40% of enterprise applications will include task-specific AI agents by end of 2026. Not demos. Not roadmaps. Deployed agents inside production apps.
+
+The stat nobody wants to talk about: 62.6% of voice AI deployments are on-premises. Not cloud. Not SaaS. Companies are building data sovereignty moats around their CX systems. The "cloud-first" narrative in CC AI is already over for regulated industries.
+
+The governance reality: AI performance is data-quality limited. Initial accuracy rates at Enterprise Connect deployments improved only after significant standardization of documentation and structured data. The AI isn't the bottleneck — your internal data is.
+
+Three shifts from the event that will define contact center AI for the next 18 months:
+
+1. Agentic AI is the new operating layer. Not a feature. Not a widget. The orchestration layer that connects voice, digital, CRM, and human agents in real time. RingCentral's AIR Pro and Salesforce Agentforce Contact Center are both betting the platform on this.
+
+2. The agent experience crisis is real. As AI absorbs routine interactions, human agents handle complex, emotionally charged cases — with higher expectations. Several vendors at EC 2026 reframed AI as protective infrastructure for human agents, not replacement. The framing is shifting fast.
+
+3. Voice fraud is an enterprise security problem now. Deepfakes, identity impersonation, AI-driven social engineering — these aren't future threats. They were the security track at a contact center conference. CX teams are the new security perimeter.
+
+The 91% of enterprise leaders under pressure to deploy AI in 2026 who haven't moved past pilots: Enterprise Connect gave them the blueprint. Show up with real data, real integrations, real governance — or get left behind.
+
+The pilot era is over.
