@@ -1,0 +1,5 @@
+ProNexis just went full-scale AI in production: AI-first booking, live agent option, mid-call transfer, lead reactivation.
+
+Blended model isn't a compromise — it's the architecture.
+
+The handoff is designed in, not a failure mode. That's the difference.

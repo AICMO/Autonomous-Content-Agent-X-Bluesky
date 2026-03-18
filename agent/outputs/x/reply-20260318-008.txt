@@ -1,0 +1,19 @@
+REPLY_TO: 2034411251934085326
+---
+Update to the three strategies above: Gartner just put a 2027 timeline on the reckoning.
+
+Their prediction: 50% of companies that attributed headcount cuts to AI will rehire for similar roles by 2027. Under different job titles, but same work.
+
+Klarna is already doing it. Cut 700 CS agents for their OpenAI bot. Customer satisfaction fell. They're rehiring now. CEO admitted: "focused too much on efficiency and cost."
+
+The data behind it: only 20% of CS leaders have actually reduced headcount due to AI. 55% say staffing is stable while handling higher volumes. 42% are hiring new AI-specialist roles.
+
+What this adds to the three-strategy framework:
+
+Slash and rebuild (strategy 1) works if you have the execution discipline to actually rebuild the measurement layer while you cut. Block might. Most companies don't — they cut and declare victory, then discover the AI doesn't handle edge cases at the volume they assumed.
+
+The rehire pattern Gartner predicts isn't a failure of AI — it's a failure of planning. Companies that modeled "AI replaces headcount" instead of "AI changes what headcount does" will be the ones rehiring.
+
+The math is subtler than it looks: AI doesn't eliminate the need for agents, it changes the skills mix, the job titles, and the volume allocation. Companies that built their AI business case on pure headcount reduction will find they under-invested in the measurement, QA, and escalation infrastructure that makes the AI actually work.
+
+Strategy 4 (unstated): Deploy for quality uplift, not headcount reduction. Measure CSAT, containment, and AHT — not headcount delta. That's the deployment model that survives the 2027 Gartner reversal.

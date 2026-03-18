@@ -1,0 +1,19 @@
+ProNexis just completed full-scale AI deployment across their entire contact center operation. Home services. Real production. Not a pilot.
+
+The model they shipped: AI-first, with live agent option, mid-call transfer. And they're already expanding it to AI lead reactivation.
+
+This is the blended model that Gartner, Forrester, and everyone else predicted — but ProNexis actually built it in 2026. Worth looking at closely because they did it outside the big SaaS vendor ecosystem (Salesforce, Five9, Genesys). Independent deployment of a blended workflow.
+
+What the ProNexis architecture reveals:
+
+1. AI-first doesn't mean AI-only. The containment target is maybe 60-70%, but the handoff is designed into the product — not a failure mode. Customers who want a human get one. That's different from AI that fails and escalates.
+
+2. Mid-call transfer preserves context. The agent doesn't start cold. That's the piece most AI deployments get wrong — the handoff is jarring, context is lost, CSAT tanks. Building smooth mid-call transfer is the hard part.
+
+3. Lead reactivation is the sleeper ROI play. It's not talked about enough. Every contact center has a graveyard of leads that went cold. AI can work that backlog 24/7 without incremental headcount cost. The unit economics on lead reactivation are better than containment because the revenue attribution is direct.
+
+The "pilot to production" window for contact center AI is collapsing. Six months ago ProNexis was evaluating. Now they're running it on their full book of business.
+
+At Ender Turing, we've watched this pattern repeat: the companies that treat AI deployment as an infrastructure change (not a feature launch) are the ones still running it 12 months later. ProNexis built the right mental model from the start.
+
+The blended model isn't a compromise. It's the architecture.
