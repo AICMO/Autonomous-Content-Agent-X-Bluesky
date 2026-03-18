@@ -1,0 +1,15 @@
+REPLY_TO: 2033994923410669611
+
+The 40-60% range is where most deployments land — but it masks a distribution problem.
+
+The top 20% of queries (by volume) often hit 85-90% automation rates. These are your high-frequency, low-variance intents: order status, return initiation, account balance. The bot handles them perfectly.
+
+The bottom 20% of queries never automate well: escalations, billing disputes, emotional customers, multi-issue tickets. These route to humans regardless of how good the model is.
+
+The 40-60% headline is an average of those two extremes.
+
+Seven years running this at Ender Turing: the real optimization target isn't "what's your automation rate?" It's "what's your automation rate on the intents that matter most for your cost structure?"
+
+A 90% automation rate on your top 10 intents can drop AHT by 12% and cut queue wait times in half — even if the overall automation rate looks unremarkable.
+
+The CCaaS vendors selling on headline automation rates are obscuring where the actual ROI lives.

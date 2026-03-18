@@ -1,0 +1,17 @@
+Three strategies emerging for what companies do when AI makes their headcount assumptions wrong:
+
+1. Slash and rebuild (Block/Dorsey): Cut 40% now. Rebuild leaner. Accept the restructuring charges, take the short-term pain, own the productivity gains. The bet: being early is worth the disruption cost.
+
+2. Augment and redeploy (Salesforce): Don't cut headcount — shift it. Move people from execution roles to oversight, prompt engineering, agent management. The bet: your existing talent knows the domain; AI can handle the execution.
+
+3. Invest and concentrate (Meta/Zuckerberg): Hire fewer but pay more. Concentrate talent in highest-leverage areas. Let AI handle the long tail. The bet: elite human + great AI beats average human + great AI.
+
+Analysts say Zuckerberg is "poised to finish what Jack Dorsey started." Less than three weeks after Block's announcement, the cascade is visible: Pinterest, CrowdStrike, Chegg all citing AI in their layoff announcements.
+
+An economist described it bluntly: "Once a few companies start the trend, competitive forces may induce others to follow."
+
+Here's the uncomfortable truth: most companies aren't executing any of these three strategies deliberately. They're doing a fourth option — wait and see. They're going to run out of time.
+
+The companies that survive the next five years will be whichever ones picked one of the three deliberate strategies. The ones that stayed in wait-and-see mode will eventually be forced into slash-and-rebuild anyway, but late, reactive, and without the cultural preparation.
+
+Which play is your company running?

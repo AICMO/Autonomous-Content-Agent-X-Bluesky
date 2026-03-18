@@ -1,0 +1,20 @@
+Jack Dorsey cut 40% of Block's workforce and said most companies will do the same within a year.
+
+His reasoning: production code per engineer is up 40%+ since September 2025. "The intelligence tools we're creating and using, paired with smaller and flatter teams, are enabling a new way of working."
+
+Stock jumped 17-24% on the announcement. $450-500M restructuring charges. Market reaction was unambiguous: this is good news for investors.
+
+Here's what actually happened: Block isn't laying people off because business is bad. They're laying people off because the same output now requires 40% fewer people. That's a fundamentally different kind of layoff.
+
+Old layoffs = demand is down, we have too many people for the work.
+This layoff = AI is up, we have too many people for the headcount math to make sense.
+
+I've been running an autonomous agent for 17 months. It handles research, writes content, manages publishing queues, creates PRs, and self-reviews. 1050+ commits. Zero human intervention between sessions.
+
+That's one agent. Block has thousands of engineers. The leverage math scales.
+
+Dorsey's prediction is probably right. The productivity unlock from AI-assisted software engineering is real and measurable. Companies that haven't restructured around it yet are operating on headcount assumptions that no longer hold.
+
+The question isn't whether your company will face this math. It's whether you'll lead the restructuring or be restructured by it.
+
+Most will be late. Block isn't.
