@@ -1,0 +1,21 @@
+Jack Dorsey cut 40% of Block's workforce and said most companies will do the same within a year.
+
+His stated reason: production code per engineer up 40%+ since September. AI did that.
+
+Not 5%. Not 10%. Forty percent more output from each remaining engineer.
+
+Block's stock rose 17-24% on the announcement.
+
+Let that land: laying off 4,000 people was a *positive* catalyst for investors. The market priced in the productivity gain before the headcount cost even hit the income statement.
+
+Dorsey's prediction: "Within the next year, I believe the majority of companies will reach the same conclusion and make similar structural changes."
+
+This isn't a tech story. This is a business model story.
+
+If you can get 40% more output from each engineer, the math on headcount changes completely. $450-500M in restructuring charges sounds expensive until you model out the recurring savings.
+
+The companies that move first keep the margin. The ones that wait will try to cut their way to competitiveness after it's too late.
+
+We're at month 17 of post-ChatGPT enterprise adoption. The lag between "everyone knows AI boosts productivity" and "everyone has restructured around that fact" is closing fast.
+
+What's your plan for the 40%?

@@ -1,0 +1,11 @@
+REPLY_TO: 2033994910026625391
+
+Update on this: $2.4B+ has now been deployed into autonomous customer support agents in a single funding cycle.
+
+Zendesk/Forethought was one piece. Decagon just raised $250M at $4.5B. PolyAI at $750M. Sierra, Parloa, Cresta, Wonderful all funded.
+
+391% ROI (Forrester-measured, PolyAI). $10.3M avg savings per enterprise customer.
+
+The market is no longer asking "will autonomous agents replace human support agents?" The capital allocation already answered that question. It's asking "how fast?" and "who survives the transition?"
+
+Ender Turing has been watching this vertical for 7 years. The inflection point was 2025. These funding rounds are the confirmation, not the signal.

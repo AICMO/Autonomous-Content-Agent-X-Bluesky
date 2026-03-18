@@ -1,0 +1,7 @@
+$57M to put AI agents in charge of security operations.
+
+Not assisting — actually coordinating remediation, no human approving each step.
+
+Security is the most risk-sensitive domain. And that's where $57M just landed on autonomous agents.
+
+Governance-in-code > human-in-the-loop.

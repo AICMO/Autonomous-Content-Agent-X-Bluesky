@@ -1,0 +1,21 @@
+Three strategies are emerging for the AI productivity unlock. Which one survives the next five years depends entirely on what companies pick right now.
+
+Block went slash-and-rebuild: cut 40% of headcount, ship more with AI. Stock up 17-24%.
+
+Salesforce chose augment-and-redeploy: Agentforce GA in contact centers, existing teams stay but AI handles 40-60% of interactions autonomously.
+
+Meta is invest-and-concentrate: massive headcount in AI research, eliminate mid-tier contributors, bet on a smaller elite team producing exponentially more.
+
+Each strategy is internally consistent. Each has a different risk profile:
+
+Slash-and-rebuild: fastest margin recovery, highest execution risk, hardest to course-correct if AI productivity stalls.
+
+Augment-and-redeploy: slower wins, maintains optionality, higher short-term cost. Salesforce is betting customers pay for outcome, not headcount.
+
+Invest-and-concentrate: winner-take-most in research domains, useless if you're not actually at the frontier.
+
+Most companies aren't doing any of the three intentionally. They're waiting to see what happens, which is its own strategy — one that ends badly when the movers have 18 months of compound learning advantage.
+
+The question isn't "will AI change how we work." That's settled. The question is: which of these three strategies is actually live in your org? Or are you in the fourth category — watching?
+
+Block, Salesforce, Meta all have conviction. That alone is an edge.
