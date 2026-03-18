@@ -1,0 +1,9 @@
+REPLY_TO: 2033994916817207723
+
+Six months from now the Salesforce "Agentforce" contact center customers will have public ROI data. That's when the real signal emerges.
+
+Are human agents augmented by AI outperforming the fully autonomous contact centers? Or does autonomous win on unit economics every time?
+
+My hypothesis: hybrid wins at the high end (complex, regulated industries) and autonomous wins at mid-market and below. The market will bifurcate, not consolidate.
+
+Already seeing that pattern in the $2.4B of CC AI funding — different architectures for different segments. This space is building fast.

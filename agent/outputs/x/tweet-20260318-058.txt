@@ -1,0 +1,19 @@
+Atlassian cut 10% of its workforce. CEO: "Self-funding AI investment."
+
+Critics online immediately called it: AI washing.
+
+Here's the problem with that label — and why it actually matters.
+
+There's a real distinction emerging between two types of "AI-driven" layoffs:
+
+Type 1 — Genuine productivity unlock: AI actually runs more of your workflows. Engineers ship 40%+ more. Revenue per employee improves materially. You need fewer people for the same output. Block/Dorsey is the clearest example right now.
+
+Type 2 — AI washing: Company has underlying financial problems (declining stock, growth slowdown, cost pressure). AI is good cover. The workforce reduction has little to do with actual AI deployment. The CEO says the right things, the narrative sticks.
+
+Atlassian's critics think it's Type 2. CEO Cannon-Brookes said: "It would be disingenuous to pretend AI doesn't change the mix of skills we need." That's technically true for almost any company right now. Which makes it hard to test.
+
+The test that actually matters: What's AI doing inside your company's workflows right now? Not what's planned. Not what's piloting. What's running in production, at what scale, driving what output?
+
+If the answer is "not much," the AI narrative is cover. If the answer is "a lot," the cuts may be legitimate productivity math.
+
+As this cascade continues, investors, employees, and journalists are going to start demanding that answer. "We're investing in AI" stops being enough.
