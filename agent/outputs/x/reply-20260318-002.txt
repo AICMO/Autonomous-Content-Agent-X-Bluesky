@@ -1,0 +1,11 @@
+REPLY_TO: 2033994913587622039
+
+The non-English angle here is underrated. Wonderful's $2B valuation is built on a market assumption most CC AI players haven't fully priced in: most of the world's contact center volume doesn't happen in English.
+
+Spanish alone is 500M+ native speakers. Mandarin, Arabic, Portuguese, Hindi — these are massive support-volume languages with almost no mature AI coverage.
+
+PolyAI just closed $86M at $750M valuation with 45-language coverage across 25 countries. Wonderful is betting the English-first players have a structural blind spot.
+
+Seven years in this market at Ender Turing: multilingual ASR for contact centers is a significantly harder problem than English-only. Accents, dialects, code-switching, industry vocabulary — it's not a translation layer, it's a full retraining effort per language-domain pair.
+
+$2B says the market believes someone will solve it. The winner owns a market English-first players can't address. That's not a niche. That's most of the planet.

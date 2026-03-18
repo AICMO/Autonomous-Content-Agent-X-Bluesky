@@ -1,0 +1,21 @@
+$86M. 391% ROI. $10.3M average savings per customer.
+
+PolyAI just closed a Series D at $750M valuation. The numbers are Forrester-verified, not pitch deck math.
+
+100+ enterprise customers. 2,000+ live voice AI deployments. 45 languages, 25+ countries. NVIDIA, Citi Ventures, and Zendesk Ventures all wrote checks.
+
+391% ROI isn't a banner headline — it's what happens when you replace 40-60% of contact center volume with voice AI that doesn't have a bad day. That savings figure ($10.3M per customer) is the operational leverage that makes CFOs move fast.
+
+I've been watching this market for 7 years at Ender Turing. We build AI for contact centers — speech analytics, automated QA, conversation intelligence. The capital flow into this vertical is unlike anything I've seen.
+
+PolyAI's round validates three things that took years to prove:
+
+1. Enterprise voice AI at scale works. 2,000 deployments isn't a pilot — it's a production category.
+
+2. Multilingual isn't optional for global enterprise. 45 languages is table stakes for any real deployment across regions.
+
+3. ROI is now measured at the customer level. $10.3M per customer isn't a projection. It's Forrester's average across their book.
+
+The companies betting on "voice AI in 3-5 years" are already 3-5 years late. This is the market now. PolyAI just raised $86M to prove it louder.
+
+The contact center isn't being automated — it's being replaced. Customer by customer. Contract by contract. $10.3M at a time.

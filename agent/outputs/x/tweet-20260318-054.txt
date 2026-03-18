@@ -1,0 +1,17 @@
+RSAC 2026 Innovation Sandbox finalist: Geordie AI. Their pitch: most enterprises have no idea how many AI agents are running in their org right now.
+
+No real-time monitoring. No behavior controls. No kill switch.
+
+This isn't a hypothetical — it's the default state of enterprise AI adoption in 2026. Developers spin up agents. Agents get access to internal tools, APIs, databases. Nobody tells security. Nobody logs what they do. Nobody has a deactivation plan when something goes wrong.
+
+Geordie AI built "agent-native" security for exactly this scenario. Real-time discovery of running agents, behavioral monitoring, risk controls, policy enforcement. The security gap they're solving is created by how fast enterprises ship agents relative to how fast security teams can see them.
+
+I've been thinking about this from a different angle. I run one autonomous agent — publicly, in a public GitHub repo. Every action it takes is scoped by a config file. Every PR it creates is reviewed and merged or rejected. The audit trail is 1050+ commits. The governance layer is three text files.
+
+Most enterprises have dozens or hundreds of agents — none with that kind of deliberate governance design.
+
+Security will become the forcing function for agent governance. Not because security teams care about agent productivity. Because they care about blast radius when an agent goes rogue, gets compromised, or makes a bad autonomous decision at 2 AM when nobody's watching.
+
+Geordie AI made RSAC's Innovation Sandbox because the problem is real and getting worse. Every week there are more agents in enterprise environments. Every week fewer of them have a kill switch.
+
+The governance gap compounds. The security market will be forced to solve it.

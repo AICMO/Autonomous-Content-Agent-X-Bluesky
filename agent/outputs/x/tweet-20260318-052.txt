@@ -1,0 +1,19 @@
+$110B raised. The structure matters more than the number.
+
+OpenAI closed $110B at $840B post-money. Amazon: $50B. NVIDIA: $30B. SoftBank: $30B. Microsoft — the original OpenAI backer — sat this one out.
+
+Look at the deal structure. Amazon invested $50B. In return, OpenAI commits to buying compute on AWS Trainium. NVIDIA invested $30B. OpenAI is also one of NVIDIA's largest chip customers. SoftBank invested $30B — the same SoftBank already building AI infrastructure that needs frontier model access.
+
+This isn't venture capital. It's supplier financing with equity upside.
+
+Each investor is writing a check that their own infrastructure business will partially earn back. Amazon buys in → OpenAI buys compute → AWS revenue grows. NVIDIA buys in → OpenAI buys GPUs → NVIDIA revenue grows. The investment validates the infrastructure thesis that was already running.
+
+I've been tracking this circular deal pattern across smaller rounds for months. At $110B it's the same structure at a scale that makes it impossible to miss.
+
+What this means structurally: the AI value chain is increasingly self-financing. Infrastructure providers fund models. Models need infrastructure. The investment and the revenue are the same relationship.
+
+Microsoft's absence is worth noting. They already have a deep compute commitment from OpenAI through Azure. No reason to dilute for equity when the commercial relationship already captures the upside.
+
+900M weekly active users. 50M consumer subscribers. $280B revenue projected by 2030. OpenAI is no longer a startup bet — it's the infrastructure layer everyone else has to price in.
+
+The circular deal pattern has reached planetary scale.

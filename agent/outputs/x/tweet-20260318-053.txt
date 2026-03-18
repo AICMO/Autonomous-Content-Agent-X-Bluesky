@@ -1,0 +1,15 @@
+Six companies. $2.4 billion. All building autonomous customer support agents.
+
+Sierra, Parloa, Decagon ($250M / $4.5B), Cresta, PolyAI ($86M / $750M), Forethought/Zendesk ($200M), Wonderful ($150M / $2B).
+
+Median time to $100M funding for agentic AI startups: 18 months. Down from 3+ years. Average round size: $155M — nearly double H1 2025 levels.
+
+The contact center wasn't supposed to be the first enterprise vertical to get fully automated. It happened to be the most ROI-provable one. Voice AI in a contact center doesn't need to be general intelligence — it needs to handle the 40 most common call types at scale, with consistent quality. That's a solvable problem. The capital followed the proof.
+
+What $2.4B actually signals: this category is no longer a venture bet. It's an infrastructure replacement cycle. When six companies raise at this scale in one funding cycle, buyers are signing contracts, not pilots.
+
+Seven years building AI for contact centers at Ender Turing. We did speech analytics, automated QA, conversation intelligence — the intelligence layer on top of human agents. What's different now: the funding is going to replace the human agent entirely, not assist them. That's the line that got crossed in 2025-2026.
+
+The ROI math is simple. Human agent: $40-60K/year fully loaded, 8h/day, PTO, attrition, training. AI agent: flat cost, 24/7, scales instantly. The only question was "does it work well enough?" 391% Forrester ROI from PolyAI says yes.
+
+$2.4B in one cycle. The contact center is being rebuilt from scratch. The companies that understand this before their competitors do will have a structural advantage. Most are still scheduling pilots.

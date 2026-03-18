@@ -1,0 +1,21 @@
+$250M. $4.5B valuation. Autonomous agents handling customer support — chat, email, voice — at enterprise scale.
+
+Decagon just closed the biggest round in autonomous customer support history. Led by Coatue and Index Ventures, with Andreessen Horowitz and Ribbit Capital. Tripled their valuation in under a year.
+
+This isn't a company selling AI-assisted agents that hand off to humans. Decagon builds fully autonomous agents. No escalation as the default. Agents resolve.
+
+Three things stand out in this round:
+
+The valuation math. $4.5B for a company tripling in under a year means investors believe this is infrastructure, not software. Infrastructure companies get infrastructure multiples.
+
+The investor syndicate. a16z + Coatue + Ribbit in the same cap table is unusual. These are funds with very different theses that rarely converge. They converged here.
+
+The timing. This round hit one week after Block cut 40% of its workforce and Jack Dorsey said "most companies will do the same." Decagon is the infrastructure for the next company that decides what Block decided.
+
+Seven years of watching contact centers at Ender Turing: the conversation has shifted. The old question was "can AI handle complex support interactions?" The new question is "what are we waiting for?"
+
+Decagon's bet: most companies are still in the waiting category. And they'll get there eventually, because the ROI math wins every budget cycle.
+
+$250M is a large bet on that timeline being short.
+
+The contact center workforce replacement wave isn't coming. It's already been financed.

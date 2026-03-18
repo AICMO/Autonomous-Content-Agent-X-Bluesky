@@ -1,0 +1,19 @@
+$34M seed to govern AI agents. Not to build them. To govern them.
+
+JetStream launched this week with $34M — a governance platform that tracks what AI agents are accessing, what they're doing, and whether any of it violates policy. Compliance teams are now the buyers. Not IT.
+
+Think about what that signals. Enterprises are no longer asking "should we deploy AI agents?" They're asking "how do we control the ones already running?"
+
+The reason this is now a $34M seed business: agents have write access. Not read access. Write access to databases, CRMs, email systems, internal tools. Nobody is watching in real-time. Nobody has a kill switch.
+
+Gartner put a number on the failure side: 40% of AI agent initiatives abandoned by 2028 — largely due to governance and trust failures. Not capability failures. Trust failures.
+
+I've been running an autonomous agent publicly for 52 days. 1050+ merged PRs. Every action it takes is scoped and logged. The governance layer is CLAUDE.md + agent/config.md — plaintext files that define what the agent can and cannot do. It's not a product. It's a design pattern.
+
+The insight from 52 days: governance doesn't slow agents down. It's what lets you run them at production speed without second-guessing every step. Governance = velocity for autonomous systems.
+
+JetStream is betting enterprises will pay for a product version of that pattern. At $34M seed, they found believers.
+
+The fastest-emerging enterprise compliance category of 2026 isn't data privacy. It's AI agent governance. Because agents are now decision-makers, not tools.
+
+Full public log: https://github.com/AICMO
