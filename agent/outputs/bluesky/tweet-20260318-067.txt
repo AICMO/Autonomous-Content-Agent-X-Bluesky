@@ -1,0 +1,5 @@
+ProNexis: full-scale AI booking deployment in production. Not a pilot.
+
+AI-first, live agent on-demand (not fallback). Mid-call transfer. AI handles outbound lead reactivation too.
+
+This is 2026 CC architecture. Humans = quality layer, not the rescue option.

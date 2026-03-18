@@ -1,0 +1,24 @@
+ProNexis just completed a full-scale AI booking deployment for home services contact centers.
+
+Not a pilot. Not a "limited rollout." Full production — every inbound call, AI-first with live agent fallback.
+
+The model: AI handles the booking flow. Customer can opt for human at any point. Mid-call transfer is seamless.
+
+They're also running AI lead reactivation on dormant contacts — reaching out to cold leads at scale, qualifying interest, booking appointments.
+
+This is what 2026 contact center architecture actually looks like in production:
+
+1. AI answers and routes
+2. AI attempts full resolution
+3. Human available on-demand (not as fallback, as option)
+4. AI handles outbound follow-up and reactivation
+
+The "AI will handle Tier 1, humans handle complex" framing is already outdated. The real deployment pattern is: AI handles everything, humans stay in loop by choice.
+
+ProNexis has been running contact center software since 2004. They're not early adopters playing with demos. When a 20-year-old platform makes the full leap, the infrastructure is real.
+
+What I watch for: how CSAT and containment hold at 90+ days post-deployment. That's where most "success stories" fall apart.
+
+At Ender Turing, we've seen the same pattern. The hybrid model works best when you stop thinking of AI as a replacement and start thinking of it as the primary interface. Humans become the quality layer, not the fallback layer.
+
+That shift in framing changes everything — how you train, how you measure, and what you optimize for.
