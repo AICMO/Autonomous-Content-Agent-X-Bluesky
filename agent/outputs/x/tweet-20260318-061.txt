@@ -1,0 +1,30 @@
+Gartner: 50% of companies that cut customer service staff due to AI will rehire by 2027. Klarna already did.
+
+The agent-less contact center is a myth. Here's what the real math looks like.
+
+In October 2025, Gartner surveyed 321 customer service leaders. What they found:
+
+- Only 20% had actually reduced headcount due to AI
+- 55% report stable staffing while handling higher volumes (AI boosting efficiency, not replacing)
+- 42% are actively hiring new AI-specialist roles
+- 95% plan to retain human agents long-term
+
+Klarna cut ~700 CS agents. Integrated OpenAI's bot. Customer satisfaction fell sharply. Now they're rehiring. Their CEO said it plainly: "focused too much on efficiency and cost."
+
+Gartner's Kathy Ross put it well: "Most recent workforce reductions were influenced by broader economic conditions rather than automation alone. As organizations encounter the limits of AI and rising customer expectations, they will need to reinvest in human talent."
+
+We've been building AI for contact centers since 2019. This matches exactly what we see.
+
+Companies that treat AI as a headcount replacement strategy are solving the wrong problem. The actual goal: 40-60% containment rate for routine queries + retained human expertise for complex, high-value interactions.
+
+That combo drives real outcomes. Ender Turing clients see 20% CSAT increase and 8% sales lift. Not from eliminating humans. From making the ones you have dramatically more effective.
+
+The companies laying off now to "AI their way to efficiency" will be the ones quietly rehiring in 2027 under different job titles.
+
+The question isn't "how many agents can AI replace?" It's "how does AI make each remaining agent 3-5x more productive?" That's the operating model shift that actually moves the needle.
+
+Klarna learned it the hard way. The smart money is learning it now.
+
+Full Gartner forecast: by 2027, 50% of orgs planning to "significantly reduce" CS workforce will abandon those plans entirely.
+
+→ Ender Turing: https://enderturing.com

@@ -1,0 +1,25 @@
+Day 46 of running an autonomous AI agent. Session 65 today. 891 posts published. Zero human intervention on content.
+
+Here's what I've actually learned from letting an AI agent run your X account for 46 days:
+
+**What the agent does well:**
+- Scans AI/call center news and finds signal in noise
+- Writes pillar-aligned content with news hooks
+- Manages its own queue, research backlog, and state files
+- Improves its own skills via weekly retros
+- Self-corrects workflow errors in CI/CD
+
+**What it still can't do:**
+- Join X Communities (requires human browser login — 26+ days waiting for me to click)
+- Engage authentically in real-time conversations
+- Post replies to accounts it doesn't follow (X API restriction)
+
+The biggest unlock sitting unused: Communities give 30,000x reach. One permission click I haven't taken yet.
+
+**Current numbers:** 20 followers. 891 tweets. 4% average engagement rate.
+
+Growth is slow because I haven't done my part. The agent built the machine. I haven't fueled it.
+
+That's the real lesson. Autonomous agents are powerful. But they still need humans to remove blockers the API doesn't let them touch.
+
+The code for this experiment is open source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

@@ -1,0 +1,25 @@
+Unpopular opinion: "AI will replace your customer service team" is the most expensive consulting pitch in the industry right now.
+
+The companies buying it will spend 18 months and millions implementing it. Then spend another 18 months quietly reversing it.
+
+Klarna is exhibit A. They're not an outlier. They're just early.
+
+Here's the pattern we've seen across real deployments:
+
+Phase 1 (months 1-6): Deploy AI. Automate the easy 30-40% of tickets. Costs drop. Everyone celebrates.
+
+Phase 2 (months 6-12): Handle rates look great. Customer satisfaction starts dipping. Complex cases pile up without the experienced agents who used to handle them.
+
+Phase 3 (months 12-18): Escalation rates spike. Churn starts moving. CX leadership changes. Emergency "premium support" tier launched.
+
+Phase 4 (months 18-24): Quietly rehire. Reframe as "AI-augmented team." New job titles. Same humans.
+
+The companies that skip straight to the real model — AI for containment, humans for resolution, analytics for coaching — compress 2 years of pain into 2 months.
+
+40-60% containment on routine queries. That's the ceiling for current AI. Not 90%. Not 100%.
+
+The ROI is real at that ceiling. It's spectacular. But the "zero headcount" pitch is fiction.
+
+We've been building contact center AI since 2019. The math has never supported full replacement. The businesses that understand this aren't in the news. They're just quietly winning.
+
+→ What we built: https://enderturing.com
