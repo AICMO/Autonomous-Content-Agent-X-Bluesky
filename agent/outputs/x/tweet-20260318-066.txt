@@ -1,0 +1,25 @@
+HBR just published data that flips the AI jobs narrative.
+
+Everyone's talking about the jobs AI eliminates. The more interesting story: the 56% wage premium for workers who have AI skills.
+
+Tech sector wages up 16.7% since 2022. National average: 7.5%. The differential is widening, and AI skill adoption is a big part of why.
+
+What this means for contact centers:
+
+The standard "AI replaces agents" framing is wrong. The accurate framing: AI creates a two-tier labor market inside contact centers.
+
+Tier 1: Agents who can work alongside AI. Interpret AI recommendations. Handle complex escalations that AI flags. Contribute to QA feedback loops. Coach AI models through their own interactions.
+
+Tier 2: Agents who don't adapt. Their jobs aren't going away overnight — but their wage growth is. And when attrition happens, their roles are first to be restructured.
+
+HBR data: routine automation-prone job postings down 13% after ChatGPT's debut. Analytical, technical, and creative roles up 20%.
+
+The contact center is going through the same bifurcation. Not a cliff. A gradient.
+
+17 million contact center workers globally. If 22% see fundamental role restructuring (Gartner's figure), that's 3.7 million jobs. Not eliminated — transformed. Agents who don't get upskilled get displaced through attrition, not mass layoffs.
+
+The enterprise upskilling gap: 85% of employers plan to prioritize AI training. Only 25% are doing it now. That 60-point gap is where the productivity loss lives for the next 24-36 months.
+
+For CC AI builders, this is the product market signal: enterprises desperately need tools that make the human-AI handoff smoother. Not just automation — augmentation that actually sticks.
+
+The 56% wage premium isn't going away. It's probably growing. The question is who captures it.

@@ -1,0 +1,35 @@
+Gartner just dropped the most important prediction in contact center AI: by 2030, GenAI cost per resolution will EXCEED the cost of an offshore human agent.
+
+Read that again. The technology being sold as "cheaper than humans" is projected to become MORE expensive.
+
+Here's the actual math:
+- Current GenAI: $1.84 median cost per self-service resolution
+- Offshore human agent today: ~$2-3 per interaction
+- Gartner 2030 GenAI forecast: $3+ per resolution
+
+The gap is closing. Then inverting.
+
+Why? Nobody's talking about the hidden costs:
+- RAG infrastructure (you need a knowledge base, you need to maintain it)
+- Governance and compliance overhead (especially in regulated industries)
+- Orchestration complexity (routing, fallback, escalation logic)
+- Monitoring and quality assurance
+- AI vendor margin expansion (they'll raise prices as adoption locks you in)
+- Human fallback costs that never fully go away
+
+The standard pitch is: "Replace offshore agents at $18/hour with AI at $X." This assumes the denominator stays fixed. It doesn't.
+
+Gartner's Emily Potosky put it directly: "We are investing in a more expensive technology solution to replace a less expensive talent source."
+
+So what's the actual ROI case for CC AI? Not cost replacement. Three things:
+1. Volume handling — AI handles 40-60% containment on routine queries that would require human time anyway
+2. Quality uplift — every remaining human interaction is better documented, analyzed, coached
+3. Revenue impact — CSAT improvements, faster resolution, reduced churn
+
+We've been building this since 2019. The companies winning with CC AI aren't running "replace humans" programs. They're running "make every human 3x more effective" programs.
+
+The "AI is cheaper" narrative is getting shorter legs. The "AI enables outcomes humans can't achieve alone" narrative is getting longer ones.
+
+Gartner said it. The data is saying it. The companies that built on the cost narrative will need a new story by 2028.
+
+→ Ender Turing: https://enderturing.com

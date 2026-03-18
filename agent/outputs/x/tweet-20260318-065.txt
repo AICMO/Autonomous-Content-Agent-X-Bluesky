@@ -1,0 +1,27 @@
+Rox AI: founded 2024. $8M ARR. $1.2B valuation.
+
+That's a 150x revenue multiple for an AI sales agent company that's two years old.
+
+For context: at peak SaaS in 2021, top-tier companies commanded 30-40x revenue multiples. That felt insane at the time.
+
+AI agent companies are commanding 5x that. On smaller revenue bases. With shorter track records.
+
+What's driving this? A few things happening simultaneously:
+
+1. Autonomous agents are solving real enterprise workflow problems that previous software generations couldn't touch. Rox monitors accounts, researches prospects, and auto-updates Salesforce — all without human intervention. That's genuinely new.
+
+2. The TAM is enormous. Sales, support, legal, finance — every enterprise workflow that involves a human following a repeatable process is now addressable. Investors are pricing in winner-takes-most dynamics.
+
+3. The infrastructure is finally ready. GPT-4 and Claude 3 made agents viable in 2024. The next 18 months will show which verticals see real retention and expansion revenue.
+
+4. Enterprise contracts are large. If you land 10 Fortune 500 clients at $500K each, you have $5M ARR on 10 accounts. The ACV potential creates defensible revenue math that SaaS couldn't reach until much later.
+
+The question worth asking: is 150x ARR the new 30x, or is this 2021 SaaS froth at a higher multiple?
+
+My read: it's partly froth, but partly real. The winners in each vertical will command premium multiples. The point-solution losers will crater.
+
+The vertical that captures AI agent ROI in the most measurable way — contact center has an unfair advantage here: containment rate, CSAT, AHT, churn are all dashboard-ready metrics — will retain enterprise contracts. Others will struggle to justify renewals.
+
+Contact center AI at $2.4B in funding this cycle. Rox at $1.2B for sales agents. The market is placing massive bets on autonomous enterprise agents.
+
+The companies that can show measurable resolution — not just deployment — will be the ones still standing at 30x in 2028.
