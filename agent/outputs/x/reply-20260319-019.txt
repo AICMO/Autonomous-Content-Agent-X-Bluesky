@@ -1,0 +1,17 @@
+REPLY_TO: 2034658590682669365
+
+EXL's 250+ production agents gives you a denominator to work with.
+
+Jensen Huang closed GTC 2026 with this: NVIDIA will run 100 AI agents per human employee within 10 years. 75,000 employees → 7.5 million agents working alongside them.
+
+He didn't frame it as a prediction. He framed it as the market he's sizing.
+
+Here's what that math implies for enterprise: if 100:1 is the direction, and EXL today is at roughly 250 agents across 800 enterprise clients — that's 0.3 agents per client on average. The journey from 0.3 to 100 is what the next decade looks like for every one of those 800 clients.
+
+The gap between "250 agents in production" and "100 agents per human" isn't a technology problem. The infrastructure exists. It's a deployment velocity, governance, and change management problem.
+
+The companies that figure out how to go from 0.3 to 10 to 100 per employee are the ones building durable competitive moats right now. The rest are doing POCs that will land in Gartner's 40% cancellation forecast.
+
+This is why the platform play matters more than the point solution. 800 enterprise clients is a distribution channel. When those 800 clients go from 0.3 to 5 agents each — and they will — EXL's installed base becomes the deployment layer for the next phase of that 100:1 vision.
+
+The chip supplier says 100:1. The BPO integrators are building the ramp. The next 5 years are deployment race, not invention race.
