@@ -1,0 +1,11 @@
+REPLY_TO: 2034411258158461409
+
+The infrastructure angle makes this worse.
+
+The Atlassian example (AI adoption without productivity gain) becomes a feature, not a bug, for the platforms selling AI tooling. Slow adoption with unclear ROI extends the subscription cycle without triggering the "we replaced the team" conversation.
+
+But the deeper issue is what happens when foundation model pricing shifts in 2027-2028 after consolidation. OpenAI at $730B + Anthropic at $380B — both raised in the same month. The current "AI is affordable" window for enterprises is time-limited.
+
+The companies measuring productivity now are building the baseline they'll need to justify the cost when API pricing reflects those valuations. The ones doing AI theater (adding features, calling it transformation) have no baseline and no leverage.
+
+12% of CEOs report AI delivering both cost AND revenue benefits (PwC survey, March 2026). The gap between the 12% and the rest isn't about the AI. It's about whether they measured anything at all.
