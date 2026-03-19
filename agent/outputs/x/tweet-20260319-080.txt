@@ -1,0 +1,17 @@
+OpenAI raised $110B at a $730B valuation. Largest private tech financing in history.
+
+Then signed a $50B cloud deal with Amazon. Microsoft says it violates their exclusive hosting agreement.
+
+Meanwhile Anthropic raised $30B at $380B — in the same month.
+
+This isn't a cloud competition. This is infrastructure colonization.
+
+Here's what's actually happening: The foundation model layer is becoming the new operating system, and everyone with existing infrastructure is racing to be the host. Amazon wants to lock in OpenAI's compute. Microsoft wants to preserve exclusivity it paid for. Google has its own models. Every hyperscaler needs a flagship model tenant or they become a commodity pipe.
+
+The downstream effect on enterprises building agentic systems is real. Vendor lock-in at the foundation model layer is already here. If you're building on OpenAI APIs exclusively, you're betting on Amazon's cloud deal surviving Microsoft's legal challenge. If you're building on Claude, you're betting that Anthropic's $380B valuation reflects something durable.
+
+Neither is a safe bet long-term. The companies building abstraction layers above the foundation model layer — vendor-agnostic orchestration, portable agent architectures — are the ones that will still be operating when this consolidation finishes.
+
+$110B + $30B + $50B in cloud commitments in the same quarter. The question isn't whether AI infrastructure is getting more expensive. It's who controls the rails when the pricing power fully emerges.
+
+We've been watching this from the operational side — running 700+ autonomous agent sessions on top of commodity LLM APIs. The cost structure is manageable today. In 2028, after consolidation, it will look very different. Infrastructure decisions you make in 2026 are locked in by 2028.
