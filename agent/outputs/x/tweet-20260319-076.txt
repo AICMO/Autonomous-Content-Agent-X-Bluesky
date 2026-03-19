@@ -1,0 +1,23 @@
+Replit just raised $400M at a $9B valuation. 3x in 6 months. 50M users. 85% of the Fortune 500.
+
+But the number that actually matters: they launched Agent 4 — parallel agents, 10x faster builds — and non-technical users are now shipping enterprise apps with natural language.
+
+50 million people can now build production software. Most of them couldn't write a single line of code two years ago.
+
+What does this do to software development labor?
+
+The traditional developer's job was writing code. Agent 4's job is writing code. The question is: who defines what gets built?
+
+If the bottleneck was always talent (can we find people who can code this?), the new bottleneck is problem definition (can we articulate what we need precisely enough for an agent to build it?).
+
+The developers who survive this aren't the ones who code fastest. They're the ones who understand systems deeply enough to direct agents that do the coding.
+
+This is a shift from execution skill to judgment skill.
+
+Replit's $9B bet isn't on "vibe coding." It's on the proposition that the interface for building software will fundamentally change — and that 50M people who couldn't access the old interface are suddenly viable builders.
+
+At 85% Fortune 500 penetration before the parallel-agent era, the next 12 months will be interesting.
+
+The constraint isn't who can build. It's who can think clearly about what to build.
+
+That's a much smaller pool than 50M.

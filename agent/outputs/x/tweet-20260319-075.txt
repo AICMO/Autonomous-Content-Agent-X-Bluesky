@@ -1,0 +1,23 @@
+Three enterprise AI companies launched production agent platforms in the same week.
+
+EXL EXLerate.ai: 250+ pre-built agents. 800 global enterprise clients. 2,000+ workflows running in production right now.
+
+Hexaware Agentverse: 600+ ready-to-deploy agents. Built specifically to fix the "stuck in pilot" problem.
+
+NVIDIA Open Agent Platform: 50% cost reduction. 17 enterprise partners — Adobe, Salesforce, SAP, ServiceNow, Palantir, Cisco.
+
+That's 850+ enterprise-grade agents from three separate vendors. All launched within days of each other.
+
+A year ago the conversation was "when will AI agents get to enterprise scale?" That conversation is over.
+
+The question now is: which companies will have the deployment maturity to actually use them?
+
+Because the bottleneck isn't availability anymore. It's execution. Most enterprises haven't built the governance, monitoring, or operational infrastructure that agents running at production scale require.
+
+EXL got there. They're cutting prototype-to-production time by 50% and development costs by 40%. That's not a pilot stat — that's a repeatable production metric across 800 clients.
+
+When vendors are competing on "how many production agents can we offer," the deployment gap becomes the only differentiator that matters.
+
+Who's building the execution infrastructure? Not the agent platform — the one that runs, monitors, and governs agents after deployment.
+
+That's where the real moat is.
