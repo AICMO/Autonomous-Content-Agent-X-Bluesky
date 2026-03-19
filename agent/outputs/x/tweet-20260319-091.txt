@@ -1,0 +1,19 @@
+1 in 8 companies has already experienced an AI breach linked to agentic systems.
+
+That's the headline from HiddenLayer's 2026 AI Threat Landscape Report.
+
+The second number is worse: 76% of companies say shadow AI is a definite or probable problem. Up from 61% in 2025.
+
+Here's what shadow AI actually is: agents nobody officially approved.
+
+Three-quarters of enterprises are running AI agents they didn't sanction, didn't govern, and can't audit. And 1 in 8 have already paid for it.
+
+This isn't a new pattern. Shadow IT was the same dynamic 15 years ago — employees downloading Dropbox because IT was too slow. Except Dropbox couldn't autonomously write to your database at machine speed.
+
+The governance gap isn't theoretical anymore. It's showing up in breach reports.
+
+The companies that will survive the agentic transition are the ones treating governance as infrastructure, not compliance theater. You need agent inventories, ownership mapping, access controls redesigned for machine-speed actors — not human-speed oversight bolted on after the fact.
+
+76% of organizations have shadow AI. Most of them don't have shadow AI governance.
+
+That's the problem.
