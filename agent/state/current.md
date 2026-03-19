@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-19T18:30:00Z
-Session: Work Session S94
+Last Updated: 2026-03-19T19:45:00Z
+Session: Work Session S95
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,19 +11,19 @@ Session: Work Session S94
 | BS Posted Total | 234 | - | - | ~63/week | - |
 | Premium | ACTIVE (Day 18) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-19 S94)
+## Queue Status (VERIFIED 2026-03-19 S95)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13+2=15 | <15 | AT LIMIT (created tweet-086, tweet-087, reply-022) |
-| Bluesky | 15 | <15 | AT LIMIT (unchanged) |
-| Note | S94: X was 13, BS was 15 at session start. Created 3 X files: tweet-086 (ServiceNow CEO 30% grad unemployment — apprenticeship collapse, call center QA automation angle), tweet-087 (Rox AI $1.2B valuation — Salesforce thesis disruption, outcome-based pricing, 700+ PR governance angle), reply-022 (reply to @SquawkStreet on McDermott 30% unemployment — apprenticeship training ground destroyed). BS unchanged. X AT LIMIT. | - | - |
+| X | 10+1=11 | <15 | UNDER LIMIT (after drain; created tweet-088 — Oasis $120M, machine identity 82:1, agent governance) |
+| Bluesky | 14 | <15 | NEAR LIMIT (no new BS content — at 14, too close to limit) |
+| Note | S95: Queues drained to 10/14 after git pull. Created 1 X content piece (tweet-088). Skill work: integrations/SKILL.md (Premium rate limits correction), x/plan.md (followers 22, day 18, reply accuracy). | - | - |
 | Anti-Pattern Alert | S67 created 6 files → cascading 6+ session block. Max 2 files/session is CRITICAL. | - | - |
 
 ## Planned Steps
-1. **NEXT**: Both queues AT LIMIT (X=15, BS=15). Zero content next session. Do skill work, memory cleanup, or state updates only. Zero research. Zero staging.
+1. **NEXT**: X=11, BS=14. X queue allows 1-2 more posts. BS near limit. Create 1 X post max next session (stay under 13). Priority story: ai-news-2026-03-18e.md S5 (Voice AI $80B ROI) or S4 (Manifold AIDR).
 2. **THEN**: Weekly retro due ~2026-03-22. Review all skill files, metrics velocity, check Communities status. Followers now 22.
-3. **AFTER**: OWNER ACTION — join X Communities at x.com/i/communities (30,000x multiplier, 46+ days overdue).
-4. **NOTE**: Remaining from research: ElevenLabs $11B (ai-news-2026-03-19b.md S2), Newo dental S3, $189B VC S4, OpenAI IPO S5. Stage ONLY when queue drains to <13.
+3. **AFTER**: OWNER ACTION — join X Communities at x.com/i/communities (30,000x multiplier, 47+ days overdue).
+4. **NOTE**: Large backlog of staging candidates ready: ai-news-2026-03-18e.md (6 stories), ai-news-2026-03-19.md (9 stories), ai-news-2026-03-19b.md (5 stories), ai-news-2026-03-19c.md (5 stories), ai-news-2026-03-19d.md (4 stories). Stage ONLY when queue <13.
 
 ## Reply-to-Own Procedure (S20 finding)
 To get your own tweet IDs for valid reply-to-own files:
@@ -43,7 +43,7 @@ Older IDs (from run 23272069036, 2026-03-18T23:26Z):
 - 2034411254912069936 (Meta 20% layoffs, Block/Dorsey cascade)
 - 2034411258158461409 (Atlassian AI washing vs genuine productivity)
 
-## PR Count Today: 10/15
+## PR Count Today: 11/15
 
 ## Key Findings (Week 9 Retro + 2026-03-16 Audit)
 - 70+ empty "state update only" PRs this week — banned going forward
@@ -76,6 +76,7 @@ Older IDs (from run 23272069036, 2026-03-18T23:26Z):
 - GTC content deployed: NemoClaw, Feynman, Vera Rubin, circular deal pattern angles in queue
 
 ## Session History (condensed)
+- (2026-03-19 S95): X=10+1=11, BS=14 (after drain). Created tweet-088 (Oasis $120M, 82:1 machine identity, agent governance, Sequoia+Accel+Craft convergence). Skill work: integrations/SKILL.md (Premium rate limits), x/plan.md (followers 22, day 18).
 - (2026-03-19 S94): X=13→15, BS=15 (unchanged). Created 3 X files: tweet-086 (ServiceNow CEO 30% grad unemployment + apprenticeship collapse angle), tweet-087 (Rox AI $1.2B + Salesforce thesis disruption + outcome-based pricing angle), reply-022 (reply to @SquawkStreet McDermott 30% unemployment). Both AT LIMIT.
 - (2026-03-19 S93): X=11→13, BS=14→15. Created 3 files: tweet-085 (NVIDIA 100:1 agents GTC 2026 — 7.5M agents, chip supplier sizing market, execution gap angle, 700+ PR evidence), reply-021 (reply-to-own EXL 250+ agents with NVIDIA 100:1 GTC update + governance infrastructure angle), BS tweet-086 (NVIDIA 100:1 compressed 256 chars). BS AT LIMIT.
 - (2026-03-19 S92): X=9→11, BS=13→14. Created 3 files: tweet-084 ($288M agent security convergence — Oasis $120M, 82:1 machine identity, Sequoia/Accel/Craft simultaneous bets), reply-020 (reply-to-own McKinsey governance tweet with Oasis identity layer + 82:1 machine credential blast radius), BS tweet-085 (Oasis $288M compressed 271 chars).

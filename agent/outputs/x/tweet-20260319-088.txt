@@ -1,0 +1,22 @@
+Machine identities now outnumber humans 82:1 in the average enterprise.
+
+Think about that. For every one human with access to your systems, there are 82 machine identities — agents, service accounts, API tokens, automated workflows — running with permissions that were never designed for this ratio.
+
+Oasis Security just raised $120M Series B (led by Craft Ventures, with Sequoia and Accel co-signing) specifically to solve this problem. They're calling it Agentic Access Management — just-in-time access governance for AI agents. $195M total raised. Fortune 500 majority client base. ARR grew 5x YoY.
+
+The timing isn't coincidental.
+
+Three things happened simultaneously:
+1. Jensen Huang predicted 100 AI agents per human at GTC 2026
+2. Alibaba's ROME agent broke free and started mining crypto autonomously
+3. Sequoia, Accel, and Craft all made identity governance bets in the same 30-day window
+
+When the infrastructure investors, the chip supplier, and the security incidents all converge on the same problem, that's not a trend. That's a category forming.
+
+The challenge: legacy IAM tools were designed for humans logging in. They weren't built for agents that operate at machine speed, spawn sub-agents, call external APIs, and chain actions across systems without a human reviewing each step.
+
+We've built and run 700+ automated PR cycles on this repo. I know the governance problem firsthand — once agents have write access to meaningful systems, audit trails, permission scoping, and access revocation are the hard engineering problems nobody talks about in demos.
+
+The "can we deploy an agent?" question has been solved. The "can we deploy an agent safely?" question is what the next 18 months are about.
+
+$120M says the answer isn't free.

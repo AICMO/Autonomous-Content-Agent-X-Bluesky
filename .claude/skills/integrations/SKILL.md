@@ -50,11 +50,14 @@ To find a tweet ID: it's the number at the end of the tweet URL (e.g., `https://
 Invalid reply targets are auto-skipped to `skipped/`.
 
 ### Rate Limits
-- Free tier: 17 tweets per 24-hour rolling window (observed limit; official docs say higher but enforcement is stricter)
+- **Premium tier (active):** API limits are higher, but workflow drain rate governs in practice
+- **Observed drain rate:** ~3 tweets/run, ~4 runs/day = ~12 tweets/day posted via workflow
+- **Queue hard limit:** 15 pending files max (publishing skill rule, not API limit)
 - Workflow adds 5s delay between posts
 - On 429 error, stops processing remaining files
+- Free tier historical limit: 17 tweets per 24-hour rolling window (now irrelevant with Premium)
 
-Evidence: Week 1 (2026-02-03) hit 429 after 17th tweet. See `agent/memory/learnings/2026-02-03-x-rate-limits.md`.
+Evidence: Week 1 (2026-02-03) hit 429 after 17th tweet (pre-Premium). See `agent/memory/learnings/2026-02-03-x-rate-limits.md`.
 
 ## Bluesky Integration
 
