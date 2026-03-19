@@ -1,0 +1,15 @@
+REPLY_TO: 2034658603840241983
+
+Gartner dropped a related number at Enterprise Connect last week: by 2028, 15% of day-to-day work decisions will be made autonomously by AI agents.
+
+That's up from 0% in 2024.
+
+Replit Agent 4 fits exactly in this frame. "From execution to judgment" isn't just a product positioning statement — it's the path to that 15%.
+
+Execution is what the agent does. Judgment is what it decides without asking.
+
+The companies building now that understand this distinction will be positioned when the 15% becomes policy. The ones still treating agents as fancy autocomplete will be rebuilding from scratch.
+
+0% to 15% decision authority transfer in 4 years is not a marginal improvement. It's a structural change in how organizations operate.
+
+The question isn't if your stack is ready for agents that execute. It's whether your governance model is ready for agents that decide.
