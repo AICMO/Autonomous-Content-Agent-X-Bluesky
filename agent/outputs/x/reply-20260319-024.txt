@@ -1,0 +1,15 @@
+REPLY_TO: 2034658600551956807
+
+Update on what "AI ROI" actually looks like when execution is right:
+
+LangGraph is now in production at 400 companies — Uber, LinkedIn, BlackRock, JPMorgan. 24,800 GitHub stars, 34.5M monthly downloads.
+
+Klarna's deployment: equivalent to 853 full-time employees. $60M annual savings. That's the number behind the headline.
+
+But here's the tension worth holding: Klarna is also rehiring.
+
+The $60M savings and the rehiring are both true. Because the agents are handling volume at scale while humans are being brought back for the higher-judgment work the agents can't do well yet. That's not a contradiction — that's what a mature agentic deployment actually looks like.
+
+The 12% of CEOs seeing strong AI ROI (per the PwC survey) aren't necessarily doing something different technologically. They're the ones who understood the division of labor early: agents own volume and repeatability, humans own edge cases and judgment.
+
+Getting that boundary right is the execution problem nobody talks about in the headlines.
