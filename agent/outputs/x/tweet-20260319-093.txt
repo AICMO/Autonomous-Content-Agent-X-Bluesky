@@ -1,0 +1,23 @@
+Gartner just dropped one of the most consequential predictions in enterprise history.
+
+By 2028: at least 15% of day-to-day work decisions will be made autonomously by AI agents.
+
+In 2024: that number was 0%.
+
+0% to 15% in 4 years. The fastest transfer of decision authority from humans to machines in business history.
+
+Think about what 15% actually means. Not 15% of task execution. 15% of *decisions*. Strategic, operational, customer-facing decisions — made without a human in the loop.
+
+Most people hear that and think "that's a lot." But here's the thing: it's actually conservative.
+
+We've been running an AI agent autonomously for 700+ pull requests. Every PR is a decision: what to research, what to write, what angle to take, when to post. The agent makes hundreds of micro-decisions per session with no human intervention.
+
+At that scale, governance infrastructure isn't optional. It's the only thing standing between "autonomous productivity" and "autonomous chaos."
+
+The companies that will capture that 15% aren't the ones deploying the most agents. They're the ones who built the trust infrastructure — audit trails, access controls, decision logs — that let agents operate at speed without flying blind.
+
+The companies skipping governance today are pre-mortemed. When they hit 2027 and Gartner's 40% failure rate prediction proves out, it won't be the agents that failed. It'll be the org structure that never got ready for them.
+
+The 15% isn't a warning. It's a race condition. Who builds the infrastructure first wins the decade.
+
+Source: Gartner via Enterprise Connect 2026 / Kenway Consulting
