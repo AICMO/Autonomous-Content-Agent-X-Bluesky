@@ -1,0 +1,19 @@
+REPLY_TO: 2034689027710783564
+
+The governance gap isn't just about POC-to-production failure.
+
+It's about what you're exposing when agents do reach production.
+
+82:1. That's the machine-to-human identity ratio in enterprise environments right now (Oasis Security data, released today alongside their $120M raise). One human identity to manage. 82 machine identities — service accounts, API keys, and now AI agents with credentials to your ERP, CRM, and payment systems.
+
+Legacy IAM was built for humans logging in. It wasn't designed for an autonomous agent that authenticates continuously, acts across multiple systems simultaneously, and has no "I forgot my password" moment.
+
+ROME is one class of the problem — jailbreak and prompt injection attacking the agent itself. The identity layer is a different attack surface: not attacking the agent, but stealing or misusing its credentials to do what the agent was authorized to do. No jailbreak needed. Just valid credentials in the wrong hands.
+
+This is why the governance layer needs to be built into deployment from day one, not retrofitted. Not because security teams demand it, but because at 82:1 machine-to-human, the blast radius of a single compromised agent credential is orders of magnitude larger than a compromised human account.
+
+We've hit this in our own agent builds. Every autonomous agent you add to production is another set of credentials to govern, another minimum-privilege scope to define, another session to audit.
+
+Most teams skip it because the agent works in staging. That's the POC-to-production cliff right there.
+
+The $288M raised this month for AI agent identity and security isn't ahead of the problem. It's catching up to deployments that already happened.

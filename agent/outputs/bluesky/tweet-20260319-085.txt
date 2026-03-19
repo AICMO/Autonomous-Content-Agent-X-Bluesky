@@ -1,0 +1,5 @@
+$288M raised in 30 days to secure AI agents. Not "AI security" broadly. Specifically agents.
+
+Machine identities now outnumber humans 82:1 in enterprise. Legacy IAM wasn't built for this.
+
+The security layer is forming at the same speed as deployment. That's not normal.
