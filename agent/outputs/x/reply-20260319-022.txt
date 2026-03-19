@@ -1,0 +1,13 @@
+REPLY_TO: 2032468891650097529
+
+The 30% headline misses the deeper problem.
+
+Entry-level jobs weren't just jobs — they were apprenticeships. Data entry, first-line QA, basic support — these roles built the judgment that made senior analysts and managers.
+
+When AI handles the routine 80%, new grads skip to the judgment-heavy 20% without the reps that build judgment in the first place. No foundation.
+
+We've automated QA for call centers. What's left for humans is edge case review. But knowing what counts as an edge case takes experience with the 99% of calls that weren't.
+
+The workforce question isn't "will there be jobs." It's: how does someone become experienced when the training ground is gone?
+
+Nobody's figured that out yet.

@@ -1,0 +1,21 @@
+ServiceNow's CEO just said college graduate unemployment could hit 30% within two years as AI agents replace entry-level work.
+
+Current numbers: 5.7% unemployment, 42.5% underemployment for recent grads. Companies like Block and Atlassian are already cutting junior roles.
+
+That's not a prediction. That's an early signal that's already visible in hiring data.
+
+Here's what most people miss when they read this as a doom story: the entry-level roles being automated are the same roles that used to teach people how to work. Ticket resolution, data entry, first-line support, basic QA — those weren't just jobs. They were apprenticeships.
+
+When AI handles the repetitive 80%, the human workforce skips ahead to the judgment-heavy 20% without the reps that build judgment.
+
+Call center example: we used to hire 20-person QA teams to review calls for compliance, tone, escalation triggers. That's mostly automated now. What's left is the review of edge cases — the calls where the AI wasn't sure. But knowing what to do with an uncertain edge case requires experience with the 99% of calls that were routine.
+
+The workforce restructuring risk isn't just "will there be jobs." It's "will the people entering the workforce be able to do the jobs that remain."
+
+That's the governance problem for enterprises, not just governments.
+
+Building automated systems that handle the routine has an implicit responsibility: you have to figure out what comes after the apprenticeship model, or you hollow out the pipeline that produces the experienced workers you still need.
+
+Nobody's solved this. Most teams are too focused on deploying AI to notice they're also destroying the training ground.
+
+→ What we're building at Ender Turing: https://enderturing.com

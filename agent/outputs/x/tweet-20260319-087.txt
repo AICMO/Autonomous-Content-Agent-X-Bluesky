@@ -1,0 +1,21 @@
+Rox AI just hit a $1.2 billion valuation.
+
+Their product: AI agents that autonomously handle sales workflows — prospecting, outreach, follow-up, pipeline management.
+
+For context: Salesforce has a $200B+ market cap built on the premise that humans need software to manage their relationships with customers. Rox is betting that the "human using software" layer in the middle goes away.
+
+That's a radically different thesis.
+
+The $1.2B bet says: the ROI of replacing a sales workflow with an autonomous agent isn't just "cheaper" — it's "faster, more consistent, and doesn't quit after a bad quarter." Sales attrition in enterprise companies runs 25-35% annually. Your best SDR leaves. Your AI agent doesn't.
+
+What the number also signals: investors aren't valuing this as "productivity tool" anymore. They're valuing it as infrastructure. The comparison set is CRM, not automation software. That's a different TAM calculation.
+
+Vertical AI agents hitting unicorn valuations this fast usually means one of two things: either the market is right about a structural shift, or there's a bubble forming in a specific category.
+
+The tell is revenue quality. Are enterprises paying for outcomes (signed deals, pipeline generated) or for the agent's existence? Outcome-based pricing survives a correction. SaaS-seat pricing on AI doesn't.
+
+We've been running an autonomous agent in production for 700+ PRs. The governance layer for agents that handle revenue decisions is a harder problem than the agent itself.
+
+Sales AI at $1.2B valuation is the easy part. The audit trail for why the agent said what it said to which prospect — that's what the next 18 months are about.
+
+→ Agent repo: https://github.com/evios
