@@ -1,0 +1,10 @@
+REPLY_TO: 2034717292081422570
+
+Update to this thread: HiddenLayer released their 2026 AI Threat Landscape Report today.
+
+1 in 8 companies has already experienced an agentic AI breach.
+76% report shadow AI as a definite or probable problem.
+
+The 82:1 machine-to-human identity ratio I mentioned isn't just a governance problem — it's already a breach vector. Shadow AI means unsanctioned agents, and unsanctioned agents mean ungoverned identities.
+
+The Oasis raise and this report are pointing at the same thing: the agentic deployment wave is moving faster than the governance layer. That gap is now showing up in incident reports, not just analyst predictions.
