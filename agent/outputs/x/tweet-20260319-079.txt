@@ -1,0 +1,19 @@
+Deepgram raised $130M Series C at a $1.3B valuation. Then immediately acquired OfOne — a drive-thru voice AI company.
+
+One of their investors: In-Q-Tel. The CIA's venture arm.
+
+When the CIA backs your voice AI startup, the TAM conversation changes.
+
+The $47.5B voice AI market projection (by 2034, up from $3.14B in 2024) is probably conservative. Government procurement isn't part of the standard analyst model, and it almost certainly should be.
+
+Think about what voice AI is actually doing in these contexts: real-time transcription of sensitive conversations, emotion and intent detection, identity verification through voiceprint. These are exactly the capabilities that intelligence agencies have historically funded at scale. In-Q-Tel's job is to find dual-use technology — systems that solve civilian use cases AND serve national security requirements.
+
+Deepgram's product already powers contact centers, voice assistants, and developer APIs. Add government-grade voice surveillance requirements and you're looking at a very different scale ceiling.
+
+The drive-thru acquisition (OfOne) is the civilian use case that makes the funding round make sense publicly. But follow the investor list.
+
+For context on where voice AI is heading more broadly: Giga ($61M), Flip ($20M), Newo.ai ($25M), PolyAI ($86M) — all funded in the same cycle. Every major call center platform is either acquiring voice AI or building it. The question is no longer whether voice AI replaces human agents — it's how fast, in which segments, and at what price point.
+
+At Ender Turing, we've been building voice intelligence for contact centers since 2018. The infrastructure for real-time speech analysis, emotion detection, and automated QA already exists at production scale. What's accelerating now is the price floor dropping below what any human agent team can match on pure cost.
+
+The companies that figure out the blend — where humans add judgment and voice AI handles volume — are the ones winning in 2026.
