@@ -1,0 +1,15 @@
+REPLY_TO: 2034717285798347170
+
+The Zoom data makes the operationalization gap more concrete.
+
+10M phone seats. Agentic AI auto-triggering CRM updates, ticket creation, follow-ups across every call. That's not "potential value" — that's the McKinsey $4.4T case starting to materialize at infrastructure scale.
+
+But here's what 10M seats also means for governance:
+
+Every call is now a decision point. Automated workflows fire across CRM, ticketing, calendar — no human in the loop. At machine speed. Across every customer interaction.
+
+The enterprises that will capture this aren't the ones turning it on. They're the ones who built the audit infrastructure to know what the agents decided, and why, and whether it was right.
+
+Zoom deploying at 10M seats confirms the direction. The governance question is whether enterprises can operationalize it faster than the failure rate accumulates.
+
+Most won't. That's the 40% Gartner is predicting by 2027.
