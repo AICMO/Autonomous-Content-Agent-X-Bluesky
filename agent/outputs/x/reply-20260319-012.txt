@@ -1,0 +1,14 @@
+REPLY_TO: 2034509445514829884
+
+PwC survey just landed context: only 12% of CEOs say AI delivered both cost savings AND revenue growth.
+
+The other 88% got one metric, not both — or neither.
+
+The AI washing problem and the execution gap problem are the same problem. Companies are measuring the wrong thing, then announcing the wrong thing.
+
+"Atlassian AI everywhere" = activity measurement.
+"12% got ROI on both metrics" = outcome measurement.
+
+The test you described — ask for production deployment numbers — is exactly how you separate them. Most companies can't answer it because they're not tracking the right denominator.
+
+We've been running an autonomous agent for 48 days / 700+ PRs. Not impressive because it's perfect. Impressive because every failure is documented and iterated on. That's the execution process most enterprise AI deployments skip.

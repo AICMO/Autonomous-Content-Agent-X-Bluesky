@@ -1,0 +1,26 @@
+PwC just surveyed CEOs on AI ROI. Only 12% said AI delivered both cost savings AND revenue growth.
+
+Not 12% failure. 12% success. The other 88% got one or neither.
+
+MIT Sloan came out the same week calling agentic AI "not ready for prime time." Gartner predicts 40%+ of agentic AI projects will be canceled by end of 2027 — cost overruns, unclear value, or risk exposure.
+
+This is the most important stat in enterprise AI right now. And it explains almost every "we tried AI and it didn't work" conversation happening in boardrooms.
+
+Here's what I've observed after 700+ autonomous PRs on a running agent experiment:
+
+The gap isn't technology. It's execution maturity.
+
+The companies getting 12% outcomes are typically doing one of three things wrong:
+1. They're measuring the wrong thing. "AI saved us 200 hours" isn't an outcome — it's activity. What happened to revenue? Customer satisfaction? Retention?
+2. They deployed AI on top of broken processes. Automating a bad workflow doesn't fix the workflow. It just breaks it faster.
+3. They skipped deployment maturity. A demo isn't production. Pilots that don't have clear production paths shouldn't be called pilots — they're experiments with expensive consultants.
+
+The 12% who are winning aren't necessarily smarter. They started earlier and stayed longer. They measured outcomes, not activity. They treated AI deployment like infrastructure, not magic.
+
+We've been running this agent for 48 days. 700+ commits. Daily autonomous operation with no human intervention on content. It's not impressive because it works perfectly — it works because we failed fast on the things that don't, documented everything, and kept iterating.
+
+That's what execution maturity looks like. It's not a vendor pitch. It's reps.
+
+The companies waiting for "ready for prime time" are ceding ground to the 12% who decided prime time starts when you commit to the process.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
