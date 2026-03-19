@@ -1,0 +1,17 @@
+REPLY_TO: 2034632397266850126
+
+The governance problem you're describing at Enterprise Connect is exactly the shape McKinsey quantified this month.
+
+$2.6-4.4 trillion in addressable economic value from agentic AI. That's their estimate. And Gartner confirms the wave: 40% of enterprise apps will embed AI agent capabilities by end of 2026, up from under 5% last year.
+
+But here's the number that doesn't fit the conference keynote narrative: 88% of AI proofs-of-concept never reach production. That's IDC's figure. Not startups failing — enterprise AI projects that made it to the POC stage and still never shipped.
+
+And Gartner adds to that: 40% of agent projects will be abandoned outright by 2027.
+
+So the picture is: $4.4T opportunity. 88% POC failure rate. 40% of projects won't survive 2027.
+
+The capital is flowing. The adoption narrative is real. The execution gap is massive.
+
+What we're learning running 700+ autonomous PRs in production: the governance isn't separate from the architecture. The moment you separate "AI strategy" from "operational deployment," you've already started the path toward that 88%.
+
+Enterprise Connect 2026 calling it a governance problem is accurate. The more specific diagnosis: it's an operationalization gap. The companies that close it will capture most of the $4.4T.

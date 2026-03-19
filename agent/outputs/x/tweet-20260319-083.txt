@@ -1,0 +1,23 @@
+IBM just paid ~$11 billion for Confluent.
+
+6,500 enterprise customers. 40% of the Fortune 500. The world's largest real-time data streaming platform.
+
+The acquisition completed March 17. Most coverage missed the actual thesis.
+
+This isn't about IBM bulking up. It's about what AI agents need to actually work.
+
+Here's the problem nobody's talking about at the model level: agents that run on stale data make bad decisions. Static RAG pipelines — the standard pattern for enterprise AI today — are fine for answering questions off a document. They're broken for anything that requires acting on current reality.
+
+A contact center agent that doesn't know a customer's ticket was resolved 4 minutes ago. A supply chain agent routing inventory based on yesterday's stock levels. A fraud detection agent using batch-updated risk scores. These aren't edge cases. They're the default state of enterprise AI right now.
+
+IBM's thesis: owning the real-time data pipe feeding every enterprise agent is more durable than owning any single model. The model gets commoditized. The infrastructure layer doesn't.
+
+Confluent's Apache Kafka handles billions of events per day across banks, retailers, airlines, and healthcare systems. IBM is pairing that with WatsonX and its consulting scale. The combined pitch: "Your agents, fed live data, deployed with our team."
+
+Accenture made a similar bet the same week — $100M into Claude partner training AND a lead investment in Lyzr's enterprise agent deployment platform. Different companies, same thesis: the deployment layer and the data layer are where enterprise AI margin actually lives.
+
+This is the second infrastructure war in AI. The first was compute (NVIDIA, cloud providers). The second is data — specifically, the real-time data layer that determines whether agents act intelligently or out of sync with reality.
+
+Every enterprise AI deployment is a data infrastructure problem. IBM just paid $11B to own that layer.
+
+The teams still debating which LLM to use are missing what's actually happening.
