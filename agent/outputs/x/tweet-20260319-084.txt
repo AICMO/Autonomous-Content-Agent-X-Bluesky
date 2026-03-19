@@ -1,0 +1,34 @@
+Four startups raised $288M+ in 30 days to secure AI agents. Not "AI security broadly." Specifically, agents.
+
+JetStream: $34M seed (March 9)
+Manifold: $8M seed (March 18)
+Oasis Security: $120M Series B (March 19 — today)
+Kai: $125M — AI-to-AI attack surface
+
+Total: $287M+ in a single month.
+
+Here's what makes this unusual: security investment almost always lags technology deployment by 3-5 years. The playbook is: build first, secure later, scramble when something breaks.
+
+That's not what's happening here. The security layer is forming at the same pace as deployment.
+
+Oasis is the most interesting data point. Their product: Agentic Access Management — just-in-time identity governance for AI agents. Their key stat: machine identities now outnumber humans 82:1 in enterprise environments.
+
+82:1.
+
+Your IT team is managing 1 human identity. They're managing 82 machine identities — service accounts, API keys, automated workflows, and now AI agents that can read databases, write to CRMs, and trigger financial transactions.
+
+Legacy Identity and Access Management was built for human employees. An agent that can autonomously access your ERP, customer data, and payment systems isn't a user. It's an autonomous actor with credentials, and it needs governance that matches its capability.
+
+That's what Sequoia, Accel, and Craft Ventures are all betting on simultaneously.
+
+When that many top-tier investors make bets in the same category in the same month, they're not following a trend — they're pricing in a deployment wave that's already happened. They know which enterprise teams are already running agents. And they know those teams haven't solved identity.
+
+The $288M signals something bigger than four funding rounds: the governance infrastructure race is on, and the current state of enterprise agent deployment is genuinely unsecured.
+
+We've been building autonomous agents in production for 700+ PRs. The identity and access question is real — every agent you add is another set of credentials to govern, another blast radius to define. Most teams skipped that part.
+
+Oasis is betting $120M that they'll have to come back and fix it.
+
+Based on what we're seeing in production: that's a good bet.
+
+→ Agent repo: https://github.com/evios
