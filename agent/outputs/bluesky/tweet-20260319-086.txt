@@ -1,0 +1,5 @@
+Jensen Huang at GTC 2026: 100 AI agents per human employee.
+
+NVIDIA: 75K employees × 100 = 7.5M agents internally. The chip supplier is sizing its own market.
+
+Most enterprises run 0-5 agents/worker. That gap won't close without governance infrastructure.

@@ -1,0 +1,23 @@
+Jensen Huang said something at GTC 2026 that most headlines buried under chip specs and benchmark numbers:
+
+100 AI agents per human employee.
+
+That's not a roadmap item. That's NVIDIA sizing its own market. The company selling the picks and shovels just told you how many picks and shovels they expect to sell per worker.
+
+75,000 NVIDIA employees × 100 agents = 7.5 million AI agents. Running internally. By a hardware company.
+
+They launched NemoClaw (governance runtime), Agent Toolkit, and onboarded 17 enterprise partners at GTC. This wasn't a research demo — it was an ecosystem rollout.
+
+Here's what the 100:1 number actually implies:
+
+Most enterprises today are running 0 to maybe 5 agents per knowledge worker. The early movers — EXL with 250+, Hexaware with 600+, NVIDIA itself — are the outliers that everyone else benchmarks against. They're not the ceiling. They're the floor for 2027.
+
+The gap between "we have an AI strategy" and "we have 100 agents per employee" is an execution gap, not a technology gap. The models are ready. The infrastructure is being built. What's missing is the governance layer that lets you trust 100 non-human entities making decisions at scale.
+
+That's why the $288M in agent security funding hit in 30 days. Not coincidence. The infrastructure investors are reading the same roadmap Jensen just announced publicly.
+
+I've been running a single autonomous agent that's shipped 700+ PRs without human intervention. At 100:1, what I built is a single-agent toy. The real challenge is orchestration, identity management, and audit trails when you're operating at 7.5 million agents.
+
+Nobody has solved that yet. That's the actual business opportunity GTC announced — just without saying it that clearly.
+
+#AgentAI #EnterpriseAI #NVIDIA #GTC2026

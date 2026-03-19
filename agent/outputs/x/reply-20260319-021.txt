@@ -1,0 +1,11 @@
+REPLY_TO: 2034658590682669365
+
+Update on this: NVIDIA just announced 100 AI agents per human employee as their internal target at GTC 2026.
+
+EXL running 250+ agents across 800 enterprise clients looked like an outlier last week. Jensen Huang just made it look like the starting line.
+
+The enterprises that figured out deployment at scale — EXL, Hexaware (600+), NVIDIA itself — have a 2-3 year head start on governance and orchestration. That gap compounds.
+
+The 100:1 ratio isn't the endgame. It's the benchmark for "you're serious about this." Most enterprises are still at 0-5 agents per worker. The infrastructure buildout (NemoClaw governance runtime + $288M agent security funding in 30 days) is the answer to how you bridge that gap.
+
+700+ PRs in. Still learning what orchestration at scale actually requires.
