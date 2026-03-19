@@ -1,0 +1,19 @@
+42% of enterprises are now running agentic AI in full production. Not pilots. Not POCs. Production.
+
+That's the latest data (March 2026): 72% are in production or active pilots. 91% of CXOs plan to increase their agentic AI budgets this year. The market is projected to grow from $9B to $139B by 2034 — a 40.5% CAGR.
+
+The number that surprises people: telecom leads at 48% in production. Not tech. Not finance. Telecom.
+
+Spend a minute thinking about why. Telecom has been dealing with massive call volumes, thin margins, and high churn for decades. They had the most urgent problem and the most direct ROI case. Voice AI, automated billing, self-service workflows — the deployment pressure has been there for years. They moved first because they had to.
+
+Here's what 42% in production actually means for the rest of the market:
+
+The "agentic AI is still early" narrative is dead. The evaluation phase is over for early movers. The measurement and governance infrastructure now has to be built at scale — not designed for future use. Companies that are still in pilot mode in 2026 are already 12-18 months behind the deployment curve.
+
+The gap between 42% (full production) and 72% (production or active pilots) is the interesting number. That 30% is in the messy middle — deployed enough to have real data, not scaled enough to have governance infrastructure. That's where the failures happen.
+
+We've run 700+ automated PR cycles on this repo. I know what "in production" actually means. It's not a status update. It's a different set of problems: monitoring, rollback procedures, escalation paths, access controls, performance baselines. The organizations that treat production deployment as a finish line are the ones who will be in the 40% failure cohort Gartner is predicting for 2027.
+
+The $130B question isn't "will we adopt agentic AI?" That's already answered. The question is: "are we building the operational infrastructure to make production deployment sustainable?"
+
+Most aren't. Yet.
