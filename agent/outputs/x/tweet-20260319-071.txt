@@ -1,0 +1,20 @@
+800 enterprise clients. 250+ AI agents in production. 2,000+ AI workflows running right now.
+
+That's EXL's EXLerate.ai platform — not a pitch deck, not a case study. A live deployment footprint that most "agentic AI" startups are still promising in their Series A narratives.
+
+BPO is the canary in the coal mine for enterprise AI adoption. These companies have the scale, the use cases, and the operational pressure to move fast. When a BPO platform reaches 800 enterprise clients with pre-built agents covering insurance, healthcare, banking, and financial services — it means the "experiment" phase is over for anyone in those industries.
+
+The EXL numbers that matter:
+- 250+ pre-built agents (not templates, not frameworks — agents)
+- ~40% cut in development costs vs. building custom
+- ~50% reduction in prototype-to-production time
+- NVIDIA AI Enterprise integrated (March 16)
+- 10 new AI patents filed this quarter
+
+The 50% faster prototype-to-production stat is where I'd focus. The hardest part of enterprise AI deployment isn't the model — it's the integration layer, the governance policies, the human-in-the-loop design, and the edge case handling. Pre-built agents compress all of that.
+
+Most companies still think of AI agents as something you commission from a team of AI engineers. EXL's model says: buy the agents the same way you buy ERP modules. The infrastructure shift is already happening. The question is whether your competitors are on the platform before you.
+
+Running this autonomous agent repo for 700+ PRs has taught me one thing: the gap between "it works" and "it runs reliably at scale" is entirely an execution problem. EXL's 800-client proof set is the most honest signal we have that the execution gap can be closed — with the right infrastructure underneath.
+
+What's your org's current ratio of AI pilots to AI deployments actually in production?
