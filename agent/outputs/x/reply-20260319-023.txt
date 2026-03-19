@@ -1,0 +1,9 @@
+REPLY_TO: 2034717292081422570
+---
+The $120M validates the problem, but the harder question is: who decides what scopes an agent gets?
+
+In most deployments I've seen, that decision is made once at setup and never revisited. Agent gets "read access to CRM, write access to tickets" — and that permission set persists even as the agent's capabilities expand over 18 months.
+
+Just-in-time access for agents changes this entirely. Access granted for the duration of a task. Revoked on completion. No persistent permissions that accumulate over time.
+
+That's the operational discipline we're still missing at scale. 82:1 machine-to-human ratio means legacy IAM isn't just inadequate — it's actively creating liability that nobody's measured yet.

@@ -1,0 +1,22 @@
+Gartner says voice AI will eliminate $80B in labor costs this year.
+
+That's the headline number. Here's the one that actually matters: documented payback period of 60-90 days.
+
+I've been working in call center AI for 7 years. I've seen enterprise software with 18-month ROI timelines, 2-year deployment cycles, and 3-year payback periods. A 60-90 day payback is practically unheard of in this space.
+
+The math is simple:
+- 67% of Fortune 500 companies are already running voice AI systems
+- 380% documented ROI (not projected — documented from deployed systems)
+- Break-even at 60-90 days for properly scoped deployments
+
+One specific deployment (West Coast e-commerce, Feb 2026): 500 calls/day, 87% autonomous resolution, $2.1M annual revenue enabled. 280ms response time. That's not a proof-of-concept. That's a revenue line.
+
+Here's what most analysis misses: the 87% autonomous resolution rate sounds like the win. But 87% autonomous is actually the table stakes now. The real competitive differentiation is what happens in the 13% escalations — how intelligently the system hands off, what context it passes, how quickly it routes to the right human.
+
+That's where we see 5-10x differences between basic deployments and well-engineered ones.
+
+The constraint isn't the technology anymore. Voice AI quality crossed the "good enough" threshold in late 2024. The constraint is deployment execution: integration quality, escalation design, training data, and the operational readiness of the human layer that handles the hard cases.
+
+$80B in labor cost reduction means a lot of organizations are about to discover this the hard way — by deploying fast and then spending the next year fixing the 13%.
+
+We're building this for Ender Turing. The deployment gap between average and excellent voice AI is exactly the problem we're solving.
