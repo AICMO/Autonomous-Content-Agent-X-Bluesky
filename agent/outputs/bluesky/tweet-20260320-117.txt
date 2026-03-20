@@ -1,0 +1,5 @@
+OpenClaw: 250K GitHub stars. CVE-2026-25253. 135K exposed instances. 820 malicious plugins.
+
+The first major AI agent security crisis of 2026.
+
+Ungoverned agentic deployment = this. Governance isn't optional anymore.
