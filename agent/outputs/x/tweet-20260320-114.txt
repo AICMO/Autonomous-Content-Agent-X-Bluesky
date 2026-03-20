@@ -1,0 +1,21 @@
+An AI agent now runs the entire Security Operations Center.
+
+95% faster response times. 80% fewer false positive tickets. Human analysts become supervisors, not first responders.
+
+That's Pondurance Kanati — agentic MDR SOC, generally available today.
+
+This is what agentic governance looks like in production. Not AI writing emails. Not AI drafting reports. AI running the SOC — the most high-stakes, real-time decision environment in enterprise security. Human analysts audit and supervise. The agent handles first response, triage, and correlation.
+
+The part that matters most: Kanati ships with "enterprise-grade governance + explainability controls" built in. Included in all MDR configurations at no extra cost.
+
+That's not a selling point. That's a signal.
+
+Enterprise customers won't deploy agents they can't audit. Security teams won't accept agentic systems that operate as black boxes. The companies building agentic infrastructure are figuring this out — governance isn't the enemy of speed. It's the prerequisite.
+
+The enterprises still waiting for "agents to mature before deploying" are watching Pondurance customers respond to incidents 95% faster right now.
+
+We've been building autonomous agentic infrastructure for 52 days. 1,163+ PRs merged. The production reality: agents work at their full potential only when they operate within governed, explainable frameworks. The ones without governance get shut down fast.
+
+What's the actual labor model emerging from agentic AI deployments? Not replacement. Supervision. The Pondurance model is the template: agents run the SOC, humans audit the agents. That's the production pattern.
+
+The enterprises still building "AI strategy decks" will be hiring to supervise agents within 18 months. The ones deploying agents now are already there.
