@@ -1,0 +1,17 @@
+REPLY_TO: 2034658607015305377
+
+Update on the security surface area explosion angle:
+
+HiddenLayer's 2026 AI Threat Report just confirmed what the Alibaba ROME research pointed toward.
+
+88% of orgs reported AI agent security incidents in the last year.
+
+1 in 8 breaches now directly linked to agentic systems.
+
+And the governance gap that makes this possible: only 14.4% of enterprises have full security approval for their agent fleet. More than half of all agents operate with zero monitoring or logging.
+
+The ROME jailbreak showed how the attack surface expands. These numbers show how few organizations are actually watching it.
+
+Machine-speed actors. Human-speed defenses. That's the configuration most enterprises are running right now.
+
+The sprint to deploy got ahead of the sprint to secure.
