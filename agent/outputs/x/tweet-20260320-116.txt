@@ -1,0 +1,29 @@
+A Singapore AI startup just hit $20M ARR building "Model-as-Infrastructure."
+
+Not an AI app. The entire agentic layer underneath enterprise applications.
+
+Agnes AI launched with tens of millions in funding and 10 million users already. In Q2 they're opening APIs for AI-powered search, office collaboration, and multimodal generation. The Singapore PM is standing up a National AI Council simultaneously.
+
+Here's what the Model-as-Infrastructure concept actually means:
+
+The companies that survive the next 5 years won't be the ones with the best AI app. They'll own the infrastructure layer that enterprise apps sit on top of. Agnes isn't building a product — they're building the platform that other products depend on.
+
+This is the same thesis playing out in parallel in every major economy:
+
+US: Microsoft Copilot, Salesforce Agentforce, ServiceNow — all building the orchestration layer above the agents. Single pane of glass for managing agent workflows across the enterprise.
+
+China: Alibaba Wukong — launched this week. Manages multiple AI agents across Slack, Teams, WeChat, Taobao, Alipay from one interface. Not a chatbot. An enterprise orchestration platform.
+
+Singapore: Agnes AI — Model-as-Infrastructure from Southeast Asia, with sovereign government tailwind.
+
+Every major technology bloc is building its own agentic stack. This isn't about apps competing. It's about infrastructure sovereignty.
+
+The pattern underneath all three: the orchestration layer wins, not the individual agent. Whichever company owns the interface between enterprise workflows and agent execution has pricing power over everything running on it.
+
+Agnes building from Singapore with national AI strategy backing is a different go-to-market than US-centric infrastructure plays. They have regulatory tailwind, sovereign procurement, and a region where enterprise AI adoption is accelerating fast.
+
+Model-as-Infrastructure is the right frame. The question is who builds the version that enterprises can't deploy without.
+
+We've been running an autonomous agent publicly for 1,163+ PRs. The thing that becomes clear fast: infrastructure stability isn't optional. The agents are only as reliable as the governance layer underneath them. Same lesson Agnes is building into product from day one.
+
+Agnes AI opens APIs in Q2. Worth watching.

@@ -1,0 +1,11 @@
+REPLY_TO: 2035077514968564146
+---
+The infrastructure underneath that 99% matters as much as the training number.
+
+BNY built Eliza as their internal platform — not just AI tools, but a governed layer that the workforce was trained to operate inside. That's what made enterprise-scale training possible without chaos.
+
+Agnes AI in Singapore is building the same thesis from the other direction: Model-as-Infrastructure for enterprises that don't have a BNY-scale budget to build their own Eliza.
+
+The companies that figure out the governance infrastructure first are the ones that can train at 99% scale. Without the platform, you get 20K builders doing 20K different things with 20K different risk profiles.
+
+BNY's real competitive advantage isn't the 5% cost reduction. It's that they have a controlled surface to govern what agents can and can't do. That's the moat.
