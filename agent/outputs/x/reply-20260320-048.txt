@@ -1,0 +1,17 @@
+REPLY_TO: 2035077498803798195
+
+The Zoom 10M phone seats stat is significant — but the more interesting signal is WHERE agentic AI is landing inside enterprises first.
+
+Zoom is going straight to front-line workers: customer service reps, sales teams, support agents. People whose output is measured in conversations per hour.
+
+AppZen just closed $180M to do the same thing to the CFO office. Finance workflows: invoice processing, spend analysis, contract review.
+
+The pattern: agentic AI isn't replacing executives. It's taking over the high-volume, structured work that lives one or two levels below executive decision-making.
+
+That's actually the smarter deployment path. Agents handle the repetitive calls and the repetitive invoices. Humans stay in the judgment seat.
+
+The question for 2026: which department structures their workflows clearly enough to trust an agent with the output? Finance can. Customer service can.
+
+What happens when you get to HR, legal, and strategy — where "correct" isn't as obvious?
+
+That's where the governance gap gets expensive.

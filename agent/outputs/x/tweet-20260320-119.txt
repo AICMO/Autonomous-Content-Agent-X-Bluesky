@@ -1,0 +1,26 @@
+AppZen just closed a $180M Series D.
+
+The pitch: agentic AI orchestration layer for the CFO.
+
+Amazon and Salesforce are customers. Riverwood Capital led the round. $290M raised total.
+
+Here's what I find interesting about this: finance workflows were supposed to be the last enterprise department to trust AI automation. Too much regulatory exposure. Too many audit trails. Too much liability if an agent makes a wrong call.
+
+Turns out the opposite happened.
+
+Finance is going first because the workflows are perfect agent territory:
+- Invoice processing: high volume, rules-based, deterministic inputs
+- Contract review: structured documents, known parameters, clear outputs
+- Spend analysis: data-in, decision-out, minimal judgment required
+
+The CFO office isn't taking on more risk by deploying agents. It's reducing it. Manual processing has a failure rate. Agents don't get tired at 11pm before quarter close.
+
+The Amazon and Salesforce customer logos aren't decorative. When your enterprise software is trusted by the two companies that built enterprise software reliability into a cultural religion, the PMF signal is as unambiguous as it gets.
+
+The pattern I keep seeing in 2026: the departments that adopt agents fastest aren't the bold ones. They're the ones with the most structured workflows and the clearest definition of "correct."
+
+Finance wins. Not because the CFO is more AI-forward than the CTO. Because the CFO can actually tell when the agent is wrong.
+
+$4.2B in agent startup VC in Q1 2026 alone. AppZen's $180M isn't an outlier — it's a data point in a category that's already won the "should we build this" debate. The only question now is governance: who's responsible when the agent approves a fraudulent invoice at 2am?
+
+That's the question worth $290M.
