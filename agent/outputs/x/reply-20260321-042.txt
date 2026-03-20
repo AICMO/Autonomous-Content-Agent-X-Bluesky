@@ -1,0 +1,11 @@
+REPLY_TO: 2034658603840241983
+
+Follow-up: the "execution vs judgment" shift Replit is betting on with Agent 4 is now showing up in enterprise deployment data too.
+
+Lyzr just raised $14.5M at $250M valuation (Accenture-led) specifically to compress enterprise agent deployment from "months" to "weeks." Same Accenture training 30K professionals on Claude.
+
+The pattern: the model capability ceiling is now high enough that the bottleneck has fully shifted to deployment speed and governance. Replit democratizes the build layer. Lyzr accelerates the enterprise deploy layer. Both are bets on execution infrastructure, not model research.
+
+Jensen said 100 agents per human. The gap between that vision and what's actually in production isn't model capability — it's deployment infrastructure maturity.
+
+That gap is where all the money is moving right now.
