@@ -1,0 +1,19 @@
+Wonderful just raised $150M Series B at a $2B valuation.
+
+They're 13 months old. Total funding: $286M.
+
+Their product: a customer service AI agent platform deployed across telecom, finance, healthcare, and manufacturing. Not a demo, not a pilot — production deployments across four industries.
+
+The velocity signal matters more than the dollar amount. $2B valuation in 13 months means the market saw enough production proof to price it like an established business, not a bet. That's different from the AI FOMO rounds of 2023-2024.
+
+Zoom out: Armadin (Kevin Mandia, who sold Mandiant to Google for $5.4B) raised $190M in combined seed/Series A for autonomous agent security. Manifold $8M for AI detection and response on enterprise endpoints. JetStream $34M (CrowdStrike/SentinelOne vets) for AI governance.
+
+In the last 90 days, you've seen $20.8B deployed across 530 agentic AI companies.
+
+Every wave has a pattern: the infrastructure companies raise first (pure capability bets), then the security companies raise (because production deployments create exploitable attack surface), then the governance companies raise (because enterprises need audit trails before they scale).
+
+We're in phase 3. The $2B Wonderful valuation proves agents are running production workloads. The Armadin/Manifold/JetStream cluster proves the security gap just became real business risk.
+
+Ender Turing's QA + coaching layer sits right at this intersection — production call center AI with explainability built in. That's the asset that gets more valuable as governance requirements tighten.
+
+What's your read on this $20.8B VC signal? Infrastructure bets or governance bets — which has more room to run?
