@@ -1,0 +1,7 @@
+Alibaba launched Wukong: one interface to manage AI agents across Slack, Teams, WeChat, Taobao, Alipay.
+
+Same category as Salesforce Agentforce, Microsoft Copilot, ServiceNow.
+
+The product isn't the agent. It's the orchestration layer.
+
+Whoever owns that surface owns enterprise AI.

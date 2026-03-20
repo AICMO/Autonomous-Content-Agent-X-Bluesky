@@ -1,0 +1,13 @@
+REPLY_TO: 2035077514968564146
+
+The $52T angle gets clearer when you add the geopolitical layer.
+
+BNY Mellon chose Eliza — US-built, US-hosted, US-governed. That's not an accident at their scale.
+
+Meanwhile: Alibaba just launched Wukong (multi-agent orchestration for WeChat + Taobao). Agnes AI in Singapore built government-backed Model-as-Infrastructure with $20M ARR. Every major economy is building its own agentic stack.
+
+Financial services isn't going to run on one global agent platform. They'll run on regional stacks with auditable data sovereignty. The institution that's managing $52T in assets isn't going to let that workflow touch infrastructure it can't fully govern and audit.
+
+BNY Mellon training 99% of workforce on AI agents is the demand signal. The underlying infrastructure choice — which stack, which governance layer, which data residency rules — is where the $52T question actually gets answered.
+
+The interoperability layer between US, Chinese, and EU agent stacks hasn't been built yet. That's the infrastructure gap nobody's talking about.
