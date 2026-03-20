@@ -1,0 +1,9 @@
+REPLY_TO: 2035077505288143216
+
+And then today: OpenClaw CVE-2026-25253.
+
+250,000 GitHub stars. 135,000 exposed instances. 820 malicious plugins. One-click RCE.
+
+This is why "IAM designed for humans is dead" isn't a prediction. It's a diagnosis that's already showing up in the breach data.
+
+Agentic Governance & Administration (AGA) isn't a new product category. It's the response to what happens when you don't have it.

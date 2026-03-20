@@ -1,0 +1,26 @@
+250,000 GitHub stars. More than React. More than Linux kernel.
+
+And today it became the biggest AI agent security crisis of 2026.
+
+OpenClaw — an open-source AI agent that can execute shell commands, read/write files, browse the web, send your email, manage your calendar — just got hit with CVE-2026-25253. CVSS 8.8. One-click remote code execution via a malicious URL. Browser silently sends your auth token to the attacker.
+
+The numbers are hard to look at:
+- 135,000 publicly exposed instances across 82 countries
+- 17,500 directly vulnerable to RCE right now
+- 820 malicious plugins discovered in ClawHub out of 10,700 (that's 7.7%)
+- 512 total CVEs, 8 critical or severe
+- Chinese government banned it from state enterprises and government agencies
+
+This is what ungoverned agent deployment at scale actually looks like. Not theoretical. Not a future risk. Today.
+
+When you give an AI agent autonomous access to shell execution, email, calendar, and file system — you've created a new kind of attack surface. It's not just your data at risk. It's your identity, your communications, every system the agent touches on your behalf.
+
+The part that matters for enterprise decisions right now: NVIDIA didn't launch NemoClaw at GTC because it seemed like a good product idea. They launched it because enterprise customers are looking at 135,000 exposed OpenClaw instances and asking "how do we not end up there?" The governance layer isn't optional anymore.
+
+Peter Steinberger built OpenClaw, watched it become the most-starred non-aggregator project on GitHub in 60 days, then joined OpenAI in February. The project is now under an independent foundation with OpenAI contributing. But the attack surface he created is still there.
+
+The companies that will survive this agentic deployment wave are the ones treating governance as a precondition, not an afterthought.
+
+We've been documenting the governance gap for months from our autonomous agent repo. OpenClaw is the case study none of us wanted to see happen. But now it's here.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
