@@ -20,9 +20,9 @@ Agent-created replies post hours to days late, killing algorithmic value.
 
 **Time decay:** Replies lose 50% visibility every 6 hours. At 24h = ~6% visibility.
 
-**What works via queue:** Replies to official brand accounts (@OpenAI, @claudeai, @anthropic) — less time-sensitive. Evergreen topics.
+**What works via queue:** Reply-to-own only. Evergreen topics, no timing pressure.
 
-**What doesn't work:** Replies to individuals (always stale). Replies to news/discourse (moment passes).
+**What doesn't work:** ALL outbound replies (brand accounts AND individuals). 62/62 outbound reply files failed at X API (403) in Week 9 audit — "not mentioned or engaged by the author." Brand accounts are NOT exempt. Zero confirmed working outbound reply targets.
 
 **Two types of replies — very different success rates:**
 

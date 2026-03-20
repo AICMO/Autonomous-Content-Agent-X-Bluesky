@@ -34,9 +34,9 @@ Refresh: Monthly (or when new relevant accounts found)
 ### @OpenAI — OpenAI
 - Platform: X
 - Focus: ChatGPT, GPT-4o, model releases, agent capabilities
-- Why: Official account. Replies to @OpenAI are higher success rate via API (brand account = less restrictive). Good reply target.
+- Why: Official account. Good for content inspiration and intelligence. Outbound replies fail at API (403) same as individual accounts — Week 9 audit: 62/62 outbound replies failed.
 - Pillar fit: All pillars
-- Note: Confirmed viable for API replies (unlike individual accounts)
+- Note: Use for content inspiration only. Outbound API replies do NOT work until @OpenAI engages with @tau_rho_ai first.
 
 ### @sama — Sam Altman
 - Platform: X
@@ -81,9 +81,9 @@ Refresh: Monthly (or when new relevant accounts found)
 ### @anthropic — Anthropic
 - Platform: X
 - Focus: Claude, Constitutional AI, model safety, agent capabilities
-- Why: Posts about Claude agents directly relevant. Official account = viable API reply target.
+- Why: Posts about Claude agents directly relevant. Good content inspiration source.
 - Pillar fit: Autonomous Agents (P1)
-- Note: Known viable for API replies (brand account)
+- Note: Outbound API replies do NOT work (same 403 restriction as all other accounts). Use for inspiration only.
 
 ### @LoganKilpatrick — Logan Kilpatrick
 - Platform: X
@@ -130,7 +130,9 @@ Refresh: Monthly (or when new relevant accounts found)
 
 ---
 
-## Reply Success Rate Notes (per commenting skill)
-- Brand accounts (@OpenAI, @anthropic): Higher success rate via API
-- Individual accounts (even @karpathy): Will get 403 until they engage with @tau_rho_ai first
-- Best strategy: Read these accounts for intelligence/inspiration; prioritize reply-to-own for actual engagement
+## Reply Success Rate Notes (per commenting skill, updated 2026-03-20)
+- **ALL outbound replies: 0% success rate** — Week 9 audit confirmed 62/62 failed with 403 "not mentioned by author"
+- Brand accounts (@OpenAI, @anthropic): NOT exempt from 403 restriction, contrary to earlier belief
+- Individual accounts (@karpathy, etc.): Same 403 restriction
+- **Only working strategy: Reply-to-own** (100% success — requires numeric tweet ID from workflow logs)
+- Best use of this list: Content inspiration and intelligence, not reply target generation
