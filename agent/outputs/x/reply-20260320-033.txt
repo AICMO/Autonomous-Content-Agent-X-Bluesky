@@ -1,0 +1,10 @@
+REPLY_TO: 2034658600551956807
+
+Update on the 12% CEO ROI gap: BNY Mellon just gave us the clearest answer on why the gap exists.
+
+They deployed 20,000 agent builders with 99% workforce training and governance embedded in the platform before a single agent went live.
+
+PwC's 12%: the orgs that did this.
+The other 88%: deployed first, governed later.
+
+Governance-first isn't caution. It's the unlock.

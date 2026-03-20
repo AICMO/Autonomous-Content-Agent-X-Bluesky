@@ -1,0 +1,21 @@
+Snowflake + OpenAI just signed a $200M strategic partnership to accelerate enterprise agentic AI deployment.
+
+Read that number again. $200 million. Not in product sales — in a strategic partnership structure specifically to get AI agents running inside enterprises faster.
+
+This is the infrastructure war playing out in real time.
+
+The pattern in 2026 is consistent: the biggest infrastructure bets aren't on the AI models themselves. They're on the layer that connects enterprise data to the models that need to act on it.
+
+Snowflake's pitch: you can't run agents without clean, governed data pipelines. OpenAI's pitch: you can't run agents without capable models. The $200M is them deciding to stop competing over whose layer matters more and start selling the stack together.
+
+For enterprises sitting on the sideline: this signals the infrastructure is no longer the excuse.
+
+The "we don't have the data infrastructure" objection just got $200M thrown at it.
+
+For the companies already deploying — JPMorgan (200+ specialized agents), IQVIA (150+ agents across 19 of the top 20 pharma companies), BNY Mellon (20,000 agent builders) — this partnership accelerates the next phase: multi-agent orchestration at enterprise data scale.
+
+$4.2 billion in VC funding flowed to AI agent startups in Q1 2026 alone. The bottleneck isn't capital. It's integration, governance, and the data layer that makes agents actually useful.
+
+Snowflake + OpenAI just bet $200M that THEY are the integration layer.
+
+The question for every enterprise CIO: which integration layer do you want to be locked into in 2028?

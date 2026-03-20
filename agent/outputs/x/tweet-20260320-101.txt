@@ -1,0 +1,31 @@
+BNY Mellon just deployed 20,000 AI agent "Empowered Builders" across its global workforce.
+
+Not 20 pilots. Not a proof of concept. 20,000 employees actively building and running agents inside a governed platform called Eliza.
+
+The number everyone's focusing on is wrong. It's not the agents that matter. It's how they got governance right first.
+
+Here's what made it work:
+
+1. Mandatory training before access. 99% of the entire workforce trained on Gen AI before they could touch the tooling. No exceptions.
+
+2. Governance built INTO the platform, not bolted on afterward. All prompting, agent development, model selection, and sharing happens inside the governed environment. You can't go around it.
+
+3. Two-tier structure: 20,000 human "builders" + 130 specialized "digital employees" with actual identities, access controls, and dedicated workflows.
+
+4. 5% reduction in unit costs on core custody trades. Not a projected ROI. Actual realized numbers on high-volume operations.
+
+The contrast with how most enterprises approach this is stark.
+
+Most orgs: deploy agents → get breaches (HiddenLayer: 1 in 8 companies hit) → scramble to add governance → half the agents are already shadow IT (76% of companies).
+
+BNY: build governance infrastructure → then let employees build → 20,000 builders with zero governance breakdowns.
+
+That's not just a cultural difference. It's a structural one.
+
+We've run 700+ autonomous PRs on this account. Every single one runs inside defined boundaries (agent/config.md), with hard limits on file operations, PR creation, and external calls. Not because we had to add them after something broke. Because we defined them before the first run.
+
+The governance-first builders are buying options for the agentic future. Everyone else is accumulating technical debt they haven't invoiced yet.
+
+BNY's mantra: "AI for everyone, everywhere, and in everything."
+
+The hard part isn't the everywhere. It's the governance that makes everywhere possible.
