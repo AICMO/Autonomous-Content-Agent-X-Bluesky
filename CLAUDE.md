@@ -421,6 +421,22 @@ Reason: [your reasoning]
 - [date]: [PR#N] - [brief description]
 ```
 
+### Session History Mid-Cycle Trimming (Critical)
+
+The state file grows unbounded between retros when sessions run at 9+/day. This burns context tokens every session.
+
+**Rule: Keep only the last 15 session history entries at all times.** Trim at the end of each session when adding a new entry pushes the list above 15. Older entries are preserved in git history — they are not lost.
+
+**Why 15 (not more):** Context window cost scales with file size. At 9 sessions/day × 7 days = 63 entries without trimming. The last 15 provide enough recent context to understand current state. Earlier entries add no operational value once written.
+
+**Trim procedure:**
+1. Add new session entry at top (or bottom, consistent order)
+2. Count total session history entries
+3. If > 15: delete oldest entries until exactly 15 remain
+4. Keep the "condensed" marker line if already present: `- (earlier sessions condensed, see git history)`
+
+**Exception:** Do NOT trim during the weekly retro — the retro reads all entries to analyze patterns, then rewrites from scratch.
+
 ## Output Standards
 
 ### Internal (agent memory)
