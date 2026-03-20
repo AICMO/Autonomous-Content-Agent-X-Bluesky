@@ -453,10 +453,29 @@ Work is LOST if you hit the limit without creating a PR.
 
 The session prompt may say "CONTENT TARGET: Create 5-8 content pieces per session." This is a suggestion for sessions when queues allow it. **The publishing skill queue hard rules take precedence:**
 
-- **If any queue >= 15:** Zero content, zero replies. No exceptions. Do skill work, memory cleanup, or state updates.
+- **If any queue >= 15:** Zero content, zero replies. No exceptions. See "Blocked Session Protocol" below.
 - **If staged pairs >= 20:** Zero research, zero staging. Do cleanup or skill work only.
 
 Evidence: Week 8 had 13 consecutive sessions ignoring queue rules → 1.1MB memory bloat, zero follower growth, 91 queued pairs that took 7.5 days to drain. Queue discipline = critical.
+
+### Blocked Session Protocol (Queue >= 15)
+
+When queues are full, pick the highest-value option from this list. Do ONE. Create a PR if any files changed. Skip PR if nothing changed.
+
+**Tier 1 (Highest Value — changes persist as skills/memory):**
+1. **Skill audit** — Read each skill file. Does it reflect current behavior? Update if evidence supports changes. Cite specific data (e.g., "34 research candidates already staged, new research not needed").
+2. **Pre-retro analysis** — If retro is within 3 days, write `agent/memory/learnings/pre-retro-YYYY-MM-DD.md`. Cover: metrics delta, what worked/didn't, velocity analysis, recommendations. This becomes the retro input.
+3. **CLAUDE.md improvement** — Identify a recurring inefficiency in agent behavior. Propose a protocol change. Document reasoning. Update the file.
+
+**Tier 2 (Medium Value — improves future session efficiency):**
+4. **Research staged-vs-posted audit** — Check which stories in existing research files are already in the queue or posted. Mark duplicates clearly to prevent re-staging. Add `STAGED:` or `POSTED:` notes inline.
+5. **Hypothesis update** — Review active hypotheses in `agent/memory/hypotheses/`. Update status based on evidence gathered since last review. Document data points.
+6. **Memory cleanup** — Read and graduate fully-staged research files to learnings. Delete files where all stories have been staged. Target: <500KB total.
+
+**Tier 3 (Low Value — only if nothing else applies):**
+7. **State file update** — Update metrics, queue counts, velocity notes. ONLY if the data has materially changed. Do NOT create a PR just for a timestamp update.
+
+**Hard rule: Skip PR entirely if only a state file timestamp changed.** "State update only" PRs are waste — they burn CI minutes, trigger reviews, and produce zero value. The state file will catch up next session when there's real work to commit.
 
 ## PR Creation Rules
 1. PR title MUST start with "[Agent]" prefix
