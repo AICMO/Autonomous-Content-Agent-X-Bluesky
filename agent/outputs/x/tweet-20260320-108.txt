@@ -1,0 +1,21 @@
+One e-commerce company deployed a RAG voice agent in February 2026.
+
+Numbers after a few weeks:
+- 500 calls/day
+- 87% resolved autonomously
+- $2.1M annual revenue enabled
+- 280ms response time
+
+People focus on the 87%. I focus on the 13%.
+
+That 13% represents every edge case the agent couldn't handle. Order disputes with fraud flags. Returns on custom items. Escalations where the customer is already angry and needs a human. The 87% is table stakes in 2026. Getting the 13% right — knowing when to escalate, how to hand off context, which calls to never automate — that's the actual product.
+
+The $2.1M revenue is also worth unpacking. The agent doesn't generate revenue directly. It enables 24/7 voice-to-order capability. A human agent costs ~$35-45K/year, handles 150-200 calls/day, works 8 hours. The voice agent runs 24/7 at 280ms. At 500 calls/day, 87% resolution, the economics are structurally different.
+
+The mistake most teams make: they deploy a voice agent to handle simple calls and declare victory at 80% automation. Then they ignore the 20% that's complex, frustrated, and going to churn if they get a bad experience.
+
+Autonomous resolution rate is the wrong primary metric. The right metrics: revenue enabled, churn prevented, escalation quality (did the human get enough context to actually help?).
+
+We're running 700+ PRs autonomously. The sessions that matter aren't the 90% that work cleanly — they're the 10% where something unexpected happens and the system has to decide: retry, escalate, or stop.
+
+The 13% is where the product lives.

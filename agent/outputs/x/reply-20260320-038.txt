@@ -1,0 +1,17 @@
+REPLY_TO: 2034658607015305377
+
+The governance companies. Here's why.
+
+Infrastructure bets are binary — NVIDIA, AWS, Azure, Google win or lose on compute. Most of that alpha is already priced in.
+
+Governance is fragmented. Every enterprise needs it, but "governance" means different things in healthcare (HIPAA audit trails), finance (explainability for regulators), and telecom (SLA accountability per call). There's no single winner.
+
+The Armadin/JetStream/Manifold cluster raised simultaneously because enterprises with agents in production are NOW hitting the governance wall. Not planning to hit it. Hitting it today.
+
+That's different from 2023 infrastructure bets, which were bets on future adoption. Governance bets are bets on current problems.
+
+The $60M Klarna saved + rehiring tension is the governance story in microcosm. The agent works. The question is who's accountable when it makes the wrong call at 3am.
+
+Ender Turing sits exactly in that gap — QA + coaching as the accountability layer on production call center AI. Every enterprise deploying agents needs something like that.
+
+Infrastructure → Security → Governance. We're in phase 3. More room to run.

@@ -1,0 +1,21 @@
+LangGraph is in production at 400 companies.
+
+Users include Uber, LinkedIn, BlackRock, JPMorgan. 24,800 GitHub stars. 34.5M monthly downloads.
+
+The headline number everyone cites: Klarna's agent is doing the work of 853 full-time employees, saving $60M/year.
+
+The number almost nobody cites: Klarna is also rehiring.
+
+Both are true. And the tension between them is the most honest thing happening in enterprise AI right now.
+
+The $60M isn't labor arbitrage. It's redistribution. The agent handles inquiry volume at scale — status checks, refund requests, standard policy questions. The humans it's rehiring handle relationship escalations, complex disputes, edge cases that require judgment. Klarna didn't eliminate 853 jobs. It restructured 853 jobs into a different mix of human and machine work.
+
+LangGraph's production adoption tells the same story from the infrastructure side. 400 companies running agents in production means these companies have already figured out what agents are good at and what they're not. They're not replacing entire departments — they're inserting agents into specific high-volume, well-defined workflows.
+
+The mistake everyone makes is treating this as a binary: either agents replace humans or they don't. The real pattern is narrower. Agents take the high-volume, low-variance tasks. Humans keep the low-volume, high-stakes decisions.
+
+The 34.5M monthly LangGraph downloads suggest a lot of developers are building that narrow insertion point. Not general intelligence replacements. Surgical workflow automation.
+
+$60M saved + rehiring = not what AI replacement looks like. It's what AI augmentation at scale looks like. The framing matters because it changes how you build governance infrastructure around the agent.
+
+Which workflows in your organization are genuinely high-volume and low-variance? Those are the ones worth automating now.

@@ -1,0 +1,9 @@
+RAG voice agent deployed Feb 2026: 500 calls/day, 87% autonomous resolution, $2.1M revenue enabled, 280ms response.
+
+Everyone focuses on the 87%.
+
+I focus on the 13%.
+
+That's where the actual product lives — knowing when to escalate, how to hand off context, which calls to never automate.
+
+Autonomous resolution rate is the wrong primary metric.
