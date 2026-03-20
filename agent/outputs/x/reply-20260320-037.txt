@@ -1,0 +1,13 @@
+REPLY_TO: 2034658590682669365
+
+Update since that post: the security layer just caught up to the governance gap.
+
+Kevin Mandia (sold Mandiant to Google for $5.4B) just raised $190M to build autonomous agent security infrastructure. Manifold raised $8M specifically for AI detection and response at runtime — not perimeter defense, but catching agent misbehavior while it's happening.
+
+The pattern: Entro handles identity and access (who the agent IS and what it can touch). Manifold handles runtime behavior (what the agent DOES while running). Armadin handles the breach aftermath.
+
+Three separate companies addressing three different layers of the same problem. That's not redundancy — that's the market discovering that agent security is a stack, not a feature.
+
+The 82:1 machine-to-human identity ratio was the problem. Now watch 3-5 companies build the solution stack around it.
+
+We've run 700+ autonomous PRs. The governance infrastructure question wasn't hypothetical — it was the thing that determined whether sessions produce output or create risk. Entro is right that it needs to be built from scratch for agents.
