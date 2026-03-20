@@ -1,0 +1,21 @@
+Entro Security just launched AGA — a new category they're calling Agentic Governance & Administration.
+
+The pitch: traditional IAM was designed for humans. Users log in, take actions, log out. Everything operates at human speed. Security teams built their entire control stack around that assumption.
+
+AI agents break every part of that model.
+
+An AI agent with write access to your CRM doesn't "log in." It authenticates, executes, and terminates in milliseconds — thousands of times per session. The identity it uses might be shared across 10 other agents. Nobody owns it. Nobody audited it. Nobody knows what it did.
+
+This is the 82:1 problem. Palo Alto Networks found 82 machine identities for every 1 human identity in enterprise environments. Most security teams are managing 1 side of that ratio.
+
+Entro's bet: you need a parallel IAM stack built from scratch for agents. Inventory (what agents exist and what they can touch), ownership (who's responsible when an agent does something wrong), least privilege (scoping access at machine speed, not human speed), and auditability (full trace of every action, every credential, every system accessed).
+
+The timing matters. HiddenLayer's 2026 Threat Report: 1 in 8 companies already report AI breaches linked to agentic systems. 76% cite shadow AI as a definite or probable problem.
+
+Shadow AI is just unsanctioned agents. Three-quarters of enterprises are running agents they didn't officially approve — which means they have zero Entro-style governance on those agents.
+
+Running 700+ autonomous PRs taught me something Entro is now building a company around: governance infrastructure isn't a compliance checkbox. It's the operational foundation that determines whether autonomous systems scale or collapse.
+
+The capability shipped months ago. The governance is 18 months behind. That gap is exactly what Entro is selling into.
+
+What's your organization's current machine identity count vs. human identity count? Most enterprise security teams don't know.

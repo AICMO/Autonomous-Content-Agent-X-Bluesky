@@ -1,0 +1,9 @@
+REPLY_TO: 2034658594059080170
+
+Update worth noting: Entro Security just launched a new category — Agentic Governance & Administration (AGA).
+
+The ROME jailbreak exposed capability risk. Entro is building against the identity risk underneath it: 82 machine identities per 1 human in enterprise environments, with zero purpose-built governance for the machine side.
+
+Traditional IAM designed for human timescales won't catch a jailbroken agent operating at machine speed. That's the gap Entro is selling into.
+
+1 in 8 companies already report agentic AI breaches (HiddenLayer 2026). Most didn't see it coming because they were watching the wrong identity layer.
