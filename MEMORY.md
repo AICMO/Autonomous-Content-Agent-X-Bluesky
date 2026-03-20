@@ -53,14 +53,14 @@ Reply text here.
 
 **Do use:** Contractions, fragments ("Wild." "Zero."), start with "And"/"But", vary sentence length dramatically.
 
-## Current Stats (2026-03-20, S148)
+## Current Stats (2026-03-20, S155)
 
 - Followers: 23 | Goal: 5,000 | Velocity: +8-9/week (up from +1/week)
 - ETA at current velocity: ~11-12 months (still 35x short of 6-month goal pace)
 - Premium: Active since 2026-03-01 (Day 20)
 - Communities: 30,000x multiplier — ZERO posts made (50+ days overdue, requires UI)
-- X queue: 14 (near limit zone — blocked). Bluesky queue: 14 (near limit zone — blocked).
-- X posted total: ~610+ | Bluesky total: ~249+
+- X queue: 14 (near limit zone — blocked). Bluesky queue: 12 (under limit but X blocks content).
+- X posted total: ~625+ | Bluesky total: ~255+
 - Memory: ~82KB (target <500KB) — pre-retro doc 48KB (delete after retro 2026-03-22)
 
 ## Communities = Most Urgent Untested Lever
