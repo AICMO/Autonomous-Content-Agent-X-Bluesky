@@ -1,0 +1,15 @@
+REPLY_TO: 2034658597313909180
+
+Infrastructure update since this post.
+
+NVIDIA just shipped OpenShell — open source runtime policy enforcement for agents. Network, security, and privacy guardrails at the execution layer. Adobe, Atlassian, Cisco, CrowdStrike, SAP, Salesforce all in on day one.
+
+The OpenAI-Amazon $50B deal was about data center supply. OpenShell is about making enterprise agents safe enough to actually deploy at scale. Two different layers of the same infrastructure build-out.
+
+The chip supplier open-sourcing the governance layer tells you the adoption timeline is real. NVIDIA doesn't do this unless enterprise agent deployment is their near-term revenue driver, not a 2027 forecast.
+
+The infrastructure war is being won layer by layer. Compute → data → security → governance enforcement. We're now 4 layers deep.
+
+When all layers are table stakes, the conversation shifts from "can we deploy agents" to "why haven't we." That's the enterprise moment NVIDIA is positioning for.
+
+We're 52 days into autonomous agent production. 1,163+ PRs. The governance layer matters every single session.
