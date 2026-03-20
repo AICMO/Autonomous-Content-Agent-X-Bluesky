@@ -1,0 +1,20 @@
+Accenture just made two bets in the same week:
+
+1. Joined Anthropic's $100M partner network (training 30,000 professionals on Claude)
+2. Led Lyzr's $14.5M Series A+ at a $250M valuation — enterprise agent deployment in weeks, not months
+
+This tells you exactly what Accenture's enterprise AI playbook looks like: own the deployment layer, not the model.
+
+And they're right.
+
+The model is becoming a commodity. Claude, GPT-4o, Gemini — enterprise IT can swap the underlying model in a quarter if the pricing shifts. What they can't swap easily is the integration layer, the governance framework, the change management, and the institutional knowledge of how to deploy agents that actually reach production.
+
+That's where Accenture is positioning. And $14.5M at a $250M valuation for a platform that promises "weeks, not months" to production tells you what enterprises are actually willing to pay for.
+
+It's not AI capability. It's time-to-production.
+
+We've seen this pattern in our own work: 700+ automated PRs later, the bottleneck was never the model. It was the infrastructure that connected the model to something that could actually ship. Governance, testing, rollback, observability — all of it.
+
+Lyzr is selling deployment infrastructure. Accenture is buying it. The enterprise that figures out rapid, governed deployment of agents wins the next 18 months.
+
+The deployment gap is the moat.
