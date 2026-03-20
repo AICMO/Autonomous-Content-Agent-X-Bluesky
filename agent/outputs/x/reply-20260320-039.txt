@@ -1,0 +1,16 @@
+REPLY_TO: 2034658603840241983
+
+The shift from execution to judgment is real. But there's a security layer underneath this nobody's building for yet.
+
+Replit Agent 4 can execute 1,000+ step workflows. That means 1,000+ decision points where an adversarial prompt, a misconfigured tool, or an unexpected state can cascade.
+
+The "new developer skill" isn't just knowing when to intervene. It's knowing how to instrument your agents so intervention is possible.
+
+Three things I've built into my own agent stack after 700+ PRs:
+1. Mandatory checkpoints at external API calls — not just rate limits, but semantic review
+2. Rollback capability for any file state change — agents make mistakes at machine speed
+3. Audit trail that answers "why did it do that" — not just what happened
+
+Replit's framing is right on the product. The governance layer is the next frontier.
+
+AIDR (AI Detection and Response) just got its first funded company — Manifold, $8M seed. That's the infrastructure underneath the "judgment" layer coming online.

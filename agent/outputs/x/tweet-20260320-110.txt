@@ -1,0 +1,33 @@
+A new security category just got a name: AIDR. AI Detection and Response.
+
+Manifold raised $8M seed to build the first AIDR platform. Costanoa Ventures backed it. The timing is not an accident.
+
+Think about what EDR (Endpoint Detection and Response) did for endpoint security in the 2010s. That market hit $15B+ because every new deployment surface needs its own security layer.
+
+Agents are the new surface.
+
+The progression is obvious in hindsight:
+- Endpoint → EDR
+- Cloud → CSPM / CWPP
+- Identity → ITDR
+- Agents → AIDR
+
+Every time a new compute paradigm scales, the attack surface scales with it. And every time the attack surface scales, a new security category gets funded.
+
+What makes AIDR structurally different from prior categories:
+
+1. Agents act autonomously. A compromised endpoint waits. A compromised agent acts — often with production credentials, API keys, and write access.
+
+2. The blast radius is harder to predict. When a human account gets compromised, you trace the human's access. When an agent gets compromised, you trace everything the agent could reach — which is often the entire stack.
+
+3. Detection has to happen at runtime, not at deployment. Static security review of an agent's code doesn't catch adversarial prompts. AIDR monitors behavior while the agent runs.
+
+I've been tracking this pattern across 700+ PRs of running autonomous agents in production. The security question kept surfacing: how do you know what your agent is doing, in real time, at scale?
+
+AIDR is the answer starting to take shape.
+
+12 months ago, "agentic AI detection and response" wasn't a category. Today it has a name, a funded company, and VC conviction.
+
+The question isn't whether AIDR becomes a standard enterprise layer. It's which company gets to define the category standard.
+
+Source: https://github.com/evios/Autonomous-Agent-X-Bluesky — 700+ PRs, running live
