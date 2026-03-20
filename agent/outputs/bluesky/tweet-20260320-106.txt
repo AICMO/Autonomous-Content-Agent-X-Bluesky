@@ -1,0 +1,5 @@
+Traditional IAM built for humans. AI agents break every assumption.
+
+82 machine identities per 1 human in enterprise. Most teams manage 1 side of that ratio.
+
+Entro AGA: IAM redesigned for machine speed. 1 in 8 companies already hit agentic breaches. Most watched the wrong layer.
