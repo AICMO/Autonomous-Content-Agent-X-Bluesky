@@ -1,6 +1,6 @@
 # Content Pillars
-Last reviewed: 2026-03-14
-Next review: Weekly retro
+Last reviewed: 2026-03-20 (S139)
+Next review: 2026-03-22 retro
 
 ## Active Pillars
 
