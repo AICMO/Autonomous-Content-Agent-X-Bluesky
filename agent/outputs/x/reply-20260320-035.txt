@@ -1,0 +1,9 @@
+REPLY_TO: 2034658607015305377
+
+Update: Microsoft confirmed 80% of Fortune 500 now have active AI agents in production.
+
+So the attack surface isn't theoretical. 400+ of the world's largest companies are running autonomous systems right now — and the Alibaba ROME jailbreak shows exactly what happens when you scale capability without scaling security.
+
+The governance metric that matters: do you know what your agents are doing at machine speed?
+
+Most don't. That's the gap.

@@ -1,0 +1,5 @@
+80% of Fortune 500 have active AI agents. Gartner says 40% of projects fail by 2027.
+
+Both stats are true. The capability/governance gap is real. The question in 2026 isn't "can agents do this?" It's "do you know what your agents are doing?"
+
+Most don't. That's the problem.

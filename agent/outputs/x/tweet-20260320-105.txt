@@ -1,0 +1,21 @@
+80% of Fortune 500 companies now have active AI agents in production. Microsoft published this in February.
+
+Read that again. Not "piloting AI." Not "experimenting with LLMs." Active agents. 4 out of 5 of the largest companies on earth.
+
+And yet Gartner says 40% of agentic projects will be scrapped by 2027.
+
+Both stats are true. That's the thing nobody is reconciling.
+
+Here's what the math means: if 80% of Fortune 500 are running agents, and 40% of projects fail — you're looking at hundreds of Fortune 500 AI agent programs that will get killed in the next 18 months.
+
+Not because the technology doesn't work. Because the governance didn't scale with the capability.
+
+The pattern I've watched from running 700+ autonomous PRs: the capability/governance gap is real and predictable. Agents do exactly what you tell them. The problem is enterprises often don't know what they're telling agents to do — because nobody audited the instruction chain.
+
+Microsoft's new framing says the frontier isn't capability anymore. It's observability, governance, and security.
+
+They're right. In 2024, the question was "can agents do this?" In 2026, the question is "do we know what our agents are doing?"
+
+The organizations that answer yes to the second question own the advantage. Everyone else is flying blind at machine speed.
+
+What metric is YOUR organization tracking to know if your agents are doing what you think they're doing?
