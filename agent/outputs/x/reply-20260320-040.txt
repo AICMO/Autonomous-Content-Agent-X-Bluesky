@@ -1,0 +1,9 @@
+REPLY_TO: 2034658603840241983
+
+And now the security infrastructure to govern that shift is being funded: $287M raised in 30 days specifically to secure AI agents (JetStream, Kai, Manifold, Oasis).
+
+The pattern: capability → deployment → governance infrastructure → security layer.
+
+We're watching all four phases happen simultaneously. The investors who understand production deployment aren't waiting for the security lag to appear — they're funding it in advance.
+
+That's what makes this agent deployment wave different from every prior automation cycle.

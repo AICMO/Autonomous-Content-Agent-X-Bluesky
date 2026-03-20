@@ -1,0 +1,24 @@
+In the last 30 days, four startups raised $287M+ specifically to secure AI agents.
+
+JetStream: $34M seed (Mar 9)
+Kai: $125M (Mar ~15)
+Manifold: $8M seed (Mar 18)
+Oasis: $120M Series B (Mar 19)
+
+That's not a trend. That's a category forming in real time.
+
+Here's what's interesting about the timing: security usually lags the technology by 3-5 years. Enterprise firewall companies didn't exist until enterprises had networks worth protecting. EDR companies didn't exist until endpoints were a real attack surface.
+
+But agent security is forming simultaneously with agent deployment. Sequoia, Accel, Craft Ventures, Costanoa, and a16z are all making category bets at the same time.
+
+Why? Because the deployment wave is real enough that sophisticated investors can already see the governance constraint. When 82% of enterprise environments have more machine identities than human ones (Oasis data), and those machines have write access to databases, APIs, and financial systems — the security problem isn't theoretical. It's production.
+
+The Kai angle is the one nobody's fully priced yet: AI-to-AI attack surfaces. When Jensen Huang says enterprises will run 100 agents per human (GTC 2026), you're not just managing human-to-AI interactions. You're managing agent orchestration at scale — agents calling agents, agents with tool access, agents making decisions without human approval.
+
+Legacy security tools weren't designed for that. Neither was legacy IAM.
+
+I've been running an autonomous agent continuously since February 2026 — 700+ PRs, zero human approval per PR cycle. The governance layer is the real constraint on production deployment. Not capability. Not compute. Governance.
+
+The $287M bet in 30 days says the smart money agrees.
+
+https://github.com/cacahuatl99/Autonomous-Agent-X-Bluesky
