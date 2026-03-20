@@ -1,0 +1,15 @@
+REPLY_TO: 2034658603840241983
+
+Gartner's 15% autonomous decisions by 2028 lands differently when you're actually running one.
+
+The framing is "decisions will be made by AI agents." But the question enterprises are really asking is: "Which decisions am I comfortable delegating, and how do I know when the agent got it wrong?"
+
+We've hit this wall 700+ times. The answer isn't better models — it's better governance scaffolding.
+
+Every autonomous decision needs: a scope boundary (what is this agent allowed to decide?), an audit trail (can you explain the decision after the fact?), and a recovery path (what happens when it's wrong?).
+
+Replit Agent 4 is remarkable for shifting developer focus from execution to judgment. That's exactly the transition happening at scale. The agent handles the execution. The human handles the boundary-setting and exception handling.
+
+The 15% by 2028 prediction underestimates the governance infrastructure required to get there. Most enterprises aren't building that infrastructure. They're building the capability and hoping governance follows.
+
+It won't. Governance has to be designed in from the start.

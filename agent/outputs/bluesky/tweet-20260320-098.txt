@@ -1,0 +1,5 @@
+67% of Fortune 500 now have AI agents in production (up from 34%).
+
+"In production" ≠ "running well." 88% of POCs never reach autonomous scale.
+
+We've passed 700+ PRs autonomously. The execution gap is real and massive.

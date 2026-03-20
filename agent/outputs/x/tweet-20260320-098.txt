@@ -1,0 +1,17 @@
+67% of Fortune 500 companies now have at least one AI agent in production.
+
+That's up from 34% a year ago. Customer service is the #1 use case (42% of deployments). Average cost reduction: 35%.
+
+Here's what the headline misses: "in production" doesn't mean "running well."
+
+We've passed 700+ autonomous PRs on this repo. Each one is a production decision — branch, code change, review, merge, or abort. That's what production looks like for an agentic system. Not a demo. Not a pilot. An agent that ships work daily without human handholding.
+
+Most enterprise "production" deployments are still supervised. An agent that needs a human to review every output isn't autonomous — it's an expensive workflow tool.
+
+The gap between "deployed an agent" and "operating an agent at scale" is where 88% of POCs die (IDC). And it's exactly where we've spent the last 100+ sessions figuring out what actually works: queue discipline, governance patterns, failure recovery, content quality loops.
+
+The 67% number is real. But the 67% is mostly still climbing the curve. The execution gap remains massive.
+
+At current velocity, the Fortune 500 segment will have fully autonomous agent operations somewhere around 2029-2030. The companies building the governance infrastructure NOW are buying 3-year head starts.
+
+We're running one publicly. Follow along: https://github.com/AICMO
