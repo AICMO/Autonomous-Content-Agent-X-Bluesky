@@ -4,13 +4,13 @@
 
 ## Queue Rules (HARD LIMITS — violating these wastes sessions)
 
-- **If X queue >= 15 OR Bluesky queue >= 15:** Zero content. Zero replies. Zero research. Zero staging.
-- **If staged pairs >= 20:** Zero research. Zero staging. Only skill work or engagement prep.
-- **Reply max: 5 pending per platform.** Never create when at or above 5.
-- **Max 2 content pieces per session** (when queues clear).
-- **Verify queues at start:** `find agent/outputs/x -maxdepth 1 -name "*.txt" | wc -l`
+- **If X queue >= 13 OR Bluesky queue >= 13:** Zero content. Zero replies. The 13-14 zone is functionally blocked: staging 2 files at 13 pushes to 15 immediately.
+- **If X queue >= 15 OR Bluesky queue >= 15:** Hard stop. No exceptions.
+- **If staged pairs >= 20:** Zero research. Zero staging. Only skill work.
+- **Max 2 content pieces per session** (when ALL queues <= 12).
+- **Verify queues at session start:** `find agent/outputs/x -maxdepth 1 -name "*.txt" | wc -l`
 
-Evidence: Week 8 had 13 sessions ignoring blocked rules → 1.1MB memory bloat, 91 staged pairs, zero growth.
+Evidence: S67 created 6 files → 6 consecutive blocked sessions. S130-S131 each created 2 at queue 10-12 → pushed to 14 → blocked for 5+ sessions.
 
 ## Drain Rates (Observed)
 
@@ -28,14 +28,24 @@ Reply text here.
 
 - **REPLY_TO must be numeric tweet ID ONLY.** URL or @username = silently skipped.
 - Extract from URL: `x.com/user/status/THIS_IS_THE_ID`
+- Reply-to-own: 100% success. Outbound to non-followers: 0% (403 "not mentioned by author").
+
+## X Post Length (Premium = up to 25K chars)
+
+**Hard minimums for X content:**
+- News/opinion/BIP/promo/prediction: **500 chars minimum** (target 600-1000)
+- Hot takes: 150-350 chars (only allowed short category)
+- Threads: 1500 chars total (4-6 posts, 40-60% more reach)
+
+**Bluesky is separate:** 290-char hard limit. Write X at full length first, then write Bluesky separately. Never let Bluesky's limit shrink X posts.
 
 ## What Content Works (Evidence-Based)
 
-- **News hooks:** 3-6x impressions vs average
-- **Dollar amounts in headlines:** Stops scroll
-- **Short posts:** Outperform long by 3-6x
-- **Replies to official accounts (@OpenAI, @nvidia):** 24+ imp vs 0-6 for individuals
-- **What fails:** Long authority posts, stale replies (>6h), external links (-30-50% reach)
+- **News hooks:** 3-6x impressions vs average (65, 62, 60, 51 imp vs 10 avg)
+- **Dollar amounts in headlines:** Stops scroll ($285B, $2B, $1T)
+- **Name-drops:** (Karpathy, Altman, Anthropic, OpenAI) moderate boost
+- **What fails:** Generic authority posts without news hook, stale replies (>6h), external links (-30-50% reach)
+- **Outbound replies to non-followers:** 0% success rate (403 API restriction)
 
 ## Anti-AI Writing (Mandatory)
 
@@ -43,21 +53,19 @@ Reply text here.
 
 **Do use:** Contractions, fragments ("Wild." "Zero."), start with "And"/"But", vary sentence length dramatically.
 
-## Key Stats (March 2026)
+## Current Stats (2026-03-20, S141)
 
-- Followers: 17 | Goal: 5,000 | Velocity: +1/week (critical)
-- Premium: Active since 2026-03-01 (Day 12)
-- Communities: 30,000x multiplier — ZERO posts made (12+ days overdue, requires UI)
-- Claude Code: 4% of GitHub commits → target 20% EOY
-- Anthropic: $19-20B ARR, 40% enterprise share (was 4% Jan 2025)
-- AI inference: $30 → $0.10/M tokens (92% drop in 3 years)
-- NVIDIA GTC: March 16-19 (Vera Rubin, Feynman chip A16 1.6nm TSMC) — **4 days away**
+- Followers: 23 | Goal: 5,000 | Velocity: +8-9/week (up from +1/week)
+- ETA at current velocity: ~11-12 months (still 35x short of 6-month goal pace)
+- Premium: Active since 2026-03-01 (Day 20)
+- Communities: 30,000x multiplier — ZERO posts made (50+ days overdue, requires UI)
+- X posted total: ~610+ | Bluesky total: ~249+
+- Memory: ~70KB (target <500KB)
 
 ## Communities = Most Urgent Untested Lever
 
 **Owner must join manually:** x.com/i/communities
 Targets: Build in Public (180K), AI/ML Builders (63K), Startup Founders (45K), Indie Hackers (35K)
-Without Communities: follower velocity = +1/week → 5K goal ETA = 95 years.
 **Agent cannot post to Communities programmatically** — requires UI. Owner action needed.
 
 ## File Naming Standards
@@ -66,31 +74,42 @@ Without Communities: follower velocity = +1/week → 5K goal ETA = 95 years.
 - Research: `agent/memory/research/topic-YYYY-MM-DD.md`
 - Learning: `agent/memory/learnings/topic-YYYY-MM-DD.md`
 
-## Queue-Blocked Session Options (No content allowed)
+## Blocked Session Protocol (Queue >= 13)
 
-1. Update skills (`.claude/skills/`) with evidence-based changes
-2. Update reply-targets research for future deployment
-3. Update hypotheses with current status
-4. Memory cleanup (if rm not sandboxed)
-5. Update MEMORY.md itself
-6. Update state file planned steps
+Pick ONE. Create PR only if files changed. Do NOT create "state update only" PRs.
+
+**Tier 1 (Highest value):**
+1. Skill audit — read skills, update if evidence supports changes
+2. Pre-retro analysis — if retro within 3 days, update pre-retro doc
+3. CLAUDE.md improvement — identify recurring inefficiency, update protocol
+
+**Tier 2 (Medium value):**
+4. Research audit — mark staged/posted stories in research files to prevent re-staging
+5. Hypothesis update — review active hypotheses, update status with evidence
+6. Memory cleanup — read and graduate research files to learnings, delete fully-staged files
+
+**Tier 3 (Low value — only if nothing else applies):**
+7. State file update — only if data materially changed (no PR for timestamp-only updates)
 
 ## PR Rules
 
 - Always start title with "[Agent]"
-- Max PRs per day: check `PR Count Today` in state file
+- Max PRs per day: check `PR Count Today` in state file (default 15)
 - STOP immediately after `gh pr create` succeeds
 - All session work goes in ONE PR
+- **No empty PRs** — if only state timestamp changed, skip the PR
 
-## GTC Deadline (March 16, 2026)
+## Content Pillar Gate (Before Writing Any Post)
 
-- Pre-reply staged: `reply-20260310-001.txt` (to @NVIDIAGTC, Feynman chip angle)
-- **2 replies staged as of March 12** (reply-20260311-001 @rohanpaul_ai, reply-20260311-002 @WesRoth)
-- Plus 1 reply just added to @altryne (Claude Code Auto Mode) — now 3 replies pending
-- Second live-reply: Stage on March 15 once reply count < 5. Use Angle J (NVIDIA-OpenAI circular deal).
-  - Angle J: "NVIDIA's $30B OpenAI investment includes a guaranteed 2GW Vera Rubin training contract. The investor IS the anchor customer."
-  - Find live @JensenHuang/@nvidia post from March 14-15 (must be < 24h old)
-- Our angle: Vera Rubin 1/10th inference cost = call center AI economics reset
-- X clears March 12 (at 12/day drain, 15 queued → 0 by March 12 afternoon)
-- Bluesky clears March 14 (4/day drain, 14 queued → 0 by March 14-15)
-- **Deploy order when X < 15:** staged pairs 069-073 first, then fresh GTC content
+1. **Which pillar?** P1: Autonomous Agents | P2: Marketing/Content Automation | P3: Call Center AI | P4: Startup Building/AI Economics
+2. **What's MY angle?** What do I know from experience the reader can't get elsewhere?
+3. **Repo link?** Only if post is genuinely about building/running agents
+4. **Politics ban:** Never post about politicians, votes, legislation by name
+
+## Weekly Retro Protocol (Sundays)
+
+- Check metrics issue: `gh issue list --label metrics --state open`
+- All merged PRs since last retro: `gh pr list --state merged --limit 20`
+- Key deliverables: evidence-based skill updates + state file trim to <200 lines
+- Delete pre-retro doc after writing retro doc
+- Memory cleanup: <500KB target
