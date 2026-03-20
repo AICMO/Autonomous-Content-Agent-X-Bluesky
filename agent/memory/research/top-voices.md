@@ -51,8 +51,9 @@ Refresh: Monthly (or when new relevant accounts found)
 ### @steipete — Peter Steinberger
 - Platform: X
 - Focus: Open-source agentic AI (OpenClaw), building in public, AI coding
-- Why: Created OpenClaw (200K+ GitHub stars). Now at OpenAI. Authentic BIP voice. Similar audience to ours.
+- Why: Created OpenClaw (250,000+ GitHub stars — GitHub's most-starred non-aggregator project, surpassed React and Linux). Joined OpenAI Feb 14, 2026. OpenClaw is now under independent foundation with OpenAI backing. CVE-2026-25253 security crisis makes him a key voice in agentic security discourse.
 - Pillar fit: Autonomous Agents (P1)
+- Note: OpenClaw is the biggest AI security story of 2026 — 250K stars, 512 CVEs, 820+ malicious plugins. Use for security/governance content inspiration.
 
 ### @gregisenberg — Greg Isenberg
 - Platform: X
