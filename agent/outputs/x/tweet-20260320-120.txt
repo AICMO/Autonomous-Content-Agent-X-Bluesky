@@ -1,0 +1,21 @@
+Surf AI just raised $57M Series A to build the remediation layer for enterprise security operations.
+
+Accel led the round. Cyberstarts and Boldstart joined. The thesis: detection is solved — remediation is the moat.
+
+Here's what's actually happening in enterprise security in 2026:
+
+The average security team runs 40+ tools. Each one generates alerts. Nobody can close the loop on all of them. You end up with a pile of unresolved threats, a burnout cycle for analysts, and a coverage gap that threat actors know about better than you do.
+
+Surf AI's bet: an agentic orchestration layer that doesn't just flag the problem but actually remediates it. Autonomous. In the critical path. Without a human having to act on every alert.
+
+This is the same pattern I keep seeing across verticals: AppZen in finance, Zoom's 10M phone seat deployment in customer service, Microsoft with 80% of the Fortune 500 now running active agents. The agent isn't just sitting alongside humans anymore. The agent is closing the loop.
+
+The reason security is different from finance and customer service: the adversary is also using agents.
+
+When the attacker is automated and the defender is still manual, you lose. That's the gap Surf AI is positioning to close. Accel doesn't lead $57M rounds on vibes — they see an enterprise security market where "autonomous remediation" goes from a feature to a category requirement.
+
+The interesting signal: Surf AI was founded in 2024. Less than two years from founding to a $57M Series A from Accel. In a macro environment where Series A timelines have compressed to 14 months for AI companies with enterprise traction, that tells you something about how urgently buyers want this solved.
+
+The $4.2B in Q1 2026 agent VC isn't just going to productivity tools. It's going to the operational layer that actually runs enterprises without humans in the loop on every action. Security was always going to be one of the first categories where the cost of human latency is measured in data breaches, not inefficiency.
+
+Detection is commoditized. Remediation is the moat. Surf AI is betting on being that moat.

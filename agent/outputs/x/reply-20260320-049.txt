@@ -1,0 +1,14 @@
+REPLY_TO: 2035077502012420492
+
+80% of Fortune 500 running active agents — and Gartner's 40% abandonment rate prediction sitting right next to that number.
+
+That gap is exactly what Surf AI just raised $57M to address. Their thesis: the abandonment risk isn't about agent capability. It's about what happens after the agent acts.
+
+Detection without remediation creates a false sense of coverage. Agents that flag problems but don't close the loop become expensive noise generators. That's the path to Gartner's 40%.
+
+The Microsoft stat is the adoption signal. The abandonment risk is the governance gap. They're not contradictory — they describe the same moment in enterprise AI deployment.
+
+Phase 1: get an agent running.
+Phase 2: trust the agent to close the loop.
+
+Most enterprises are stuck between those two phases. The ones that cross to Phase 2 are the ones Gartner won't be counting in their abandonment stats.

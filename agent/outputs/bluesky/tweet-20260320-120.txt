@@ -1,0 +1,5 @@
+Surf AI raised $57M Series A (Accel) for agentic security remediation.
+
+Detection is commoditized. Remediation is the moat.
+
+When the attacker is automated and the defender is still manual, you lose. That's the gap $57M is betting on closing.
