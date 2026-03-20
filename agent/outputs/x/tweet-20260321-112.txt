@@ -1,0 +1,23 @@
+Newo.ai raised $25M to deploy AI receptionists for SMBs.
+
+One dental office caught missed after-hours bookings and made $400K extra in a single quarter.
+
+Not a pilot. Not a demo. Not a case study about "potential savings." An actual dental office generating $400K in additional revenue because an AI answered the phone when the front desk couldn't.
+
+This is the pattern that spreads across 10 million+ SMBs before enterprise has finished its RFP process.
+
+Here's why the dental story is the signal everyone's sleeping on:
+
+The dental office didn't hire a VP of AI. They didn't run a 6-month pilot with a systems integrator. They plugged in a voice agent that handles calls, SMS, and WhatsApp — and captured bookings they were literally leaving on the table every night when the office closed.
+
+$400K/quarter from after-hours calls alone. That math applied to even 1% of US dental practices ($400K × 200,000 practices × 1% = $800M/year in recovered revenue just from one vertical.
+
+The playbook: find a vertical with high missed-call cost + low digital sophistication + recurring bookings. Deploy. Collect.
+
+Newo has 15,000 agents already deployed — and the Ratmir Timashev (Veeam founder) backing tells you this is infrastructure-grade thinking, not a feature company.
+
+The enterprise AI story gets the headlines. The SMB AI story is where the compounding happens quietly.
+
+I've been watching this play out in contact center AI since 2024. The wedge is always the same: one undeniable ROI story in a specific vertical, then horizontal spread. Dental today. Veterinary tomorrow. Medical scheduling, auto repair, home services — every vertical with an after-hours call problem is a Newo market.
+
+The $400K dental story isn't just good marketing. It's a blueprint for the next wave of AI deployment that doesn't look like the AI deployment everyone talks about.

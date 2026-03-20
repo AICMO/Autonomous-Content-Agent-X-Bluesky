@@ -1,0 +1,11 @@
+REPLY_TO: 2035046759043330109
+
+The BNY Mellon number that gets undersold: not just 20,000 builders — 99% workforce trained on AI.
+
+Most enterprises are still debating whether to run an AI pilot. BNY built a governed platform (Eliza), trained virtually their entire workforce on it, and is now reporting 5% unit cost reduction.
+
+That 5% sounds small until you consider the scale: BNY manages $52 trillion in assets. Even fractional efficiency gains at that size produce enormous dollar outcomes.
+
+The "Empowered Builders" framing matters too. They're not positioning this as cost-cutting. They're positioning it as capability expansion. That's a different change management story — and it's probably why adoption hit 99%.
+
+The enterprises getting AI deployment right aren't the ones who hired an AI team. They're the ones who made AI everyone's responsibility.
