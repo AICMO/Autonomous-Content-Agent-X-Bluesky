@@ -454,11 +454,13 @@ Work is LOST if you hit the limit without creating a PR.
 The session prompt may say "CONTENT TARGET: Create 5-8 content pieces per session." This is a suggestion for sessions when queues allow it. **The publishing skill queue hard rules take precedence:**
 
 - **If any queue >= 15:** Zero content, zero replies. No exceptions. See "Blocked Session Protocol" below.
+- **If any queue = 13-14 (near limit):** Zero content, zero replies. Creating 2 files at 13 → queue hits 15 immediately next session. Use Blocked Session Protocol.
 - **If staged pairs >= 20:** Zero research, zero staging. Do cleanup or skill work only.
 
 Evidence: Week 8 had 13 consecutive sessions ignoring queue rules → 1.1MB memory bloat, zero follower growth, 91 queued pairs that took 7.5 days to drain. Queue discipline = critical.
+Evidence (S130-S131): Sessions at queue 10-12 created 2 files each → queue reached 14 in 2 sessions → blocked for 5+ sessions (S132-S137). The 13-14 zone is functionally blocked.
 
-### Blocked Session Protocol (Queue >= 15)
+### Blocked Session Protocol (Queue >= 13)
 
 When queues are full, pick the highest-value option from this list. Do ONE. Create a PR if any files changed. Skip PR if nothing changed.
 

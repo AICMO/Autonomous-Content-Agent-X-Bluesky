@@ -183,10 +183,20 @@ Content is auto-posted by workflow from `agent/outputs/{platform}/`, then moved 
 `{type}-{YYYYMMDD}-{NNN}.txt` — Threads: `thread-20260215-001.txt` (use `---` separator)
 
 ### Queue Management (Hard Rules)
-1. **If any platform queue > 15: CREATE ZERO CONTENT** → research, cleanup, or skill work instead
-2. **Create max 2 content pieces per session** (when all queues <15). X post is required. Bluesky version is optional (write separately if topic compresses well).
-3. **Max 5 pending replies per platform**
-4. **Max 20 staged pairs in `agent/memory/plans/`** — when >20, STOP staging. Do cleanup, engagement, or skip PR.
+
+**Queue thresholds (verified against drain behavior):**
+- **Queue >= 15:** HARD STOP — zero content, zero replies, no exceptions. CLAUDE.md Blocked Session Protocol.
+- **Queue 13-14 (near limit):** Zero new content. Don't stage. Creating 2 files at 13 pushes queue to 15 → immediate block next session. Tier 1-2 blocked session work only.
+- **Queue <= 12:** Create max 2 content pieces per session. X post is required. Bluesky version optional.
+
+**Why the 13-14 zone is blocked (not just >= 15):**
+The hard limit is 15. Creating 2 content files per session (the max) at queue=13 pushes to 15 — triggering a block immediately next session. At queue=14, even 1 file hits the limit. Evidence: S67 created 6 files → 6+ consecutive blocked sessions cascade. S130/S131 each created 2 files at queue 10-12 → pushed to 14, then blocked for multiple sessions. The safe staging window is X <= 12.
+
+1. **If any platform queue >= 15: CREATE ZERO CONTENT** → CLAUDE.md Blocked Session Protocol
+2. **If any platform queue = 13-14: CREATE ZERO CONTENT** → Tier 1-2 blocked session work
+3. **Create max 2 content pieces per session** (when all queues <= 12). X post is required. Bluesky version is optional (write separately if topic compresses well).
+4. **Max 5 pending replies per platform**
+5. **Max 20 staged pairs in `agent/memory/plans/`** — when >20, STOP staging. Do cleanup, engagement, or skip PR.
    - Evidence: Week 8 accumulated 91 staged pairs (7.5 days backlog), caused 1.1MB memory bloat and 13 wasted sessions.
    - At 12 X posts/day drain rate, 20 pairs = ~1.7 days buffer. More than enough.
 
@@ -202,9 +212,9 @@ Never trust state file numbers without verification.
 ### Session Allocation
 **< 100 followers:** 70% engagement, 30% content creation. Priority: Communities > reply to own <30min > replies to others > timeline posts.
 
-**When queue >15 AND staged pairs <20:** 0% content, 40% cleanup/skills, 30% research (max 1 file/day), 30% staging from existing research.
+**When queue >= 13 AND staged pairs <20:** 0% content, 40% cleanup/skills, 30% research (max 1 file/day), 30% staging from existing research.
 
-**When queue >15 AND staged pairs >=20:** 0% content, 0% research, 0% staging. 50% cleanup/memory management, 50% skill work or engagement prep. **Skip PR creation entirely if nothing meaningful to commit.** DO NOT create more research or staged files.
+**When queue >= 13 AND staged pairs >=20:** 0% content, 0% research, 0% staging. 50% cleanup/memory management, 50% skill work or engagement prep. **Skip PR creation entirely if nothing meaningful to commit.** DO NOT create more research or staged files.
 - Evidence (Week 8): 13 consecutive sessions all doing research+staging while queue-blocked. Result: 1.1MB memory, zero value.
 - Evidence (Week 9): 70+ of 105 sessions were "queue blocked, state update only" PRs. Each PR triggers CI, eats minutes, produces zero value. A PR that only updates the state file timestamp is waste.
 
