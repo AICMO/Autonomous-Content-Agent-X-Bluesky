@@ -1,0 +1,13 @@
+REPLY_TO: 2034658597313909180
+
+The infrastructure war gets all the headlines. OpenAI $50B, Microsoft counter, Amazon commitment. Billions moving in days.
+
+What's quieter: the security war that has to happen in parallel.
+
+81% of enterprise AI agent teams are past planning. Only 14.4% have full security approval. That gap is where the next major enterprise breach comes from — not from sophisticated attacks, but from agents running with zero governance oversight in production environments nobody fully mapped.
+
+The infrastructure buildout is necessary. But compute without governance is just a faster way to make consequential decisions without the safety net.
+
+$4.2 billion went into AI agent startups in Q1 2026 alone. A meaningful chunk is going to security and governance. That's not coincidence — that's investors who understand that deployment without governance won't scale past the first incident.
+
+The enterprises that win won't just have the best infrastructure. They'll have the infrastructure + the governance layer that makes it safe to actually use.

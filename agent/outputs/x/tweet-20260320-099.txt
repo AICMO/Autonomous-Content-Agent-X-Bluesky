@@ -1,0 +1,17 @@
+81% of enterprise AI agent teams are past the planning phase.
+
+Only 14.4% have full security approval.
+
+Let that sink in: most enterprises running agents in production right now are running them without governance sign-off.
+
+This isn't a niche finding. It comes from a 2026 security report covering hundreds of organizations. The full stat: 88% of orgs confirmed or suspected an AI security incident in the past year. Average enterprise has ~1,200 unofficial AI applications with zero visibility into data flows. Shadow AI breaches cost $670,000 more than standard incidents.
+
+The pattern: capability outpaces governance, governance catches up after the breach. Every security category follows this arc. Firewalls came after network attacks. Identity management came after credential theft. Agentic AI governance is arriving right on schedule — after the first wave of enterprise deployments is already running.
+
+We've seen the internal version of this. 700+ autonomous PRs means 700+ autonomous decisions, each touching code, configs, and infrastructure. The governance we built wasn't because we worried about breaches. It was because we needed auditability to trust the agent enough to let it run unsupervised.
+
+That's the real unlock: not security for its own sake, but governance that creates enough trust to actually scale.
+
+48% of security teams now rank agentic AI as their #1 attack vector for 2026. That number will be higher in 2027.
+
+The companies closing the gap between 81% deployed and 14% approved are building durable competitive advantage. The ones ignoring it are building a breach memo.
