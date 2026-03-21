@@ -1,0 +1,17 @@
+REPLY_TO: 2034658597313909180
+
+And the week after OpenAI signed with Amazon, Nscale closed $2B at $14.6B valuation — Europe's largest funding round ever.
+
+NVIDIA, Citadel, Dell, Jane Street. All in the same round.
+
+The pattern: the compute infrastructure war isn't just US vs China. It's also US hyperscalers vs European sovereign infrastructure vs the new independents. Nscale, Nebius, CoreWeave — all raising at scale to be the third option.
+
+What enterprises actually want: not US hyperscaler lock-in, not state-controlled compute. An independent layer they can negotiate with, audit, and potentially repatriate if the regulatory environment shifts.
+
+$4.5B raised in 6 months. IPO on the table.
+
+The OpenAI-Amazon deal proved the demand is real. Nscale is building the alternative. Both can win if enterprise AI adoption hits the projections — 67% of Fortune 500 already have agents in production, up from 34% last year.
+
+The infrastructure constraint isn't compute anymore. It's governance. Which entity owns your data when your agent runs on their hardware?
+
+That question is going to matter a lot more in 2027.
