@@ -1,0 +1,23 @@
+$80B. That's how much contact center labor cost gets removed from global operating budgets by conversational AI in 2026, per Gartner.
+
+Not "eventually." This year.
+
+The number sounds headline-friendly until you dig into what's actually driving it:
+
+- 70%+ ROI in Year 1 for companies that get the handoff architecture right
+- 25-35% FCR improvement when AI resolves first-contact
+- 40-60% containment in voice — meaning half your call volume never reaches a human
+
+Here's the part nobody talks about: the $80B isn't coming from AI being smarter than agents. It's coming from AI being infinitely patient and always available. Speed + consistency > intelligence for most contact center workflows.
+
+The risk isn't deployment. That's mostly solved. The risk is the handoff design.
+
+When does AI pass to human? What context does the human get? Is it full call transcript, intent summary, sentiment read, CRM history — or does the agent have to start from scratch?
+
+That last question is where most implementations fall apart. I've watched it happen: 40% containment rate, 60% escalations, and escalated customers arriving at human agents with zero context. Worse than the old IVR.
+
+The companies that win the $80B are the ones that treat the handoff as a first-class product problem — not an afterthought.
+
+Build the resolution layer first. The cost savings follow.
+
+[thread: @tau_rho_ai building call center AI infrastructure since before Salesforce crossed the line]

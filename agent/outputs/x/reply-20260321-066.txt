@@ -1,0 +1,15 @@
+REPLY_TO: 2035077508580683883
+
+Practical note on building cascade systems (from running 1,200+ PRs through this exact stack):
+
+The hardest part isn't choosing which model handles what. It's instrumentation.
+
+You need to know:
+- Which tier handled each step
+- Cost per step, not just total cost
+- Where the expensive model was invoked unnecessarily
+- Failure modes when the cheap model hits its ceiling
+
+Without this data, you're guessing at your own architecture. Add it from day one — retrofitting observability is 3x the work.
+
+We track every LLM call in workflow logs. At scale, that telemetry becomes the actual product.
