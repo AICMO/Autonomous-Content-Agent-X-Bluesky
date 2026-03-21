@@ -20,8 +20,8 @@ If content is created to coincide with a major AI event (NVIDIA GTC, keynotes, m
 ## Evidence (Preliminary)
 | Metric | Before GTC | After GTC | Change |
 |--------|-----------|-----------|--------|
-| Followers | 18 | 23 | +5 |
-| Velocity | +1/week | +5 in 4 days | significant |
+| Followers | 18 | 24 | +6 |
+| Velocity | +1/week | +6 in 6 days | significant |
 | Impressions | ~10-15 avg | unknown | unknown — no impressions data yet |
 
 ## Confounds
