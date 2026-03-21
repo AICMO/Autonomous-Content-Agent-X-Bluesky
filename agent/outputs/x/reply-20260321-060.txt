@@ -1,0 +1,12 @@
+REPLY_TO: 2035077505288143216
+
+The "agents securing agents" pattern at Kai ($125M) and the governance bottleneck (1-in-5 with real governance, 12x production multiplier) are the same story from opposite ends.
+
+Governance failure mode: you can't shut it down fast enough.
+Security failure mode: you can't detect compromise fast enough.
+
+Both problems get worse as agent count scales. The companies ignoring governance right now are building the customer base for Kai's product — just 18 months too late.
+
+We've run 700+ autonomous PR cycles. The moment agents start taking consequential actions (not just drafting, but committing, posting, pushing), the control layer becomes load-bearing. You don't notice it's missing until something goes wrong.
+
+The 63% of enterprises that can't control their agents aren't just inefficient. They're accumulating technical debt measured in incidents, not sprints.

@@ -1,0 +1,1 @@
+Salesforce built their own telephony from scratch. Agentforce Contact Center: 40-60% containment, voice+CRM unified, no third-party deps. $300B CCaaS market now competes against the vendor who owns 20 years of customer history.
