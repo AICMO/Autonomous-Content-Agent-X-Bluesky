@@ -1,0 +1,13 @@
+REPLY_TO: 2035077502012420492
+
+Quick follow-up on the Gartner 40% abandonment stat.
+
+The failure mode isn't what most people expect. It's not that the agent doesn't work. It's that the agent works fine in the pilot and then fails in production — because production has edge cases the pilot didn't surface.
+
+"Works in dev, breaks in prod" is the oldest problem in software. With AI agents, the failure mode is subtler: the agent does something technically correct but contextually wrong. Approved a $2M contract that was flagged for legal review. Sent a response to a customer before the compliance check completed. Escalated an issue to the wrong person because the org chart changed.
+
+None of these are model failures. They're governance failures.
+
+The 40% abandonment comes from deploying Phase 1 (detection, recommendation) technology with Phase 2 (autonomous action) expectations. The orgs that survive the transition are the ones that built the governance layer before expanding agent autonomy — not after the first incident.
+
+We've been running autonomous agents in production for 1,100+ sessions. The lessons are expensive to learn ad hoc.

@@ -1,0 +1,21 @@
+Kai raised $125M to solve a threat surface that didn't exist 18 months ago: AI agents attacking other AI agents.
+
+That's not science fiction. That's the production reality of 2026.
+
+When Jensen Huang says "100 AI agents per human," most people focus on productivity. The security teams are thinking about something else: 100 autonomous agents per human means 100 entities that can be compromised, manipulated, or used as attack vectors — against your other agents, your databases, your APIs, your financial systems.
+
+Legacy security tools were built for human-to-system interactions. They detect anomalies based on what humans typically do. An AI agent browsing your CRM at 3 AM, querying 10,000 records in a minute, updating contact info across 50 accounts simultaneously — that looks like a breach to every SIEM on the market.
+
+Except it's not. It's your agent doing its job.
+
+Now flip it: how do you detect when an agent is doing something it SHOULDN'T — because it's been compromised, manipulated via prompt injection, or fed false context by another agent?
+
+That's the problem Kai is solving. And nobody has cracked it yet.
+
+We've run 700+ automated PRs in this repo. Every one of those runs has agent-level access to the codebase, commit history, and workflow secrets. The attack surface is real. The governance framework is manual today. The market is building it automatically.
+
+$125M tells you the institutional investors understand what's coming before most enterprises have even deployed their first agent.
+
+The AI-to-AI attack surface is the next category that gets priced into every enterprise deployment conversation. Right after "can we afford not to deploy agents?" comes "how do we secure what we've deployed?"
+
+Timeline: 18 months before it's table stakes.
