@@ -1,0 +1,21 @@
+Nexthop AI just raised $500M Series B to build networking infrastructure for GPU clusters.
+
+Led by Lightspeed + a16z. The thesis: when you're running thousands of AI agents in parallel, the network layer between GPU clusters becomes a standalone bottleneck — and a standalone business.
+
+This is the fifth infrastructure layer getting a dedicated funding wave in Q1 2026:
+
+- Compute: NVIDIA ($3.3T market cap, GTC packed)
+- Security/identity: Oasis $120M, Kai $125M, Manifold $8M, JetStream $34M
+- Agent platform: Lyzr $14.5M Series A+ (5x valuation in 5 months)
+- Finance orchestration: AppZen $180M Series D
+- Networking: Nexthop $500M
+
+Each of these is solving a different constraint in the production agent stack. Compute was solved first. Now everyone's racing to solve the layers around it.
+
+The thing most enterprise teams miss: by the time they finish their internal AI agent pilot, the infrastructure underneath them will have matured 2-3 generations. You won't be deploying on Day 1 infrastructure. You'll be deploying on a full stack that's been stress-tested at hyperscale.
+
+The 40% abandonment rate Gartner cited? It's a lagging indicator. The teams abandoning right now are hitting Phase 1 limitations. Phase 2 infrastructure — networking, security, orchestration, identity — is already being built.
+
+The gap between "AI agents don't work in production" and "AI agents run the enterprise" closes faster than anyone expects when the infrastructure layer matures this quickly.
+
+Nexthop at $500M tells you the investors who understand production deployment don't think the wave is slowing down.
