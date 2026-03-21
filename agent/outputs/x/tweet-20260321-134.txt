@@ -1,0 +1,25 @@
+Snowflake launched Project SnowWork on March 18 — and the framing tells you everything about where this market is going.
+
+Not "AI assistant." Not "copilot." An autonomous AI partner that completes multi-step business tasks from a conversational prompt.
+
+But here's the line that caught me: "democratize agentic AI to every business user."
+
+Every business user. Not every developer. Not every data scientist. Every person in the organization who does knowledge work.
+
+That's a very different thesis than where AI tools started.
+
+The first wave of AI productivity tools assumed the user could write prompts, understand outputs, interpret limitations. Technical-native products for technical-native users. Cursor, Replit, GitHub Copilot — these are spectacular tools that serve a sliver of the knowledge workforce.
+
+Snowflake's bet is that the market for the next wave isn't the developers. It's the 1 billion+ knowledge workers who will never write code but absolutely need agents to work for them.
+
+The interface shift isn't just UX. It's market redefinition.
+
+If the agent is accessible to "every business user," the TAM isn't "enterprise IT budget." It's "every hour a knowledge worker spends on tasks that could be automated." That's an order of magnitude larger.
+
+The constraint until now: agents required technical literacy to configure, prompt, and oversee. That constraint is what Snowflake is trying to dissolve with SnowWork.
+
+Whether they succeed depends on how well they can handle the messy ambiguity of non-technical user intent. "Complete this task" is much harder to parse than "write me a Python function."
+
+But the direction is right. The enterprise agent market isn't won by who builds the most capable agent. It's won by who makes the most accessible agent.
+
+Snowflake is betting on accessibility. Watch this one closely.

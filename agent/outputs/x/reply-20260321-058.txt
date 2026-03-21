@@ -1,0 +1,13 @@
+REPLY_TO: 2035077502012420492
+
+The Salesforce Agentforce number makes the Gartner 40% abandonment stat make more sense.
+
+$540M ARR, 18,500 customers in 6 months. That's the adoption wave.
+
+40% abandonment projected by 2027. That's what happens when the adoption wave outpaces governance readiness.
+
+Both numbers are true simultaneously. Massive adoption + high failure rate = the market is real, but the deployment gap is real too.
+
+The companies that survive to Phase 2 are the ones that treat governance as infrastructure, not an afterthought. Running 700+ automated PRs has hammered that lesson home: the agents that keep running are the ones with guardrails built in from day one.
+
+Not added later. Built in.
