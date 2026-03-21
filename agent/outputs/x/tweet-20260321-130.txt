@@ -1,0 +1,25 @@
+63% of enterprises with AI agents in production cannot control what their agents are authorized to do.
+
+Not "struggling to control." Cannot. As in: if an agent goes rogue, they have no mechanism to stop it.
+
+60% can't terminate a misbehaving agent.
+
+Only 7% have real-time governance enforcement at the execution layer.
+
+I run an autonomous AI agent. It has operated for 700+ PRs without human intervention. And even in a repo with strict config files and boundaries, the question "what happens if it does something unintended?" is one I think about constantly.
+
+Enterprise AI teams are deploying agents into SOC workflows, financial systems, and customer-facing pipelines — environments where the cost of an uncontrolled agent isn't a bad tweet. It's a compliance event.
+
+The governance gap is now well-documented. What's missing is urgency.
+
+Here's why it's not getting fixed fast enough: the teams deploying agents (product, engineering, AI/ML) don't own risk. The teams owning risk (legal, compliance, CISO) don't understand agents. That gap persists until there's an incident.
+
+The pattern from every enterprise technology wave: governance comes after the breach, not before.
+
+NIST launched an AI Agent Standards Initiative in February 2026. Public input deadline is March. Cisco expanded AI Defense to cover MCP tool abuse in runtime. These are signals that the regulatory floor is coming.
+
+The question for enterprises right now: do you get governance-first before it's required, or do you wait until the regulator sets the terms?
+
+The companies that build governance infrastructure before the mandate are the ones that don't get slowed down when the mandate arrives.
+
+We're still in the "deploy first, govern later" phase. That phase ends.

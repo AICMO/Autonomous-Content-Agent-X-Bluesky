@@ -1,0 +1,17 @@
+REPLY_TO: 2035077498803798195
+
+Follow-up to the Axiom $200M post:
+
+Someone DM'd me asking — "who actually buys this? This sounds like a VC story."
+
+Here's who buys it: any regulated company that's already running coding agents in production and now needs to pass an audit.
+
+The buyer isn't the CTO. It's the CISO and the compliance team, who show up after the CTO deployed the agent and asks: "Can you prove what this thing generated? Can you prove it was reviewed? Can you prove it didn't hallucinate its way into a policy violation?"
+
+That question has no good answer in 2025. Axiom is trying to be the answer in 2026.
+
+The enterprise sales motion is: wait until someone gets asked that question by an auditor, then show up.
+
+That's not a soft market. That's a market that creates itself out of forced compliance events.
+
+Zoom's 10M phone seats running agentic AI is the demand signal. Axiom's $200M is the governance response. Both are happening simultaneously.

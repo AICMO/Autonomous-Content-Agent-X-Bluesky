@@ -1,0 +1,26 @@
+Salesforce just launched Agentforce Contact Center and the number that matters isn't the feature list — it's 40-60% containment rate.
+
+Containment means: the AI resolved the customer request. Fully. No human escalation.
+
+That number, in production, across enterprise deployments.
+
+I've been building AI for call centers since 2019 at Ender Turing. Here's what that number means:
+
+In 2019, we were proud of 15% automation rates. 2021, 25% was headline-worthy. 2023, 35% was the enterprise benchmark most vendors chased.
+
+40-60% in 2026 is not incremental. It's a step change.
+
+What changed? Three things converged at the same time:
+1. LLMs can now hold multi-turn context without losing thread
+2. CRM integration is native (not bolted on after the fact)
+3. Voice + digital channels unified into one agent that knows everything
+
+The old model was: automate simple transactions, route everything complex to humans. The new model is: agents handle the complex too, and escalate only when the customer specifically demands a human.
+
+The $47.5B voice AI market projection by 2034 isn't a prediction. It's a conservative extrapolation of what's already happening.
+
+What this means for contact center operators right now: if you haven't benchmarked your current automation rate against 40% containment as the new floor, you're already behind. Not trending behind. Behind.
+
+The Salesforce Agentforce launch doesn't just give Salesforce CRM customers a new feature. It resets the expectation for what enterprise contact center AI looks like.
+
+Every CCaaS vendor now has to answer: "Can you hit 40%?"
