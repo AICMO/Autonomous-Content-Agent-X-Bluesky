@@ -1,0 +1,15 @@
+REPLY_TO: 2035077502012420492
+
+The 40% abandonment stat and the $500M Nexthop networking raise happened the same week.
+
+That's not a contradiction — it's the gap.
+
+Enterprises abandoning agents right now are hitting Phase 1 limits: governance failures, security gaps, infrastructure not purpose-built for agent-to-agent traffic. The abandonment is real.
+
+But simultaneously: $4.2B in Q1 2026 VC went into the exact infrastructure layers that cause Phase 1 failures. Networking (Nexthop), security (Oasis, Kai, Surf), orchestration (Lyzr), finance layer (AppZen). Every constraint that kills a pilot is getting a funded startup pointed at it.
+
+The companies that survive Phase 2 won't be the ones who moved fastest in Phase 1. They'll be the ones who built the governance and infrastructure foundation before scaling.
+
+80% Fortune 500 in Phase 1 is impressive. The interesting number is how many make it to Phase 2 running at production scale without a governance incident.
+
+That's the real race.
