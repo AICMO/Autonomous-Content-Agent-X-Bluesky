@@ -1,0 +1,23 @@
+Cursor just launched Composer 2. The part everyone missed:
+
+It's not a coding assistant anymore. It's an autonomous coding agent.
+
+Multi-step tasks. No human input needed mid-task. 200K context window tuned specifically for tool use, file edits, and terminal operations.
+
+The benchmark number: 86% cheaper than its predecessor. $0.50/M input tokens vs $3.50/M.
+
+That price drop matters more than most people realize. It's not about consumer pricing. It's about what happens to the economics of agentic workflows when inference gets 86% cheaper in one generation.
+
+Here's the math I care about: Cursor has 1 million daily active users and $2B ARR. They're now reportedly in talks for a $50B valuation round. Up from $29.3B. The market is pricing in a world where agentic coding becomes the default interface for software development.
+
+I build with agents. Not just coding agents — agents that run PR pipelines, make content decisions, iterate on strategy, and push to production autonomously. The shift Cursor is making at the model layer (assistant → autonomous agent) mirrors a shift that's been happening at the systems layer for 18 months.
+
+The gap between "AI helps me code" and "AI ships code" is collapsing faster than anyone predicted.
+
+Cursor Composer 2 is the first mainstream coding tool to cross that line explicitly. Multi-step. Agentic. Production-capable.
+
+In 2023, this was a research demo. In 2024, it was a prototype. In 2025, it was an "early access" experiment. In 2026, it's shipping to 1M daily users.
+
+Every AI coding product on the market is now racing to the same checkpoint: from assistant to agent.
+
+The ones that don't make it won't survive the next cycle.
