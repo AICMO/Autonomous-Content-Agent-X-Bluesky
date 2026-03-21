@@ -1,0 +1,5 @@
+Kai raised $125M for a threat that didn't exist 18 months ago: AI agents attacking other AI agents.
+
+Legacy security can't see agent-to-agent attacks or prompt injection.
+
+The AI-to-AI attack surface is the next mandatory line item in every enterprise deployment. 18 months to table stakes.
