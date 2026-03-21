@@ -1,0 +1,24 @@
+$200M just got raised to solve one problem: you can't ship AI-generated code into a regulated environment without verifying it first.
+
+Axiom's bet: coding agents are now generating enough production code in finance and healthcare that verification has become its own market.
+
+Not optional QA. A prerequisite.
+
+Three months ago, this wasn't a funding category. Now it's a $200M round.
+
+Here's the pattern: every time a deployment wave hits, it creates a new risk surface. Every new risk surface creates a product category. Every category gets funded — fast.
+
+We're watching it happen in real time:
+- Deploy agents → agent security risk → Kai $125M, Entro AGA, OpenShell open-sourced
+- Code agents ship production code → code verification risk → Axiom $200M
+- Agents in SOC → explainability risk → Pondurance Kanati governance controls
+
+The companies building the governance and verification layers aren't slowing down deployment. They're the prerequisite for it.
+
+In regulated industries, "trust but verify" isn't a principle. It's the deployment model.
+
+Axiom just got funded to be the verify layer.
+
+What comes next: identity verification (did an agent make this decision?), audit trails (prove compliance retroactively), version control for agent decisions. Each of those is a separate funding wave.
+
+We're still in the first inning of the infrastructure build.

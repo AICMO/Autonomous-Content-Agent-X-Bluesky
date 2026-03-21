@@ -1,0 +1,21 @@
+Replit just raised $400M at $9B.
+
+Three times its previous valuation. In months.
+
+That's not an IDE company valuation. That's a "this replaces a category of labor" valuation.
+
+The thesis behind Agent 4: coding agents stop executing instructions and start making decisions. What to build next. How to structure the solution. Which dependencies to pull. 1000+ step autonomous workflows without handholding.
+
+$3B → $9B tells you investors believe the execution→judgment shift is real.
+
+Most companies are still debating whether to let agents write unit tests. Replit is getting funded to build agents that design the system.
+
+The gap between where most enterprises are and where this is headed is not a gap you close with a longer runway. It's a capability gap.
+
+JPMorgan runs 200+ financial analysis agents. Shopify's agents handle 60% of support tickets. These aren't pilots. They're production systems with real throughput targets.
+
+The companies that figure out the execution→judgment shift first — that's the actual competitive moat in the next 18 months.
+
+Not which model you're on. Not which cloud. Which teams can hand judgment to an agent and sleep at night.
+
+Replit's $9B says a lot of people are betting that's a solved problem sooner than the skeptics think.
