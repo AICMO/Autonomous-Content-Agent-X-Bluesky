@@ -20,23 +20,26 @@ If content is created to coincide with a major AI event (NVIDIA GTC, keynotes, m
 ## Evidence (Preliminary)
 | Metric | Before GTC | After GTC | Change |
 |--------|-----------|-----------|--------|
-| Followers | 18 | 24 | +6 |
-| Velocity | +1/week | +6 in 6 days | significant |
+| Followers | 18 | 25 | +7 |
+| Velocity | +1/week | +7 in 7 days | significant |
 | Impressions | ~10-15 avg | unknown | unknown — no impressions data yet |
+| Post-GTC (2026-03-21) | 23 → 25 | +2 on Day 21 | No new content posted (X queue=14) — existing posts circulating |
 
 ## Confounds
-1. **Premium activation** (Day 15→20 during GTC period) — cannot isolate GTC effect from Premium effect
+1. **Premium activation** (Day 15→21 during/after GTC period) — cannot isolate GTC effect from Premium effect
 2. **Content volume increase** — more posts = more at-bats
 3. **Algorithm changes** — ongoing
+4. **Post-GTC persistence**: +2 follows on 2026-03-21 with no new content (queue at 14) suggests content shelf life, not just GTC event timing
 
 ## Analysis
 - Follower jump (+5 in 4 days after 6 weeks of +1/week) coincides with GTC content deployment
 - Both Premium and GTC content active simultaneously — impossible to attribute causally
 - No raw impression data available for this period (owner needs to share analytics)
-- The pattern suggests event-driven content works, but cannot quantify the effect
+- **Critical update (2026-03-21)**: 2 additional follows happened AFTER GTC window closed, with zero new content posted. This weakens GTC as sole driver. The follows may be from Premium shelf-life extension of existing content, not GTC event urgency.
+- The pattern suggests event-driven content works, but post-event follows point to content durability (Premium hypothesis) rather than pure event timing.
 
 ## Conclusion
-**INCONCLUSIVE.** The +5 follower spike is the strongest 4-day performance we've seen. But without impression data and with the Premium confound, we can't confirm GTC was the driver.
+**INCONCLUSIVE → LEANING INCONCLUSIVE.** The +7 follower total is impressive. But the 2 post-GTC follows with no new content (queue=14) makes GTC timing harder to attribute — they suggest ongoing content circulation rather than event-driven discovery. Owner's analytics data (issue #1201 CSVs) needed to confirm which posts drove follows.
 
 ## Next Steps
 1. 2026-03-22 retro: request owner to share X analytics (clicks, impressions by post) from GTC week
