@@ -1,0 +1,11 @@
+REPLY_TO: 2035077502012420492
+
+Adding to this: while 80% of Fortune 500 deploys on current LLM-based agents, two Turing Award winners just raised $2B to bet the architecture needs to change.
+
+LeCun ($1.03B, AMI Labs) + Fei-Fei Li ($1B, World Labs) — both arguing world models, not text prediction, are the right foundation for agents that operate in physical reality.
+
+The implication for enterprise teams deploying now: the 40% abandonment Gartner cited isn't just a governance problem. Some of it is a task-type problem. LLM agents are excellent at language tasks. They hit limits at tasks requiring physical world reasoning.
+
+This doesn't mean wait. It means: deploy LLM agents where they work (structured language workflows). Watch the world model category closely for expansion into physical-world tasks (robotics, industrial, complex diagnostics) over the next 18 months.
+
+The architecture isn't at end-of-life. It's at the edge of its best use case. That's a very different situation — and a much more useful frame than either "LLMs will solve everything" or "LLMs are about to be replaced."

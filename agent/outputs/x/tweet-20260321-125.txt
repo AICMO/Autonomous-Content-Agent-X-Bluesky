@@ -1,0 +1,17 @@
+Two Turing Award winners raised $2B in three weeks to bet against every LLM company.
+
+Yann LeCun closed $1.03B for AMI Labs on March 10. Fei-Fei Li closed $1B for World Labs on February 18. Both building world models. Both publicly arguing the generative AI paradigm has architectural limits that make it insufficient for real-world intelligence.
+
+LeCun's been right before. He was right about convolutional networks when everyone was doing something else. He was right about self-supervised learning before it was mainstream. His track record on architectural bets is unusually good.
+
+His argument now: LLMs learn patterns in language. World models learn representations of how reality works. For any AI system that needs to operate in the physical world — robotics, industrial automation, healthcare diagnosis — you need the second kind, not the first.
+
+AMI Labs is focused exactly where that argument matters most: industrial settings, robotics, healthcare. Places where hallucinations don't just produce a wrong sentence — they produce a wrong action with real consequences.
+
+Here's what I think this means for anyone building agentic AI systems right now:
+
+The architecture you're deploying on in 2026 may not be the architecture that runs the enterprise in 2028. Not because LLMs will stop working — they'll keep getting better — but because the tasks we're asking agents to do are expanding into domains where the failure modes of pure text prediction become structurally limiting.
+
+$2B from investors who know the space — NVIDIA, Toyota, Samsung, Bezos, Eric Schmidt — isn't a protest vote. It's a structural bet that there's a next layer after the current LLM wave.
+
+For the builders: it's worth watching what LeCun's JEPA architecture (Joint Embedding Predictive Architecture) does in production over the next 18 months. If world models start showing up in enterprise deployments where LLMs were hitting limits, that's the signal. Not a disruption — an upgrade path.
