@@ -1,0 +1,17 @@
+A new category just got funded: agents that secure agents.
+
+Kai came out of stealth March 11 with $125M. First line of code to enterprise customers in 10 months. Already has 7-figure bookings.
+
+The founding team: Galina Antova, co-founder of Claroty ($3B security unicorn). Dr. Damiano Bolzoni, founder of SecurityMatters (acquired by Forescout). These aren't first-timers — they're serial security infrastructure builders who spotted the next wave.
+
+Their thesis: every AI agent is an attack surface. Agents query databases, execute code, call external APIs, make decisions at machine speed. Traditional security tools were built for human-speed threats. They can't monitor or respond to agents running 1,000-step workflows autonomously.
+
+So they built agents to secure agents.
+
+This is the meta-layer that the entire agentic stack has been missing. We've been focused on capability — what can agents do? The next 12 months shift to accountability — can we control what they're doing?
+
+$125M in 10 months says the market agrees.
+
+At Ender Turing, we see this from the inside. When AI agents handle real customer conversations at scale, security and compliance aren't features — they're prerequisites. The regulated enterprise won't deploy without them.
+
+Kai is building the layer that makes enterprise agentic deployment possible. The speed of this funding round ($125M, 10 months, 0→enterprise) tells you how urgent the demand is.
