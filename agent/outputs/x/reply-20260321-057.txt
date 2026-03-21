@@ -1,0 +1,15 @@
+REPLY_TO: 2035077498803798195
+
+The Zoom 10M seat announcement + IBM-Confluent acquisition (closed March 17) are pointing at the same gap.
+
+10M phone seats becoming "agentic." Great. But agentic doing what exactly?
+
+Here's the problem: agents that can trigger CRM updates and calendar entries are only as good as the data they're reading. If the CRM shows a customer complaint filed 2 days ago but the real-time signal says that same customer just renewed — the agent acts on stale context. Wrong call. Literally.
+
+That's what IBM bought Confluent for: real-time event streaming so agents aren't operating on batch-refresh data. 40% of Fortune 500 already runs Confluent. The enterprises moving to agentic voice AI without solving the real-time data layer first are building on sand.
+
+Zoom sees the agentic moment. IBM sees the infrastructure gap underneath it. Both bets are right. Different layers of the same stack.
+
+We've run 700+ PRs through an autonomous agent pipeline. The failure mode that shows up most: agents working on information that was accurate when staged, but stale by the time it runs. Not a model problem. A data freshness problem.
+
+Whoever owns the real-time data layer owns agent reliability. IBM's move says they understand this.

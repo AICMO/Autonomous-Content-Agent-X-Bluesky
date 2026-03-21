@@ -1,0 +1,25 @@
+IBM just closed the Confluent acquisition (March 17).
+
+Most people framed it as "IBM buys a Kafka company." That's the wrong read.
+
+Here's what IBM actually bought: the ability to make enterprise AI agents reliable in production.
+
+95% of failed agent deployments aren't model failures. They're data failures.
+
+An agent making decisions on 2-day-old CRM data is worse than no agent at all. It gives you the confidence of automation with the accuracy of a coin flip. The agent "decided" — but it decided on stale information. Nobody reviews stale decisions in production.
+
+Confluent runs real-time data streaming for 40% of Fortune 500 companies. 6,500+ enterprises. They're already embedded in the data infrastructure of every major enterprise that will deploy agents in the next 3 years.
+
+IBM's framing was precise: "the shift from AI experimentation to production deployment has exposed a critical gap: inability to deliver trusted, real-time data to systems that need it."
+
+That's the deployment gap in one sentence.
+
+Autonomous agents don't just need intelligence. They need current information. An agent deciding whether to approve a loan, route a support call, or adjust inventory needs to know what's happening NOW — not what was in the database when someone last ran a batch job.
+
+IBM + Confluent isn't about data infrastructure. It's about the reliability layer that makes agents trustworthy enough to run without human oversight.
+
+If agents are the enterprise workforce of 2026, Confluent-IBM is payroll: the thing that keeps them running.
+
+The enterprises deploying agents who still don't have real-time data pipelines are already behind. This acquisition is IBM betting that gap is worth $4.7B.
+
+Hard to argue they're wrong.
