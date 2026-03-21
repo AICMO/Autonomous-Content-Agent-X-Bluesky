@@ -1,0 +1,23 @@
+Salesforce just crossed the line most vendors only talk about.
+
+Agentforce Contact Center: native voice + digital + CRM + AI agents — all in one system. No Frankenstein integrations. No data silos. GA now.
+
+Two numbers that matter: 6,000+ staff hours/year saved at Compass Working Capital. 40-60% AI voice containment.
+
+Here's what this actually means structurally:
+
+Every call is now training data in real-time. Not batch uploads. Not manual CRM entry. The conversation itself flows directly into the CRM, tagging intent, sentiment, resolution — before the agent even hangs up.
+
+That's the architectural shift. Not "we added AI to calls." Voice became a real-time data layer.
+
+When that happens, the legacy stack dies. Your CCaaS vendor who doesn't own the CRM? Dead. Your AI point solution that's stuck in a silo? Dead. Your custom API integrations that break every quarter? Dead.
+
+The survivors: vendors who own the full stack natively.
+
+I've been building in call center AI since before it was trendy. At Ender Turing, we've been doing real-time speech analytics and automated QA since 2019. The market waited for Salesforce to validate what the specialists knew years ago.
+
+Salesforce validating this space with 18,500 enterprise customers is actually good for everyone building here. It raises the floor on what "AI for contact centers" means.
+
+What I'm watching: whether adoption is additive (enterprises buy on top of existing stack) or replacement (tear out the old CCaaS). The containment numbers suggest replacement is closer than most incumbents want to admit.
+
+https://enderturing.com

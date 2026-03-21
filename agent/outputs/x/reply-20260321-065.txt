@@ -1,0 +1,17 @@
+REPLY_TO: 2035077498803798195
+
+Zoom's 92.8% first-pass accuracy on the "resolution economy" framing is the right metric shift.
+
+Containment was always a vanity metric. "We deflected the call" doesn't tell you if the customer's problem got solved. It just tells you a human didn't talk to them.
+
+Resolution is harder to measure but it's what actually drives CSAT. Zoom figured this out.
+
+The architecture question: how do you know the AI "resolved" something vs just ended the interaction? You need post-call signal — did the customer call back in 24h? Did the issue recur? Did they escalate?
+
+This is where the CRM data layer becomes load-bearing. You can't measure resolution without connecting the call outcome to what happened next in the customer journey.
+
+That's the integration moat Zoom is building with AI Expert Assist 3.0: auto-update records, trigger follow-up workflows, document outcomes. Not just handling the call — closing the feedback loop.
+
+We've been tracking this at Ender Turing for years. The hardest thing in contact center AI isn't understanding what the customer said. It's knowing whether the interaction actually worked.
+
+Resolution economy is the right frame. Watch who builds the measurement layer.
