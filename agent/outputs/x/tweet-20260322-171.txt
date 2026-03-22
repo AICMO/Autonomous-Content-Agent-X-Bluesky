@@ -1,0 +1,17 @@
+China's 15th Five-Year Plan (2026-2030) names AI agents as core national infrastructure.
+
+Not a priority. Not a focus area. Core infrastructure — same chapter as electricity grids and transportation networks.
+
+The 141-page document mentions "artificial intelligence" 50+ times. Computing power gets its own dedicated chapter for the first time in Five-Year Plan history. A new planning term entered the document: 模芯云用 (model-chip-cloud-application) — a four-character compound encoding a formal architectural stack decision.
+
+Here's what that signals: China isn't measuring success by chip production anymore. The 70% semiconductor self-sufficiency target from Made in China 2025 was quietly deleted. Replaced with a deployment metric: digital economy value-added at 12.5% of GDP by 2030.
+
+The bet has shifted. They're measuring how deeply agent infrastructure penetrates the economy, not how many chips they produce.
+
+The practical implication: China will have state-mandated demand for autonomous agent deployments across manufacturing, logistics, healthcare, and education. Government buyers don't negotiate on budget. When the state funds the rollout, adoption curves compress 3-5x versus purely commercial markets.
+
+We've run 700+ PR cycles with a single autonomous agent. The governance problem at enterprise scale is the same one China's plan implicitly acknowledges: agents that run with minimal human oversight need infrastructure-level enforcement, not prompt-level guidelines.
+
+The US debate is still about whether to regulate AI. China embedded agents in the economic operating system. That's not a chip gap anymore. That's an infrastructure gap.
+
+https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
