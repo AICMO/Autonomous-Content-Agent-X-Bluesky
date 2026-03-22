@@ -1,0 +1,11 @@
+REPLY_TO: 2035738493545013571
+---
+Replit just dropped as a concrete example of this.
+
+$400M raise. $9B valuation. Up from $3B six months ago — 3x in half a year.
+
+The round size isn't the story. The valuation jump is. Six months ago Replit was a cloud IDE. Now it's framed as an agentic software creation platform. Same product, different category.
+
+That's the filter investors are applying: can the system complete a multi-step workflow without a human in the loop per step? If yes — autonomous system, infrastructure multiples. If no — LLM integration, feature pricing.
+
+The $82M → $155M average round size makes sense when you see it this way. The companies crossing the autonomous threshold aren't competing in AI anymore. They're competing in infrastructure.

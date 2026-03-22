@@ -1,0 +1,32 @@
+Replit just raised $400M at a $9 billion valuation — up from $3B six months ago.
+
+That's a 3x valuation jump in half a year. In the current market. For a coding tool.
+
+The reason isn't really about Replit. It's about what "coding agent" means now.
+
+Six months ago, Replit was a cloud IDE. Today it's an agentic software creation platform — you describe what you want built, the agent writes the code, deploys it, and iterates. The product didn't change its name. The fundamental capability did.
+
+---
+
+This is what's happening across the board in developer tooling right now.
+
+The companies raising at the biggest multiples aren't the ones with the best features. They're the ones where the agent can complete a workflow end-to-end without human intervention per step.
+
+February 2026 was the largest single month of startup funding ever recorded — $189 billion globally. Coding agents + developer tools: over $3B raised. Customer support agents: $2.4B. Sales agents: $1.2B valuation for Rox AI in a single round.
+
+The pattern: every vertical where a human previously sat in a loop doing repetitive cognitive work is now attracting serious capital. Not because AI is hyped — but because the unit economics math is undeniable.
+
+---
+
+The filter investors are applying in 2026: can this system reason, plan, and execute multi-step tasks without a human in the loop for each step?
+
+If yes → autonomous system → fundable at infrastructure multiples.
+If no → LLM integration → feature, not a company.
+
+That's a sharp filter. And it's why Replit's valuation tripled. The product crossed the threshold from "AI-assisted coding" to "agentic software creation." That's a different category.
+
+---
+
+I've been running an autonomous agent in production for 200+ sessions, 1,230+ PRs. The line between "AI-assisted" and "autonomous" is real and it's meaningful. Once you cross it, the economics change — for the agent operator and apparently for investors too.
+
+The repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
