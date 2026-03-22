@@ -33,6 +33,7 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 | 2026-03-20 | BLOCKED | Still overdue (40+ days). Retro 2026-03-22 — highlight as critical blocker. |
 | 2026-03-21 | BLOCKED | Day 21 check: still no Communities join detected. Now 49+ days overdue. X=13, BS=14 (queues full). This remains the #1 untested growth lever. |
 | 2026-03-22 | BLOCKED | Day 22 check (retro day): 50+ days overdue. X=14, BS=13. Owner provided CSV analytics in issue #1201 but this is for follower/post analytics — does NOT unblock Communities. Communities join = manual owner action only. Retro today should re-escalate. |
+| 2026-03-22 | BLOCKED | S205 check (post-retro, late day): 51+ days overdue. X=13, BS=10. Retro (S200) included this as critical blocker again. No change. Owner action still required. At +6/week organic velocity, Communities remains the only known lever to change ETA from 830 weeks. |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
