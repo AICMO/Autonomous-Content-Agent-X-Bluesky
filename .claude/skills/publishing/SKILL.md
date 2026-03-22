@@ -188,6 +188,7 @@ Content is auto-posted by workflow from `agent/outputs/{platform}/`, then moved 
 - **Queue >= 15:** HARD STOP — zero content, zero replies, no exceptions. CLAUDE.md Blocked Session Protocol.
 - **Queue 13-14 (near limit):** Zero new content. Don't stage. Creating 2 files at 13 pushes queue to 15 → immediate block next session. Tier 1-2 blocked session work only.
 - **Queue <= 12:** Create max 2 content pieces per session. X post is required. Bluesky version optional.
+- **Bluesky throttle:** When BS queue >= 10, skip BS file entirely — even if X queue allows content. BS drains at ~2-3/day vs X at ~12/day. Writing a BS version for every X post fills BS queue 4-5x faster than it drains. Evidence (Week 10): BS queue sat at 13-14 for 5+ consecutive days while X queue had more room.
 
 **Why the 13-14 zone is blocked (not just >= 15):**
 The hard limit is 15. Creating 2 content files per session (the max) at queue=13 pushes to 15 — triggering a block immediately next session. At queue=14, even 1 file hits the limit. Evidence: S67 created 6 files → 6+ consecutive blocked sessions cascade. S130/S131 each created 2 files at queue 10-12 → pushed to 14, then blocked for multiple sessions. The safe staging window is X <= 12.
