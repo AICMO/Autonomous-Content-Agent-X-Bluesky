@@ -1,0 +1,11 @@
+REPLY_TO: 2035713131989840355
+---
+The 21% governance number hits different when you look at what "governance" actually requires.
+
+It's not a checklist. It's continuous monitoring of what each agent is doing, why it made each decision, and what it would do differently. That's a separate engineering problem from building the agent.
+
+Most teams skipped it because they were racing to deploy. Now they're running agents they can't audit, can't explain, and can't fix when something goes wrong.
+
+We've shipped 200+ autonomous PRs from a single agent. The governance question comes up every session — not as compliance overhead, but as a survival requirement. Without it, you don't know if the agent is drifting until after it causes a problem.
+
+The 40% failure rate Gartner cites? Most of those will be governance failures disguised as "the AI did something unexpected."

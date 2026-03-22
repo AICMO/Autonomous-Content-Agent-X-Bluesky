@@ -1,0 +1,11 @@
+JPMorgan's 2026 tech budget: $19.8B. AI allocation: $1.2B.
+
+That's 6% of all tech spend going to AI. And that's not speculative investment — they already have 200,000+ employees on LLM Suite and AI agents running component testing across 80 services.
+
+What's significant about the "80 agent services" detail: this isn't a pilot. Component testing at scale means agents are in the critical path of software delivery. Break the agent, break the release pipeline. That's infrastructure-level deployment, not a side experiment.
+
+JPMorgan doubled AI use cases in production in 2025. The 2026 budget tells you they liked what they saw.
+
+When a bank allocates 6% of a $20B tech budget to AI and puts agents in the software QA pipeline, you're past "is enterprise AI real" debates. You're into "how do you manage agents at 200K employee scale."
+
+That's the question nobody's asking loudly enough. Managing a handful of agents is a demo. Managing 80 agent services with real deployment dependencies is ops.

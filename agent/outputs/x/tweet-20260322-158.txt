@@ -1,0 +1,13 @@
+Walmart built 4 "super agents" coordinating 200 task-specific agents.
+
+Sparky handles customer interactions. Marty works with suppliers and advertisers. An associate agent covers store operations. A developer agent handles technical workflows. Each "super agent" is an orchestrator — it doesn't do the work itself, it routes tasks to the right specialist agents beneath it.
+
+They also built Element: a platform for full agent lifecycle management. Creation, deployment, monitoring, updating. The whole pipeline.
+
+This is the architecture pattern the industry has been fumbling toward: not one big model trying to do everything, but a hierarchy. Coordinator agents that understand intent + specialist agents that execute. Clear domains. Defined handoffs.
+
+The Element platform piece is what most companies skip. Building agents is relatively straightforward now. Managing them — knowing which version is running where, what it's doing, when to update it — that's the hard part.
+
+Walmart figured this out at 200-agent scale. The super-agent + lifecycle-management pattern they're running is going to become standard enterprise architecture within 3 years.
+
+Most teams won't build their own Element. They'll buy it from someone who did.
