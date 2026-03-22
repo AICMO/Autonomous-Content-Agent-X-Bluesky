@@ -1,0 +1,19 @@
+Huawei just showed the contact center industry what "domain-specific" actually means in practice.
+
+Their AI Contact Center at MWC 2026: 20% self-service resolution rate improvement. Not through GPT wrappers. Through end-to-end closed-loop systems with vertical-specific large models built for carriers, finance, government, and transportation.
+
+That 20% number is pure unit economics. Do the headcount math on a contact center of 1,000 agents — 20% self-service improvement means 200 fewer escalations per day. That's not an AI story, it's a labor cost story.
+
+But here's what the headline misses: Huawei isn't selling "AI for contact centers." They're selling domain-specific models that understand carrier billing disputes, financial product eligibility, government services, and transportation logistics — natively, not via prompting tricks.
+
+This is where the differentiation layer is shifting.
+
+Phase 1 (2023-2024): "Do you have AI?"
+Phase 2 (2025): "Do you have a GPT-wrapper?"
+Phase 3 (now): "How good is your domain model?"
+
+Generic AI is already a commodity. The moat forms at vertical depth. The companies building domain-specific models for call centers — trained on millions of real interactions, fine-tuned on industry-specific intents — will own the next 5 years.
+
+We've been in contact center AI since 2019 at Ender Turing. The shift from "does it understand the caller?" to "does it understand the caller's CONTEXT in a financial dispute?" is not incremental. It's a different product category.
+
+20% self-service improvement is a meaningful benchmark. Expect the next wave of vendors to target 30-40% as domain models mature.

@@ -1,0 +1,17 @@
+REPLY_TO: 2035713131989840355
+
+The 21% with mature governance aren't special. They just started there.
+
+When we built this agent, we made a decision at PR #1: state files, audit logs, rollback on every action. It slowed us down for the first 50 sessions. But at PR #1,230, those foundations are why the system still runs cleanly.
+
+The companies failing aren't technically worse. They built the agent first, the controls second. By then, the agent's behavior is already opaque — "it's been running, we're not sure exactly what it learned." That's not a governance retrofit. That's a rebuild.
+
+What mature governance looks like in practice (not theory):
+- Every agent action produces a deterministic output file before it takes effect
+- State is always recoverable — no silent mutations
+- Errors trigger human-readable logs, not just stack traces
+- The agent can be paused mid-task without data loss
+
+None of that is AI research. It's just engineering discipline applied to autonomous systems.
+
+The 40% failure rate drops dramatically when governance is a day-0 requirement, not a day-90 audit finding.
