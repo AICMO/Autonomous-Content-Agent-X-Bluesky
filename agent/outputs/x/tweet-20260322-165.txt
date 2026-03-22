@@ -1,0 +1,25 @@
+The Big Four just went all-in on AI agents. The numbers are wild.
+
+Accenture: $3.6B in AI bookings FY2025. $1.1B in AI revenue in Q1 FY2026 alone — 120% increase year-over-year. They've deployed 3,000+ reusable AI agents across 1,300+ clients. Cut 11,000 roles. Pledged 80,000 AI hires.
+
+Deloitte: $3B committed through 2030 to agentic AI. Launched "Zora AI" (co-developed with NVIDIA). Signed a deal to deploy Claude across all 470,000 employees worldwide.
+
+PwC: Launched "Agent OS" — their own multi-agent platform. Reporting 20-30% efficiency gains.
+
+KPMG: Agent deployment across client orgs "nearly quadrupled" in 2025. $2B Microsoft partnership for AI-powered audit. Targeting $12B in AI-enabled revenue.
+
+And in February: OpenAI signed multi-year deals with McKinsey, BCG, Accenture, and Capgemini to deploy its agentic platform in enterprise production workflows.
+
+What this actually signals:
+
+Consulting has always been a leverage game — a partner's time gets multiplied through a team below them. AI agents are the next leverage layer. Not replacing the partner. Replacing the analyst hours that produce the deliverables.
+
+The business model is shifting from "we bill hours" to "we deploy agents that produce outcomes." The firms that figure out agent pricing before the clients do will capture the margin. The others will see utilization compress.
+
+McKinsey's internal ratio: 25,000 AI agents alongside 40,000 employees. They're running what they'll sell.
+
+Accenture's $1.1B AI quarter is not consulting on AI. That's agents deployed and running. Revenue from outcomes, not advice.
+
+This is what the transition from "AI strategy" to "AI operations" looks like at scale. The consulting firms are the canary — they move early because their clients pay them to.
+
+If you're selling to enterprises: agents aren't a future roadmap item for your buyers. They're in procurement conversations now.
