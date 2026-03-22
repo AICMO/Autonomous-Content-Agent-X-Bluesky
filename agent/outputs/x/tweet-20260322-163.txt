@@ -1,0 +1,17 @@
+IBM just paid $11 billion to acquire Confluent.
+
+That's the largest data infrastructure acquisition of 2026. And it's not about databases. It's about real-time data pipelines for AI agents.
+
+Here's why this matters more than the price tag:
+
+AI agents fail in production for two reasons: they make wrong decisions, or they make right decisions with stale data. The second problem is actually harder. A model can be retrained. But an agent that's working with 6-hour-old inventory data, or yesterday's customer state, or last week's pricing — that's not an AI problem. That's a data architecture problem.
+
+Confluent solves the second problem. 6,500 enterprises — 40% of the Fortune 500 — already use it for real-time data streaming. IBM is betting that as agent deployments scale, every enterprise will need a real-time data layer underneath them.
+
+The thesis: agents are only as good as their data freshness. Batch pipelines can't support production agents at scale. You need event-driven, real-time data as infrastructure.
+
+$11B says IBM believes this is the missing layer for the agentic enterprise stack.
+
+My read: they're right. The teams I've seen struggle most with agents aren't struggling with the model. They're struggling with keeping the agent's context current. This acquisition addresses that directly.
+
+The convergence is clear: data infrastructure + AI agents = the next enterprise platform. IBM just bought the data half.
