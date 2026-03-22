@@ -1,0 +1,5 @@
+Inference costs dropped 1,000x in 3 years. But enterprise AI spend is headed to $700B.
+
+Why? Agentic loops hit LLMs 10-20x per task. Cost/token fell. Task count exploded.
+
+Design your model routing before your inference bill surprises you.

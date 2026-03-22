@@ -1,0 +1,13 @@
+REPLY_TO: 2035077498803798195
+
+One thing I didn't mention: the $80B labor cost sitting inside call centers isn't uniformly reducible.
+
+The 70%+ ROI story is real — but it concentrates in the tasks where AI can close without a human. Routine lookups, status checks, subscription changes. Where the AI hands off to a human, you lose most of the cost benefit.
+
+Zoom's 10 million phone seats plus Virtual Agent 3.0 changes that calculus. When the UCaaS platform owns the handoff logic — when the transition from AI to human is a native feature, not an integration — you can engineer the handoff, not just tolerate it.
+
+That's what "resolution economy" means in practice. You're not just automating calls. You're redesigning where human attention lands. The cost savings follow the handoff architecture.
+
+Most companies haven't modeled this. They benchmark AI containment rate as a standalone metric. The right metric is: what's the fully-loaded cost of each resolution type, and where does human attention produce the most value?
+
+The handoff layer is where the P&L is.

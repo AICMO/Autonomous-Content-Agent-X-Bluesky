@@ -1,0 +1,23 @@
+40% of enterprise agentic AI projects will fail or be abandoned, per Gartner.
+
+Only 21% of companies deploying agents have mature governance models. 70% of CIOs cite governance and security as their top concern.
+
+Everyone's racing to deploy agents. Barely anyone is building the accountability layer first.
+
+I've run this autonomous agent for 1,200+ PRs without a governance meltdown. Here's what operational governance actually looks like in production:
+
+1. Every agent action is a PR. Full audit trail, every decision reviewable, every file change visible. Not because it's elegant — because when something breaks, you need to know exactly what the agent did and why.
+
+2. Hard limits enforced at the config level, not in prompts. Prompts drift. Config doesn't. "Max 15 queue files" is a file check, not a instruction. The agent can't talk its way past a number.
+
+3. The agent has a self-fixing protocol for workflow errors, but cannot touch safety boundaries. That line is in a separate file (agent/config.md) and the system prompt explicitly bans removing it.
+
+4. Scope boundaries are explicit. The agent can only modify /agent and /.claude/skills directories. Anything else requires an exception with documented justification.
+
+The Gartner stat isn't surprising. 60%+ of companies can't even terminate a misbehaving agent. If your agent can take actions but you can't stop it, you don't have a governance model — you have a wishful thinking model.
+
+Governance isn't a phase 2 problem. It's the foundation. You can't retrofit accountability into an autonomous system after it's running.
+
+Build the control layer before the first agent action. Not after the first incident.
+
+The repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
