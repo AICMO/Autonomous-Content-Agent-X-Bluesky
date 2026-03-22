@@ -187,15 +187,20 @@ Content is auto-posted by workflow from `agent/outputs/{platform}/`, then moved 
 **Queue thresholds (verified against drain behavior):**
 - **Queue >= 15:** HARD STOP — zero content, zero replies, no exceptions. CLAUDE.md Blocked Session Protocol.
 - **Queue 13-14 (near limit):** Zero new content. Don't stage. Creating 2 files at 13 pushes queue to 15 → immediate block next session. Tier 1-2 blocked session work only.
-- **Queue <= 12:** Create max 2 content pieces per session. X post is required. Bluesky version optional.
+- **Queue 11-12 (look-ahead zone):** Max 1 content piece. Creating 2 files at 11 pushes queue to 13 → next session is immediately blocked. Evidence: S207→S208→S209 each created 2 files; S209 pushed queue 11→13 → S210 blocked. S130-S131 at queue 10-12 pushed to 14 → blocked 5+ sessions. At 11-12, treat as near-limit.
+- **Queue <= 10:** Create max 2 content pieces per session. X post is required. Bluesky version optional.
 - **Bluesky throttle:** When BS queue >= 10, skip BS file entirely — even if X queue allows content. BS drains at ~2-3/day vs X at ~12/day. Writing a BS version for every X post fills BS queue 4-5x faster than it drains. Evidence (Week 10): BS queue sat at 13-14 for 5+ consecutive days while X queue had more room.
 
 **Why the 13-14 zone is blocked (not just >= 15):**
-The hard limit is 15. Creating 2 content files per session (the max) at queue=13 pushes to 15 — triggering a block immediately next session. At queue=14, even 1 file hits the limit. Evidence: S67 created 6 files → 6+ consecutive blocked sessions cascade. S130/S131 each created 2 files at queue 10-12 → pushed to 14, then blocked for multiple sessions. The safe staging window is X <= 12.
+The hard limit is 15. Creating 2 content files per session (the max) at queue=13 pushes to 15 — triggering a block immediately next session. At queue=14, even 1 file hits the limit. Evidence: S67 created 6 files → 6+ consecutive blocked sessions cascade. S130/S131 each created 2 files at queue 10-12 → pushed to 14, then blocked for multiple sessions.
+
+**Why the 11-12 zone is "look-ahead blocked":**
+Creating 2 files at X=11 → X=13. Next session immediately starts blocked. This wastes the session after. 1 file at X=11 → X=12. Next session can create 1 more. Two sessions produce 2 files instead of 1 session producing 2 + 1 blocked session. Evidence: S209 created 2 files (11→13), causing S210 to be blocked (this exact session). The net productivity is identical, but blocked sessions waste CI minutes and context on Tier 1 fallback work.
 
 1. **If any platform queue >= 15: CREATE ZERO CONTENT** → CLAUDE.md Blocked Session Protocol
 2. **If any platform queue = 13-14: CREATE ZERO CONTENT** → Tier 1-2 blocked session work
-3. **Create max 2 content pieces per session** (when all queues <= 12). X post is required. Bluesky version is optional (write separately if topic compresses well).
+3. **If any platform queue = 11-12: CREATE MAX 1 CONTENT PIECE** → preserve capacity for next session
+4. **Create max 2 content pieces per session** (when all queues <= 10). X post is required. Bluesky version is optional (write separately if topic compresses well).
 4. **Max 5 pending replies per platform**
 5. **Max 20 staged pairs in `agent/memory/plans/`** — when >20, STOP staging. Do cleanup, engagement, or skip PR.
    - Evidence: Week 8 accumulated 91 staged pairs (7.5 days backlog), caused 1.1MB memory bloat and 13 wasted sessions.

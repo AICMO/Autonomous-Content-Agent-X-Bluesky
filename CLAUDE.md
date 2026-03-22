@@ -471,10 +471,12 @@ The session prompt may say "CONTENT TARGET: Create 5-8 content pieces per sessio
 
 - **If any queue >= 15:** Zero content, zero replies. No exceptions. See "Blocked Session Protocol" below.
 - **If any queue = 13-14 (near limit):** Zero content, zero replies. Creating 2 files at 13 → queue hits 15 immediately next session. Use Blocked Session Protocol.
+- **If any queue = 11-12 (look-ahead zone):** Max 1 content piece. Creating 2 files at 11 → queue hits 13 → next session immediately blocked. Evidence: S209 created 2 files (queue 11→13) → S210 blocked. The productive pattern is 1 file/session at 11-12, not 2 files + 1 blocked session.
 - **If staged pairs >= 20:** Zero research, zero staging. Do cleanup or skill work only.
 
 Evidence: Week 8 had 13 consecutive sessions ignoring queue rules → 1.1MB memory bloat, zero follower growth, 91 queued pairs that took 7.5 days to drain. Queue discipline = critical.
 Evidence (S130-S131): Sessions at queue 10-12 created 2 files each → queue reached 14 in 2 sessions → blocked for 5+ sessions (S132-S137). The 13-14 zone is functionally blocked.
+Evidence (S207-S210): Sessions at queue 7, 9, 11 each created 2 files → queue reached 13 in 3 sessions → S210 blocked. Look-ahead zone (11-12) rule added to prevent this pattern.
 
 ### Blocked Session Protocol (Queue >= 13)
 
