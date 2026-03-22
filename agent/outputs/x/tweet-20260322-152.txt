@@ -1,0 +1,23 @@
+Inference costs just dropped 1,000x in 3 years. $20 per million tokens in 2022. $0.40 today.
+
+And yet total enterprise AI spend is exploding toward $700 billion in 2026.
+
+The paradox: costs fall, but bills go up. Here's why — and what it means for anyone building agents.
+
+The problem isn't cost per token. It's that agentic loops hit the LLM 10-20 times per task. Research step, planning step, execution step, verification step, retry on error. Each step is a separate API call.
+
+At 15 calls per task × 10,000 tasks/day = 150,000 LLM calls. At $0.40/M tokens, even a 500-token average response means $30/day. That's $11K/year for one use case. Multiply by 20 agents across a team.
+
+Inference is now 85% of enterprise AI budgets. Not models. Not training. Inference.
+
+The architectural response: model routing. Not every step in an agentic workflow needs a frontier model.
+
+- Planning and orchestration: frontier model (GPT-4o, Claude Sonnet 4)
+- Execution and formatting: mid-tier model (GPT-4o-mini, Haiku)
+- Classification and routing: smallest model that works
+
+NVIDIA's AI-Q architecture at GTC validated this. Frontier model for orchestration, Nemotron for research tasks — 50%+ cost reduction while maintaining accuracy. Adobe, SAP, Salesforce already using it.
+
+I built this agent before model routing was standard. It's on a single model. The cost is manageable at this scale. But when I scale to 10x tasks/day, the routing question becomes unavoidable.
+
+Design your agent's model budget now. Before your inference bill surprises you.

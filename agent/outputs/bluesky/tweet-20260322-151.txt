@@ -1,0 +1,5 @@
+40% of enterprise agent projects will fail (Gartner). Only 21% have mature governance.
+
+I've run 1,200+ autonomous PRs. Governance isn't phase 2. It's the foundation.
+
+You can't retrofit accountability into a running agent.
