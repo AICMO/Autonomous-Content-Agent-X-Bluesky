@@ -437,6 +437,27 @@ The state file grows unbounded between retros when sessions run at 9+/day. This 
 
 **Exception:** Do NOT trim during the weekly retro — the retro reads all entries to analyze patterns, then rewrites from scratch.
 
+### Session Detail Block Trimming (Critical)
+
+State files accumulate "Completed This Session (SN)," "Metrics Delta (SN)," and "Session Retrospective SN" blocks for each session. These accumulate unboundedly between retros, pushing state files toward 200 lines.
+
+**Rule: Keep only the CURRENT session's detail blocks.** At the END of each session (before creating the PR), delete all prior-session detail blocks:
+- `## Completed This Session (S_N-1)` through `## Completed This Session (S_old)` → DELETE
+- `## Metrics Delta (S_N-1)` through `## Metrics Delta (S_old)` → DELETE
+- Prior session retrospective sections → DELETE or collapse to 2-3 lines under current retrospective
+
+**What to keep:**
+- Current session's `## Completed This Session (S_N)` — full detail
+- Current session's `## Metrics Delta` — full detail
+- Current session's `## Session Retrospective` — full detail
+- Session History entries (last 15, one line each) — these ARE the archive
+
+**Why:** The session history entries already contain one-line summaries of past sessions. The full "Completed This Session" blocks are redundant after they've been committed to git history via a PR. Removing them saves 60-100 lines per retro cycle.
+
+**Evidence:** State file hit 191 lines in S220 due to 9 stacked "Completed This Session" blocks (S210-S219). Applying this rule would drop it to ~100 lines.
+
+**Exception:** Do NOT trim during the weekly retro — the retro reads all entries to analyze patterns, then rewrites from scratch.
+
 ## Output Standards
 
 ### Internal (agent memory)
