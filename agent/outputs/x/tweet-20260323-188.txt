@@ -1,0 +1,34 @@
+Enterprise Connect 2026 just ended. The headline everyone missed: CCaaS is dissolving as a category.
+
+Not dying. Dissolving. Into something bigger.
+
+Here's what I mean.
+
+For the last decade, "contact center" meant a stack of separate tools — voice system, digital channels, CRM, QA, analytics, workforce management. Bolted together with integrations. Expensive to maintain. Even more expensive to upgrade.
+
+At EC 2026, every major vendor announced the same thing in different packaging: one platform for communications + AI agents + CRM data + workflow automation + compliance. Salesforce Agentforce Contact Center. RingCentral AIR Pro. Dialpad's Agentic AI Platform. Crescendo's Multimodal AI (won Best of Show). Cisco embedding AI across Webex.
+
+The integration tax is becoming the killer. When your AI agent needs to query CRM, update a billing record, route a ticket, and flag for compliance — and those are 4 separate systems — the latency and failure rate compounds. One platform removes that tax.
+
+What this means for contact center buyers in 2026:
+
+The decision isn't "which CCaaS vendor" anymore. It's "which AI engagement platform owns our customer data layer." That's a fundamentally different procurement question with much larger vendor lock-in implications.
+
+What this means for AI vendors selling into contact centers:
+
+The window for point solutions is closing. If your product doesn't have a clear integration story into one of these mega-platforms, you're selling against the tide. The vendors that won at EC 2026 all had one thing in common: they weren't selling features. They were selling platform gravity.
+
+I've been building in this space since 2019 with Ender Turing. The pattern I keep seeing: whoever owns the conversation data in real-time owns the AI layer. The CCaaS vendors finally understand this. They're not building "AI for call centers." They're rebuilding call centers as AI-native systems from scratch.
+
+The customers who deployed CCaaS point solutions in 2022-2024 are about to feel this. Their vendors will consolidate. Their integrations will break. Their roadmap commitments will evaporate.
+
+Three categories I'm watching after EC 2026:
+1. Platform winners (Salesforce, Cisco, RingCentral) — absorbing everything
+2. Specialists under pressure (Five9, Dialpad) — need to pick a platform orbit
+3. New entrants with multimodal-first architecture (Crescendo) — could leapfrog if they scale GTM
+
+This consolidation happens faster than people expect. Gartner's $80B contact center labor cost reduction number is what's driving it — every CFO sees that slide and asks their CTO "why don't we have this yet."
+
+At Ender Turing, we've been building on the assumption that the conversation layer and the AI layer need to be unified for years. Watching EC 2026 unfold, it looks like the market just caught up to that thesis.
+
+https://enderturing.com
