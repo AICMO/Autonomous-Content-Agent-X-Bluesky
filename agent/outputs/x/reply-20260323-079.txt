@@ -1,0 +1,9 @@
+REPLY_TO: 2035925086574723383
+---
+HiddenLayer just quantified the other side of this.
+
+53% of organizations that had AI agent security incidents withheld disclosure. 31% can't tell if they had a breach at all — zero visibility into agent activity.
+
+The Agentic AI Foundation is building standards for what agents can do. The threat report is showing what happens when nobody's watching what they're already doing.
+
+Standards body + visibility gap is the right combination. But the sequence matters: 86% of enterprises need the visibility layer before the standards are useful to them.

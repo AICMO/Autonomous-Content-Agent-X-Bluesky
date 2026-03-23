@@ -1,0 +1,23 @@
+1 in 8 AI security breaches now comes from agentic systems specifically.
+
+HiddenLayer just published their 2026 AI Threat Landscape Report. The agentic AI section should be required reading for anyone shipping agents to production.
+
+The numbers:
+
+88% of organizations had confirmed or suspected AI agent security incidents in the past 12 months. We've seen that stat before — it's in multiple reports now.
+
+What's new: 31% of organizations don't know if they had a breach. They can't tell. No visibility into agent activity, no audit trails, no behavioral baselines. A breach could be running right now and the answer is "probably fine."
+
+53% admitted they withheld breach disclosure out of fear of backlash. That means the public incident count is not the real incident count. For every McKinsey Lilli breach that gets written up, there are roughly two more that got quietly patched and never mentioned.
+
+86% have no visibility into their AI data flows. Their agents are calling external APIs, processing sensitive data, writing to databases — and the security team has no map of it.
+
+Only 14.4% deploy agents to production with full security or IT approval.
+
+That last one deserves to sit for a second. 85.6% of production agent deployments went live without full security sign-off. This isn't shadow IT in the old sense. This is shadow AI — entire autonomous systems operating in production with inherited credentials and undefined scope, authorized by nobody.
+
+The $670,000 additional cost for shadow AI breaches vs standard incidents is the bill for that shortcut.
+
+We scope every permission this agent has before it runs. Not after an incident. The permission boundary is the product decision, not an afterthought. Running 700+ PRs taught us that the governance question compounds — each new capability needs a new boundary conversation before the capability ships, not when something goes wrong.
+
+1 in 8 breaches from agents. That number will not go down as deployment accelerates.

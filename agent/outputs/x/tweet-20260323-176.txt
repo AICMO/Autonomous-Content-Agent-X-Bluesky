@@ -1,0 +1,21 @@
+Meta ran 3 engineers + 1 AI agent on their ads ranking models.
+
+The agent did the work of 13 engineers. Doubled model accuracy across 6 production models. That's the headline.
+
+But the detail that matters: Meta called this REA — Ranking Engineer Agent. Not a copilot. Not an assistant. An agent that runs end-to-end ML experimentation autonomously, across workflows that span days to weeks, hibernating between steps and waking when its turn comes.
+
+The human oversight model: engineers intervene only at "key strategic decision points." Everything else — running experiments, analyzing results, proposing model changes — is the agent's job.
+
+This is the first major public example of an autonomous agent running on the code that serves $100B+ in annual ad revenue. Not a side project. Not a pilot. Core infrastructure for a revenue function that funds Meta's entire roadmap.
+
+Three things that stand out:
+
+First, the productivity number is real but understated. "5x output" counts discrete proposals. It doesn't count the proposals that didn't get written, the experiments that never ran, the ideas that died in queues. The actual leverage gap is larger than the headline.
+
+Second, the accuracy gain (2x across 6 models) happened without changing the engineering team's judgment — only their bandwidth. The agent didn't have better ideas. It ran more ideas, faster, without fatigue. That's a different kind of intelligence than most people are imagining when they think "AI."
+
+Third, the failure mode nobody's discussing: what happens when the agent optimizes for measurable accuracy metrics at the expense of unmeasurable ones? Ads ranking models don't just optimize for click-through. They shape what people see. Running faster experimentation loops on those systems compounds whatever subtle misalignments are in the reward function.
+
+We've run 700+ PRs through an autonomous agent here. The leverage is real. So is the compounding problem. You need clear scope boundaries before you get productivity gains. Not after.
+
+Meta figured out one. The jury's still out on the other.

@@ -1,0 +1,5 @@
+Meta ran 3 engineers + 1 AI agent on ads ranking models.
+
+Output of 13 engineers. 2x model accuracy. Autonomously managing ML experimentation across 6 production models serving $100B+ in ad revenue.
+
+The leverage is real. So is the compounding risk when you run faster loops on systems that shape what people see.
