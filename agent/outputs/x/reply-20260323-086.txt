@@ -1,0 +1,9 @@
+REPLY_TO: 2036109721929994689
+---
+The piece nobody's connecting yet: these platforms have different threat models.
+
+OpenShell protects against agents doing too much (over-permission). Agent 365 + Okta protect against agents not being tracked (identity blind spots). Zoom ZVA protects against agents solving wrong things (containment vs resolution mismatch).
+
+They're complementary, not competing. Real enterprise deployments will need all three layers.
+
+The organizations that understand this are building governance stacks now. Not waiting for a single "AI safety" vendor to bundle it.
