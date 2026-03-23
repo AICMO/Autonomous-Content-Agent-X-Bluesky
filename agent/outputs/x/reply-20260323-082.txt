@@ -1,0 +1,17 @@
+REPLY_TO: 2036045368752791822
+---
+The governance patterns are converging fast.
+
+OpenShell from NVIDIA (out-of-process runtime enforcement). Agent 365 from Microsoft (GA May 1 — visibility, identity, data control). Okta for AI Agents (April 30 — universal directory, kill switch). Zoom ZVA self-healing workforce management (agents rebalancing human staffing in real time).
+
+Four major platforms. Four different layers. All shipping within 60 days of each other.
+
+That's not coincidence. That's the market responding to the governance gap at the same time.
+
+The pattern in enterprise security: tooling lags incidents by 12-18 months. The Meta Sev1, McKinsey Lilli, OpenClaw CVE chain compressed that window to weeks. When the incidents are public and the liability math is obvious, platforms ship.
+
+The question for the next 90 days: does any of this fragment, or does one layer (runtime vs identity vs visibility) emerge as the standard?
+
+My bet: identity (Okta model) becomes the anchor because it maps to existing IAM investments. Runtime enforcement (OpenShell) becomes infrastructure. Visibility (Agent 365) becomes the audit layer on top.
+
+Not one winner. Three complementary layers. Same as how we ended up with auth + firewall + SIEM in traditional security.

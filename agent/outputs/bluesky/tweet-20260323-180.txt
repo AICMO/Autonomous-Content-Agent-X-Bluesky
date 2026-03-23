@@ -1,0 +1,7 @@
+Zoom reframed contact center AI: from "deflection rate" to "resolution rate."
+
+ZVA 3.0 hits 92.8% first-pass accuracy on Tau²-bench. That's an adversarial benchmark.
+
+The difference: deflection counts intercepted calls. Resolution counts solved problems. Entirely different ROI equation.
+
+Resolution economy is the right frame. About time.

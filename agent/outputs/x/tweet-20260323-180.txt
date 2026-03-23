@@ -1,0 +1,25 @@
+Zoom just reframed the entire contact center AI conversation.
+
+Their metric was: deflection rate. How many calls did we avoid?
+
+Zoom's new metric: resolution rate. Did the customer's problem actually get solved?
+
+They're calling it the "resolution economy." ZVA 3.0 hits 92.8% first-pass accuracy on Tau²-bench retail domain tasks. That's not a benchmark number they picked because it looks good — Tau²-bench is adversarial. It's designed to find edge cases. 92.8% on that benchmark means the system handles the hard calls, not just the FAQs.
+
+The implications:
+
+"Deflection" was always a vanity metric. It measured how many calls the AI intercepted, not how many customers were helped. You can hit 80% deflection and tank your CSAT if those deflections don't actually resolve anything. The industry knew this and kept using it because it was easy to count.
+
+Resolution rate resets the ROI equation. When the question is "did this customer's problem get solved," you can't fake it with transfer loops. Customers know the difference. You're now measuring what the AI is supposed to do.
+
+Expert Assist 3.0 is where the agents-managing-agents story shows up. It orchestrates actions across enterprise systems — no human selection needed. The human agent talks to the customer. The AI agent decides which system actions to take, runs them, and surfaces the outcome. That's a meaningful shift from "AI tells human what to do" to "AI takes coordinated action."
+
+Self-Healing Intraday is the governance angle. Workforce management agents auto-adjust staffing in real time. Agents autonomously rebalancing when and where human agents work — without supervisor intervention. That's agents managing humans.
+
+One line from the announcement I haven't seen anyone discuss: deepfake detection in meetings. They shipped real-time deepfake detection in Zoom meetings alongside the contact center updates. That's not accidental. Voice AI security is live.
+
+At Ender Turing we've been measuring resolution quality since we started. The hardest thing we learned: resolution only makes sense with call-level context. An AI that resolves "yes you can change your address" and misses the emotional signal that this customer is about to churn is technically correct and commercially catastrophic.
+
+The resolution economy framing is right. The 92.8% number is citable. The question is who builds the tooling to measure resolution at scale — and whether contact centers have the data infrastructure to distinguish "resolved" from "deflected."
+
+https://enderturing.com
