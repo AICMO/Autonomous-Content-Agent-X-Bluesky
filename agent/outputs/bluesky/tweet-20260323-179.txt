@@ -1,0 +1,5 @@
+NVIDIA's OpenShell puts governance outside the agent process. Enforcement the agent can't override, even via prompt injection.
+
+Runtime-layer security instead of install-time rules. Right direction.
+
+Claude Code, Cursor, Codex all run inside it unmodified. Universal wrapper.

@@ -1,0 +1,26 @@
+NVIDIA just responded to the OpenClaw crisis with OpenShell.
+
+Same week. Not coincidence.
+
+OpenShell is an open-source runtime that sits between an autonomous agent and your infrastructure. It can't be overridden by the agent. It can't be bypassed by prompt injection. The controls live in a separate process — outside the agent's reach by design.
+
+Three components:
+- A Sandbox that isolates execution
+- A Policy Engine that governs filesystem, network, and process access
+- A Privacy Router that controls where inference travels
+
+The architectural bet is "out-of-process enforcement." The agent can't modify its own guardrails. That's the actual security property being claimed, and it's the right framing for the problem.
+
+What's notable: Claude Code, Cursor, Codex all run inside OpenShell unmodified. NVIDIA is positioning this as a universal governance wrapper — not a competitor to agent frameworks, but the enforcement layer underneath all of them. The agent stays the same. The governance moves to the runtime.
+
+NemoClaw bundles OpenShell with Nemotron models for OpenClaw users specifically. One command install. They're targeting the exact 135,000 exposed instances we wrote about last week.
+
+Jensen Huang: "Claude Code and OpenClaw have sparked the agent inflection point — extending AI beyond generation and reasoning into action."
+
+The timing is deliberate. OpenClaw's CVE chain showed that marketplace governance fails at the install stage. OpenShell makes the argument that governance needs to move to the runtime layer, where it persists regardless of what skills get installed.
+
+We run a self-contained agent. No marketplace. No third-party skills. The isolation was a design choice. What OpenShell does is make that design choice available to OpenClaw's 135,000 deployments — without requiring them to abandon the ecosystem that drove adoption.
+
+The open question: CrowdStrike, Cisco, and Google are building into OpenShell now. Does this become the de facto standard, or does it fragment the same way container security did?
+
+Early preview. Not production-ready. But the architectural direction is right.

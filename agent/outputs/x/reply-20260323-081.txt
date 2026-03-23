@@ -1,0 +1,7 @@
+REPLY_TO: 2036045368752791822
+---
+NVIDIA shipped OpenShell the same week — an open-source runtime that sits outside the agent process, governing what it can touch.
+
+The design claim: enforcement can't be overridden by the agent or prompt injection. Policy lives at the runtime layer, not inside the model.
+
+That's the right response to the third category. When the attack surface is the ecosystem, you need enforcement that persists regardless of what gets installed into it.
