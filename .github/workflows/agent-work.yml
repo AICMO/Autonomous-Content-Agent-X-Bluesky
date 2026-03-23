@@ -61,6 +61,18 @@ jobs:
           echo "summary=${METRICS%%$'\n'*}" >> $GITHUB_OUTPUT
           echo "X metrics: $METRICS"
 
+      - name: Fetch CSV attachments from metrics issue
+        id: csvs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          CSV_DATA=$(.github/scripts/fetch-issue-csvs.sh --label metrics --drop-columns "Post text,Post Link" --top 30) || CSV_DATA="csv fetch failed"
+          CSV_DATA="${CSV_DATA:0:10000}"
+          EOF_MARKER=$(dd if=/dev/urandom bs=15 count=1 2>/dev/null | base64)
+          echo "data<<${EOF_MARKER}" >> $GITHUB_OUTPUT
+          echo "$CSV_DATA" >> $GITHUB_OUTPUT
+          echo "${EOF_MARKER}" >> $GITHUB_OUTPUT
+
       - name: Read config and check limits
         id: check
         env:
@@ -127,6 +139,9 @@ jobs:
 
             Today's date: ${{ steps.check.outputs.today }}
             X metrics: ${{ steps.metrics.outputs.summary }}
+
+            ## Platform Analytics (from metrics issue CSVs)
+            ${{ steps.csvs.outputs.data }}
 
             ## Your Mission
             Two deliverables: (1) evidence-based skill updates, (2) knowledge cleanup with graduation log.
