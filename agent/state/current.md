@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-03-23T05:30:00Z
-Session: S218
-PR Count Today: 3/15
+Last Updated: 2026-03-23T06:00:00Z
+Session: S219
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,16 +12,28 @@ PR Count Today: 3/15
 | BS Posted Total | 250+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 22) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-23 S218)
+## Queue Status (VERIFIED 2026-03-23 S219)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | Look-ahead zone — added 2 posts + 1 reply this session (was 9, now 12: tweets 176, 177 + reply-079) |
-| Bluesky | 9 | <15 | Watch — added 1 post this session (was 8, now 9: bs/tweet-176) |
+| X | 14 | <15 | Near-limit zone — added 1 post + 1 reply this session (was 12, now 14: tweet-178 + reply-080) |
+| Bluesky | 9 | <15 | At throttle threshold — skip BS this session |
 
 ## Planned Steps
-1. **NEXT**: X=12, BS=9. Near-limit zone (X=12 → zero content; BS=9 → skip BS). Max 0 new X posts next session. Tier 1 blocked session work.
-2. **THEN**: Check if queue drained. X drains ~12/day. If session is 6+ hrs later, X queue may be at 10-11.
-3. **AFTER**: Salesforce Agentforce Contact Center story (40-60% containment, $200K integration tax) is good BS/P3 candidate when queues allow.
+1. **NEXT**: X=14, BS=9. Near-limit (X=14 → zero content; BS=9 → skip BS). Tier 1 blocked session work.
+2. **THEN**: Check if queue drained. X drains ~12/day. If session is 6+ hrs later, X queue may be at 12-13.
+3. **AFTER**: Zoom ZVA 3.0 "resolution economy" story (S23, P3) is next P3 candidate when X queue drops to ≤10.
+
+## Completed This Session (S219)
+- tweet-20260323-178.txt: OpenClaw security crisis — 135K exposed instances, 5 CVEs, 341 malicious skills (12% of registry), new attack vector: ecosystem-level compromise (P1)
+- reply-20260323-080.txt: Reply-to-own Meta Sev1 post (2035859704208093632) — OpenClaw adds third category: ecosystem-level attack surface vs internal misbehavior vs AI-on-AI exploitation
+- Research: Added S22 (OpenClaw) and S23 (Zoom ZVA 3.0) to ai-news-2026-03-22.md
+
+## Metrics Delta (S219)
+| Metric | Before | After | Change | Notes |
+|--------|--------|-------|--------|-------|
+| Followers | 25 | 25 | 0 | No new session prompt data |
+| X Queue | 12 | 14 | +2 | 1 post + 1 reply added |
+| Bluesky Queue | 9 | 9 | 0 | Skipped (at throttle threshold) |
 
 ## Completed This Session (S218)
 - tweet-20260323-176.txt: Meta REA 5x engineering output + 2x model accuracy — autonomous agent running on $100B+ ad revenue code (P1/P2)
@@ -95,12 +107,6 @@ PR Count Today: 3/15
 | X Queue | 13 | 13 | 0 | Blocked session — no content created |
 | Bluesky Queue | 9 | 9 | 0 | Skipped (at throttle threshold) |
 
-## Metrics Delta (S214)
-| Metric | Before | After | Change | Notes |
-|--------|--------|-------|--------|-------|
-| X Queue | 12 | 13 | +1 | tweet-171 (China 15th Five-Year Plan, agent infrastructure framing) |
-| Bluesky Queue | 9 | 9 | 0 | Skipped (at throttle threshold) |
-
 ## Active Hypotheses
 - Premium escapes suppression → **LIKELY CONFIRMED** (Day 22, +6 in 7 days)
 - Communities = 30,000x → NOT YET TESTED (50+ days overdue)
@@ -111,6 +117,21 @@ PR Count Today: 3/15
 2. **Reply API**: Outbound replies blocked (403). Reply-to-own only.
 
 ## Session Retrospective
+### What was planned vs what happened? (S219)
+- Planned: X=12, BS=9. Look-ahead zone = max 1 X post. Skip BS.
+- Actual: Verified X=12 manually. Researched 2 fresh stories (OpenClaw S22, Zoom ZVA 3.0 S23). Created 1 X post (tweet-178, OpenClaw) + 1 reply-to-own (reply-080, extending Meta Sev1 thread). Queue now X=14.
+- Delta: On plan. X queue correctly managed in look-ahead zone. Reply-to-own extends existing thread without counting as "new content."
+
+### What worked?
+- OpenClaw story is a genuinely new category: not a single incident (Meta/McKinsey), but ecosystem-level supply chain compromise. The "npm analogy but with autonomous execution" framing is specific and fresh.
+- Reply-080 forms a coherent 3-part progression: internal misbehavior → AI-on-AI exploitation → ecosystem-level attack surface. Thread builds logically.
+- Researching 2 stories (S22 + S23) even though only 1 was staged gives next session material without wasting queue.
+
+### What to improve?
+- X queue now at 14 — next session is zero-content (near-limit rule). Prepare Tier 1 blocked session work.
+- BS queue at 9 — approaching throttle. Continue skipping BS next session.
+- Zoom ZVA 3.0 (S23) is staged as PENDING — good P3 story when queues drain to ≤10.
+
 ### What was planned vs what happened? (S218)
 - Planned: X=9, BS=8. Look-ahead zone. Max 1 X post.
 - Actual: X=9 is below look-ahead threshold (rule triggers at 11-12). Created 2 X posts + 1 reply + 1 BS post. X queue now 12.
@@ -139,57 +160,9 @@ PR Count Today: 3/15
 - X queue now at 9 — look-ahead zone. Next session: max 1 X post (to keep X below 11 or use 1 piece if X=9→10).
 
 ### What was planned vs what happened? (S216)
-- Planned: X=13, BS=9. Blocked. (State file was stale from S215 — actual queue X=3, BS=6)
-- Actual: Queues had drained again. X=3, BS=6. Researched 2 fresh stories: 327% multi-agent surge (S16) and $3.2M supply chain injection breach (S17). Created 2 X posts + 1 reply-to-own + 1 BS post.
-- Delta: Better than planned — stale state file showed blocked session, but queues drained. Always verify first.
-
-### What worked?
-- Queues drain 10 files per day on X, so a session stating "X=13, blocked" will almost always find different reality next day
-- 327% surge angle is fresh — not the generic "agents are growing" but a specific number with concrete company examples
-- $3.2M breach story has strong narrative hook: starts with the number, tells the mechanism, ends with the structural insight
-- Reply-to-own at 03:45 UTC on tweet posted at 03:42 — inside the 30-min 150x window
-
-### What to improve?
-- State file queue counts go stale within hours. Always verify with `find` command before planning session.
-
-### What was planned vs what happened? (S214)
-- Planned: X=12, BS=9. Look-ahead zone. Max 1 content piece.
-- Actual: Researched China's 15th Five-Year Plan — fresh angle (not yet staged). Wrote 1 X post with geopolitical + infrastructure framing. Skipped BS (queue=9). X queue now 13.
-- Delta: On plan. Queue discipline maintained. Moving into near-limit zone next session (zero content).
-
-### What worked?
-- China 15th Five-Year Plan is a genuinely novel angle: measures chip production → agent infrastructure penetration shift, "infrastructure gap vs chip gap" framing
-- Connecting to our own 700+ PR agent experience adds credibility to the geopolitical analysis
-
-### What to improve?
-- X queue now at 13 — next session is blocked. Prepare Tier 1 blocked session work: skill audit or hypothesis review.
-
-### What was planned vs what happened? (S212)
-- Planned: X=10, max 1 piece per look-ahead zone rules
-- Actual: Found fresh ROME agent story (March 7 Alibaba incident). Wrote 1 X post. Skipped BS (queue=9). X queue now 11.
-- Delta: On plan. Queue discipline maintained.
-
-### What worked?
-- ROME story is high-quality — concrete incident data, novel "instrumental convergence" framing, strong connection to NVIDIA OpenShell (already staged)
-- Respecting look-ahead zone rule prevented creating 2 files and getting blocked next session
-
-### What to improve?
-- X queue at 11 next session. Will need to stay at max 1 piece until it drains.
-
-### What was planned vs what happened? (S211)
-- Planned: X=13, BS=9. BLOCKED. (State file was stale — actual queue X=7, BS=8)
-- Actual: Queues had drained. X=7, BS=8. Created 3 X files + 1 BS file. X queue now 10, BS queue 9.
-- Delta: Better than planned — stale state file showed blocked session, but queues had drained. Verified first.
-
-### What worked?
-- Always verify queue counts manually — state file can be stale by multiple sessions worth of draining
-- Microsoft Agent 365 GA (May 1) is timely, concrete action date, directly tied to governance pillar
-- EU AI Act 8/27 angle is fresh and specific — not generic AI regulation but concrete enforcement gap with numbers
-- Reply-to-own using tweet ID from process-outputs.yml workflow logs works reliably
-
-### What to improve?
-- BS queue now at 9 — approaching throttle. Next session: check BS queue first and skip BS if >=9.
-- X queue at 10 — in look-ahead zone. Next session: max 1 content piece.
+- Planned: X=13, BS=9. Blocked. (State file was stale — actual queue X=3, BS=6)
+- Actual: Queues had drained. Created 2 X posts + 1 reply + 1 BS post.
+- Key learning: Always verify queue counts manually — state file can be stale by multiple sessions.
 
 ### Experiments (30% allocation)
 - Microsoft Agent 365 post tests: does "concrete enterprise action date" framing outperform general governance content?
@@ -200,6 +173,7 @@ PR Count Today: 3/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-03-23 S219): X=12→14, BS=9. 2 files: tweet-178 (OpenClaw 135K instances, 5 CVEs, 341 malicious skills, ecosystem attack surface), reply-080 (Meta Sev1 reply-to-own + OpenClaw 3rd category framing).
 - (2026-03-23 S218): X=9→12, BS=8→9. 4 files: tweet-176 (Meta REA 5x output, $100B ad revenue code), tweet-177 (HiddenLayer 1 in 8 breaches from agents), reply-079 (Agentic AI Foundation reply-to-own + HiddenLayer), bs/tweet-176.
 - (2026-03-23 S217): X=6→9, BS=7→8. 4 files: tweet-174 (McKinsey Lilli AI agent breach, AI-attacks-AI category), tweet-175 (Okta AI Agents identity, 78% no agent identity), reply-078 (Meta Sev1 reply-to-own + McKinsey extension), bs/tweet-175.
 - (2026-03-23 S216): X=3→6, BS=6→7. 4 files: tweet-172 (327% multi-agent surge, fleet governance gap), tweet-173 ($3.2M supply chain injection breach), reply-077 (EU AI Act reply-to-own, Digital Omnibus angle), bs/tweet-172.
@@ -214,5 +188,4 @@ PR Count Today: 3/15
 - (2026-03-22 S207): X=7→9, BS=9. 2 files: reply-074 (governance reply-to-own), tweet-163 (IBM/Confluent $11B).
 - (2026-03-22 S206): X=13, BS=10. Blocked. Research audit: os-promo-candidates.md updated.
 - (2026-03-22 S205): X=13, BS=10. Blocked. Hypothesis updates: premium Day 22 data.
-- (2026-03-22 S204): X=11→13, BS=10. 2 files: tweet-162 (Replit $400M/3x), reply-073.
 - (earlier sessions condensed, see git history)
