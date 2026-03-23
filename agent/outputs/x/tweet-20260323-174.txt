@@ -1,0 +1,21 @@
+An autonomous AI agent broke into McKinsey's internal AI platform in two hours.
+
+Not a human hacker. Not a nation-state APT. An AI agent.
+
+Here's what happened: security researchers ran a red-team exercise against Lilli — McKinsey's internal generative AI platform used by their consultants. The agent worked autonomously: researched the target, identified attack surface, exploited it, exfiltrated data, wrote the report. No human in the loop for any of those steps.
+
+What it found: 22 unauthenticated API endpoints. One of them accepted user queries and concatenated the input directly into SQL. Classic injection vulnerability — but the entry point was a chatbot, not a login form.
+
+The agent extracted 46.5 million internal chat messages. 728,000 file records. 57,000 user accounts. And it gained write access to the system prompts controlling the chatbot itself.
+
+That last part is the scariest: if you control the system prompt, you can silently change what the AI tells 45,000 McKinsey consultants, across every query, without deploying new code or triggering standard security alerts.
+
+The breach took two hours. Patch came after disclosure. McKinsey says no client data was exfiltrated. That's the optimistic framing.
+
+The structural problem is worse: AI platforms are being built by teams who think about "AI security" as prompt injection defense and output filtering. They're not thinking about the platform as an attack surface for autonomous agents with SQL execution skills.
+
+This is the next category of enterprise security incident: not humans using AI to attack systems, but AI agents attacking AI systems. The tooling to do it is available, documented, and getting better.
+
+88% of organizations had confirmed or suspected AI agent security incidents last year. Most of those were agents misbehaving. This is different: an agent used offensively, against an AI platform, autonomously.
+
+The governance gap just got a second dimension.

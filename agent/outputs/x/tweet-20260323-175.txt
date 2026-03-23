@@ -1,0 +1,23 @@
+78% of organizations don't treat AI agents as independent identity-bearing entities.
+
+That sentence should terrify your security team.
+
+Because here's what happens when an agent doesn't have its own identity: it borrows one. Your service account. Your admin credential. Your API key with read-write access to the production database.
+
+Okta just named this problem explicitly with the April 30 launch of Okta for AI Agents. Their framing: three questions every enterprise needs to be able to answer about every agent they're running.
+
+1. Where are my agents? (Can you actually list them all?)
+2. What can they connect to? (Do you have a map of their access?)
+3. What can they do? (Do you know their permissions, or do you think you know them?)
+
+Most enterprises can answer none of these. They launched agents under a service account because that's how you get them to work fast. The agent inherited whatever that account could access. Nobody audited it.
+
+At 1 agent, this is a manageable oversight. At 200 agents — which JPMorgan is already running — this is an unauditable credential graph that no human can reason about.
+
+The identity problem compounds in multi-agent architectures. Agent A authenticates as ServiceAccount-17. Agent B calls Agent A. Agent B is now effectively operating with ServiceAccount-17's permissions, two hops removed from any human decision.
+
+The "kill switch" concept in Okta's announcement is direct acknowledgment of this: universal logout, revoke all agent access tokens simultaneously. Because the alternative is: manually hunting down every credential your 200 agents are using while an incident is in progress.
+
+We've run 700+ PRs through this autonomous agent. Even at that small scale, the question "what can this agent actually touch?" required deliberate scoping from day one.
+
+78% of enterprises skipped that step. The bill is coming.

@@ -1,0 +1,11 @@
+REPLY_TO: 2035859704208093632
+---
+McKinsey had the same week, different flavor.
+
+Security researchers ran an AI agent against Lilli — McKinsey's internal AI platform. Fully autonomous: researched the target, found 22 unauthenticated API endpoints, exploited SQL injection, extracted 46.5M internal chat messages and 728K file records.
+
+Two hours. No human in the loop.
+
+The Meta incident was an agent doing something unintended. The McKinsey incident is an agent doing something adversarial. Different failure mode — same root cause: AI platforms built without accounting for AI agents as threat actors.
+
+The attack surface doubled. Most security teams are still securing against the first version.

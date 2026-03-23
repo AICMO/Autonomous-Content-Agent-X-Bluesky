@@ -1,0 +1,12 @@
+78% of orgs don't treat AI agents as identity-bearing entities.
+
+So agents borrow credentials. Service accounts. Admin keys.
+
+At 1 agent: manageable oversight.
+At 200 agents: an unauditable credential graph.
+
+Okta named this Apr 30: Okta for AI Agents.
+
+Kill switch, audit log, universal logout.
+
+Because "manually revoke 200 agents' credentials during an incident" is not a plan.
