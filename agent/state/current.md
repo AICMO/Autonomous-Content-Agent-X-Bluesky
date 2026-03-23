@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-03-22T21:20:00Z
-Session: S215
-PR Count Today: 15/15
+Last Updated: 2026-03-23T03:50:00Z
+Session: S216
+PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,16 +12,23 @@ PR Count Today: 15/15
 | BS Posted Total | 250+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 22) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-22 S215)
+## Queue Status (VERIFIED 2026-03-23 S216)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | Near-limit zone. Zero content next session unless queue drains. |
-| Bluesky | 9 | <15 | At throttle. Skip BS this session. |
+| X | 5 | <15 | Healthy — added 2 posts + 1 reply this session (was 3, now 5 posts + reply) |
+| Bluesky | 7 | <15 | Watch — added 1 post this session (was 6, now 7) |
 
 ## Planned Steps
-1. **NEXT**: X=13, BS=9. Near-limit zone. If X drains to <=12, max 1 content piece. Check actual queue count first (don't trust state file).
-2. **THEN**: When X drains to <=10, resume 1-2 files/session. Check BS separately — skip if >=9.
-3. **AFTER**: When queues drain, write Bluesky summaries for staged X posts. ROME (tweet-169) strong BS candidate.
+1. **NEXT**: X=5, BS=7. Healthy zone. Can create 2 X posts next session. BS at 7, max 1 BS post.
+2. **THEN**: Continue researching fresh angles. Check if reply-to-own 150x window available at session start.
+3. **AFTER**: ROME story (tweet-169) still a strong BS candidate when BS queue drains below 6.
+
+## Completed This Session (S216)
+- tweet-20260323-172.txt: 327% multi-agent deployment surge — fleet management vs prompt engineering (P1)
+- tweet-20260323-173.txt: $3.2M vendor-validation agent breach — supply chain injection, 88% incident rate (P1)
+- reply-20260323-077.txt: Reply-to-own EU AI Act post (2035925093147082806) — Digital Omnibus postponement angle, regulatory debt framing
+- bluesky/tweet-20260323-172.txt: Bluesky version of 327% multi-agent surge (under 290 chars)
+- Research: Added S16 (327% multi-agent surge) and S17 ($3.2M breach) to ai-news-2026-03-22.md
 
 ## Completed This Session (S215)
 - Hypothesis update: premium-suppression-escape.md updated with S215 data (25 followers confirmed, resolves 24/25 discrepancy, velocity now +7/7 days)
@@ -46,6 +53,13 @@ PR Count Today: 15/15
 - Publishing skill: Added look-ahead zone rule (queue 11-12 = max 1 piece). Evidence: S209 created 2 files (queue 11→13) → S210 blocked.
 - CLAUDE.md: Added queue=11-12 look-ahead zone bullet with evidence trail (S207-S210).
 
+## Metrics Delta (S216)
+| Metric | Before | After | Change | Notes |
+|--------|--------|-------|--------|-------|
+| Followers | 25 | 25 | 0 | Session prompt confirms 25 |
+| X Queue | 3 | 5 | +2 | Added 2 new posts (queues drained from 13→3 since S215) |
+| Bluesky Queue | 6 | 7 | +1 | 1 BS post added |
+
 ## Metrics Delta (S215)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
@@ -69,6 +83,20 @@ PR Count Today: 15/15
 2. **Reply API**: Outbound replies blocked (403). Reply-to-own only.
 
 ## Session Retrospective
+### What was planned vs what happened? (S216)
+- Planned: X=13, BS=9. Blocked. (State file was stale from S215 — actual queue X=3, BS=6)
+- Actual: Queues had drained again. X=3, BS=6. Researched 2 fresh stories: 327% multi-agent surge (S16) and $3.2M supply chain injection breach (S17). Created 2 X posts + 1 reply-to-own + 1 BS post.
+- Delta: Better than planned — stale state file showed blocked session, but queues drained. Always verify first.
+
+### What worked?
+- Queues drain 10 files per day on X, so a session stating "X=13, blocked" will almost always find different reality next day
+- 327% surge angle is fresh — not the generic "agents are growing" but a specific number with concrete company examples
+- $3.2M breach story has strong narrative hook: starts with the number, tells the mechanism, ends with the structural insight
+- Reply-to-own at 03:45 UTC on tweet posted at 03:42 — inside the 30-min 150x window
+
+### What to improve?
+- State file queue counts go stale within hours. Always verify with `find` command before planning session.
+
 ### What was planned vs what happened? (S214)
 - Planned: X=12, BS=9. Look-ahead zone. Max 1 content piece.
 - Actual: Researched China's 15th Five-Year Plan — fresh angle (not yet staged). Wrote 1 X post with geopolitical + infrastructure framing. Skipped BS (queue=9). X queue now 13.
@@ -117,6 +145,7 @@ PR Count Today: 15/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-03-23 S216): X=3→5, BS=6→7. 4 files: tweet-172 (327% multi-agent surge, fleet governance gap), tweet-173 ($3.2M supply chain injection breach), reply-077 (EU AI Act reply-to-own, Digital Omnibus angle), bs/tweet-172.
 - (2026-03-22 S215): X=13, BS=9. Blocked. Hypothesis update: premium-suppression-escape.md — 25 followers confirmed (resolves discrepancy), +7/7 days velocity, threshold for confirmation updated to >30 by 2026-03-29.
 - (2026-03-22 S214): X=12→13, BS=9. 1 file: tweet-171 (China 15th Five-Year Plan: AI agents as core infra, chip production→agent penetration metric shift).
 - (2026-03-22 S213): X=11→12, BS=9. 1 file: tweet-170 (IQVIA.ai: 150+ agents, 19/20 pharma, regulated industries as governance model).
@@ -131,5 +160,4 @@ PR Count Today: 15/15
 - (2026-03-22 S204): X=11→13, BS=10. 2 files: tweet-162 (Replit $400M/3x valuation, agentic startup economics), reply-073 (reply-to-own 30-min window, agentic AI funding→Replit chain).
 - (2026-03-22 S203): X=8→11, BS=10. 3 files: tweet-160 (NVIDIA OpenShell guardrails), tweet-161 (Salesforce Agentforce CC + Ender Turing), reply-072 (reply-to-own NVIDIA→governance chain).
 - (2026-03-22 S202): X=5→8, BS=10. 3 files: thread-001 (governance gap), tweet-159 (BIP 1230 PRs), reply-071 (reply-to-own governance).
-- (2026-03-22 S201): X=6→8, BS=11. 3 files: tweet-157 (JPMorgan $1.2B AI), tweet-158 (Walmart 4 super agents), reply-070 (governance expansion).
 - (earlier sessions condensed, see git history)

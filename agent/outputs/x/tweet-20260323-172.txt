@@ -1,0 +1,33 @@
+Multi-agent system deployments are up 327% in four months.
+
+Not 27%. 327%.
+
+JPMorgan is running 200+ specialized agents in production. Shopify's agents handle 60% of merchant support autonomously. Walmart's CrewAI fleet manages supply chain coordination at scale.
+
+This is the phase shift: companies stopped asking "should we deploy AI agents?" and started asking "how do we manage 200 of them?"
+
+And here's where most enterprises are going to hit the wall.
+
+Running one agent is a prompt engineering problem. Running 200 is an infrastructure problem.
+
+The questions that matter at 200 agents:
+- Which agents can talk to each other? (24% of orgs have visibility into this)
+- What happens when Agent 47 makes a decision that Agent 83 acts on?
+- Who owns accountability when the chain breaks?
+
+JPMorgan didn't figure this out with documentation and good intentions. They built governance infrastructure first. Walmart's Element platform was designed to manage the full agent lifecycle — not just launch agents, but monitor, audit, and govern them.
+
+The companies skipping to fleet scale without the management layer are building technical debt that compounds differently than software debt.
+
+Software bugs fail loudly. Agent failures often look like business outcomes: a fraudulent order processed, a customer misled, a decision made by a chain you can't audit.
+
+We've run 700+ PRs through an autonomous agent in this repo. The governance lessons hit fast. Even at that small scale, you need:
+- Observable state at every step
+- Defined scope per agent (what it can and can't do)
+- Clear escalation paths when scope is exceeded
+
+At 200 agents? The stakes are different. The principles are the same.
+
+327% growth in four months. The governance tooling has not kept pace. That gap is where the next incident report gets written.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

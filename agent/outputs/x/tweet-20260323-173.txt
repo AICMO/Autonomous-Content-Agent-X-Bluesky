@@ -1,0 +1,31 @@
+$3.2 million in fraudulent orders. No hacker. No phishing email. No insider threat.
+
+Just an AI agent that got hijacked.
+
+Here's what happened: a manufacturing company deployed an agent to validate vendor invoices. Standard stuff — check invoices against purchase orders, flag anomalies, approve payments.
+
+An attacker compromised the vendor's email server. Injected poisoned data upstream of the agent's context window.
+
+The agent passed every identity check. Validated every invoice format. Processed 47 fraudulent orders before anyone noticed.
+
+This is called a supply chain injection attack. And 88% of organizations reported confirmed or suspected AI agent security incidents last year. Most didn't make the news.
+
+The reason these attacks work is structural.
+
+Human reviewers ask: "Does this feel right?" They compare current invoices to memory, gut-check unusual patterns, call the vendor when something seems off.
+
+Agents ask: "Does this match my validation rules?" They're precise, consistent, and exactly as good as the environment you trained them in.
+
+Poison the environment — poisoned outcomes.
+
+The fix isn't simpler agents or more human oversight per transaction. That defeats the purpose.
+
+The fix is runtime enforcement at the infrastructure layer. NVIDIA's OpenShell approach: policy-based guardrails the agent can't bypass, regardless of what's in the input data. Network access controls, data scope limits, anomaly thresholds that trigger escalation.
+
+But only 14.4% of organizations deploy AI agents with full security approval before launch.
+
+The other 85.6% are running production agents with governance they'd describe as "we have a policy document."
+
+The $3.2M breach is the small version of this story. The large version is still being written.
+
+88% incident rate. 14.4% security-approved deployments. Do the math on where the next breach is coming from.

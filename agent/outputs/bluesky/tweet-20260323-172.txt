@@ -1,0 +1,7 @@
+Multi-agent deployments up 327% in 4 months.
+
+JPMorgan: 200+ agents in production. Shopify: agents handle 60% of merchant support. Walmart: full fleet management with lifecycle governance.
+
+Running 1 agent = prompt engineering problem. Running 200 = infrastructure problem.
+
+Only 24% of orgs have visibility into which agents talk to each other. That's where the next incident comes from.
