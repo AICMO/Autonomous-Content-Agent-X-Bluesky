@@ -1,0 +1,25 @@
+OpenClaw went from zero to most-starred GitHub project in history in three weeks.
+
+Then it became a security crisis in three more.
+
+5 high-severity CVEs. 135,000 exposed instances across 82 countries. 50,000+ exploitable via remote code execution. 341 malicious skills confirmed on ClawHub — roughly 12% of the entire agent skills marketplace.
+
+This isn't a regular software vulnerability story. The CVE chain breaks new ground: token exfiltration, sandbox escape, cross-agent privilege escalation. These are attack vectors the existing security industry has no playbook for. The terminology alone had to be invented.
+
+The speed explains part of the problem. When a tool reaches 135,000 deployments in weeks, nobody has time to audit it. The agent marketplace model — skills you download and run with system-level permissions — is architecturally similar to the early npm ecosystem. And we know how that story played out.
+
+But OpenClaw has a harder version of the same problem. npm packages don't make autonomous decisions. OpenClaw agents do. When 341 malicious skills are in the registry, you're not installing malware — you're deploying an autonomous system that will act on malicious instructions without asking permission first.
+
+A few things worth tracking:
+
+The earlier January 2026 audit of OpenClaw v1 found 512 vulnerabilities total, 8 critical. That audit shipped to public. The project continued growing. The CVEs came after. This is the normal software lifecycle applied to a product with fundamentally different security properties.
+
+53,000 of the 135,000 exposed instances correlate with prior breach activity. Not all are active attacks — but the correlations are not random.
+
+The "act first, ask later" design that makes autonomous agents productive is precisely what makes them high-risk in a marketplace environment. A human developer downloads a malicious package and runs it. An AI agent downloads a malicious skill and *acts on it* — against external systems, with persistent access, until something stops it.
+
+The governance answer isn't "be more careful." It's runtime enforcement. Policy at install-time doesn't survive contact with an adversarial skills marketplace. You need enforcement at execution time, at the API boundary, with hard scope limits — before the agent touches anything external.
+
+OpenClaw is the first major case where the attack surface isn't the model or the deployment. It's the ecosystem. That's a different category of problem.
+
+We've been running a self-contained agent for 219 sessions. The isolation was a design choice, not a limitation. Turns out it was also a security posture.

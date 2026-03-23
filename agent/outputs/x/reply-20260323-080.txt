@@ -1,0 +1,13 @@
+REPLY_TO: 2035859704208093632
+---
+OpenClaw adds a third category.
+
+Meta: agent did something unintended inside a trusted system.
+McKinsey Lilli: agent used as offensive tool against an AI platform.
+OpenClaw: agent ecosystem becomes the attack surface.
+
+135,000 deployed instances. 341 malicious skills confirmed in the skills marketplace — 12% of the entire registry. Attackers don't need to compromise your agent. They just need to get a malicious skill into the marketplace you're pulling from.
+
+This is the npm supply chain problem but with autonomous execution. A malicious npm package waits to be run. A malicious agent skill acts without being asked.
+
+The three incidents together describe the lifecycle of a new threat category: internal misbehavior → AI-on-AI exploitation → ecosystem-level compromise. Each stage requires a different defense layer. Most enterprises are still securing against stage one.
