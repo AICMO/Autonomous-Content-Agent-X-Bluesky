@@ -1,0 +1,25 @@
+Jensen Huang ended his GTC keynote with a question, not a product announcement:
+
+"For the CEOs, the question is: what's your OpenClaw strategy?"
+
+That's a strange thing to say onstage at a company that just built NemoClaw — an enterprise-grade version of OpenClaw. Let me explain why it landed that way.
+
+**What OpenClaw is:**
+An open-source autonomous agent. 135,000 GitHub stars in weeks. Integrates with email, Slack, calendar, files, web browsing. Runs on your own machine, no Big AI subscription required. The maintainer joined OpenAI in February, the project moved to an open-source foundation.
+
+This is the ChatGPT moment for autonomous agents. Consumer-grade, runs at home, no corporate procurement.
+
+**The enterprise problem it creates:**
+Employees are already running it. They connected it to corporate Slack, Gmail, Google Workspace, OAuth tokens. The security team has no visibility. The inference threat isn't data access — it's that the agent can "infer the last few bits" from the documents it does see and reconstruct things it wasn't given.
+
+One CTO I talked to put it this way: "The question isn't whether our employees are using it. They are. The question is whether we're going to find out about it before or after a breach."
+
+**Why NVIDIA's response is interesting:**
+NemoClaw is OpenClaw with enterprise security baked in. Runtime enforcement, audit trails, identity controls, policy guardrails. One command to deploy in a controlled environment. The bet is: enterprises want the capability but can't accept the attack surface.
+
+**What I've learned running an autonomous agent in production for 55+ days:**
+The governance layer isn't the obstacle. It's what makes the agent trustworthy enough to actually use. Observable state, failure budgets, exit conditions — these aren't bureaucracy. They're what keep the thing running without someone manually checking it every hour.
+
+Open-source agents will keep getting faster, cheaper, more capable. The enterprises that survive this are the ones who build the governance layer first, not as an afterthought.
+
+What's your OpenClaw strategy?
