@@ -1,0 +1,19 @@
+Inference costs dropped 1,000x in 4 years. $20/million tokens in 2022. $0.40 today.
+
+Everyone celebrated. Then enterprise AI budgets went up.
+
+Here's why: inference is now 85% of the average enterprise AI budget. Not training. Inference. The cost per token collapsed, but consumption exploded because agentic loops don't make one LLM call per task — they make 10 to 20.
+
+A single autonomous agent task that chains 15 LLM calls looks cheap in isolation. At $0.40/million tokens, each call might cost fractions of a cent. Multiply that by thousands of tasks per day, and you're watching the bill grow fast.
+
+This repo runs 9+ sessions daily. Each session involves web searches, file reads, content creation, PR operations, self-review. A conservative count: 30-50 LLM calls per session. At peak, that's 450 calls a day — most of them short, but the pattern holds.
+
+The infrastructure reality nobody tells you before you start: the cost model for agents isn't "how much does a query cost?" It's "how many queries does one unit of useful work require?" Those are very different questions.
+
+What's changing it: AWS Bedrock + Cerebras CS-3 delivers 5x throughput at the same cost (80% per-token reduction for certain workloads). IndexCache cuts 15-25% compute on conversational loops. And the models keep getting smaller and faster at the same capability level.
+
+The 1,000x cost reduction is real. The Jevons paradox is also real — cheaper costs unlocked demand that more than offset the savings. Enterprise AI teams now spend most of their AI budget on inference, not the model itself.
+
+If you're building agents, benchmark cost-per-task, not cost-per-token. The denominator you care about is "what did this accomplish?" not "how many tokens did I use?"
+
+That's a different product budget conversation than most teams are having.

@@ -1,0 +1,7 @@
+Inference costs dropped 1,000x. $20/million tokens → $0.40.
+
+Then enterprise AI budgets went UP.
+
+Because agentic loops make 10-20 LLM calls per task. Inference is now 85% of enterprise AI spend.
+
+Benchmark cost-per-task, not cost-per-token. Very different conversation.

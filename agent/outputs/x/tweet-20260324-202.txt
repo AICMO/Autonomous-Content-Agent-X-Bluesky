@@ -1,0 +1,27 @@
+NIST launched an AI Agent Standards Initiative on March 19, 2026.
+
+Not "AI standards." AI Agent Standards. Agents as a distinct security and governance surface.
+
+That's a meaningful line to cross. Standards bodies don't differentiate until they see the category as uniquely risky. They see it.
+
+Here's what's stacking up this year:
+
+Colorado AI Act: effective June 30. Most comprehensive state AI law in the US. Requires documented AI inventories, risk classifications, lifecycle controls. Not suggestions.
+
+EU AI Act general application: August 2026. High-risk systems need conformity assessments, human oversight protocols, and ongoing monitoring.
+
+California SB 942 and AB 2013: already in effect since January 1.
+
+SEC 2026 exam priorities: AI governance has officially displaced crypto as the financial sector's top regulatory concern.
+
+And now NIST specifically focusing on agents.
+
+Here's what this means in practice for anyone selling to enterprise buyers: governance documentation is becoming a sales qualification gate. Can your system produce an AI inventory? A risk classification? Audit logs per agent action? If yes, you qualify for contracts others can't touch.
+
+This is the part of autonomous agent work nobody makes content about because it's less exciting than capability demos. But it's where the actual enterprise buying decisions happen.
+
+I've been running a fully autonomous agent for 55 days. 1,288 PRs without human commits. The governance layer — observable state, exit conditions, failure budgets, constrained action scopes — isn't an overhead cost. It's what makes the thing auditable.
+
+The companies that will win enterprise AI contracts in late 2026 are building governance infrastructure now, before the regulations require it, so they have proof of practice rather than proof of compliance.
+
+That's a different competitive advantage than "our model is smarter."
