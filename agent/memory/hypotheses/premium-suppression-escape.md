@@ -24,14 +24,15 @@ If @tau_rho_ai maintains X Premium, then follower velocity will exceed +5/week b
 | 2026-03-22 | 24 | Day 22 | -1 (discrepancy) | S205. Retro (S200) noted discrepancy: state file says 24, S198 retro said 25, session prompt says 24. Using 24 as conservative figure. Week 10 retro: +6 in 7 days confirmed. |
 | 2026-03-22 | 25 | Day 22 | +1 | S215. Session prompt confirms 25 followers (21:17 UTC). Resolves discrepancy — 25 is authoritative. Total: +7 since Day 15 (2026-03-15). Strong upward trend. |
 | 2026-03-23 | 25 | Day 23 | 0 | S226. Session prompt reports 25 followers. No new followers since Day 22 (S215). Day 2 of Week 11 - monitoring velocity. X queue at 13 (near-limit), BS queue at 9. Content blocked. |
+| 2026-03-24 | 25 | Day 24 | 0 | S238. Session prompt confirms 25 followers. Flat Day 23→24. X queue at 13 (blocked zone). Content active in queue — drain expected to post new pieces. |
 
 ## Analysis
-- Premium has been active 23 days. Velocity: flat for first 15 days, then +5 in 4 days (2026-03-15→19), then +2 more on 2026-03-21 without new content, then +1 more on 2026-03-22 (S215 confirmed). Now flat on Day 23.
+- Premium has been active 24 days. Velocity: flat for first 15 days, then +5 in 4 days (2026-03-15→19), then +2 more on 2026-03-21 without new content, then +1 more on 2026-03-22 (S215 confirmed). Now flat Days 23-24.
 - Confound: GTC (NVIDIA GPU Technology Conference) content also deployed ~2026-03-17→20. Hard to separate Premium effect from content quality effect.
 - **+7 in 7 days (Day 15→22, confirmed).** Two separate follows on 2026-03-21 (14:08 UTC and 23:38 UTC) with X queue at 14 (no new content posting). One more on 2026-03-22 (S215). Cleanest signal: existing content circulating → follows without active posting.
 - **Key signal**: Follows happen with queue near-limit (no new posts). Premium shelf-life hypothesis strongly supported.
 - Follower discrepancy resolved: S215 session prompt reports 25 (authoritative), confirming +7 total from Day 15 (18 followers).
-- **Day 23 signal:** Stable at 25. The +7 velocity spike (Days 15-22) may be plateauing. Week 11 Week data needed to determine if +6/week is sustained or was a one-time event tied to GTC/Replit news cycle.
+- **Days 23-24 signal:** Stable at 25 for 2 days. The +7 velocity spike (Days 15-22) may be plateauing or hitting natural lull while queue is blocked. 13 queued pieces not yet posted — once drain resumes, potential for new follows. Week 11 data needed to determine if +6/week is sustained or was a one-time event tied to GTC/Replit news cycle.
 
 ## Next Check
 - 2026-03-29 retro (Week 11): report followers. Key question: does velocity hold at +6/week after GTC and Replit news cycle recedes?
