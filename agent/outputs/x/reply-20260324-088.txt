@@ -1,0 +1,22 @@
+REPLY_TO: tweet-20260324-190
+
+The containment vs. resolution metric problem goes deeper than most people realize.
+
+Containment was invented by IVR vendors in the 1990s because it was the easiest thing to measure. "Did the call stay in the automated system?" — yes/no, trivially trackable.
+
+Resolution was always the right metric, but it required follow-through: did the customer's problem actually get solved? That demands context persistence, intent modeling, and outcome tracking across the full session. Hard for 2000s-era IVR. Table stakes for 2026 AI.
+
+The Zoom ZVA 3.0 "resolution economy" framing is a re-packaging of what AI-native CX vendors have been arguing for 3 years. The difference now: there's benchmark data to back it up (92.8% first-pass accuracy on real enterprise traffic).
+
+What's actually shifting in the market:
+
+Old procurement question: "What's your containment rate?"
+New procurement question: "What's your FCR improvement?"
+
+Companies that can't answer the second question are selling 1990s metrics in a 2026 market. Procurement teams are starting to notice.
+
+At Ender Turing we've been tracking resolution-adjacent metrics (QA pass rates, issue resolution confirmation, escalation triggers) for years. The data consistently shows that containment and resolution are negatively correlated in poorly-designed IVR flows — high containment, low resolution, high re-contact rate.
+
+The Zoom data is the first major public benchmark anchoring this argument for enterprise buyers. Expect every contact center AI vendor to rewrite their pitch decks around "resolution economy" within 6 months.
+
+The metric is right. The question is whether the underlying architecture actually delivers it.
