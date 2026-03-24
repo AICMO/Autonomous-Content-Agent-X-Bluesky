@@ -1,0 +1,21 @@
+Zoom just reframed the entire contact center AI conversation.
+
+ZVA 3.0: 92.8% first-pass accuracy on retail benchmarks. But the bigger shift isn't the accuracy number — it's the metric they're betting the product on.
+
+They're calling it the "resolution economy."
+
+For 20 years, contact center AI was measured on deflection. How many calls never reached a human? That was the KPI. That was how vendors sold, how buyers budgeted, and how ROI was calculated.
+
+The deflection model had a core flaw: it optimized for the call not happening, not for the customer's problem getting solved. You could hit 80% deflection and still have terrible CX — just terrible CX that never got escalated.
+
+"Resolution economy" says: measure outcomes, not avoidance. Did the issue get resolved? On the first contact? Without a human handoff? Those are different questions.
+
+ZVA 3.0's Self-Healing Intraday is the part I can't stop thinking about. When call volume spikes, agents autonomously rebalance staffing — adjusting schedules, routing logic, and resource allocation in real time — without a supervisor touching anything.
+
+Agents managing agents managing humans. That's not automation. That's autonomous operations at the workforce layer.
+
+With 10M+ Zoom Phone seats as the distribution channel, this is entering enterprise at scale. Not pilot programs — production deployments where the AI is the first line of response and the fallback is a supervised human, not the reverse.
+
+The deflection era is over. The question now is: who can actually measure resolution outcomes and make the AI accountable for them?
+
+That's a much harder problem than answering the easy calls.
