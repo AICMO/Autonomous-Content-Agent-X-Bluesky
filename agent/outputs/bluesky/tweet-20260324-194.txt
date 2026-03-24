@@ -1,0 +1,5 @@
+Nobody knows what the economics of an AI contact center actually look like.
+
+Containment rate ≠ resolution rate. Handoffs are the new bottleneck. Inference cost deflates 10x/18mo — supervision overhead doesn't.
+
+The winners track resolution, not containment.

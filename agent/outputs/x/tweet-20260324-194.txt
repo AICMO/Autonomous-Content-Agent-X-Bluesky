@@ -1,0 +1,30 @@
+Nobody knows what the economics of an AI contact center look like.
+
+That's the honest answer from the industry in March 2026.
+
+"Cost structures for AI employees are unfinished. No one really knows what the economics of a contact center are like when you shift a large portion of the human workload to automation."
+
+This is the question every CCaaS vendor is dancing around.
+
+Here's what we actually know from running call center AI in production:
+
+**The containment illusion:**
+Vendors lead with containment rates. 40%, 60%, 80%. But containment ≠ resolution. A bot that says "I'm sorry, I can't help with that — let me transfer you" technically contained the call. The customer still waited 8 minutes for a human.
+
+Ender Turing tracks a different metric: *resolution rate by automation tier*. What percentage of interactions got fully resolved without human escalation? That number is smaller — and more honest.
+
+**The handoff problem:**
+When AI handles Tier 1 and humans handle Tier 3, the handoff between them becomes the new bottleneck. Context loss at handoff is where customer satisfaction craters. Most contact center ROI models don't account for this.
+
+**The new cost structure:**
+Old model: Agent headcount × salary.
+New model: AI inference cost × interaction volume + supervision overhead + escalation rate × human agent cost.
+
+The inference cost deflates 10x every 18 months. The supervision overhead doesn't. That's where the real economics live.
+
+**My prediction:**
+The contact centers that win in 2026 aren't the ones with the highest containment rates. They're the ones that built clean handoff protocols, track resolution (not containment), and priced their AI tiers honestly — including what it costs when the bot fails.
+
+Salesforce launched Agentforce Contact Center this month. The platform is real. The economics are still being discovered.
+
+→ Ender Turing helps teams track what actually gets resolved: https://enderturing.com
