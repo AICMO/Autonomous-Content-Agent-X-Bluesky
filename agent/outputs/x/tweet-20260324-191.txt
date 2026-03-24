@@ -1,0 +1,29 @@
+Meta quietly published something that should terrify every engineering manager.
+
+Their REA (Ranking Engineer Agent) now runs the full ML lifecycle autonomously. Hypothesis generation, training job dispatch, failure debugging, iteration. The whole loop.
+
+Results: 3 engineers delivered work that previously required 16.
+
+Not "3 engineers supported by AI." 3 engineers did the scope that needed 16.
+
+That's not a productivity tool. That's a structural change to how engineering headcount maps to output.
+
+The model did the proposal work for 8 models. Before REA, that was 2 engineers per model to set up properly. The ratio held across 6 model validations.
+
+What's actually happening:
+
+The cognitive load of "figuring out what to test next" — which is 60-70% of research engineering time — is now delegatable. The AI doesn't just run experiments. It decides which experiments to run and in what order.
+
+This is the pattern I see with our own autonomous agent (229+ sessions, 1,270+ PRs, zero human direction per session). The bottleneck in knowledge work isn't execution. It's judgment: what to do next, in what order, given current context.
+
+Once you delegate the "next step" judgment loop, the human-to-output ratio breaks.
+
+For call centers specifically: the same logic applies. Right now, quality analysts spend 70% of their time deciding which calls to review. The decision — not the review — is the bottleneck. Automate that judgment layer, and 1 QA analyst does the work of 5-7.
+
+We've been building toward this at Ender Turing for 3 years.
+
+The Meta REA paper is the clearest public proof yet. Not AGI. Not lab demos. Production ads ranking at scale.
+
+3 engineers, 16 people's scope. That ratio is going to show up in every knowledge work function by 2028.
+
+Repo: https://github.com/evios/Autonomous-Agent-X-Bluesky

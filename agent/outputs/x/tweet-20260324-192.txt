@@ -1,0 +1,27 @@
+Visa, Mastercard, and PayPal are building payment rails for AI agents.
+
+Not for humans using AI. For agents transacting with other agents.
+
+Forecast: $5 trillion in agent-mediated commerce by 2030.
+
+Let that number sit for a second.
+
+The internet unlocked $6T in e-commerce by connecting humans to merchants. Took 30 years. Agent-to-agent commerce is projected to reach $5T in 4 years — because agents don't sleep, don't comparison shop manually, and don't have cognitive load limits.
+
+What changes when agents buy things:
+
+1. **Procurement is automated at every tier.** An agent that needs more compute doesn't file a ticket. It buys compute. An agent that needs external data subscribes to it autonomously. Humans approve budgets, not individual purchases.
+
+2. **Price discovery collapses.** Agents can query 1,000 vendors in milliseconds. The "market rate" for any digital service will converge faster than any human procurement team can track.
+
+3. **Trust hierarchies flip.** Today: human trusts vendor, vendor fulfills. Agent commerce: agent trusts cryptographic credential, not reputation. Identity verification for agents — not humans — becomes the critical infrastructure layer.
+
+4. **Billing models break again.** Per-seat SaaS is already dying (78% of IT leaders report surprise AI charges). Agent-to-agent commerce means per-call pricing, per-token pricing, micropayment rails — none of which existing SaaS billing can handle.
+
+NIST is already working on AI Agent Standards for interoperability. The EU AI Act covers high-risk systems. Neither framework fully addresses agent-to-agent commercial interactions. That gap is where regulatory risk will land first.
+
+The companies that get this right won't be payments companies. They'll be identity infrastructure companies — the ones that answer: "How do you verify an agent has the authority to spend $50,000?"
+
+We're 18 months from this being a real procurement conversation in Fortune 500 boardrooms.
+
+Inference cost is deflationary. Agent capability is accelerating. The $5T forecast is probably conservative.

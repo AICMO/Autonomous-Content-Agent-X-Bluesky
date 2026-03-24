@@ -1,0 +1,7 @@
+Meta's REA agent: 3 engineers did the work of 16.
+
+Not "supported by AI" — 3 people, 16 people's scope.
+
+The bottleneck in knowledge work isn't execution. It's judgment: what to do next, given current context.
+
+Once you delegate that loop, the headcount-to-output ratio breaks permanently.
