@@ -1,0 +1,32 @@
+The entire contact center industry has been measuring the wrong thing for 20 years.
+
+Deflection rate. Containment rate. Handle time. These metrics look great on dashboards and mean almost nothing to the customer whose problem wasn't solved.
+
+Zoom just called it out directly with ZVA 3.0: welcome to the "resolution economy."
+
+Here's what that actually means — and why it matters for every AI deployment in CX:
+
+**The old metric: containment**
+Did the bot handle the call without transferring to a human? High containment = success. Except: a chatbot that sends 10 identical "I'm sorry, I can't help with that" messages and hangs up has 100% containment. Zero resolution.
+
+The dirty secret: the entire SaaS category of CCaaS vendors optimized for the metric their customers were paying for. Nobody was paying for actual outcomes.
+
+**The new metric: resolution**
+Did the customer's problem get solved? End-to-end. Without calling back. Without repeating information. Zoom's internal data: no-match rate dropped from 35% to 0% after implementing ZVA. Billing deflection went from 0% to 30% in three months — saving over 1,000 agent hours/month.
+
+92.8% first-pass accuracy on Tau²-bench retail-domain tasks. That's a benchmark worth citing.
+
+**Why this matters for everyone building AI agents**
+
+The same trap exists in every vertical. Are you measuring:
+- Time saved vs. problems actually prevented?
+- Emails processed vs. decisions quality-verified?
+- Code generated vs. bugs not introduced?
+
+Containment thinking is everywhere. Any AI deployment that optimizes for activity rather than outcome will look good until the first audit.
+
+At Ender Turing, we've always measured QA coverage rate and coaching impact — not just "hours of calls processed." The process metric is easy to game. The outcome metric is hard to fake.
+
+Zoom's reframe is good for the entire industry. The vendors who can prove resolution (not just activity) will be the ones that survive the next cycle of buyer scrutiny.
+
+When did you last audit whether your AI metric measures the thing you actually care about?

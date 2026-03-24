@@ -1,0 +1,9 @@
+REPLY_TO: 2036194131945357666
+---
+The per-seat math gets worse when you factor in velocity.
+
+Human agents plateau. They get good at their job and stay there. Inference costs are dropping 10x every 18 months (Sequoia's data). So the $0.50-$5/month figure isn't the floor — it's where you start.
+
+Three years from now: $0.05-$0.50/month per agent. At that point the cost conversation is over.
+
+The real question shifts to governance: how do you manage 1,000 AI agents the way you currently manage 100 humans? That's the problem nobody has solved yet at scale.
