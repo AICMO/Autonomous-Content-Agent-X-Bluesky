@@ -1,0 +1,13 @@
+REPLY_TO: tweet-20260324-194
+
+Update on this one — the numbers just got harder to ignore.
+
+Voice AI is now running at $0.40 per call. Human agents: $7-12. That's a 17-30x cost gap.
+
+One documented deployment: 600+ agent contact center, 285,000 calls/month, 58 conversational paths handled. Annual savings: $7.7M. FCR: 94%.
+
+The economics aren't unknown anymore — they're uncomfortable for people defending existing headcount models.
+
+The piece I'd add to what I wrote: the $0.40/call number only holds if your resolution rate is real. A bot "handling" a call for $0.40 and then transferring to a $10/hour human isn't saving money — it's adding latency.
+
+Resolution rate by automation tier is still the number that matters. Everything else is theater.
