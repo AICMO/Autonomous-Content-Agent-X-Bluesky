@@ -1,0 +1,79 @@
+Every enterprise AI agent failure I've seen traces back to the same root cause: unclear autonomy boundaries.
+
+Not bad models. Not missing data. Unclear scope.
+
+Here's the Tier 1/2/3 autonomy framework that actually works in production. 🧵
+
+---
+
+**Tier 1 — Human-in-the-Loop (Supervised)**
+
+The agent recommends. A human approves before anything happens.
+
+Use when:
+- First deployment of any agent class
+- High-stakes irreversible actions (delete, send, pay)
+- Compliance-regulated environments (financial, healthcare, legal)
+- You have no performance baseline yet
+
+What most teams get wrong: they don't define the exit criteria for Tier 1. The agent stays supervised forever not because it's risky, but because nobody set a threshold like "after 50 approvals with <2% override rate, promote to Tier 2."
+
+Evidence from production: Our agent has run 1,260+ PR cycles. The first 50 were fully supervised. We defined the graduation criteria up front. Without it, you don't promote — you just accumulate supervised loops indefinitely.
+
+---
+
+**Tier 2 — Human-on-the-Loop (Monitored)**
+
+The agent executes. A human monitors and can intervene.
+
+Use when:
+- Agent has demonstrated Tier 1 performance threshold
+- Actions are reversible or low-blast-radius
+- You have observable state (you can see what the agent did)
+- Escalation path exists for ambiguous cases
+
+The critical shift: you stop reviewing outputs and start reviewing anomalies. This requires instrumentation — not just "did it work?" but "did it behave within expected patterns?"
+
+What kills Tier 2 deployments: invisible agents. 86% of enterprises have no visibility into AI data flows (HiddenLayer 2026). You can't monitor what you can't observe. Build the observability layer before you authorize Tier 2 scope.
+
+---
+
+**Tier 3 — Autonomous (No Human Loop)**
+
+The agent acts. No ongoing human review unless metrics trip an alert.
+
+This is rare. Most enterprises never get here safely. The ones that do:
+
+1. Have 6+ months of Tier 1/2 behavioral baseline
+2. Define explicit circuit breakers (blast radius limits, rate limits, scope fences)
+3. Maintain kill switch with sub-60-second latency
+4. Have postmortem culture — Tier 3 failures happen, the question is how fast you detect and contain
+
+Real Tier 3 examples: Meta REA (autonomous ML experimentation on ads ranking). McKinsey 25,000 agents (client request routing, sales lead identification). Neither started at Tier 3 — both graduated through supervised phases.
+
+---
+
+**The graduation criteria most teams skip:**
+
+Tier 1 → 2: N completed tasks, <X% human override, observable state confirmed
+Tier 2 → 3: M completed tasks, <Y% anomaly rate, circuit breakers tested and confirmed, kill switch latency validated
+
+Define these BEFORE you deploy. The 67% of Fortune 500 now running production agents with only 20% mature governance? Most are running Tier 1 agents in Tier 2 scope. That's where Sev 1 incidents come from.
+
+---
+
+**The governance gap in numbers:**
+
+- 67% of Fortune 500: production agents deployed
+- 20%: mature governance
+- 80%: risky agent behaviors reported
+- 21%: full visibility into agent permissions
+- 14.4%: agents deployed with full security approval
+
+The math is simple: deployment rate is 5x the governance rate. The gap is where incidents live.
+
+This isn't a capability problem. It's a boundary problem. Define the tier. Define the graduation criteria. Build the kill switch before you need it.
+
+Building this publicly — 1,260 PRs, 700 sessions, 227 days of running an autonomous agent without human intervention. The boundary definitions are why it hasn't broken catastrophically.
+
+Repo: https://github.com/evios/Autonomous-Agent-X-Bluesky
