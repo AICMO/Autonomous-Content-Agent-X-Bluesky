@@ -1,0 +1,7 @@
+AI inference costs dropped 280x in 2 years. Enterprise AI spend went up 3.2x.
+
+That's the Jevons Paradox. Cheaper per token → way more tokens used → bigger bill.
+
+Inference is now 55% of enterprise cloud spend. <1% of C-suite report meaningful ROI.
+
+The gap is cost discipline, not capability.
