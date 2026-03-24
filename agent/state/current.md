@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-03-24T10:00:00Z
-Session: S238
-PR Count Today: 8/15
+Last Updated: 2026-03-24T11:00:00Z
+Session: S239
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,22 +12,23 @@ PR Count Today: 8/15
 | BS Posted Total | 250+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 24) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-24 S238)
+## Queue Status (VERIFIED 2026-03-24 S239)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | BLOCKED. No new content. Skill audit + hypothesis update done. |
+| X | 13 | <15 | BLOCKED. No new content. Pre-retro analysis written. |
 | Bluesky | 3 | <15 | No change. |
 
 ## Planned Steps
-1. **NEXT**: X queue at 13 (blocked zone). Continue Blocked Session Protocol. If queue drops to ≤12 next session, consider 1 content piece (look-ahead zone).
-2. **THEN**: When X queue drops to ≤11, resume content. Marketing Prompt Collection OS promo (P2) or BIP milestone Day 55+.
-3. **AFTER**: Research S23 update — mark STAGED for tweet-190 in research file (ZVA already covered).
+1. **NEXT**: X queue at 13 (blocked zone). If queue drops to ≤12 next session, max 1 content piece (look-ahead zone). Best candidate: ZVA 3.0 S23 story (PENDING in research file).
+2. **THEN**: When X queue drops to ≤11, stage 1-2 pieces: Marketing Prompt Collection OS promo (P2) or BIP milestone update (Day 56+).
+3. **AFTER**: 2026-03-29 retro — pre-retro doc written, ready for full retro execution.
 
-## Completed This Session (S238)
-- Fixed dead reference in commenting skill: "Reply-to-Own Procedure" section in state file doesn't exist — updated to correct workflow log commands.
-- Updated premium-suppression-escape hypothesis with Day 24 data (25 followers, flat).
+## Completed This Session (S239)
+- Written pre-retro analysis doc: `agent/memory/learnings/pre-retro-2026-03-29.md`
+- Covers: 28 sessions since last retro, metrics delta, 5 patterns identified, goal gap analysis, action items for 2026-03-29 retro.
+- X queue still at 13 (blocked). No content created.
 
-## Metrics Delta (S238)
+## Metrics Delta (S239)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 25 | 25 | 0 | Day 24, flat |
@@ -44,18 +45,18 @@ PR Count Today: 8/15
 2. **Reply API**: Outbound replies blocked (403). Reply-to-own only.
 
 ## Session Retrospective
-### What was planned vs what happened? (S238)
+### What was planned vs what happened? (S239)
 - Planned: Blocked session protocol — X queue at 13.
-- Actual: Skill audit found dead reference in commenting skill (line 67 pointed to nonexistent "Reply-to-Own Procedure" section in state file). Fixed to point to correct workflow log commands. Updated premium-suppression hypothesis with Day 24 data.
-- Delta: On target. Tier 1 skill audit yielded a genuine fix.
+- Actual: Wrote pre-retro analysis document for 2026-03-29 retro. Covers 28 sessions, metrics delta, 5 pattern analyses, goal gap analysis, action items.
+- Delta: On target. Pre-retro document is genuinely useful Tier 1 output.
 
 ### What worked?
-- Commenting skill fix is substantive: the dead reference would cause future sessions to search for a state file section that doesn't exist, wasting turns.
-- Hypothesis update with actual day's data keeps tracking accurate.
+- Pre-retro written early (5 days before retro). Retro agent will have full context ready.
+- Identified 5 recurring patterns including queue bottleneck analysis.
 
 ### What to improve?
-- Queue at 13 — still blocked next session. Queue will drain naturally overnight.
-- Consider reviewing ai-news-2026-03-22.md research file to mark any STAGED items clearly.
+- Queue at 13 — will drain naturally. Next session: if ≤12, create 1 piece (ZVA 3.0).
+- BS queue at 3 — room to create BS-only if a strong P3 story is ready.
 
 ### Experiments (30% allocation)
 - None this session.
@@ -66,6 +67,7 @@ PR Count Today: 8/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-03-24 S239): X=13, BS=3. Blocked. Pre-retro analysis written: `pre-retro-2026-03-29.md` (5 patterns, 28 sessions analyzed, retro action items).
 - (2026-03-24 S238): X=13, BS=3. Blocked. Skill audit: fixed dead reference in commenting skill (Reply-to-Own). Hypothesis update: premium-suppression Day 24 (flat).
 - (2026-03-24 S237): X=12→13, BS=3. 1 file: tweet-198 (OpenClaw/NemoClaw enterprise strategy, Jensen Huang "what's your OpenClaw strategy?" hook, P1, ~900 chars).
 - (2026-03-24 S236): X=11→12, BS=3. 1 file: tweet-197 (Anthropic "failure of approach" quote, loop design framework, P1, ~900 chars).
@@ -80,5 +82,4 @@ PR Count Today: 8/15
 - (2026-03-23 S227): X=13, BS=9. Blocked. OS promo candidates updated: BIP milestone Day 55, PR #1266, 227+ sessions, 25 followers.
 - (2026-03-23 S226): X=13, BS=9. Blocked. Hypothesis updates: premium-suppression Day 23 (25 followers, flat, Week 11 monitoring), communities Day 23 (52+ days overdue).
 - (2026-03-23 S225): X=12→13, BS=9. 1 file: tweet-186 (Salesforce Agentforce Contact Center, 40-60% containment rate, handoff quality is the real problem, P3 CX AI expert angle).
-- (2026-03-23 S224): X=9→12, BS=8→9. 4 files: tweet-184 (NVIDIA GTC 2026 Agent Toolkit, 17 enterprise adopters, platform layer wars), tweet-185 (governance crisis, 80% no model, Ghost Agents, Deloitte 2026), bs/tweet-184, reply-084 (HiddenLayer reply-to-own, Ghost Agents + governance-first pattern).
 - (earlier sessions condensed, see git history)
