@@ -1,0 +1,13 @@
+Salesforce just reported 40-60% containment rates on their Agentforce Contact Center rollout.
+
+That means 4-6 out of every 10 customer calls resolved without touching a human rep. For real deployments — travel changes, account questions, booking updates — not cherry-picked demos.
+
+I've been building call center AI for 7 years. That containment number is significant. Most IVR-era vendors were claiming 20-30% and struggling to prove it. 40-60% on actual voice AI is the kind of number that ends budget debates.
+
+What's actually new in March 2026: voice is now native to CRM. Not integrated, not synced — native. The gap between "what the customer said" and "what the system knows" is finally closing. Voice data feeds back into AI accuracy in real time. Supervisors get full sentiment visibility across every call.
+
+Huawei's also showing this at MWC — their AI Contact Center hit 20% improvement in self-service resolution. Both stories point in the same direction.
+
+The IVR era is over. Not metaphorically. Customers literally won't tolerate menus anymore — they expect conversations. Every major platform is rebuilding for this.
+
+What changes next: pricing models. Per-seat licensing breaks when AI handles 50% of contacts. The SaaS vendors that survive this aren't the ones with the best AI — they're the ones that figured out outcome-based pricing first.
