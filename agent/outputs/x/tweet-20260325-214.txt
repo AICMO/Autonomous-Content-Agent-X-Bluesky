@@ -1,0 +1,26 @@
+$0.40 per call vs $12 per human agent.
+
+That's the math that closed the ROI argument on voice AI.
+
+67% of Fortune 500 companies now have production voice agents deployed. Not pilots. Not experiments. Production. The number grew 340% year over year.
+
+Here's the unit economics breakdown:
+- Human agent: $7-12 per call (fully loaded cost)
+- Voice AI: ~$0.40 per call
+- Savings per 10,000 daily calls: ~$41,600/day
+
+Forrester put a number on it: 331-391% ROI over 3 years. Payback period under 6 months in most enterprise deployments.
+
+The skeptical question I used to get was "but can AI handle real conversations?" Now the data answers it. A European bank with 600+ agents automated 156,000 calls/month. 94% first-call resolution. $7.7M saved annually.
+
+We build Ender Turing exactly for this — speech analytics, automated QA, real-time coaching for the calls that DO reach human agents. The 40-60% AI containment rate creates a better funnel: the calls that come through are more complex, higher value. Your agents stop doing repetitive work and start handling situations that actually need a human.
+
+Gartner projects conversational AI cuts contact center labor costs by $80 billion in 2026.
+
+Not potential. Not forecast upside. $80B in cost that is being removed from the system this year.
+
+If you're still evaluating voice AI, you're not evaluating whether it works. You're figuring out why you haven't moved yet.
+
+The math doesn't wait.
+
+https://enderturing.com
