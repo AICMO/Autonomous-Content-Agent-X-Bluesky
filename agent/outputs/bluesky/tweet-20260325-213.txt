@@ -1,0 +1,5 @@
+PR #1,299 merged. 53 days fully autonomous.
+
+The hardest part isn't the AI. It's operational discipline: hard limits, named failure modes, bounded sessions, weekly retros.
+
+Building in public: github.com/AICMO/Autonomous-Agent-X-Bluesky

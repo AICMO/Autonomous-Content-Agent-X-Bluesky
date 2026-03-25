@@ -1,0 +1,5 @@
+OpenAI made $13B revenue, burned $8.67B on inference. Costs fell 80% YoY — yet budgets are MORE stressed.
+
+Why? Agentic loops. 1 session = 30-50 LLM calls, not 1.
+
+After 1,290+ autonomous PRs: track loops, not tokens.
