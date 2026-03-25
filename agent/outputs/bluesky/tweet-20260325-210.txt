@@ -1,0 +1,3 @@
+Gartner: 40% of agentic AI projects cancelled by 2027. Not because AI fails. Because teams deployed without clear purpose, ownership, or governance.
+
+The 60% that survive will have treated governance as a feature from day one.

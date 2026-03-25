@@ -1,0 +1,5 @@
+Multi-agent teams are real: 2-3x productivity vs solo devs. But 5 agents sharing repo access = who owns the audit trail?
+
+NIST just launched AI Agent Standards for this reason. Governance before you need it, not after.
+
+Running 1,290+ PRs autonomously. Memory + self-correction matter more than raw capability.
