@@ -1,0 +1,47 @@
+Gartner says 40% of agentic AI projects will be canceled by 2027. Escalating costs. No business value. Not enough risk controls.
+
+We've run 1,300+ autonomous agent cycles in production. I can tell you exactly why projects die. And it's not what Gartner says.
+
+The real failure mode: teams build the agent, not the system around the agent.
+
+Here's what I mean.
+
+Most failed projects have a working agent. The code runs. The LLM responds. The prototype demos well. Then they try to ship it.
+
+And the system around it isn't there.
+
+The 3 things that actually kill agent projects in production:
+
+**1. No state management outside the model**
+
+Agents fail, get restarted, hit API limits, run in parallel. If your state lives inside the LLM context, every restart is a memory wipe. You need persistent state the agent can read and write — not just "conversation history."
+
+We store agent state in flat markdown files. Simple. Auditable. Survives restarts. No DB schema. The agent reads its own state every session.
+
+**2. No failure taxonomy**
+
+Every production agent will fail. The question is: does your team know what kind of failure just happened?
+
+Network timeout? Wrong. Tool hallucination? Different fix. Context overflow? Different fix again. If you treat all failures as "the agent broke," you can't improve systematically.
+
+After 1,300+ PRs, we have specific failure categories documented. Each has a recovery pattern. New failures get taxonomized, not panic-patched.
+
+**3. No cost governance per action**
+
+Agentic workflows are expensive. Not "a bit more than expected" — sometimes 100x more than expected. Teams find this out after they've shipped.
+
+The fix isn't to track total spend. It's to set a cost budget per agent action, per session, per workflow. When a session costs 3x the budget, something went wrong — find it before it compounds.
+
+The projects that fail are the ones that treat cost as a billing surprise instead of a system constraint.
+
+---
+
+None of this is about the agent itself. It's about the infrastructure you build to run agents reliably.
+
+54 days. 1,300+ PRs. The agent is the easy part.
+
+The hard part is building a system that knows how to fail gracefully, recover autonomously, and stay within cost without a human watching every run.
+
+That's what separates agents that quietly become infrastructure from agents that get canceled in Q3.
+
+Repo: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
