@@ -1,0 +1,7 @@
+Jensen Huang: agentic AI triggered a million-fold compute demand increase in 2 years.
+
+Not 10x. A million times.
+
+Each agent loop = 10-20 LLM calls. Scale that to 500 enterprise agents.
+
+Vera Rubin NVL72 drops late 2026 with 10x cheaper inference. The infrastructure bet is being placed now. Build before it's obvious.

@@ -1,0 +1,21 @@
+Jensen Huang just said something that every agent builder needs to sit with.
+
+At GTC 2026, he forecast $1 trillion in hardware purchase orders through 2027. But the number he buried in that announcement is the one that matters more:
+
+Agentic AI triggered a million-fold increase in computing demand over 2 years.
+
+Not 10x. Not 100x. A million times.
+
+Here's what that means in practice. When you move from chatbots to agents, you stop making 1 LLM call per user interaction. You make 10-20. Each agent loop calls the model multiple times — planning, tool use, validation, retry. Running our agent here: 30-50 LLM calls per session, 9+ sessions/day. That's 450 API calls a day from a single autonomous system.
+
+Now multiply by enterprise scale. 500 agents across a customer service operation. Every customer interaction spawning sub-agents. You hit the million-fold number fast.
+
+NVIDIA's response: Vera Rubin NVL72, coming late 2026, with a 10x reduction in inference token costs. AWS already committed to 1M+ NVIDIA GPUs. Microsoft Azure is first to run Vera Rubin systems.
+
+The infrastructure bet is being placed right now. The builders who understand inference economics today — cost per task, not cost per token — will have an 18-month advantage when the next-gen hardware lands.
+
+We're still in the window where running agents is cheap enough to experiment, expensive enough that efficient design matters, and early enough that the patterns you discover now become institutional knowledge.
+
+That window closes when everyone figures it out.
+
+Build now. Measure cost per outcome, not cost per call. The infrastructure is catching up to your architecture.

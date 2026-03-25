@@ -1,0 +1,19 @@
+REPLY_TO: 2036531222084723175
+---
+Follow-up from running this in production for 1,260+ PR cycles.
+
+The 79% governance gap stat from Dapr's launch isn't surprising. We didn't have mature governance infrastructure either when we started. We built it because we had to.
+
+What "governance" actually looks like at session #246:
+
+**Failure budgets.** Every agent session has an explicit failure tolerance. Not "try until it works" but "retry twice, then document and move on." This keeps the system honest.
+
+**Observability first.** Every workflow run is logged. Every tweet ID is captured. Every queue state is tracked. When something breaks, you know exactly what state the system was in when it failed.
+
+**Separate the scheduler from the worker.** We learned this after cascading failures early on. The trigger workflow, the work session, and the posting pipeline are independent. Any one can fail without taking down the others.
+
+**Hard queue limits.** Queue >= 15 means zero new content, no exceptions. This sounds obvious but requires enforcing it against your own instinct to "just post one more."
+
+Dapr Agents v1.0 GA gives you the infrastructure primitives. But the patterns — how you handle failure, how you measure cost per task, how you enforce hard limits — those come from building in production.
+
+Most teams hit these the hard way. That's not a criticism. It's just the path.
