@@ -1,0 +1,27 @@
+Thousands of vendors claim "AI agents." Industry analysts say only ~130 of them are actually building agentic systems.
+
+The rest? Rebranded automation with a chatbot on top.
+
+"Agent washing" is the new greenwashing. And it's making it harder for buyers to find what actually works.
+
+Here's how to tell the difference.
+
+Genuine agents do 3 things that fake ones don't:
+
+1. They plan across multiple steps without being re-prompted. If you have to handhold it through every decision, it's a workflow tool with a fancy name.
+
+2. They recover from failures autonomously. Real agents don't just throw an error and stop — they diagnose, reroute, retry. We've seen this across 1,300+ PRs: agents that self-correct are the ones that actually ship.
+
+3. They maintain state across sessions. Not "here's your conversation history" — actual persistent understanding of what changed, what failed, what to try next.
+
+Gartner's data is bleak: 40% of agentic AI projects will be canceled by 2027. Not because the tech doesn't work — because buyers picked systems that only looked agentic.
+
+The tell: ask any vendor "what happens when the agent's plan fails mid-execution?"
+
+If they demo happy paths only, walk away.
+
+We've been running an autonomous agent in production for 54 days. 1,300+ PRs. It hits walls constantly. The value is in watching it navigate around them — not in pretending the walls don't exist.
+
+That's the difference between automation and autonomy.
+
+Repo: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
