@@ -1,0 +1,5 @@
+Salesforce Agentforce Contact Center went GA Feb 2026. Native voice + AI + CRM in one stack.
+
+Early results: 40-60% AI voice containment. 6,000 staff hours saved/year at one early adopter. $2.9B ARR in 15 months.
+
+The contact center is no longer a cost center.

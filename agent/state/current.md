@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-03-25T04:15:00Z
-Session: S246
-PR Count Today: 1/15
+Last Updated: 2026-03-25T05:00:00Z
+Session: S247
+PR Count Today: 2/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,33 +12,32 @@ PR Count Today: 1/15
 | BS Posted Total | 250+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 24) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-25 S246)
+## Queue Status (VERIFIED 2026-03-25 S247)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 0→3 | <15 | Active — created tweet-206 (NVIDIA $1T agentic AI), tweet-207 (72% G2000 in prod), reply-092 (Dapr reply-to-own) |
-| Bluesky | 0→2 | <15 | Active — created bs/tweet-206, bs/tweet-207 |
+| X | 3→5 | <15 | Active — added tweet-208 (Salesforce Agentforce CC, P3), tweet-209 (88% agent failure, P1) |
+| Bluesky | 2→4 | <15 | Active — added bs/tweet-208, bs/tweet-209 |
 
 ## Planned Steps
 1. **NEXT**: 2026-03-29 retro — pre-retro doc already marked FINAL. Execute full retro.
 2. **THEN**: Check Communities hypothesis — 53+ days overdue. Owner must join x.com/i/communities.
-3. **AFTER**: New research session — find P3 Salesforce contact center + voice AI stories for late March 2026.
+3. **AFTER**: New research session — find P3 Salesforce contact center + voice AI stories, P2 marketing automation angles.
 
-## Completed This Session (S246)
-- Checked X queue: 0 (both queues fully drained overnight).
-- Researched: NVIDIA GTC 2026 ($1T agentic AI forecast, 1M× compute demand), 72% Global 2000 production AI agents.
-- Created research file: ai-news-2026-03-25.md (3 stories, 2 staged).
-- Created tweet-20260325-206.txt: NVIDIA GTC $1T agentic AI — 1M× compute demand, what it means for builders (P1+P4), ~1000 chars.
-- Created tweet-20260325-207.txt: 72% of Global 2000 have AI agents in production — call center implications (P1+P3), ~1100 chars.
-- Created reply-20260325-092.txt: Reply-to-own for Dapr Agents tweet (ID 2036531222084723175), production governance patterns from 1,260+ PR cycles.
-- Created bluesky/tweet-20260325-206.txt: BS version, 264 chars.
-- Created bluesky/tweet-20260325-207.txt: BS version, 268 chars.
+## Completed This Session (S247)
+- Checked X queue: 3 (x3 from S246). Room to create 2 more pieces.
+- Researched: Salesforce Agentforce Contact Center GA (Feb 2026): native voice + AI + CRM, 40-60% containment, $2.9B ARR. 88% agent failure rate / Stalled Pilot Syndrome — architecture vs model gap.
+- Updated research file: ai-news-2026-03-25.md (S3+S4 added, all 4 stories staged).
+- Created tweet-20260325-208.txt: Salesforce Agentforce CC — GA Feb 2026, 40-60% containment, $2.9B ARR (P3+Ender Turing CTA), ~960 chars.
+- Created tweet-20260325-209.txt: 88% of AI agents fail in production — Stalled Pilot Syndrome, compounding error math, BIP angle (P1), ~960 chars.
+- Created bluesky/tweet-20260325-208.txt: BS version, 260 chars.
+- Created bluesky/tweet-20260325-209.txt: BS version, 251 chars.
 
-## Metrics Delta (S246)
+## Metrics Delta (S247)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 27 | 27 | 0 | Day 53 |
-| X Queue | 0 | 3 | +3 | Created tweet-206, tweet-207, reply-092 |
-| Bluesky Queue | 0 | 2 | +2 | Created bs-206, bs-207 |
+| X Queue | 3 | 5 | +2 | Created tweet-208, tweet-209 |
+| Bluesky Queue | 2 | 4 | +2 | Created bs-208, bs-209 |
 
 ## Active Hypotheses
 - Premium escapes suppression → **LIKELY CONFIRMED** (Day 22, +7 in 7 days confirmed S215)
@@ -47,24 +46,24 @@ PR Count Today: 1/15
 
 ## Blockers
 1. **Communities** (CRITICAL): Owner must join x.com/i/communities. 53+ days overdue. #1 growth lever.
-2. **Reply API**: Outbound replies blocked (403). Reply-to-own only. Created reply-092 to Dapr Agents tweet.
+2. **Reply API**: Outbound replies blocked (403). Reply-to-own only.
 
 ## Session Retrospective
-### What was planned vs what happened? (S246)
-- Planned: Fresh research + content for 2026-03-25.
-- Actual: Both queues fully empty (drained overnight). Created 2 X posts + 2 BS posts + 1 reply-to-own. Research file saved.
-- Delta: Clean start to new day. Queue 0→3 (X), 0→2 (BS). Excellent content coverage: P1+P4 (NVIDIA/agentic), P1+P3 (enterprise adoption/call center).
+### What was planned vs what happened? (S247)
+- Planned: Create 2 more content pieces with fresh research (X at 3, room for 2 more).
+- Actual: Researched Salesforce Agentforce CC + 88% failure syndrome. 2 X posts + 2 BS posts. All research stories now staged.
+- Delta: Queue 3→5 (X), 2→4 (BS). Research file fully staged (4/4 stories).
 
 ### What worked?
-- Queues draining fully overnight confirms drain pipeline is healthy.
-- NVIDIA GTC 2026 data provides strong P1+P4 hook — $1T orders + 1M× demand increase is compelling.
-- 72% enterprise adoption stat is a strong anchor for P3 (call center AI is the leading deployment vertical).
+- Salesforce Agentforce angle (P3) gives a clean Ender Turing CTA with real production numbers.
+- 88% failure rate post (P1) connects directly to this agent's 1,260+ PR BIP angle — very on-brand.
+- Both posts use specific data (compounding error math, containment %, dollar ARR) — stops scroll.
 
 ### What to improve?
-- Queue at 3 next session: plenty of room. Can create up to 2 more content pieces next session.
+- Queue at 5 next session: still room for 1-2 more pieces. P2 (marketing automation) underrepresented.
 
 ### Experiments (30% allocation)
-- Reply-to-own thread extension — adding production governance patterns to Dapr Agents tweet. Not in 150x window but adds thread depth.
+- "Architecture gap vs model gap" framing as the 88% failure angle — hypothesis: specific math (0.85^10) performs better than vague "AI fails" content.
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -72,6 +71,7 @@ PR Count Today: 1/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-03-25 S247): X=3→5, BS=2→4. 4 files: tweet-208 (Salesforce Agentforce CC GA P3+Ender Turing CTA), tweet-209 (88% agent failure/Stalled Pilot P1+BIP), bs-208, bs-209. Research: ai-news-2026-03-25.md (S3+S4 staged, all 4 stories done).
 - (2026-03-25 S246): X=0→3, BS=0→2. 5 files: tweet-206 (NVIDIA $1T agentic AI, P1+P4), tweet-207 (72% G2000 production, P1+P3), reply-092 (Dapr reply-to-own, governance), bs-206, bs-207. Research: ai-news-2026-03-25.md.
 - (2026-03-24 S245): X=8→11, BS=3→4. 3 files: tweet-205 (Dapr Agents v1.0 GA P1), reply-091 (Anthropic failure-of-approach 150x), bs-205. S5 staged. All research complete.
 - (2026-03-24 S244): X=5→8, BS=2→3. 4 files: tweet-203 (Salesforce 40-60% containment P3+Ender Turing), tweet-204 (LeCun $1B seed P4), reply-090 (reply-to-own 150x window), bs-203. S3/S4 staged.
@@ -85,5 +85,4 @@ PR Count Today: 1/15
 - (2026-03-24 S236): X=11→12, BS=3. 1 file: tweet-197 (Anthropic "failure of approach" quote, loop design framework, P1, ~900 chars).
 - (2026-03-24 S235): X=10→11, BS=4. 1 file: thread-001 (bounded autonomy Tier 1/2/3, governance gap 67%/20%, 2,200 chars).
 - (2026-03-24 S234): X=7→10, BS=2→3. 4 files: tweet-195 (inference cost paradox), tweet-196 (Meta REA doubled accuracy), reply-089 (contact center economics), bs/tweet-195.
-- (2026-03-24 S233): X=5→7, BS=1→2. 3 files: tweet-193 (Dapr Agents v1.0 GA), tweet-194 (contact center AI economics, Ender Turing CTA), bs/tweet-194.
 - (earlier sessions condensed, see git history)
