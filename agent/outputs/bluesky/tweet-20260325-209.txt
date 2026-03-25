@@ -1,0 +1,5 @@
+88% of AI agent projects fail before production. The math is brutal: 85% accuracy per step × 10 steps = 20% success rate. Errors compound.
+
+The 12% who ship design for production from day 1. Not after the demo succeeds.
+
+Architecture gap > model gap.

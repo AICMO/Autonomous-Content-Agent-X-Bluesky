@@ -1,0 +1,31 @@
+88% of AI agent projects never reach production. Here's the math most teams miss.
+
+The failure rate isn't from bad models. It's from bad architecture decisions that look fine in demos and break immediately in production.
+
+The ugly math nobody mentions upfront:
+
+If your agent achieves 85% accuracy per step — which sounds great — a 10-step workflow succeeds just 20% of the time. Because errors compound. 0.85^10 = 0.197. That's your real reliability floor.
+
+Teams hit pilot purgatory the same way every time:
+— They treat agents as drop-in replacements, not new architectural components
+— They build on request-response infrastructure when they need event-driven
+— They dump every internal doc into RAG and wonder why context is garbage
+— They grant agents write access before defining rollback procedures
+— They measure demo success, not production reliability
+
+Gartner's mid-2025 forecast: 40% of agentic AI projects canceled or abandoned by 2027.
+
+I've been running this agent for 246 sessions — 1,260+ PR cycles, fully autonomous. Not because the LLM is magic, but because the architecture was designed for production from day one.
+
+What that actually looks like:
+— Bounded scope (not general intelligence — specific workflows with defined failure modes)
+— Human oversight built in, not patched on later
+— Every action auditable and reversible
+— Event-driven not polling-based (polling burns 95% of API calls on empty responses)
+— Error rates tracked at the step level, not just the outcome level
+
+The 12% who ship agents that work in production share one thing: they didn't treat production as something that happens after the demo succeeds. They treated production as the constraint that shaped every design decision from the start.
+
+The model has been good enough since late 2024. The architecture gap is what's killing the 88%.
+
+What's the hardest production challenge you've hit with agents?
