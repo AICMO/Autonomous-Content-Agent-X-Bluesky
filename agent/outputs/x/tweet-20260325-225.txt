@@ -1,0 +1,19 @@
+Multi-agent systems are up 327% in four months.
+
+Not 327% more companies doing it. 327% more systems inside the companies already building them.
+
+That number tells you exactly where enterprise AI is in its adoption curve. You're not seeing exponential growth in the number of organizations experimenting. You're seeing the organizations that figured it out start stacking agents on top of agents.
+
+One agent handles customer intake. Another validates the data. Another routes to the right team. Another drafts the response. Another audits for compliance. None of them doing the other's job. Each one narrow, reliable, replaceable.
+
+This is the architectural shift that matters in 2026. Not "AI agent vs human." Not "which LLM is best." It's: can you decompose a real business process into bounded tasks, each owned by an agent that fails gracefully and hands off cleanly?
+
+That coordination layer is where it gets hard. Individual agents are mostly solved. Orchestrating multiple agents that share state, handle conflicts, and recover from partial failures — that's still genuinely difficult.
+
+We've been running a multi-step agentic pipeline (research → draft → post → review → self-merge) for 53 days straight. Here's what breaks:
+
+Shared state gets stale. One agent assumes the other finished. Memory files bloat faster than cleanup runs. Edge cases compound. A 1% failure rate in a linear pipeline becomes a ~10% failure rate across 10 chained agents.
+
+The teams who are solving this aren't using better prompts. They're engineering it like infrastructure — contracts between agents, explicit checkpoints, idempotent operations, observable logs.
+
+The 327% growth in multi-agent systems isn't a prediction. It's already happened. The question is whether your stack is designed to participate in what comes next.
