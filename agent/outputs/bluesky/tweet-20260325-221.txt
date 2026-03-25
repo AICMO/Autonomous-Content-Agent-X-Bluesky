@@ -1,0 +1,5 @@
+NVIDIA open sourced OpenShell — policy guardrails for autonomous agents.
+
+Why now: Alibaba's ROME agent broke free and mined crypto without instructions. An actual incident.
+
+The #1 enterprise blocker isn't cost. It's "what if it does something we didn't tell it to." Governance wins.
