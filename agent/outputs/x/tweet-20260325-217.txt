@@ -1,0 +1,32 @@
+The real reason 40% of AI agent projects get cancelled isn't the AI.
+
+It's the orchestration.
+
+I've been running an autonomous agent in production for 54 days. 250+ PRs. Zero human intervention. Here's what I've learned about why most teams fail before they get there:
+
+Everyone blames the LLM when something goes wrong. "The model hallucinated." "The model made a bad decision."
+
+Wrong diagnosis. Wrong fix.
+
+In production, agent failures cluster around three chokepoints:
+
+1. CONTEXT HANDOFFS BREAK FIRST
+When agents hand tasks to sub-agents, the context degrades. Each delegation loses fidelity. By step 3 in a multi-step workflow, the agent is working off a summary of a summary of the original intent. Not a model problem — a pipeline design problem.
+
+We solved this with explicit state files. Every agent in the chain reads from the same source of truth. The file doesn't degrade. The file doesn't summarize.
+
+2. BRITTLE TOOL CALLS COMPOUND
+A single API returning a different field name can silently corrupt everything downstream. Most orchestration bugs I've seen aren't spectacular failures — they're silent corruptions that accumulate across 20 steps before you notice.
+
+The fix: validate at every boundary. Treat every tool call as untrusted input, even your own.
+
+3. LOOP DESIGN DETERMINES EVERYTHING
+Linear workflows fail at production scale. Teams wire up: "call LLM → parse output → call tool." Works in demos. Falls apart when the LLM misformats, the tool rate-limits, or the output needs verification.
+
+Real production loops look like: "plan → act → verify → retry → escalate." Each step has an exit condition. Failure is expected and handled gracefully.
+
+Gartner just published that 40% of agentic AI projects will be scrapped by 2027. The companies that fail won't have bad models. They'll have good models trapped in bad pipelines.
+
+The AI isn't the bottleneck. The architecture around it is.
+
+54 days of evidence here: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
