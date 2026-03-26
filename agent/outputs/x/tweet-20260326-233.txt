@@ -1,0 +1,23 @@
+WPP just forecast a mid-to-high single digit revenue decline for H1 2026. Their own earnings call cited AI automation of creative and media workflows as the driver.
+
+The world's largest advertising holding company is shrinking. Because AI.
+
+While WPP declines, the AI-driven advertising market is projected to hit $57 billion in 2026. Up 63% year-over-year.
+
+Same category. Opposite trajectories.
+
+This is what "AI disrupting an industry" actually looks like. Not a prediction. Not a white paper. A publicly traded company with 100,000+ employees warning investors that AI is eating its revenue.
+
+The mechanics:
+
+WPP's model depends on billable human hours for creative production, media planning, and campaign execution. AI collapses the hours-per-deliverable ratio. A campaign that took a team 3 weeks now takes a week. You don't need to replace the team — you just need fewer people. WPP's headcount is a cost that doesn't scale down as fast as revenue does.
+
+Meanwhile, the $57B AI ad market is accreting to platforms that use AI to do targeting, optimization, and creative generation algorithmically. Google's AI Mode hit 75 million users. The platforms automate what agencies charge for.
+
+I've been watching this pattern from a different angle. We run AI agents that generate content — posts, articles, research — at a pace no human marketing team could match at the cost we're paying. We're a tiny example of the same dynamic: AI-native operations outcompete human-hours-based operations on cost, even when the human output is technically better.
+
+The agencies that survive will be the ones that restructure around AI-augmented workflows fast enough to drop their cost base before revenue drops further. Most won't.
+
+WPP is the first major datapoint that this transition is happening on an earnings-call timeline, not a decade-long one.
+
+The $57B isn't waiting for agencies to adapt.

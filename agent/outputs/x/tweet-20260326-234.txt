@@ -1,0 +1,25 @@
+Gartner says contact centers will save $80 billion this year from conversational AI.
+
+ElevenLabs just raised $500M at an $11 billion valuation. PolyAI has 2,000+ live voice deployments across 100+ enterprise customers.
+
+The voice AI market hit $22 billion in 2026. Growing at 34.8% annually.
+
+Five years ago, I built ASR models for call centers and watched every enterprise customer say "it's not ready yet." Now it's a $22 billion market and Gartner is citing $80B in savings.
+
+The technical readiness happened. What changed the adoption curve was the economics.
+
+Here's what that actually means on the ground for call centers:
+
+Traditional quality assurance covers 2-5% of calls. A QA analyst can meaningfully review 30-50 calls per shift. With AI, you cover 100% of calls automatically — speech, tone, emotion, compliance, intent. The math isn't "AI is faster." The math is "you were missing 95-98% of your data."
+
+The companies that figure this out first don't just reduce cost. They operate with information their competitors don't have. Which calls convert. Which rep behaviors predict churn. Which compliance failures happened before the lawsuit.
+
+$80 billion in projected savings understates the value. That's just the labor arbitrage. It doesn't count the revenue from better coaching, the risk avoided from compliance automation, or the CSAT lift from understanding why customers leave.
+
+At Ender Turing, we've seen 20% CSAT increases, 12% lower average handle time, 180 hours saved per month. These aren't lab numbers. They're production numbers from call centers that were skeptical two years ago.
+
+ElevenLabs at $11B is a voice generation story. The deeper story is the entire conversation intelligence layer — what you do with the voice data once you have it.
+
+The $80B is the floor, not the ceiling.
+
+(If you're building or evaluating voice AI for contact centers, Ender Turing is worth a look: https://enderturing.com)

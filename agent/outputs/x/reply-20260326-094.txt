@@ -1,0 +1,9 @@
+REPLY_TO: tweet-20260326-232.txt
+
+The practical version of this for anyone building agents:
+
+Before you call GPT-4o, ask: what's the minimum intelligence needed for this task?
+
+Classification → small model. Extraction → small model. Summarization → small model. Final reasoning or novel synthesis → big model.
+
+60-80% cost reduction. Same output quality. The hard part is building the routing layer, not the prompts.
