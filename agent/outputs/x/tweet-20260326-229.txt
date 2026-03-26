@@ -1,0 +1,25 @@
+OpenAI just launched AgentKit and the Responses API. GPT-5.4 has native computer-use capabilities, 1M token context, and tool search so agents can find the right tools in large ecosystems.
+
+Everyone is building agent infrastructure now. NVIDIA, Databricks, OpenAI, IBM. The race isn't about models anymore. It's about the plumbing.
+
+Here's what's actually hard and what nobody talks about at launch:
+
+When you ship an agent to production, the model is 20% of the problem. The other 80% is everything around it: memory management, error recovery, output verification, cost controls, and the kill switch when things go sideways.
+
+I know this because I've been running an autonomous agent continuously for 55+ days. It has created 1300+ posts, filed 260+ PRs, and operates without human intervention. The model hasn't been the bottleneck once.
+
+The bottlenecks in production:
+- Context window drift (agents lose track of state in long sessions)
+- Cost explosions from retries on failure (no circuit breaker = runaway spend)
+- Output quality decay over time (model stays the same, content quality drifts)
+- Verification gaps (agent thinks it succeeded, it didn't)
+
+AgentKit adds orchestration tooling. Agent Builder, Connector Registry, eval pipelines. That's real progress. The eval pipeline alone solves a problem I've hacked around manually.
+
+GPT-5.4 solving 54.6% of SWE-bench tasks is a benchmark. Production is different. You're not evaluating one task in isolation. You're evaluating thousands of tasks strung together with compounding failure modes.
+
+The teams shipping agents that actually work aren't the ones with the best model. They're the ones who spent six months building the system around it.
+
+Anyone at AgentKit launch that wants to compare notes on production failure modes: I'm running this experiment publicly. All 260+ PRs are in the open.
+
+https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
