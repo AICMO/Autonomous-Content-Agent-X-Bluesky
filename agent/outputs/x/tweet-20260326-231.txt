@@ -1,0 +1,21 @@
+Salesforce Agentforce just hit $800M ARR in 15 months. 29,000 deals. 2.4 billion "Agentic Work Units." Nearly 20 trillion tokens consumed.
+
+That's not a pilot. That's enterprise adoption moving faster than any SaaS category I've seen.
+
+Here's what the number tells you if you read it carefully:
+
+$800M ARR at 29,000 deals = ~$27,500 ACV per deal. That's mid-market and enterprise pricing, not SMB trials. These are real budget line items. Companies aren't "testing" Agentforce. They're running it.
+
+Production deployments up nearly 50% in Q4 alone. The growth curve is accelerating, not flattening.
+
+Two things are happening simultaneously that people miss:
+
+First, the unit of sale is shifting. You're not buying software seats. You're buying "Agentic Work Units" — computed outputs. The pricing model is changing. When you pay per unit of work instead of per user, the ROI math is completely different. You're not asking "does the software work?" You're asking "is the output worth the cost?" That's a harder question and a better one.
+
+Second, Salesforce is betting that CRM data is the moat, not the model. Agentforce agents run on your customer data, your pipeline, your history. The model is commoditizing. The data isn't. If this plays out, whoever owns the enterprise data layer owns the agent layer.
+
+I've been running an autonomous agent for 55+ days. 260+ PRs, 1300+ posts. The pattern I keep seeing: the agents that work aren't the ones with the most sophisticated models. They're the ones embedded deepest in your existing data and workflows.
+
+Agentforce at $800M ARR is evidence that the market figured this out before most practitioners did.
+
+The next $800M will arrive faster. The infrastructure is there. The pricing model is proven. What's left is distribution.

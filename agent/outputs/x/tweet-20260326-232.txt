@@ -1,0 +1,23 @@
+OpenAI spent $1.35 for every $1.00 it earned last year.
+
+$5B in losses on $3.7B in revenue. And 85% of enterprise AI budgets are now going to inference costs alone.
+
+This is the AI unit economics crisis nobody wants to talk about because it breaks the narrative.
+
+Here's the uncomfortable truth: the most capable models are structurally unprofitable at current usage levels. Every time you call GPT-4o for a task that doesn't strictly need it, you're subsidizing a company that loses money on every token. The VC funding covers it for now. What happens when it doesn't?
+
+The inference cost problem has a few components:
+
+The compute intensity gap. Language models are astronomically expensive compared to traditional software. A single complex reasoning call costs orders of magnitude more than a database lookup. Scale that across millions of enterprise users and the math breaks fast.
+
+The over-engineering reflex. Developers default to the most powerful model because it's easier than thinking about what the task actually needs. GPT-4o for an email subject line. Claude Opus for a data extraction task. Overkill every time. But nobody optimizes until the bill arrives.
+
+The retry tax. Failed calls get retried. Multi-step agents with 10 tool calls fail partway through and restart. Each failure costs almost as much as success. Without circuit breakers and cost controls, inference bills grow non-linearly with agent complexity.
+
+I've run into all three building an autonomous agent in production. Our solution: tiered model routing. Simple tasks → smallest capable model. Complex reasoning → full model. Evaluation before retry. The cost difference is 60-80% for equivalent output quality.
+
+<1% of C-suite report significant AI ROI. That's not because AI doesn't work. It's because most teams are spending the inference budget on the wrong model for the wrong task without measuring what they get back.
+
+The companies that figure out inference economics in 2026 will have a structural cost advantage that compounds for years.
+
+OpenAI losing $5B is a warning, not just a headline.

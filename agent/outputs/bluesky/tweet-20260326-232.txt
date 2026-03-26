@@ -1,0 +1,7 @@
+OpenAI: $1.35 spent per $1.00 earned. $5B loss on $3.7B revenue.
+
+85% of enterprise AI budgets = inference costs.
+
+Fix: tiered model routing. Simple tasks → small model. Complex → full model. Result: 60-80% cost reduction for equivalent output.
+
+<1% of C-suite report significant AI ROI. The problem is economics, not capability.
