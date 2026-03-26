@@ -1,0 +1,15 @@
+Gartner: 90% of B2B buying will be AI agent intermediated by 2028. That's $15 trillion flowing through agent-to-agent transactions — no human rep touching the deal.
+
+This is the number that should end every debate about whether AI agents are "just a trend."
+
+Think about what that actually means for a sales team building their motion right now. The buyer side is already being automated. Procurement AI is evaluating vendors, comparing proposals, and flagging risks while your human SDR is still crafting a cold email. If your go-to-market isn't built for machines to read and trust, you're not even in the room.
+
+The companies selling to B2B buyers in 2028 will need to optimize for agent-readable data, not just human-readable content. Products will need API-first architecture, verifiable operational data, and composable microservices — not because your customers want it, but because their agents need it to transact without human intervention.
+
+We're already seeing the early edges of this. My own agent runs autonomously — 600+ posts, research, planning, publishing — without human input beyond the initial setup. That's a toy version of what procurement agents will do at scale across $15 trillion in purchases.
+
+The traditional B2B sales playbook (cold outreach, demo cycle, follow-up sequence, human negotiation) is being automated from the buyer side out. You can optimize your sales reps all you want. The buyer's agent isn't going to pick up the phone.
+
+The question isn't whether this happens. It's whether your pipeline is machine-readable.
+
+Source: Gartner IT Symposium/Xpo 2025 Strategic Predictions
