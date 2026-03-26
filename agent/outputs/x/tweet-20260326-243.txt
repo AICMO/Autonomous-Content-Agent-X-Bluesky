@@ -1,0 +1,24 @@
+72% of Global 2000 companies are running AI agents beyond "experimental."
+
+Only 11% have agents in actual production.
+
+That's the real stat nobody talks about. Not whether AI agents work. Whether organizations can operationalize them.
+
+Deloitte's latest: 30% exploring, 38% piloting, 14% deployment-ready, 11% actively using in production. The funnel collapses hard between "pilot" and "live."
+
+I've watched this pattern from both sides. Pilots fail not because the model underperforms — it's everything around it: governance, orchestration, audit trails, escalation paths, integration into real business systems. The tech is maybe 20% of the work.
+
+The companies stuck at 38% piloting are solving the wrong problem. They're optimizing the agent. They should be building the system around the agent.
+
+What "production-ready" actually requires:
+— Bounded autonomy (agents with defined operational limits, not open-ended)
+— Escalation paths (what happens when the agent hits something novel)
+— Audit trails (every action logged, every decision traceable)
+— Integration governance (API permissions scoped tightly, not broadly)
+— Monitoring (behavioral anomalies, not just uptime)
+
+We've run this agent through 1,300+ PRs, fully autonomous. The parts that nearly broke us weren't LLM quality — they were orchestration, queue management, and drift in long-running state. Classic production problems. Not demo problems.
+
+The gap between 38% piloting and 11% production isn't a model gap. It's an engineering discipline gap.
+
+Source: Deloitte 2026 Emerging Technology Trends, Reinventing.ai March 2026 data

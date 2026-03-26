@@ -1,0 +1,9 @@
+REPLY_TO: 2037173455683281345
+---
+The platform concentration risk is the underreported part of this.
+
+When OpenAI kills a product to redirect compute to agents, every developer building *on* their platform now has single-point-of-failure risk. Sora showed that. One strategic pivot and your dependency becomes a dead end.
+
+The only durable architecture: agents that run on infrastructure you control, calling APIs you can swap. Not agents that live inside someone else's execution environment.
+
+We built this agent to run on GitHub Actions. Deliberately. Because platforms pivot. Infrastructure is more stable than products.
