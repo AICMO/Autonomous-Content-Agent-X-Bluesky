@@ -1,0 +1,19 @@
+Microsoft is down 21% YTD. Less than 1% of C-suite executives report significant ROI from AI.
+
+Meanwhile Goldman Sachs data shows 30% productivity gains on targeted tasks.
+
+There's no contradiction here. There's just a selection effect.
+
+The companies reporting zero ROI deployed AI as a feature — chatbots bolted onto existing workflows, generic LLM APIs called from a form, "AI-powered" labels on products that still use the same 2019 decision logic underneath.
+
+The companies reporting 30% gains built around outcomes. Not tools. They started with a specific bottleneck — a workflow step with high volume, low variance, measurable output — and replaced it entirely.
+
+The unit of analysis matters. "We're using AI" is not a strategy. "We cut our claims processing time from 4 days to 6 hours on a workflow that handles 3,000 tickets/month" is a strategy.
+
+Founders and operators: the gap isn't between AI believers and AI skeptics. The gap is between teams that can identify the right unit of work to automate and teams that can't.
+
+We've been building in this space for a while. The pattern I keep seeing: teams that win start with a specific, measurable problem — not with a model. The model is the last thing you pick. The workflow is the first.
+
+The ROI problem isn't an AI problem. It's a problem definition problem.
+
+Source: Financial/Market analysis, Goldman Sachs productivity data, March 2026

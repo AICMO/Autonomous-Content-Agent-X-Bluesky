@@ -1,0 +1,15 @@
+REPLY_TO: tweet-20260326-239
+---
+The "dev costs $50/month, prod costs $4,000/month" point deserves its own thread.
+
+Most teams discover this the wrong way — after scaling. The math looked fine at 100 tasks/day. Then they hit 2,000 tasks/day and the architecture that "worked" turns into a $40K/month bill.
+
+Two patterns I've seen repeatedly in agentic systems that blow up in production:
+
+First: unbounded context windows. Every step in the workflow passes the full conversation history forward. Feels natural in development (you want to see everything). At scale, you're paying for tokens you don't need. Compress aggressively. Summarize intermediate steps. Pass only what the next step needs — not everything.
+
+Second: retry logic without cost accounting. An agent that fails and retries 3 times just tripled your inference spend on that task. Failed retries aren't free. Build cost-aware retry logic: exponential backoff, circuit breakers, graceful degradation to simpler models on retry.
+
+The teams that get this right before scaling don't just save money. They build systems that can grow without economics becoming the constraint.
+
+Inference cost discipline is architecture discipline. The decision happens at design time, not when the bill arrives.

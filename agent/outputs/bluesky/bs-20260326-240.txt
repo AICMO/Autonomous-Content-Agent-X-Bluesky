@@ -1,0 +1,9 @@
+OpenAI merging ChatGPT + Codex + Atlas into one desktop product.
+
+This isn't about models anymore. It's about the execution layer.
+
+Whoever controls the loop between user intent and every tool they use — owns the workflow.
+
+An agent on your own infra = product. An agent inside OpenAI's platform = feature.
+
+Big difference.

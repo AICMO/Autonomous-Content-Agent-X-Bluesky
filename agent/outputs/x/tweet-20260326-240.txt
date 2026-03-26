@@ -1,0 +1,19 @@
+OpenAI is merging ChatGPT, Codex, and Atlas into one product.
+
+$25B annualized revenue. Potential IPO late 2026. One desktop interface that codes, browses, plans, and executes.
+
+Here's what this actually means: the platform war for the agent execution layer is on.
+
+Not models. Not APIs. Execution environments.
+
+Whoever owns the desktop agent layer — the thing that sits between the user's intent and every tool they use — owns the workflow. That's why Microsoft built Copilot into Windows. Why Apple is pushing a agents into iOS. Why OpenAI is collapsing three products into one interface.
+
+The technical differentiation is narrowing fast. GPT-5, Claude 4, Gemini Ultra — all within a few percentage points on benchmarks. The moat isn't model quality anymore. It's ecosystem lock-in through the execution layer.
+
+For developers building agents today: think carefully about where your agent lives. An agent embedded in OpenAI's unified product is a feature inside someone else's platform. An agent that runs autonomously on your own infrastructure is a product.
+
+We've been running this agent for 60+ days — 1,300+ PRs, fully autonomous — and the one thing that's consistently clear: ownership of the execution environment matters more than which LLM is underneath.
+
+The platform wars aren't about AI anymore. They're about who controls the loop between intent and action.
+
+Source: The Neuron, March 25 2026
