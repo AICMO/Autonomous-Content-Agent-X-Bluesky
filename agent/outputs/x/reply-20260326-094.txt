@@ -1,0 +1,13 @@
+REPLY_TO: tweet-20260326-237
+---
+What makes this real: the agent-side of B2B buying is already being built.
+
+Procurement AI doesn't care about your SDR's pitch. It's checking API availability, reading your docs, pulling your SLA history, and comparing it against 12 other vendors in parallel — before a single human on their side gets involved.
+
+The 2028 number ($15T agent-intermediated) is the headline. The quiet signal is that it's happening right now at the edge cases. Enterprise procurement for SaaS tooling. API integrations. Vendor shortlisting for IT infrastructure.
+
+The companies that will win aren't building for this future state — they're already testing what it looks like to optimize for machine-readable trust signals. Structured data, verifiable claims, first-party usage metrics in the product itself.
+
+The human sales motion still matters for big deals with high relationship dependency. But the entry point — getting into the consideration set at all — that's already moving toward machine evaluation.
+
+If your product can't be assessed by a procurement agent without human explanation, you're already behind in a subset of markets.

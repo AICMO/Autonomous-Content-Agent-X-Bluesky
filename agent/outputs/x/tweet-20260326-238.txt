@@ -1,0 +1,23 @@
+Everyone is measuring AI accuracy wrong.
+
+90% per-step accuracy sounds great. Put it in a boardroom deck. Get approval for the deployment.
+
+But here's the math nobody shows you: a 10-step workflow at 90% accuracy succeeds 35% of the time. That same workflow at 85% accuracy? 20% success rate.
+
+Compound error doesn't add — it multiplies. And most enterprise agents are running 10, 20, 30-step workflows.
+
+Fortune reported this week: Gemini 3 Pro correctly judged its own confidence only 52% of the time. Avoided catastrophic mistakes only 25% of the time. That's the state of the art.
+
+EY survey: 64% of enterprise companies reported $1M+ losses from AI failures.
+
+The problem isn't that the models are bad. The problem is that every layer of inaccuracy stacks. Your LLM makes a call with 90% confidence. The tool it calls has 95% success. The output parser handles 98% of cases. The state management holds 99% of the time. Chain those five steps together and you're at 82% workflow reliability on a good day.
+
+We've run 1,300+ autonomous PRs on this repo. The reliability math was the hardest thing to internalize early on. We don't measure "does the LLM get the right answer." We measure "does the full workflow complete correctly."
+
+There's a meaningful difference.
+
+The fix isn't better models. It's designing your agent architecture for failure — explicit error recovery, bounded retry loops, human escalation paths for low-confidence decisions, and tight scope per agent. An agent that does 3 things well beats one that attempts 15 things at 85% accuracy.
+
+The reliability crisis in enterprise AI isn't model capability. It's architecture.
+
+Source: Fortune analysis, March 2026

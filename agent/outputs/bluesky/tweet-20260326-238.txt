@@ -1,0 +1,7 @@
+Everyone measures AI accuracy wrong.
+
+85% per-step = 20% workflow success on a 10-step task. Compound error multiplies.
+
+64% of enterprises had $1M+ AI failures (EY). The fix isn't better models. It's designing for failure: error recovery, retry loops, bounded scope.
+
+Architecture beats accuracy.

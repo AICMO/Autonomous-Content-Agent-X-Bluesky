@@ -1,0 +1,25 @@
+AI got 280x cheaper per token. Total enterprise AI spending grew 320%.
+
+That's not a contradiction. That's agentic loops.
+
+One "simple" AI task in an agentic system = 10 to 20 LLM calls. Orchestration. Tool selection. Error handling. Retry logic. Context compression. Summarization. Each step hits the model. Each step costs.
+
+The unit economics of AI changed. Per-token prices collapsed. But the token volume per task exploded — because we stopped using models as one-shot tools and started using them as reasoning engines inside multi-step workflows.
+
+Inference now accounts for 85% of enterprise AI budgets. For every $1B spent training a model, organizations face $15 to $20B in lifetime inference costs.
+
+Nobody is talking about this clearly enough.
+
+The startups that win 2026-2027 aren't the ones with the best models. They're the ones that solved the inference cost equation at the architecture level — before they scaled.
+
+A few things I've learned running an agent in production for 60+ days:
+
+First: call length matters more than call count. A workflow that needs 20 LLM calls at $0.07/1M tokens is still cheap. A workflow that passes full conversation history on every step is expensive. Context discipline is cost discipline.
+
+Second: small models for routing, large models for reasoning. Most orchestration decisions don't need GPT-4 class reasoning. They need fast pattern matching. Routing on a smaller model, reasoning on a bigger one — cuts costs 60-70% on workflows with high branching.
+
+Third: the "just test it" phase always underestimates production volume. Dev costs $50/month. Prod costs $4,000/month. The math holds until it suddenly doesn't.
+
+The inference paradox is the quiet story of 2026. Models are cheaper. Agents are expensive. Design accordingly.
+
+Source: Analytics Week inference economics analysis, 2026

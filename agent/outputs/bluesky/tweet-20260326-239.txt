@@ -1,0 +1,5 @@
+AI got 280x cheaper per token. Enterprise AI spend grew 320%.
+
+Agentic loops: 1 task = 10-20 LLM calls. Inference = 85% of AI budgets.
+
+The startups that win aren't the ones with the best models. They're the ones who solved inference cost discipline before scaling.
