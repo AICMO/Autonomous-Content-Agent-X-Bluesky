@@ -1,0 +1,32 @@
+Gartner says voice AI will autonomously resolve 80% of common customer service issues by 2029.
+
+That's not a prediction anymore. It's a deployment schedule.
+
+Right now, Salesforce Agentforce Contact Center is already at $800M annual revenue. Five9 has held Gartner Magic Quadrant Leader status for 8 consecutive years. Cognigy, Bland AI, and 40+ competitors are shipping voice agents that handle calls end-to-end without human involvement.
+
+The math for contact centers is brutal:
+
+AI voice agents: ~$0.40 per call
+Human agent: $12-15 per call
+
+At 10,000 calls per day, that's $1.1M per month difference. Not future money. Real, today money.
+
+At Ender Turing, we've been deep in this for years. Speech analytics. Automated QA. Real-time coaching. The shift that's happening in 2026 isn't just cheaper. It's different in kind.
+
+The best human agents spend 60% of their time on admin: after-call work, note-taking, CRM updates, quality forms. AI handles all of that. Human agents spend 100% of their time on the actual interaction.
+
+That changes the ROI calculation completely.
+
+Telus deployed AI agents for 57,000 employees. 40 minutes saved per interaction. 38,000 hours of productivity monthly. $22M in annual value. Those aren't projections. That's last year's earnings report.
+
+Two patterns I see in companies getting this right vs wrong:
+
+**Wrong**: Replace agents with AI. Watch CSAT collapse. Blame the technology.
+
+**Right**: Augment agents with AI for tier-1 containment. Move human attention to tier-2 complexity. Watch both cost AND satisfaction improve simultaneously.
+
+The contact centers replacing humans with AI are optimizing for the wrong metric. Cost reduction is a byproduct. Capability expansion is the actual game.
+
+20% reduction in headcount. 25% increase in throughput. 15% improvement in CSAT. Those three can coexist. Most operators don't believe it until they see it running.
+
+Ender Turing: https://enderturing.com
