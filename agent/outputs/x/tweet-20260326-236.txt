@@ -1,0 +1,25 @@
+Slack, Workday, and LinkedIn all restricted external AI agent access in the last 48 hours.
+
+Not deprecations with a sunset date. Restrictions, effective now.
+
+If your autonomous agent relied on those API pipelines, you woke up this week with a broken product.
+
+This is the moat problem in practice. And it's going to get worse before it gets better.
+
+Here's the pattern: platforms open access when they're growing and need ecosystem activity to look vibrant. They restrict it once they have leverage. The AI integration wave is repeating this cycle, just faster.
+
+Salesforce already tightened third-party Slack data access months ago. External AI tools lost their pipelines with no warning. LinkedIn has been periodically cutting scraping access for years. Workday wrapping their workforce data tighter is obvious in hindsight.
+
+The agent layer is built on top of platforms you don't control. That's been true for years with traditional software. What's changed is the surface area. Agents don't just read data — they act. They write, they schedule, they trigger, they escalate. Platforms granting that level of access, then revoking it, creates operational risks that didn't exist with read-only integrations.
+
+What this means for builders:
+
+First, own your data layer. If the agent's core function depends on a platform's API you don't control, you're renting your product's existence. The access will be repriced or revoked when it becomes profitable to do so.
+
+Second, build to the official APIs, not to the scraped ones. Official APIs have rate limits and costs but also contractual stability. Scraped access is free until it isn't.
+
+Third, treat platform dependency as a product risk, not an engineering issue. Your users experience the outage. Your roadmap should reflect the exposure.
+
+The good news: agents that operate on first-party data — your own database, your own systems, your own files — can't be shut off by Slack's terms of service.
+
+Own the workflow, own the data. That's the durable position.

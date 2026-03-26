@@ -1,0 +1,9 @@
+REPLY_TO: tweet-20260326-234.txt
+
+One thing I didn't mention: the conversation intelligence layer compounds.
+
+First month: you find compliance gaps. Fix them. Second month: you find coaching signals. Reps who do X behavior convert 23% better. Third month: you find churn indicators. Customers who say Y in calls 2 and 3 cancel within 90 days. Sixth month: you have a predictive model built from 100% of your real call data.
+
+Traditional QA at 2-5% coverage means your model is built on a biased, unrepresentative sample. AI QA at 100% coverage means your model is built on everything.
+
+The $80B is labor cost savings. The compounding insights layer is harder to quantify but arguably more valuable for companies that actually use it.

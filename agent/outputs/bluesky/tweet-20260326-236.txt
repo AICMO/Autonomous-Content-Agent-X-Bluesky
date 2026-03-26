@@ -1,0 +1,7 @@
+Slack, Workday, LinkedIn all restricted AI agent access in the last 48 hours.
+
+If your agent relied on those APIs, you have a broken product this week.
+
+The moat problem in practice: you don't own the platform, you own a permission slip.
+
+First-party data is the only durable position.
