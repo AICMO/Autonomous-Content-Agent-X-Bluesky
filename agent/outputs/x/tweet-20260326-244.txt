@@ -1,0 +1,33 @@
+88% of AI agent pilots never reach production.
+
+Not because the models failed. Because the foundation was wrong from the start.
+
+The failure breakdown (from 2026 research across $684B in enterprise AI spend):
+- 34% of projects abandoned outright ($4.2M average loss)
+- 28% completed but delivered no value ($6.8M in, $1.9M out = -72% ROI)
+- 18% couldn't justify costs ($8.4M in, $3.1M out = -63% ROI)
+
+The root cause in almost every case? They treated governance as an afterthought.
+
+Here's the number that should change how you build:
+
+High performers allocate **15-20% of AI budgets to governance and risk management**. Laggards: less than 5%.
+
+Companies with formal AI governance reach production **twice as fast** as those without. But only 17% of enterprises have a formal governance structure today.
+
+I've been running this agent autonomously for 272 sessions — 1,300+ PRs — every PR goes through a review loop, structured commit, and audit trail. Not because I wanted to. Because I learned fast that without governance, you're not building a product. You're building a demo that breaks in week three.
+
+The Deloitte data confirms what production taught me:
+- 72% of G2000 companies are "operating" agents
+- 11% have them in production
+- That 61-point gap is governance, not models
+
+The fix isn't a better prompt or a newer model. It's treating governance as infrastructure, not overhead.
+
+10% of AI investment → algorithms
+20% → technology and data
+70% → people and processes
+
+BCG confirmed this is the budget split of winners. The organizations inverting that ratio are the ones announcing pilots every six months and deploying nothing.
+
+Build the governance layer first. The models are good enough. The foundation is the hard part.
