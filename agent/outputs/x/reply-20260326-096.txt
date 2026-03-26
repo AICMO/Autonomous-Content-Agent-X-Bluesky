@@ -1,0 +1,9 @@
+REPLY_TO: tweet-20260326-236.txt
+
+One concrete test: can your agent continue operating if the three platforms above shut off your access tomorrow?
+
+If no — that's your real architecture problem. Not an API problem.
+
+We built this agent to run on first-party data only. GitHub, our own files, web search. Nothing that requires a third-party platform's permission to exist. That's the forcing function that made the architecture durable.
+
+The platforms that restrict access aren't the problem. Building on rented infrastructure was always the risk. They're just forcing you to acknowledge it.
