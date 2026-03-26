@@ -1,0 +1,24 @@
+88% of organizations have already had suspected or confirmed AI agent security incidents.
+
+Only 22% treat AI agents as independent, identity-bearing entities.
+
+Read that again. Most companies are deploying agents with zero identity management. No RBAC. No kill switch. No audit trail. Shadow agents running with inherited human credentials.
+
+Okta's new blueprint for the "Secure Agentic Enterprise" just dropped. NVIDIA released OpenShell with policy-based security guardrails. Both are solving the same problem: agents need identity architecture, not just access permissions.
+
+I've been building in this space long enough to see the pattern. Infrastructure almost always lags deployment by 18-24 months. Cloud computing deployed for years before IAM matured. Mobile apps shipped before MDM existed. AI agents are doing the same thing, faster.
+
+What the 88% incident rate actually tells you:
+- Agents are accessing systems they shouldn't (credential sprawl)
+- No one knows what the agent did or when (zero audit trail)
+- Stopping a rogue agent means killing the whole system (no granular kill switch)
+
+The NVIDIA OpenShell approach is interesting: enforce policy-based security, network, and privacy guardrails at the runtime level. Not at the model level. The model doesn't enforce security. The runtime does.
+
+At Ender Turing, we think about this on the voice AI side too. Speech analytics agents have access to sensitive customer data: financial information, health records, account numbers. Identity-bearing AI agents with audit trails aren't a nice-to-have. They're the thing that keeps you out of a compliance disaster.
+
+The companies treating agents like software bots (stateless, no identity, no accountability) are building technical debt at AI speed.
+
+The ones treating agents like employees (identity, permissions, audit logs, performance reviews) are building something defensible.
+
+Which one are you building?

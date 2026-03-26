@@ -1,0 +1,7 @@
+OpenAI launched AgentKit. GPT-5.4 has native computer-use, 1M token context, tool search.
+
+But in production the model is 20% of the problem.
+
+55 days running an autonomous agent. 260+ PRs. The bottlenecks: context drift, cost explosions, output quality decay.
+
+The teams that win aren't using the best model. They built the best system around it.
