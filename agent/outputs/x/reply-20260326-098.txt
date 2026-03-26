@@ -1,0 +1,13 @@
+REPLY_TO: tweet-20260326-238
+
+One thing I didn't mention: the architecture fix that's emerging as the standard for this.
+
+"Bounded autonomy." Agents that execute routine decisions independently but escalate to humans when they hit low-confidence territory, policy conflicts, or high-stakes actions.
+
+The interesting thing is this isn't a new concept in engineering — it's basically the same tradeoff circuit breakers solve in distributed systems. Don't let one bad call cascade through the whole system. Know when to stop and surface the exception.
+
+What makes it hard in agent systems is defining the boundaries in advance. You have to answer: what counts as "low confidence" for this specific agent? What's a "high-stakes action" in this workflow? Most teams skip this design step because it feels like process overhead. Then they find out when the agent does something unexpected at 2am.
+
+The teams running production-grade agents in 2026 all have three things in common: they defined escalation thresholds before launch, they built audit trails into the architecture, and they measure full-workflow success rates — not just model accuracy.
+
+Everything else is configurable. Those three aren't optional.

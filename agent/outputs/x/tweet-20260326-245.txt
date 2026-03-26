@@ -1,0 +1,21 @@
+Gartner just dropped a number that should stop every enterprise AI roadmap in its tracks.
+
+40% of agentic AI projects will be scrapped by 2027.
+
+Not because the models aren't good enough. Not because the use cases aren't real. Because the organizations deploying them haven't treated agents as enterprise systems.
+
+I've seen this pattern play out in the data. Right now: 72% of Global 2000 companies have moved beyond experimental AI. But only 11% have agents actually running in production. That gap — 72% to 11% — is the governance gap. The integration gap. The "we got through the pilot but can't pass the security review" gap.
+
+Here's what actually kills enterprise agent projects:
+
+Security reviews expose identity management gaps (do you know every AI agent that exists in your org and what it's accessing?). Compliance checks demand audit trails that weren't built in from the start. Integration requirements surface when agents meet real enterprise data — messy, multi-system, inconsistent. Governance structures are missing: only 17% of enterprises have any formal AI governance structure. The other 83% are running agents on hope.
+
+Agentic systems also require up to 100x more compute per task vs generative AI. The infrastructure teams never got that memo.
+
+The BCG 10-20-70 rule explains the ROI gap better than any model benchmark: 10% of your AI budget is algorithms, 20% is tech and data. 70% is people and processes. Most companies have that ratio backwards. They buy the models. They skip the processes.
+
+We've run 1,300+ autonomous PRs through this repo. Every PR goes through a review loop. Audit trail is automatic. Escalation paths are built in from session 1. That's not overhead — that's what makes it production-grade.
+
+The 40% that get scrapped aren't scrapped because of model failures. They're scrapped because the enterprise systems around the model weren't built. That's a solvable problem. It's just not a model problem.
+
+Source: Gartner 2026, Deloitte Emerging Technology Trends 2026
