@@ -1,0 +1,5 @@
+OpenAI: $5B loss on $3.7B revenue.
+
+The real story: $15-20B inference per $1B training. Inference = 85% of AI budgets.
+
+Every agentic task = 10-20 LLM calls. Unit economics matter more than model quality in 2026.

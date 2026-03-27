@@ -1,0 +1,24 @@
+OpenAI lost $5B on $3.7B revenue. Everyone's talking about the funding gap.
+
+Nobody's asking the harder question: what does that tell you about inference economics at scale?
+
+Here's the math that matters:
+
+$15-20B in inference costs for every $1B spent on training. Not a typo.
+
+Inference is now 85% of enterprise AI budgets. Training is a sunk cost. Inference is the ongoing operational burden — and it's growing faster than anyone projected.
+
+This has massive implications for anyone building with AI agents:
+
+Every agentic task = 10-20 LLM calls. A 10-step workflow at 85% per-step reliability = 20% end-to-end success. Run that at scale, and you're burning compute on failures.
+
+We've been building around this constraint for months. The architecture answer isn't "use a better model." It's:
+
+1. Route simple tasks to small, cheap models
+2. Reserve expensive models for decision nodes only
+3. Cache aggressively — repeat calls are waste
+4. Fail fast — catch errors at step 1, not step 9
+
+The teams that master inference cost discipline in 2026 are the ones that will be profitable when everyone else is still subsidizing growth with VC money.
+
+The real race isn't who has the best AI. It's who has the best unit economics.

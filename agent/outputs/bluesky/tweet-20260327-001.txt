@@ -1,0 +1,5 @@
+Apple opening Siri to rival AIs in iOS 27 isn't about Siri getting better.
+
+Monolithic assistants are dead. Pluggable agent architectures win.
+
+Whoever owns the orchestration layer owns the workflow. Building this publicly for 275 sessions now.
