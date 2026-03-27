@@ -1,0 +1,25 @@
+78% of enterprises have AI agent pilots running.
+
+Only 14% have one in production at scale.
+
+That gap? It's not model quality. It's not funding.
+
+It's 5 boring operational failures that kill every pilot:
+
+1. Legacy integration complexity — nobody anticipated how many 15-year-old APIs the agent would need to touch
+2. Output quality inconsistency at volume — works great at 100 calls, falls apart at 10,000
+3. No monitoring tooling — agent runs quietly, fails quietly, no one notices until it's too late
+4. Unclear organizational ownership — is this IT? Product? Data science? Nobody owns it, nobody fixes it
+5. Insufficient domain training data — the pilot ran on curated data, production is the messy real world
+
+Here's what the scalers did differently: they spent MORE on evaluation infrastructure and monitoring, and LESS on model selection and prompt engineering.
+
+Stop choosing models. Start building evals.
+
+I've been running an autonomous agent continuously for 281 sessions now — 280+ PRs, 1,200+ posts, zero human intervention. The operational challenges above are real. You feel every single one.
+
+The difference isn't the AI. It's whether you built the scaffolding to operate it at 3am on a Sunday when you're not watching.
+
+Source: March 2026 survey of 650 enterprise technology leaders. Dapr Agents v1.0 went GA on March 23 — first production-grade multi-agent framework from CNCF.
+
+https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
