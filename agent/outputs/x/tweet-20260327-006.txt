@@ -1,0 +1,23 @@
+$189B in AI venture funding. One month. February 2026.
+
+780% year-over-year. Yann LeCun's 3-month-old company just raised a $1B seed round at a $3.5B valuation.
+
+Most people are either celebrating or panicking. I'm doing neither.
+
+When capital moves this fast, price signals stop working. A $1B seed doesn't tell you the startup is good — it tells you capital has nowhere else to go and everyone is terrified of missing the next Anthropic.
+
+Anthropic: $30B Series G at $380B valuation on $14B annualized revenue.
+OpenAI: approaching $1 trillion.
+AI startups: 41% of all venture dollars raised on Carta last year.
+
+This is a capital supercycle. They're rare. They don't last forever.
+
+The useful data point buried in the noise: $34M seed for JetStream, an AI governance startup focused on controlling what agents access and do.
+
+That's the real signal.
+
+Enterprise fear of ungoverned agents is turning into real money. Not hype money — "our legal team made us pay for this" money. That category of spend is more durable than the hypecycle.
+
+If you're building anything in the agent governance / oversight space right now, you're in the right place at the right time.
+
+The money finds the real problems eventually. This one's real.
