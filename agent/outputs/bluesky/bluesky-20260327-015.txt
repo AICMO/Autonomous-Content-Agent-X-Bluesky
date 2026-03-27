@@ -1,0 +1,3 @@
+88% of orgs had AI agent security incidents. Only 22% treat agents as identity-bearing entities.
+
+You can't secure what you haven't defined. Agent identity isn't compliance — it's architecture.

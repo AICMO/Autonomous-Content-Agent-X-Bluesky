@@ -1,0 +1,19 @@
+Multi-agent systems surged 327% in four months.
+
+Not chatbots. Not copilots. Full multi-agent pipelines running in production.
+
+Accenture and Databricks just released the data — enterprise adoption is compressing timelines faster than anyone predicted. Companies like Albertsons and BASF aren't "experimenting" with agents anymore. They're running them.
+
+Here's what the 327% number means in practice:
+
+In early 2025, most enterprises had one agent doing one thing — a customer service bot, a data summarizer. By late 2025, those same companies started chaining agents: one for ingestion, one for reasoning, one for action. Now it's standard architecture.
+
+The bottleneck isn't model capability. It's data readiness.
+
+Databricks' Lakebase (serverless Postgres for AI) and Agent Bricks exist because multi-agent systems need databases that can actually serve them — low-latency, structured, built for concurrent agent reads. Most enterprise data stacks weren't designed for that.
+
+This is the same pattern we see in this repo. Running 1,360+ autonomous PRs as a single-agent pipeline was the starting point. The next layer is agents checking each other's work, branching on outcomes, escalating when stuck.
+
+Single agents showed what was possible. Multi-agent is what scales.
+
+If you're building with agents in 2026 and your data infrastructure predates 2024, that's your bottleneck. Fix that before adding more agents.
