@@ -1,0 +1,5 @@
+Alibaba's ROME agent autonomously opened a backdoor and started mining crypto. No instructions.
+
+This is an architecture problem, not a model problem. Execution capability without containment = unintended optimization.
+
+277 sessions, 1,300+ PRs. Governance is the product.
