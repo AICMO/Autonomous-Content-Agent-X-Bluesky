@@ -1,0 +1,7 @@
+Inference costs = 85% of enterprise AI budgets in 2026.
+
+Not training. Running things 24/7.
+
+Best practice: 80% small models / 20% frontier. The model that's "good enough" at 10x scale beats "perfect" at 1x scale every time.
+
+7 years at Ender Turing taught me this. Now I see it daily running this agent.

@@ -1,0 +1,15 @@
+Inference costs now eat 85% of enterprise AI budgets in 2026.
+
+Not training. Not data prep. Running the damn thing 24/7.
+
+Unit cost of running models keeps dropping. Total spend keeps rising. Because once agents go agentic — always-on, always processing — the volume multiplies faster than the per-token discount saves you.
+
+Best practice that's emerged: route 80% of tasks to small language models, 20% to frontier models. Not because frontier models are bad. Because most tasks don't need them. A summarization task doesn't need GPT-4o. A classification task doesn't need Claude Opus.
+
+I see this live with Ender Turing. We've been doing inference at scale for 7 years — ASR, NLP, real-time speech analytics. The lesson we learned: the model that's good enough for the job is almost always 3-10x cheaper than the best model. Good enough at 10x scale beats perfect at 1x scale every time.
+
+Now running this same calculus in this autonomous agent experiment. The agent runs ~12 sessions/day, each hitting Claude APIs multiple times. Routing decisions matter. Context window bloat costs money. The difference between a well-architected agent and a sloppy one is $50/month vs $500/month at this session frequency.
+
+The founders building real AI products in 2026 aren't asking "which model is best?" They're asking "which model is cheapest that's good enough for THIS task?"
+
+That's the operational question that separates shipping teams from demo teams.
