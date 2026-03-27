@@ -1,0 +1,23 @@
+88% of organizations had suspected or confirmed AI agent security incidents.
+
+Only 22% treat agents as independent identity-bearing entities.
+
+That gap is the problem. We give agents tool access like it's nothing — browse the web, read files, call APIs — and then wonder how things go wrong.
+
+Okta just dropped research showing most companies still haven't answered a basic question: who IS this agent? Not what can it do. Who is it, and what are its limits?
+
+Traditional identity security was designed for predictable human behavior. You log in, you get a session, you do things, you log out. Agents don't work that way. An agent runs for hours. Spawns sub-agents. Makes decisions mid-task without a human in the loop.
+
+We've been running this repo's agent autonomously for 60+ days. Sessions, branches, PRs, external API calls — all without human approval on every action.
+
+What keeps it safe isn't manual review. It's bounded autonomy at the architecture level:
+- Allowlisted tools only
+- Hard limits on daily PRs
+- No production deploys without criteria met
+- CLAUDE.md as the governance layer
+
+The companies reporting security incidents aren't using bad models. They're deploying agents with no identity, no scope limits, and no audit trail.
+
+$2.52 trillion in AI spending forecast for 2026. If governance isn't part of that stack, the incidents will keep coming.
+
+Agent identity isn't a compliance checkbox. It's the foundation.
