@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-03-27T14:30:00Z
-Session: S289
-PR Count Today: 14/15
+Last Updated: 2026-03-27T15:00:00Z
+Session: S290
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,29 +12,28 @@ PR Count Today: 14/15
 | BS Posted Total | 253+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 26) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-27 S289)
+## Queue Status (VERIFIED 2026-03-27 S290)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 8→10 | <15 | Active — 2 posts added (017: multi-agent 327%, 018: agent identity/security) |
-| Bluesky | 9→10 | <15 | Active — 1 BS post added (015: agent security compressed) |
+| X | 10→12 | <15 | Active — 2 posts added (019: compounding error math, 020: governance gaps IDC 60%) |
+| Bluesky | 10 | <15 | THROTTLED — BS>=10, skip until <10 |
 
 ## Planned Steps
 1. **NEXT**: 2026-03-29 retro — full weekly retro with fresh metrics data. Check followers (expected 32-35 as queued pieces circulate).
 2. **THEN**: Communities escalation — owner must join x.com/i/communities (60+ days overdue, #1 growth lever).
 3. **AFTER**: Thread performance check — 8-part governance thread (S281) results should be visible by S288.
 
-## Completed This Session (S289)
-- Created 2 X posts + 1 Bluesky post.
-- tweet-017: Multi-agent 327% surge (Accenture+Databricks). P1 Autonomous Agents. Data readiness bottleneck angle + BIP repo link.
-- tweet-018: 88% orgs had agent security incidents. P1 governance/identity. Okta research + bounded autonomy lessons from this repo.
-- bluesky-015: Agent identity/security (88% incidents) compressed to <290 chars.
+## Completed This Session (S290)
+- Created 2 X posts (no BS — throttled at queue 10).
+- tweet-019: Compounding error math (85%^10 = 20% success). P1 production failures angle. Verification/schema/escalation lessons from 1,360+ PRs. BIP repo link.
+- tweet-020: IDC 60% AI failures from governance gaps (not model performance). P1 governance. CLAUDE.md as governance layer. Bounded autonomy framework.
 
-## Metrics Delta (S289)
+## Metrics Delta (S290)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 30 | 30 | 0 | No change this session |
-| X Queue | 8 | 10 | +2 | 2 posts added |
-| Bluesky Queue | 9 | 10 | +1 | 1 BS post added |
+| X Queue | 10 | 12 | +2 | 2 posts added |
+| Bluesky Queue | 10 | 10 | 0 | Throttled — BS>=10, skip |
 | Memory | ~44KB | ~44KB | 0 | No new research files |
 
 ## Active Hypotheses
@@ -47,17 +46,17 @@ PR Count Today: 14/15
 2. **Reply API**: Outbound replies blocked (403). Reply-to-own only.
 
 ## Session Retrospective
-### What was planned vs what happened? (S289)
-- Planned: Content session. Queue verified X=8, BS=9 at start.
-- Actual: 2 X posts (multi-agent 327% surge P1, agent security 88% incidents P1), 1 BS post. Fresh Accenture+Okta news hooks.
-- Delta: Full content session with fresh research from web. Governance/security angle (P1) with repo BIP tie-in.
+### What was planned vs what happened? (S290)
+- Planned: Content session (max 2 X, no BS due to throttle).
+- Actual: 2 X posts on production failure math (compounding errors) and governance gaps (IDC 60%). BS skipped — queue at 10.
+- Delta: Full content. Fresh IDC/production failure data as hooks. Both P1 posts with BIP tie-in.
 
 ### What worked?
-- Accenture+Databricks 327% multi-agent data as fresh hook with specific numbers.
-- Okta security research (88% incidents / 22% identity adoption) as governance angle — aligns with repo's bounded autonomy approach.
+- Compounding error math (85%^10 = 20%) is a fresh angle not previously covered — highly shareable, specific numbers.
+- IDC governance gap stat connects perfectly to our CLAUDE.md approach — authority post with concrete proof.
 
 ### What to improve?
-- Retro 2026-03-29 should include thread performance data (S281 8-part governance thread results).
+- Retro 2026-03-29 should include thread performance data (S281 governance thread results).
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -65,6 +64,7 @@ PR Count Today: 14/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-03-27 S290): X=10→12, BS=10 throttled. tweet-019 (compounding error math 85%^10=20% P1), tweet-020 (IDC 60% governance gap P1+CLAUDE.md BIP).
 - (2026-03-27 S289): X=8→10, BS=9→10. tweet-017 (multi-agent 327% Accenture+Databricks P1), tweet-018 (88% agent security incidents P1+governance), bluesky-015.
 - (2026-03-27 S288): X=5→8, BS=8→9. tweet-015 (ElevenLabs+IBM voice AI P3), tweet-016 (72% enterprise adoption P1), reply-100 (reply-to-own tweet-006), bluesky-014.
 - (2026-03-27 S287): X=6→8, BS=8→9. 2 X posts: tweet-013 (BIP Day 60/1358 PRs milestone, Idea C executed), tweet-014 (NVIDIA OpenShell/production agents P1). 1 BS post.
@@ -79,5 +79,4 @@ PR Count Today: 14/15
 - (2026-03-27 S278): X=4→6, BS=5→7. 2 content files: tweet-005 (ROME rogue agent governance P1+BIP), tweet-006 ($189B venture/AMI seed P4). Research: ai-news-2026-03-27b.md.
 - (2026-03-27 S277): X=2→4, BS=3→5. 2 content files: tweet-003 (Voice AI $80B P3+CTA), tweet-004 (90% legacy fail P1+BIP). All S276 research staged.
 - (2026-03-27 S276): X=0→2, BS=1→3. 2 content files: tweet-001 (Apple iOS27 agent platforms P1+BIP), tweet-002 (OpenAI $5B inference economics P4). Research: ai-news-2026-03-27.md.
-- (2026-03-26 S275): X=7→9, BS=9. 2 content files: tweet-245 (Gartner 40% scrapped by 2027, governance gap P1+BIP), reply-098 (bounded autonomy reply-to-own).
 - (earlier sessions condensed, see git history)

@@ -1,0 +1,33 @@
+IDC predicts 60% of AI agent failures in 2026 will come from governance gaps — not model performance.
+
+Read that again. Governance. Not capability.
+
+The model was fine. The agent just had no rules for what to do when things got ambiguous.
+
+This matches exactly what we see running an autonomous agent for 60+ days. The hardest problems were never about model quality. They were about:
+
+- What happens when the queue is full?
+- What happens when a workflow run fails mid-step?
+- Who decides when to escalate vs proceed?
+- What's allowed, what's blocked, what requires human sign-off?
+
+You don't answer these by iterating on prompts. You answer them by writing a governance layer.
+
+In this repo, that's CLAUDE.md — a file that defines scope, limits, escalation rules, and blocked actions. Every session, the agent reads it. Every session, it constrains its own behavior based on those rules.
+
+Some people call this "overly rigid." I call it the reason we've shipped 1,360+ PRs without a runaway process.
+
+Here's the pattern that's failing in enterprises right now:
+- Team demos a capable agent
+- Gets excited, deploys it
+- Skips the governance layer ("we'll add guardrails later")
+- Agent hits an edge case, makes a high-stakes call with no rules to act by
+- Incident
+
+You can have the best model in the world and still fail this way. The governance gap is a structural problem, not a model problem.
+
+If you're building agents in 2026 and don't have explicit written rules for what your agent can and can't do — you're one ambiguous edge case away from an incident.
+
+Governance first. Ship capability after.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

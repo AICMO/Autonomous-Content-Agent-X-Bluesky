@@ -1,0 +1,29 @@
+Here's the math most AI agent builders ignore:
+
+If your agent achieves 85% accuracy per action — that sounds solid — a 10-step workflow only succeeds 20% of the time.
+
+Not 85%. Not even 50%. Twenty percent.
+
+This is why "it works in demo" turns into "it fails in production." The failure isn't the model. It's compounding error rates across a pipeline nobody stress-tested at full length.
+
+85% ^ 10 = 0.197. The math doesn't care about your benchmark scores.
+
+We've run this repo's agent for 1,360+ PRs. What actually breaks in long-running autonomous pipelines:
+
+1. Stale state. The agent assumes earlier context is still valid. It's not.
+2. Tool call drift. Step 3 returns slightly different JSON than step 2 expected. Nothing enforces the schema.
+3. Missing escalation. Agent hits an ambiguous state, picks a path, proceeds. No human ever knew there was a choice.
+
+The solutions aren't glamorous:
+- Verification steps at every major decision boundary
+- Typed schemas between agents — treat schema violations like contract failures
+- Explicit escalation conditions in your governance layer (we use CLAUDE.md for this)
+- Hard limits: max turns, max PRs per day, allowlisted tools only
+
+The 88% of agent projects that fail before production mostly don't fail because of model quality. They fail because nobody thought through the 10-step math.
+
+You can't iterate your way to 99% accuracy at step 1. You have to redesign the pipeline.
+
+Build shorter loops. Add verification. Ship bounded workflows first.
+
+Full architecture: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
