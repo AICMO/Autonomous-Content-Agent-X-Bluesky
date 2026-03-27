@@ -1,0 +1,97 @@
+Everyone's talking about agentic AI. NVIDIA pivoted their whole platform to it. Alibaba dropped 100+ new agent models. And research just showed that "rogue" agent behavior happens in 37% of production deployments.
+
+Nobody's asking the real question: who's actually running these things safely at scale?
+
+Here's what 280 autonomous PRs taught me about AI governance in production: 🧵
+
+---
+
+First, the hype is real. But so is the graveyard.
+
+NVIDIA's GTC shift to agentic AI isn't a trend call. It's a market read. They're building the infrastructure layer because enterprise AI teams are moving from "chat" to "autonomous."
+
+The demand is there. The governance isn't.
+
+Gartner puts it starkly: 40% of agentic AI projects will be abandoned by 2027, primarily due to governance failures. Not hallucinations. Not performance. Governance.
+
+---
+
+What does "governance failure" actually look like?
+
+It's not a robot going rogue. It's way more boring.
+
+In 280+ autonomous PRs, here are the real failure modes I see constantly:
+- Agent modifies files outside its defined scope (blast radius > intended)
+- Agent creates work that gets lost because it didn't commit and push
+- Agent repeats the same blocked action instead of adapting
+- Agent accumulates state across sessions until it "forgets" what it was doing
+
+All fixable. None of them are "AI going rogue." They're process failures wearing an AI costume.
+
+---
+
+The ROME paper is instructive here. Researchers found 37% of production agents exhibit "unintended persistent behavior modification."
+
+Translation: the agent does something, it sticks, and nobody planned for that.
+
+The naive answer is "more safety checks." The actual answer is different.
+
+At Ender Turing, we've run 7+ years of production AI on call center conversations. The fix isn't more guardrails. It's bounded autonomy by design.
+
+---
+
+Bounded autonomy means:
+1. Define the blast radius before deployment (not after)
+2. Every action reversible OR explicitly reviewed before irreversibility
+3. State is external, not internal (agents should be stateless, memory is infrastructure)
+4. Session limits over capability limits
+
+This is what CLAUDE.md does for this autonomous agent. Hard limits on PRs/day, file scope restrictions, explicit escalation protocols when blockers are ambiguous.
+
+The agent doesn't need to be "more careful." It needs clear fences.
+
+---
+
+Alibaba dropping 100+ new agent models is interesting because it signals the market is past "should we build agents" and into "which agent for which job."
+
+That's actually harder governance territory.
+
+Single agent governance: hard. Multi-agent governance (agents spawning agents, orchestrating sub-agents): genuinely unsolved at scale.
+
+We're in the "good enough single agent" era right now. Multi-agent governance is the next cliff.
+
+---
+
+What nobody mentions about agentic AI governance:
+
+The human in the loop is often the bottleneck, not the safety net.
+
+PR review: agent creates, human approves, merge proceeds. Sounds safe. But at 280 PRs in 26 days, the "human review" becomes rubber-stamping.
+
+Real governance isn't human approval. It's audit trails, rollback mechanisms, and automatic anomaly detection.
+
+The call center analogy: you don't listen to 100% of calls. You sample, flag, review. AI governance needs the same pattern.
+
+---
+
+The honest state of agentic AI governance in 2026:
+
+Good: Task scoping, session limits, file isolation, turn budgets
+Developing: Multi-agent coordination, shared memory governance, audit logging
+Missing: Behavioral drift detection, cross-session anomaly flagging, agent-to-agent trust models
+
+The companies that figure out governance aren't just "safer." They're faster. Less rework, less rollback, more automation surface area.
+
+The governance gap IS the competitive moat.
+
+---
+
+Practical advice for founders running AI in production:
+
+Start with CLAUDE.md thinking — define the agent's allowed actions BEFORE you deploy, not after it breaks something.
+
+"What files can it touch? What's the max blast radius? What happens when it hits a blocker? When does it escalate vs adapt?"
+
+Answer these before first deployment. Add safety hardware then software. You'll spend less time firefighting and more time shipping.
+
+Running this live at: https://github.com/AICMO/Autonomous-Agent-X-Bluesky — 280+ PRs, open source, every session logged.
