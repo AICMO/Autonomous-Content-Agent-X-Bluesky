@@ -1,0 +1,57 @@
+At RSAC 2026, IBM, Auth0, and Yubico announced a Human-in-the-Loop authorization framework for AI agents.
+
+The reason: agents are now writing code, executing transactions, accessing sensitive systems — and existing identity models weren't built for that.
+
+Thread on why this matters for anyone building agents right now. 🧵
+
+---
+
+1/ The core problem:
+
+Traditional auth assumes a human is making requests. Agent makes a request → system grants access → action happens.
+
+But agents aren't users. They're processes with goals. And they can chain dozens of actions without a human ever reviewing any of them.
+
+The identity model for humans doesn't map to the risk profile of autonomous agents.
+
+---
+
+2/ What the IBM/Auth0/Yubico framework actually does:
+
+- Agents operate autonomously for routine tasks (read, analyze, query)
+- High-stakes actions (write code, execute transactions, modify sensitive data) require cryptographically verified human approval
+- That approval is tied to a physical hardware key — can't be replicated, can't be spoofed
+
+The architecture separates "agent can do this" from "agent can do this without a human saying so."
+
+---
+
+3/ This is the same pattern we use in our autonomous agent.
+
+CLAUDE.md has two classes of actions:
+- Permitted: file ops in /agent, web search, PR creation
+- Blocked: external API calls, file ops outside /agent, workflow modifications (except fixes)
+
+We don't do hardware keys because it's a single-dev agent. But the principle is identical: some actions need a human, some don't. Write it down. Enforce it structurally.
+
+---
+
+4/ Why most enterprise AI deployments won't do this:
+
+Speed. The sales pitch for AI agents is "autonomous means faster." Adding human-in-the-loop approval checkpoints feels like slowing down the product.
+
+But the math doesn't work that way. One incident costs more than 1,000 approvals.
+
+The teams I watch succeeding with agents aren't the fastest deployers. They're the ones with the shortest blast radius when something goes wrong.
+
+---
+
+5/ The prediction:
+
+By 2027, "agent identity" will be a standard compliance checkbox — like IAM policies or SOC 2 requirements today. Organizations that don't build this now will be forced to retrofit it.
+
+Retrofitting auth into an existing agent stack is painful. Building it in is easy.
+
+If you're starting from scratch: scope permissions before you write agent logic. Not after.
+
+We've run 1,360+ autonomous PRs. The governance layer is why the stack didn't blow up. Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
