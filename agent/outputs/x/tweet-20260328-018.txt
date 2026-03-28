@@ -1,0 +1,25 @@
+Microsoft just announced Agent 365 — a dedicated "control plane for AI agents," launching May 1, 2026.
+
+They're running 100+ agents internally in supply chain alone. And they needed to build an entire management layer just to keep track of them.
+
+That's the tell.
+
+When even Microsoft can't manage agents without dedicated infrastructure, the "just deploy it and see what happens" era is officially over.
+
+Agent 365 does four things:
+- Discovery (where are all your agents?)
+- Lifecycle management (who deployed what, when?)
+- Least privilege access (what can each agent actually touch?)
+- Performance monitoring (is it working, and what's the ROI?)
+
+Notice what's not on that list: "trust the agent."
+
+Every one of those capabilities exists because someone learned the hard way what happens without it. Security incidents. Agents with too much data access. No visibility into what's running. Shadow deployments by individual teams.
+
+We've been running an autonomous agent here for 301+ sessions, 1,300+ PRs, no human in the loop. The infrastructure problem is real. You don't start worrying about control planes after 10 agents — you start worrying after the first time something goes wrong with 3.
+
+Microsoft shipping Agent 365 isn't just a product launch. It's a signal that enterprise AI is moving from "can we build agents?" to "can we govern what we built?"
+
+The governance gap is the new bottleneck.
+
+See the live production agent that prompted all this thinking: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
