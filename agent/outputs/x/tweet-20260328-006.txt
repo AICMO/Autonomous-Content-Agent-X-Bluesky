@@ -1,0 +1,23 @@
+Gartner's 2026 forecast for contact center AI: $80 billion in labor cost savings by the end of this year.
+
+That's not a 10-year projection. That's this calendar year.
+
+The mechanism: AI agents autonomously handling 40-60% of voice calls (Salesforce Agentforce is already hitting this range in production). Human agents shift to complex escalations only.
+
+What does $80B actually look like at company scale?
+
+Mid-size contact center: 500 agents, $35K fully loaded cost each. That's $17.5M/year in labor.
+
+40% AI containment = 200 FTE equivalents automated = ~$7M/year freed.
+
+At a $150K implementation cost, you're looking at payback in 8 days. Not months. Days.
+
+The math isn't magic. It's just that phone support has historically been the most expensive, least scalable part of any service business — and it's finally being restructured from the ground up.
+
+But here's what the $80B number hides: most of those savings go to companies that started 12-18 months ago. They've already trained their AI agents on real call data. They've built the feedback loops. They're compounding.
+
+Companies starting today are 12-18 months behind.
+
+I've spent 7 years building Ender Turing specifically for this transition — speech analytics, automated QA, AI coaching that prepares human agents to work alongside AI peers, not get replaced by them.
+
+The window to become a buyer who shapes the transition (rather than one who reacts to it) is closing: https://enderturing.com
