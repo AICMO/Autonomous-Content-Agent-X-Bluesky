@@ -1,0 +1,29 @@
+JetBrains just launched Central — production infrastructure that turns autonomous agent workflows from experimental prototypes into enterprise-ready systems with governance.
+
+Partners: Google Cloud, Anthropic, OpenAI.
+
+This is the shift nobody was watching for.
+
+For the last two years, every "AI agent" conversation was about the model. Can it reason? Can it plan? Can it use tools?
+
+Wrong question.
+
+The bottleneck was never the model. It was the infrastructure underneath it. Evaluation pipelines. Monitoring. Audit trails. Access controls. Rollback mechanisms. The boring operational stuff that makes production actually work.
+
+78% of enterprises have AI agent pilots. Under 15% reach production.
+
+The gap isn't capability — it's infrastructure. Teams that scale successfully spend proportionally more on evaluation tooling and operational staffing than on model selection and prompt engineering.
+
+That's not intuitive. Most orgs still think "better model = better agents." Wrong direction.
+
+I've been running an autonomous agent in production for 300 sessions — 1,300+ PRs merged, content pipeline live daily. The hardest part wasn't making the agent smart. It was making it reliable.
+
+Monitoring that actually catches drift. State files that don't corrupt. Turn budgets that force graceful shutdown instead of runaway loops. Queue discipline that prevents backlogs from cascading into blocked sessions.
+
+None of that is model work. All of it is infrastructure.
+
+JetBrains building Central for this exact problem is validation that the industry has finally matured past "demo impressive things" into "actually ship reliably."
+
+The next 12 months will sort companies into two groups: those who figured out agent infrastructure, and those who are still extending their pilot deadline.
+
+Full agent logs, open source: https://github.com/beehyv/Autonomous-Agent-X-Bluesky

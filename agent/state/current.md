@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-03-28T14:15:00Z
-Session: S300
-PR Count Today: 10/15
+Last Updated: 2026-03-28T14:30:00Z
+Session: S301
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,10 +12,10 @@ PR Count Today: 10/15
 | BS Posted Total | 253+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 28) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-28 S300)
+## Queue Status (VERIFIED 2026-03-28 S301)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | Look-ahead zone — 9 tweets + 2 replies = 11. Max 1 piece next session. |
+| X | 12 | <15 | Look-ahead zone — +1 tweet. Max 1 piece next session or blocked if +1 again. |
 | Bluesky | 9 | <15 | Active — 9 existing. Skipped BS (at throttle). |
 
 ## Planned Steps
@@ -23,14 +23,14 @@ PR Count Today: 10/15
 2. **THEN**: X=11 (look-ahead zone) — max 1 content piece next session. BS=9 throttle — skip BS.
 3. **AFTER**: Communities escalation — owner must join x.com/i/communities (58+ days overdue, #1 growth lever).
 
-## Completed This Session (S300)
-- Created tweet-20260328-016.txt: Gartner 40% enterprise apps embed agents by 2026 (8x from 5%), 48% security professionals call agentic AI #1 attack vector, RSAC 2026 agent identity framing, BIP angle from running 1300+ PR agent in production (P1/BIP+repo)
+## Completed This Session (S301)
+- Created tweet-20260328-017.txt: JetBrains Central production agent infrastructure launch + pilot-to-production gap + BIP 300 sessions/1300 PRs angle (P1/BIP+repo)
 
-## Metrics Delta (S300)
+## Metrics Delta (S301)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 32 | 32 | 0 | No change this cycle |
-| X Queue | 10 (verified) | 11 | +1 | 1 tweet: agent identity/shadow agents/Entro+RSAC angle |
+| X Queue | 11 (verified) | 12 | +1 | 1 tweet: JetBrains Central + infrastructure gap angle |
 | Bluesky Queue | 9 (verified) | 9 | 0 | Skipped — at BS throttle |
 
 ## Active Hypotheses
@@ -43,19 +43,19 @@ PR Count Today: 10/15
 2. **Reply API**: Outbound replies blocked (403). Reply-to-own only.
 
 ## Session Retrospective
-### What was planned vs what happened? (S300)
-- Planned: Continue content (queue at 10 after S299).
-- Actual: Queue verified at X=10, BS=9. Created 1 tweet (look-ahead zone protocol). Gartner 8x agent growth + RSAC agent identity + BIP angle.
-- Delta: Respected look-ahead zone. X=10→11, 1 content piece only.
+### What was planned vs what happened? (S301)
+- Planned: Max 1 content piece (X=11 look-ahead zone).
+- Actual: Queue verified at X=11, BS=9. Created 1 tweet (look-ahead zone protocol). JetBrains Central + pilot-to-production infrastructure gap + BIP 300 sessions angle.
+- Delta: Respected look-ahead zone. X=11→12.
 
 ### What worked?
-- Entro Security AGA + RSAC 2026 agent identity framing connects news hook to P1 expertise cleanly.
-- Gartner 40% / 48% security stats are scroll-stoppers. BIP angle (1300+ PR agent) adds authentic authority.
-- Queue discipline held at look-ahead zone (1 piece instead of attempting 2).
+- JetBrains Central launch (March 24) is fresh news hook not yet covered. Infrastructure angle connects directly to P1 expertise.
+- BIP milestone: "300 sessions, 1300+ PRs" adds authentic authority to the infrastructure claims.
+- Queue discipline held.
 
 ### What to improve?
-- BS=9 still at throttle. Next session: skip BS unless it drains below 8.
-- X=11 look-ahead zone: next session max 1 piece.
+- X=12 now. Next session: max 1 piece (13 would trigger block). If queue doesn't drain, follow blocked session protocol.
+- BS=9 still at throttle. Skip BS until below 8.
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -63,6 +63,7 @@ PR Count Today: 10/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-03-28 S301): X=11→12, BS=9→9. tweet-017 (JetBrains Central production agent infrastructure + pilot-to-production gap + BIP 300 sessions P1/BIP+repo). Look-ahead zone respected (1 piece only).
 - (2026-03-28 S300): X=10→11, BS=9→9. tweet-016 (Gartner 8x agent growth + RSAC agent identity + Entro shadow agents + BIP 1300+ PRs P1/BIP+repo). Look-ahead zone respected (1 piece only).
 - (2026-03-28 S299): X=7→10, BS=9→9. tweet-014 (Meta email-deleting agent context compaction P1/BIP), tweet-015 (86% no visibility 47% monitored P1/BIP+repo), reply-004 (reply-to-own Amazon security agents tweet-007 prompt injection angle).
 - (2026-03-28 S298): X=4→6, BS=8→9. tweet-012 (Gartner 40% + 3 org failure modes P1/BIP), tweet-013 (78%/14% pilot-to-production 5 gaps P1/BIP), bluesky-010 (BS version), reply-003 (reply-to-own tweet-007 + March data).
