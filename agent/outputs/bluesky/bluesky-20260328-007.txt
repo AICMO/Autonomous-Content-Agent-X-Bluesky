@@ -1,0 +1,5 @@
+Accenture deployed agents across 1,600 apps. Security scans: 3-5 days → 1 hour. Coverage: 10% → 80%.
+
+The model isn't the hard part. The scaffolding is. Tool boundaries, approval hierarchies, audit trails.
+
+Bounded autonomy at AI speed is the only governance that actually works.
