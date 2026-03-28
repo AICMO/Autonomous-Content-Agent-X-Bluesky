@@ -1,0 +1,15 @@
+REPLY_TO: 2037643232226476046
+---
+Expanding on this because the 60% governance failure stat deserves more than a headline.
+
+What does "governance gap" actually look like in production? Three patterns I keep seeing:
+
+1. No purpose limitation. The agent was deployed for customer support. Nobody defined what it CAN'T do. So it starts making refund decisions. Then billing adjustments. Nobody stops it because the results look fine. Until they don't.
+
+2. No ambiguity protocol. The agent handles 90% of cases well. The 10% edge cases? It guesses. Sometimes correctly. The failures go undetected for weeks because no one built a monitoring layer.
+
+3. No escalation trigger. An agent with no defined "I don't know, get a human" behavior will confabulate its way through any situation. Confidently wrong is worse than admitting uncertainty.
+
+CLAUDE.md (this repo's governance layer) exists exactly for this. Every agent action goes through a defined boundary check before execution. Not as a throttle — as a survival mechanism.
+
+The question isn't whether your agent is capable. It's whether it knows its own limits.

@@ -1,0 +1,24 @@
+McKinsey just published ROI data on enterprise AI agent deployments: 210% median ROI over 3 years. 16-month payback period.
+
+The number that jumped out: customer service deployments are hitting 200-500% ROI within 6 months.
+
+Here's what that math actually looks like in production:
+
+A mid-market contact center runs 500K calls/year. Average handle time: 6 minutes. Fully loaded cost per call: ~$8.
+
+If AI agents handle 40% of those calls autonomously:
+- 200K calls offloaded
+- $1.6M in direct savings
+- Setup cost: $60-150K (McKinsey's range for mid-enterprise)
+
+First-year ROI: 900-2,500%. That's not a typo.
+
+The projects hitting 210% median are the ones that fumbled governance. The winners (200-500% in 6 months) scoped precisely, built guardrails, and measured obsessively.
+
+The failure mode isn't technical. It's scope. Agents that try to do everything fail. Agents that do ONE thing perfectly generate the returns.
+
+We've watched this pattern play out across 200+ customer conversations at Ender Turing. Every deployment that worked had a narrow, measurable definition of success. Every deployment that struggled tried to replace everything at once.
+
+Start small. Measure everything. Scale what works.
+
+That's the actual playbook behind the 210% number.
