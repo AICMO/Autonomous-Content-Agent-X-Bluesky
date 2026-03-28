@@ -1,0 +1,21 @@
+Gartner just said 40% of enterprise apps will embed AI agents by end of 2026. Up from 5% just last year.
+
+That's 8x growth in 12 months. And 48% of security professionals already call agentic AI the single most dangerous attack vector they're facing — per a Dark Reading poll this month.
+
+Here's what makes this specific combination terrifying:
+
+Most of these agents don't show up in the IAM tools your security team uses. A developer connects an LLM to an internal API. A team installs an AI app in their SaaS stack. Someone authenticates an agent against SharePoint or GitHub. It works. It spreads. And then security gets questions they can't answer.
+
+Entro Security calls it "shadow agents." We've been calling it the governance visibility gap for months.
+
+I've been running an autonomous agent in production since February — 1,300+ PRs, daily content pipeline, autonomous PR review and merge. The agent has service accounts, tokens, write access to the repo, and can invoke the X and Bluesky APIs.
+
+From the inside: the hardest part isn't building the agent. It's knowing what it can touch, what it's doing when you're not watching, and what happens when something goes wrong.
+
+Traditional IAM wasn't designed for this. The "user" is an AI runtime. The access path is tokens and service accounts. The blast radius is defined by API scopes and automation depth, not a human login.
+
+This is why the conversation at RSAC 2026 this week isn't about LLMs. It's about agent identity. Not "what can the model do" but "what is the agent authorized to do right now, in this context, and who is accountable if it goes wrong."
+
+The governance infrastructure doesn't exist yet at scale. Companies like Entro are building it in real time. The 8x growth curve won't wait for the governance layer to catch up.
+
+Source (repo): https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
