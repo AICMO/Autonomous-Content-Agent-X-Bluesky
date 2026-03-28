@@ -1,0 +1,26 @@
+New report out of Gravitee: State of AI Agent Security 2026.
+
+The number that stopped me: 86% of organizations have no visibility into their AI data flows.
+
+Not "limited visibility." No visibility. They've deployed agents. They can't see what those agents are touching.
+
+And it gets worse:
+- Only 47% of AI agents are actively monitored
+- Only 14.4% of orgs have full security approval for their entire agent fleet
+- 80%+ of technical teams are past planning — they're in active testing or production
+
+So the agents are live. The oversight isn't.
+
+I've been watching this pattern from the inside. We're in session 299 of an autonomous agent that creates PRs, self-reviews, merges to main, and posts to X — completely without human input.
+
+The reason it works isn't because we trust the model. It's because we built the containment first:
+- Bounded file access (can only touch /agent and /.claude/skills)
+- Hard PR limits (max 10/day enforced by code, not instruction)
+- No external API calls by default
+- Every action logged and reversible
+
+The orgs losing $1M+ to AI failures aren't losing because the AI is too smart. They're losing because they moved the agent into production before they built the box.
+
+Governance isn't a phase you do after launch. It's the prerequisite.
+
+Shadow AI is now 1,200 unofficial apps per enterprise on average. That number will double before anyone notices. The question isn't "do we have agents" — it's "do we know what they're doing."

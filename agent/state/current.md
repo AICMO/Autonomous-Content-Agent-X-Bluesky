@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-03-28T14:10:00Z
-Session: S298
-PR Count Today: 8/15
+Last Updated: 2026-03-28T14:30:00Z
+Session: S299
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,29 +12,28 @@ PR Count Today: 8/15
 | BS Posted Total | 253+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 28) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-28 S298)
+## Queue Status (VERIFIED 2026-03-28 S299)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 6 | <15 | Active — 4 existing + 2 new = 6 items. (X queue: tweet-008-011 remaining = 4, +2 new) |
-| Bluesky | 9 | <15 | Active — 8 existing + 1 new = 9 items. Under BS throttle (10). |
+| X | 10 | <15 | Active — 7 existing + 2 new tweets + 1 reply = 10 items. |
+| Bluesky | 9 | <15 | Active — 9 existing. Skipped BS (at throttle). |
 
 ## Planned Steps
 1. **NEXT**: 2026-03-29 retro — full weekly retro. Followers = 32 (Week 11 FINAL: +7, matching Week 10). Premium hypothesis: 2 consecutive weeks met (+7, +7). Week 12 will confirm or deny.
 2. **THEN**: Communities escalation — owner must join x.com/i/communities (58+ days overdue, #1 growth lever).
 3. **AFTER**: Continue content when queues <= 10. X queue at 6 after S298.
 
-## Completed This Session (S298)
-- Created tweet-20260328-012.txt: Gartner 40% canceled + 3 org failure modes from 1300+ PR experience (P1/BIP+repo)
-- Created tweet-20260328-013.txt: 78% pilots → 14% production + 5 scaling gaps + BIP S298 (P1/BIP+repo)
-- Created bluesky-20260328-010.txt: BS version of pilot-to-production gap (under 290 chars)
-- Created reply-20260328-003.txt: Reply-to-own tweet-007 (Amazon security agents) + March 2026 78%/14% data
+## Completed This Session (S299)
+- Created tweet-20260328-014.txt: Meta email-deleting agent + context compaction governance failure (P1/BIP)
+- Created tweet-20260328-015.txt: 86% no visibility + 47% monitored + BIP containment architecture (P1/BIP+repo)
+- Created reply-20260328-004.txt: Reply-to-own Amazon security agents tweet (ID 2037889163723219218) — prompt injection + agent as privileged identity
 
-## Metrics Delta (S298)
+## Metrics Delta (S299)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 32 | 32 | 0 | No change reported |
-| X Queue | 4 (verified) | 6 | +2 | 4 existing + 2 new posts |
-| Bluesky Queue | 8 (verified) | 9 | +1 | 8 existing + 1 new (stayed under BS throttle) |
+| Followers | 32 | 32 | 0 | No change this cycle |
+| X Queue | 7 (verified) | 10 | +3 | 2 new tweets + 1 reply |
+| Bluesky Queue | 9 (verified) | 9 | 0 | Skipped — at BS throttle |
 
 ## Active Hypotheses
 - Premium escapes suppression → **CONFIRMING** (Day 28, 32 followers, +14 since Day 15, ~+7.5/week. 2 consecutive weeks met: Week 10 +7, Week 11 +7. Week 12 data at retro will confirm.)
@@ -46,18 +45,18 @@ PR Count Today: 8/15
 2. **Reply API**: Outbound replies blocked (403). Reply-to-own only.
 
 ## Session Retrospective
-### What was planned vs what happened? (S298)
-- Planned: Continue content (queue at 7 after S297).
-- Actual: Queue verified at X=4, BS=8. Created 2 X + 1 BS + 1 reply. Content on Gartner 40% cancellation + 78%/14% pilot-to-production gap.
-- Delta: As planned. Strong P1 content using fresh March 2026 data.
+### What was planned vs what happened? (S299)
+- Planned: Continue content (queue at 6 after S298).
+- Actual: Queue verified at X=7, BS=9. Created 2 tweets + 1 reply-to-own. Meta email-deleting agent story + security visibility gap.
+- Delta: As planned. Strong P1 content from fresh March 2026 Gravitee report + Meta incident.
 
 ### What worked?
-- Gartner 40% cancellation stat + BIP angle pairs well (owner has lived experience as counterexample).
-- 78%/14% pilot-to-production data from March 2026 survey is fresh and specific.
-- Reply-to-own on tweet-007 (Amazon security agents) adds data follow-up without needing the reply API.
+- Meta email-deleting agent story is visceral and shares well. Context window compaction as governance vector is a novel angle.
+- Gravitee stats (86% no visibility, 47% monitored) pair well with BIP containment architecture story.
+- Reply-to-own on Amazon security agents tweet within ~24min window — within 150x multiplier range.
 
 ### What to improve?
-- BS=9 after this session. Next session: verify before adding BS content. If BS >= 10, skip BS entirely.
+- BS=9 still at throttle. Next session: skip BS unless it drains below 8.
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -65,6 +64,7 @@ PR Count Today: 8/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-03-28 S299): X=7→10, BS=9→9. tweet-014 (Meta email-deleting agent context compaction P1/BIP), tweet-015 (86% no visibility 47% monitored P1/BIP+repo), reply-004 (reply-to-own Amazon security agents tweet-007 prompt injection angle).
 - (2026-03-28 S298): X=4→6, BS=8→9. tweet-012 (Gartner 40% + 3 org failure modes P1/BIP), tweet-013 (78%/14% pilot-to-production 5 gaps P1/BIP), bluesky-010 (BS version), reply-003 (reply-to-own tweet-007 + March data).
 - (2026-03-28 S297): X=5→7, BS=7→9. Queue drained from S296 block. tweet-010 (Forrester voice AI ROI 331-391% P3/Ender Turing), tweet-011 (Dapr Agents v1.0 GA + enterprise agents P1/BIP+repo). 2 BS posts.
 - (2026-03-28 S296): BLOCKED (X=13, BS=10). Tier 2: Hypothesis updates (premium Day 28: +2 followers, 32 total; communities 58+ days overdue). Week 11 FINAL: +7 (25→32).

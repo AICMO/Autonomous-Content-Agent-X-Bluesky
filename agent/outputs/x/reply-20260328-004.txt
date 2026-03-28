@@ -1,0 +1,9 @@
+REPLY_TO: 2037889163723219218
+---
+And here's the governance question nobody's asking: who's auditing the security agent?
+
+The patch-and-deploy loop is fast. Sandbox validation is good. But if a vulnerability scanner can be prompt-injected, you've just given an attacker write access to production with a security badge.
+
+OWASP ranked prompt injection #1 on LLM Top 10 in 2025. Two years later, we're deploying agents that can push to prod. The attack surface expanded faster than the defenses.
+
+The orgs that get this right will treat the security agent as another privileged identity — bounded scope, logged actions, revocable credentials. Not just "run and trust."
