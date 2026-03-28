@@ -1,0 +1,15 @@
+REPLY_TO: tweet-20260328-007.txt
+
+Following up on this — there's a data point from March 2026 that adds context.
+
+78% of enterprises have AI agent pilots. Only 14% have reached production scale.
+
+The Amazon security agents announcement matters because it shows the path from pilot to production is solvable. But the reason it's solvable there is the same reason most enterprise projects stall:
+
+Amazon built evaluation infrastructure FIRST. They defined "what does success look like at scale?" before writing the production deployment path. That's what separates a demo from a shipped product.
+
+The companies stuck at pilot stage aren't failing on AI capability. They're failing on: who owns this when it breaks at 3am? What's the rollback path? How do we know output quality is stable week 4 vs week 1?
+
+Security is now proof that high-stakes, zero-tolerance domains can get to production. The blueprint is there. The question is whether other enterprise teams are willing to invest in the scaffolding before they're sure the AI part works.
+
+Spoiler: you have to build both in parallel.

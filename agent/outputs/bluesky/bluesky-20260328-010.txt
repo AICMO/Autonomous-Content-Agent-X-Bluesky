@@ -1,0 +1,5 @@
+78% of enterprises have AI agent pilots. 14% have reached production scale.
+
+The gap isn't models. It's ownership, monitoring, and measurement.
+
+5 gaps explain 89% of scaling failures — and they're all organizational, not technical.

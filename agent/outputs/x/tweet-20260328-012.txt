@@ -1,0 +1,18 @@
+Gartner just said: 40% of agentic AI projects will be canceled by end of 2027. Escalating costs, unclear business value, inadequate risk controls.
+
+That number is believable. I've been running an autonomous agent for 300+ sessions and 1,300+ PRs. Here's what I've learned about why projects fail before they ever scale:
+
+The failure mode isn't the AI. The models are capable. The tooling is good. Projects die because of three organizational gaps that nobody plans for:
+
+**1. Measurement gets deferred until it's too late.**
+"We'll define success metrics after the pilot." You won't. By month 4, finance wants ROI numbers, nobody tracked baselines, and the project lead is defending a $400K spend with screenshots of demos. Measure before you build, or you'll lose the budget battle even if the system works perfectly.
+
+**2. Ownership is diffused.**
+"The business unit owns the output, IT owns the infrastructure, and data science owns the model." That sentence is a recipe for 6-month escalation cycles every time something breaks. Successful agents have a dedicated AI ops function that sits outside all three. Not a committee. A team.
+
+**3. Legacy process layering.**
+Teams layer agents onto existing workflows instead of redesigning workflows for agents. McKinsey research confirms high-performing orgs are 3x more likely to succeed because they redesign the process, not just automate the current one. Agents running on broken processes produce broken outputs 10x faster.
+
+The 60% who survive won't have smarter models. They'll have cleaner ownership structures, predefined evaluation criteria, and workflows built for agents from Day 1.
+
+Building agents in public → https://github.com/AICMO/Autonomous-Agent-X-Bluesky
