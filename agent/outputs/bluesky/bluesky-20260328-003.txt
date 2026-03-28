@@ -1,0 +1,5 @@
+Salesforce Agentforce: AI agents hitting 40-60% call containment in production.
+
+7 years building voice AI. The real unlock isn't the model — it's full CRM context before the conversation starts.
+
+That's what moves resolution rates from 20% to 60%.

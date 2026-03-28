@@ -1,0 +1,23 @@
+Salesforce just launched Agentforce Contact Center — voice, digital channels, CRM data, and AI agents in one platform.
+
+The stat they buried in the announcement: AI agents are hitting 40-60% containment rates. That means 4 out of 10 customer calls resolved with zero human involvement.
+
+This is what I've been watching for 7 years at Ender Turing: the question was never IF voice AI would reach production quality. It was WHEN enterprises would deploy it at scale.
+
+That WHEN is now.
+
+Three things happening simultaneously that make this moment different from 2022-2024:
+
+1. Model quality cleared the bar (hallucination rate dropped enough for regulated industries to accept)
+2. Integration finally simplified (Salesforce native = no custom integration tax)
+3. ROI numbers are real (40-60% containment at scale = 8-figure annual savings for mid-market contact centers)
+
+The companies still "evaluating" voice AI for contact center? They're not evaluating anymore. They're watching their competitors deploy.
+
+We've been building AI for call centers since 2019. The shift from "interesting experiment" to "this is our actual operations" happened faster than anyone predicted.
+
+What nobody's talking about in the Agentforce story: the CRM data integration is the real moat. Not the voice model. Not the AI. The fact that the agent knows the customer's full history before the conversation starts.
+
+That's what changes resolution rates from 20% to 60%.
+
+More on what we're seeing in production voice AI: https://enderturing.com

@@ -1,0 +1,75 @@
+McKinsey says AI agents deliver 210% ROI over 3 years.
+
+The best deployments are hitting 200-500% in 6 months.
+
+I've watched this play out in contact centers for 7 years. Here's the pattern separating the 500% outcomes from the failures. Thread:
+
+---
+
+1/ The 16-month payback period is the AVERAGE. Customer service deployments are the fastest — often 6 months or less.
+
+Why? Because the math is brutally simple.
+
+500K calls × $8/call × 40% containment rate = $1.6M saved.
+Implementation cost: $80-150K.
+
+Year 1 ROI: 900-2,500%.
+
+The companies not deploying are leaving eight figures on the table annually.
+
+---
+
+2/ But the 210% median means plenty of deployments underperform. What separates winners from the middle of the pack?
+
+Scope discipline.
+
+Every high-performing deployment I've seen has one thing in common: they defined ONE job for the AI agent and measured it obsessively.
+
+Account balance inquiry. Order status. Password reset. Return initiation.
+
+One job. Perfected. Then scaled.
+
+---
+
+3/ The failure pattern is always the same: "Let's have the AI handle everything."
+
+The scope creep happens at kickoff. "While we're at it, let's add billing disputes. And account upgrades. And collections."
+
+Each addition multiplies governance complexity. The agent now needs to handle edge cases it wasn't trained for. Failures compound. ROI falls apart.
+
+The 500% deployment handled ONE use case with 98% accuracy.
+The 200% deployment handled EIGHT use cases with 72% average accuracy.
+
+Narrower wins.
+
+---
+
+4/ The second variable that matters most: what data the agent sees before the conversation starts.
+
+The Salesforce Agentforce advantage (announced this week) isn't the voice AI. It's the CRM context.
+
+An agent that knows the customer's full history, open tickets, recent purchases, and sentiment trend before "hello" resolves issues faster. Not because it's smarter. Because it starts from a better position.
+
+Data architecture > model quality. Every time.
+
+---
+
+5/ The third variable: what happens when the agent hits its limit.
+
+This is where the ROI numbers diverge most. Agents with clear escalation logic (defined triggers for human handoff) maintain satisfaction scores. Agents that guess their way through edge cases create trust issues that undermine the entire program.
+
+We built our QA system at Ender Turing around this: every agent interaction gets scored for appropriate uncertainty. Did it know when to ask for help? That score predicts customer satisfaction better than resolution rate alone.
+
+---
+
+6/ What this means for 2026-2027:
+
+The 40% of enterprises still "evaluating" AI agent deployments aren't evaluating anymore. They're watching their competitors report 8-figure ROI improvements in quarterly earnings.
+
+The question has shifted from "should we?" to "how do we scope this right?"
+
+If you're building an agent deployment right now: scope narrow, measure everything, escalate gracefully.
+
+The 210% average becomes 500% when you get those three right.
+
+What use case are you deploying first?
