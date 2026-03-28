@@ -1,0 +1,24 @@
+Gartner: 40% of enterprise apps will have AI agents by end of 2026.
+
+Less than 5% had them in 2025.
+
+That's an 8x expansion in 12 months. And it's already happening — 72% of Global 2000 companies have moved past pilots into operational deployments.
+
+Here's what nobody's saying clearly: the bottleneck isn't adoption. It's survival.
+
+Most of those 72% are deploying single agents on well-scoped tasks. The real test is multi-agent orchestration at scale. And there, the failure patterns are brutally consistent:
+
+1. Agents designed in isolation, deployed in systems
+2. No inter-agent contracts — what agent B returns isn't what agent A expected
+3. Governance layer missing or added as an afterthought
+4. No escalation path for edge cases
+
+We've shipped 1,360+ PRs with one autonomous agent. And even at that scale — one agent, clear scope, well-defined tools — edge cases show up constantly. What saves you isn't the model. It's the rules.
+
+CLAUDE.md isn't just prompt engineering. It's a contact. Scope, limits, escalation rules, blocked actions. Every session, the agent reads it and constrains itself.
+
+If 40% of enterprise apps are adding agents this year, most will add them without that layer. And by 2027, there'll be a new stat: "X% of AI agent deployments required rollback."
+
+The companies that won't be in that stat are the ones treating governance like a first-class deliverable — not an afterthought.
+
+Deploy governed agents. Build the rules before you scale the capability.

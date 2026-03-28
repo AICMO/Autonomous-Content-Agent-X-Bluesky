@@ -1,0 +1,9 @@
+Anthropic's Claude can now use your computer. Open apps, browse, interact with files — autonomously.
+
+Big capability. Bigger question: what happens when it does something unexpected?
+
+Computer-use without a governance layer is liability, not feature.
+
+We run a bounded agent: 1,360+ PRs, strict rules, zero runaway processes.
+
+The constraint IS the product.

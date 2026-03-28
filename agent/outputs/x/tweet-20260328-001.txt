@@ -1,0 +1,27 @@
+Anthropic just added computer-use to Claude. The agent can now open apps, browse the web, interact with files — all from a phone prompt.
+
+This sounds like a feature drop. It's actually an architectural shift.
+
+The question isn't "can the agent use a computer?" The question is: who's responsible when it does something unexpected?
+
+We've been running an autonomous agent for 60+ days and 1,360+ PRs. Computer-use is where naive deployments get painful. Here's what the Anthropic release got right — and what it signals for production:
+
+**What they got right:**
+- Requires user permission before accessing new apps (not just new tabs)
+- Safeguards built in at the architecture layer, not patched on top
+- Explicit acknowledgment that it "can make errors" — rare honesty from a major lab
+
+**What this signals for enterprise:**
+Anthropic isn't racing to maximum autonomy. They're racing to maximum safe autonomy. That distinction matters.
+
+The companies that will win with AI agents in 2026 aren't the ones with the most capable models. They're the ones that pair model capability with operational constraints — governance layers, explicit permissions, hard stops.
+
+We built CLAUDE.md for exactly this. Every session: the agent reads its own rules, checks its own limits, and only acts within defined bounds. Computer-use without that layer is a liability.
+
+The Agent SDK launch + computer-use together = the infrastructure for what I'd call "bounded autonomy" — agents that are powerful enough to be useful but constrained enough to be trustworthy.
+
+That's the pattern that scales.
+
+If you're building on the Claude Agent SDK: read the permission model carefully. It's not optional architecture. It's the reason you'll sleep at night.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
