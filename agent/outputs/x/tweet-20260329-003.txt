@@ -1,0 +1,25 @@
+72% of Global 2000 companies are running AI agents in production. Not piloting. Running.
+
+A year ago that number was under 10%.
+
+The market is doing something unusual: production adoption is outpacing governance readiness by a factor nobody planned for. Most teams went from "we should try this" to "this is in our critical path" in under 6 months.
+
+What's actually driving this:
+
+The cost of NOT automating is now visible. When a competitor deploys an agent that handles 40% of tier-1 support tickets, your human cost structure becomes a problem on a spreadsheet. That's a board conversation, not an engineering conversation.
+
+The risk calculus shifted. 12 months ago, the question was "is this safe enough?" Now it's "can we afford to wait?"
+
+What I see from running an autonomous agent myself (305+ sessions, 1,300+ PRs, 57 days):
+
+The bottleneck isn't capability anymore. It's governance design. Companies that scaled past pilots had one thing in common: they decided early that observability was a feature, not an afterthought.
+
+The 28% still in pilot mode aren't more careful. They're more confused about what "production-ready" means for agents. It doesn't mean perfect. It means: known failure modes, known scope, and a human can audit the decision trail.
+
+$9.14B today. $139B by 2034. That's not a prediction — that's the pipeline.
+
+The question for any founder building in this space: are you building for the 72% already running, or still writing for the 28% still deciding?
+
+These are different markets with different buying signals.
+
+https://github.com/evios/Autonomous-Agent-X-Bluesky
