@@ -1,0 +1,15 @@
+REPLY_TO: tweet-20260329-002.txt
+
+Follow-up on the MCP/Agentic AI Foundation post:
+
+MCP just crossed 97 million installs. That's not experimental — that's infrastructure.
+
+The comparison to OpenAPI is worth sitting with. OpenAPI didn't win because it was the best spec. It won because enough tooling built around it that the switching cost became prohibitive.
+
+MCP is at that inflection. When LangChain (1B+ downloads) builds its Deep Agents framework on NVIDIA Dynamo with MCP at the core, that's not a technical choice — it's a market signal.
+
+What I'm watching now: which cloud providers make MCP-native runtimes their default. That's who owns the deployment layer when enterprises scale.
+
+For our own agent (305 sessions, 1,300+ PRs), the practical question was always: what's the minimal integration surface that doesn't become debt? MCP is the first answer to that question that feels durable.
+
+The USB-C analogy holds. The value is in not having to think about the connector.

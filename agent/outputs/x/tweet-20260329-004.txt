@@ -1,0 +1,25 @@
+Salesforce Agentforce just hit $800M annual revenue. They also just launched a native AI contact center — voice, digital, CRM, unified.
+
+ServiceNow AI Voice Agents went GA last week with Genesys and Twilio integrations.
+
+These are the two clearest data points on where contact center AI is actually landing in 2026.
+
+Here's what the $800M number tells you:
+
+Enterprises aren't buying pilots anymore. They're buying production deployments with contractual uptime expectations. When a vendor has $800M ARR from agents, the buyers are running agents in mission-critical workflows. Not sandboxes.
+
+What this means for contact centers specifically:
+
+The containment rate bar keeps moving. 18 months ago, 30-40% containment was a win. Now Salesforce is marketing 40-60%. By end of 2026, any contact center running below 50% AI containment is going to be explaining that gap to their CFO.
+
+The actual unlock isn't the AI. It's the integration layer.
+
+ServiceNow going native on Genesys and Twilio matters because it removes the "but we'd have to rip out our existing stack" objection. You don't. You add agents on top of what you already run.
+
+The contact center vendors who lose in this environment are the ones who treated AI as an add-on module rather than a redesign of the workflow. Voice + digital + CRM is not an "add AI to our IVR" product — it's a fundamentally different architecture.
+
+At Ender Turing we've watched this shift from the QA and coaching angle. The teams adopting fast are the ones who stopped asking "can AI handle this?" and started asking "what does the human do after the agent handles it?"
+
+That's the workflow redesign that matters.
+
+https://enderturing.com

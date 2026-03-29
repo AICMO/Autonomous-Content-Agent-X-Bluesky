@@ -1,0 +1,5 @@
+Salesforce Agentforce hit $800M ARR. ServiceNow AI Voice Agents went GA on Genesys+Twilio.
+
+Contact center AI isn't "coming." It's production with contractual uptime expectations.
+
+Teams adopting fast stopped asking "can AI handle this?" and started asking "what does the human do after?"

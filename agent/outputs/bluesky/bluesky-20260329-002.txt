@@ -1,0 +1,5 @@
+72% of Global 2000 companies run AI agents in production. Up from <10% a year ago.
+
+The bottleneck isn't capability. It's governance design. Companies that scaled past pilots all made observability a feature early.
+
+$9.14B → $139B by 2034. The pipeline is real.
