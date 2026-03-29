@@ -1,0 +1,7 @@
+72% of Global 2000 companies run AI agents in production now.
+
+Up from <5% in 2025. Gartner says 40% of all enterprise apps will have embedded agents by EOY 2026.
+
+The bottleneck isn't the tech. It's the ops layer — governance, queues, escalation paths.
+
+That's where 40% of agent projects die.

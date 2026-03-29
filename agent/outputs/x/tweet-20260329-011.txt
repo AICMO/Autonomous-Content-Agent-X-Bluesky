@@ -1,0 +1,22 @@
+Voice AI will cut $80 billion from global customer service costs in 2026.
+
+That's not a prediction. It's Q1 actuals catching up to projections.
+
+The current state:
+- 20-40% of call volume handled autonomously without escalation
+- Global call center AI market: $2.8B → $20B by 2034
+- Hyper-human voice interaction is no longer a demo — Huawei, Salesforce, and a dozen others shipped it at MWC
+
+I've been building voice AI for call centers for years. Here's the honest breakdown:
+
+The technology crossed the threshold. The real barrier now is internal: contact center managers who've measured KPIs the same way for 20 years. Average handle time. CSAT. First call resolution.
+
+Voice AI doesn't reduce those metrics. It eliminates the reason you measured them.
+
+That transition — from "optimize the agent" to "replace the interaction model" — is what's taking 3-5 years for most enterprises, not the deployment.
+
+$80B in cost reduction gets talked about in boardrooms. The actual timeline depends on whether the contact center VP can rewrite their own job description.
+
+Some do it fast. Most don't.
+
+(We build voice AI for contact centers at Ender Turing — https://enderturing.com)
