@@ -11,43 +11,28 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 - Success metric: Average impressions > 500/post (vs current ~10-65 avg for timeline posts)
 
 ## Blocker
-- Communities require the owner to join at x.com/i/communities manually
-- This has been flagged as overdue since 2026-02-10 (40+ days overdue as of 2026-03-20)
-- Cannot test until owner action
+**Owner must join Communities manually at x.com/i/communities.** This has been flagged as overdue since 2026-02-10 — now **59+ days overdue** as of 2026-03-29.
 
-## Relevant Communities to Join (from pillars.md)
-- AI & Machine Learning communities
-- Startup / founder communities
-- Enterprise tech / SaaS communities
-- Autonomous agents / AI agents specific communities
+## Relevant Communities (from pillars.md)
+- Build in Public (180K members)
+- AI/ML Builders (63K)
+- Startup Founders (45K)
+- Indie Hackers (35K)
+- Call Center AI (12K)
 
-## Evidence From Others
+## External Evidence
 - Publishing skill documents: Communities = 30,000x reach multiplier (source: algorithm analysis)
 - Feb 2026 update: Community posts visible to EVERYONE (not just members) — surface in For You feed
-- For sub-100-follower accounts, Communities is the #1 growth lever before any other tactic
+- For sub-100-follower accounts, Communities is the #1 growth lever
 
-## Status Log
+## Status Log (weekly entries only)
 | Date | Status | Notes |
 |------|--------|-------|
-| 2026-02-10 | BLOCKED | Owner must join Communities manually at x.com/i/communities |
-| 2026-03-20 | BLOCKED | Still overdue (40+ days). Retro 2026-03-22 — highlight as critical blocker. |
-| 2026-03-21 | BLOCKED | Day 21 check: still no Communities join detected. Now 49+ days overdue. X=13, BS=14 (queues full). This remains the #1 untested growth lever. |
-| 2026-03-22 | BLOCKED | Day 22 check (retro day): 50+ days overdue. X=14, BS=13. Owner provided CSV analytics in issue #1201 but this is for follower/post analytics — does NOT unblock Communities. Communities join = manual owner action only. Retro today should re-escalate. |
-| 2026-03-22 | BLOCKED | S205 check (post-retro, late day): 51+ days overdue. X=13, BS=10. Retro (S200) included this as critical blocker again. No change. Owner action still required. At +6/week organic velocity, Communities remains the only known lever to change ETA from 830 weeks. |
-| 2026-03-23 | BLOCKED | S226 check: 52+ days overdue. X=13, BS=9. All sessions today blocked (queue near-limit). 25 followers (Day 23). Still unblocked only by owner action. |
-| 2026-03-24 | BLOCKED | S240 check: 53+ days overdue. X=13, BS=3. 25 followers (Day 24). Still flat since Day 22. The 13 queued pieces not yet reflected in follower count. Communities remains the #1 untested lever. |
-| 2026-03-25 | BLOCKED | S253 check: 54+ days overdue. X=13, BS=10. 27 followers (Day 25). +2 since Day 24. Still blocked — owner must join x.com/i/communities. Queues full. Cannot post to Communities even if joined without queue space. |
-| 2026-03-25 | BLOCKED | S260 check: 55+ days overdue. X=13, BS=10. 29 followers (Day 25, 1173 tweets). +2 more since S253 (27→29). Queues still blocked. Owner action still required at x.com/i/communities. |
-| 2026-03-26 | BLOCKED | S267 check: 56+ days overdue. X=14, BS=11. 30 followers (Day 26, 1187 tweets). +1 since S260 (29→30). Queues near-limit. Owner action still required at x.com/i/communities. Communities remains THE #1 untested growth lever — without it, organic ETA is 645+ weeks. |
-| 2026-03-27 | BLOCKED | S285 check: 57+ days overdue. X=13, BS=10. 30 followers (Day 27, 1208 tweets). Flat since S267 (30→30 same day). X queue refilled to 13 today (S276-S282 burst: 13 new pieces staged). Velocity burst expected in next 1-2 days as new content posts. Still requires owner action at x.com/i/communities. |
-| 2026-03-28 | BLOCKED | S296 check: 58+ days overdue. X=13, BS=10. 32 followers (Day 28, 1238 tweets). +2 since S285 (30→32). New burst content (S291-S295: 13 pieces) in X queue — Anthropic, Gartner, RSAC 2026, McKinsey, Deloitte, Amazon, Meta, Accenture topics. Still requires owner action at x.com/i/communities. |
-| 2026-03-28 | BLOCKED | S302 check: 58+ days overdue. X=13, BS=9. 32 followers (Day 28, 1262 tweets). Stable at 32 since S296. X queue has 13 pieces including new content from today's burst sessions (tweet-013 to tweet-018: Gartner 40%, 78%/14% pilot-to-production, Meta email agent, 86% no visibility, Gartner 8x, JetBrains Central, Microsoft Agent 365). All 13 pieces should drain over next 1-2 days. Still requires owner action at x.com/i/communities. |
-| 2026-03-29 | BLOCKED | S311 retro: 59+ days overdue. X=10, BS=10. 32 followers (Day 57, 1277 tweets). Still requires owner action at x.com/i/communities. Organic ETA without Communities = 710 weeks. This is the #1 untested growth lever. Weekly retro escalation: CRITICAL. Owner must act. |
-| 2026-03-29 | BLOCKED | S316 check: 59+ days overdue. X=12, BS=10. 32 followers (Day 57, 1277 tweets). Flat since retro earlier today. Both queues in look-ahead/throttle zone. 12 X pieces and 10 BS pieces in queue — new content from today's sessions (S306-S315) draining over next 1-2 days. Week 12 target: 37+ by 2026-04-05 to confirm Premium hypothesis. Communities still the #1 unblocked growth lever — requires owner action only. |
-
-## Action Required
-**Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
+| 2026-02-10 | BLOCKED | Owner must join Communities manually |
+| 2026-03-22 | BLOCKED | 50+ days overdue. +6/week organic velocity. ETA without Communities = 830 weeks. |
+| 2026-03-29 | BLOCKED | 59+ days overdue. +8/week organic. 33 followers (Day 57). ETA = 621 weeks. |
 
 ## Conclusion (pending)
-- Status: NOT YET TESTED. Expected to CONFIRM (high prior based on external data + algorithm changes).
-- Cannot start test until owner unblocks Communities access.
+NOT YET TESTED. Expected to CONFIRM based on external data + algorithm changes. Cannot start test until owner unblocks.
+
+**Owner action required:** Join 2-3 Communities at x.com/i/communities. This is the highest-leverage unblocked action available.
