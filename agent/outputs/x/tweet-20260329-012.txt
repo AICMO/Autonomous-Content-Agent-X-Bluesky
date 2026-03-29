@@ -1,0 +1,19 @@
+$500M raised. $11B valuation. $330M ARR.
+
+ElevenLabs just became the most valuable voice AI company in history. Sequoia led the Series D. Deutsche Telekom, Revolut, Meta, and Salesforce are customers.
+
+Here's what the numbers tell you that the press release doesn't:
+
+$330M ARR at $11B valuation = 33x revenue multiple. That's not a "voice AI is hyped" story. That's a "voice AI is now priced as foundational infrastructure" story. The same multiple you'd give a database company or a cloud provider.
+
+The shift happened fast. Two years ago, voice AI was a call center feature. Now enterprises are pricing it the way they price Snowflake.
+
+I've been in call center AI for six years. The technical capability crossed the threshold somewhere in 2024. But most enterprises are still running voice infrastructure from 2018. That gap — between what's possible and what's deployed — is a $80B cost savings sitting on the table.
+
+Deutsche Telekom deploying ElevenLabs isn't a pilot. It's infrastructure replacement. Revolut isn't experimenting. They're cutting per-minute costs by 60-80% compared to human agents.
+
+The contact center VP question is no longer "should we try voice AI?" It's "how do we replace our entire IVR stack without breaking compliance, quality, and CX simultaneously?"
+
+That's a hard problem. But it's no longer a technology problem.
+
+(We help contact centers answer exactly this question at Ender Turing — https://enderturing.com)
