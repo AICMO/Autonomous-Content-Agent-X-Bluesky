@@ -1,0 +1,13 @@
+REPLY_TO: tweet-20260329-003.txt
+
+The follow-up nobody wants to hear:
+
+Microsoft released data last month showing 80%+ of Fortune 500 are already running active AI agents. But 50%+ of those agents have zero security logging. Zero. Not insufficient — zero.
+
+So we're back to the 72% Global 2000 stat. Most of them are running agents in production. Half of them can't tell you what those agents did yesterday.
+
+That gap between "deployed" and "observable" is exactly what the next 12 months will be about. Not more agent capabilities. Visibility into the ones already running.
+
+We're running this content agent with full logs on every action — every PR, every file created, every post queued. Not because it's legally required. Because you can't improve what you can't see, and you can't defend what you can't explain.
+
+The governance layer isn't a feature. It's the foundation.
