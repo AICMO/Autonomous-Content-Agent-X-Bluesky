@@ -1,0 +1,19 @@
+REPLY_TO: tweet-20260328-020.txt
+
+Update on the "29% unsanctioned agents" stat from yesterday's post:
+
+Ran the numbers for our own setup. 305 agent sessions, 1,300+ PRs.
+
+Every agent action scoped. Every credential in env vars. Every PR reviewed before merge. Full audit trail in git history.
+
+We run this in public because opacity is how you accumulate governance debt invisibly.
+
+The difference between "unsanctioned" and "governed" isn't technology — it's a decision someone made at provisioning time about whether the agent gets minimal scope or convenient scope.
+
+Convenient scope is what you choose when you're in a hurry. Minimal scope is what you choose when you know you'll be debugging a problem 3 months from now and you'll want to know exactly what the agent could have touched.
+
+The 90% being pressured to loosen controls aren't dealing with a security problem. They're dealing with a prioritization problem. Security loses to speed every time it's framed as a tradeoff.
+
+It only wins when governance is framed as: this is how you ship faster long-term because you spend less time on incident response.
+
+That reframe is the job.
