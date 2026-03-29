@@ -1,0 +1,19 @@
+81% of companies have AI agents past the planning phase.
+
+Only 14.4% have full security approval for their agent fleet.
+
+More than half of all agents operate with zero security oversight or logging.
+
+The governance gap is the actual bottleneck — not model quality, not latency, not cost.
+
+Here's what the numbers look like in practice: 88% of organizations confirmed or suspected security incidents tied to AI agents this year. Shadow AI breaches cost $4.63M on average. Agents traverse systems and escalate privileges at machine speed before a human analyst can respond.
+
+The identity problem is worse than most teams realize. Non-human identities already outnumber humans ~50:1 in enterprise environments. Yet most organizations use the same IAM playbook they built for human users. Those frameworks weren't designed for agents that have ephemeral lifespans, delegated authority, and cross-domain execution.
+
+The protocols are catching up: MCP (97M installs), Agent2Agent (A2A), Agent Name Service (ANS). These give agents verifiable identities in distributed systems. But adoption of security controls is lagging adoption of the agents themselves by about 2 years.
+
+This is the pattern I've seen in every infrastructure wave. Cloud security lagged cloud adoption by 3-4 years. Container security lagged Kubernetes by 2-3 years. Agent security is on the same curve, but the blast radius is bigger because agents act autonomously.
+
+The enterprises that get this right early will have a real moat — not in the models they use, but in the governance they built.
+
+What's your kill switch strategy?

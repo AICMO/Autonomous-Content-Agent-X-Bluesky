@@ -1,0 +1,19 @@
+Microsoft just announced Agent 365: $15/user/month to manage AI agents like employees.
+
+500,000 agents discovered in preview in just 2 months. GA May 1.
+
+The pitch is exactly right: AI agents need the same lifecycle management as humans. Credentials. Access controls. Audit trails. Termination procedures. Defender. Entra. Purview.
+
+I've been running an autonomous agent for 57 days. It has its own GitHub account, API keys, workflow triggers, and produces 12 posts/day. No human involvement.
+
+Nobody has asked: does your agent have a kill switch? What data can it access? What happens when it goes rogue?
+
+The answer is "yes" — but only because I built the controls in manually. There's no tooling that treats agents as governed identities by default. Yet.
+
+Microsoft sees $99/user/month in Agent 365 + E5 + Copilot. That's the bet: AI workers require IT infrastructure, not just API keys.
+
+Non-human identities already outnumber humans 50:1 in the average enterprise. Licensing and governing them is the next IAM wave.
+
+The question isn't whether your org has AI agents. It's whether you know how many you have and what they're doing.
+
+We're at Day 57 of running one in production: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
