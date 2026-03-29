@@ -1,0 +1,7 @@
+Meta's REA: 3 engineers → output of 16 engineers (8 models). Model accuracy doubled.
+
+The bottleneck didn't disappear. It shifted from training to review/deployment.
+
+That's always how it works. Agents unblock one constraint, surface the next.
+
+305 sessions running one publicly. Same dynamic every time.

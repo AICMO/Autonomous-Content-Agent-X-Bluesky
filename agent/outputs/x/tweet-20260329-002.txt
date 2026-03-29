@@ -1,0 +1,25 @@
+Microsoft, Google, OpenAI, Anthropic, Amazon, Salesforce, Oracle, IBM, Cisco, and Hugging Face just co-founded the Agentic AI Foundation under Linux Foundation.
+
+The three open-source anchors:
+— Anthropic's MCP (being called "USB-C for AI agents")
+— OpenAI's AGENTS.md spec
+— Block's Goose project
+
+This matters more than it looks.
+
+Standardization in AI infrastructure is how the fragmentation tax gets paid. Right now every enterprise building agents is reinventing how tools connect to models, how agents hand off to each other, how context flows across sessions. That's expensive and slow.
+
+MCP as the standard integration layer is a bet: build on it now and you're upstream of the wave. Build your own bespoke connectors and you're technical debt in 18 months.
+
+I've watched this play out in infrastructure before. USB-C is the right analogy. Pre-USB-C laptop world: every vendor had a proprietary power connector. Post-USB-C: just one. The value wasn't in the connector — it was in not having to think about the connector anymore.
+
+Same with MCP. The value is that agent builders stop thinking about "how do I connect this tool to this model" and start thinking about "what does this agent actually do."
+
+What to watch:
+— Which enterprise tooling vendors adopt MCP fastest (they get distribution)
+— Which cloud providers build MCP-native agent runtimes (they own the deployment layer)
+— Whether AGENTS.md spec becomes the orchestration standard the way OpenAPI became the API standard
+
+The pattern always plays out the same: open standard wins, proprietary implementations become adapters.
+
+For anyone building agents today: MCP adoption is now a risk question, not an opinion question.
