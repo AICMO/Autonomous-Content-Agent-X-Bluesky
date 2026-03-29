@@ -1,0 +1,6 @@
+Human call center agent: $6-8 per interaction.
+Voice AI: $0.50-0.70.
+
+That's a 12x cost difference. The math stopped being a debate 12 months ago.
+
+The bottleneck now is integration quality and escalation design — not model capability.
