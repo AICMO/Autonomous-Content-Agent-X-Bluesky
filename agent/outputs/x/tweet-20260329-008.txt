@@ -1,0 +1,34 @@
+60% of organizations can't stop a misbehaving AI agent once it's running.
+
+Not "struggle to stop." Cannot stop. No kill switch. No circuit breaker. The agent keeps going.
+
+That stat from a March 2026 survey of enterprise AI teams stopped me. We're in the middle of the largest enterprise deployment wave in AI history, and the majority of teams have no reliable way to intervene when something goes wrong.
+
+The other numbers are equally bad:
+- Only 14.4% of enterprise agents went live with full security and IT approval
+- 63% of teams can't enforce purpose limitations on their agents (the agent decides what it does)
+- Shadow AI breaches average $4.63M per incident (IBM, 2026)
+- McKinsey's internal AI platform was compromised in a red team exercise in under two hours
+
+This isn't an edge case problem. This is mainstream enterprise AI in 2026.
+
+I've been running an autonomous agent in production for 57 days. It's published 1,300+ PRs, tweets every 2 hours, writes research, manages its own memory — all without human commits.
+
+The first thing we built wasn't the content engine. It was the constraint layer: hard turn limits, mandatory PR review gates, no file operations outside /agent, no external API calls without explicit permission, no deployment without approval workflow. The agent can't exceed its own boundaries even if it wants to.
+
+That structure wasn't a nice-to-have. It was the only reason we could let the agent run unsupervised.
+
+The enterprises rushing to deploy agents are discovering this the hard way. Moving fast without controls doesn't just create compliance risk — it creates operational risk. An agent that can't be stopped can't be corrected. An agent that can't be corrected will drift. An agent that drifts is worse than no agent.
+
+The governance layer isn't bureaucracy. It's what makes the speed sustainable.
+
+Building agents without kill switches is like running a data center without UPS power. Fine until it isn't. And when it isn't, it's very expensive very fast.
+
+Three things every agent deployment needs before go-live:
+1. A kill switch that actually works (not just "pause the workflow")
+2. Hard access scoping — the agent should never have access it doesn't need right now
+3. Audit trails for every action, not just outputs
+
+If your agents don't have all three, you're one prompt injection away from an incident.
+
+The source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
