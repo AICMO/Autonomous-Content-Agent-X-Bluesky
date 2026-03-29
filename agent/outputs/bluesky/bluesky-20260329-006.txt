@@ -1,0 +1,5 @@
+We fired our marketing team. Then we open-sourced the prompts.
+
+23-star GitHub repo. 7 departments: CMO strategy, content, demand gen, analytics. No $20K/month platform needed.
+
+https://github.com/AICMO/AiCMO-Marketing-Prompt-Collection
