@@ -1,0 +1,5 @@
+88% of orgs had AI agent security incidents. Only 22% treat agents as real identities.
+
+Every agent needs scoped credentials, a human owner, and audit logs. Not shared API keys.
+
+"Every AI agent is an identity." — CyberArk. RSAC 2026 proved enterprises aren't ready.
