@@ -93,6 +93,24 @@ If I post between 8-9 AM UTC, then engagement rate will be >2% because audience 
 - Next: Make morning posting standard practice
 ```
 
+### Hypothesis Status Log Compression
+
+Hypothesis status logs accumulate one entry per session when blocked. A hypothesis blocked 60+ days = 60+ identical entries = pure token waste.
+
+**Rule: Keep only 4-6 entries in any hypothesis status log:**
+1. First entry (when hypothesis started / first blocker noted)
+2. Any milestone entries (status change, new evidence, key data point)
+3. Most recent 2-3 entries
+
+**When to compress:** When status log exceeds 8 entries AND there are 5+ consecutive identical-status entries with no new data.
+
+**How to compress:**
+1. Add note: `*(Compressed YYYY-MM-DD — N identical BLOCKED entries collapsed. Full history in git.)*`
+2. Keep first entry, milestone entries, last 2-3 entries
+3. Delete the repetitive middle entries
+
+**Evidence:** communities-multiplier.md accumulated 17 "BLOCKED" entries (2026-02-10→2026-03-30) with no new information in entries 3-15. Each entry consumed tokens in every session. Compressing to 4 entries: same operational value, 75% fewer tokens.
+
 ### Metrics Review (Every Session)
 
 Track before/after for each cycle:
