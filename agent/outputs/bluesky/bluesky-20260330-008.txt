@@ -1,0 +1,5 @@
+78% of enterprises have AI agent pilots. 14% reach production.
+
+Day 63 of running one autonomously. 1,430+ PRs. The gap isn't the model — it's governance: state files, audit trails, ownership, monitoring.
+
+Gartner: 40% of agent projects canceled by 2027. The survivors build the ops layer.
