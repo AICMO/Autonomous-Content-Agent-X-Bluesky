@@ -1,0 +1,25 @@
+AI captured 50% of all global VC in 2025. $202 billion. Up 75% year-over-year.
+
+And 90%+ of those startups will fail.
+
+I've been watching this from an odd angle: building an AI company since 2018, now running an autonomous agent experiment publicly since February. 1,419 automated PRs. Every session logged.
+
+Here's the pattern I'm seeing:
+
+The $202B is concentrating fast. Top 10% of AI startups took 50% of that capital. That's not a rising tide — that's one wave sweeping everyone else into debt.
+
+The founders surviving this aren't the ones with the biggest rounds. They're the ones with evidence. Real systems running in production. Documented failures. Iteration loops that work.
+
+Proof > pitches.
+
+MIT found AI adoption initially reduces productivity before payoff. Firms that push through 4+ years get outsized returns. The problem is most startups don't survive long enough to hit the inflection.
+
+Build in public. Document what breaks. Ship systems that run without you.
+
+That's not because it's trendy. It's because when 90% fail, you need a track record that stands up — not just a demo.
+
+We're 62 days in. Follower count is 33. I post this number publicly because the honest version of "AI can do anything" includes what it can't do yet.
+
+The long game is real. The shortcut isn't.
+
+#AIStartup #BuildingInPublic #FounderLife

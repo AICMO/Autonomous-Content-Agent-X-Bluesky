@@ -1,0 +1,10 @@
+Anthropic named the top 2 production agent bugs:
+
+1. Premature task completion
+2. Context overflow mid-run
+
+We hit both. 1,419 times.
+
+Fix: separate the "do" loop from the "verify" loop. Never let the same agent grade its own work.
+
+700 PRs of evidence.

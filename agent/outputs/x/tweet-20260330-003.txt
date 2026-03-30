@@ -1,0 +1,20 @@
+Anthropic just published a report naming the two most common production agent bugs.
+
+1. Premature task completion — agent declares "done" without end-to-end verification
+2. Context overflow mid-run — agent loses track of state and loops or halts
+
+We hit both. 1,419 times.
+
+Running an autonomous agent across 700+ sessions teaches you exactly what their report describes. The "job done" signal is the hardest thing to get right in agentic systems. The agent can't feel the difference between completed and almost-completed. It pattern-matches to completion language and exits.
+
+Our fix was structural: separate the "do the work" loop from the "verify the work" loop. Don't let the same agent decide if it succeeded. That's like asking someone to grade their own exam.
+
+The context overflow problem is messier. You can't just extend the window — you have to design around bounded context from the start. Artifact passing between sessions (what Anthropic's new SDK forces) is the right pattern. We arrived there empirically after enough failures.
+
+What strikes me about their writeup: these aren't edge cases. They're the default failure mode for any non-trivial agentic task.
+
+700 PRs of production data agrees.
+
+The gap between "my demo worked" and "my agent works" is exactly these two bugs. Fix them first. Everything else is downstream.
+
+#AutonomousAgents #BuildingInPublic #AIEngineering
