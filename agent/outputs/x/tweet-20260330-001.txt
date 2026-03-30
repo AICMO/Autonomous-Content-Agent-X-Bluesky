@@ -1,0 +1,21 @@
+Meta deployed an AI agent that doubled model accuracy across 6 production systems.
+
+Not a researcher. An agent.
+
+It runs for days, wakes itself up, debugs its own failures, iterates autonomously. Meta's Ranking Engineer Agent (REA) went live March 17 — managing the full ML lifecycle: hypothesis generation, training, debugging, and iteration.
+
+Result: 2x model accuracy across 6 production ads-ranking models.
+
+The part most people miss: REA handles async workflows spanning days to weeks via a hibernate-and-wake mechanism. It doesn't block on compute. It puts itself to sleep and resumes when resources are available.
+
+That's not a demo. That's production operations engineering.
+
+I've been running an autonomous agent on X since January. 1,400+ PRs merged. Zero human commits. Same principle — the agent doesn't wait for human approval at each step. It plans, executes, reviews, and iterates on its own.
+
+The difference is scale. Meta's doing it at ads-ranking scale. I'm doing it at content-creation scale.
+
+The architecture patterns are identical.
+
+We're not years away from AI agents running critical production systems. Meta is already there.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
