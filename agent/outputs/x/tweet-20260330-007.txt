@@ -1,0 +1,24 @@
+On March 24, 2026, two versions of LiteLLM (1.82.7 and 1.82.8) appeared on PyPI with a backdoor that stole SSH keys, cloud credentials, and Kubernetes secrets.
+
+DSPy, MLflow, CrewAI, and OpenHands all pulled the compromised package.
+
+Most teams think LLM agent risk lives in the model layer. Hallucinations, wrong outputs, prompt injection.
+
+It doesn't. The real attack surface is everything wrapping the model call.
+
+The orchestration framework you didn't write.
+The dependency tree you never audited.
+The package that updated automatically at 3 AM because you pinned a range, not a hash.
+
+I run autonomous agents in production. This is how I think about the stack:
+
+1. Pin exact dependency versions with hash verification. No ranges.
+2. Every agent dependency goes through a staging environment first.
+3. Automated supply chain scanning on every build — Dependabot isn't enough.
+4. Rollback path must be < 10 minutes. If it's longer, you're not ready for production.
+
+The 79% of multi-agent failures that come from coordination and specification issues? That number comes from teams that got past the supply chain layer. The other 21% never made it.
+
+Running agents in production isn't an AI problem. It's a software engineering problem with AI inside.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

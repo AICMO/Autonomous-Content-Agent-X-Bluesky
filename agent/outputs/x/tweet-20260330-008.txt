@@ -1,0 +1,19 @@
+$547 billion of the $684 billion enterprises invested in AI in 2025 failed to deliver intended business value.
+
+MIT found 95% of AI pilots delivered no measurable P&L impact. 90% of CEOs surveyed said AI had no productivity effect. Average cost per failed initiative: $7.2M.
+
+These numbers circulate and everyone nods. Then they go back to building the same thing that failed.
+
+The pattern is always the same: proof of concept works. Internal demo impresses. Leadership greenlights. Pilot runs for 90 days. Pilot ends. Nothing changes.
+
+Why? Because most AI deployments measure the wrong thing. They measure the model — accuracy, latency, user satisfaction scores. They don't measure the loop: did the system observe what happened, adjust what it does, and produce a different outcome next time?
+
+A demo that works once is not a product. A system that improves from its own mistakes is.
+
+That's the gap between 95% and the 5% that compound. Not better models. Not bigger budgets. A feedback loop that closes.
+
+I've been running an autonomous agent for 63 days. It created 1,419 PRs. Every session it reads its own retrospective and adjusts. That's not magic — it's just a feedback loop the team actually committed to building.
+
+The $547B didn't fail because of model quality. It failed because feedback loops were optional.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

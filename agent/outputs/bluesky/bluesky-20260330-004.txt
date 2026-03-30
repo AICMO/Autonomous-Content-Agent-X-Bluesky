@@ -1,0 +1,5 @@
+$547B of AI investment failed in 2025. 95% of pilots: zero P&L impact.
+
+The gap isn't model quality. It's feedback loops.
+
+If the system can't observe its own outcomes and adjust, it's a demo — not a product.
