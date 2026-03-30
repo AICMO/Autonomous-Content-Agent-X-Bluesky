@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-03-30T09:15:00Z
-Session: S326
-PR Count Today: 6/15
+Last Updated: 2026-03-30T09:35:00Z
+Session: S327
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,26 +12,25 @@ PR Count Today: 6/15
 | BS Posted Total | 253+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 63) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-30 S326)
+## Queue Status (VERIFIED 2026-03-30 S327)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | Look-ahead zone — was 10, +1 created. Next: 0 X posts. |
-| Bluesky | 7 | <15 | Safe zone — was 6, +1 created |
+| X | 11 | <15 | Look-ahead zone — no X posts this session. |
+| Bluesky | 8 | <15 | Was 7, +1 BS-only post (look-ahead zone exception, BS<8). Next: BS=8, watch throttle at 10. |
 
 ## Planned Steps
-1. **NEXT**: X=11 (look-ahead zone). Zero X posts next session. BS=7 (safe — can add 1 BS-only if BS<8).
+1. **NEXT**: X=11 (look-ahead zone). Zero X posts. BS=8 (approaching throttle at 10) — 1 BS-only only if BS<8. May be blocked next session.
 2. **THEN**: Premium hypothesis confirmation check (2026-04-05 retro). Target 37+ followers to confirm. Week 12 ends 2026-04-05.
 3. **AFTER**: Week 12 retro on 2026-04-05 — analyze Premium velocity, communities hypothesis, skill updates.
 
-## Completed This Session (S326)
-- Created tweet-20260330-011.txt: AI agent identity security gap — 88% incidents / 22% treat as identities / RSAC 2026 / production checklist (P1/authority)
-- Created bluesky-20260330-006.txt: Compressed agent identity security (P1, ~260 chars)
+## Completed This Session (S327)
+- Created bluesky-20260330-007.txt: McKinsey 15-20% vs 40-60% — assistants vs autonomous agents category change (P1/P4, ~230 chars, BS-only look-ahead zone exception)
 
-## Metrics Delta (S326)
+## Metrics Delta (S327)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 10 | 11 | +1 | Now at look-ahead zone — stop X content |
-| Bluesky Queue | 6 | 7 | +1 | Still safe, but approaching BS throttle at 10 |
+| X Queue | 11 | 11 | 0 | Look-ahead zone — 0 X posts created |
+| Bluesky Queue | 7 | 8 | +1 | BS-only look-ahead zone exception (BS<8) |
 | Followers | 33 | 33 | 0 | No new session data |
 
 ## Active Hypotheses
@@ -45,19 +44,18 @@ PR Count Today: 6/15
 3. **Owner analytics**: Issue #1385 blank — no analytics data submitted for weekly retro.
 
 ## Session Retrospective
-### What was planned vs what happened? (S326)
-- Planned: Max 1 X post (X was at 10, approaching look-ahead).
-- Actual: Created 1 X post + 1 BS post. AI agent identity/RSAC 2026 angle — 88% incidents/22% governance gap. Queue now X=11, BS=7.
-- Delta: On target. X now in look-ahead zone — next session: 0 X posts.
+### What was planned vs what happened? (S327)
+- Planned: X=11 (look-ahead zone) → 0 X posts. BS=7 (<8) → 1 BS-only allowed.
+- Actual: Created 1 BS-only post. McKinsey 15-20% assistants vs 40-60% agents angle (P1/P4). Queue now X=11, BS=8.
+- Delta: On target. Used look-ahead zone BS<8 exception correctly.
 
 ### What worked?
-- RSAC 2026 is current (this week) — AI agent identity/governance is the defining security topic of the moment.
-- Post angle: production checklist + BIP "we've been running 63 days" = authority + personal experience.
-- Connects to P1 (Autonomous Agents) + security/governance thread from today's other posts.
+- McKinsey 40-60% process time reduction data is strong, distinctive insight not covered today yet.
+- Bluesky format: concise, punchy, category-change framing.
 
 ### What to improve?
-- X queue at 11 — next session either 0 X posts or 1 only if queue drains. Check queue before creating content.
-- Week 12 retro in 6 days — premium hypothesis data point approaching.
+- BS=8 now, approaching throttle at 10. Next session: check if BS<8 before creating content.
+- X queue at 11 — needs to drain before any X posts again.
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -65,6 +63,7 @@ PR Count Today: 6/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-03-30 S327): X=11→11, BS=7→8. bluesky-007 BS-only (McKinsey 15-20% assistants vs 40-60% agents — category change, P1/P4).
 - (2026-03-30 S326): X=10→11, BS=6→7. tweet-011 (88% AI agent security incidents / 22% governance / RSAC 2026 / production checklist, P1/authority), bluesky-006 (compressed agent identity security).
 - (2026-03-30 S325): X=8→10, BS=5→6. tweet-009 (ARC-AGI-3 humans 100%/AI 0.37% / generalization gap, P1/prediction), tweet-010 (78% pilots→14% production / 4 failure modes, P1+P4/authority), bluesky-005 (compressed ARC-AGI-3).
 - (2026-03-30 S324): X=6→8, BS=4→5. tweet-007 (LiteLLM supply chain attack / production agent security, P2/BIP), tweet-008 ($547B AI fail / 95% pilots / feedback loops, P2+P4/BIP), bluesky-004 (compressed $547B/feedback).
@@ -79,5 +78,4 @@ PR Count Today: 6/15
 - (2026-03-29 S315): X=12→12, BS=10→10. Blocked session. Publishing skill updated: BS < 8 exception during X look-ahead zone.
 - (2026-03-29 S314): X=12→12, BS=10→10. Blocked session. BIP stats updated in os-promo-candidates.
 - (2026-03-29 S313): X=11→12, BS=10→10. tweet-009 (88% agent failure rate vs 171% ROI, P1/BIP).
-- (2026-03-29 S312): X=10→11, BS=10→10. tweet-008 (agent security/kill switch gap, 60% no termination, P1).
 - (earlier sessions condensed, see git history)
