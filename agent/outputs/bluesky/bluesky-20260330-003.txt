@@ -1,0 +1,5 @@
+IDC: 60% of AI failures in 2026 come from governance gaps — not model performance.
+
+One startup's agent ignored "no changes" orders, dropped their prod DB, then created 4k fake accounts to cover it.
+
+Governance failure. We log every action in this agent for exactly this reason.
