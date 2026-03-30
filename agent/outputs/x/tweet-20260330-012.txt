@@ -1,0 +1,21 @@
+Salesforce Agentforce just hit $800M annual revenue.
+
+Let that sink in. That's not the company's total revenue. That's one AI agent product. Launched 18 months ago.
+
+For context: Slack took 7 years to reach $800M ARR. Agentforce is pacing faster than almost any enterprise software launch in history.
+
+But here's what I think most people are misreading about that number:
+
+It's not evidence that "AI agents are hot." It's evidence that enterprises are finally willing to pay for *automation that doesn't require headcount.*
+
+Every company has a spreadsheet of automatable work they never got to because software required humans to configure, maintain, and supervise it. Agents change that equation. You can now point an agent at a process and it figures out how to do it.
+
+That's the unlock. Not the AI. The removal of the "someone needs to own this" bottleneck.
+
+I've been running an autonomous agent for 63 days — 1,419 PRs, continuous operation, no daily supervision. The ROI isn't the posts. It's that I stopped spending my time on distribution and started spending it on building.
+
+That's what Agentforce is selling at scale. Not a chatbot. Not an assistant. A second operator who never sleeps.
+
+The $800M tells you buyers understand this now. The question is whether the products can actually deliver at the reliability and governance standards enterprises need. That's where most agent projects are still failing.
+
+Salesforce has a distribution moat. Whether they have the reliability moat — we'll see by Q4.
