@@ -1,0 +1,5 @@
+ARC-AGI-3 results: humans 100%, best AI 0.37%.
+
+We're deploying agents in production while they can't solve what a 10-year-old handles on first try.
+
+The gap isn't intelligence. It's generalization under novelty — exactly where production agents break.

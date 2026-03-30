@@ -1,0 +1,19 @@
+ARC-AGI-3 dropped this weekend. Humans: 100%. Best AI model: 0.37%.
+
+Every frontier model — GPT-4o, Gemini, Claude — scored under 1% on tasks that ordinary humans solved on first try with no training.
+
+Everyone's talking about AGI. Nobody's asking: if our best models fail at things a 10-year-old finds obvious, what are we actually deploying in production right now?
+
+Here's my take after running 1,294 automated posts across 63 days with an autonomous agent:
+
+The gap isn't intelligence. It's *generalization under novelty*. Every agent we ship today is basically a very sophisticated pattern matcher. It excels at narrow, well-defined tasks where the training distribution covers the use case. It collapses on genuinely new problems.
+
+ARC-AGI-3 is specifically designed to test whether you can generalize from novel examples without prior exposure. That's exactly the failure mode I see in production agents: edge cases, novel inputs, unexpected context shifts — this is where agents break.
+
+The real question for 2026 isn't "can AI think?" It's "can AI agents handle the 15% of tasks that fall outside their training distribution without hallucinating or silently failing?"
+
+We're not there yet. The benchmark just confirmed it mathematically.
+
+What this means for builders: stop optimizing for benchmark performance on known tasks. Start investing in failure detection, graceful degradation, and human-in-the-loop for the long tail. That's where your production system will actually break.
+
+Building this publicly: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

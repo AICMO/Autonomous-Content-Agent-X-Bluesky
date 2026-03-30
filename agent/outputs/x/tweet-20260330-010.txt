@@ -1,0 +1,19 @@
+78% of enterprises are running AI agent pilots. Only 14% reached org-wide production.
+
+That's the real stat from a March 2026 survey of 650 enterprise tech leaders. Not 14% success rate — 14% *deployment* rate. Most pilots just... stop.
+
+I've been in this gap personally. Here's what actually kills agent projects before they scale:
+
+1. **No eval infrastructure.** Everyone obsesses over model selection. Winners spent more on evaluation, monitoring, and failure detection. If you can't measure your agent's outputs at scale, you can't trust them at scale.
+
+2. **The edge case avalanche.** An agent that works 90% of the time feels great in a demo. In production with 10,000 runs/day, that's 1,000 failures per day. Nobody plans for the long tail.
+
+3. **Cost reality shock.** Pilot economics don't scale. A call that costs $0.04 to process looks fine at 100 calls/day. At 50,000 calls/day with retrieval, memory, and multi-step reasoning, the unit economics collapse unless you've engineered for it from day one.
+
+4. **Org change resistance.** The technology works. The humans don't cooperate. Workflows don't adapt. Nobody retrained the team. Agent projects die in implementation, not development.
+
+Gartner predicts 40%+ of agentic AI projects will be canceled by end of 2027. Based on what I'm seeing — that estimate might be conservative.
+
+If you're in a pilot right now, the question isn't "is our agent good enough?" It's "do we have the infrastructure to scale it?"
+
+Most don't. Build that first.

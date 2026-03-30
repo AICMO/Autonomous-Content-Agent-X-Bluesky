@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-03-30T07:00:00Z
-Session: S324
-PR Count Today: 4/15
+Last Updated: 2026-03-30T08:00:00Z
+Session: S325
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,27 +12,27 @@ PR Count Today: 4/15
 | BS Posted Total | 253+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 63) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-30 S324)
+## Queue Status (VERIFIED 2026-03-30 S325)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 8 | <15 | Safe zone — was 6, +2 created |
-| Bluesky | 5 | <15 | Safe zone — was 4, +1 created |
+| X | 10 | <15 | Safe zone — was 8, +2 created |
+| Bluesky | 6 | <15 | Safe zone — was 5, +1 created |
 
 ## Planned Steps
-1. **NEXT**: X=8, BS=5. At look-ahead zone for X (approaching 11). Next session: max 1 X post, check if BS has room. Strong hook required.
+1. **NEXT**: X=10, BS=6. X approaching look-ahead zone. Next session: max 1 X post (or skip if X=11+). BS still has room if X blocked.
 2. **THEN**: Premium hypothesis confirmation check (2026-04-05 retro). Target 37+ followers to confirm. Week 12 ends 2026-04-05.
 3. **AFTER**: Week 12 retro on 2026-04-05 — analyze Premium velocity, communities hypothesis, skill updates.
 
-## Completed This Session (S324)
-- Created tweet-20260330-007.txt: LiteLLM supply chain attack March 24 + production agent security framework (P2/BIP+repo)
-- Created tweet-20260330-008.txt: $547B AI investment failure / 95% pilots no P&L impact / feedback loops (P2+P4/BIP+repo)
-- Created bluesky-20260330-004.txt: Compressed $547B failure / feedback loops (210 chars)
+## Completed This Session (S325)
+- Created tweet-20260330-009.txt: ARC-AGI-3 humans 100% vs AI 0.37% + generalization under novelty / production failure modes (P1/prediction+BIP+repo)
+- Created tweet-20260330-010.txt: 78% pilots → 14% production / 4 reasons agent projects die before scaling (P1+P4/authority)
+- Created bluesky-20260330-005.txt: Compressed ARC-AGI-3 (235 chars)
 
-## Metrics Delta (S324)
+## Metrics Delta (S325)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 6 | 8 | +2 | Safe zone |
-| Bluesky Queue | 4 | 5 | +1 | Safe zone |
+| X Queue | 8 | 10 | +2 | Safe zone, approaching look-ahead |
+| Bluesky Queue | 5 | 6 | +1 | Safe zone |
 | Followers | 33 | 33 | 0 | No new session data |
 
 ## Active Hypotheses
@@ -46,17 +46,17 @@ PR Count Today: 4/15
 3. **Owner analytics**: Issue #1385 blank — no analytics data submitted for weekly retro.
 
 ## Session Retrospective
-### What was planned vs what happened? (S324)
-- Planned: 1-2 more X posts (queue was 6, safe zone).
-- Actual: Created 2 X posts + 1 BS post. Supply chain attack (LiteLLM March 24) + AI investment failure ($547B/95% pilots).
-- Delta: On target. Queue now X=8, BS=5. Still safe zone but approaching look-ahead threshold.
+### What was planned vs what happened? (S325)
+- Planned: Max 2 X posts (queue was 8, safe zone).
+- Actual: Created 2 X posts + 1 BS post. ARC-AGI-3 humans 100%/AI 0.37% + 78% pilots → 14% production gap.
+- Delta: On target. Queue now X=10, BS=6. Approaching look-ahead threshold for X.
 
 ### What worked?
-- Supply chain angle is fresh (March 24 incident) and connects directly to production agent expertise.
-- $547B failure angle uses strong numbers + feedback loop thesis — ties directly to BIP credibility.
+- ARC-AGI-3 angle is fresh (March 28-29 results), strong hook with precise numbers, connects to production agent expertise.
+- Pilot-to-production gap uses actionable framework (4 failure modes) — authority post with practical value.
 
 ### What to improve?
-- X=8 is approaching look-ahead zone (11-12). Next session max 1 X post. Monitor queue drain rate.
+- X=10 → next session may only allow 1 post or be at look-ahead (11-12 = max 1). Plan accordingly.
 - Week 12 retro on 2026-04-05 — premium hypothesis decision point in 6 days.
 
 ## External Outputs
@@ -65,6 +65,7 @@ PR Count Today: 4/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-03-30 S325): X=8→10, BS=5→6. tweet-009 (ARC-AGI-3 humans 100%/AI 0.37% / generalization gap, P1/prediction), tweet-010 (78% pilots→14% production / 4 failure modes, P1+P4/authority), bluesky-005 (compressed ARC-AGI-3).
 - (2026-03-30 S324): X=6→8, BS=4→5. tweet-007 (LiteLLM supply chain attack / production agent security, P2/BIP), tweet-008 ($547B AI fail / 95% pilots / feedback loops, P2+P4/BIP), bluesky-004 (compressed $547B/feedback).
 - (2026-03-30 S323): X=4→6, BS=3→4. tweet-005 (AI governance gaps 60% IDC / DROP DB incident, P1/BIP), tweet-006 (agentic $9B→$139B unit economics trap, P4/Ender Turing), bluesky-003 (compressed governance post).
 - (2026-03-30 S322): X=2→4, BS=2→3. tweet-003 (Anthropic agent bugs: premature completion/context overflow, P1/BIP), tweet-004 (AI $202B VC / 90% fail, contrarian P4/BIP), bluesky-002 (compressed agent bugs).
@@ -78,5 +79,4 @@ PR Count Today: 4/15
 - (2026-03-29 S314): X=12→12, BS=10→10. Blocked session. BIP stats updated in os-promo-candidates.
 - (2026-03-29 S313): X=11→12, BS=10→10. tweet-009 (88% agent failure rate vs 171% ROI, P1/BIP).
 - (2026-03-29 S312): X=10→11, BS=10→10. tweet-008 (agent security/kill switch gap, 60% no termination, P1).
-- (2026-03-29 S311): Weekly retro. +7 followers Week 11 (25→32). Premium hypo 2/3 weeks confirmed.
 - (earlier sessions condensed, see git history)
