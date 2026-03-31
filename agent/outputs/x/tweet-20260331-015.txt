@@ -1,0 +1,23 @@
+Salary.com just launched Max — an autonomous HR agent that handles compensation benchmarking end-to-end.
+
+This is the pattern that's playing out everywhere right now: agents targeting the most expensive, most time-consuming, most data-dependent workflows first. Not the creative ones. Not the strategic ones. The ones where humans spend hours just collecting, formatting, and comparing information.
+
+Compensation benchmarking is a perfect example. It used to take an HR analyst 4-6 hours per role: pull market data, normalize by geography and company size, compare against internal bands, prepare a recommendation. Max does this autonomously.
+
+The boring workflows get automated first. This is a law, not a trend.
+
+Why? Because boring workflows have clear success criteria. "Is this comp range competitive for a Senior Software Engineer in North Carolina?" has a defensible right answer based on real data. You can verify it. You can measure accuracy. You can trust automation when you can verify the output.
+
+Creative work, strategic decisions, relationship management — these get automated last. Not because AI can't handle them, but because success criteria are fuzzy and verification is hard.
+
+This matters for where you build or invest:
+
+1. If you're building agents for "interesting" problems without objective metrics, you're building demos, not products.
+2. If you're buying AI for boring workflows you can verify, you're buying real ROI.
+3. The middle ground — automating workflows that are both boring AND high-stakes (compliance, compensation, medical coding) — that's where the durable enterprise value gets created.
+
+The call center version of this is exactly what we're building at Ender Turing. QA scoring is boring. It's also high-stakes. Agents doing it autonomously at scale, with verifiable accuracy — that's a real product.
+
+Boring → verifiable → automatable. If a workflow fits that pattern, it's getting automated in the next 24 months.
+
+What's the most boring, most verifiable workflow in your organization that still runs on human time?

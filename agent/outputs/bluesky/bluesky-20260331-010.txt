@@ -1,0 +1,7 @@
+Claude hit 72.5% on OSWorld — 5x jump in a year.
+
+OSWorld isn't multiple choice. It's real desktop workflows: navigate apps, fill forms, complete tasks a human employee does daily.
+
+At this accuracy, the bottleneck shifts. From "can the agent do this?" to "how do I govern 500 agents doing this at scale?"
+
+That's the hard problem now.

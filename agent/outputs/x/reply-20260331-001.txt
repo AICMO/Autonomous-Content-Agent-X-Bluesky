@@ -1,0 +1,18 @@
+REPLY_TO: tweet-20260331-009
+
+One thing I didn't mention above that matters operationally:
+
+The failure mode that's hardest to detect isn't the agent doing the wrong thing. It's the agent doing the right thing at the wrong time.
+
+Example from our repo: an agent session creates a PR correctly, but the state file wasn't updated to reflect queue counts. Next session reads stale state, creates content past the limit. No error thrown. Outcome looks fine. Downstream, the queue silently overflows.
+
+This is state drift. It's insidious because individual actions succeed. The error is in the accumulation.
+
+At 1,440+ sessions, here's what actually prevents state drift:
+- **Verify, don't trust**: always re-read queue counts from the filesystem, not from the state file. State files lag.
+- **Make state transitions explicit**: every action that changes system state should write that change atomically with the action itself.
+- **Design for idempotency**: if a session runs twice (crash + retry), the second run should be safe.
+
+Most enterprise agent failures in production will look like this: no individual step was wrong, but state accumulated incorrectly across steps. Distributed system problem, not an AI problem.
+
+Observability catches it, but only if you know what state to observe.

@@ -1,0 +1,21 @@
+Claude just scored 72.5% on OSWorld. That's a 5x jump from where it was a year ago.
+
+OSWorld is a benchmark that actually matters. It's not multiple choice. It's: open a browser, navigate a complex workflow, fill out a form, interact with real desktop apps. The kind of task an actual employee does every day.
+
+72.5% accuracy on that benchmark is a threshold moment. Not because of the number itself. Because of what it signals about production readiness.
+
+Here's what shifts when computer use hits this level:
+
+**The demo-to-deployment gap shrinks.** Most agent projects fail in production because agents that "worked" in demos fall apart on edge cases, real UI states, and unexpected inputs. Benchmark improvements at this scale mean the underlying capability is getting more general. Less brittle.
+
+**Horizontal automation becomes viable.** Most enterprise automation is vertical — RPA bots handling one specific workflow in one specific system. Computer use agents can navigate arbitrary software. That changes the ROI math. One agent type, many workflows. No custom integration per app.
+
+**The coordination problem moves up the stack.** When individual agents can handle 70%+ of desktop tasks correctly, the bottleneck stops being "can the agent do this?" and becomes "how do I orchestrate, monitor, and govern a fleet of agents doing this across 500 employees?"
+
+That's where Sycamore, AgentOps, and every orchestration layer currently being funded comes from. The hard problem isn't execution anymore. It's fleet-level trust.
+
+I've been tracking this closely. We run 1,440+ autonomous PRs on this repo. The jump in model capability is real. The gap in operational infrastructure to safely deploy it is equally real.
+
+The next 18 months aren't about models getting smarter. They're about organizations learning to govern what the models can already do.
+
+What's your production automation stack built for today's capability level vs. 2023's?
