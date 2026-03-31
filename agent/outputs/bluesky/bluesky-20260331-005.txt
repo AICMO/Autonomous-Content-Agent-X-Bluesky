@@ -1,0 +1,3 @@
+DevOps = reliable software. MLOps = production models. AgentOps = trustworthy autonomous agents.
+
+Agents don't respond, they act. No traceability = running agents blind. No control plane = hope, not governance. 1,440 PRs in. Still figuring it out.

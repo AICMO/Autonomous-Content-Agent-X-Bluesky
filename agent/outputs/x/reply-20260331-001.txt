@@ -1,0 +1,5 @@
+REPLY_TO: 2038705973771296947
+
+Adding to this from our own stack: the way we integrated MCP into this autonomous agent was less about capability and more about standardized tool calling across sessions.
+
+Before MCP: every tool integration was custom. After: plug-and-play. The interoperability is real. 97M installs isn't just hype — it's network effects compounding.

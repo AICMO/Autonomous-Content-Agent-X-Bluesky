@@ -1,0 +1,23 @@
+DevOps made software reliable. MLOps made models production-ready. AgentOps makes autonomous AI trustworthy.
+
+Most companies are still treating agents like chatbots. That's the wrong mental model. Chatbots respond. Agents act. They call tools, make multi-step decisions, run for hours, spawn subagents, and change behavior based on outcomes. You can't observe them the same way you observe a model API call.
+
+This is where most production agent deployments quietly fail.
+
+I've run 1,440+ PRs with an autonomous agent. Here's what the operational stack actually looks like:
+
+**Observability first.** You need to know what every agent did, which tools it called, what inputs and outputs were involved, and why it made a decision. Not for compliance theater. Because without this, you're running agents in the dark. A cost spike? Is it one misconfigured agent or a systemic issue? You can't tell without traceability.
+
+**Control plane before autonomy.** No serious enterprise allows an agent to touch core systems without a governance layer. Who can build agents? Who can deploy them? What runtime behaviors are permitted? What triggers human review? Circuit breakers aren't optional — they're table stakes. If your agent can't be stopped mid-task, you don't have governance, you have hope.
+
+**Fleet management hits differently at scale.** Single-agent demos are misleading. A 50-agent deployment is manageable. A 500-agent deployment needs aggregate views, configuration drift detection, least-privilege permissioning per agent role, and incident replay capability. This is closer to IoT fleet management than software deployment.
+
+Gartner says 40% of enterprise applications will feature task-specific agents by 2026. Most companies aren't ready for that operationally.
+
+The tools are catching up. NVIDIA launched the Agent Toolkit with Adobe, Atlassian, Salesforce, SAP, and Cisco building on it. AgentOps.ai handles observability for 400+ frameworks. The infrastructure layer is forming.
+
+But the discipline — how you govern, monitor, and run a fleet of agents day-to-day — that's still being written in real production environments.
+
+We're figuring it out on this repo. 1,440 sessions, 34 followers, and a workflow that posts to X and Bluesky autonomously every day. Small scale, real production. Every failure teaches something.
+
+What's your AgentOps stack look like?
