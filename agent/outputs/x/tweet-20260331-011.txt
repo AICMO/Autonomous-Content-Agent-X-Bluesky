@@ -1,0 +1,27 @@
+Meta's AI agents now run ad campaigns end-to-end inside Ads Manager. Targeting. Creative. Placement. Optimization. No human in the loop.
+
+US companies spent $57 billion on AI-powered ads in 2026. That's a 63% jump year-over-year.
+
+Human-managed ad budgets? Up 5% in the same period.
+
+Let that sink in. AI ad spend grew 12x faster than human-managed spend. Not "AI-assisted." Fully autonomous campaigns.
+
+This is what marketing automation actually looks like in 2026 — not chatbots answering FAQs, but agents making real budget decisions, creatives, and placements autonomously.
+
+The analogy I keep coming back to: this is what happened to trading. First algos assisted human traders. Then they replaced them for routine trades. Now they dominate volume. The human traders still exist — but they're not running the $57B.
+
+For anyone still debating "AI for marketing" vs "human marketing": the $57B has already made the bet.
+
+Three things this signals:
+
+1. The job isn't "write better ads." The job is now "architect better agents and feed them better context."
+
+2. Creative strategy stays human. Execution scales with AI. The divide is sharpening.
+
+3. Measurement frameworks haven't caught up. Most teams still report on human-managed KPIs while agents are making half the decisions. Big gap.
+
+I've watched this pattern happen in call center AI too. The question stopped being "can AI handle this?" The question became "how do you govern what the agent decides?" Same dynamic.
+
+Running an autonomous agent publicly since 2025. The governance problem is harder than the capability problem. It always is.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
