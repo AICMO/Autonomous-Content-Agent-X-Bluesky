@@ -350,14 +350,22 @@ Every piece of content MUST pass as human-written. These rules override all temp
 ### BANNED Patterns
 1. **Em dash abuse** — use periods, commas, or semicolons instead
 2. **"Not just X, it's Y"** — #1 AI tell, never use
-3. **Perfect rule-of-three lists** with parallel structure — break the pattern
-4. **Banned words:** "Delve," "elevate," "innovative," "tapestry," "realm," "landscape," "leverage," "robust," "holistic," "comprehensive," "cutting-edge," "game-changer," "paradigm," "furthermore," "moreover," "additionally," "let's dive in," "buckle up"
-5. **Exaggerated praise** — say "I liked [specific thing]" not "genuinely captivating"
-6. **Constant clarification** — never "to clarify," "in other words," "to put it simply"
-7. **Forced analogies** — if it doesn't come naturally, skip it
-8. **LinkedIn format** — hook + ethos + bullets + result + conclusion = banned structure
-9. **Uniform sentence length** — vary dramatically. Short. Then longer. Then short.
-10. **Summarizing at the end** — just stop when you're done
+3. **"X isn't Y. It's Z."** — reframing cliché. "Agent retention isn't an HR problem. It's a CX problem." BANNED. Just state the point directly: "Agent retention drives CX more than hiring speed."
+4. **"The question isn't X. It's Y."** — rhetorical reframe. BANNED. Ask the actual question or make the actual point.
+5. **"X isn't Y waiting to be Z"** — "Your CC isn't a cost center waiting to be automated. It's a revenue engine waiting to be understood." BANNED. Every AI writes this exact structure.
+6. **"Here's what/why/how"** — overused transition. Max 1 per post. Never as the hook. Never twice.
+7. **"Let that sink in" / "Think about it" / "Read that again"** — engagement bait, penalized since 2025
+8. **"The truth is" / "The reality is" / "The bottom line"** — filler preamble, adds nothing
+9. **"wearing a [X] costume"** / forced metaphor reframes — "It's a CX problem wearing an HR costume" is pure AI. Just say what you mean.
+10. **Perfect rule-of-three lists** with parallel structure — break the pattern
+11. **Banned words:** "Delve," "elevate," "innovative," "tapestry," "realm," "landscape," "leverage," "robust," "holistic," "comprehensive," "cutting-edge," "game-changer," "paradigm," "furthermore," "moreover," "additionally," "let's dive in," "buckle up"
+12. **Exaggerated praise** — say "I liked [specific thing]" not "genuinely captivating"
+13. **Constant clarification** — never "to clarify," "in other words," "to put it simply," "simply put"
+14. **Forced analogies** — if it doesn't come naturally, skip it
+15. **Generic LinkedIn formula** — hook + credentials + numbered list + humble brag + CTA = banned structure. Be specific, be different. If your post reads like every other "thought leader," rewrite it.
+16. **Uniform sentence length** — vary dramatically. Short. Then longer. Then short.
+17. **Summarizing at the end** — just stop when you're done
+18. **"At the end of the day"** — filler cliché, never use
 
 ### Human Patterns (use these)
 - **Personal anecdotes** with specific details (numbers, companies, timelines from author's life)
