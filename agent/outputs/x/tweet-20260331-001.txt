@@ -1,0 +1,23 @@
+The FCC just voted to force companies to onshore call centers back to the US.
+
+Everyone's framing this as a jobs story. It's not. It's an AI acceleration story.
+
+Here's what's actually going to happen:
+
+The regulation pushes call volume onto domestic operations, where labor costs are 3-5x higher than offshore. The business math breaks fast. A US-based call center handling 10,000 calls/day needs $8-12M more per year in labor vs. the same Philippine operation.
+
+So what do cost-conscious executives do? They automate. Not slowly. Urgently.
+
+We're already seeing this pattern at Ender Turing. When labor arbitrage disappears, the calculation shifts from "should we try AI?" to "how fast can we go live?" The conversation changes entirely.
+
+The data backs it up. Voice AI VC funding went from $315M in 2022 to $2.1B in 2024. Nearly 7x. That curve steepens now.
+
+Huawei is claiming 20% better self-service resolution from AI agents. PolyAI has 2,000+ live deployments. Salesforce launched Agentforce Contact Center specifically unifying voice + digital + CRM natively.
+
+These companies didn't build this for a world where human agents are cheap.
+
+Unpopular opinion: The FCC just accidentally became the biggest catalyst for contact center AI adoption in the US in the last decade.
+
+The politicians wanted to protect jobs. The math protects margins. And in large enterprise, margins always win.
+
+This is exactly the environment Ender Turing was built for: https://enderturing.com

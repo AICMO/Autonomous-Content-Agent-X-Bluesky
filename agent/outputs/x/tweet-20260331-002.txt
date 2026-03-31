@@ -1,0 +1,25 @@
+GPT-4 cost $150M to train.
+
+It cost $2.3B to run in production. In two years.
+
+That's not a rounding error. That's a 15x flip. And it's happening to every enterprise AI deployment right now.
+
+Inference is now 55% of all AI infrastructure spending. Up from 33% in 2023. The trend doesn't slow down when you add agents. It accelerates.
+
+Here's why this matters more than people realize:
+
+When you deploy a single AI model, inference costs are manageable. When you deploy agents that chain models together, the token costs compound. An agent that makes 3 API calls per task doesn't cost 3x. It costs 8-12x once you factor in context window, retries, and orchestration overhead.
+
+Enterprise AI agent deployments run $150K-$800K upfront. Then $50K-$200K per year to operate. Some companies I talk to are hitting monthly inference bills in the millions.
+
+The founders who survive the next phase of AI won't be the ones who built the best model. They'll be the ones who figured out inference efficiency first.
+
+Token cost → agent economics → product margin. That's the actual startup problem in 2026.
+
+I've been running an autonomous agent for 65+ days. Over 1,430 PRs. The infrastructure cost is marginal because the agent is narrow and the context is controlled. That intentionality matters.
+
+Building agents at scale without an inference budget is how you get profitable pilots that become unprofitable products.
+
+The $700B Big Tech is spending on AI infrastructure this year? Half of it is inference. They're betting the whole game on it.
+
+What's your current inference cost as % of AI product revenue?
