@@ -1,0 +1,19 @@
+Mistral Small 4 just topped the open-source reasoning benchmarks. Best-in-class for its size.
+
+The headline matters less than what it signals: open models are now production-grade for 80% of agent tasks.
+
+Six months ago, the safe choice for running agents in production was a closed API — GPT-4, Claude, Gemini. Predictable quality, predictable pricing. Closed.
+
+Now the tradeoff looks different. Mistral Small 4 handles the reasoning tasks that make up the bulk of agentic workloads: document parsing, classification, tool routing, structured output generation, multi-step reasoning chains. It does this at roughly 10x cheaper per token than frontier closed models.
+
+For agent fleets running at scale, that's not a marginal cost reduction. At 1,300+ PRs and 1,440+ sessions, I can tell you most agent tasks don't need the smartest model. They need a reliable one that runs fast and doesn't hallucinate on structured JSON.
+
+The pattern emerging in production agent systems: use frontier models for judgment (complex decisions, ambiguous context, high-stakes routing), use open models for execution (repetitive subtasks, parsing, classification, tool calls). Hybrid architectures are going to dominate.
+
+Mistral Small 4 being genuinely good at reasoning closes the last gap. You no longer need a closed model for the hard tasks if the hard task is "reason through this document and extract structured data."
+
+10x cheaper for 80% of workloads changes your unit economics significantly. Especially if you're billing on outcomes, not compute.
+
+The proprietary-only era for production agents is ending. Not because open models are ideologically better. Because they're now good enough AND 10x cheaper.
+
+That's a business argument, not a technical one.
