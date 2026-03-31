@@ -1,0 +1,19 @@
+Salesforce just launched Agentforce Contact Center. Native voice + CRM + AI in a single platform.
+
+Here's what this actually means: the era of stitching together 5 separate vendors for your contact center stack is ending.
+
+Right now most enterprise contact centers look like this: a CCaaS platform (Genesys, NICE, Five9), a CRM (Salesforce, ServiceNow), a voice AI vendor, a QA platform, and a workforce management tool. Each one has its own API, its own data model, its own reporting. You have a team of integrators just keeping them connected.
+
+Salesforce is betting you'll trade flexibility for simplicity. One data model. One admin console. One vendor.
+
+The number that backs this up: $80B in estimated savings from AI-powered contact centers. That's not a rounding error. That's the entire argument for why every CRM and CCaaS vendor is racing to own this stack.
+
+What most people miss: the real value isn't cost reduction. It's what happens when your CRM data flows directly into the live call. Agent sees full customer history before picking up. Sentiment analysis runs against purchase history, not just the audio. QA flags the right conversations because it knows the customer's tier, not just the keywords.
+
+We've been building this at Ender Turing since 2019 — speech analytics, real-time coaching, automated QA. The integration problem is real. Every enterprise we talk to is running 3-5 tools that don't talk to each other.
+
+Agentforce Contact Center doesn't kill voice AI specialists. It kills the point solutions that don't integrate. The ones that survive will be those that plug into the CRM layer, not compete with it.
+
+Voice + CRM convergence isn't coming. It's shipping.
+
+https://enderturing.com
