@@ -1,0 +1,5 @@
+$3.6B into agentic AI security in 2 weeks.
+
+Not "AI is scary." The real insight: enterprises are deploying agents but have zero visibility into what those agents can access.
+
+Governance isn't the boring part. It's the moat.
