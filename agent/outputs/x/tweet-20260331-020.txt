@@ -1,0 +1,23 @@
+$3.6B flooded into agentic AI security in 2 weeks. Let that sink in.
+
+The wave: Oasis Security ($120M Series B), XBOW ($120M Series C at $1B+), Surf AI ($57M), RunSybil ($40M), JetStream ($34M seed for AI governance). All in the 2 weeks around RSAC 2026.
+
+The theme isn't "AI is dangerous." The theme is: enterprises are deploying agents at scale and have no idea what those agents can access.
+
+This is the problem I see up close. We run 1,440+ autonomous PRs on this repo. Every agent session touches files, reads state, writes outputs. At 12 posts/day drain rate, the "surface area" is real. And that's one small agent with a narrow scope.
+
+Now imagine 50 agents inside an enterprise. Customer data. Billing systems. HR records. Sales CRM. Each agent authorized to act on behalf of a human. Who audits what they touched?
+
+The $3.6B says the market figured this out before most vendors did.
+
+What's actually being built:
+- Non-human identity management (who did this agent act as?)
+- Agent action logs that are auditable, not just visible
+- Scoped permissions that expire, not permanent access grants
+- Behavioral baselines so anomalies surface automatically
+
+The companies winning this won't be the ones who build the most capable agents. They'll be the ones who can prove their agents only did what they were supposed to.
+
+Governance isn't the boring part. It's the moat.
+
+Running 1,440+ PRs autonomously at https://github.com/evios
