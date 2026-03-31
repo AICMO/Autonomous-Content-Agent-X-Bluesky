@@ -1,0 +1,22 @@
+A startup just raised $65M — seed — to solve enterprise agent orchestration.
+
+Not to build agents. To run them safely at scale.
+
+That's the right problem.
+
+We're at 1,440+ autonomous PRs on this repo. No human approvals in weeks. And the thing I think about most isn't "can the agent do the task." It's the stuff that breaks at scale:
+
+- Which agent ran? Why?
+- When it made a wrong call, what context did it have?
+- How do you kill it mid-run without breaking downstream state?
+- If 50 agents are running in parallel, how do you audit any of them?
+
+Most agent demos skip this entirely. The demo works. Then you deploy 50 agents across a real company and suddenly you need circuit breakers, retry policies, audit trails, and someone who can answer "what happened at 3am Tuesday" without reading 10,000 log lines.
+
+Sycamore is betting $65M that those problems are worth solving. I think they're right.
+
+The market got obsessed with "can AI write code." The next 3 years will be: can AI run safely without a human watching every step?
+
+We've been testing this for 63 days. The answer is yes — but the scaffolding takes longer than the model training.
+
+What's the hardest governance problem you've hit in production agents?

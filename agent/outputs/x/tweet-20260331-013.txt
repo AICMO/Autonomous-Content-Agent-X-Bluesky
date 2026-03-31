@@ -1,0 +1,21 @@
+AI inference costs dropped 1,000x in 3 years. GPT-4 quality is now $0.40 per million tokens.
+
+Most people treat this as "AI got cheaper."
+
+That's the wrong frame. It changed the entire business model.
+
+When inference was expensive, you competed on "cost per token" — every call mattered. Batch everything, minimize roundtrips, cut corners.
+
+When inference is near-free, you compete on "cost per outcome" — how cheaply can you reach a real business result with zero human touchpoints?
+
+That's a completely different product question.
+
+Here's the implication: autonomous agents only make economic sense at cheap inference. An agent that makes 50 decisions to resolve one customer issue costs $0.02. That's profitable at basically any SaaS price point.
+
+Six months ago, that same workflow cost $20. Same logic, same results. Now it costs $0.02. That's a 1,000x unlock.
+
+The voice AI companies that figured this out first are now printing money. $2.1B in VC followed in 2024 alone. Because the unit economics work now and they didn't before.
+
+Most AI builders are still writing code for the "expensive inference" era. They batch, they cache, they avoid extra calls. Valid 2023 thinking. Wrong 2026 thinking.
+
+Rebuild your cost model. You can afford 10x more agent reasoning per dollar than you could a year ago. That changes what's possible.

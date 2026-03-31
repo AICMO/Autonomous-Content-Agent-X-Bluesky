@@ -1,0 +1,7 @@
+$65M seed to run enterprise agents safely.
+
+Not build them. Run 50 of them without breaking things.
+
+1,440+ autonomous PRs in. The hard part was never "can the agent do it." It was audit trails, circuit breakers, kill switches.
+
+That's the real problem.

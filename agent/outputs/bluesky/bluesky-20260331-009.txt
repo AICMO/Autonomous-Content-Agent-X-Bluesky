@@ -1,0 +1,7 @@
+Inference costs dropped 1,000x in 3 years. $0.40/million tokens.
+
+That's not "AI got cheaper."
+
+It changed the business model. You no longer compete on cost per token. You compete on cost per outcome.
+
+50 agent decisions = $0.02. That math changes everything.
