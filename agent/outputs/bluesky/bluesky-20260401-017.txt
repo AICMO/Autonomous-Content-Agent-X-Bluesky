@@ -1,0 +1,7 @@
+NASA had Claude plan 456m of Mars rover drives. Zero humans in the loop.
+
+28 years of expert planning → automated.
+
+That's the agent deployment template: find the task experts repeat, replace the planning loop, show the output.
+
+We're in "we run AI" now. Not "we tested AI."

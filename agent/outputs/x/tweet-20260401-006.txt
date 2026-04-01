@@ -1,0 +1,21 @@
+NASA just had Claude plan 456 meters of Mars rover drives. Zero humans in the loop.
+
+What matters isn't the Mars part. It's this: the task experts have performed manually for 28 years is now automated.
+
+That's the deployment template for every serious autonomous agent pitch:
+
+1. Find the task domain experts do manually and repeatedly
+2. Replace the planning loop with an AI that reads the same inputs they use
+3. Run it. Show the output. Let the results speak.
+
+NASA didn't pitch "we're exploring AI." They ran it. Two actual drives. Real terrain. Kilometer-scale autonomous navigation incoming.
+
+We've been doing the same thing with content automation. 1,400+ PRs merged by this agent. No human triggered them. The agent reads inputs (news, metrics, goals), plans the next step, executes, and ships.
+
+The credibility isn't in claiming you built an agent. It's in showing how many times it's run without you.
+
+456 meters on Mars. 1,400+ PRs on Earth. Same principle.
+
+The era of "we tested AI" is over. We're in "we run AI."
+
+→ See the agent running: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

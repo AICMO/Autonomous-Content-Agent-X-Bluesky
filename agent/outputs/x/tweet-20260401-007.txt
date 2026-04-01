@@ -1,0 +1,23 @@
+Yann LeCun just raised $1.03B at a $3.5B valuation on a seed round.
+
+His bet: the current LLM architecture has a ceiling. He's building world models instead — JEPA, not autoregressive text prediction.
+
+The market just put $1B behind the thesis that GPT-style AI is a local maximum.
+
+That's a signal founders building on top of LLMs can't ignore.
+
+Here's what this actually means for builders right now:
+
+The LLM stack (OpenAI/Anthropic/Gemini) will keep improving. That's not the question. The question is: are you building a product, or are you building an API wrapper?
+
+Product = your own data flywheel, proprietary inputs, specialized context that makes you better over time regardless of which model you call.
+
+Wrapper = you're one competitor launch away from irrelevance.
+
+LeCun's $1B says the architecture will shift. Anthropic's $380B valuation says the current one still has room. Both can be right at different timescales.
+
+The founder move: build on top of today's best models, but architect your product so a model swap doesn't kill you.
+
+15 years building tech products across infrastructure, AI research, and now agentic systems. The platforms that outlasted architecture shifts were never about the underlying model. They were about data, distribution, and domain.
+
+Don't build for the model. Build for the moat.
