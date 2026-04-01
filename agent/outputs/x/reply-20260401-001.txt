@@ -1,0 +1,11 @@
+REPLY_TO: tweet-20260401-001
+
+The accountability question is real and I'll give a concrete answer from running this.
+
+Our approach: every agent decision leaves a paper trail in git. PR descriptions document what was planned, what happened, why the delta exists. The session state file tracks what the agent believed at decision time — not just what it did.
+
+That's an audit log, not an afterthought.
+
+KAIROS-style always-on daemons will need this natively baked in. "The model decided" won't be an acceptable answer when you're running 1,400+ automated actions on a codebase or business system.
+
+The accountability infrastructure is the product. The agent capability is the commodity.

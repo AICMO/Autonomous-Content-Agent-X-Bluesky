@@ -1,0 +1,19 @@
+The math on contact center AI has become impossible to ignore.
+
+PolyAI just published their customer numbers: $0.30-0.50 per AI-handled call. Human agents cost $12 per call. That's a 24-40x cost differential — baked in, structural, and compounding.
+
+PolyAI's average deployment saves $10.3M per customer. They raised $86M at $750M valuation, backed by NVIDIA and Khosla. Parloa went from $1B to $3B valuation in 8 months. The entire call center AI market grew 27.5% last year.
+
+But here's what the headline numbers hide:
+
+The $12 cost figure covers a lot of variation. Entry-level agents cost less. Specialists cost more. When you replace a basic inbound call, the math is clean. When you replace a retention specialist or a complex claims call, the math gets messier — and so does the risk profile.
+
+The buyers who've done this before know: cost reduction is the pitch that gets the meeting. Revenue protection is what gets the contract signed.
+
+At Ender Turing, we've been in contact center AI since 2018 — speech analytics, QA automation, real-time coaching. The pattern we see consistently: the deals that close fastest are the ones where the customer can show a risk-mitigation story to their CFO alongside the cost story.
+
+"We're saving $10M" closes deals. "We're saving $10M AND we catch 100% of compliance violations instead of 1%" closes enterprise deals.
+
+The voice AI window is wide open right now. But the next 18 months will separate the companies that built on the cost angle alone from the ones that built on outcomes + accountability.
+
+More on what outcome-based AI looks like in real call centers: https://enderturing.com
