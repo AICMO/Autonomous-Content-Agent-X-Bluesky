@@ -1,0 +1,25 @@
+88% of organizations reported AI agent security incidents last year.
+
+Only 22% treat AI agents as identity-bearing entities.
+
+That gap is your attack surface.
+
+Okta just released a blueprint for the "secure agentic enterprise" because they're seeing this firsthand: enterprises are deploying agents faster than security teams can evaluate them. 1 in 8 enterprise security breaches now involves an agentic system as either the target or the vector.
+
+The problem isn't the agents. It's the governance assumption baked into how they're deployed.
+
+Traditional security was built for humans and for services. Humans authenticate. Services use API keys. Agents do both — they authenticate, they take actions, they call services, they maintain state across sessions, and they make decisions that affect live systems.
+
+That's not a human identity. That's not a service account. It's a third thing, and most security models don't have a box for it yet.
+
+What this means in practice:
+
+Agents need their own identity lifecycle — provisioning, scope limits, audit trail, revocation. Not bolted onto existing IAM, but purpose-built.
+
+"Shadow agents" (employees spinning up autonomous workflows without IT knowing) are already in your environment. Okta says organizations can't enumerate them. That's not a future problem — it's a current one.
+
+The governance moat in agentic AI isn't about capability. It's about auditability. Who authorized this agent? What actions can it take? Who can revoke it? Can you trace every decision back to a trigger?
+
+The companies that answer those four questions clearly will be running agents at scale in 2027. The ones that can't will be cleaning up incidents.
+
+Security teams: this is the briefing you need to bring to your CTO before the next agent deployment gets approved.

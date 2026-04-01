@@ -1,0 +1,7 @@
+88% of orgs had AI agent security incidents. Only 22% treat agents as identity-bearing entities.
+
+That gap is your attack surface.
+
+Agents aren't humans. Aren't services. They need their own identity lifecycle.
+
+The governance moat in agentic AI is auditability, not capability.

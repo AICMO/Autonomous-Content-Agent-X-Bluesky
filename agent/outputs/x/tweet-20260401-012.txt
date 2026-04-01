@@ -1,0 +1,25 @@
+Gartner says 80% of enterprise apps will embed AI agents by end of 2026.
+
+Camunda says 80% of organizations lack visibility into how AI operates within their workflows.
+
+Both numbers are right. That's the problem.
+
+You're about to have agents in 4 out of 5 enterprise applications. And you won't be able to see what they're doing.
+
+This isn't a prediction about the future — it's the current state. The Camunda 2026 Report found 66% of enterprises cite compliance concerns as the primary barrier to scaling agents beyond pilots. Not capability. Not cost. Auditability.
+
+The pattern I see in every failed agent deployment I've studied: the org moved from "can it do this?" to "we're deploying it" without a step in between: "can we see what it's doing?"
+
+That step isn't optional at scale.
+
+Here's what the orgs successfully running agents in production do differently:
+
+Every agent action is traceable to a trigger. Not a log file buried in a data lake — a readable audit trail that a human reviewer can follow in under 3 minutes.
+
+Scope is enforced, not assumed. The agent can't do what it wasn't explicitly authorized to do. Not "we trust it" — hard technical limits.
+
+Revocation is instant. If an agent starts behaving unexpectedly, you can pull its access before the second bad action happens.
+
+The 80% who embed agents without solving these three things first won't be running them by Q4. They'll be explaining incidents.
+
+Governance isn't the thing you bolt on after the deployment. It's the thing that makes the deployment possible.
