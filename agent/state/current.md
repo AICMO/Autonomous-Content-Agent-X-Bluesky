@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-01T06:00:00Z
-Session: S353
-PR Count Today: 3/15
+Last Updated: 2026-04-01T07:30:00Z
+Session: S354
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,31 +12,32 @@ PR Count Today: 3/15
 | BS Posted Total | 257+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 65) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-01 S353)
+## Queue Status (VERIFIED 2026-04-01 S354)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 7 | <15 | OPEN. Added 2 posts (NASA Mars rover agent P1, LeCun $1B anti-LLM P3+P4). |
-| Bluesky | 9 | <15 | OPEN (1 below throttle). Added 1 BS post (NASA rover compressed). |
+| X | 9 | <15 | OPEN (added Oracle governance + PolyAI voice AI + reply-to-own). |
+| Bluesky | 9 | <15 | HELD (at throttle limit — skip BS until drains to ≤8). |
 
 ## Planned Steps
-1. **NEXT**: BS queue at 9 — at throttle limit next session. If BS >= 10, skip BS. Check X queue; if X <= 6 create 1-2 new X posts. BIP Day 70 post if date is 2026-04-06.
-2. **THEN**: Week 12 retro on 2026-04-05 — Premium hypothesis final verdict (need 37+ followers; currently at 33, need +4). See pre-retro-2026-04-05.md.
-3. **AFTER**: New research batch — Pentagon AI feud / Anthropic #1 App Store angle, autonomous agent governance stories.
+1. **NEXT**: X=9, BS=9. Both in look-ahead zone. Max 1 X post next session. Skip BS. Use Nscale $2B or K-shaped VC angle if creating 1 post.
+2. **THEN**: Week 12 retro on 2026-04-05 — Premium hypothesis final verdict (need 37+ followers; currently 33, need +4). See pre-retro-2026-04-05.md.
+3. **AFTER**: BIP Day 70 post (2026-04-06) — agent milestone + follower progress update.
 
-## Completed This Session (S353)
-- Researched fresh AI stories (NASA Mars rover, LeCun $1B AMI Labs)
-- Created tweet-20260401-006 (NASA 456m Mars drives, 28yr expert work → AI, agent deployment template P1 + repo link)
-- Created tweet-20260401-007 (LeCun $1B anti-LLM bet; founder: build for moat not model P3+P4)
-- Created bluesky-20260401-017 (NASA Mars compressed, 265 chars)
-- Created ai-news-2026-04-01b.md research file
+## Completed This Session (S354)
+- Researched fresh AI stories: Oracle 22 prod agents, PolyAI $0.30-0.50/call vs $12, Nscale $2B, K-shaped VC
+- Created tweet-20260401-008 (Oracle 22 prod agents, governance-first angle P1 + repo link)
+- Created tweet-20260401-009 (PolyAI voice AI unit economics, cost+accountability angle P2+ET + Ender Turing)
+- Created reply-20260401-001 (reply-to-own: tweet-001 KAIROS, accountability infrastructure angle)
+- Saved research batch C (ai-news-2026-04-01c.md)
+- Updated ai-news-2026-04-01.md story 3 status to STAGED
 
-## Metrics Delta (S353)
+## Metrics Delta (S354)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 5 | 7 | +2 | NASA rover + LeCun anti-LLM |
-| Bluesky Queue | 8 | 9 | +1 | NASA rover compressed |
-| Followers | 33 | 33 | 0 | No new data this session |
-| PR Count | 2/15 | 3/15 | +1 | S353 PR |
+| X Queue | 7 | 9 | +2 | Oracle governance + PolyAI voice AI |
+| Bluesky Queue | 9 | 9 | 0 | Skipped (at throttle) |
+| Followers | 33 | 33 | 0 | No new data |
+| PR Count | 3/15 | 4/15 | +1 | S354 PR |
 
 ## Active Hypotheses
 - Premium escapes suppression → **TESTING** (Week 12 final check: need 37+ by 2026-04-05, currently 33, need +4)
@@ -49,17 +50,18 @@ PR Count Today: 3/15
 3. **Owner analytics**: No analytics data submitted for weekly retro.
 
 ## Session Retrospective
-### What was planned vs what happened? (S353)
-- Planned: Research new stories, create content if queues allow.
-- Actual: X=5→7, BS=8→9. Created NASA Mars rover post (P1 + repo link) + LeCun $1B anti-LLM post (P3+P4). BS post for NASA.
-- Delta: On plan. Stayed within queue rules (X < 11, BS < 10).
+### What was planned vs what happened? (S354)
+- Planned: X=7 (open), BS=9 (near throttle). Create 2 X posts, skip BS.
+- Actual: Created 2 X posts + 1 reply-to-own. X=7→9. BS=9 (held). Researched fresh batch C stories.
+- Delta: On plan. Stayed within queue rules.
 
 ### What worked?
-- NASA story: Strong deployment template angle — 28-year human expert task → automated. Direct credibility transfer for agent pitch.
-- LeCun post: Contrarian "build for moat not model" framing — actionable for AI founders.
+- Oracle governance angle: enterprise accountability story differentiates from generic "AI can do X" posts
+- PolyAI unit economics: $12 vs $0.30 is a hard, memorable number — good hook
+- Reply-to-own on KAIROS post: adds depth to accountability thread, expected 150x boost
 
 ### What to improve?
-- BS queue at 9 — at throttle limit. Next session must skip BS unless BS drains.
+- X at 9 — next session look-ahead zone. Max 1 post or 0. Plan ahead.
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -67,6 +69,7 @@ PR Count Today: 3/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-01 S354): X=7→9, BS=9 (held). tweet-008 (Oracle 22 prod agents/governance-first P1), tweet-009 (PolyAI $0.30-0.50/call vs $12/accountability angle P2+ET), reply-001 (KAIROS accountability). Research batch C.
 - (2026-04-01 S353): X=5→7, BS=8→9. tweet-006 (NASA 456m Mars rover/agent deploy template P1+repo), tweet-007 (LeCun $1B anti-LLM/build-for-moat P3+P4), bluesky-017. New research batch B2.
 - (2026-04-01 S352): X=2→5, BS=6→8. tweet-003 (Voice AI $80B+ET), tweet-004 (Microsoft 100 agents/founder lesson), tweet-005 (OpenAI hiring 8K irony), bluesky-015/016. All 8 research stories staged.
 - (2026-04-01 S351): X=0 (drained from 13)→2, BS=4→6. tweet-001 (KAIROS leak/daemon P1), tweet-002 (Gartner 40%/governance P1+P3), bluesky-013/014. +1 follower (33).
@@ -80,6 +83,4 @@ PR Count Today: 3/15
 - (2026-03-31 S343): X=12+1r, BS=8. Both blocked. Tier 1: wrote pre-retro-2026-04-05.md (Week 12 velocity, premium hypothesis, predictions, retro focus areas).
 - (2026-03-31 S342): X=12+1r (no change), BS=7→8. bluesky-007 BS-only (Anthropic 1-in-5 businesses/AI infra spend P4). Updated premium hypothesis Day 64.
 - (2026-03-31 S341): X=11→12+1r, BS=6→7. tweet-011 (Meta $57B AI ads/63% YoY/governance moat P2+P1), bluesky-006 (Parloa $350M/voice AI 8x funding BS-only P3).
-- (2026-03-31 S340): X=8→10+1r, BS=5→6. tweet-009 (AgentOps/DevOps MLOps analogy), tweet-010 (NVIDIA Agent Toolkit/$41.8B market), bluesky-005, reply-001 (reply-to-own MCP).
-- (2026-03-31 S339): X=6→8, BS=4→5. tweet-007 (72% enterprise agents in prod), tweet-008 (Gumloop $50M/zombie agents prediction).
 - (earlier sessions condensed, see git history)
