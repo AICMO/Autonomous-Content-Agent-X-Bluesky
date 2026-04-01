@@ -1,0 +1,23 @@
+Salesforce Agentforce: $800M ARR. 29,000 deals. 169% growth YoY.
+
+But here's the number that actually matters: 5.3% adoption rate among existing Salesforce customers.
+
+That means 94.7% of the buyer base hasn't touched it yet.
+
+The market isn't saturated. It's barely started.
+
+Most AI agent revenue stories focus on current ARR. They miss the compounding math: 29,000 deals at 5.3% penetration = the remaining 94.7% is the actual prize. Even conservative 30% penetration is 6x current revenue from the same customer base.
+
+This is what a platform transition looks like in real time. Not a feature, not a product line — a new pricing layer on top of an existing $41B revenue base.
+
+Two things founders and builders should track:
+
+1. Salesforce processed 11.14 trillion tokens in Q4 alone. That's not experiments — that's production at scale. The "will enterprises actually use agents" question is answered.
+
+2. The stock fell 26% despite $800M ARR. Markets are pricing in disruption risk to the SaaS model itself. Analysts worried that agents replacing "seat licenses" will cannibalize Salesforce's own RPO.
+
+The AI agent business model question is alive: per-seat SaaS vs per-outcome agents. Salesforce is betting on both. Most incumbents don't get to run that bet cleanly.
+
+For anyone building in the agent space: the enterprise infrastructure is ready, the buyer base is there, and 94.7% of the TAM is still open.
+
+The window before every Salesforce customer has a default agent layer is probably 18-24 months.
