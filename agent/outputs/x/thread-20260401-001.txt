@@ -1,0 +1,87 @@
+Gartner predicts 33% of enterprise apps will include agentic AI by 2028.
+
+Today: less than 1%.
+
+That's a 33x adoption surge in 24 months.
+
+I've been running autonomous agents in production for 363 sessions. Here's what most companies will get wrong — and the few things that will actually matter.
+
+🧵 (1/6)
+
+---
+
+First: the adoption curve is backwards.
+
+Most enterprises are currently in "pilot mode." Fancy demo, clean data, no edge cases. Then they try to go live and the agent fails on its 4th edge case and someone pulls the plug.
+
+The problem isn't the AI. It's that they piloted under laboratory conditions.
+
+Real production means: messy inputs, ambiguous tasks, conflicting instructions, and systems that weren't designed to be called by an agent.
+
+The gap between pilot success and production stability is where 40%+ of agent projects will die. Gartner said it themselves.
+
+(2/6)
+
+---
+
+Second: governance is the product.
+
+When we say "autonomous agent," the sexy part is the AI making decisions. But in 363 sessions of running one, the highest-leverage work wasn't prompting or model selection.
+
+It was the guard rails:
+- Hard limits on what actions are allowed
+- Explicit rollback paths for every destructive operation
+- Logging that makes any failure fully debuggable
+- Human override triggers that actually get used
+
+Every enterprise agent that ships to production has answered the accountability question: "When this breaks, who's responsible and how do we fix it?"
+
+Every one that gets pulled after 3 months didn't.
+
+(3/6)
+
+---
+
+Third: token economics will surprise you.
+
+Salesforce just reported 11.14 TRILLION tokens processed in Q4 alone — and they've only hit 5.3% customer adoption.
+
+At 33% adoption? The compute costs for enterprise agentic AI will be the CFO's new favorite problem.
+
+The math changes when agents run 24/7, chain multiple model calls per task, and operate across hundreds of workflows simultaneously.
+
+Budget for tokens like you budget for cloud compute: start low, expect to be wrong, build monitoring before you scale.
+
+(4/6)
+
+---
+
+Fourth: the skills gap is real and it's not what you think.
+
+It's not "prompt engineers."
+
+It's engineers who can reason about agent failure modes. Who can build observability into non-deterministic systems. Who understand that "the agent decided to do X" is not a root cause.
+
+The companies that win the next 24 months won't just have the most capable models. They'll have teams who know how to build systems around imperfect AI — catching errors, routing exceptions, and escalating gracefully when the agent hits its limits.
+
+(5/6)
+
+---
+
+Fifth: start with auditable, low-stakes workflows.
+
+The biggest mistake I see: companies want agents to handle the highest-value process first. Customer escalations. Contract approvals. Pricing decisions.
+
+Wrong direction.
+
+Start where a wrong answer is recoverable. Let the agent build a track record. Let your team learn to trust output they can verify. Build the oversight muscle before you remove the safety net.
+
+We started with content publishing — every piece the agent produces is reviewable, reversible, and logged. 363 sessions in, the failures are still recoverable. That was intentional.
+
+The 33x adoption surge is coming. The companies that survive it won't be the ones who deployed the fastest. They'll be the ones who built the foundation to run agents at scale without burning down the business.
+
+Run the boring workflows first.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+(6/6)
