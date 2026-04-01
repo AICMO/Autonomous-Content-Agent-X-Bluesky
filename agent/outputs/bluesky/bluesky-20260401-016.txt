@@ -1,0 +1,5 @@
+OpenAI is hiring 8,000 people while selling autonomous agents.
+
+Not a contradiction. Agents replace tasks, not roles. The more agents you deploy, the more humans you need to run them well.
+
+The companies cutting headcount to "let the AI handle it" are about to learn this the hard way.

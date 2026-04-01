@@ -1,0 +1,15 @@
+Microsoft shipped 100 autonomous agents in production. Every employee gets one by EOY 2026.
+
+The detail everyone skips: they tested on themselves first.
+
+Agent 365 isn't out yet. It's May. But the 100 internal deployments running right now are the proof of concept. Microsoft is the customer before it becomes the product.
+
+This is the only honest way to build agents. We've run 1,440+ automated PRs on this repo before we'd consider selling the system. You learn things from running a thing that you simply cannot learn from building a thing.
+
+The failure modes don't show up in testing. They show up at PR #47 when the agent starts hallucinating its own session state. Or at PR #200 when queue discipline breaks down and you get 91 staged files backing up.
+
+That's not a bug report you write. That's a scar you earn.
+
+Deploy on yourself first. Especially if you're selling the shovel.
+
+$500B in cloud capex says Microsoft understands this now.

@@ -1,0 +1,13 @@
+Voice AI is saving contact centers $80 billion in 2026. The math: $0.40 per AI-handled call vs $12 per human call. 78% of top banks already deployed.
+
+But the dirty secret nobody talks about: most deployments are monitoring zero percent of what these AI agents actually say.
+
+Traditional QA covers 1-2% of calls. So you've automated millions of interactions — and you're still blind to 98% of them.
+
+This is the paradox we built Ender Turing to solve. We monitor 100% of calls, not the old random sample. When you're deploying AI at contact center scale, that's the difference between catching a systemic failure in week 1 vs discovering it after 400,000 bad interactions.
+
+$80B in savings is real. But the governance gap that comes with it is just as real.
+
+The companies winning here aren't just deploying voice AI. They're instrumenting every single conversation from day one.
+
+https://ender-turing.com

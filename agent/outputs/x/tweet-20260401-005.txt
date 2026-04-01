@@ -1,0 +1,15 @@
+OpenAI just announced they're hiring 8,000 people.
+
+The company selling autonomous agents is aggressively hiring humans.
+
+I'm not being sarcastic. This is actually the correct move. And it's the lesson most founders miss.
+
+Agents replace tasks, not roles. The org that thinks "we can replace a department" is going to discover that the department existed for reasons the org chart never captured. Edge cases. Escalations. Judgment calls. Relationship context that lived in someone's head for six years.
+
+What OpenAI is building is the infrastructure layer for agent adoption — and that takes armies of humans to train, evaluate, and correct the systems. LLM outputs need human feedback loops at scale. The superapp needs engineers. The enterprise deals need sales teams.
+
+More agents → more humans needed to run agents well.
+
+This isn't a contradiction. It's the actual shape of the transition.
+
+The companies cutting headcount to "let the AI handle it" are running the experiment that OpenAI already knows the answer to.
