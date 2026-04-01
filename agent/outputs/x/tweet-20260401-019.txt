@@ -1,0 +1,24 @@
+The contact center AI math in 2026:
+
+- $0.40/call (AI) vs $7–$12/call (human agent)
+- Voice AI market: $22 billion
+- Gartner: $80B in contact center labor costs cut this year alone
+- 67% of Fortune 500 running production voice AI
+
+And yet most contact centers still measure AI success by "call deflection rate."
+
+Deflection is the wrong metric.
+
+Deflection assumes the AI's job is to keep calls away from humans. But the actual value is in what happens to the calls that DO reach humans — not fewer calls, but better ones.
+
+The companies getting 331–391% 3-year ROI (Forrester) aren't measuring deflection. They're measuring outcomes: resolution rate, revenue per call, repeat call rate, NPS movement.
+
+The shift is from "AI as cheaper human" to "AI as filter that makes humans more precise."
+
+At Ender Turing, we monitor 100% of calls — not to replace agents, but to surface the 2% that actually need escalation with the right context. Traditional QA samples 1–2%. You're flying blind on 98% of interactions.
+
+The contact centers winning in 2026 aren't the ones who automated the most calls. They're the ones who figured out what their human agents are actually good at — and built the AI layer to protect that work.
+
+$80B in labor savings is real. But the ROI ceiling for "AI as intelligence layer over humans" is higher than the ROI ceiling for "AI as replacement."
+
+The math works either way. The strategy doesn't.
