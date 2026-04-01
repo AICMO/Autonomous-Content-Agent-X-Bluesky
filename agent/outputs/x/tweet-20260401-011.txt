@@ -1,0 +1,17 @@
+Nscale just raised $2B — the largest European tech round ever. $14.6B valuation. NVIDIA, Citadel, Dell, Jane Street backing it. OpenAI as the anchor customer. Sheryl Sandberg and Nick Clegg joining the board.
+
+This isn't a startup raise. It's a sovereign infrastructure bet.
+
+Here's what founders building on rented compute need to understand:
+
+When a single infrastructure provider raises at $14.6B with a nation-state data center in the Arctic Circle, the game has changed. The hyperscalers aren't the only players anymore — there's a second tier of purpose-built AI infrastructure emerging at scale. And OpenAI anchoring it isn't coincidental. It's a hedge against AWS/Azure dependency.
+
+For founders: the question isn't "which cloud provider?" anymore. It's "what happens to my cost structure and my data sovereignty when my infrastructure partner raises at these valuations?"
+
+The companies quietly winning on AI infrastructure right now share one trait: they're not dependent on any single compute provider. Multi-cloud, hybrid, or edge-routed. Not because of operational complexity — because of business risk management.
+
+$2B into a single GPU infrastructure company means the compute wars are entering a new phase. Commodity GPU access is getting easier. But differentiated AI infrastructure — with sovereignty controls, compliance guarantees, proximity to regulated data — that's where the margin lives.
+
+Founders building AI products: your model-portability story isn't optional anymore. It's a Series B diligence question.
+
+What compute stack you're locked into will determine your negotiating position in 12 months.
