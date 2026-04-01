@@ -1,0 +1,25 @@
+AI VC is K-shaped now.
+
+Median round > $100M — 3x the pre-2024 median. AI is 41% of all venture on Carta. $203B raised in 2025, up 75% YoY.
+
+The top gets more capital. The middle gets crushed.
+
+Here's the real story: OpenAI spent $5B on compute in 2025 while made $4.9B in revenue. They can survive negative compute margins. Your startup cannot.
+
+The compression is brutal for founders:
+
+1. Pre-revenue wrappers that raised on "GPT-4 with a UI" are getting 3x liquidation prefs now — or nothing. Investor patience for "pilots converting" is gone.
+
+2. Gross margins matter again. Infrastructure-heavy AI apps often run negative gross margins. At Series A that's a warning sign. At Series B it's a term sheet killer.
+
+3. Governance has become a real investment criterion. How do you control what your agents do at scale? Not a philosophy question. An enterprise sales question. 80% of organizations lack visibility into how their AI operates (Camunda 2026). That's the gap enterprise buyers pay to close.
+
+4. 25-30x revenue multiples are real at the top — for companies with actual ARR and actual contract values. Not MRR from free-tier conversion theater.
+
+I've run an autonomous agent in production for 5 months. 1,440+ PRs. The architecture decisions I made early kept compute near zero. The founders who survive this K-shaped compression made similar tradeoffs: constrain scope, instrument everything, optimize for margin not demo performance.
+
+The next 18 months separate AI companies from "AI" companies.
+
+Build for gross margin from day 1. Not after Series B pressure.
+
+Data: Carta 2025, Camunda 2026, OpenAI financials
