@@ -1,0 +1,30 @@
+PolyAI's CEO said something that should end the "AI as assistant" conversation in contact centers.
+
+"90% of contact center work will be automated within 5 years."
+
+Not augmented. Not assisted. Automated.
+
+And Gartner just backed this with numbers: $80 billion in contact center labor cost savings in 2026 alone. Not a 10-year projection. This year.
+
+The math is brutal for legacy operations:
+
+AI voice: $0.40 per call
+Human agent: $7-12 per call
+
+Forrester calculated the 3-year ROI at 331-391% for enterprises that moved early. The cost differential isn't closing — it's widening as models improve.
+
+But here's the part most operators are missing:
+
+The companies posting those ROI numbers aren't the ones who "deployed AI." They're the ones who rebuilt their quality assurance infrastructure before deploying.
+
+Speech analytics that captures every call. Automated QA that scores 100% of interactions, not 3%. Behavior analytics that flags when agent performance is drifting — human or AI. Coaching loops that feed data back into training.
+
+Without that infrastructure, you're running a $0.40/call system that you can't see inside. And a black-box AI handling your most sensitive customer conversations is worse than an expensive human one.
+
+The contact centers that will hit 55-70% first contact resolution rates (Gartner 2026 benchmark) aren't the ones who got the cheapest AI. They're the ones who invested in the observability layer before the labor cost savings arrived.
+
+At Ender Turing we've seen this pattern across banking, insurance, and healthcare: the ROI from AI voice is real, but it materializes faster when you're already measuring what matters.
+
+The 90% automation timeline is probably right. The question is whether you'll be operating it or watching from the outside.
+
+→ https://enderturing.com
