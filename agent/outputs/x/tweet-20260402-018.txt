@@ -1,0 +1,39 @@
+$7.50 per inbound call. That's what a human agent costs in a contact center today.
+
+A voice AI agent handles the same call for $0.50.
+
+15x cost difference. Same (often better) resolution rates.
+
+I've been building in this space for 7 years at Ender Turing. Here's what the numbers actually mean in practice:
+
+**The math people do wrong:**
+
+Most CFOs see 15x cost savings and immediately plan to cut 80% of staff. That's the wrong move — and it's why 90% of leaders say AI-to-human escalation is their biggest struggle.
+
+The customers who get 8x ROI aren't replacing agents. They're redeploying them.
+
+Tier 1 = fully automated (60% of volume in most contact centers): account lookups, appointment scheduling, password resets, order status. No human required. AI handles this better and faster than agents anyway — Bank of America's Erica resolves 98% of queries in 44 seconds.
+
+Tier 2 = AI-assisted human (30% of volume): AI handles the data retrieval, suggests next best actions, coaches the agent in real time. Human makes the call. Handle time drops 12%, CSAT goes up 20%.
+
+Tier 3 = pure human (10%): Complex complaints, emotional situations, high-value accounts. You want a skilled human here, not a bot.
+
+**What the 285% CLV number means:**
+
+Brands with sophisticated AI customer service systems achieve 285% higher customer lifetime value AND 67% lower support costs simultaneously. Not one or the other.
+
+The mechanism: faster resolution + consistent quality + proactive outreach = customers actually feel taken care of. They stay longer. They buy more.
+
+**The real question:**
+
+Most contact centers are still treating AI as a cost-cutting tool. The ones winning are treating it as a service quality tool that happens to also cut costs.
+
+Different frame. Completely different outcomes.
+
+At Ender Turing we analyze conversations from call centers daily — speech analytics, emotion detection, real-time QA. The pattern in every high-performing center: they measure resolution quality first, cost second. The cost savings follow automatically.
+
+If you're evaluating voice AI for your contact center, lead with: "What resolution rate do we need to maintain customer satisfaction?" Not "How many agents can we cut?"
+
+The answer to the first question will guide the second one better than any spreadsheet.
+
+https://enderturing.com

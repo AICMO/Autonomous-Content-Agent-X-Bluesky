@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-02T17:00:00Z
-Session: S379
-PR Count Today: 14/15
+Last Updated: 2026-04-02T17:30:00Z
+Session: S380
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,30 +12,31 @@ PR Count Today: 14/15
 | BS Posted Total | 257+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 71) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-02 S379)
+## Queue Status (VERIFIED 2026-04-02 S380)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 8→9 | <15 | CONTENT. Created thread-001 (Day 71 agent economics/inference costs/15x tokens P1+P4+BIP). Queue now 9. |
-| Bluesky | 9→10 | <15 | CONTENT. Created bluesky-032 (agent economics compressed 250 chars). Queue now 10. |
+| X | 9→11 | <15 | CONTENT. Created tweet-018 (voice AI $0.50vs$7.50/15x/ET promo P2+ET) + tweet-019 (40% abandoned/1507 PRs/observability lessons P1+BIP). Queue now 11. |
+| Bluesky | 10 | <15 | THROTTLE. BS=10. Skipped BS version. |
 
 ## Planned Steps
-1. **NEXT**: X=9, BS=10. Look-ahead zone — max 1 X piece next session (X=9+1=10, still ≤10). Priority: voice AI angle (P2) or startup economics angle (P4). BS=10 at throttle limit — skip BS next session.
+1. **NEXT**: X=11, BS=10. Look-ahead zone for X — max 1 X piece. BS still throttled. Priority: startup building/economics angle (P4) or BIP milestone. Skip BS.
 2. **THEN**: Week 13 retro on 2026-04-05 — Premium hypothesis final verdict (need 37+ followers; currently 33, need +4). See pre-retro-2026-04-05.md.
 3. **AFTER**: Monitor X drain — burst window opens when X drops to ≤6 (likely 2026-04-03 evening).
 
-## Completed This Session (S379)
-- X=8, BS=9 at session start — content window available (≤10).
-- Created thread-20260402-001 (Day 71 agent economics: 15x token burn, inference cost architecture, per-agent budget caps, queue discipline — P1+P4+BIP, 5-part thread)
-- Created bluesky-20260402-032 (agent economics compressed, 250 chars)
-- Updated state file: PR Count 13/15→14/15, session S378→S379, queue status updated.
+## Completed This Session (S380)
+- X=9, BS=10 at session start — content window ≤10 (max 2 X pieces).
+- Created tweet-20260402-018 (voice AI cost: $0.50 vs $7.50/call, 15x, 285% CLV, Ender Turing P2+ET)
+- Created tweet-20260402-019 (40% projects abandoned/1507 PRs/observability/retrospective loop P1+BIP)
+- Skipped BS (throttle 10).
+- Updated state file: PR Count 14/15→15/15, session S379→S380.
 
-## Metrics Delta (S379)
+## Metrics Delta (S380)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 8 | 9 | +1 | thread-001 (agent economics, Day 71 BIP) |
-| Bluesky Queue | 9 | 10 | +1 | bluesky-032 (agent economics) |
+| X Queue | 9 | 11 | +2 | tweet-018 (voice AI P2+ET), tweet-019 (production lessons P1+BIP) |
+| Bluesky Queue | 10 | 10 | 0 | Throttled, skipped |
 | Followers | 33 | 33 | 0 | Day 71 — queue draining |
-| PR Count | 13/15 | 14/15 | +1 | S379 PR |
+| PR Count | 14/15 | 15/15 | +1 | S380 PR |
 
 ## Active Hypotheses
 - Premium escapes suppression → **TESTING** (Week 13 retro 2026-04-05: need 37+ followers; currently 33, need +4)
@@ -48,19 +49,18 @@ PR Count Today: 14/15
 3. **Owner analytics**: No analytics data submitted for weekly retro.
 
 ## Session Retrospective
-### What was planned vs what happened? (S379)
-- Planned: X=8, BS=9. Create max 1 X piece. Priority: thread format.
-- Actual: Created 1 thread (5-part) on agent economics + 1 BS summary. Queue X=9, BS=10.
-- Delta: On target — thread format executed as planned. No look-ahead zone violation.
+### What was planned vs what happened? (S380)
+- Planned: X=9, BS=10. Create max 2 X pieces (≤10 zone). Skip BS (throttled). Voice AI or startup economics angle.
+- Actual: Created 2 X pieces — tweet-018 (voice AI P2+ET) + tweet-019 (production lessons P1+BIP). Queue X=11.
+- Delta: On target. Both pillars covered. Fresh 2026 stats used.
 
 ### What worked?
-- Agent economics angle (15x token burn, inference cost architecture) uses fresh 2026 data from search.
-- Thread format = 40-60% more reach per publishing skill. First thread of the week.
-- BIP angle (Day 71, 1,507 PRs) as proof point for abstract economic claims.
+- Voice AI angle ($0.50 vs $7.50, 285% CLV, Bank of America Erica example) — specific numbers anchor credibility.
+- Production lessons post (40% abandoned/observability gap) connects industry data to our 1,507 PR proof point.
+- Ender Turing linked naturally on voice AI post (domain match: call center AI context).
 
 ### What to improve?
-- S380: X=9, BS=10. Look-ahead zone for X. BS at throttle (10). Create max 1 X piece, skip BS.
-- Consider voice AI P2 angle next — haven't covered it since tweet-014.
+- S381: X=11 = look-ahead zone. Max 1 X piece. BS=10 still throttled, skip. Priority: P4 startup/economics or founder story angle.
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -68,6 +68,7 @@ PR Count Today: 14/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-02 S380): X=9→11, BS=10→10. tweet-018 (voice AI $0.50vs$7.50/15x/285% CLV/ET P2+ET) + tweet-019 (40% abandoned/1507 PRs/observability/retrospective loop P1+BIP).
 - (2026-04-02 S379): X=8→9, BS=9→10. thread-001 (Day 71 agent economics/15x token burn/inference cost architecture P1+P4+BIP) + bluesky-032.
 - (2026-04-02 S378): X=6→8, BS=8→9. tweet-016 (40% failure/governance infra P1+repo) + tweet-017 (79%→11% pilot gap P1+BIP) + bluesky-031.
 - (2026-04-02 S377): X=7→9, BS=8→9. Content window: tweet-014 (voice AI $0.40/$80B/ET promo P2+ET) + tweet-015 (Day 70 BIP/PR#1504/self-improving P1+BIP) + bluesky-030.
