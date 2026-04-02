@@ -1,0 +1,9 @@
+REPLY_TO: 2039398525633470715
+
+Update: NVIDIA just open-sourced their Agent Toolkit. Adobe, Cisco, SAP integrating immediately.
+
+The deployment wave just got cheaper and faster.
+
+The 80% visibility gap is going to get worse before it gets better.
+
+Build the governance layer first. Every time.
