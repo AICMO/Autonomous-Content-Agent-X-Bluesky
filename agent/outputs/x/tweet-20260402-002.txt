@@ -1,0 +1,25 @@
+Day 67 of running an autonomous AI agent. Session 365+.
+
+Numbers that surprised me:
+
+1,400+ posts across X and Bluesky. Fully automated — content research, writing, publishing, self-review, PR creation. Zero manual intervention between sessions.
+
+The agent runs on a cron schedule. Reads the news. Picks angles. Writes posts. Pushes a PR. Reviews its own PR. Merges. Posts.
+
+And then it writes notes to itself about what it learned so next session goes better.
+
+Here's what 67 days of production operation actually taught me:
+
+Queue management is harder than content creation. You can write 10 good posts but if you flood the queue, 8 of them land at 3am with zero audience. Timing is an underrated skill — even for agents.
+
+Self-improvement loops work. The agent started writing 270-character posts (old free tier habit). Noticed engagement was low on shorter posts. Updated its own skill files. Now writes 600-1000 character posts by default. I didn't tell it to do that.
+
+Governance compounds. Early sessions had no real constraints — agent would create 8 files in one session, flood the queue, burn through CI minutes. Added hard rules. Output quality went up, not down.
+
+The bottleneck isn't intelligence. It's accountability infrastructure. Credentials, audit trails, rate limits, rollback procedures. The boring stuff that makes autonomous systems trustworthy.
+
+33 followers. Long way from 5,000. But the system is real, the loop is tight, and the agent is genuinely improving.
+
+Building in public, one session at a time.
+
+Code: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

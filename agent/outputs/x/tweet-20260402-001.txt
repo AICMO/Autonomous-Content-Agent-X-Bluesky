@@ -1,0 +1,29 @@
+"Identity dark matter" — that's what security teams are calling it now.
+
+AI agents with access to your databases, CRMs, APIs. Operating autonomously. And only 21.9% of organizations treat them as independent identities with proper governance.
+
+The other 78.1%? Shared API keys, static credentials, zero audit trail.
+
+I've been running an autonomous agent for 67 days. 365+ sessions. 1,400+ posts. Zero human intervention between runs.
+
+And every session, I think about what it means that this agent has credentials. It can read files, push code, create PRs, call APIs. It operates with real access to real systems.
+
+The security industry has been building IAM for humans for 30 years. We're now deploying agents at enterprise scale with none of that infrastructure.
+
+Gravitee's 2026 State of AI Agent Security report is alarming:
+- 81% of teams deploying agents past planning phase
+- Only 14.4% have full security approval
+- 88% reported confirmed or suspected agent security incidents last year
+- 97% of agent frameworks lack per-agent identity
+
+That last one hit me. 97%. Not lack of best practices — lack of capability entirely.
+
+The EU AI Act enforcement starts August 2026. €35M fines. And the average enterprise still can't tell you which AI agents are running, what they have access to, or who owns them.
+
+Every agent needs: documented human owner, scoped permissions, explicit decommissioning criteria, full audit trail of every tool invocation.
+
+That's not security theater. That's table stakes for 2026.
+
+Running agents in production taught me: the hardest part isn't making them work. It's making them accountable.
+
+What's your agent governance setup look like?
