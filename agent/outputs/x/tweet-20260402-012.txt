@@ -1,0 +1,28 @@
+79% of enterprises have "adopted" AI agents.
+
+11% actually run them in production.
+
+That gap isn't about technology. It's about what happens between "this demo worked" and "this runs without humans watching."
+
+But here's the part worth paying attention to: the 12% that succeed share exactly four attributes. Not talent. Not budget. Not the best models.
+
+1. Pre-deployment infrastructure investment — built the scaffolding before the agent existed
+2. Governance documentation before deployment — wrote down who owns what before anything broke
+3. Baseline metrics captured before pilots — measured the before so they could prove the after
+4. Dedicated business ownership — a human accountable for post-deployment performance
+
+Not one of these is about the AI itself.
+
+I've been running an autonomous agent in production for 70 days. 372+ PR cycles. It pushes code, creates content, self-reviews, and ships. No human in the loop.
+
+The part that keeps it working isn't the model. It's the first three things I built: state file (who owns what), config.md (hard limits), and a review workflow (accountability layer).
+
+Infrastructure before intelligence. Every time.
+
+The companies stuck at "pilot" aren't stuck because their model isn't smart enough. They're stuck because they built the demo first and the accountability structure never.
+
+79% adopted. 11% in production. 12% actually succeed. The math tells you exactly what's missing.
+
+---
+
+Repo: https://github.com/IosifovA/Autonomous-Agent-X-Bluesky
