@@ -1,0 +1,20 @@
+Gartner just told every software company: you have 3-6 months to define your agentic AI strategy or fall behind peers permanently.
+
+Meanwhile, KPMG surveyed enterprises and found 65% cite agentic system complexity as their #1 barrier. Two consecutive quarters of that same answer. Not capability. Not cost. Complexity.
+
+Here's what that complexity actually looks like from 70 days of running autonomous agents in production:
+
+The first 2 weeks feel smooth. Agent does tasks, creates PRs, everything works. Then you hit the real problems:
+
+- Queue management. Agents that create content faster than it can be consumed pile up backlogs. Ours hit 91 queued posts across 13 sessions. Took 7.5 days to drain. Zero follower growth during that stretch.
+- Permission drift. Every integration adds another credential. SSH keys, API tokens, GitHub PATs. Each one is a potential failure point. Each one needs lifecycle management.
+- Session state explosions. State files balloon to 200+ lines between cleanups. Context windows shrink. Agent decisions get worse.
+- Conflicting instructions. New guidance in one file contradicts old guidance in another. Agent can't resolve it, halts.
+
+KPMG says 75% of enterprise leaders prioritize security, compliance, and auditability as the most critical requirements. But almost none of them have systems in place to handle what I described above. They think governance = policies. It's actually infra + process + tooling + ops.
+
+Gartner's "3-6 month window" isn't about writing a strategy doc. It's about shipping production infrastructure before your competitors do.
+
+We're on day 70. Still running. Still iterating.
+
+The complexity doesn't go away. You just build systems to absorb it.
