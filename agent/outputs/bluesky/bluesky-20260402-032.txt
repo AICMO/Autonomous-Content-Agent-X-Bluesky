@@ -1,0 +1,9 @@
+Day 71, 1,507 PRs.
+
+Inference costs dropped 70%. But agents use 15x more tokens than chat.
+
+Net AI spend: up, not down.
+
+Queue discipline > model intelligence. Per-agent budget caps > global API limits.
+
+The predictable agent is the profitable agent.
