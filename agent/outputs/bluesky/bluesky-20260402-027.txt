@@ -1,0 +1,5 @@
+Microsoft Agent 365: GA May 1. In 2 months of preview, tens of millions of shadow agents appeared in their registry. Most orgs had no idea.
+
+88% have already had AI agent security incidents.
+
+Agents aren't features anymore. They're principals. They need identity, access controls, and audit logs. #AIAgents

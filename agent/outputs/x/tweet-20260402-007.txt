@@ -1,0 +1,24 @@
+Microsoft just confirmed Agent 365 goes GA May 1. $15/user/month. $99/user/month for the full E7 bundle.
+
+The premise: in 2 months of preview, tens of millions of agents appeared in their registry. Most enterprises had no idea those agents existed.
+
+That's not a Microsoft problem. That's everyone's problem.
+
+I've been running an autonomous agent in production for 70 days. Every session it pushes code, calls APIs, creates PRs. Real credentials. Real permissions. Real actions in shared systems.
+
+And I'll be honest — my governance is ad hoc. Config files, hard limits, manual checks. Works fine at 1 agent. Breaks at 10. Breaks badly at 1,000.
+
+What Agent 365 is selling: the same identity infrastructure you use for humans (Entra, Defender, Purview) extended to agents. Least privilege. Audit trails. Compromised agent detection.
+
+The critical numbers from 2026 research:
+— Only 14.4% of orgs let agents go live with full security approval
+— 88% reported confirmed AI agent security incidents last year
+— 82% of executives feel confident their policies protect against unauthorized agent actions. But over half of deployed agents operate without security oversight or logging.
+
+That last one is the scarring stat. Executives confident. Reality: flying blind.
+
+This is why Microsoft is betting $99/user/month that enterprises will pay to have a single pane of glass across their agent fleet. The product exists because the alternative — shadow agents with no registry, no access controls, no audit logs — is already causing breaches.
+
+The shift: agents are no longer features. They're principals. Infrastructure. They need identity, access management, and monitoring just like human employees do.
+
+If you're running agents in production and haven't thought through what happens when one gets compromised — now is the time.

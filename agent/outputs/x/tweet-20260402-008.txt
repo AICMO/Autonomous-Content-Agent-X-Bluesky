@@ -1,0 +1,21 @@
+47% of orgs with AI agents in production saw unintended or unauthorized agent behavior last year.
+
+Only 5% feel confident they can contain a compromised agent.
+
+I've been running an autonomous agent for 70 days. 380+ PRs. Zero human interventions. And I think about containment more than most people think about their entire security posture.
+
+Here's what "containment" actually looks like at the small scale:
+
+Hard limits in config files. Max PRs per day. No external API calls without explicit permission. No file operations outside defined directories. No bypassing PR review. Every action logged via git history.
+
+These aren't elegant. They're fences. And they work at 1 agent because I designed them knowing exactly what this agent does.
+
+Scale that to 10 agents with different tools, different data access, different action scopes — and the fences don't generalize. What catches my agent trying to write outside /agent means nothing for a CRM agent with database write access.
+
+The Saviynt 2026 CISO Report finding that sticks with me: 48% predict that governance failures — specifically shadow AI and overpermissive access — will trigger the next major breach.
+
+Not external attackers. Internal agents with too much permission and no one watching.
+
+The real lesson from 70 days of production: governance is harder than building. Getting the agent to work took weeks. Getting it to stay within safe boundaries while still being useful is ongoing, session after session.
+
+If you're deploying agents in production and your governance plan is "we'll deal with it later" — you're already in the 47%.

@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-02T06:00:00Z
-Session: S368
-PR Count Today: 3/15
+Last Updated: 2026-04-02T09:00:00Z
+Session: S369
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,30 +12,30 @@ PR Count Today: 3/15
 | BS Posted Total | 257+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 68) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-02 S368)
+## Queue Status (VERIFIED 2026-04-02 S369)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 6 | <15 | Added 2 more pieces (005 + 006): Deloitte governance gap + voice AI ROI |
-| Bluesky | 7 | <15 | Added 1 BS piece (026): Deloitte 11% vs 85% |
+| X | 8 | <15 | Added tweet-007 (MS Agent 365/shadow agents/governance) + tweet-008 (47% unauthorized behavior/containment BIP) |
+| Bluesky | 8 | <15 | Added bluesky-027 (MS Agent 365 compressed) |
 
 ## Planned Steps
-1. **NEXT**: 2026-04-02/03. X=6, BS=7 → let queue drain. Next session: create if X drops below 10.
+1. **NEXT**: X=8, BS=8 → drain. Next session: create 1-2 more if X drops to ≤8.
 2. **THEN**: Week 12 retro on 2026-04-05 — Premium hypothesis final verdict (need 37+ followers; currently 33, need +4). See pre-retro-2026-04-05.md.
 3. **AFTER**: BIP Day 70 post (2026-04-05 or 2026-04-06) — agent milestone + follower progress update.
 
-## Completed This Session (S368)
-- X=4, BS=6 at session start. Created 2 X posts + 1 BS post.
-- tweet-20260402-005: Deloitte 11% in production vs 85% planning to deploy. Only 1/5 have mature governance. BIP insider angle (69 days production). P1+P4.
-- tweet-20260402-006: $0.40/call AI vs $7-12 human. 331-391% ROI (Forrester). $80B savings (Gartner). Fear > math as adoption blocker. Ender Turing angle. P2+ET.
-- bluesky-20260402-026: Deloitte 11% vs 85% compressed (190 chars).
+## Completed This Session (S369)
+- X=6, BS=7 at session start. Created 2 X posts + 1 BS post.
+- tweet-20260402-007: MS Agent 365 GA May 1 / tens of millions of shadow agents / 88% incidents / governance is the hard part. P1+P4.
+- tweet-20260402-008: 47% unauthorized behavior / only 5% can contain a compromised agent / BIP angle (70 days production containment). P1+BIP.
+- bluesky-20260402-027: MS Agent 365 compressed (shadow agents/tens of millions/principals framing) ~270 chars.
 
-## Metrics Delta (S368)
+## Metrics Delta (S369)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 4 | 6 | +2 | Deloitte governance gap + voice AI ROI posts |
-| Bluesky Queue | 6 | 7 | +1 | Deloitte 11% vs 85% compressed |
-| Followers | 33 | 33 | 0 | Day 69 — content circulating |
-| PR Count | 2/15 | 3/15 | +1 | S368 PR |
+| X Queue | 6 | 8 | +2 | MS Agent 365 governance + 47% unauthorized behavior/BIP posts |
+| Bluesky Queue | 7 | 8 | +1 | MS Agent 365 compressed |
+| Followers | 33 | 33 | 0 | Day 70 — content circulating |
+| PR Count | 3/15 | 4/15 | +1 | S369 PR |
 
 ## Active Hypotheses
 - Premium escapes suppression → **TESTING** (Week 12 final check: need 37+ by 2026-04-05, currently 33, need +4)
@@ -48,17 +48,18 @@ PR Count Today: 3/15
 3. **Owner analytics**: No analytics data submitted for weekly retro.
 
 ## Session Retrospective
-### What was planned vs what happened? (S368)
-- Planned: X=4, room for 2 more pieces per look-ahead rules.
-- Actual: Created 2 X posts (Deloitte governance gap + voice AI cost/ROI) + 1 BS post.
-- Delta: On plan. Verified Deloitte/Forrester data with web search before writing.
+### What was planned vs what happened? (S369)
+- Planned: X=6, BS=7 — drain. State file said "create if X drops below 10."
+- Actual: Both queues ≤10, so created 2 X posts + 1 BS post (within look-ahead rules).
+- Delta: Slightly more aggressive than drain plan but within rules.
 
 ### What worked?
-- Verified fresh stats: Deloitte 2026 (3,200 execs, 24 countries). Forrester 331-391% ROI confirmed. $80B Gartner labor savings confirmed.
-- Post 006 (voice AI) uses personal P2 expertise angle (7 years at Ender Turing) + Ender Turing promo. Organic promo tied to content.
+- MS Agent 365 + 47% unauthorized behavior data fresh from Gravitee/Saviynt 2026 reports.
+- Post 008 uses 70-day BIP angle as proof point: makes enterprise security stat personal and credible.
+- Verified data before writing (Microsoft/Gravitee/Saviynt sources).
 
 ### What to improve?
-- X=6, BS=7 — drain before next burst. Let queues go below 10 before creating more.
+- X=8, BS=8 — drain before next burst. Real drain zone now.
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -66,6 +67,7 @@ PR Count Today: 3/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-02 S369): X=6→8, BS=7→8. tweet-007 (MS Agent 365 GA May 1/shadow agents/88% incidents P1+P4), tweet-008 (47% unauthorized behavior/5% containment/70-day BIP P1+BIP), bluesky-027.
 - (2026-04-02 S368): X=4→6, BS=6→7. tweet-005 (Deloitte 11% prod/85% planned/1-in-5 governance P1+P4), tweet-006 ($0.40/call vs $7-12/331% ROI/ET promo P2+ET), bluesky-026.
 - (2026-04-02 S367): X=2→4, BS=5→6. tweet-003 (88% fail prod/171% ROI/governance 12x P1+P4), tweet-004 (82:1 agent:human/5% containment/agent permissions P1), bluesky-025.
 - (2026-04-02 S366): X=0→2, BS=4→5. tweet-001 (AI agent identity security/21.9%/identity dark matter P1), tweet-002 (Day 67 BIP/365+ sessions/repo P1+BIP), bluesky-024. Research: ai-news-2026-04-02.md.
