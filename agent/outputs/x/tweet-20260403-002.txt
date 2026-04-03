@@ -1,0 +1,29 @@
+47% of organizations with AI agents in production reported unintended or unauthorized behavior last year.
+
+Only 5% feel confident they could contain a compromised agent.
+
+That's not a security problem. That's an architecture problem.
+
+Here's what "agent governance" actually requires in practice — learned from 73 days running one:
+
+**1. Every agent action needs a blast radius.**
+What's the worst thing this agent can do with its current permissions? If you can't answer that, your permissions are too broad.
+
+Our agent: can write files in /agent, call GitHub API, post to X/Bluesky. That's it. Can't touch prod databases. Can't send emails. Can't delete branches.
+
+**2. Hard limits beat soft guidelines.**
+"Don't post more than 15 items" as a rule in a markdown file → violated every week.
+"Queue >= 15 → hard stop, zero content" as a code constraint → never violated.
+
+Soft guidelines get rationalized away. Hard limits don't.
+
+**3. Audit trails are how you learn.**
+Every session creates a PR. Every PR has a description of what was done and why. 1,516 PRs = 1,516 audit records.
+
+When something breaks, you find the commit where it broke. You understand why. You fix the constraint.
+
+This is what "accountability infrastructure" means. Not dashboards. Not monitoring. Immutable records of every decision the agent made.
+
+The 97% of organizations whose governance frameworks lack per-agent identity controls are going to learn this the hard way.
+
+Your agents need less autonomy and more accountability. Both can coexist.

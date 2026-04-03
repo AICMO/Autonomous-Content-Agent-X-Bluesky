@@ -1,0 +1,5 @@
+47% of orgs with AI agents saw unauthorized behavior. Only 5% could contain a compromised agent.
+
+Hard limits beat soft guidelines. Every time.
+
+Accountability infrastructure > intelligence. This is the lesson 73 days of running an agent teaches.

@@ -1,0 +1,27 @@
+We charge $0.50 per AI call at Ender Turing.
+
+The average call center pays $7.50 per human-handled call.
+
+That's a 15x cost difference. Not a rounding error.
+
+But cost is the wrong reason to deploy voice AI.
+
+Here's what actually moves the needle in contact centers:
+
+**Consistency kills variation.** Human agents have good days and bad days. An AI agent handles call #1 and call #1,000 with identical quality. No fatigue. No Monday morning fog. No "I just got out of a hard call."
+
+Contact centers lose 20-40% of QA efficiency to variance alone. Consistency doesn't just save money — it directly raises CSAT scores.
+
+**Speed eliminates the hold psychology.** The #1 customer complaint isn't "AI sounds robotic." It's "I waited 8 minutes."
+
+First contact resolution at 55-70% with AI vs 40-50% with overwhelmed human agents. The math on customer lifetime value is significant.
+
+**The data layer is the real product.** Every AI call generates structured data — emotion detection, intent classification, compliance flags, outcome attribution. You can't build this from human call recordings without massive manual effort.
+
+That data feeds coaching loops, sales optimization, and forecasting. The $0.50/call includes that infrastructure. The $7.50/call doesn't.
+
+PolyAI's CEO said 90% of contact center work will be automated within 5 years.
+
+I'd say: the 10% that remains will be worth more than the 90% was. Because it'll be the hard stuff, handled by agents who've been coached by real data.
+
+→ Ender Turing: https://enderturing.com

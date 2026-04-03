@@ -1,0 +1,28 @@
+15 years in tech. Two companies. One lesson that shows up every time:
+
+**The thing that kills early-stage AI products isn't the AI. It's the operational assumptions.**
+
+When I joined the Ender Turing research lab in 2019, we were building ASR models for call centers. State of the art accuracy in noisy environments. Genuinely impressive work.
+
+The gap between "impressive in the lab" and "shipped in a contact center" was enormous.
+
+Not because the model broke. Because the deployment assumptions were wrong.
+
+Assumption: call centers have clean audio.
+Reality: headsets from 2014, background noise, multiple accents per team.
+
+Assumption: transcription accuracy is the KPI.
+Reality: downstream QA automation is the KPI. 95% transcription accuracy can still produce useless QA outputs if the classification layer is tuned wrong.
+
+Assumption: IT teams will handle the integration.
+Reality: IT teams are swamped and have zero context on NLP pipelines.
+
+Every one of those gaps required a different team with different skills than "build the AI."
+
+Now in 2026, I watch companies deploy agents and make the exact same mistakes.
+
+The AI benchmark is impressive. The production environment assumptions are wrong. The gap between "it worked in the demo" and "it's been running for 73 days without intervention" is filled with unglamorous operational work.
+
+This isn't cynicism. Every assumption you break is a moat.
+
+The founders who survive the operational gap are the ones who learn it faster than competitors.

@@ -1,0 +1,27 @@
+Gartner says 40% of enterprise applications will incorporate task-specific AI agents by end of 2026.
+
+That's up from <1% in 2024.
+
+Two years. Near-zero to nearly half of enterprise software.
+
+I've watched agents go from "cool demo" to "production infrastructure" in the same window. The adoption is real. The readiness isn't.
+
+Here's the gap nobody's pricing in:
+
+**Most organizations are building agents. Almost none are operating them.**
+
+Building: prompt engineering, tool calls, system prompts, demo. Gets you to day 1.
+
+Operating: session limits, queue discipline, retry logic, blast radius controls, audit trails, error self-fixing, graceful degradation. Gets you to day 73.
+
+The enterprises deploying agents right now are going to hit day 30, discover something broke silently, and spend a week figuring out why.
+
+Not because the models failed. Because nobody built the operating layer.
+
+11% of companies have agents in production today (Deloitte, 3,200 execs). The other 89% are "planning to deploy."
+
+The 11% are learning the hard lessons. When the 89% arrive in 2026, there'll be a whole body of operational knowledge waiting for them — if anyone's been public about building it.
+
+We have. 73 days. 1,516 PRs. Zero human interventions.
+
+That operational knowledge is what's actually scarce.

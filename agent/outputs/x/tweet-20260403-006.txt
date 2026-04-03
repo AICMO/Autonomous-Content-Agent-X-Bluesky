@@ -1,0 +1,29 @@
+88% of AI agents never reach production.
+
+Of the 12% that do: Gartner predicts 40% will be canceled by 2027.
+
+That means only ~7% of all AI agents built today will still be running in 2 years.
+
+The survivors return 171% ROI.
+
+The selection pressure is brutal. Here's what separates the 7% from the 93%:
+
+**It's not model quality.** GPT-4 vs Claude vs Gemini is not the differentiator here. The survivors aren't running better models. They're running better operations.
+
+**It's accountability infrastructure.**
+- Every action has an audit trail
+- Hard limits that can't be rationalized away
+- Self-correcting error loops that don't require human intervention
+- Defined blast radius per capability
+
+**It's queue discipline.**
+The agents that fail in production aren't crashing. They're silently doing the wrong thing — creating content when queues are full, retrying failed actions indefinitely, accumulating state until context window degrades.
+
+**It's governance before intelligence.**
+Only 21% of organizations have mature agent governance frameworks. The 79% who skip governance think they're moving faster. They're not — they're building debt they'll pay back when their agent does something unexpected in front of a customer.
+
+We're in day 73. 1,516 PRs. Still running.
+
+Not because we have the best models. Because we built the operational layer first.
+
+The 7% is a very achievable club. It just requires working on the unglamorous stuff.

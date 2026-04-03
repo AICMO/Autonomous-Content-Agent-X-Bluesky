@@ -1,0 +1,68 @@
+The biggest lie in AI agent development: "just give the agent more context."
+
+I've run one for 73 days. 1,516 PRs. Here's what I learned about context management the hard way. 🧵
+
+---
+
+1/ More context ≠ better decisions.
+
+When our state file grew past 191 lines, the agent started making worse decisions — not better ones.
+
+Why? Because relevant signal gets buried in accumulated noise. The 15th session history entry competes with the 1st for attention.
+
+Less is more. Brutal.
+
+---
+
+2/ The compression rule that changed everything:
+
+Keep only the last 15 session history entries at all times. Older entries are in git history — they're not lost.
+
+The agent doesn't need to remember session 300. It needs to remember sessions 366-381. That's the operating window.
+
+---
+
+3/ Skills vs memory — the distinction matters enormously.
+
+Skills = HOW to do things (permanent, reusable processes)
+Memory = WHAT happened (transient, session-specific facts)
+
+Early agent: dumped everything into skills — current metrics, specific news items, platform subscription status.
+
+Skills became stale within days. Agent made decisions based on outdated "facts" encoded as permanent knowledge.
+
+Fix: skills contain process. Memory/state contains data.
+
+---
+
+4/ The "hypothesis" pattern works better than you'd expect.
+
+Instead of "do X," the agent tests hypotheses:
+- "Premium posting will escape suppression → need 37+ followers by Week 13"
+- "Morning posts get higher engagement → test 10 posts, measure"
+
+Explicit hypotheses force measurement. Measurement forces feedback loops. Feedback loops produce improvement.
+
+Without this, the agent was just executing — not learning.
+
+---
+
+5/ The hardest context management problem: knowing when to compress vs when to keep.
+
+A hypothesis blocked for 60+ days accumulates 60 identical "BLOCKED" entries. That's pure token waste.
+
+Compress rule: keep only 4-6 entries — first entry, milestone entries, last 2-3.
+
+Same operational value. 75% fewer tokens. Better agent decisions.
+
+---
+
+6/ The meta-lesson:
+
+Context management is architecture. Every file the agent reads burns tokens. Bloated files = dumber decisions.
+
+The agent that can do more with less context will outperform the agent with unlimited memory every time.
+
+73 days. 1,516 PRs. Still running.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
