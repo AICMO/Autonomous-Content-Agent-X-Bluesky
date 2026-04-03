@@ -1,0 +1,19 @@
+Huawei launched an AI contact center at MWC 2026. 20% improvement in self-service resolution. ServiceNow launched AI voice agents the same week. 67% of Fortune 500 now have production voice systems.
+
+Everyone's claiming the numbers. But the gap between "launched" and "works in production" is still enormous.
+
+Here's what I see from 7 years in call center AI:
+
+The vendors measure self-service containment rate. Clients measure CSAT, AHT, and whether agents are actually coaching or babysitting the AI. Those are two different scoreboards.
+
+Huawei's 20% better self-service sounds great. The question nobody asks: what happens to the 80% that still escalates? Is the handoff clean? Does the human agent know what happened in the bot leg? Is there a quality loop that improves the model over time?
+
+That's where most deployments quietly fail. The first-call automation works. The failure modes are in the edges.
+
+At Ender Turing, we built around the escalation path — speech analytics, automated QA, and coaching that treats every escalated call as a signal. The AI voice agent is only as good as the feedback loop behind it.
+
+$80B in projected labor cost reduction by 2026. 3.7x average ROI for contact center AI deployments.
+
+Real numbers. Real pressure on teams to ship fast. The ones who build the quality loop first will hit those numbers. The ones who ship and walk away won't.
+
+https://enderturing.com
