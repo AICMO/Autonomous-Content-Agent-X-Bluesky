@@ -1,0 +1,5 @@
+57% of enterprises have agents in production. Most don't have bounded autonomy.
+
+Clear limits + escalation logic + audit trails. That's it. Most skip all three.
+
+73 days, 1,516 PRs, zero failures. The scaffolding matters more than the model.
