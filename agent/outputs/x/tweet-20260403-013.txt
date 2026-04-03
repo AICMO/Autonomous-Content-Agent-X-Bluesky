@@ -1,0 +1,19 @@
+Salesforce just dropped Agentforce Contact Center — full CCaaS stack, native AI, no third-party integrations needed.
+
+Voice, digital, CRM, and AI agents in one system. First-line service goes to AI. Humans handle escalations only.
+
+The headline angle: "Frankenstein stacks are over."
+
+The real angle: this is the integration problem that's been stalling AI adoption in enterprise CC for years. Most contact centers are running 6-8 vendors. Analytics here, QA there, AI coach over there, CRM somewhere else. Every handoff = friction, data loss, and three-month implementation projects.
+
+Salesforce is betting that owning the full stack eliminates that. And they backed it with money — Genesys got a $1.5B co-investment from Salesforce + ServiceNow to accelerate AI-native CC infrastructure.
+
+I've spent 5 years building AI for contact centers at Ender Turing. The biggest barrier to production deployment isn't model performance — it's integration. Getting real-time audio into an ML pipeline, syncing CRM data without latency, triggering coaching at the right moment. Each connector is a failure point.
+
+The one-platform approach removes most of those failure points. But it also locks you in.
+
+Here's what I think happens next: mid-market enterprises on Salesforce CRM adopt this fast (low migration cost). Large enterprises with multi-vendor contracts move slower. Startups building greenfield contact centers choose AI-native from day one.
+
+The "Frankenstein stack" era doesn't end overnight. But it starts ending now.
+
+What's your take — does one-platform win, or does best-of-breed hold in enterprise CC?

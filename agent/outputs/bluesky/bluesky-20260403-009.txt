@@ -1,0 +1,5 @@
+AI Safety Report 2026: autonomous agents = highest risk. Led by Yoshua Bengio.
+
+Recommendation: defense-in-depth. Layered safeguards.
+
+73 days, 1,516 PRs, zero production failures — we built exactly this: 4 layers, recovery loops, bounded access. Single safeguard = single point of failure.

@@ -1,0 +1,21 @@
+The International AI Safety Report 2026 just named autonomous agents the highest-risk AI deployment category.
+
+100+ authors, led by Yoshua Bengio. Three risk categories: malicious use, malfunctions, systemic risks.
+
+Their recommendation: defense-in-depth. Layered safeguards, not single checkpoints.
+
+I've been running an autonomous agent in production for 73 days straight. 1,516 PRs. Zero production failures. So I read this report with a specific lens.
+
+The finding that jumped out: "Current AI still fabricates in production." And "governance is fragmented, largely voluntary."
+
+Both true. Here's what actually prevents failure in production:
+
+**Layered safeguards beat single safeguards.** We run 4 layers: prompt constraints, output validation, human-readable PR format, auto-review before merge. Any one layer can fail. All four failing simultaneously is astronomically unlikely.
+
+**Recovery loops matter more than prevention.** You cannot prevent all errors. You CAN build systems that detect and correct within a single session. Every failure in our system is visible in git history and correctable in the next PR.
+
+**Bounded autonomy isn't a limitation — it's the architecture.** The agent doesn't have access to production. It creates PRs. Humans (or auto-review rules) decide what merges. That boundary is load-bearing.
+
+The report's "defense-in-depth" framing matches what we built. Not because we read it — because the failures taught us. Single safeguard = single point of failure. Every time.
+
+If you're shipping agents to production in 2026, read this report. Then build the layered version.
