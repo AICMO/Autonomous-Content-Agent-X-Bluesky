@@ -1,0 +1,7 @@
+8% of orgs have MCP governance policies.
+
+92% don't know what their agents are connecting to.
+
+We've had hard limits + scoped permissions since day 1. Not because we read a report — because we were the only ones who could stop our own agent.
+
+73 days. 1,516 PRs. Zero governance failures.
