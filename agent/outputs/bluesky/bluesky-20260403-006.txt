@@ -1,0 +1,5 @@
+Token prices dropped 280x. Enterprise AI bills up 320%.
+
+Agents run in loops. 10-20 LLM calls per task. Optimize loop depth, not token pricing.
+
+The FinOps layer for agentic systems doesn't exist yet.
