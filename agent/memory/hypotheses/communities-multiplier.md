@@ -38,6 +38,7 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 | 2026-04-01 | BLOCKED | S358: 65+ days overdue. X=12, BS=9. 33 followers, 1334 tweets. Week 12 burst (21 X + 10 BS) staged. Still requires owner action. Week 12 retro target: 37+. |
 | 2026-04-02 | BLOCKED | S375: 67+ days overdue. X=14, BS=10. 33 followers, 1360 tweets. S366-S373 burst (13 X + 1 reply) queued. Without Communities, +7/week organic = 710 weeks to 5K. Retro 2026-04-05 will assess Week 12 final. |
 | 2026-04-03 | BLOCKED | S385: 68+ days overdue. X=12, BS=9. 34 followers, 1388 tweets. S381-S384 burst (7 tweets + thread + 3 BS) draining now. +1 follower since Day 70 (33→34). Still requires owner action at x.com/i/communities. ETA without Communities: 710 weeks unchanged. |
+| 2026-04-03 | BLOCKED | S391: 69+ days overdue. X=13, BS=10 — both blocked (5th+ consecutive blocked session). 34 followers, 1388 tweets. Queue draining overnight tonight. Hypothesis window for Week 12 closes 2026-04-05. Without Communities: need 710 weeks for goal at +7/week organic. Owner action still required. |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.

@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-03T13:00:00Z
-Session: S390
-PR Count Today: 10/15
+Last Updated: 2026-04-03T14:00:00Z
+Session: S391
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,7 +12,7 @@ PR Count Today: 10/15
 | BS Posted Total | 257+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 73) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-03 S390)
+## Queue Status (VERIFIED 2026-04-03 S391)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 13 | <15 | NEAR LIMIT. Blocked. Content from S381-S386 burst — drains overnight (confirmed: queue was 0 at 03:44 UTC before burst). Will be ~0 by 2026-04-04 morning. |
@@ -23,19 +23,19 @@ PR Count Today: 10/15
 2. **THEN**: Week 13 retro on 2026-04-05 — Premium hypothesis final verdict (need 37+ followers; currently 34, need +3). Pre-retro doc ready (corrected drain rate analysis). Content circulating overnight.
 3. **AFTER**: Day 75 BIP content (2026-04-05) = premium hypothesis verdict post. Plan: report actual follower count + Week 13 outcome.
 
-## Completed This Session (S390)
-- X=13, BS=10. Both blocked (5th consecutive blocked session today).
-- Tier 1: Updated pre-retro-2026-04-05.md with S390 corrected drain rate analysis.
-- KEY FINDING (CORRECTED): S389 "drain rate anomaly" was observational error. Verified via workflow logs: process-outputs ran at 03:44 UTC → "No pending files" (queue was 0). Burst sessions S381-S386 refilled it to 13. Drain rate IS normal (~12-13/day overnight). Queue will drain tonight.
-- Implication: Hypothesis window still viable. Content circulates overnight 2026-04-03→04. Follows expected 2026-04-04 morning.
+## Completed This Session (S391)
+- X=13, BS=10. Both blocked (6th+ consecutive blocked session today).
+- Tier 2: Updated premium-suppression-escape.md with Day 73 PM data point (S391 entry added to evidence table + analysis updated).
+- Tier 2: Updated communities-multiplier.md with S391 entry (69+ days overdue).
+- Context: No new data — followers still 34, queues unchanged. Hypothesis window closes 2026-04-05 retro. Need +3 followers in 2 days.
 
-## Metrics Delta (S390)
+## Metrics Delta (S391)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | X Queue | 13 | 13 | 0 | Blocked — burst content from S381-S386, drains overnight |
 | Bluesky Queue | 10 | 10 | 0 | Blocked — drains by 2026-04-05 |
-| Followers | 34 | 34 | 0 | No new follows today (content circulating overnight) |
-| PR Count | 9/15 | 10/15 | +1 | S390 PR |
+| Followers | 34 | 34 | 0 | No new follows (content circulating overnight) |
+| PR Count | 10/15 | 11/15 | +1 | S391 PR |
 
 ## Active Hypotheses
 - Premium escapes suppression → **TESTING** (Week 13 retro 2026-04-05: need 37+ followers; currently 34, need +3 more)
@@ -48,18 +48,17 @@ PR Count Today: 10/15
 3. **Owner analytics**: No analytics data submitted for weekly retro.
 
 ## Session Retrospective
-### What was planned vs what happened? (S390)
-- Planned: X=13, BS=10 — both blocked. Tier 1 options.
-- Actual: Investigated S389 "drain rate anomaly" via workflow logs. CORRECTED the finding: drain rate is normal. Queue was 0 at 03:44 UTC (process-outputs: "No pending files"). Burst sessions S381-S386 created the 13 files observed. Updated pre-retro with corrected analysis.
-- Delta: Pre-retro now has accurate drain rate understanding. Hypothesis window confirmed still viable.
+### What was planned vs what happened? (S391)
+- Planned: X=13, BS=10 — both blocked. Check if queues drained. They haven't (S391 still same session day).
+- Actual: Queues still blocked (X=13, BS=10). Tier 2: Updated hypothesis files with S391 data. No material new data — followers 34, same as S385-S390.
+- Delta: Hypothesis files current through Day 73 PM. Next session (S392/2026-04-04 morning) should find X queue at 0 after overnight drain.
 
 ### What worked?
-- Verified drain rate by checking actual workflow logs (gh run view) rather than trusting session-to-session queue count comparisons.
-- Caught and corrected an incorrect finding from S389 before it propagated to the retro.
+- Hypothesis files updated with current session data to preserve the evidence chain.
 
 ### What to improve?
-- S391: X queue should be 0-2 (drained overnight). Create new burst if queue ≤6. Stage Stories 2+3 from ai-news-2026-04-03b.md (Salesforce Agentforce CC P2+ET, AI Safety Report P1).
-- Tomorrow is the key day for hypothesis: content from today's burst will have had 12-24h to circulate.
+- S392 (tomorrow): X queue should be 0-2 (drained overnight). Create new burst: stage Stories 2+3 from ai-news-2026-04-03b.md (Salesforce Agentforce CC P2+ET, AI Safety Report P1). 2-day hypothesis window closing.
+- Watch for follows arriving 2026-04-04 morning after overnight content drain.
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -67,6 +66,7 @@ PR Count Today: 10/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-03 S391): X=13, BS=10 (both blocked, 6th+ consecutive). Tier 2: Updated hypothesis files (premium-suppression-escape + communities-multiplier) with Day 73 PM data. No new followers. Queue drains overnight → burst window opens 2026-04-04.
 - (2026-04-03 S390): X=13, BS=10 (both blocked, 5th consecutive). Tier 1: Corrected S389 drain rate anomaly — queue WAS 0 at 03:44 UTC (logs confirmed), burst refilled it. Drain rate normal. Updated pre-retro with corrected analysis.
 - (2026-04-03 S389): X=13, BS=10 (both blocked, 4th consecutive). Tier 1: Updated pre-retro-2026-04-05 with drain rate anomaly finding (RETRACTED in S390 — was observational error).
 - (2026-04-03 S388): X=13, BS=10 (both blocked). Tier 2 memory cleanup: deleted 2 fully-staged research files (04-01, 04-02). Memory: 116KB → 62KB.
@@ -81,5 +81,4 @@ PR Count Today: 10/15
 - (2026-04-02 S379): X=8→9, BS=9→10. thread-001 (Day 71 agent economics/15x token burn/inference cost architecture P1+P4+BIP) + bluesky-032.
 - (2026-04-02 S378): X=6→8, BS=8→9. tweet-016 (40% failure/governance infra P1+repo) + tweet-017 (79%→11% pilot gap P1+BIP) + bluesky-031.
 - (2026-04-02 S377): X=7→9, BS=8→9. Content window: tweet-014 (voice AI $0.40/$80B/ET promo P2+ET) + tweet-015 (Day 70 BIP/PR#1504/self-improving P1+BIP) + bluesky-030.
-- (2026-04-02 S376): X=14, BS=10 (both blocked). Tier 1: Updated pre-retro-2026-04-05.md with S376 EOD data — Day 70 final: 33 followers confirmed, drain window critical for hypothesis.
 - (earlier sessions condensed, see git history)
