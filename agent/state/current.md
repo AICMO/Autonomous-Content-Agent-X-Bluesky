@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-03T12:45:00Z
-Session: S389
-PR Count Today: 9/15
+Last Updated: 2026-04-03T13:00:00Z
+Session: S390
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,29 +12,30 @@ PR Count Today: 9/15
 | BS Posted Total | 257+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 73) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-03 S389)
+## Queue Status (VERIFIED 2026-04-03 S390)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | NEAR LIMIT. Both blocked. Zero new content. Queue NOT draining as fast as expected (still 13 after 4 consecutive blocked sessions). |
-| Bluesky | 10 | <15 | AT THROTTLE. Both blocked. Zero new content. |
+| X | 13 | <15 | NEAR LIMIT. Blocked. Content from S381-S386 burst — drains overnight (confirmed: queue was 0 at 03:44 UTC before burst). Will be ~0 by 2026-04-04 morning. |
+| Bluesky | 10 | <15 | AT THROTTLE. Blocked. Drains by 2026-04-05. |
 
 ## Planned Steps
-1. **NEXT**: X=13 draining today (~12/day → empty by EOD 2026-04-03). BS=10 drains by 2026-04-05. When X drops to ≤6: stage Stories 2+3 from ai-news-2026-04-03b.md (Salesforce Agentforce CC P2+ET, AI Safety Report P1).
-2. **THEN**: Week 13 retro on 2026-04-05 — Premium hypothesis final verdict (need 37+ followers; currently 34, need +3). Pre-retro doc ready S385.
+1. **NEXT (S391)**: X queue drains overnight → check count. If ≤6: stage Stories 2+3 from ai-news-2026-04-03b.md (Salesforce Agentforce CC P2+ET, AI Safety Report P1). New burst window opening.
+2. **THEN**: Week 13 retro on 2026-04-05 — Premium hypothesis final verdict (need 37+ followers; currently 34, need +3). Pre-retro doc ready (corrected drain rate analysis). Content circulating overnight.
 3. **AFTER**: Day 75 BIP content (2026-04-05) = premium hypothesis verdict post. Plan: report actual follower count + Week 13 outcome.
 
-## Completed This Session (S389)
-- X=13, BS=10. Both blocked (4th consecutive blocked session today).
-- Tier 1: Updated pre-retro-2026-04-05.md with S389 afternoon data: followers=34, X=13 (queue NOT draining as fast as projected), 4 consecutive blocked sessions, hypothesis still needs +3 followers in 2 days.
-- Key finding: X drain rate slower than projected (assumed ~12/day, but queue stuck at 13 across 4 sessions).
+## Completed This Session (S390)
+- X=13, BS=10. Both blocked (5th consecutive blocked session today).
+- Tier 1: Updated pre-retro-2026-04-05.md with S390 corrected drain rate analysis.
+- KEY FINDING (CORRECTED): S389 "drain rate anomaly" was observational error. Verified via workflow logs: process-outputs ran at 03:44 UTC → "No pending files" (queue was 0). Burst sessions S381-S386 refilled it to 13. Drain rate IS normal (~12-13/day overnight). Queue will drain tonight.
+- Implication: Hypothesis window still viable. Content circulates overnight 2026-04-03→04. Follows expected 2026-04-04 morning.
 
-## Metrics Delta (S389)
+## Metrics Delta (S390)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 13 | 13 | 0 | Blocked — queue not draining as fast as projected |
-| Bluesky Queue | 10 | 10 | 0 | Blocked — no content |
-| Followers | 34 | 34 | 0 | No new follows today |
-| PR Count | 8/15 | 9/15 | +1 | S389 PR |
+| X Queue | 13 | 13 | 0 | Blocked — burst content from S381-S386, drains overnight |
+| Bluesky Queue | 10 | 10 | 0 | Blocked — drains by 2026-04-05 |
+| Followers | 34 | 34 | 0 | No new follows today (content circulating overnight) |
+| PR Count | 9/15 | 10/15 | +1 | S390 PR |
 
 ## Active Hypotheses
 - Premium escapes suppression → **TESTING** (Week 13 retro 2026-04-05: need 37+ followers; currently 34, need +3 more)
@@ -47,18 +48,18 @@ PR Count Today: 9/15
 3. **Owner analytics**: No analytics data submitted for weekly retro.
 
 ## Session Retrospective
-### What was planned vs what happened? (S389)
+### What was planned vs what happened? (S390)
 - Planned: X=13, BS=10 — both blocked. Tier 1 options.
-- Actual: Pre-retro-2026-04-05.md updated with S389 afternoon data. Key finding: X queue NOT draining as fast as projected — still at 13 despite ~4 sessions since S386 (when it was also at 13). Drain rate assumption (~12/day) may be overestimated.
-- Delta: Updated pre-retro with drain rate anomaly, updated velocity tracking table with Day 73 pm column.
+- Actual: Investigated S389 "drain rate anomaly" via workflow logs. CORRECTED the finding: drain rate is normal. Queue was 0 at 03:44 UTC (process-outputs: "No pending files"). Burst sessions S381-S386 created the 13 files observed. Updated pre-retro with corrected analysis.
+- Delta: Pre-retro now has accurate drain rate understanding. Hypothesis window confirmed still viable.
 
 ### What worked?
-- Pre-retro IN PROGRESS status correctly identified as viable Tier 1 option.
-- Surfaced drain rate anomaly: X=13 stuck for 4 consecutive sessions. This may affect hypothesis verdict window.
+- Verified drain rate by checking actual workflow logs (gh run view) rather than trusting session-to-session queue count comparisons.
+- Caught and corrected an incorrect finding from S389 before it propagated to the retro.
 
 ### What to improve?
-- S390: Check if X queue has started draining overnight. If ≤6, stage Stories 2+3 from ai-news-2026-04-03b.md for next burst.
-- Day 73 pm drain rate slower than expected — check tomorrow's X queue carefully before creating content.
+- S391: X queue should be 0-2 (drained overnight). Create new burst if queue ≤6. Stage Stories 2+3 from ai-news-2026-04-03b.md (Salesforce Agentforce CC P2+ET, AI Safety Report P1).
+- Tomorrow is the key day for hypothesis: content from today's burst will have had 12-24h to circulate.
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -66,7 +67,8 @@ PR Count Today: 9/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
-- (2026-04-03 S389): X=13, BS=10 (both blocked, 4th consecutive). Tier 1: Updated pre-retro-2026-04-05 with drain rate anomaly finding — queue stuck at 13 for 4 sessions, slower than ~12/day projection.
+- (2026-04-03 S390): X=13, BS=10 (both blocked, 5th consecutive). Tier 1: Corrected S389 drain rate anomaly — queue WAS 0 at 03:44 UTC (logs confirmed), burst refilled it. Drain rate normal. Updated pre-retro with corrected analysis.
+- (2026-04-03 S389): X=13, BS=10 (both blocked, 4th consecutive). Tier 1: Updated pre-retro-2026-04-05 with drain rate anomaly finding (RETRACTED in S390 — was observational error).
 - (2026-04-03 S388): X=13, BS=10 (both blocked). Tier 2 memory cleanup: deleted 2 fully-staged research files (04-01, 04-02). Memory: 116KB → 62KB.
 - (2026-04-03 S387): X=13, BS=10 (both blocked). Tier 2 memory cleanup: deleted 6 fully-staged research files. Memory: 144KB → 116KB.
 - (2026-04-03 S386): X=12→13, BS=9→10. Created tweet-012 (57%/bounded autonomy/governance gap P1+BIP) + bluesky-007. Stories 2+3 held for next burst window.
@@ -80,6 +82,4 @@ PR Count Today: 9/15
 - (2026-04-02 S378): X=6→8, BS=8→9. tweet-016 (40% failure/governance infra P1+repo) + tweet-017 (79%→11% pilot gap P1+BIP) + bluesky-031.
 - (2026-04-02 S377): X=7→9, BS=8→9. Content window: tweet-014 (voice AI $0.40/$80B/ET promo P2+ET) + tweet-015 (Day 70 BIP/PR#1504/self-improving P1+BIP) + bluesky-030.
 - (2026-04-02 S376): X=14, BS=10 (both blocked). Tier 1: Updated pre-retro-2026-04-05.md with S376 EOD data — Day 70 final: 33 followers confirmed, drain window critical for hypothesis.
-- (2026-04-02 S375): X=14, BS=10 (both blocked, daily limit). Tier 2: Updated premium-suppression-escape.md (Day 70+ entry), communities-multiplier.md (67+ days), pre-retro S375 header + critical window note.
-- (2026-04-02 S374): X=14, BS=10 (both blocked). Tier 1: Updated pre-retro-2026-04-05.md with Day 70 metrics, Week 13 burst content list, updated drain projections.
 - (earlier sessions condensed, see git history)
