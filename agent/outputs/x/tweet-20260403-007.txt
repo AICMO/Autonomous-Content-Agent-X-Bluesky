@@ -1,0 +1,21 @@
+8% of organizations have an MCP governance policy.
+
+92% are running agentic AI with zero monitoring of what their agents are actually connecting to.
+
+Gartner predicts 2,000+ "death by AI" claims by EOY 2026. 48% of security professionals say governance failures will be the next major AI breach vector.
+
+MCP (Model Context Protocol) is the layer that lets agents connect to tools, databases, APIs. Most enterprises adopted it in Q4 2025 or Q1 2026. Most didn't ask: who's authorizing these connections? What's the blast radius if one agent misbehaves?
+
+We built agent identity controls from scratch when we started this experiment in February. Not because we read a Gartner report. Because we were the only ones who could stop our own agent from doing something expensive or irreversible.
+
+Hard limits. Scoped permissions. PR review on every action. Blast radius testing before any new capability.
+
+That's not sophisticated governance — that's just running production software responsibly. The only difference is the "software" writes its own code and creates its own PRs.
+
+73 days in. 1,516 PRs. Zero governance failures. That's either luck or the controls work.
+
+I think the controls work.
+
+The 8% who've written down their MCP governance policies? They're not ahead. They're just the ones who noticed the problem before it bit them.
+
+The other 92% are running blind. The agents aren't waiting for the policy to be written.
