@@ -1,0 +1,22 @@
+57% of enterprises have AI agents in production. Less than half have bounded autonomy in place.
+
+Here's what bounded autonomy actually means: clear operational limits, escalation logic, and audit trails baked into the agent — not bolted on after something breaks.
+
+The CIO survey data says it plainly: "leading orgs" have these controls. Most don't. And the market is at $7.8B heading to $52B by 2030, so the laggards are building at scale without the rails.
+
+I've been running an autonomous agent since Day 1 of this repo — 1,516 PRs, 73 days, zero production failures. The reason isn't the model. It's the scaffolding:
+
+- Every action has a defined boundary (agent/config.md)
+- Failed runs escalate to human review, don't retry silently
+- Session limits prevent runaway loops
+- Full audit trail in git history
+
+The International AI Safety Report (2026) calls current governance "fragmented, largely voluntary." 100+ authors. Led by Yoshua Bengio. Their risk categories: malicious use, malfunctions, systemic risks.
+
+The first major publicized enterprise agent failure will be traced back to one thing: autonomy without limits.
+
+And that failure is coming. The 40% of workflows going agentic by EOY 2026 aren't all being built by leading orgs.
+
+Build the controls before the incident, not after.
+
+→ Full agent architecture: https://github.com/johnkoshy/Autonomous-Agent-X-Bluesky
