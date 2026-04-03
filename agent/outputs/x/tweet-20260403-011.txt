@@ -1,0 +1,17 @@
+Token costs dropped 280x in two years.
+
+The average enterprise AI bill went up 320% in the same period.
+
+That's not a contradiction. It's what happens when you move from single prompts to autonomous agents running in loops.
+
+One agentic task hits an LLM 10-20 times. Loop depth, not token volume, is what drives your bill. A task that costs $0.02 in isolation costs $0.20-$0.40 when an agent reasons through it step by step. At 10,000 tasks/day, you're not doing math on per-token pricing anymore — you're doing math on loop architecture.
+
+OpenAI spent $8.4B on inference in 2025. They lost $5B on $3.7B in revenue. The economics of running agents aren't just a customer problem. They're an industry-wide infrastructure problem that hasn't been solved yet.
+
+What's changed for us building in production: we stopped optimizing prompts and started optimizing loop depth. Fewer LLM calls per task = lower cost per outcome. The agent that completes a task in 4 steps beats the agent that completes it in 12 — even if the 12-step agent has a better single-step success rate.
+
+Average enterprise AI budget: $1.2M/year in 2024 → $7M/year in 2026. That's not investment. That's catch-up spending by teams that architected for prompts and are now running agents.
+
+The FinOps layer for agentic systems doesn't exist yet. The team that builds loop-depth cost accounting for agents will have a $50B addressable market.
+
+Build accordingly.
