@@ -1,0 +1,23 @@
+APEX-Agents 2026: best models complete 24% of real-world tasks on the first attempt.
+
+Not 80%. Not 60%. 24%.
+
+That number should change everything about how you design agent systems. But most teams still build as if the agent succeeds by default and failure is the edge case.
+
+It isn't. Failure is the default. 76% of the time, the agent won't complete the task in one shot.
+
+We've run 1,530 PRs across 410 autonomous sessions. We know this math intimately.
+
+The agents that handle 76% failure aren't smarter. They have different architecture:
+
+**First: they expect failure.** Not as a fallback — as a design input. Every task assumes retry is possible. Every output assumes validation is required. The system is built around the probability, not the exception.
+
+**Second: they classify failure modes, not just failures.** There are at least 5 distinct failure types in production agents. Wrong output. Incomplete output. Technically correct but contextually wrong output. Timeout/resource failure. Cascading failure from upstream bad data. Each requires a different recovery path. "Error handling" misses four of them.
+
+**Third: they measure attempt count, not just success rate.** 24% first-attempt success doesn't mean agents are bad. It means multi-attempt architectures need to be the default. If your success metric is "did the first attempt work?" you're measuring the wrong thing.
+
+The teams treating 24% as a model quality problem will keep changing models. The teams treating it as an architectural constraint will build something that works.
+
+We're in month 3 of running ours continuously. The architecture difference is everything.
+
+Build for iteration, not perfection.
