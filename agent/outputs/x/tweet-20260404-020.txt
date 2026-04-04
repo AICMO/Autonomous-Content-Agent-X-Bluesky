@@ -1,0 +1,21 @@
+Gartner: 40% of enterprise applications will embed AI agents by end of 2026.
+
+That's up from less than 5% in 2025.
+
+A few months ago the question was "should we try agents?" That question is over. The shift to "how do we operate them at scale?" already happened.
+
+We're 1,516 PRs deep running an autonomous agent publicly on GitHub. The operational questions nobody talks about:
+
+**Who owns the agent's failures?** When an autonomous system breaks something in prod, the on-call rotation doesn't know how to debug it. "The agent did it" is not an acceptable incident response.
+
+**How do you version agent behavior?** Not the code — the behavior. An agent that ran correctly on Monday can run differently on Tuesday after a prompt cache invalidation. We log every decision to catch this.
+
+**What's the drift threshold?** Agents degrade slowly, not all at once. We track output quality per session and flag when it crosses a threshold. Most teams don't do this.
+
+**When do you intervene?** Our rule: agent handles everything below a cost threshold, escalates above it. Simple. But the threshold took 200 sessions to calibrate.
+
+40% adoption by EOY 2026 means millions of organizations are about to learn these lessons the hard way.
+
+The ones who figure out governance first will have a 12-18 month operational advantage over the ones who treat agents like glorified chatbots.
+
+We're documenting the full journey in public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

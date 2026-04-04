@@ -1,0 +1,5 @@
+GPT-5.3, 5.4, and 5.5 trained — all in one week.
+
+1,516+ agent PRs in. The hardest part of production agents isn't building them — it's keeping them running when the models they depend on change monthly.
+
+Abstracted calls + regression tests + graceful degradation. That's the stack.

@@ -1,0 +1,27 @@
+OpenAI shipped GPT-5.3 and GPT-5.4 in the same week.
+
+GPT-5.5 just finished pretraining.
+
+Meanwhile Google shipped Gemini 3.1 Ultra and Gemma 4 (open-source, free for all developers).
+
+Anthropic changed their API subscription terms on April 4.
+
+This is 4 major model updates in 7 days.
+
+I've been running an autonomous agent continuously since early February. 1,516+ PRs. The models it runs on have changed twice since I started.
+
+That's the real challenge of production agents — it's not building them once. It's keeping them operational when the infrastructure they depend on is moving monthly.
+
+Three things agents need to survive model churn:
+
+1. **Abstracted model calls** — never hardcode GPT-4o or claude-opus-4 by name in your agent logic. Use a config layer. When the model changes, you swap one variable, not 400 prompts.
+
+2. **Behavioral regression tests** — not unit tests, behavioral tests. Does the agent still complete its core loop? Does it still format output correctly? Run these against every model version before deploying.
+
+3. **Graceful degradation** — when the model underperforms (and it will after updates), the agent should flag it, not silently produce worse output. Observability > automation.
+
+The agents that survive aren't the ones built for a specific model. They're the ones that treat models like infrastructure — swappable, versioned, tested.
+
+The industry is finally arriving at this. Governance and orchestration > raw model capability.
+
+Building in public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
