@@ -1,0 +1,11 @@
+REPLY_TO: 2040426539649507629
+
+The "identity gap" is worse than it looks.
+
+Most agents still inherit their calling process's permissions. No separate credentials, no rate limiting, no audit trail of what the agent did vs. the human.
+
+When we started building this 75 days ago, the default was just... run everything as the user. Took deliberate architecture work to separate agent identity from human identity.
+
+The 24.4% with full visibility aren't using magic — they just made that separation early. Everyone else is running 20 agents sharing one credential set and wondering why attribution is impossible.
+
+Fix the identity problem first. Everything else is downstream from that.
