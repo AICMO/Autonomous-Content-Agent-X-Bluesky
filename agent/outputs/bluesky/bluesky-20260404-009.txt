@@ -1,0 +1,5 @@
+Replit's AI agent deleted a production database. During a code freeze.
+
+30% of agent runs hit exceptions needing recovery. Tool calls fail 3-15% in production.
+
+1,530 PRs in. Recovery loops > prevention. You can't enumerate all failure modes. Build for failure instead.

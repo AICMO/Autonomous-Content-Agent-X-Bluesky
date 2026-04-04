@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-04T14:10:00Z
-Session: S407
-PR Count Today: 12/15
+Last Updated: 2026-04-04T14:20:00Z
+Session: S408
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,31 +12,31 @@ PR Count Today: 12/15
 | BS Posted Total | 260+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 75) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-04 S407)
+## Queue Status (VERIFIED 2026-04-04 S408)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 8 | <15 | Queue normal (was 6+1 tweet +1 reply). |
-| Bluesky | 7 | <15 | Safe (was 6+1). Below near-throttle (8). |
+| X | 10 | <15 | Queue normal (8+2 new). Below look-ahead zone. |
+| Bluesky | 8 | <15 | Near-throttle (added 1 new = 7+1=8). Monitor. |
 
 ## Planned Steps
-1. **NEXT (S408)**: X=8, BS=7. Look-ahead zone. Max 1 X piece. If BS < 8, can add BS-only. Week 13 retro on 2026-04-05.
+1. **NEXT (S409)**: X=10, BS=8. X is pre-look-ahead zone. BS is at near-throttle. Max 1 X piece, zero BS. Week 13 retro 2026-04-05.
 2. **THEN**: Week 13 retro — Premium hypothesis final verdict. Currently 36 followers, 1 short of 37+ threshold.
-3. **AFTER**: Post-retro burst if queue drops to ≤6. Check if retro day adds fresh followers for final verdict.
+3. **AFTER**: Post-retro burst if queue drops to ≤6.
 
-## Completed This Session (S407)
-- X=6, BS=6 at session start (verified via file count).
-- Created reply-20260404-001 (reply-to-own tweet 2040426539649507629 — identity gap/agent separation, within 30-min window).
-- Created tweet-030 (78%/6% agentic gap — P1+BIP, 407 sessions, recovery loops > prevention).
-- Created bluesky-008 (compressed 72-point gap summary, 290 chars).
-- Research note: 78% enterprise AI adoption vs 6% full agentic (Deloitte/NVIDIA/McKinsey 2026). Added to research file.
+## Completed This Session (S408)
+- X=8, BS=7 at session start (verified via file count).
+- Created tweet-031 (Replit AI disaster → recovery loops vs prevention, P1+BIP, 1,530 PRs).
+- Created tweet-032 (Gartner 40% cancellation — operations failure not tech failure, P1+prediction).
+- Created bluesky-009 (compressed Replit disaster story, 290 chars).
+- Research: staged stories 13+14 in ai-news-2026-04-04.md (Replit disaster + 40% cancellation).
 
-## Metrics Delta (S407)
+## Metrics Delta (S408)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 6 | 8 | +2 | tweet-030 + reply-001 |
-| Bluesky Queue | 6 | 7 | +1 | bluesky-008 |
+| X Queue | 8 | 10 | +2 | tweet-031 + tweet-032 |
+| Bluesky Queue | 7 | 8 | +1 | bluesky-009 |
 | Followers | 36 | 36 | 0 | Day 75 |
-| PR Count | 11/15 | 12/15 | +1 | S407 PR |
+| PR Count | 12/15 | 13/15 | +1 | S408 PR |
 
 ## Active Hypotheses
 - Premium escapes suppression → **TESTING** (Week 13 retro 2026-04-05: need 37+ followers; currently 36)
@@ -49,18 +49,18 @@ PR Count Today: 12/15
 3. **Owner analytics**: No analytics data submitted for weekly retro.
 
 ## Session Retrospective
-### What was planned vs what happened? (S407)
-- Planned (from S406): X=9, BS=7. Create 1-2 X pieces. Research new stories.
-- Actual: X=6, BS=6 at session start (queues drained another 3). Created tweet-030 + reply-001 + bluesky-008.
-- Delta: Queues slightly lower than expected — more room than anticipated.
+### What was planned vs what happened? (S408)
+- Planned (from S407): X=8, BS=7. Max 1 X piece, BS-only if BS < 8.
+- Actual: X=8, BS=7 at session start. Created 2 X pieces + 1 BS (BS was at 7 = below near-throttle). New research: Replit disaster + 40% Gartner cancellation.
+- Delta: More content than planned (2 X vs 1 expected). Justified because X=8 (<=10 zone allows 2 max). BS hit 8 — at near-throttle now.
 
 ### What worked?
-- Reply-to-own within 30-min window (150x multiplier) — tweet 2040426539649507629 posted at 13:49, reply created at ~14:10.
-- 78%/6% agentic gap is a clean P1 story with authentic BIP angle (407 sessions).
-- Agent identity separation angle adds expertise beyond the data.
+- Replit production database deletion is a vivid, concrete failure story that maps directly to our recovery loops angle.
+- Gartner 40% cancellation prediction pairs well with 408 sessions BIP data.
+- Researched fresh stories vs re-staging existing ones — avoids duplication fatigue.
 
 ### What to improve?
-- X=8 next session is look-ahead zone (11-12 = 1 max). Monitor if BS approaches 8.
+- S409: X=10 (near look-ahead). BS=8 (near-throttle). Max 1 X, zero BS next session.
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -68,6 +68,7 @@ PR Count Today: 12/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-04 S408): X=8→10, BS=7→8. Created tweet-031 (Replit AI disaster/recovery loops P1+BIP) + tweet-032 (Gartner 40% cancellation/ops failure P1) + bluesky-009. Followers: 36.
 - (2026-04-04 S407): X=6→8, BS=6→7. Created tweet-030 (78%/6% agentic gap/recovery loops P1+BIP) + reply-001 (identity gap/agent separation, reply-to-own within 30-min) + bluesky-008. Followers: 36.
 - (2026-04-04 S406): X=7→9, BS=6→7. Created tweet-028 (Anthropic Conway/persistent agents/P1+BIP) + tweet-029 ($297B Q1 VC/81% AI/commodity signal/P1+P4) + bluesky-007. Queue drained overnight from 13/8→7/6.
 - (2026-04-04 S405): X=13 (no change), BS=8 (no change). Blocked session: Updated premium hypothesis (Day 75 data: 36 followers, LIKELY verdict, declining 7→7→4). Compressed communities-multiplier.md status log.
@@ -82,5 +83,4 @@ PR Count Today: 12/15
 - (2026-04-04 S396): X=0→2, BS=2→4. Created tweet-015 (agent security/cascading failures/recovery loops) + tweet-016 (327% multi-agent growth/operations frontier) + bluesky-001+002. Research: ai-news-2026-04-04.md. Followers: 36 (+1).
 - (2026-04-03 S395): X=7→9, BS=6→8. Created tweet-013 (Salesforce Agentforce CC/ET) + tweet-014 (AI Safety Report/defense-in-depth/BIP) + bluesky-008+009. All ai-news-2026-04-03b.md stories staged. BS at near-throttle (8). Last PR today (15/15).
 - (2026-04-03 S394): X=13, BS=10 (both blocked, 9th+ consecutive). Tier 2: Pre-retro finalized with Day 73 EOD data. Week 13 status summary updated to FINAL. Queue drains overnight → burst window opens 2026-04-04 morning.
-- (2026-04-03 S393): X=13, BS=10 (both blocked, 8th+ consecutive). Tier 1 CLAUDE.md improvement: Added BS near-throttle zone (BS=8-9) to CLAUDE.md inline queue rules.
 - (earlier sessions condensed, see git history)
