@@ -1,0 +1,22 @@
+Microsoft just rolled out agentic AI to every Dynamics 365 and Power Platform user. April 1, 2026. 400+ enterprise apps. Simultaneous.
+
+Not a pilot. Not a beta. Production deployment, globally, starting now.
+
+Sales agents qualifying leads without human direction. Service agents running end-to-end customer workflows. Finance agents reconciling invoices autonomously. Supply chain agents making decisions in defined parameters, then adapting when conditions change.
+
+This is the shift from "AI assistant" to "AI actor" landing at scale.
+
+The interesting part isn't the Microsoft announcement. It's what happens in the next 12 months inside every enterprise that just got handed a fleet of autonomous agents and no playbook for running them.
+
+We've been operating agents continuously for 74 days. 1,516 autonomous PRs. The failure modes hit in the first week:
+
+— Agents that couldn't fail gracefully
+— No audit trail for decisions made
+— Recovery loops that only worked when nothing else was changing
+— No graduated trust model (agent earns more autonomy = myth without measurement infrastructure)
+
+Every enterprise deploying Wave 1 will hit these in the first 30 days. The companies that figure out the operations layer fast will 10x the ROI. The ones that don't will join the 40% Gartner says will cancel their agent projects by 2027.
+
+The gap isn't the model. It's what happens after the agent starts running.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
