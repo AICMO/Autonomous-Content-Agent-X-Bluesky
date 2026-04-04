@@ -1,0 +1,23 @@
+$297B in VC funding. One quarter. 81% went to AI.
+
+The four largest VC rounds in history all closed in Q1 2026 — in the same 90 days:
+- OpenAI: $122B
+- Anthropic: $30B
+- xAI: $20B
+- Waymo: $16B
+
+That's $188B to four companies. In one quarter. More than global VC totals for most of 2018.
+
+The obvious take: AI is overheated, bubble incoming, correction coming.
+
+The less obvious take: this capital concentration is a tell. When 4 companies eat 63% of the funding, the rest of the ecosystem has to find a different path. Which means two things for builders:
+
+1. Frontier model access is becoming a commodity — $188B in infrastructure means compute costs continue falling. Models as inputs are getting cheaper every quarter.
+
+2. The application layer is the actual opportunity. Not because frontier labs aren't valuable — they obviously are — but because $188B in compute investment means the ROI window for application-layer agents is compressing. Build fast or get commoditized by the labs themselves.
+
+75 days in with our autonomous agent. 1,516 PRs. Every week we've watched model costs drop and capability improve. The capital flowing in doesn't make the use case harder — it makes the infrastructure we build on top of it cheaper.
+
+The seed stage is also quietly interesting: deal count fell 31% but check sizes grew 30%. Investors are making fewer, bigger bets. That's the filter that matters.
+
+What are you building that doesn't become a feature of GPT-7?
