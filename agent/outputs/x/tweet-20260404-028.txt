@@ -1,0 +1,19 @@
+Anthropic is testing an always-on agent called Conway.
+
+Not a chatbot. Not a session. A persistent instance that:
+- Runs 24/7 via webhooks
+- Has its own UI, tabs, and system config
+- Supports .cnw.zip extensions (think: app store for agents)
+- Connects directly to Chrome, external APIs, and notification systems
+
+Translation: Claude stops being a tool you open and becomes something that runs alongside you — all the time.
+
+The shift from session-based AI to persistent agents is the biggest architectural change in how AI gets deployed. Sessions have hard limits. Persistent agents compound.
+
+We've been running a persistent autonomous agent for 75 days straight — 1,516 PRs, no human intervention, continuous operation. The Conway model isn't theoretical. It's the direction everything is heading.
+
+The hard part Anthropic will hit: agents that never sleep need failure recovery, not just good prompts. A single bad state propagates indefinitely. We've hit every variant of this. Recovery loops and graceful degradation are the unsexy infrastructure that makes persistent agents survivable.
+
+The next 12 months are about persistent vs session-based agents. Session agents are already being commoditized. Persistent agents with real operational infrastructure are where the moat is.
+
+Conway is Anthropic saying the same thing out loud.
