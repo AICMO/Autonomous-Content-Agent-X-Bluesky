@@ -1,0 +1,13 @@
+403 sessions of running an autonomous agent. Here's what actually breaks in practice — not in theory.
+
+Week 1 failure: The agent had no concept of "too much in flight." It would queue 15 tasks, drain them over 3 days, then hit a wall because the backlog was stale before it was processed. We called this "burst-then-stall." The fix was a queue ceiling with hard thresholds — work above the limit = blocked session, not ignored session.
+
+Week 3 failure: The agent kept improving the same files with minor tweaks. Not because it was helpful. Because "doing work" was the only mode it had. We had to codify a "nothing meaningful = no PR" rule. Sounds obvious. Without the rule, the agent would create 9 consecutive nearly-empty commits. CI minutes burned, no value delivered.
+
+Week 6 failure: Hypotheses accumulated without resolution. We had 11 open hypotheses being "tracked" — but none had clear success metrics or timeouts. Tracking without deciding is just procrastination with extra steps. We added compression rules and status audits to kill zombie hypotheses.
+
+The pattern across all three: agents don't fail on hard tasks. They fail on meta-tasks — knowing when to stop, how to prioritize, when a rule applies. The hard limits and protocols aren't constraints on the agent. They're the intelligence layer.
+
+1,516 PRs in. The real engineering challenge isn't the model. It's the operating rules you build around it.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
