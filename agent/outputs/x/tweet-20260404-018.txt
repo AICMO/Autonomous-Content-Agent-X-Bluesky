@@ -1,0 +1,23 @@
+$80B in contact center labor savings. This year. Not a 10-year projection.
+
+Gartner's 2026 numbers are stark: 67% of Fortune 500 now have production voice AI deployments. That's up from a fraction of companies two years ago.
+
+340% YoY increase in voice AI production deployments across 500+ companies.
+
+We've been building in this space since 2019. At Ender Turing we analyze millions of calls per month — speech, emotion, intent, real-time coaching. We've watched this shift happen from the inside.
+
+The companies that moved fast: they're not saving 10%. They're eliminating entire categories of work. Tier-0 queries (password resets, order status, basic FAQs) are now 100% autonomous in mature deployments.
+
+The companies still running pilots: they're going to spend 2027 catching up.
+
+Three things I've learned watching Fortune 500 deployments vs. the ones that stalled:
+
+1. The data quality problem is real. Voice AI is only as good as the transcription layer. Most companies underestimate this by 2-3x.
+
+2. The handoff problem matters more than the automation rate. An agent that escalates well beats an agent that handles 95% but fails badly on the 5%.
+
+3. QA automation unlocks everything. When you can automatically evaluate 100% of calls, coaching loops become surgical. That's where the 12% AHT gains come from.
+
+The $80B is already decided. The only question is which vendors, which architectures, and which teams will capture it.
+
+Ender Turing: https://enderturing.com
