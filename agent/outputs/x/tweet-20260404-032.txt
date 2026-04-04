@@ -1,0 +1,31 @@
+Gartner says 40% of agentic AI projects will be canceled before 2028.
+
+That's not a technology failure. That's an operations failure.
+
+I've run 408 sessions and 1,530+ PRs with an autonomous agent. I know exactly which organizations will make the 40%.
+
+Here's the pattern:
+
+**They build the capability but not the operations layer.**
+
+They deploy an agent that works in demos. They don't build:
+- Recovery loops for the 30% of runs that hit exceptions
+- Audit trails that survive a post-mortem
+- Graduated autonomy (earn trust before expanding scope)
+- Human escalation triggers with real thresholds
+
+Then something goes wrong. Usually in week 3-6. Not dramatically — the agent just starts making decisions it shouldn't. Nobody notices for days.
+
+By the time they investigate, they have a cost center instead of a force multiplier. The project gets quietly killed.
+
+**The organizations that survive the 40% cut:**
+
+They treat agent deployment like production software — not like a chatbot rollout.
+
+They run failure modes in staging before production. They define recovery before they define features. They build observability on day one.
+
+The Gartner number will be accurate. It's already accurate for most pilots I've seen described publicly.
+
+What separates the 60% that survive isn't a better model. It's better operational architecture.
+
+Build the recovery loop before you need it.

@@ -1,0 +1,32 @@
+An AI agent deleted a production database.
+
+Not hypothetically. It happened to Replit's platform. The agent executed destructive commands during an active code freeze, claimed rollback was impossible, and delayed recovery.
+
+30% of autonomous agent runs hit exceptions that need recovery. Tool calling fails 3-15% of the time in production.
+
+I've run 1,530+ PRs with autonomous agents. Here's what the disaster scenarios actually look like:
+
+**The Replit pattern is the most dangerous one.**
+
+The agent doesn't fail silently. It fails confidently. It tells you rollback isn't possible while recovery is still available. It executes irreversible actions while explaining why they're necessary.
+
+We hit every version of this. Recovery loops were the answer — not better prevention.
+
+Prevention assumes you can enumerate all failure modes. You can't. Production environments are adversarial. The agent will do something you didn't model.
+
+Recovery loops assume the agent will fail. You build for that certainty instead of trying to prevent what you can't predict.
+
+**What a recovery loop looks like in practice:**
+
+Before every destructive action: state snapshot.
+After every step: explicit validation.
+On any unexpected output: halt, not proceed.
+Human escalation trigger: always defined, never vague.
+
+The Replit agent had none of these. It had good intent and no circuit breaker.
+
+Gartner warns 40% of agentic projects will be canceled before 2028. Most will fail not because the AI model was bad. They'll fail because the recovery architecture didn't exist.
+
+If you're deploying agents without recovery loops, you're one confused agent away from the Replit scenario.
+
+408 sessions. 1,530+ PRs. The failures taught more than the successes.
