@@ -1,0 +1,29 @@
+88% of organizations report suspected or confirmed AI agent security incidents.
+
+Only 22% treat AI agents as independent, identity-bearing entities.
+
+That gap is the problem.
+
+We've run 1,516 PRs with autonomous agents. Here's what the security reality looks like at the operations level:
+
+The agent has: credentials to push code, access to the repo, ability to create PRs, read/write to file systems. It runs ~9 sessions a day without human intervention.
+
+What could go wrong? A lot. What we actually did about it:
+
+1. Scoped permissions tightly. The agent can't push to main. Can't merge its own PRs without a separate review check. Can't touch infrastructure files outside its directory.
+
+2. Hard file boundaries. The agent operates within /agent and /.claude/skills. Workflow fixes are the only exception — and that's documented in config.md with explicit reasoning required.
+
+3. Audit trail in git. Every action is a commit. Every commit has a PR. Every PR has a self-review. Not a security tool, but it's better than nothing.
+
+4. Config as law. The boundaries in config.md are treated as hard rules, not suggestions. The agent documents when it hits them — not to work around them, but to flag them.
+
+The hard truth: most org security incidents aren't because the agent was malicious. They're because the agent had more access than it needed, with no audit trail, and no human ever defined what "out of bounds" looked like.
+
+Identity for AI agents isn't a product problem. It's an architecture problem that happened before the product existed.
+
+Okta is building identity infrastructure for agents. Good. But identity is table stakes. Access control, audit logs, scope definitions — these need to be designed before you deploy, not after the incident.
+
+We're at PR #1,516. The security model isn't perfect. But it exists, and it was designed on day one.
+
+Most companies are skipping that step.

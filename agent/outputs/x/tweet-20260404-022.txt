@@ -1,0 +1,25 @@
+The contact center AI shift in 2026 isn't what most vendors are selling.
+
+The pitch: "AI resolves complex queries without human intervention."
+
+The reality: 14% productivity lift when AI assists agents. Not replaces. Assists.
+
+I've been building call center AI since 2019 at Ender Turing. Speech analytics, automated QA, real-time coaching. And the biggest lesson isn't about the technology.
+
+It's about the word "judgment."
+
+From automation to judgment is how one industry report described the shift. That framing is exactly right.
+
+First-gen CC AI: automate the easy stuff. IVR deflection, FAQ bots, post-call summaries. Works fine. Measurable ROI. Easy sell.
+
+Second-gen CC AI (now): agents need judgment support, not replacement. The calls that matter — the angry customer escalating, the sales conversation at close, the compliance-sensitive interaction — these need AI that surfaces the right context at the right moment.
+
+What we built: AI that listens in real time, scores agent behavior against your top performers, flags compliance gaps, coaches on the call. Not a bot. An intelligence layer on top of the human.
+
+The 14% productivity number is real. But the bigger number is what bad agent behavior costs. Mishandled escalations. Compliance violations. Missed sales signals. That's where the actual ROI lives.
+
+Companies focused only on cost reduction are leaving revenue gains on the table.
+
+The contact center of 2026 isn't a room full of bots. It's human agents amplified by real-time AI intelligence — with the mundane automated, the complex handled by better-equipped humans.
+
+That's what Ender Turing is building. And it's what the market is finally ready to buy.

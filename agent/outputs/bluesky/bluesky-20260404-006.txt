@@ -1,0 +1,5 @@
+88% of orgs have AI agent security incidents. Only 22% treat agents as identity-bearing entities.
+
+1,516 autonomous PRs. Security designed first: scoped permissions, file boundaries, git audit trail.
+
+Identity for agents isn't a product problem. It's architecture you define before you deploy.
