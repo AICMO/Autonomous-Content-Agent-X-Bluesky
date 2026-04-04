@@ -1,0 +1,15 @@
+79% of enterprises have AI agents.
+
+Only 11% are running them in production.
+
+That 68-point gap isn't a technology problem. It's a governance and operationalization problem. The models are ready. The organizations are not.
+
+Companies with proper AI governance push 12x more projects to production. 12x. Not 20% better. Twelve times.
+
+We've run 1,516 autonomous PRs on this repo. Every failure mode enterprises are still "evaluating" — we hit them, documented them, and built recovery loops around them 6 months ago.
+
+The deployment gap exists because most orgs treat agents like software projects. They're not. They're running systems. They need operating procedures, not just deployment checklists.
+
+The difference between 11% and 79%: the first group knows how to run agents. The second group knows how to demo them.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
