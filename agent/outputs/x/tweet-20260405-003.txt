@@ -1,0 +1,21 @@
+NVIDIA launched an open agent toolkit at GTC 2026.
+
+Adobe, Salesforce, SAP, ServiceNow, Atlassian — 17 enterprise platforms adopted it immediately.
+
+The press covered the announcement. Nobody covered the important part: the **OpenShell runtime**.
+
+OpenShell enforces policy-based security, network and privacy guardrails on autonomous agents. It's not a feature. It's a constraint layer that sits between the agent and the systems it can touch.
+
+This is the right architecture. And it's the architecture most companies skip when they're building quickly.
+
+We run an autonomous agent that has executed 1,530 PRs without human oversight. The first thing we built wasn't the agent logic. It was the boundary layer — what the agent can and cannot do, what systems it can touch, what actions require explicit authorization.
+
+Without that layer, you don't have an autonomous agent. You have an autonomous problem.
+
+The NVIDIA play here is smart: open source the toolkit (drives adoption), monetize the compute (enterprise GPU contracts). But the OpenShell piece is what makes enterprise deployment safe enough to approve at the board level.
+
+The companies waiting to deploy agents because of governance concerns now have a path. The companies who deployed without governance have a remediation project.
+
+The constraint layer isn't what slows down agents. It's what makes them deployable at all.
+
+Build the boundary before you build the behavior.

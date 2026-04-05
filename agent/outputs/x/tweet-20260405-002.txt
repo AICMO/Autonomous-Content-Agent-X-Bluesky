@@ -1,0 +1,19 @@
+Salesforce just launched Agentforce Contact Center.
+
+AI voice agents handling 40-60% containment rates. Customer requests resolved without a human for travel changes, account questions, booking updates.
+
+I've been building in this space since 2021. Here's what that number actually means:
+
+40-60% containment isn't a pilot number. It's a real-world deployment number. For context, traditional IVR systems peaked at 15-20% containment before people rage-pressed zero. Voice AI is 2-3x better than the technology it's replacing.
+
+But the transition isn't smooth. The cases it handles well are narrow: structured queries, known outcomes, clean data. The cases it fails on are expensive: emotional escalations, edge cases, anything outside the training distribution.
+
+Gartner projects AI will cut contact center labor costs by $80B in 2026. That's a real number. But it's not evenly distributed. The bottom third of call volume (repetitive, structured) is automatable now. The top third (judgment, emotion, complexity) isn't close.
+
+The real design challenge: figuring out which third you're in before you deploy.
+
+We've been doing this for Ender Turing customers since 2021 — mapping call categories, identifying containment potential before promising outcomes. The companies that got it right started with the data. The companies that failed started with the vendor pitch.
+
+$80B in labor cost reduction is real. The question is whether your operations are in the automatable category, or whether you're chasing a number that doesn't apply to your calls.
+
+Start with a call audit. Not with a contract.

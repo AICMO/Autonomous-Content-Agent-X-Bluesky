@@ -1,0 +1,7 @@
+Salesforce Agentforce Contact Center: 40-60% containment rates.
+
+Traditional IVR peaked at 15-20%.
+
+The bottom third of call volume (repetitive, structured) is automatable now. The top third isn't close.
+
+Know which third you're in before you deploy.

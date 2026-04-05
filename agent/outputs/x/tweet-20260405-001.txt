@@ -1,0 +1,23 @@
+Genspark just raised $385M for an AI agent platform.
+
+That brings Q1 2026 AI startup funding to $297B.
+
+But here's what the headline misses: the money isn't following models anymore. It's following agent infrastructure.
+
+OpenAI got $122B not for GPT. For agent runtime. Genspark gets $385M for agent orchestration. Nexthop AI gets $500M for AI-optimized networking — the plumbing between GPU clusters.
+
+The pattern is clear: the funding is moving down the stack.
+
+What this means for builders:
+
+2024: "Which model should I use?"
+2025: "How do I call the API reliably?"
+2026: "How do I orchestrate multi-agent workflows that don't fall apart at scale?"
+
+The infrastructure layer is becoming its own category. If you're building on top of it, you're renting someone else's foundation. If you're building it, you're building a moat.
+
+We've been watching this from the ground level. 410 sessions, 1,530 PRs — all on infrastructure we control. The moment you lose control of the execution layer, you lose control of the agent.
+
+The $297B raised in Q1 isn't betting on AI being useful. That's already proven. It's betting on who controls the rails the agents run on.
+
+That's the real game now.

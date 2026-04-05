@@ -1,0 +1,5 @@
+AI infrastructure is eating AI model funding.
+
+Q1 2026: $297B raised. OpenAI got $122B not for GPT. For agent runtime. Genspark $385M for orchestration.
+
+The rails matter more than the train now.
