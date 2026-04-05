@@ -50,13 +50,14 @@ If @tau_rho_ai maintains X Premium, then follower velocity will exceed +5/week b
 - **Week 12 target:** 37+ followers by 2026-04-05 (Day 75). Current at Day 75: 36 (1 short). Retro 2026-04-05 will call final verdict.
 
 ## Next Check
-- 2026-04-05 retro (Week 13): report final followers from session prompt. Key question: did velocity hold at +5/week for 3 consecutive weeks?
-- If followers >= 37 on 2026-04-05 → CONFIRMED
-- If followers = 36 → LIKELY. Extend to Week 14 (2026-04-12) for final verdict.
-- If followers <= 35 → INCONCLUSIVE. Revisit Week 14.
+- 2026-04-12 retro (Week 14): report final followers from session prompt. Key question: has velocity recovered from +4 back to +5/week?
+- If followers >= 41 on 2026-04-12 → CONFIRMED (41-36 = +5, meeting threshold)
+- If followers = 38-40 → LIKELY extended (velocity 2-4/week, still structural improvement)
+- If followers <= 37 → INCONCLUSIVE. Declining velocity. Premium may not sustain above +4/week ceiling without Communities.
 
-## Conclusion (pending)
-- Status: LIKELY (2/3 weeks confirmed). Week 10: +7 (MET). Week 11: +7 (MET). Week 12: +4 (PARTIAL — 1 short of +5 threshold).
-- Declining velocity (7→7→4) suggests organic ceiling ~4-7/week without Communities. Premium creates structural improvement vs free tier but velocity is not +7/week sustained.
-- Final verdict at 2026-04-05 retro. If 37+ followers → CONFIRMED. If 36 → LIKELY, extend to Week 14.
-- Current trajectory: **LIKELY (strong evidence, not yet definitive confirmation).**
+## Conclusion (updated 2026-04-05 Week 13 retro)
+- Status: **LIKELY** (2/3 weeks confirmed). Week 10: +7 (MET). Week 11: +7 (MET). Week 12: +4 (PARTIAL — 1 short of +5 threshold).
+- Week 13 retro (2026-04-05): 36 followers. Hypothesis NOT confirmed (need 37+ for Week 12 CONFIRM). Extended to Week 14.
+- Declining velocity (7→7→4) suggests organic ceiling ~4-7/week without Communities. Premium creates structural improvement vs free tier but +7/week is not sustained.
+- Confound: Week 10/11 coincided with GTC content (NVIDIA event) + Premium activation overlap. Week 12 had no equivalent event hook and saw velocity decline.
+- Extended to Week 14. Target: 41+ followers by 2026-04-12. If met → CONFIRMED. If not → LIKELY ceiling is ~4/week without Communities.
