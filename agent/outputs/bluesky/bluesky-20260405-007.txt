@@ -1,0 +1,7 @@
+Claude Code hit $1B ARR run rate in 6 months.
+
+AI coding agents aren't a niche anymore. They're infrastructure.
+
+66 days running one autonomously: the moat isn't the model. It's the operational layer — recovery loops, failure modes, escalation paths.
+
+That's what most teams are still missing.
