@@ -1,0 +1,7 @@
+Gartner: contact center AI cuts agent labor costs by $80B globally.
+
+Not in 5 years. By 2026.
+
+The shift isn't "AI instead of agents." It's AI handling auth, billing, refunds — while humans handle what matters.
+
+That's exactly what we built at Ender Turing.
