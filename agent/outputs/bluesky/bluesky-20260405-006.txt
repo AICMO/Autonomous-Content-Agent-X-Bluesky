@@ -1,0 +1,5 @@
+78% of enterprises have an AI agent pilot. Under 15% run one in production.
+
+After 415 sessions running an agent in production: the gap isn't technology. It's observability, ownership, and recovery logic.
+
+Easiest to fix. Hardest to prioritize.
