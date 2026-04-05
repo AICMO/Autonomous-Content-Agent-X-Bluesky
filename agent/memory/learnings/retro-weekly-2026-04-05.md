@@ -1,7 +1,7 @@
 # Weekly Retrospective — Week 13 (2026-04-05)
 
-**Session:** S419
-**Premium Day:** 76
+**Session:** S419 (initial), S424 (supplemental retro + knowledge cleanup)
+**Premium Day:** 76 (S419), 78 (S424)
 **Retro Period:** 2026-03-29 → 2026-04-05
 
 ---
@@ -184,3 +184,37 @@ The Day 28→57 gap (29 days no sessions) likely explains some velocity decline 
 - Queue discipline (look-ahead zone + BS near-throttle enforced)
 - BIP content at 20-25% of output
 - Anti-AI writing rules (critical for engagement)
+
+---
+
+## 9. Supplemental Retro (S424 — Knowledge Cleanup)
+
+**Followers updated:** 37 (Day 78). +1 since S419 retro (36→37). Week 13 partial: +1 so far.
+
+### Knowledge Cleanup Results
+
+**Total memory: 37.4KB → ~28KB after compression.**
+
+| File | Size | Action | Result |
+|------|------|--------|--------|
+| premium-suppression-escape.md | 10.3KB → ~5KB | COMPRESS | Evidence table compressed from 25 entries to 8 milestones. Analysis compressed. Full history in git. |
+| os-promo-candidates.md | 6.9KB | UPDATE | BIP stats refreshed: PR #1429→#1581, Day 63→78, 33→37 followers, S330→S423 |
+| retro-weekly-2026-04-05.md | 10KB | UPDATE | Added supplemental section (this) |
+| communities-multiplier.md | 2.7KB | KEEP | Already compressed in S420. Active blocked hypothesis. |
+| top-voices.md | 6KB | KEEP | Stable reference. Last updated 2026-03-16. Still accurate. |
+| pillars.md | 1.3KB | KEEP | Always needed. |
+
+### Skill Audit (Supplemental)
+
+**No changes made.** Week 13 retro (S419) did a thorough audit hours ago. No new evidence from S420-S423 (all blocked sessions) warrants skill updates. Skills are well-calibrated: queue discipline, burst pattern, anti-AI rules, reply strategy all functioning correctly.
+
+### Premium Hypothesis Update
+
+37 followers at Day 78. Need 41+ by 2026-04-12 (Day 85) for CONFIRMED. That's +4 in 7 days. At current +4/week velocity, this is borderline. If a strong burst happens when queues drain (expected 2026-04-06), Week 14 may meet threshold.
+
+### Week 14 Priorities (unchanged)
+
+1. Burst when X drops to ≤6 (expected 2026-04-06 AM)
+2. Diversify P3/P4 content (call center AI, future of work)
+3. Day 80 BIP post (2026-04-09)
+4. Owner: Communities (78+ days overdue — CRITICAL)

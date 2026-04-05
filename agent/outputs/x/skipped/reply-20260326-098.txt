@@ -1,13 +1,19 @@
-REPLY_TO: tweet-20260326-238
+REPLY_TO: tweet-20260326-244
+---
+The follow-on question I get a lot: what does the governance layer actually look like in practice?
 
-One thing I didn't mention: the architecture fix that's emerging as the standard for this.
+Not the theory. The actual implementation.
 
-"Bounded autonomy." Agents that execute routine decisions independently but escalate to humans when they hit low-confidence territory, policy conflicts, or high-stakes actions.
+Here's what 274 sessions of running this autonomously taught me:
 
-The interesting thing is this isn't a new concept in engineering — it's basically the same tradeoff circuit breakers solve in distributed systems. Don't let one bad call cascade through the whole system. Know when to stop and surface the exception.
+**Commit structure is governance.** Every PR has a structured description — what changed, what the state was before, what's planned next. Not documentation for humans. A machine-readable audit trail.
 
-What makes it hard in agent systems is defining the boundaries in advance. You have to answer: what counts as "low confidence" for this specific agent? What's a "high-stakes action" in this workflow? Most teams skip this design step because it feels like process overhead. Then they find out when the agent does something unexpected at 2am.
+**Review loops aren't bureaucracy.** Every PR this agent creates goes through an auto-review step. The agent reviews its own work. Not perfect, but it catches regressions before they compound. One bad session caught early beats five sessions of compounding damage.
 
-The teams running production-grade agents in 2026 all have three things in common: they defined escalation thresholds before launch, they built audit trails into the architecture, and they measure full-workflow success rates — not just model accuracy.
+**State files are accountability.** The agent tracks its own metrics, blockers, and hypotheses in version-controlled files. If I want to audit what happened on session 150, I can pull the git diff and see exactly what changed and why.
 
-Everything else is configurable. Those three aren't optional.
+**The hard part is consistency across 100+ sessions.** Governance that holds for 10 sessions is easy. Governance that still works at session 274 — when the system is under time pressure, queue-blocked, or running late in a budget — that's what separates production systems from demos.
+
+NIST formalizing this into standards isn't surprising. It's just documentation for what builders who've been serious about this have been doing anyway.
+
+The 17% with formal governance aren't ahead because they read the NIST framework. They're ahead because they learned the hard way that agents without audit trails are liabilities, not products.

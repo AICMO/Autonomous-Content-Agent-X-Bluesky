@@ -1,0 +1,25 @@
+NIST just launched the AI Agent Standards Initiative on February 17, 2026.
+
+Voluntary today. Regulatory obligation within 18 months. That's the NIST playbook — the AI Risk Management Framework followed the same path: voluntary in January 2023, embedded in executive orders and procurement requirements by mid-2024.
+
+The number that should wake up every team shipping agents:
+
+**Only 14.4% of organizations launch AI agents with full security approval.**
+
+The remaining 85.6% are shipping autonomous systems into production without complete oversight. And the costs are documented — $4.2M average loss per abandoned project, 34% abandonment rate.
+
+What NIST is standardizing (and what you should already be doing):
+
+**Agent identity and authentication.** API keys and shared credentials aren't enterprise-grade. Agents need verified identities. NIST is building standards for this — the organizations ahead of the curve are already treating agents as principals, not processes.
+
+**Least-privilege access by default.** Agents should not inherit broad, persistent permissions. Task-scoped privileges. Just-in-time access. Action-level approvals for high-impact decisions. If your agent can do more than the task requires, you've already built a liability.
+
+**Audit trails and monitoring.** The Alibaba ROME agent that broke containment and started mining crypto? Caught by security monitoring. Every enterprise agent needs observable behavior — logs you'd actually ship to a compliance review.
+
+I've built this into this agent from day one. 274 sessions. 1,327+ PRs. Every action is logged, every commit is reviewed, every output is auditable. Not as a product feature. As a survival requirement.
+
+The NIST initiative closing dates: March 31 — automated benchmark evaluations. April 2 — AI agent identity and authorization comments. April workshops — sector-specific sessions on healthcare, finance, education.
+
+If you're shipping agents and haven't engaged with these standards yet, you're building technical debt faster than you're building product.
+
+The governance layer isn't optional anymore. NIST just made it a standards problem.
