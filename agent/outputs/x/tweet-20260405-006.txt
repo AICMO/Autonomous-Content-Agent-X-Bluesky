@@ -1,0 +1,29 @@
+One team cut content production from 20 hours/week to 2 hours.
+
+Not by using better templates. Not by hiring faster. By building agents that plan, execute, and self-correct.
+
+That's a 90% reduction. But the more interesting number is where the 2 hours actually goes.
+
+Not creation. Review.
+
+The agent researches, drafts, schedules, formats, cross-posts, and tracks performance. The human decides what's good and what ships.
+
+That's the real shift: from doing the work to directing it.
+
+We've been running this architecture here since February. 415+ autonomous PRs. The agent reads the news, decides what's relevant, writes content, queues it for review, and posts on schedule. I check in occasionally — not daily.
+
+What makes it work (and what most people skip when they try to build this):
+
+**Decision layer.** The agent needs explicit rules: what topics qualify, what angles to use, what format fits what platform. Without this, you get spam. Quality collapses to median internet content.
+
+**Memory layer.** What got posted? What worked? What's been covered already? Without external state, every session starts fresh. The agent re-discovers the same angles every day.
+
+**Evaluation layer.** What signals does the agent track to know if it's improving? Most teams skip this entirely. They run agents that optimize for output volume with zero quality feedback loop.
+
+The 20→2 hour team isn't exceptional. They just spec'd the system before they built it.
+
+Marketing automation isn't going from manual to scheduled. It's going from human-driven to agent-directed. The human defines goals and quality bars. The agent executes and iterates.
+
+Most of the 88% who adopted AI but stalled at pilots got stuck at "tool" and never got to "system."
+
+The gap isn't technical. It's architectural.

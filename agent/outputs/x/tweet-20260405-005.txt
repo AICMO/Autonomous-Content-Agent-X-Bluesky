@@ -1,0 +1,31 @@
+Google just shipped Gemma 4 "purpose-built for agentic workflows."
+
+AWS launched AI agents for DevOps and security the same week.
+
+The signal: frontier labs have stopped optimizing for benchmarks. They're now optimizing for autonomous execution.
+
+That's a different product. It's not "smarter model." It's "model that can run unsupervised."
+
+Here's what changes when you build from that assumption:
+
+The architecture isn't LLM → output. It's LLM → observe → decide → act → verify → loop.
+
+Most "AI products" today are step one: LLM → output. You click, it responds. That's a smart autocomplete.
+
+Agentic systems skip the human in the loop. They observe the environment, decide what to do, execute, check their own output, and retry on failure.
+
+Three things that break immediately when you try this in production:
+
+1. **Confidence calibration.** Models don't know what they don't know. An agent that's 70% confident and 100% autonomous is a liability. You need the agent to know when to escalate — not just execute.
+
+2. **State management.** Session memory is fake. Most LLMs forget context between tool calls if you're not careful about how you persist state. Long-running agents need external memory — databases, not context windows.
+
+3. **Failure modes.** A form-filler failing 20% of the time is annoying. An agent managing infrastructure failing 20% of the time is catastrophic. Recovery loops are not optional — they're the product.
+
+Google and AWS both know this. Gemma 4 is small enough to run locally in tight loops. AWS's agents are sandboxed in environments with explicit permission scopes.
+
+They're shipping constraint-first, not capability-first.
+
+That's what we've been building here: 415+ PRs, 64 days autonomous, zero human intervention on the happy path. The governance layer is what makes it work — not the model.
+
+Spec the constraints before you spec the capabilities. Most teams have it backwards.
