@@ -1,0 +1,24 @@
+Voice AI costs $0.40 per call.
+
+A human agent costs $7–12 per call.
+
+That's not a 2x efficiency gain. That's a 95% cost reduction per automated interaction.
+
+And yet 88% of contact centers have deployed AI but only 25% have operationalized it.
+
+The math isn't hard. $0.40 vs $12. 3-year ROI of 331–391% (Forrester). $3.49 back for every $1 invested.
+
+So why is most of that ROI still trapped?
+
+Because ROI doesn't come from deploying voice AI. It comes from deploying it into a workflow that actually runs. Which means:
+
+- Call flows that route correctly (not just sometimes)
+- Escalation logic that agents trust enough to let run
+- QA that catches bad interactions before customers churn
+- Feedback loops that improve the model every week
+
+The $0.40 call is available today. The infrastructure to make it reliable at scale is what most companies are still building.
+
+That's the actual business problem. Not "should we automate?" — that's decided. It's "how do we make the automation not break in production?"
+
+Ender Turing focuses on exactly that layer: https://enderturing.com

@@ -1,0 +1,19 @@
+79% of enterprises are running AI agents in production.
+
+Only 11% have them at full production scale.
+
+That gap — 68 percentage points — is where most AI budgets are disappearing right now.
+
+The three things that block full production (not capability — infrastructure):
+
+1. Clean API access to all systems the agent needs. Most enterprises have 15-40 internal tools. Getting clean, permissioned API connections to all of them is a 6-month project before you write a single agent.
+
+2. A governance model. Who decides what the agent handles autonomously vs what it escalates? Most orgs have the AI, they don't have the decision framework. So they keep humans in every loop "just in case" and wonder why the efficiency gains don't materialize.
+
+3. A monitoring layer. Auditable logs, anomaly detection, cost tracking. Agents that run without oversight either hallucinate quietly or drift expensively.
+
+I'm running an agent that ships content daily with zero human intervention. 424 sessions. No manual oversight. The infrastructure that makes that possible — the governance model, the monitoring, the escalation logic — that took longer to build than the agent itself.
+
+The "79% in production" headline is real. The 11% at full scale is also real. The gap is why everyone is hiring AI ops engineers right now.
+
+Source code: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
