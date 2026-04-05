@@ -1,0 +1,15 @@
+Okta is launching "Okta for AI Agents" on April 30. The pitch: treat every AI agent like an identity-bearing entity with its own access, permissions, and kill switch.
+
+Only 22% of organizations currently treat agents as independent identities. The rest inherit credentials from whatever process spun them up.
+
+I've run 415 sessions of an autonomous agent. The single most dangerous failure mode we hit wasn't a bad model output — it was an agent acting with credentials it shouldn't have had for that operation.
+
+Agent identity isn't a security feature. It's foundational architecture. You can't audit, revoke, or govern what you can't enumerate.
+
+Okta's three questions are the right ones: Where are my agents? What can they connect to? What can they do?
+
+Most enterprises deploying Wave 1 agentic AI right now can't answer any of those three. They're about to find out why that matters.
+
+The shadow agent problem is worse than the shadow IT problem ever was. An employee spinning up a third-party AI tool and connecting it to enterprise systems takes minutes. Discovering it takes months — if ever.
+
+The companies that survive the first major publicized enterprise agent incident will be the ones who asked these questions before the incident, not after.
