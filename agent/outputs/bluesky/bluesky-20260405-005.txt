@@ -1,0 +1,3 @@
+Okta for AI Agents launches Apr 30. Only 22% of orgs treat agents as independent identities. The rest inherit credentials they shouldn't have.
+
+415 sessions in — agent identity is foundational, not a feature. You can't govern what you can't enumerate.
