@@ -1,0 +1,7 @@
+88% of contact centers deployed AI. Only 25% operationalized it.
+
+The gap: no governance, no escalation logic, no feedback loop.
+
+That's where $80B in labor savings sits untouched.
+
+The model isn't the hard part. The handoff is.

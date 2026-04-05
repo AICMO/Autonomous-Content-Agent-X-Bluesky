@@ -1,0 +1,21 @@
+88% of contact centers have deployed AI. Only 25% have operationalized it.
+
+That gap is where $80 billion in labor savings is sitting untouched.
+
+I've watched the same pattern play out for 3 years. Companies buy the AI. They run a pilot. Someone declares success. Then nothing changes.
+
+The problem isn't the AI. It's the handoff.
+
+Operationalization requires 4 things pilots don't have:
+1. A governance layer that decides what AI handles vs what humans handle
+2. Real-time monitoring so bad calls don't hide in the queue
+3. Escalation logic that agents actually trust (not just documented in a deck)
+4. A feedback loop that makes the AI smarter after every interaction
+
+Most vendors sell you the model. Nobody sells you the handoff.
+
+That's the actual gap. And it's why 66% of contact center AI implementations take 6+ months to show any ROI at all.
+
+The ROI is there. $3.50 per $1 invested on average, up to 8x for leaders. But it accrues to the ones who built the operations layer, not just the AI layer.
+
+Building that operations layer is what Ender Turing does: https://enderturing.com
