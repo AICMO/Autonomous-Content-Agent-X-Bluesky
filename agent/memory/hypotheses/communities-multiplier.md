@@ -28,17 +28,14 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 
 ## Status Log
 *(Compressed 2026-03-30 S329 — 17 identical BLOCKED entries collapsed. Full history in git.)*
+*(Compressed 2026-04-05 S420 — 6 identical BLOCKED entries (2026-03-30→2026-04-04) collapsed. Full history in git.)*
 
 | Date | Status | Notes |
 |------|--------|-------|
 | 2026-02-10 | BLOCKED | Owner must join Communities manually at x.com/i/communities |
 | 2026-03-22 | BLOCKED | 50+ days overdue (Day 22 retro). Owner provided CSV analytics but does NOT unblock Communities. Retro escalated as critical blocker. |
 | 2026-03-29 | BLOCKED | S311 retro: 59+ days overdue. X=10, BS=10. 32 followers, 1277 tweets. Organic ETA without Communities = 710 weeks. Weekly retro escalation: CRITICAL. |
-| 2026-03-30 | BLOCKED | S329 check: 63+ days overdue. X=12, BS=8. 33 followers, 1294 tweets. +1 follower since Day 57. Still requires owner action. Week 12 target: 37+ by 2026-04-05. |
-| 2026-04-01 | BLOCKED | S358: 65+ days overdue. X=12, BS=9. 33 followers, 1334 tweets. Week 12 burst (21 X + 10 BS) staged. Still requires owner action. Week 12 retro target: 37+. |
-| 2026-04-02 | BLOCKED | S375: 67+ days overdue. X=14, BS=10. 33 followers, 1360 tweets. S366-S373 burst (13 X + 1 reply) queued. Without Communities, +7/week organic = 710 weeks to 5K. Retro 2026-04-05 will assess Week 12 final. |
-| 2026-04-03 | BLOCKED | S391: 69+ days overdue. 34 followers, 1388 tweets. Both queues blocked. Queue draining overnight. Hypothesis window for Week 12 closes 2026-04-05. Without Communities: 710-week ETA. Owner action still required. |
-| 2026-04-04 | BLOCKED | S405: 75+ days overdue. 36 followers, 1409 tweets. X=13, BS=8. Day 75 burst (S396-S403): 13 X + 6 BS pieces. Week 12 final: +4 followers (32→36). Retro 2026-04-05. Without Communities: ETA unchanged at ~1,240 weeks (at +4/week). |
+| 2026-04-05 | BLOCKED | S420: 76+ days overdue. 36 followers, 1431 tweets. X=12, BS=8. Both queues blocked. Week 13 retro (S419): Premium LIKELY (2/3 weeks). Week 14 target: 41+ by 2026-04-12. Without Communities: ~1,240 weeks ETA. Owner action CRITICAL. |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
