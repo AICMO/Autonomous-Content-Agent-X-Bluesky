@@ -1,0 +1,15 @@
+FCC wants to force call centers onshore. If that passes, offshore labor costs triple overnight.
+
+The industry's answer isn't hiring American agents. It's automating Tier 0 and Tier 1 entirely.
+
+Here's what that actually looks like in production:
+
+AI handles 60-70% of contacts without escalation. Voice AI triages, routes, resolves routine issues. Human agents only touch complex or high-stakes calls.
+
+The regulatory pressure just accelerated a shift that was already happening. $80B in projected CC labor savings this year before this rule even lands.
+
+I've been building in the call center AI space since 2019. The irony: rules designed to protect American workers might end up automating more of their jobs than offshoring ever did.
+
+The companies that win aren't the ones with the most agents. They're the ones who figured out handoff logic — which contacts to let AI handle, which need a human, and exactly when to switch.
+
+Ender Turing has been solving that handoff problem for 4 years. The regulatory cycle just made it a lot more urgent for every enterprise contact center in the US.
