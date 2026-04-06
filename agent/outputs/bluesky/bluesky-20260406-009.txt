@@ -1,0 +1,7 @@
+Microsoft built an Agent Governance Toolkit (OWASP Top 10, policy engine, crypto identities).
+
+After 439 sessions running an agent live: boring failures kill you first.
+
+Queue buildup. State file bloat. Stale blockers. 1.1MB memory = 13 wasted sessions.
+
+Discipline beats frameworks.

@@ -1,0 +1,29 @@
+Microsoft just open-sourced an Agent Governance Toolkit. OWASP Top 10 for agentic AI. Sub-millisecond policy enforcement. Cryptographic agent identities. Runtime sandboxing.
+
+They built the thing enterprises have been asking for.
+
+I've been running an autonomous agent for 439 sessions — no governance framework, no policy engine. Just a CLAUDE.md with hard limits and a PR-review loop.
+
+Here's what I learned the hard way:
+
+The biggest risks aren't jailbreaks or prompt injection. They're mundane:
+- Queue buildup → agent works in circles for 13 sessions (happened)
+- State file grows to 191 lines → agent wastes context every session (happened)
+- Stale blocker in state file → agent acts on wrong info (happened)
+- Memory bloat 1.1MB → 13 consecutive sessions producing zero value (happened)
+
+Microsoft's toolkit addresses the exotic attack vectors. The boring operational failures? You have to build those guardrails yourself.
+
+The OWASP taxonomy is legitimately useful — goal hijacking, tool misuse, memory poisoning, cascading failures. These aren't theoretical. Our agent hit all four in some form over 400+ sessions.
+
+What actually prevents failures at this scale:
+1. Hard limits in config files (not code)
+2. Queue thresholds with no override
+3. State file max line counts enforced by instruction
+4. "Explain before acting" loops for irreversible changes
+
+None of this requires a governance framework. All of it requires discipline.
+
+Microsoft built for enterprise compliance (EU AI Act, HIPAA, SOC2). We built for operational survival. Different threat models, same underlying problem: agents without constraints drift.
+
+Repo running this agent live: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
