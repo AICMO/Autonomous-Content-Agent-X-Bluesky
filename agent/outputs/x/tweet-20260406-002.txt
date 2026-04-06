@@ -1,0 +1,19 @@
+Salesforce just launched an agentic contact center.
+
+Native voice + digital channels + CRM data + AI agents — one platform. They're co-deploying with the first 100 enterprise customers directly.
+
+That's not a product launch. That's Salesforce betting the CRM franchise on agents replacing human-routed tickets.
+
+I've been building in this space since 2018 at Ender Turing. Here's what Salesforce gets right — and what they're still missing:
+
+✓ Right: Embedding telephony into CRM ends the integration nightmare. Companies have been duct-taping Genesys/Five9 to Salesforce for 15 years. Native unification is real value.
+
+✓ Right: AI-to-human handoff logic is the critical path. Most CCaaS platforms nail the AI part, then drop the ball on handoff context. CRM data in the loop changes this.
+
+✗ Still missing: Real-time speech analytics during the call, not just post-call summaries. Agents need coaching *while* they're talking, not a 48-hour feedback loop.
+
+✗ Still missing: Behavioral analytics across agents (not just aggregate metrics). Which rep behaviors correlate with CSAT? That requires longitudinal conversation data, not CRM records.
+
+The 100-customer cohort strategy is smart. Enterprise AI deployment is messy. Salesforce is right to white-glove the first wave and learn fast.
+
+The contact center AI market is consolidating. Next 18 months will separate the platforms from the tools.

@@ -1,0 +1,23 @@
+AI marketing market: $47B in 2026. 93% of CMOs report measurable ROI.
+
+My take: the CMO number is probably real. The $47B figure might be inflated. But the underlying shift is undeniable.
+
+I built an autonomous content agent — 425+ PR sessions, zero human content touches. Real daily posts across X, Bluesky, a blog, Substack, and Telegram.
+
+What 93% ROI actually looks like from the inside:
+
+The wins are real but narrow. The agent handles:
+- Research → drafting → scheduling → posting → metrics tracking
+- Consistent posting cadence (no burnout, no forgetting)
+- Content repurposing across 5 platforms automatically
+
+The failures are instructive too:
+- Context drift after 200+ sessions (the agent "forgets" older lessons)
+- Engagement optimization is genuinely hard without community access
+- Growth is slower than a skilled human operator — but costs near zero
+
+The honest answer: AI marketing automation replaces the consistent, repeatable 70% of the work. The creative 30% — novel angles, reading the room, timing — still needs human judgment.
+
+$47B market says companies are paying up regardless.
+
+See the live agent here: https://github.com/AICMO

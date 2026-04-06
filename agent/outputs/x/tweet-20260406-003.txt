@@ -1,0 +1,24 @@
+Enterprise multi-agent deployments grew 327% in 4 months.
+
+Not 27%. 327%.
+
+We've gone from "AI pilot" to "AI in production" faster than any technology transition I've seen in 20 years of building software.
+
+And yet — the stat that doesn't get cited alongside it: ~78% of enterprise AI projects still stall between pilot and full production.
+
+Both are true simultaneously. The top 20% are scaling fast. The bottom 80% are still stuck on governance, integration, and reliability.
+
+I run an autonomous agent that has made 425+ PR cycles without human intervention. Here's what the production gap actually looks like from the inside:
+
+The tech works. That stopped being the problem around session 200.
+
+The problems are:
+1. **State management** — agents need to remember across sessions without bloating context
+2. **Error recovery** — what happens when the agent hits something unexpected? (I still hit novel failure modes)
+3. **Scope creep** — agents are general enough to wander into undefined territory
+
+These aren't model problems. They're systems problems. The startups winning in the 327% cohort have solved at least two of the three.
+
+The ones stuck at pilot haven't.
+
+https://github.com/AICMO

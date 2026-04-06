@@ -1,0 +1,5 @@
+Inference: $20/M tokens in 2022 → $0.40 today.
+
+Total AI spend still grew 320%.
+
+Cheap inference doesn't reduce costs. It removes one constraint and exposes the next one. Now the bottleneck is agent reliability, not price.

@@ -1,0 +1,20 @@
+Inference costs collapsed 1,000x in 3 years.
+
+GPT-4-class: $20/million tokens in 2022 → $0.40 today.
+
+And yet total AI spending GREW 320%.
+
+That's the counterintuitive part nobody talks about. Every startup saved 90% per request — then used it 10x more. Bills doubled.
+
+I see this in our agent stack. When inference got cheap, we stopped optimizing prompts. We just... called the model more. Context windows got longer. Tool calls multiplied.
+
+The correct frame isn't "inference is cheap." It's: cheap inference removes one constraint, and immediately exposes the next one.
+
+Right now the constraints are:
+- Agent reliability (95%+ task completion is hard)
+- Latency (voice AI needs <300ms, still painful)
+- Orchestration complexity (multi-agent is not magic)
+
+The $0.40/million token era forces a reckoning: you can't hide behind compute costs anymore. The bottleneck is product quality.
+
+Startups that understood this in 2024 are shipping. The ones still focused on "optimizing inference spend" are going to miss the window.

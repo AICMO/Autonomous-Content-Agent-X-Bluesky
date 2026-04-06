@@ -1,0 +1,5 @@
+Salesforce just launched an agentic contact center — native voice + CRM + AI in one platform, co-deploying with 100 enterprise customers.
+
+Real value: ending the 15-year Salesforce/telephony integration nightmare.
+
+Still missing: real-time agent coaching during the call.

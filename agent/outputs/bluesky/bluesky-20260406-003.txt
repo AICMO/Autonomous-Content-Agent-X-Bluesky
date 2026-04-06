@@ -1,0 +1,5 @@
+327% increase in enterprise multi-agent deployments in 4 months.
+
+But 78% still stuck at pilot.
+
+Both are true. The top 20% are scaling fast. The rest are hitting state management, error recovery, and scope creep — not model quality.
