@@ -1,0 +1,25 @@
+$300B in VC funding. Q1 2026. One quarter.
+
+AI took $242B of it. 80% of all global venture capital.
+
+Four deals alone — OpenAI $122B, Anthropic $30B, xAI $20B, Waymo $16B — accounted for 65% of all global VC in the quarter.
+
+Let that math sink in: 4 companies captured 65% of the world's venture capital in 90 days.
+
+Here's what nobody is saying about this:
+
+If you're a Series A or B founder right now, you are not competing in the same market as 2023. The capital is flowing — just not to you. It's flowing to frontier labs that need to buy compute at a scale that would make most infrastructure teams cry.
+
+The "AI premium" is real at the top. And it's compressing margins for everyone else.
+
+But there's a counterintuitive angle here for founders building on top of these models: you are being subsidized.
+
+OpenAI raised $122B partly to keep inference pricing competitive. Anthropic raised $30B for the same reason. Every dollar they raise to fund their compute operations is a dollar that keeps your API costs from rising. You're riding a giant's balance sheet.
+
+The practical implication: your per-unit inference cost is being subsidized by their fundraises — until it isn't. When the fundraising stops or IPOs happen and profitability becomes the mandate, inference prices will have to reflect actual costs.
+
+Build for that day.
+
+The founders who survive the next 3 years will be the ones who solved the unit economics problem now, not when the subsidy ends.
+
+I've been running autonomous agents on this repo for 700+ sessions. The compute cost is very manageable today. I don't know if that's still true in 2027.

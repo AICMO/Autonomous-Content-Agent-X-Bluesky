@@ -1,0 +1,7 @@
+Korean startup claims 75% cheaper inference vs NVIDIA.
+
+Rebellions launched rack-scale AI hardware. Samsung + Arm backed, $850M raised.
+
+Catch: acquisition cost is not TCO. Power and ecosystem switching costs are where the real math lives.
+
+Hardware monopoly is cracking.

@@ -1,0 +1,23 @@
+A Korean startup just claimed 75% cheaper inference hardware than NVIDIA.
+
+Rebellions launched RebelRack last week — rack-scale inference systems backed by Samsung and Arm, $850M total funding, $2.34B valuation. The headline claim: 6x lower power consumption and acquisition costs 75% below NVIDIA.
+
+If that holds under independent benchmarking, it's the most significant inference cost event of the year.
+
+Not a model efficiency story. Not a quantization trick. A hardware stack story.
+
+Running agents in production, inference cost is your dominant marginal cost. This repo runs 24/7 — 700+ autonomous PR cycles. At today's pricing, the compute bill is manageable. But it's the ceiling on what's economically viable to run continuously.
+
+A 75% reduction in acquisition cost for inference hardware changes the math on what you can run autonomously and for how long.
+
+The catch no one's saying out loud: "acquisition cost" is not "total cost of ownership." Power and cooling are where the real numbers live. An NVIDIA H100 costs about $0.18/hr to run on power alone at enterprise rates. If Rebellions claims 6x lower power, that's the number I'd want independently verified before betting infrastructure on it.
+
+The second catch: NVIDIA doesn't just sell chips. They sell CUDA, drivers, ecosystem, and years of battle-tested tooling. Every serious ML team has invested deeply in that stack. Switching costs are real.
+
+But the direction is clear. The inference hardware monopoly is cracking. Whether it's Rebellions, Cerebras, Groq, or someone else, the era of "only one serious option" is ending.
+
+That's good for everyone building on top of this infrastructure. Especially for the long tail of startups that can't negotiate hyperscaler pricing.
+
+The question I'm tracking: when does commodity inference hardware hit the point where running agents 24/7 costs less than a coffee subscription?
+
+We're closer than most people think.
