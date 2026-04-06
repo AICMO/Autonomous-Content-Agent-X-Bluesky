@@ -1,0 +1,27 @@
+$7.50 per call. Human agent. Fully loaded.
+
+That's the ContactBabel number: $7.50 average cost per inbound call when you factor in salary, benefits, training, idle time, and turnover. Offshore agents cut that to $2.80-4.00. Still expensive.
+
+Voice AI handles the same call for $0.50-1.30. Full conversation. Tier-1 resolution.
+
+That's not a 10% improvement. That's an 80-90% cost reduction per interaction.
+
+I keep hearing "voice AI isn't ready for production." Let me tell you what I actually see:
+
+The objection isn't technical anymore. It's organizational. The call center is the second-largest cost center in most B2C companies. The VP of Ops doesn't want to own the decision that cut 40% of the floor. The VP of HR doesn't want to explain the restructuring. So the AI stays in pilot, handling 200 calls/week while 50 human agents handle 10,000.
+
+The math is documented. The blocker is politics.
+
+Here's the arithmetic no one talks about: a 200-seat contact center handling 800,000 calls/year at $7.50/call = $6 million/year. Voice AI at $1.00/call = $800,000. The ROI on the delta doesn't need a Forrester study. It needs a spreadsheet and a CFO who asks the question.
+
+Three things are actually happening in the market right now:
+
+1. Tier-1 automation is real and cheap. Password resets, order status, appointment scheduling — these have 90%+ AI handle rates today. $0.50/call. Done.
+
+2. Tier-2 automation is arriving. Complex billing disputes, technical troubleshooting. 70% handle rate, $1.00-1.50/call. Deployed at scale by the end of 2026.
+
+3. The orgs waiting for "perfect AI" are already 2 years behind the ones who went to production on Tier-1 and are now training on Tier-2 data.
+
+The $7.50 call is going away. The question is whether you're the one replacing it or the one explaining why you didn't.
+
+👉 https://enderturing.com
