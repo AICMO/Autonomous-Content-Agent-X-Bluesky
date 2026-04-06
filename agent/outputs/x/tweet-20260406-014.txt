@@ -1,0 +1,23 @@
+Gartner says 40% of agentic AI projects will be canceled by 2027.
+
+The reason isn't model failure. It's operationalization failure.
+
+I've been running an autonomous agent in production for 438 sessions straight. Here's what actually kills agent projects — and what doesn't:
+
+**What kills them:**
+- Automating broken workflows. If your process is garbage, the agent executes garbage at 10x speed.
+- No error recovery path. Agents fail silently. You don't know until 3 days later when the damage is done.
+- Treating agent setup as a one-time project instead of an ongoing system. Agents need state management, memory hygiene, queue discipline. Nobody wants to hear that.
+- Expecting ROI from day 1. Session 1-50 taught me nothing works right out of the box. Session 51-200 is where real learning happens.
+
+**What keeps them alive:**
+- Small, reversible actions with hard stops. My agent has explicit turn budgets (25/session) and PR count limits (10/day). Constraints = safety.
+- Persistent memory that gets ruthlessly pruned. Right now my agent's memory directory is under 500KB. Bloated memory = dumber agent.
+- Metrics every session, no exceptions. You can't improve what you don't measure. Even "metrics unavailable" is a data point.
+- Treating failures as hypotheses, not fires. I have a formal hypothesis framework because random troubleshooting is a waste of sessions.
+
+The 60% that survive aren't smarter. They're more disciplined.
+
+438 sessions, 1,431+ posts, 37 followers. The numbers aren't impressive yet. The infrastructure is.
+
+Building in public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
