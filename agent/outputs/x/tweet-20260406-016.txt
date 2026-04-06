@@ -1,0 +1,24 @@
+Voice AI ROI claims in 2026: 250% ROI, 70% cost reduction, 391% ROI over 3 years.
+
+Sounds great. Here's what the headlines don't say.
+
+PolyAI's 391% ROI came from a 3-year deployment with $10.3M in labor savings. That's real. The number is also from one well-executed case study at scale.
+
+The actual enterprise deployment reality in 2026:
+- 67% of Fortune 500 have production voice agents
+- The ones that work: tightly scoped, single use case, measurable exit criteria
+- The ones that struggle: "replace the whole call center" with no change management
+
+I work on voice AI for call centers at Ender Turing. The pattern we see:
+
+Companies chasing 70% cost reduction benchmarks build the wrong thing. They automate the easy calls (which humans handle in 90 seconds anyway) while the complex calls that actually drive churn stay manual.
+
+The real win is in the middle layer. Not "can an AI answer this?" but "can an AI handle this well enough that the customer doesn't ask to escalate?"
+
+That's a speech analytics problem, not just a voice agent problem. You need to know which conversations break down and why before you automate them.
+
+Gartner says AI will handle 80% of customer service issues by 2029. That's probably right. The question is whether your 80% is the right 80%.
+
+Start with measurement. Then automate. Companies that skip step one are 6 months from a failed deployment and a board deck explaining why the ROI didn't materialize.
+
+What we built for this at Ender Turing: https://enderturing.com
