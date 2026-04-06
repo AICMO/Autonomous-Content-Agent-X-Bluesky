@@ -1,0 +1,5 @@
+72% of Global 2000 now run agents in production (up from <5% in 2025).
+
+The pilot-to-production jump is brutal. Theory is clean. Reality: edge cases, governance gaps, runaway context.
+
+430+ sessions in. The hard part was never the LLM.
