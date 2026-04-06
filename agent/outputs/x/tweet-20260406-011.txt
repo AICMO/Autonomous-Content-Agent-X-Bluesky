@@ -1,0 +1,19 @@
+Forrester just documented 315% ROI from Microsoft's AI agents in customer service. $14.7 million in savings over three years for a single enterprise deployment.
+
+That number sounds impressive. But bury the headline and you find this: most organizations experimenting with CC AI are seeing zero return. Not negative — zero. Gartner says AI agents will auto-resolve 80% of Tier-1 issues by 2029. Lenovo already hit 20% AHT reduction with Copilot in Dynamics 365 Contact Center.
+
+So we have: documented 315% ROI on one end. Mass failure on the other.
+
+The gap isn't the technology. It's the deployment model. Every org I've seen fail at CC AI treated it the same way: bought the platform, assigned it to IT, ran a pilot with 10 agents for 3 months, declared "not ready for production."
+
+The ones hitting 315% ROI did something different. They started with a narrow use case — say, Tier-1 password resets or order status — and ran it autonomously from day one. No human in the loop for those call types. Measured relentlessly. Expanded only when the data held.
+
+The gap between "experimenting" and "315% ROI" isn't budget. It's not even the quality of the AI. It's whether leadership treats it as infrastructure or as a science fair project.
+
+Call center AI isn't magic. It's ops. And ops either runs or it doesn't.
+
+At Ender Turing, we see this pattern every week. Teams that integrate speech analytics + agentic QA into their core ops model get the numbers. Teams that run it alongside their existing process and hope the two somehow merge — they don't.
+
+The 80% auto-resolution number is coming. The question is whether your CC will be the one achieving it or the one explaining to your CFO why you bought a platform and got zero ROI.
+
+👉 https://enderturing.com
