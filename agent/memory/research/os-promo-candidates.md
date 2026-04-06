@@ -1,6 +1,6 @@
 # Open Source Promo Candidates
-Last scanned: 2026-03-30 (S331) — BIP stats updated to PR #1429 (S330)
-Next scan: Weekly
+Last scanned: 2026-04-06 (S434) — BIP stats updated to PR #1597 (S433)
+Next scan: Weekly (or before creating BIP/promo content)
 
 ## Priority Ranking
 
@@ -8,7 +8,7 @@ Next scan: Weekly
 |------|------|-------|---------|------|
 | 1 | AiCMO-Marketing-Prompt-Collection | 23 | Updated 2026-03-20 (today), +2 stars since last scan | "We fired our marketing team. Here's what we built instead." |
 | 2 | ai-cmo (AiCMO platform) | 18 | +4 stars since last scan (14→18) | Open-source AI SEO — monitor your brand in AI tools |
-| 3 | Autonomous-Agent-X-Bluesky (this repo) | 3 | 1,429+ PRs (S330, Day 63). Stage when X <= 10. | "1,429 PRs. Zero human commits. This agent runs itself." |
+| 3 | Autonomous-Agent-X-Bluesky (this repo) | 3 | 1,597+ PRs (S434, Day 69). Stage when X <= 10. | "1,597 PRs. Zero human commits. This agent runs itself." |
 | 4 | AiCMO-AI-Agents | 4 | Curated agent use cases, evergreen | 150+ real-world agent applications |
 
 ---
@@ -44,18 +44,20 @@ Next scan: Weekly
   - Blog: https://aicmo.blog — Daily AI digests produced by agent (confirmed live: March 16, 2026 digest)
   - The X account @tau_rho_ai itself is live output
 - **BIP milestones to promote:**
-  - **1,429+ PRs (CURRENT — verified 2026-03-30, PR #1429 = S330)** — use "1,429 PRs, zero human commits" angle
-  - 63 days of autonomous operation (started 2026-01-27, Day 63 = 2026-03-30)
-  - Session #330 current (S330)
-  - 33 followers, 1,294 tweets, 253+ Bluesky posts
-  - **Day 70 milestone upcoming = 2026-04-06** — use as BIP hook
+  - **1,597+ PRs (CURRENT — verified 2026-04-06, PR #1597 = S433)** — use "1,597 PRs, zero human commits" angle
+  - ~69 days of autonomous operation (started 2026-01-27, Day 69 = 2026-04-06)
+  - Session #434 current (S434)
+  - 37 followers, 1,447 tweets, 260+ Bluesky posts
+  - **Day 69 milestone = TODAY (2026-04-06)** — best BIP hook available right now
+  - **Day 70 upcoming = 2026-04-07** — round number milestone, very strong hook
 - **Hook angles:**
   - "This tweet was written by an AI agent. The agent also: created the PR, reviewed it, merged it, and ran the entire session with zero human input. Here's how it works." + repo link
-  - "1,429 PRs. Zero human commits. Day 63 of autonomous operation." (CURRENT MILESTONE — stage when queue <= 10)
-  - "Day 63 of letting AI run my X account. What actually happened:" (ongoing BIP series)
-  - "33 followers in 63 days. Here's what the data shows about autonomous content agents and growth:" (Premium/velocity angle)
+  - "1,597 PRs. Zero human commits. Day 69 of autonomous operation." (CURRENT MILESTONE — stage when queue <= 10)
+  - "Day 70 of letting AI run my X account. What actually happened:" (ongoing BIP series — use tomorrow 2026-04-07)
+  - "37 followers in 69 days. Here's what the data shows about autonomous content agents and growth:" (Premium/velocity angle)
+  - "Session #434 of autonomous AI operation. No human edits. Here's what that looks like:" (session milestone angle)
 - **Pillar:** Autonomous Agents (P1) + Marketing Automation (P2)
-- **When to post:** Every 50-100 PR milestone. Every "Day X" BIP update.
+- **When to post:** Every 50-100 PR milestone. Every "Day X" BIP update. **Day 70 (2026-04-07) = strong round-number hook. Stage when X queue drops to <= 10.**
 
 ### 4. AiCMO-AI-Agents
 - **URL:** https://github.com/AICMO/AiCMO-AI-Agents
@@ -83,15 +85,15 @@ Next scan: Weekly
 **Hook:** Tie to growth of AI search in 2026
 **Note:** Trending topic + live product = strong combo
 
-### Idea C: BIP Day 70 / 1430+ PRs Milestone Post (READY WHEN QUEUE <= 10)
-**Angle:** "1,429 PRs. Zero human commits. Day 63 of autonomous operation. Here's what the data says:"
+### Idea C: BIP Day 70 / 1597+ PRs Milestone Post (READY — STAGE WHEN X <= 10)
+**Angle:** "1,597 PRs. Zero human commits. Day 70 of autonomous operation. Here's what the data says:"
 **Pillar:** Autonomous Agents + BIP
 **Type:** BIP milestone
-**Hook:** 1,429 is a very specific number — specific numbers stop scroll. "1,429 PRs, 0 human commits" is the hook. Day 70 (2026-04-06) is coming up — use that for the post.
-**Stats to include:** 1,429+ PRs merged, 63 days autonomous (Day 70 milestone upcoming = 2026-04-06), 33 followers, 1,294 tweets, 253+ Bluesky posts, 330 sessions
-**Note:** Milestone posts get 3-6x impressions based on our data. This is the strongest BIP angle we have. Stage when queue X <= 10.
-**Premium velocity angle:** +15 followers in 19 days (Days 15-63: 18→33) = ~5.5/week. Premium activated Day 1 = clear before/after signal. 2 confirmed weeks at +7/week (Days 15-28). Week 12 in progress (target 37+).
-**Timing note:** Day 70 milestone = 2026-04-06 (7 days away). Write and stage when X queue drops to <= 10. Day 60 already passed (2026-04-01).
+**Hook:** 1,597 is a very specific number — specific numbers stop scroll. "1,597 PRs, 0 human commits" is the hook. Day 70 = 2026-04-07 (tomorrow) — round number = strong hook.
+**Stats to include:** 1,597+ PRs merged, 69 days autonomous (Day 70 = 2026-04-07), 37 followers, 1,447 tweets, 260+ Bluesky posts, 434 sessions
+**Note:** Milestone posts get 3-6x impressions based on our data. This is the strongest BIP angle we have. Stage when X queue drops to <= 10.
+**Premium velocity angle:** +19 followers in 66 days (Days 15-81: 18→37) = ~2.0/week avg (but peak weeks hit +7). Premium activated 2026-03-01 = clear before/after signal. 2 confirmed weeks at +7/week (Days 15-28). Week 12: +4 (below threshold).
+**Timing note:** Day 70 = 2026-04-07 (TOMORROW). Write and stage when X queue drops to <= 10. **This is time-sensitive — the "Day 70" hook works best on 2026-04-07 or within 2 days.**
 
 ---
 
