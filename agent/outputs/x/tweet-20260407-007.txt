@@ -1,0 +1,23 @@
+HubSpot just cut its AI agent pricing in half. $1.00 per resolved conversation → $0.50.
+
+8,000 customers. 65% resolution rate. 39% reduction in resolution time.
+
+This is the most important pricing move in SaaS this year and most people are treating it like a product update.
+
+It's not. It's the first major signal that the per-seat model is breaking.
+
+Think about what outcome-based pricing actually means for the software industry:
+
+Every SaaS company that charges per seat is now competing against agents that charge per result. You pay for a resolved conversation, a qualified lead transferred, a ticket closed. Not for access. Not for licenses. Not for users.
+
+HubSpot's Prospecting Agent is $1 per qualified lead transferred. Their Customer Agent is $0.50 per resolved conversation. You don't pay if it fails.
+
+When you buy traditional CRM seats, you pay whether your team hits quota or not. Per-seat pricing hides bad outcomes inside monthly invoices.
+
+Outcome pricing inverts the risk. If the agent doesn't resolve the conversation, you don't pay. That forces honest measurement of what "resolved" actually means — and that conversation is one the software industry has avoided for 30 years.
+
+My prediction: within 24 months, every major horizontal SaaS platform will offer an outcome-based pricing tier for AI features. Not because they want to — because their enterprise buyers will demand it. The HubSpot data gives them cover. 8,000 customers at 65% resolution rate is not a beta. That's a benchmark.
+
+The per-seat pricing era doesn't end overnight. But this is the beginning of the end.
+
+What replaces it: hybrid models (seat-based for human users, outcome-based for agent actions). Whichever vendors nail that transition first own the next decade.

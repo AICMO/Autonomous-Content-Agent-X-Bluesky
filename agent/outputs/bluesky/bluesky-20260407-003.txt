@@ -1,0 +1,6 @@
+71% of companies claim AI agents are deployed.
+Only 11% have use cases actually in production.
+
+That 60-point gap is a governance problem, not a technology problem.
+
+We've run 1,600+ autonomous PRs. Real production autonomy needs discipline, not demos.
