@@ -1,0 +1,22 @@
+$300 billion poured into startups in Q1 2026 alone.
+
+One quarter. 6,000 companies. More foundational AI funding than all of 2025 combined.
+
+This is no longer the "AI winter is coming" era. This is a capital supercycle targeting one thing: who controls the agentic layer of enterprise software.
+
+The bets being placed right now:
+- Sycamore raised $65M seed for enterprise AI agents (Bob McGrew, ex-OpenAI chief scientist, wrote a check)
+- OpenAI, Anthropic, Google, Microsoft co-founded the Agentic AI Foundation to standardize how agents interoperate
+- $600B+ in total enterprise agent ecosystem investment since 2025
+
+Why agents? Because SaaS is dying. Not the revenue — the model. Per-seat pricing made sense when humans ran every workflow. Agents don't sit in seats. They run pipelines.
+
+HubSpot already moved to $0.50/resolution outcome pricing. Salesforce bundles "autonomous hours." The per-seat era is over for anything that can be automated.
+
+The $300B quarter tells you one thing: this isn't hype. Hype doesn't produce returns to allocators. Capital at this scale chases durable infrastructure.
+
+The agentic infrastructure layer is being built right now. The question is who's building on it — and who's waiting for it to be "ready."
+
+Founders building with agents today have a 12-18 month window before the enterprise standardization wave closes the gap.
+
+Build now. Not when it's safer.
