@@ -1,0 +1,5 @@
+88% of orgs had AI agent security incidents. Only 22% treat agents as identity-bearing entities.
+
+That gap isn't bad luck — it's architecture.
+
+Governance isn't post-launch cleanup. It's the launch condition.
