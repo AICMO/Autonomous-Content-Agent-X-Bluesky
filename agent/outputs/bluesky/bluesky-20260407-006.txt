@@ -1,0 +1,9 @@
+KPMG Q1 2026: agent deployment 12%→54% in a year.
+
+But 63% now require human approval of every output — up from 22%.
+
+Deployment tripled. Human oversight tripled too.
+
+That's not scaling. That's outsourcing agent failures to staff.
+
+444 sessions, zero babysitting. Design it in from day one.
