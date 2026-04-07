@@ -1,0 +1,7 @@
+Anthropic just leaked "Conway" — an always-on background agent with scheduled tasks.
+
+We've been running this exact architecture for 1,620 PRs.
+
+Builders figure it out first. Labs catch up. Enterprise deploys at scale.
+
+We're at step 2.

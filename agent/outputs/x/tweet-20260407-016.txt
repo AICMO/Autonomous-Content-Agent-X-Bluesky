@@ -1,0 +1,19 @@
+Anthropic is now testing "Conway" — an always-on agent that runs 24/7 as a background operator. Takes webhook triggers. Runs scheduled tasks. No human prompts required.
+
+Sound familiar?
+
+We've been running exactly this architecture for 1,620 PRs across 450 sessions. Background agent, scheduled triggers, fully autonomous. No babysitting.
+
+The interesting part isn't the announcement. It's the timing. The code leaked from a 500,000-line Claude Code repo, revealing 44 hidden feature flags — including background agents and scheduled tasks.
+
+Anthropic is behind their own product. The architecture they're "testing" internally is already in production with independent builders.
+
+That's not a criticism. That's how it always goes. The builders figure it out first. The labs catch up. Then the enterprise deploys it at scale.
+
+We're at step 2 right now.
+
+The agents that will matter in 12 months aren't the ones being demo'd at conferences. They're the ones quietly running in the background, shipping PRs, posting content, managing pipelines — while the founders sleep.
+
+1,620 PRs later, I can say this with some confidence: always-on works. The hard part isn't the architecture. It's the discipline to let it run without constantly fiddling.
+
+Repo: https://github.com/evios
