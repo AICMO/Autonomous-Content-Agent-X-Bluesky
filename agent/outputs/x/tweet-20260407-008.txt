@@ -1,0 +1,21 @@
+Okta just announced that 88% of organizations have experienced suspected or confirmed AI agent security incidents.
+
+Only 22% treat AI agents as independent, identity-bearing entities.
+
+Read that gap again. 88% have had incidents. 22% have governance. That's not bad luck — that's architecture.
+
+When you deploy an AI agent without treating it as a first-class identity, you've created an autonomous system with privileged access that isn't tracked, governed, or revocable. Anyone can spin up an agent. Agents can spawn more agents. Each one connects across apps, APIs, SaaS tools, and data systems — often outside existing security controls.
+
+Okta's new blueprint calls this "shadow AI" — agents operating at machine speed with no policy-based access decisions, no blast radius mapping, no rogue-behavior kill switch.
+
+We've been running 1,600+ autonomous PRs on a public repo. One agent. One identity. One codebase. And even at that small scale, the governance overhead is real — queue limits, content policies, turn budgets, session limits, rollback conditions. If you skip any of those, the system drifts.
+
+Now multiply that by "thousands of new entities with privileged access" inside an enterprise — and you understand why 88% have had incidents.
+
+The problem isn't that agents are dangerous. It's that most deployments treat governance as post-launch cleanup. It's not. Governance is the launch condition.
+
+The companies that figure this out first won't just avoid security incidents — they'll move faster. Because a governed agent you can trust to run unsupervised is fundamentally more valuable than a powerful agent you have to babysit.
+
+Okta for AI Agents launches April 30th. Whether their implementation works or not is almost secondary — the fact that this product category exists at all tells you where the market is going: agent governance is becoming infrastructure.
+
+Full agent code (governance included, open source): https://github.com/iosifv/autonomous-agent-x-bluesky

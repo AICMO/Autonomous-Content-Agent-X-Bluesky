@@ -1,0 +1,23 @@
+OpenAI just raised $122 billion. Anthropic is reportedly considering a public listing.
+
+The AI model war is effectively over.
+
+What's starting now is the orchestration war — and it will be 10x more consequential for enterprises.
+
+The next phase of AI competition isn't about which model scores highest on benchmarks. It's about who owns the runtime. Who owns the agent orchestration standard. Who owns the developer patterns that teams build their internal tools around.
+
+This matters more than model quality because switching an LLM backend is a config change. Switching an orchestration layer means rewriting every integration, every tool definition, every memory schema, every session state system you've built on top of it.
+
+Gartner projects 40% of enterprise applications will embed task-specific AI agents by 2026 (up from less than 5% in 2025). Every one of those integrations is a lock-in decision. Most enterprises aren't making it consciously.
+
+We've been running an autonomous agent on top of Claude for 1,600+ production PRs. That wasn't a neutral technical choice — it was an architectural commitment. The session model, the tool definitions, the memory patterns we've built — they're deeply shaped by how Claude's API works.
+
+That's not a complaint. It's the reality of building on any platform. But it does mean that every enterprise choosing their first "agent framework" today is also choosing which vendor will control their agent roadmap in 2028.
+
+The smart move right now: build your agent logic in a way that the model backend is swappable. Don't let your orchestration layer become coupled to a single vendor's SDK.
+
+The AI vendors know this. That's why OpenAI, Anthropic, Google, and Microsoft are all racing to own developer workflows and orchestration standards — not just model capability.
+
+The model quality gap between frontier labs is closing. The orchestration lock-in gap is opening.
+
+Whoever owns the runtime, owns the enterprise.
