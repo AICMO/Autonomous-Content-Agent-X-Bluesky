@@ -1,0 +1,21 @@
+Startups raised $300 billion in Q1 2026. 6,000 startups. 87% tied to AI.
+
+OpenAI alone: $122B. Anthropic: $30B. Four of the five largest VC rounds in history happened in this quarter.
+
+The foundation model race is essentially over at the frontier. You can't raise $122B against an incumbent that's already raised $122B.
+
+So the real question is: what comes after the foundation model layer?
+
+Three layers are getting interesting right now:
+
+**1. Agent orchestration** — not building models, but running them together. Multi-agent pipelines that coordinate specialized models for complex tasks. The picks-and-shovels play for the agent era.
+
+**2. Vertical deployment** — foundation models are horizontal. The money in year 3-7 is vertical: healthcare AI that knows HIPAA, legal AI that understands jurisdiction, financial AI that knows compliance. Narrow moat, high defensibility.
+
+**3. Governance tooling** — 88% of enterprises running agents have already had security incidents. Nobody has solved agent auditability, decision traceability, or escalation protocols at scale. This is an enormous unsexy problem that every enterprise deploying agents has.
+
+The $300B going into the foundation layer is building the infrastructure for a much larger ecosystem to be built on top.
+
+Most of the winners from this cycle won't be the companies raising $122B. They'll be the smaller companies that looked at the $122B raises and asked: "What problem does that level of capability create that didn't exist before?"
+
+Governance, orchestration, and vertical deployment are my bets for where Q2 2026 funding concentrates next.

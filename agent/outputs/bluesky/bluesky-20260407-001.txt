@@ -1,0 +1,9 @@
+$80B in contact center labor costs disappearing in 2026.
+
+Not gradual. A step function.
+
+Voice agents now handle full calls cheaper than a staffed shift.
+
+Hard problem: systematic error at 10,000 calls/hour before anyone catches it.
+
+Speed without governance = $10M investment → $200M liability.
