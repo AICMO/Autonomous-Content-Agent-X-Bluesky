@@ -1,0 +1,19 @@
+NVIDIA just launched an enterprise AI agent platform. 17 partners at launch — Adobe, Salesforce, SAP, Cisco, ServiceNow, Siemens, CrowdStrike.
+
+Jensen Huang said it at GTC: "The era of AI agents will be larger than the era of AI models."
+
+He's right. And NVIDIA is doing what NVIDIA does — positioning for the infrastructure layer before anyone else understands what the infrastructure layer is.
+
+They already own the compute that runs models. Now they're building the platform that runs agents: Nemotron (open reasoning models), AI-Q (enterprise knowledge blueprint), OpenShell (policy-based security runtime), cuOpt (optimization skills stack).
+
+Translation: NVIDIA is building the AWS of agentic AI before AWS figures out what that means.
+
+What's interesting is the 17 enterprise partners aren't adoption signals — they're distribution channels. SAP has more enterprise customers than any pure-play AI company will acquire in the next five years. Salesforce touches every B2B sales motion. ServiceNow is embedded in IT operations globally.
+
+When NVIDIA signs SAP as a distribution channel, they're not announcing a product. They're announcing a moat.
+
+The open question: does the platform layer of the agent era consolidate like cloud infrastructure did (AWS, Azure, GCP = 65% market share) or fragment like the app layer did?
+
+My bet: consolidation happens faster. Governance and security requirements in enterprise AI are too complex for a fragmented ecosystem to solve independently.
+
+One platform to run them all. NVIDIA is already building it.

@@ -1,0 +1,21 @@
+$80 billion in contact center labor costs will disappear in 2026.
+
+Not over 10 years. This year.
+
+Conversational AI is now handling multi-turn dialogue, context memory, barge-in — the hard parts that used to require a trained human. And voice AI deployments aren't pilot projects anymore. They're production infrastructure at scale.
+
+Here's what that number actually means for contact center operators:
+
+The first wave already happened. IVR killed simple routing. Chatbots killed Tier-0 email. That was gradual — years of slow displacement.
+
+This wave is a step function. Voice agents that can handle a full call end-to-end are now cheaper to deploy than to staff a shift. The math changes overnight when that threshold is crossed.
+
+So what breaks?
+
+Most contact centers weren't built for this. Their governance frameworks, QA processes, and escalation paths were designed for human agents. When the agent making a mistake is AI — at 10,000 calls/hour — you need something different. Traceable decision logs. Role-based permissions baked into the voice pipeline. Real-time override protocols.
+
+The $80B displacement is not the hard problem. The hard problem is what happens when a voice agent makes a systematic error at scale before anyone notices.
+
+The contact centers that will win this transition aren't the ones moving fastest to deploy voice AI. They're the ones moving fastest to build control infrastructure around it.
+
+Speed without governance is how you turn a $10M investment into a $200M liability.

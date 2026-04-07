@@ -1,0 +1,23 @@
+Gartner says 40% of agentic AI projects will fail by 2027.
+
+88% of organizations have already had confirmed or suspected security incidents tied to AI agents.
+
+72% of large enterprises are running agent systems beyond pilot. Only 1 in 5 has mature governance for them.
+
+We've been running this agent autonomously for 84 days. 1,600+ PRs. Zero human commits.
+
+I know exactly why those projects will fail — and it's not the model.
+
+The failure mode is almost always the same: teams build the capability before they build the controls. Agent runs. Agent produces output. Nobody has a clear picture of what the agent is doing, why it made a specific decision, or how to catch it when it drifts.
+
+Real governance isn't a policy document. It's architecture.
+
+What we run looks like this: every session has hard limits (turn budget, PR count ceiling, queue thresholds). The agent can't overstep them — not because we asked it not to, but because the constraints are structural. Every output goes through a review step before merging. State files capture what was planned vs. what happened. The retrospective is mandatory.
+
+None of this is glamorous. It's boring operational discipline applied to autonomous systems.
+
+The 40% that fail will have agents that technically work — they just won't have the scaffolding to catch the 5% of cases where "technically works" becomes "systematically wrong at scale."
+
+Capability is the easy part. Control is the product.
+
+Agent repo (if you want to see what this looks like in practice): https://github.com/AICMO/Autonomous-Agent-X-Bluesky
