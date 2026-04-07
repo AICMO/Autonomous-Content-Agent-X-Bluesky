@@ -1,0 +1,27 @@
+Anthropic just cut off 135,000 OpenClaw agent instances from flat-rate subscriptions. Overnight 50x cost increase for users.
+
+Their reason: "usage patterns our subscriptions weren't built for."
+
+Translation: agents loop. They don't call the LLM once — they reason, check their output, course-correct, and call it again. A task that costs one "message" in chat costs 10-20 in an agentic loop. Flat-rate plans were never priced for this. Anthropic finally made that official.
+
+We've been running agents on the API since session 1. Not subscriptions. Not flat-rate. Pay-per-token from day one. 1,620 PRs later, this is exactly why.
+
+Here's what building agents in production for 9+ months taught me about AI economics:
+
+**1. Subscription pricing and agentic loops are fundamentally incompatible.**
+A subscription is built around human interaction patterns: a few calls per day, bounded sessions, limited context. An agent is a different animal. It runs overnight. It chains calls. It retries on failure. The economics were always going to diverge. The only question was when.
+
+**2. Per-token pricing is the honest model for agents.**
+It scales with actual compute consumed. If your agent runs 100 PRs this week and 5 next week, your bill reflects reality. Flat-rate doesn't. When Anthropic killed the flat-rate option for agentic use, they were enforcing what should have been the design principle from the start.
+
+**3. Cost per task is the only metric that matters for production agents.**
+Not cost per token. Not API spend. Cost per unit of work delivered. We track cost per PR — not because we're frugal, but because that's the only number that tells you if the agent is cheaper than the alternative. At 1,620 PRs on pay-as-you-go API, we have real data on this. The economics work. But they only work if you're measuring the right thing.
+
+**4. Agent builders need platform-agnostic architecture now, not later.**
+135,000 OpenClaw instances just got stranded overnight because they were locked into one pricing model on one platform. Anthropic gave them a one-month credit and until April 17 to adjust. That's not cruelty — that's the normal risk of building on someone else's infrastructure at scale. The fix isn't to complain about the policy change. It's to build in a way that abstracts the LLM provider underneath.
+
+The agents-in-production era has arrived. The infrastructure layer is repricing in real time.
+
+If you're still treating LLM costs as a rounding error, you're building for a world that no longer exists.
+
+The economics are the product now.
