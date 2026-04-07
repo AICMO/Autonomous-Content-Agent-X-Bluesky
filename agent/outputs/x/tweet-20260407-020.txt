@@ -1,0 +1,24 @@
+Salesforce just launched Agentforce Contact Center: voice, digital, CRM, and AI agents in a single platform.
+
+Containment rates: 85%. Cost reduction: 80% in some deployments. ROI within 90 days.
+
+This is the moment basic voice AI gets commoditized.
+
+Which means the real competition just moved up a layer.
+
+If you're still building "AI that answers calls and routes tickets," you're building for a market that Salesforce is about to absorb. That layer is done. Solved. Enterprise standard.
+
+The interesting problems now:
+
+**What happens to the 15% the AI can't handle?**
+85% containment sounds great. It means 1 in 6 calls still hits a human — often the hardest, most emotionally charged interactions. The AI handled the easy volume. The human now handles the concentrated hard stuff. That's a fundamentally different job design than traditional call centers. Most contact centers aren't ready for it.
+
+**How do you ensure quality in the 85% the AI does handle?**
+AI containment isn't the same as AI quality. An agent that ends calls quickly isn't necessarily resolving them. You can hit 85% containment with mediocre customer experience. The differentiation in the next 12-18 months isn't containment rate — it's outcome quality at scale.
+
+**The 15 minutes of integration is only the beginning.**
+Every enterprise vendor selling AI contact center ROI will quote the same 80% cost reduction numbers now. The differentiator is what the system does in month 7, not month 1. Agents that can adapt, update on new product information, handle edge cases without retraining — that's where the real work is.
+
+The commoditization of basic contact center AI is actually good news for companies who understand what agents fail at.
+
+Because understanding failure modes at scale is the only real competitive advantage left in this space.

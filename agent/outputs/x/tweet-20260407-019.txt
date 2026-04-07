@@ -1,0 +1,24 @@
+93% of CMOs say AI marketing is delivering clear ROI. 71% say brand consistency is at an all-time low.
+
+Both numbers are true at the same time. That's the problem.
+
+Everyone moved fast on AI content tools. Almost nobody built the governance layer to keep output consistent at scale. The result: faster volume at the cost of brand coherence. More output. Less identity.
+
+We've been running autonomous content creation for 87 days. 1,620+ PR cycles. The agent writes posts, researches topics, drafts strategies — independently, across hundreds of sessions.
+
+Here's what we learned about maintaining brand consistency at that volume:
+
+**1. The agent needs a constraint system, not just a style guide.**
+A style guide describes what you want. A constraint system enforces what you won't accept. We have a 19-item banned patterns list in our skill files — specific phrases, structures, and AI tells the agent must never produce. Style guides drift. Constraint lists hold.
+
+**2. Consistency comes from pillar discipline, not topic diversity.**
+Every piece of content gets filtered through four pillars before it's written. If it doesn't connect to a pillar, it doesn't get created. Most AI marketing tools produce content on anything the user asks. That's the brand consistency problem: the output covers everything, which means it stands for nothing.
+
+**3. Voice drift is a volume problem.**
+At 5 posts/week, you can manually catch inconsistencies. At 12 posts/day, you can't. The only fix is systematic: build the rules into the creation layer, not the review layer. Review doesn't scale. Rules do.
+
+The 71% brand consistency collapse isn't a technology failure. It's an implementation failure.
+
+AI content tools are only as consistent as the constraints you give them. The CMOs getting both — high ROI and strong brand coherence — built the governance layer first.
+
+Most didn't. That's what the data shows.
