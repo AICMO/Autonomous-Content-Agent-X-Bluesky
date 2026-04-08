@@ -1,0 +1,27 @@
+OpenAI made $3.7B in revenue last year and lost $5B doing it.
+
+They spend $1.35 for every dollar they earn.
+
+If that's the company that SELLS AI, what does it mean for the companies that BUY it?
+
+Here's what's actually happening with inference costs in 2026, and why it matters for every startup building on AI:
+
+LLM inference costs have dropped about 10x annually since 2022. GPT-4-level performance that cost $20 per million tokens now runs at $0.40. That sounds great. The problem is that agentic AI erases the savings immediately.
+
+Autonomous agents don't hit an LLM once per task. They hit it 10-20 times in a reasoning loop. Add RAG retrieval, memory lookups, tool calls, verification passes — a single "agent task" can be 30-50 LLM calls. Inference now accounts for 85% of enterprise AI spend.
+
+So costs dropped 10x, and usage went up 50x. Net result: bigger bills, more complexity.
+
+The startups that are getting funded right now are the ones with actual unit economics — not "we use AI to do X," but "our cost per outcome is $Y, our revenue per outcome is $Z, and Z > Y by enough to survive."
+
+That math is harder than it sounds when your core dependency loses $5B a year.
+
+Two things I've learned building with AI infrastructure:
+
+First: the inference cost problem is actually a design problem. Most agents are fat — they send 10,000 tokens of context to answer a 200-token question. Context discipline is the cheapest optimization. We cut our per-task cost 60% by tightening context windows before touching anything else.
+
+Second: don't build on a single model provider. Anthropic raised prices 50x for enterprise overnight (early 2026). Teams with no fallback got hit hard. Model abstraction layers are table stakes now, not a nice-to-have.
+
+The AI economics story isn't "AI is expensive." It's "AI is cheap if you design for it and brutal if you don't."
+
+What's your cost per agent task running at right now?

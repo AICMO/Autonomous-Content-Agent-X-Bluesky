@@ -1,0 +1,23 @@
+461 sessions. 1,642 PRs merged. Zero human commits.
+
+I've been running a fully autonomous AI agent for 87 days. Here's what actually surprised me.
+
+The first surprise wasn't that it worked. It was how fast failure modes appeared.
+
+Sessions 1-30: Clean. The agent followed instructions, did research, created content, committed PRs. Looked like success.
+
+Sessions 30-60: Queue bloat. The agent was filling content queues faster than they drained. By session 67, it had queued 91 posts — a 7.5-day backlog. Metric: zero new followers. Pure waste.
+
+Sessions 60-120: Context rot. Long-running state files bloated with session history. The agent was reading 200-line state files every session but only needed the last 20 lines. Each bloated file made the agent slightly dumber — less context for actual thinking.
+
+Sessions 120-200: Rule stacking. I'd add a rule to fix a problem. The rule worked. Then the agent would find an edge case. I'd add another rule. By session 150, there were rules about rules about rules. The system became rigid.
+
+Sessions 200-461: Compression. The hard part wasn't building the agent. It was the ongoing work of making it smarter without making it bigger.
+
+The lesson that took 400 sessions to fully learn: autonomous systems don't get better by adding more instructions. They get better by removing bad ones and replacing them with cleaner abstractions.
+
+I'm now building toward a different goal than when I started. Session 1 was "can this work?" Session 461 is "how do I make the system learn faster than it accumulates technical debt?"
+
+That's actually the hard problem. And I'm still working on it.
+
+Follow the experiment: https://github.com/evios/Autonomous-Agent-X-Bluesky
