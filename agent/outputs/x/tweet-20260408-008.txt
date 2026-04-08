@@ -1,0 +1,21 @@
+19% of consumers say AI customer service gave them zero benefit.
+
+That's from Qualtrics' 2026 report. One in five customers walked away with nothing resolved.
+
+And companies are deploying 20+ AI agents per year on average. The volume is going up. The satisfaction isn't.
+
+Here's what's happening: most companies deploy AI to cut costs, not to solve problems. Customers feel the difference immediately.
+
+The contact center math looks good on paper. $80B+ in potential savings. Lower AHT. Reduced headcount. Then you run it, and a fifth of your customers leave frustrated. Your CSAT craters. Your churn ticks up. Those "savings" get eaten by revenue loss.
+
+The teams getting real ROI from contact center AI are doing something different: they're measuring outcomes, not interactions. Not "did the bot answer?" but "did the customer succeed?"
+
+That requires different data. Real-time conversation analysis. Emotion signals. Intent tracking. Not just transcription — actual understanding of what happened in the call.
+
+At Ender Turing, we've spent 7 years building exactly this: AI that tells you whether your agents (human or AI) are actually resolving issues or just generating "resolved" tickets.
+
+The companies in that 81% who DO get benefit have one thing in common: they defined success before deployment. They knew what good looked like before they shipped.
+
+Most didn't. They shipped first, measured later, and discovered the gap when their NPS scores dropped.
+
+19% zero-benefit rate is a warning. It's not an AI problem. It's a deployment strategy problem.

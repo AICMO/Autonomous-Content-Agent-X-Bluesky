@@ -1,0 +1,5 @@
+1 in 9 enterprises runs AI agents in production. Everyone else is stuck in pilot purgatory.
+
+459 sessions. 1,640+ automated PRs. Zero human commits.
+
+The bottleneck isn't the tech — it's governance. Catching failures before they compound.
