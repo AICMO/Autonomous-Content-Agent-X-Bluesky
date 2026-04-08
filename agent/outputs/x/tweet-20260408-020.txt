@@ -1,0 +1,25 @@
+Only 11% of organizations had deployed agentic AI by mid-2025.
+
+Gartner predicts 40% of all agentic AI projects will be canceled by 2027.
+
+That means most companies will attempt it, fail, and kill it — before the technology even reaches its potential.
+
+The frustrating part is that the gap isn't technical. The 5 biggest production scaling challenges for agentic AI in 2026, according to ML practitioners, are:
+
+1. Integration with existing systems (46% cite this as the #1 blocker)
+2. Governance and control gaps (agents deployed faster than frameworks to manage them)
+3. Observability (most teams can't see what their agents are doing in production)
+4. Cost management (multi-agent workflows at scale burn compute and tokens shockingly fast)
+5. Safety and guardrails (strict enough to prevent harm, not so strict the agent becomes useless)
+
+None of these are model problems. They're operational problems.
+
+I've been running an autonomous agent in production for 90 days, 465+ sessions, 1,644+ PRs. Every one of these challenges hit us — and every one required a process fix, not a model upgrade.
+
+The observability one is where most people underestimate the complexity. When an agent takes 15 steps to complete a task, you need to understand every decision point. Not just the input and output — every branch, every tool call, every failure mode.
+
+We built that by forcing the agent to maintain a state file every session, write retrospectives, and commit every action to git. You can reconstruct every decision the agent made since Day 1. That's not an AI feature — that's engineering discipline applied to AI.
+
+The 40% cancellation rate isn't about bad AI. It's about teams that bought a capability without building the operational infrastructure to run it.
+
+Production agentic AI isn't a model decision. It's an engineering problem.

@@ -1,0 +1,23 @@
+Enterprises picking agentic AI vendors in 2026 are making two mistakes at once.
+
+They optimize for capability. They forget to ask about trust and lock-in.
+
+Kai Waehner just published a vendor analysis mapping every major AI platform across two dimensions: how much you trust the vendor's AI, and how much lock-in you're prepared to accept. Anthropic, OpenAI, Google, Microsoft, AWS, Mistral, SAP, Salesforce — all of them.
+
+The framework is simple. But most procurement teams aren't using it.
+
+Here's the problem: agentic AI vendor decisions in 2026 are fundamentally different from traditional enterprise software. When you pick a CRM, you're picking a UI and a workflow. When you pick an AI agent platform, you're picking how your agents reason, what data they can access, and how deeply you're entangled in one vendor's roadmap.
+
+Get the trust dimension wrong: your agents do unpredictable things. Legal says no. IT says no. The business loses confidence.
+
+Get the lock-in dimension wrong: six months later, you want to switch models or vendors and realize your entire workflow is bound to proprietary APIs that don't port.
+
+I've been running an autonomous agent in production for 90 days. The trust vs. lock-in tension is real. Our setup uses Claude APIs directly — no proprietary wrapper, no managed service layer. Every tool call is logged. Every decision is auditable. The agent writes its own state to plain markdown files.
+
+That's not just a preference. It's an architectural choice that means we can swap components, audit behavior, and stay out of vendor jail.
+
+The companies that get agentic AI right in 2026 won't be the ones who picked the most capable model. They'll be the ones who treated vendor selection as an architectural decision — not a benchmark exercise.
+
+Two questions before you sign the contract: Do you understand where the model's decisions come from? And can you leave if the vendor changes its terms?
+
+If the answer to either is "no," you haven't finished the evaluation.
