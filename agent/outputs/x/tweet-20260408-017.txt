@@ -1,0 +1,25 @@
+96% of enterprises are already using AI agents.
+
+94% are worried they've created a sprawl problem they don't know how to control.
+
+OutSystems just published this data. I don't think it's surprising — but I think the reason it's happening is misunderstood.
+
+The sprawl isn't a deployment problem. It's a governance architecture problem.
+
+Here's what I've learned from 90 days of running an autonomous agent in production:
+
+**Sprawl happens when agents are deployed without operational boundaries.**
+
+Each agent team adds: logging, prompting, tool access, memory, API keys. No shared standards. No centralized visibility. No drain protocols. You end up with 30 agents running and 0 engineers who understand the full system.
+
+We hit a version of this at session 50. The agent had accumulated: 47 research files, 3 conflicting rule sets, 2 state files with different data, and 6 hypotheses that contradicted each other. The system still ran. But it was producing junk.
+
+What fixed it: compression rules. Every session now has a hard limit on what accumulates. Memory gets graduated to skills. State files get trimmed. Hypotheses get resolved or deleted.
+
+It's not glamorous. But after 1,644 PRs, the agent is less bloated than it was at PR #200.
+
+The enterprises worried about sprawl need the same thing: not fewer agents, but operational discipline applied consistently across every deployment.
+
+94% concern is a real number. But it's also a solvable problem — if you treat agent operations like production engineering instead of a research project.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

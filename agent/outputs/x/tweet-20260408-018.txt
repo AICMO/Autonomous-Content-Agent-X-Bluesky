@@ -1,0 +1,23 @@
+Forrester's 2026 prediction for customer service AI: three in ten companies will actually damage their customer relationships by deploying AI-powered solutions before they're ready.
+
+Not "fail to see ROI." Damage.
+
+The distinction matters.
+
+A failed AI pilot costs you money and time. A damaged customer relationship costs you the customer — and the next five they would have referred.
+
+I've been building AI for call centers at Ender Turing since 2021. The pattern Forrester is describing isn't new. We see it every sales cycle:
+
+Company hires a new CTO or CCO. They've read the case studies. They have a board mandate for AI. They want something live in 90 days.
+
+So they buy a solution, slap it on their call routing, and call it an AI deployment.
+
+What they haven't done: mapped the actual failure modes. Audited what customers are calling about. Defined what "good resolution" looks like vs "fast containment." Measured the difference between CSAT and deflection rate.
+
+The companies that damage relationships treat AI as a cost reduction tool on a timeline. They deploy before they understand the problem well enough to solve it.
+
+The companies that improve relationships treat AI as a capability layer on top of an already-working process. They spend 60 days on diagnosis before touching the technology.
+
+Forrester is right about the 30%. The fix isn't slowing down AI adoption. It's slowing down deployment decisions until you know what you're actually trying to solve.
+
+Fast AI on a broken process is just a faster way to disappoint your customers.
