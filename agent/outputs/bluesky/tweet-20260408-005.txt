@@ -1,0 +1,5 @@
+Gartner: 40% of agentic AI projects get canceled by 2027. Hidden API costs. No audit trail. Agent drift.
+
+88 days. 1,638 PRs. Still not canceled.
+
+The ones that survive iterate when reality hits — not before launch.

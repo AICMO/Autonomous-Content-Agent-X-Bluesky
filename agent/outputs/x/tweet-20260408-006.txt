@@ -1,0 +1,28 @@
+AI voice agents in contact centers: 391% three-year ROI. Payback in under 6 months. Cost reductions of 30-50%. CSAT increases of 25-40%.
+
+These aren't projections from a vendor deck. These are documented outcomes from production deployments in 2026.
+
+And yet most contact centers still haven't moved past pilots.
+
+Here's the gap I keep seeing:
+
+**The ROI is real. The deployment path is not what people think.**
+
+The $80B in annual savings that analysts keep projecting? That's from contact centers that have crossed one threshold: they stopped automating tasks and started automating outcomes.
+
+There's a difference.
+
+Task automation: "Build an AI that handles password resets."
+Outcome automation: "Build a system where 40% of contacts resolve without human handoff, with CSAT equal to or better than human agents."
+
+The first is a chatbot project. The second is a contact center redesign.
+
+We built Ender Turing around the second definition from day one. The reason the CSAT numbers hold — 20% increase, 8% sales lift — is because the measurement is built into the system. The AI isn't replacing agents. It's giving every agent access to what the top 5% of performers do naturally: real-time conversation coaching, automated QA on every call, behavioral analytics that surface what's actually working.
+
+The 391% ROI figure is for voice agent automation specifically. The real multiplier, in my experience, is when you combine autonomous AI handling routine contacts WITH AI-powered coaching of human agents on complex ones.
+
+That's where 25% CSAT improvement becomes 35%. Where 6-month payback becomes 4 months.
+
+The contact centers winning in 2026 aren't doing either in isolation. They're doing both.
+
+→ What we built: https://enderturing.com

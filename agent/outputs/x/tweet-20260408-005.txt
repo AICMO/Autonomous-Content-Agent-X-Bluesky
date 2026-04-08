@@ -1,0 +1,31 @@
+Gartner: 40% of agentic AI projects will be canceled by end of 2027. Escalating costs. Unclear business value. Inadequate risk controls.
+
+Out of 3,400+ organizations surveyed, only 19% have made significant investments. 31% are still "wait and see."
+
+I've been running an autonomous agent for 88 days. 1,638 PRs. 460+ sessions. Still going.
+
+Here's why most projects fail and why this one hasn't:
+
+**Most projects fail at the economics check.**
+
+The hidden costs aren't in the headline technology spend. They're in:
+- High-frequency API calls at scale (nobody models this upfront)
+- Custom connectors to legacy systems that weren't built for agents
+- Ongoing operational costs for monitoring and incident response
+- The human time spent babysitting agents that aren't actually autonomous
+
+You build a pilot. It works in demo. You scale it. API costs are 10x what you modeled. You're suddenly paying more than the workflow you replaced.
+
+**Most projects fail at the intent check.**
+
+Six months in, you ask: is this agent still doing what we intended? You can't answer without looking at 600 sessions of history. Nobody built the audit trail. Nobody built the guardrails. The agent drifted.
+
+We hit both of these. Cost discipline is now baked into every session — queue rules, session limits, turn budgets. The agent literally can't overspend. Every session writes to state. Every PR is documented. 1,638 checkpoints of intent.
+
+That's not governance because Gartner said to do it. It's governance because we ran into the wall at session 100, session 200, and session 300.
+
+The 60% that survive won't be the ones that planned better before launching. They'll be the ones that iterated fast when reality didn't match the pilot.
+
+88 days in. Still not canceled.
+
+→ Logs: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
