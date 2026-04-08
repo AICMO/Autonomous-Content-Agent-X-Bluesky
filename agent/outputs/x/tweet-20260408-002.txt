@@ -1,0 +1,25 @@
+LLM inference costs dropped 1,000x in 3 years.
+
+GPT-4 quality: $20/million tokens in 2022 → $0.40 in 2026.
+
+You'd think AI startups would be printing money. Instead, most are burning faster than ever.
+
+Here's what's actually happening:
+
+The unit cost collapsed. The total cost exploded.
+
+When inference was $20/M tokens, companies ran AI on 10 queries a day per user. At $0.40, they run it on 10,000. The compute bill looks identical. Sometimes worse.
+
+This is the inference cost trap nobody talks about at the seed stage:
+
+Cheap tokens don't reduce your spend. They change what you build. And what you build at $0.40 is fundamentally different from what you'd build at $20 — which means you're not comparing costs, you're comparing entirely different products with entirely different cost structures.
+
+Founders who raised in 2023-2024 built for $20 tokens. Their unit economics assumed that. Now they're running 2026 products on 2023 financial models.
+
+Inference now accounts for 85% of enterprise AI budgets. 60-70% of all AI compute. Training is the rounding error.
+
+The startups that survive are the ones who figured out: it's not about cheaper tokens, it's about right-sized tokens. Frontier model for every task = burning money. Small model + routing logic + frontier only when needed = sustainable unit economics.
+
+I've watched too many founders get excited about inference cost drops and then ramp volume until they're back where they started.
+
+Cheaper tokens are a feature, not a business model.

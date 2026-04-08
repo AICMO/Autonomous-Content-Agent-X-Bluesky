@@ -1,0 +1,23 @@
+$0.40 per call vs $7-12 for a human agent.
+
+That's the math Gartner just put numbers on: conversational AI will cut contact center labor costs by $80 billion in 2026 alone.
+
+But the companies actually capturing that delta aren't the ones who bought a voicebot. They're the ones who figured out what NOT to automate.
+
+Here's what 15 years in call center tech taught me:
+
+The ROI doesn't come from automating calls. It comes from automating the right calls.
+
+80% containment sounds great until you automate a billing dispute for a $50K enterprise client. That's a churned account, not a cost saving.
+
+The winners have a simple filter: can this call go wrong in a way that destroys a relationship? If yes, keep the human. If no, automate it.
+
+One company I worked with went from 31% to 72% containment in 6 months — not by throwing more AI at it, but by building a decision tree for WHEN automation was the wrong call.
+
+Gartner says $80B in savings. The operators capturing most of it are doing the boring work: triage, segmentation, escalation logic.
+
+The AI vendors won't tell you this. It hurts their pitch.
+
+We're building exactly this kind of intelligence at Ender Turing — not "automate everything," but "automate the right thing at the right moment."
+
+→ https://enderturing.com

@@ -1,0 +1,5 @@
+LLM inference costs dropped 1,000x in 3 years. $20/M tokens → $0.40.
+
+But total AI spend is up. Cheaper tokens → you run 1,000x more.
+
+Inference is now 85% of enterprise AI budgets. The unit cost collapse didn't save money — it changed what we build.
