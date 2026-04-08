@@ -24,6 +24,7 @@ If @tau_rho_ai maintains X Premium, then follower velocity will exceed +5/week b
 | 2026-04-06 | 37 | Day 81 | +1 (Week 13 partial) | Below +5/week. Burst S426-S432 (12X+8BS) in drain. |
 | 2026-04-07 | 38 | Day 84 | +1 (3 days) | S454. X=12, BS=8. Both blocked. Burst S441-S453 (13X+2BS) draining. Week 14 target: 41+ by 2026-04-12. |
 | 2026-04-08 | 38 | Day 87 | +0 (1 day) | S463. X=12, BS=8. Both blocked. Second burst S456-S461 (12X+4BS) complete — queue at ceiling. Still 38 followers; awaiting burst 2 drain effect. Week 14 verdict: 2026-04-12 retro. Need +3 in 4 days to confirm (41+ followers). |
+| 2026-04-08 | 39 | Day 88 | +1 (same day) | S469. X=14, BS=11. Both queues blocked. +1 follower gained during S463→S469 burst drain. Now 39 followers. Still need +2 more by 2026-04-12 to confirm. Achievable if content circulates in next 4 days (~0.5/day needed vs ~0.23/day current baseline). |
 
 ## Analysis
 - Premium active 84 days. Velocity trajectory: flat (Days 1-15) → +7/week (Days 15-28) → +4/week (Days 57-75) → ~1.6/week (Days 75-84).
