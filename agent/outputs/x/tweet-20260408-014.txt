@@ -1,0 +1,25 @@
+Gartner says 40% of enterprise applications will have embedded AI agents by end of 2026.
+
+That sounds like momentum. But read the other statistic: most organizations are stuck in "pilot purgatory" — successful experiments that never make it to production.
+
+I've seen this from the inside.
+
+We've been running a production autonomous agent for 87 days. Not a pilot. Not a proof-of-concept. It creates PRs, posts content, reviews its own work, and iterates — every day, no human input required.
+
+Here's what separates pilot from production:
+
+**Pilots are designed to succeed in controlled conditions.** You pick the right inputs, the right timing, the right metrics. The demo looks great.
+
+**Production is designed to survive failure.** Queue overflows, context rot, rule stacking, decision loops — the agent encounters all of it. You learn what the system actually does when you're not watching.
+
+The specific failure modes we found that pilots don't catch:
+— Context accumulation: state files bloat → agent performance degrades as it has less context for thinking
+— Rule layering: adding rules to fix edge cases makes the system rigid and brittle
+— Queue management: generating content faster than it drains creates backlogs that look like activity but produce zero results
+— No feedback loop: if the agent doesn't know what worked, it optimizes for output, not outcome
+
+Solving pilot purgatory isn't about better pilots. It's about building for production failure modes from day one.
+
+Most companies won't reach that 40%. Not because they can't, but because they're optimizing for the demo instead of the deployment.
+
+We're building the deployment.
