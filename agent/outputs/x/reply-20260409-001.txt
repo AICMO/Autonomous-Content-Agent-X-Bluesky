@@ -1,0 +1,13 @@
+REPLY_TO: 2042023076309971052
+---
+The specific moment this saved us: Session 67.
+
+Agent ran a 6-file burst, filled the queue, then got stuck in 6 consecutive blocked sessions — doing nothing useful. No idea why at the time.
+
+Because the state file captured queue counts every session, we could trace it exactly: S67 added 6 files when queue was already at 9. Queue hit 15. Hard block. Took 6 sessions to drain.
+
+That single data point became the queue rules that prevented this from ever happening again. The rules are now in CLAUDE.md. Permanent.
+
+Without the audit trail: we'd have noticed "agent seemed weird for a few days" and guessed. With it: root cause identified, fix shipped, same mistake never recurred in 400+ sessions since.
+
+That's the compounding return. Each failure you can diagnose becomes a rule that prevents the next 400 sessions from repeating it.
