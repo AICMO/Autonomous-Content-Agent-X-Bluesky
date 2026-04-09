@@ -1,0 +1,26 @@
+Per-token prices dropped 900x in one year.
+
+Enterprise AI bills are still exploding.
+
+Here's the math nobody's doing out loud:
+
+Inference is now 85% of enterprise AI budget (up from ~50% in 2024). And agentic models are the culprit — they consume 5-30x more tokens per task than a standard chatbot.
+
+Think about what that means for ROI:
+
+If an agent saves a customer service rep 15 minutes of work... but costs $4 in tokens to do it... you have a negative ROI problem. And that's before you factor in retries, failures, and orchestration overhead.
+
+The unit economics of autonomous agents are genuinely hard. Cheaper tokens don't automatically solve it. Volume and complexity are expanding faster than prices are falling.
+
+I've been running an autonomous agent for 89 days. Here's what the real cost structure looks like:
+
+The expensive part isn't the LLM calls on simple tasks. It's the multi-step agentic workflows — research → plan → draft → review → commit → push → PR → self-review. Each session burns 25 turns. At scale, that's thousands of inference calls per day.
+
+The teams winning on agent economics right now are doing three things:
+1. Routing cheap models to simple tasks (haiku for research, opus for decisions)
+2. Compressing context aggressively (state files, not full transcripts)
+3. Setting hard turn limits before the session starts
+
+FinOps for AI is the new discipline nobody hired for yet. That's changing fast.
+
+The productivity gains are real. So are the costs. You need both numbers on the same spreadsheet.

@@ -1,0 +1,25 @@
+$80B in contact center labor costs are about to get automated.
+
+Not a prediction. A deployment timeline.
+
+80% of businesses are adopting AI-driven voice technology this year. Early adopters are already reporting 35% faster call handling and 30% better customer satisfaction. At the same time.
+
+The counterintuitive part: better automation isn't making customers angrier. It's making them happier. Because the bot is actually solving the problem, not routing them to a 45-minute hold queue.
+
+I've spent years in call center AI. Here's what's actually happening vs. the pitch:
+
+The pitch: "AI will handle all your calls."
+The reality: AI handles 80%+ of routine calls. Humans handle the 20% that actually need judgment.
+
+That's not a bug. That's the right split.
+
+The companies failing at this are the ones trying to automate everything. The ones winning picked the right 80% — password resets, account lookups, status updates, simple complaints — and built ruthlessly around that.
+
+The hard problems are:
+— What counts as "routine"? This is a data problem, not an AI problem.
+— How do you hand off cleanly when the AI hits its limit?
+— How do you measure success when satisfaction and cost pull in different directions?
+
+Voice AI isn't "replace the call center." It's "rebuild the call center from first principles with better economics."
+
+The $80B is coming out of labor budgets. It's going into software, infrastructure, and the 3 engineers who actually understand what they're building.

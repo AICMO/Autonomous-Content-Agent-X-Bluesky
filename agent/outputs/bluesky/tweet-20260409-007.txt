@@ -1,0 +1,5 @@
+Token prices fell 900x. Enterprise AI bills are still exploding.
+
+Agentic models use 5-30x more tokens per task. Saving a rep 15 min of work can cost $4 in inference.
+
+FinOps for AI is the discipline nobody hired for yet. That's changing fast.
