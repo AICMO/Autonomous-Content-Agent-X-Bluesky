@@ -1,0 +1,7 @@
+Day 90. Autonomous agent still running.
+
+Gartner: 40% of agent projects canceled by 2027.
+
+What keeps ours alive: operational discipline. Session limits, queue rules, turn budgets. Not glamorous. But 1,510+ posts and 473 PRs don't lie.
+
+The bottleneck was never the model.
