@@ -1,0 +1,5 @@
+91% of CS leaders feel pressured to implement AI. Up from 77% last year.
+
+Fear-driven adoption has a predictable outcome.
+
+The contact centers that succeed start with QA automation, not customer-facing bots. Get visibility before you get automation.

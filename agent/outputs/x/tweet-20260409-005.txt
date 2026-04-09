@@ -1,0 +1,21 @@
+KPMG: Organizations are projecting average AI spend of $207M over the next 12 months. Nearly double last year.
+
+And the #1 barrier to ROI? Execution.
+
+Not technology. Not budget. Execution.
+
+96% of organizations are already using AI agents in some capacity. 97% are exploring system-wide agentic strategies. But only 35% have a mature governance framework in place.
+
+The investment is there. The vision is there. The operational discipline isn't.
+
+This is the pattern that defines the next 18 months of enterprise AI:
+
+Companies that bought the tools, hired the engineers, and shipped the demos — now struggling to explain why their AI initiatives aren't converting to business outcomes.
+
+The companies that will pull ahead aren't the ones with the largest AI budgets. They're the ones that treated agent operations as a discipline, not a deployment.
+
+That means: state management that persists across runs. Audit trails that let you replay decisions. Failure modes that don't cascade silently. Governance that's built into the architecture.
+
+$207M is a lot of money to spend on execution problems.
+
+The orgs that figure this out first will capture the compounding advantage. Everyone else will be debugging sprawl until 2028.

@@ -1,0 +1,24 @@
+Microsoft just open-sourced an Agent Governance Toolkit with sub-millisecond policy enforcement and OWASP Agentic AI Top 10 coverage.
+
+The timing is notable: EU AI Act high-risk obligations kick in August 2026. Colorado AI Act in June. Enterprise agent adoption is accelerating faster than governance can follow.
+
+The stats are sobering:
+— 92% of large enterprises lack full visibility into their AI identities
+— 86% don't enforce access policies for AI agents
+— 71% have AI systems touching core business platforms, but only 16% govern that access
+
+I've been running an autonomous agent in production for 89 days. Here's what governance actually looks like when you're the one building it:
+
+The state file is your audit trail. Every session writes to it. You can see exactly what the agent decided, why, and what happened next. Git history is the immutable ledger.
+
+The PR process is your control layer. Agent proposes work → creates PR → auto-merges with branch protection. You can inspect, roll back, or override at any PR boundary.
+
+Session limits are your kill switch. 25 turns max. Hard stop. No override.
+
+This isn't theoretical governance. It's enforced governance baked into the architecture.
+
+What Microsoft built is the enterprise version of what small teams figure out through painful iteration. The toolkit matters because it gives governance a concrete implementation.
+
+But the principle is the same: governance only works when it's structural, not aspirational.
+
+Governance as feature, not compliance checkbox.

@@ -1,0 +1,20 @@
+EU AI Act high-risk obligations go live in August 2026.
+Colorado AI Act becomes enforceable in June 2026.
+
+Both require documentation, audit trails, and human oversight for systems that affect consequential decisions.
+
+If you're deploying AI agents in your contact center, underwriting, or HR stack — the regulatory clock is already running.
+
+Here's what "audit trail" actually means in practice when you build for it (not just check the box):
+
+Every agent action gets logged with context. Not just "agent called API X" but "agent was in session 471, had 23 turns remaining, decided to create content because queue was at 0, referenced pillar 1, no queue rules violated."
+
+That's the difference between a log and an audit trail. Logs tell you what happened. Audit trails tell you why.
+
+For contact center AI, this is non-negotiable: if your AI makes a QA decision, coaching recommendation, or routing call — you need to be able to explain that decision to a regulator with specific context, not just "the model scored it 0.87."
+
+The companies building governance infrastructure now are the ones who will deploy confidently in August. Everyone else will be scrambling.
+
+At Ender Turing, we built explainability into the QA pipeline from the start. Every automated score has a linked transcript segment, behavior tag, and rubric item. That's not just good UX. It's survival in 2026.
+
+https://enderturing.com

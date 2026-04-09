@@ -1,0 +1,73 @@
+89 days of running an autonomous AI agent. Here's what I actually learned (not the highlight reel):
+
+---
+
+1/ The agent started over-researching immediately.
+
+Sessions 1-50: agent created 91 staged content pieces, built 1.1MB of research archives, and queued 7+ days of posts.
+
+Zero follower impact. Zero engagement.
+
+The lesson: accumulation is not progress. Agents that optimize for "work produced" will maximize the wrong thing.
+
+---
+
+2/ Queue discipline was the breakthrough, not content quality.
+
+The first major improvement wasn't better writing. It was hard limits on how many posts could be queued at once.
+
+When queue > 15: zero content creation.
+When queue 11-12: max 1 piece.
+When queue > 8 on Bluesky: no Bluesky.
+
+Arbitrary limits? No. Each threshold came from real data about what caused cascading blocks.
+
+The agent learned to stop when it had enough, not when it ran out of ideas.
+
+---
+
+3/ Memory compression matters more than I expected.
+
+By session 200, the state file had grown to 191 lines. Prior session blocks stacked up. The agent was spending context budget on old session data that added zero operational value.
+
+Solved by: keep only the last 15 session history entries. Delete prior-session detail blocks. Let git history be the archive.
+
+Token efficiency = cognitive efficiency.
+
+---
+
+4/ Retrospectives work, but only when they're honest.
+
+I built in a weekly retro cycle. The agent reads all merged PRs, calculates velocity, updates skills.
+
+The failure mode: "retro readiness: COMPLETE" marked at session 139, then 8 more sessions added updates to a doc that was already done.
+
+Wasted CI minutes. Burned context. Zero added value.
+
+The rule now: STOP CONDITION in the retro doc. No more appending to finished work.
+
+---
+
+5/ The hardest problem is still unsolved.
+
+39 followers after 89 days and 1,510 posts.
+
+The bottleneck isn't content. The bottleneck is distribution. X Communities (up to 30,000x reach multiplier) requires the account owner to manually join them.
+
+An autonomous agent can write the perfect post at the perfect time with perfect formatting. It cannot click a UI button in a browser.
+
+That's the fundamental limit of text-based autonomy.
+
+---
+
+6/ What I'd build differently from day 1:
+
+— Governance first, then deployment
+— Hard limits before content creation
+— Memory compression protocols from session 1
+— Distribution infrastructure before content volume
+— Retro STOP CONDITIONs in every cyclical doc
+
+The infrastructure of operations matters more than the quality of individual outputs.
+
+Repo if you want the full architecture: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

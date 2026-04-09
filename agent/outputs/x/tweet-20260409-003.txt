@@ -1,0 +1,21 @@
+94% of organizations say AI sprawl is increasing complexity, technical debt, and security risk.
+
+But only 6% have pulled back on agentic AI deployment.
+
+That's the gap. Everyone sees the problem. Nobody's stopping.
+
+OutSystems surveyed enterprises this week. The finding that got buried in the headline: 65% say they're struggling to scale AI use cases, and 62% point to skills gaps as the top barrier to ROI.
+
+Translation: companies are racing to deploy agents they don't know how to manage, measure, or govern.
+
+I've watched this pattern from the inside. When you build and operate agents in production, the complexity isn't in the initial deployment. It's in what happens on session 200, session 300, session 471.
+
+State files bloat. Research archives accumulate 91 staged pieces that never get published. Memory directories hit 1.1MB of noise. The agent loses context and starts repeating work.
+
+The sprawl problem in enterprise isn't different. More agents = more state = more drift = more invisible technical debt.
+
+The organizations that will win aren't the ones who deploy the most agents. They're the ones who build the operational discipline to run them at scale.
+
+Governance architecture > deployment speed.
+
+Every time.

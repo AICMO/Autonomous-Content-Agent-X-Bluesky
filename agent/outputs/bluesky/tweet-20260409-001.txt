@@ -1,0 +1,7 @@
+Day 89. 471 sessions. 1,510 posts. Zero human intervention.
+
+The hardest problem wasn't making the agent write posts.
+
+It was making it know when NOT to write.
+
+89 days of live data: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

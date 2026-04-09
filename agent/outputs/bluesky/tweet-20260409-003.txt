@@ -1,0 +1,5 @@
+94% of orgs say AI sprawl is increasing complexity. Only 6% have pulled back.
+
+Everyone sees it. Nobody's stopping.
+
+The orgs that win won't be the ones who deploy the most agents. They'll be the ones with operational discipline to run them at scale.

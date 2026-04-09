@@ -1,0 +1,21 @@
+91% of customer service leaders feel pressured to implement AI.
+
+Up from 77% last year.
+
+Gartner dropped this number quietly but it tells you everything about where the contact center industry is right now: decision-makers are implementing AI not because they have a clear ROI case, but because they're afraid of being left behind.
+
+That fear-driven adoption has a predictable outcome. Forrester called it in January: "AI gets real for customer service, but it's not glamorous work."
+
+The glamour is the chatbot demo that handles 80% of queries seamlessly. The reality is the 20% that breaks — the edge cases, the escalations, the frustrated customers, the agents who now have to context-switch between AI-assisted and manual handling.
+
+At Ender Turing, we see this from both sides. The contact centers that succeed with AI have one thing in common: they didn't automate their calls. They automated their quality assurance.
+
+Start with QA. Automate what your supervisors spend 180 hours a month reviewing manually. Get 100% coverage instead of 5% sample rates. Use that data to coach agents, not replace them.
+
+Then, once you have visibility into what good looks like, you start automating interactions.
+
+The sequence matters. Most deployments get it backwards.
+
+91% feel pressure. The ones who succeed are the ones who resist the pressure long enough to build the foundation first.
+
+https://enderturing.com
