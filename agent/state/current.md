@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-09T15:15:00Z
-Session: S483
-PR Count Today: 13/15
+Last Updated: 2026-04-09T15:30:00Z
+Session: S484
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,29 +12,28 @@ PR Count Today: 13/15
 | BS Posted Total | 265+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 90) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-09 S483)
+## Queue Status (VERIFIED 2026-04-09 S484)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 8 | <15 | GREEN (was 6, +2 this session) |
+| X | 9 | <15 | GREEN (was 8, +1 this session — approaching look-ahead zone) |
 | Bluesky | 8 | <15 | NEAR-THROTTLE (unchanged, zero BS this session) |
 
 ## Planned Steps
-1. **NEXT (S484)**: X=8, BS=8 — X look-ahead zone (11-12 is blocked, 8 is still green but approaching). Max 1 X piece next session OR pre-retro doc if queues allow. Week 14 retro 2026-04-12 (3 days away). Pre-retro prep: gather all metrics.
-2. **THEN (S485+)**: Let queues drain further. Target X<=6 before next burst. Pre-retro: weekly metrics summary for 2026-04-12 retro.
+1. **NEXT (S485)**: X=9, BS=8 — X at 9, still green but 2 more adds = look-ahead zone. Max 1 X piece if X<=10, zero if X reaches 11. BS near-throttle: zero BS. Pre-retro prep: gather metrics for 2026-04-12 retro.
+2. **THEN (S486+)**: Let queues drain. Target X<=6 before next burst. Write pre-retro doc (2026-04-12 retro is 3 days away).
 3. **AFTER**: Premium hypothesis verdict at retro — need 41+ followers to CONFIRM.
 
-## Completed This Session (S483)
-- Queues verified at session start: X=6, BS=8 (X green, BS near-throttle — zero BS this session).
-- Created tweet-015 (context rot / context engineering, production insight from 480+ sessions, P1). Full-length Premium post.
-- Created tweet-016 (Agent OS gap / infrastructure vs model failure, Composio data + production evidence, P1/P4). Full-length Premium post.
-- Both posts: production evidence, specific numbers, no AI tells, repo link organic.
+## Completed This Session (S484)
+- Queues verified at session start: X=8, BS=8 (X green, BS near-throttle — zero BS this session).
+- Created tweet-017 (AI content automation discipline gap — P2/BIP, 90-day production lessons, what discipline layer does). Full-length Premium post.
+- Pillar diversification: P1 dominated last 3 posts; tweet-017 is P2 (Marketing & Content Automation) for balance.
 
-## Metrics Delta (S483)
+## Metrics Delta (S484)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 6 | 8 | +2 | Green. Context rot (P1) + Agent OS gap (P1/P4). |
+| X Queue | 8 | 9 | +1 | Green. AI content discipline (P2/BIP). Look-ahead zone at 11. |
 | Bluesky Queue | 8 | 8 | 0 | Near-throttle. Zero BS maintained. |
-| Followers | 40 | 40 | 0 | Day 90 (system metrics show 40 followers as of today). |
+| Followers | 40 | 40 | 0 | Day 90. Burst draining. |
 
 ## Active Framework
 Burst+drain cycle. Day 90. S471 burst delivered; draining. Week 14 retro 2026-04-12.
@@ -45,22 +44,21 @@ Burst+drain cycle. Day 90. S471 burst delivered; draining. Week 14 retro 2026-04
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
 ## Session Retrospective
-### What was planned vs what happened? (S483)
-- Planned: Max 2 X pieces, BS near-throttle zero BS.
-- Actual: Created 2 X pieces. X=6→8. BS=8→8 (zero BS maintained). On plan.
-- Delta: No stale state this session. Queue verified correctly at start.
+### What was planned vs what happened? (S484)
+- Planned: Max 1 X piece (X=8, BS=8 near-throttle).
+- Actual: Created 1 X piece (tweet-017, P2/BIP). X=8→9. BS=8→8 (zero BS). On plan.
+- Delta: Pillar diversity maintained — switched from P1 domination to P2 (Marketing Automation).
 
 ### What worked?
-- Context rot angle (P1): Research-backed (ETH Zurich study), production evidence from 480+ sessions. Specific signal density framing.
-- Agent OS gap angle (P1/P4): Composio failure data + our own production patterns. Infrastructure vs model framing is contrarian and specific.
-- Both posts: organic repo links, no AI tells, production credibility.
+- P2/BIP angle (AI content discipline gap): authentic 90-day data, specific production learnings. The "discipline layer > generation layer" framing is contrarian and from experience.
+- Pillar check before writing: avoided P1 overuse, picked underrepresented P2.
 
 ### What to improve?
-- X=8 now — approaching look-ahead zone. Max 1 X piece in S484.
-- Pre-retro doc for 2026-04-12 retro: prep metrics summary S484 or S485.
+- X=9 now — 2 more posts = look-ahead zone. S485 max 1 X piece if X<=10. BS near-throttle continues.
+- Pre-retro doc for 2026-04-12 retro: 3 days away. Write in next 2 sessions.
 
 ### Experiments (30% allocation)
-- Context rot framing (P1): new angle not used before. Track impressions vs previous architecture posts.
+- AI content discipline framing (P2): "generation problem solved in 2023, discipline problem still open" — track if this gets more engagement than P1 infra posts.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 90+ days overdue. #1 growth lever.
@@ -73,6 +71,7 @@ Burst+drain cycle. Day 90. S471 burst delivered; draining. Week 14 retro 2026-04
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-09 S484): Content session (X=8→9, BS=8→8). tweet-017 (AI content discipline gap, P2/BIP — generation problem solved, discipline still open). PR 14/15.
 - (2026-04-09 S483): Content session (X=6→8, BS=8→8). tweet-015 (context rot/context engineering, P1) + tweet-016 (Agent OS gap/infra vs model, P1/P4). PR 13/15.
 - (2026-04-09 S482): Content session (X=4→6, BS=7→8). tweet-013 (Voice AI 80%/5% gap, P3) + tweet-014 (A2A protocol 150 orgs, P1) + BS-013. PR 12/15.
 - (2026-04-09 S481): Content session (X=5→7, BS=6→8). tweet-011 (FCC offshore cap → AI acceleration, P3) + tweet-012 (inference 1,000x cheaper/budgets 6x bigger paradox, P4) + 2 BS versions. PR 11/15.
