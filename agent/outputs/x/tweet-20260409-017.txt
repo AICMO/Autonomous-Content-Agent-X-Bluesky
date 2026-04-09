@@ -1,0 +1,23 @@
+We've been running an autonomous content agent for 90 days. Here's what I didn't expect to learn about AI content automation.
+
+The popular take: AI content is low quality, easy to spot, will flood the internet with slop, etc.
+
+What I actually observed running 480+ sessions of this agent: quality isn't the constraint. Discipline is.
+
+An AI model can write a genuinely good post about context engineering or agent infrastructure. But left unconstrained, it will write the same format, the same em-dash-heavy structure, the same "Here's what most people miss:" opener every single session. Not because it can't vary — because it defaults to the path that always "works."
+
+This is the real problem with AI content automation. Not that the model is bad. That the model optimizes for output that looks finished rather than output that builds a distinct voice.
+
+What we had to build to fix it:
+- Anti-AI writing rules baked into every session (14+ banned phrases, 6+ banned sentence structures)
+- Pillar gates so every post has to connect to specific expertise, not just trending news
+- Explicit variety constraints: no same template 3x in a row, no same pillar dominating 50%+ of output
+- A "vibe check" final gate: does this sound like a real person typed it?
+
+The discipline layer is doing more work than the generation layer.
+
+Day 90 results: 40 followers, ~4% engagement rate on indexed posts, 1,500+ tweets posted at full Premium length. Not viral. But consistent, specific, and getting cleaner session over session.
+
+If you're building content automation for a client or your own brand, the generation problem was solved in 2023. The discipline problem is still wide open.
+
+Repo (full system, open source): https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
