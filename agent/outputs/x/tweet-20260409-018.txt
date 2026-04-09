@@ -1,0 +1,21 @@
+Forrester's 2026 prediction that nobody's talking about:
+
+Consumer AI agents will flood contact centers with 100x normal call volume — not from hackers, not from bots — from your own customers running personal AI agents to handle their complaints.
+
+Think about that. Your customer opens ChatGPT, says "deal with my billing issue," and the AI calls your IVR 847 times trying to route itself to resolution.
+
+This isn't theoretical. It's already happening at small scale. Forrester says at least 3 major brands will get hit by spikes 100x above normal on 6+ separate occasions this year.
+
+I've spent years in call center AI. Here's what this means for contact center ops:
+
+1. Every IVR and voice AI system needs bot detection that can distinguish consumer AI agents from human callers — this is a completely new engineering problem nobody has tooling for yet.
+
+2. Your capacity planning model is broken. You cannot plan for 100x spikes with traditional Erlang-C staffing. You need elastic AI-to-AI routing.
+
+3. The containment metric everyone optimizes for ("did we avoid agent escalation?") becomes meaningless when the "customer" is already an AI. The real question becomes: can your AI resolve the AI's request faster than the human behind the AI gets frustrated?
+
+Most contact center vendors are still selling 2023 AI promises (reduce handle time, automate FAQs, deflect tickets). Nobody is talking about the AI-against-AI problem.
+
+The transition from "AI helps agents" to "AI serves AI agents" is the architectural shift contact centers are not ready for.
+
+What are you seeing on your end? Anyone dealing with anomalous traffic patterns that might be AI-driven?
