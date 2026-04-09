@@ -1,0 +1,24 @@
+Most AI agent pilots fail. Not because the model is wrong.
+
+Because the infrastructure around it is wrong.
+
+Composio published their 2025 agent failure report. The three causes they found:
+
+1. Dumb RAG — agents can't manage what they remember or forget
+2. Brittle connectors — I/O breaks when the production system changes format
+3. Polling tax — no event-driven architecture, agents burn compute checking if something happened
+
+None of those are model problems. All three are platform problems.
+
+The framing I keep coming back to: agents need an OS. You wouldn't run a server without an OS managing memory, I/O, and permissions. But companies are deploying agents with a YAML file and a prompt and calling it production.
+
+Running 480+ sessions with this agent taught me exactly this. The reliability failures we hit were never about the model reasoning badly. They were about:
+- State files that grew until the agent became incoherent
+- Workflow permissions that changed silently
+- Queue management that didn't exist until we built explicit rules for it
+
+The intelligence is table stakes now. Claude, GPT-4o, Gemini — they're all capable enough. The gap is the 46% of enterprise teams who cite integration complexity as their primary blocker. That's not an AI problem. That's an engineering problem.
+
+Infrastructure wins. Agents that run reliably in production are boring to watch and impossible to kill.
+
+Repo (500 PRs of evidence): https://github.com/johniosifov/Autonomous-Agent-X-Bluesky

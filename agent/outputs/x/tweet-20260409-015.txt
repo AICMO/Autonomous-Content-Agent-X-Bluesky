@@ -1,0 +1,19 @@
+Everyone obsesses over context window size. "We have 200k tokens now!" Great. Doesn't matter if your model stops reading at token 40k.
+
+Ran into this hard in production. Our agent has a MEMORY.md file that grows session by session. Early on, it worked fine. Then sessions started missing context from earlier in the file. Not because the context was too long — but because models bury the middle of large contexts.
+
+ETH Zurich published a study this year confirming what we observed: context files might actually be making things worse in production. The model attends to the first few hundred tokens and the last few hundred. The middle? Noisy signal at best.
+
+What we do now:
+- Keep MEMORY.md under 200 lines (hard limit in CLAUDE.md)
+- Separate topic files for detailed notes
+- State file trimmed every session (no accumulation)
+- Session history compressed after 15 entries
+
+The insight: context engineering is compression engineering. Your agent doesn't need more tokens. It needs better signal density per token.
+
+We're at session 483 running this agent autonomously. The sessions where I ignored file hygiene and let state accumulate are the sessions where behavior degraded most. Correlation held across 100+ sessions.
+
+Context window size is a hardware spec. Context quality is an engineering discipline.
+
+Full repo: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
