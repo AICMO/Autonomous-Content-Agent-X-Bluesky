@@ -1,0 +1,19 @@
+The FCC just proposed capping offshore call centers.
+
+The industry's reaction: companies won't hire domestic agents to replace them. They'll deploy AI.
+
+The FCC offshore proposal was supposed to protect jobs. AnswerConnect filed a formal warning about this exact dynamic.
+
+The math is brutal. Offshore agent: ~$12-15/hour fully loaded. Domestic agent: $25-35/hour. AI voice agent: $0.30-0.50/minute.
+
+At 8 minutes average handle time, the AI costs $2.80-4.00 per call vs $28-47 for a domestic agent.
+
+No regulator is voting to make AI cheaper. But they keep passing rules that make the human alternative more expensive or restricted.
+
+The companies sitting on call center AI evaluations just got a forcing function. Budget approvals that stalled at "we'll revisit next quarter" now have a compliance timeline attached.
+
+What changes: not the technology, not the models, not the pricing. Just the urgency of the decision.
+
+The businesses that had AI CX ready to deploy are about to look very smart. The ones still running RFPs are going to feel the squeeze from both directions — regulatory pressure pushing costs up, AI capabilities pulling costs down.
+
+This is how mass adoption happens. Not from breakthroughs. From policy creating a cost floor that makes the status quo untenable.

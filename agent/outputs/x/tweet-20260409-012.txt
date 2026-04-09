@@ -1,0 +1,23 @@
+AI inference costs dropped 1,000x in 3 years. Enterprise AI budgets grew 6x.
+
+Both are true. Here's why they're not a contradiction.
+
+GPT-4-class inference: $20/million tokens in 2022. Under $0.40 today. That's not a typo — 1,000x cheaper in 3 years. The "AI is too expensive" argument died.
+
+But average enterprise AI budgets went from $1.2M (2024) to $7M (2026).
+
+Why? Agentic workflows.
+
+A simple chatbot: user sends query, model replies. Tokens consumed: ~1,000-2,000 per interaction.
+
+An autonomous agent session: the agent reasons, calls tools, reads files, writes files, loops back, retries. Every step burns tokens. A single 25-turn agent session can consume 150,000-500,000 tokens.
+
+Inference is 85% of the enterprise AI budget now, per recent data. The per-token cost fell. The number of tokens per workflow exploded.
+
+We see this directly running our production agent. A session that does meaningful research, writes content, and creates a PR uses roughly 40,000-100,000 tokens. At 9-12 sessions/day, that's serious compute.
+
+The founders getting burned: those who modeled token costs based on chatbot usage patterns, then built agentic workflows. Their unit economics are off by 10-30x.
+
+The fix isn't to make agents dumber. It's to model token budgets per workflow, not per query. Cache aggressively. Set session turn limits. Use smaller models for lower-stakes steps.
+
+Budget per workflow. Not per message.

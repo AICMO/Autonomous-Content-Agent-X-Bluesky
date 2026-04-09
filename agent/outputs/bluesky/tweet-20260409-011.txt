@@ -1,0 +1,7 @@
+FCC proposes capping offshore call centers.
+
+Companies aren't hiring domestic agents to replace them. They're deploying AI.
+
+Offshore: ~$15/hr. Domestic: ~$30/hr. AI voice: ~$0.40/min ($3.20/call at 8min AHT).
+
+Policy just made the status quo untenable. This is how mass AI adoption happens.

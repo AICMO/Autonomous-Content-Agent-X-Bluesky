@@ -1,0 +1,9 @@
+AI inference: 1,000x cheaper in 3 years. Enterprise AI budgets: 6x bigger.
+
+Both true. Not a contradiction.
+
+Chatbot = ~2K tokens/interaction. Autonomous agent session = 150K-500K tokens.
+
+Inference is 85% of enterprise AI budgets. The cost-per-token fell. Tokens-per-workflow exploded.
+
+Model your token budget per workflow. Not per message.
