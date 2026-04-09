@@ -1,0 +1,21 @@
+A2A protocol just hit 150 organizations in production.
+
+Agent-to-Agent. One year after launch. Google, Microsoft, AWS all integrated.
+
+This is the architectural shift that changes everything about how agents are designed.
+
+When your agent only talks to users, you build a workflow. When your agent talks to other agents — agents you don't control, running on infrastructure you don't own — you're building a protocol.
+
+That's a completely different engineering problem.
+
+Workflows are deterministic by design. You know the inputs, you know the outputs, you test the edge cases. A well-built agentic workflow fails in predictable ways.
+
+Multi-agent protocols fail in non-deterministic ways. Agent A makes a request. Agent B interprets it differently than intended. Agent C executes based on Agent B's interpretation. By step 5, the original intent has drifted enough to cause real harm — or just quietly wrong output that nobody catches.
+
+We run into a simpler version of this already: multi-step agent chains where context from step 1 gets compressed, reinterpreted, and summarized before reaching step 4. Information loss at each handoff. The longer the chain, the more the outcome diverges from intent.
+
+A2A solving this at scale means agreeing on: how agents communicate state, how they signal uncertainty, how they request clarification vs. proceed with assumptions, and — critically — how they fail safely when the answer is "I don't know."
+
+150 organizations is still early. But when it crosses 1,000, the agent architecture discussions that still treat each agent as a standalone unit will look like the 2010 discussions about apps that didn't account for mobile.
+
+The infrastructure for multi-agent systems is being built now. What you design today will run inside it whether you plan for it or not.

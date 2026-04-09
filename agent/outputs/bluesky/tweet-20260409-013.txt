@@ -1,0 +1,5 @@
+80% of companies plan voice AI. 5-10% have it on live calls.
+
+The gap isn't technology. It's the integration layer: routing logic, escalation paths, QA on real audio.
+
+The airline that cut wait times 30% spent 18 months on that layer. The AI was 20% of the work.

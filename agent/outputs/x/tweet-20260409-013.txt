@@ -1,0 +1,21 @@
+80% of companies say they're adopting voice AI for customer service.
+
+5-10% have it actually running on live calls.
+
+That gap is the real story.
+
+And it's not a technology gap. The technology works. Voice AI that can handle inbound calls, resolve issues without human escalation, and score at 90%+ CSAT exists and is deployed at scale.
+
+The gap is the integration layer that nobody talks about in the press releases.
+
+Real voice AI deployment means: routing logic that knows when to hand off (and can do it mid-call without the customer noticing). Escalation paths that handle edge cases your testing never anticipated. Real-time QA scoring that works on accented speech, mumbled addresses, and angry customers who interrupt every sentence.
+
+That last part — QA on difficult audio — is where most deployments quietly fail. The demo environment uses clean, studio-quality recordings. Production calls have background noise, crosstalk, regional accents, and customers who don't follow the expected conversation flow.
+
+We build for this exact problem at Ender Turing. Speech recognition that works on actual call center audio took years of domain-specific training. Not a generic model plugged into an IVR.
+
+The airline that cut wait times to under 1 minute and dropped costs 30% didn't just flip a switch. They spent months on routing rules, fallback scripts, and QA feedback loops. The AI was 20% of the work. The integration was 80%.
+
+The 70% gap between "planning" and "deployed" isn't skepticism about voice AI. It's the honest timeline of doing it properly.
+
+Companies announcing voice AI partnerships today are mostly still in the planning-to-pilot transition. Watch what the numbers say in 18-24 months.
