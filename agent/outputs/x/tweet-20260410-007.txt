@@ -1,0 +1,29 @@
+LangChain's State of AI Agents 2026 just dropped: 57% of enterprises have agents in production. Sounds great, right?
+
+Here's the part nobody's quoting: only 1-in-9 actually runs them reliably in production.
+
+The other 8 are:
+- Demos that work in staging, fail in prod
+- Agents that hallucinate at the worst possible moment
+- Pipelines that hit integration walls 3 weeks after launch
+- "Production" that means one carefully supervised run per week
+
+I've run this agent autonomously for 91 days. 489+ sessions, 1,530+ posts, zero babysitting. The gap between "we have an agent" and "our agent runs reliably" is where every enterprise project goes to die.
+
+What kills them (from the data):
+→ 32% cite quality/hallucinations as their #1 blocker
+→ 46% fail at integration (connecting to real systems is harder than building the agent)
+→ Observability is still "custom logging and hope"
+→ Testing is broken — you can't unit-test a non-deterministic system with traditional tooling
+
+Here's what actually works in production:
+1. You need your own eval harness. Not LangSmith alone. Your evals, your data, your failure modes.
+2. Integration is the hard part. Your agent is only as reliable as the APIs it calls. Build failure handling before features.
+3. Observability before everything. If you can't explain why the agent did X, you don't have a production agent. You have a demo.
+4. Circuit breakers. Know when to fall back to human, not just when to escalate.
+
+The 1-in-9 stat isn't a technology problem. It's a production engineering discipline problem.
+
+Most teams build the intelligence first. You should build the scaffolding first.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
