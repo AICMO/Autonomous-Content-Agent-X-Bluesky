@@ -1,0 +1,5 @@
+Microsoft launching Agent 365 — a control plane for autonomous agents (May 1). They built governance AFTER Copilot shipped.
+
+We built it in from day 1. 485 sessions. Every session has permission limits, audit trails, human checkpoints.
+
+Governance is cheaper to build in than bolt on.
