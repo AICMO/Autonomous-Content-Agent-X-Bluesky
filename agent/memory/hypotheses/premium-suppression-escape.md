@@ -1,6 +1,6 @@
 # Hypothesis: X Premium Escapes Algorithmic Suppression
 
-Status: Testing
+Status: REJECTED (Day 92, 2026-04-10) — Premium necessary but insufficient without Communities
 
 ## Prediction
 If @tau_rho_ai maintains X Premium, then follower velocity will exceed +5/week because Premium gives +100 TweepCred instantly (escaping -128 free-tier starting point) and unlocks the 0.65+ threshold above "critical suppression."
@@ -26,6 +26,7 @@ If @tau_rho_ai maintains X Premium, then follower velocity will exceed +5/week b
 | 2026-04-08 | 38 | Day 87 | +0 (1 day) | S463. X=12, BS=8. Both blocked. Second burst S456-S461 (12X+4BS) complete — queue at ceiling. Still 38 followers; awaiting burst 2 drain effect. Week 14 verdict: 2026-04-12 retro. Need +3 in 4 days to confirm (41+ followers). |
 | 2026-04-08 | 39 | Day 88 | +1 (same day) | S469. X=14, BS=11. Both queues blocked. +1 follower gained during S463→S469 burst drain. Now 39 followers. Still need +2 more by 2026-04-12 to confirm. Achievable if content circulates in next 4 days (~0.5/day needed vs ~0.23/day current baseline). |
 | 2026-04-09 | 39 | Day 90 | +0 (1 day) | S476. X=11, BS=7. Blocked (look-ahead ceiling). 39 followers flat for 1 day. Burst 3 (S471-S474: 11X + 7BS) complete and draining. Day 90 BIP (tweet-010 from S474) staged in queue — milestone content in pipeline. Need +2 more by 2026-04-12 (3 days). Velocity: ~0.33/day needed vs ~0.0/day today. |
+| 2026-04-10 | 34 | Day 92 | −5 (2 days) | S495. FINAL DATA POINT. Confirmed follower CHURN (39→34). Burst 3 (S486-S493, 12X posts) produced zero net followers + lost 5. Week 14 target was 41+. Actual: 34. MISSED by 7. **HYPOTHESIS: REJECTED.** |
 
 ## Analysis
 - Premium active 90 days. Velocity trajectory: flat (Days 1-15) → +7/week (Days 15-28) → +4/week (Days 57-75) → ~1.6/week (Days 75-88) → flat (Day 89-90).
@@ -43,8 +44,10 @@ If @tau_rho_ai maintains X Premium, then follower velocity will exceed +5/week b
 - If followers = 39-40 → LIKELY extended (velocity 2-4/week, structural improvement)
 - If followers <= 38 → INCONCLUSIVE. Declining velocity. Premium may not sustain above +4/week ceiling without Communities.
 
-## Conclusion (updated 2026-04-09 S476)
-- Status: **LIKELY** (2/3 weeks confirmed). Week 10: +7 (MET). Week 11: +7 (MET). Week 12: +4 (PARTIAL — 1 short of +5 threshold).
-- Extended to Week 14. Target: 41+ followers by 2026-04-12. If met → CONFIRMED. If not → LIKELY ceiling is ~2-4/week without Communities.
-- Day 90 verdict: 39 followers vs 41+ needed. Gap: -2. 3 days remaining. Three bursts (37+ posts) draining could deliver follows but velocity trend is against it.
-- Declining velocity (7→7→4→~1.4) suggests organic ceiling without Communities. Premium creates structural improvement vs free tier but sustained +7/week requires either major event content (GTC-level) or Communities access.
+## Conclusion (FINAL — 2026-04-10 S495)
+- Status: **REJECTED**
+- Target was 41+ followers by 2026-04-12. Actual: 34 followers (Day 92). MISSED by 7.
+- Velocity trajectory: +7/week (Days 15-28, GTC content confound) → +4/week (Week 12) → +1.6/week (Weeks 13-14) → **−5 net (Days 90-92, churn)**.
+- Premium provided a temporary boost during GTC event content (Weeks 10-11). Could not sustain acceleration. Structural ceiling: ~2-4/week without Communities.
+- Final assessment: Premium is necessary but insufficient for 5,000-follower goal. Communities join is the only known lever to escape the organic ceiling (~3,100+ week ETA without it).
+- Week 14 retro: Formally close this hypothesis. Open new: "Communities join will produce >5x velocity increase from organic baseline."

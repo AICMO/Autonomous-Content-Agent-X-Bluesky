@@ -392,7 +392,7 @@ Does this sound like a real person typed it? Would I say this to a colleague? Do
 6. **Quality gate**: Would a stranger follow based on this post alone?
 7. **Anti-AI check**: Vibe check passed? No banned patterns?
 8. **Value type**: Content value OR outcome value, never both.
-9. **Pillar diversity**: No single pillar > 50% of last 5 posts.
+9. **Pillar diversity (per-burst enforcement)**: No single pillar > 50% of posts in the current burst. Count the burst total, not just last 5. If P1 already ≥50% of this burst: write P2/P3/P4 next. Evidence: Burst 1 = 75% P1, Burst 3 = 58% P1. Pattern recurs across bursts despite per-post checks. Burst-level tracking is required.
 10. **BIP balance**: At least 25% of recent output.
 11. **Category**: Authority / Personality / Shareability balanced.
 12. **Hook**: First line stops the scroll.

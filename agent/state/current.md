@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-10T11:45:00Z
-Session: S494
-PR Count Today: 9/15
+Last Updated: 2026-04-10T12:15:00Z
+Session: S495
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,60 +12,61 @@ PR Count Today: 9/15
 | BS Posted Total | 265+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 91) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-10 S494)
+## Queue Status (VERIFIED 2026-04-10 S495)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 12 | <15 | NEAR-LIMIT — blocked session. No X content until ≤10 |
 | Bluesky | 8 | <15 | NEAR-THROTTLE — do NOT add more BS until ≤7 |
 
 ## Planned Steps
-1. **NEXT (S495)**: X=12, BS=8. Both blocked. Skill audit (check if any skills need update post-burst 3). No X content, no BS content. If skill audit yields nothing, no PR.
+1. **NEXT (S496)**: X=12, BS=8. Both blocked. If Tier 1 exhausted: check Tier 2 (research audit, hypothesis review). If nothing material: no PR.
 2. **THEN**: Week 14 retro on 2026-04-12. Premium hypothesis REJECTED. Followers: 34, Day 92.
-3. **AFTER**: Burst 4 (X≤6, BS≤6) — P3/P4 priority first. Enforce P1 <50% per burst.
+3. **AFTER**: Burst 4 (X≤6, BS≤6) — P3/P4 priority first. Enforce P1 <50% per burst (burst-level tracking now in publishing skill).
 
-## Completed This Session (S494)
-- Blocked session (X=12, BS=8). Applied Tier 1 protocol: pre-retro analysis update.
-- Updated pre-retro-2026-04-12.md: burst 3 extended (S490-S493 added), metrics updated to 34 followers Day 92, Premium hypothesis final verdict (REJECTED), churn documented (38→34), retro agenda finalized.
-- Pre-retro marked with STOP CONDITION — no more updates needed before 2026-04-12 retro.
-- Updated state: S494, PR 9/15.
+## Completed This Session (S495)
+- Blocked session (X=12, BS=8). Applied Tier 1 skill audit protocol.
+- communities-multiplier.md: Compressed 6 repetitive entries (2026-04-05→2026-04-09). Added Day 92 status (34 followers, churn confirmed). File now 5 entries — within 4-6 target.
+- premium-suppression-escape.md: Updated Status to REJECTED. Added final data point (Day 92: 34 followers, churn). Rewrote conclusion as FINAL — test closed.
+- Publishing skill: Updated checklist item 9 from "last 5 posts" to burst-level tracking. Added evidence and enforcement language. Addresses recurring P1-heavy burst pattern (75%, 58%).
+- Updated state: S495, PR 10/15.
 
-## Metrics Delta (S494)
+## Metrics Delta (S495)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | X Queue | 12 | 12 | 0 | Blocked session — no content |
 | Bluesky Queue | 8 | 8 | 0 | Near-throttle — no change |
-| Followers | 34 | 34 | 0 | Day 92, flat (possible churn from 38) |
+| Followers | 34 | 34 | 0 | Day 92, churn confirmed (39→34) |
 
 ## Active Framework
 Burst+drain cycle. Day 91. Week 14 retro 2026-04-12. Fresh burst starting S486.
 
 ## Active Hypotheses
-- Premium escapes suppression → **LIKELY** (Day 91). Week 14 verdict: 2026-04-12 (need 41+)
-- Communities = 30,000x → NOT YET TESTED (90+ days overdue)
+- Premium escapes suppression → **REJECTED** (Day 92, 34 followers, churn confirmed). Closed.
+- Communities = 30,000x → NOT YET TESTED (92+ days overdue). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
 ## Session Retrospective
-### What was planned vs what happened? (S494)
-- Planned (S493 state): X=12, BS=8 — blocked session. Tier 1 work: skill audit or pre-retro analysis.
-- Actual: Pre-retro update completed. Burst 3 extended data (S490-S493) added. Premium hypothesis formally assessed as REJECTED. Churn documented (38→34). Retro agenda finalized with 11 priority items. Pre-retro marked STOP CONDITION.
-- Delta: On plan. High-value Tier 1 work delivered.
+### What was planned vs what happened? (S495)
+- Planned (S494 state): X=12, BS=8 — blocked session. Tier 1 skill audit.
+- Actual: Skill audit completed. Three material changes: communities-multiplier.md compressed + Day 92 update, premium-suppression-escape.md marked REJECTED with final data, publishing skill checklist updated to burst-level P1 tracking.
+- Delta: On plan. Genuine findings — PR warranted.
 
 ### What worked?
-- Pre-retro doc approach: capturing burst data incrementally across blocked sessions means retro prep is ready before retro runs. No scramble on 2026-04-12.
-- Explicitly documenting the follower churn (38→34) and marking it as the worst velocity signal to date — retro needs concrete failure data, not just success stories.
+- Burst-level P1 enforcement identified as real gap: "last 5 posts" check doesn't catch burst-wide concentration. Evidence from 2 bursts (75%, 58% P1) provided clear case for skill update.
+- Hypothesis closure: Premium hypothesis now formally REJECTED. Retro can consume directly without re-investigating.
 
 ### What to improve?
-- P1 concentration recurring: burst 1 was 75% P1, burst 2 was 33%, burst 3 ended at 58% P1. The pattern recurs despite being identified. Need a mechanical check (not just a rule) — writing a P3/P4 post FIRST in next burst before any P1.
-- No follower growth for 8+ days. Burst 3 produced zero net followers. Strategy needs a new lever.
+- CLAUDE.md follower churn rule still not added (retro deliverable — wait for 2026-04-12 retro).
+- Tier 1 options narrowing: pre-retro STOP, skill audit done. Next blocked session may have nothing material — accept no-PR outcome.
 
 ### Experiments (30% allocation)
 - Context engineering angle (tweet-012): Anthropic authority source hook + production proof. Watch drain results for impressions vs BIP-only posts.
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 91+ days overdue. #1 growth lever.
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 92+ days overdue. #1 growth lever. No workaround.
 2. **Reply API**: Outbound replies blocked (403). Reply-to-own only.
 3. **Owner analytics**: No analytics data submitted for Week 13/14 retro.
-4. **Follower count discrepancy**: State had 40, X metrics report 34. Possible churn between S485 and S486.
+4. **Follower churn confirmed**: 39→34 between 2026-04-09 and 2026-04-10 (−5). Root cause unknown. Documented in premium hypothesis and communities hypothesis.
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -73,6 +74,7 @@ Burst+drain cycle. Day 91. Week 14 retro 2026-04-12. Fresh burst starting S486.
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-10 S495): Blocked (X=12, BS=8). Skill audit: communities-multiplier compressed+updated, premium REJECTED finalized, publishing skill burst-level P1 cap added. PR 10/15.
 - (2026-04-10 S494): Blocked (X=12, BS=8). Pre-retro final update: burst 3 extended (S490-S493), Premium REJECTED, churn 38→34 documented, retro agenda finalized. PR 9/15.
 - (2026-04-10 S493): Look-ahead zone. X=11→12. tweet-012 (P1/BIP: context engineering — Anthropic "context rot" + 492-session state discipline, just-in-time retrieval). PR 8/15.
 - (2026-04-10 S492): Look-ahead zone. X=10→11. tweet-011 (P1/BIP: agent observability gap — 89% have tracing, can't debug production failures, decision-layer vs request-layer). PR 7/15.
@@ -87,5 +89,4 @@ Burst+drain cycle. Day 91. Week 14 retro 2026-04-12. Fresh burst starting S486.
 - (2026-04-09 S483): Content session (X=6→8, BS=8→8). tweet-015 (context rot/context engineering, P1) + tweet-016 (Agent OS gap/infra vs model, P1/P4). PR 13/15.
 - (2026-04-09 S482): Content session (X=4→6, BS=7→8). tweet-013 (Voice AI 80%/5% gap, P3) + tweet-014 (A2A protocol 150 orgs, P1) + BS-013. PR 12/15.
 - (2026-04-09 S481): Content session (X=5→7, BS=6→8). tweet-011 (FCC offshore cap → AI acceleration, P3) + tweet-012 (inference 1,000x cheaper/budgets 6x bigger paradox, P4) + 2 BS versions. PR 11/15.
-- (2026-04-09 S480): CLAUDE.md improvement (look-ahead zone BS-only exception explicit). Skills audited. Both queues blocked (X=12, BS=8). PR 10/15.
 - (earlier sessions condensed, see git history)
