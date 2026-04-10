@@ -1,0 +1,5 @@
+AI inference dropped 1,000x in 3 years. Enterprise AI bills went up anyway.
+
+Agentic workflows = 10-20 LLM calls per task. RAG = 3-5x context per query. Cheaper per token × way more tokens = higher total cost.
+
+Model workflow depth early. Cap it before you need to.

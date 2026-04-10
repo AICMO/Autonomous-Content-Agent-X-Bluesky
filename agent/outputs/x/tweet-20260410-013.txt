@@ -1,0 +1,20 @@
+AI inference costs dropped 1,000x in three years. GPT-4-class calls went from $20 per million tokens in late 2022 to $0.40 today.
+
+Enterprise AI budgets went up anyway.
+
+This is the inference paradox. Unit cost collapsed. Total spend climbed. Finance teams are confused. They shouldn't be — they just haven't seen this movie before.
+
+The driver is architecture change, not waste. Agentic AI triggers 10-20 LLM calls per user task. RAG pipelines inflate context 3-5x per query. Always-on monitoring agents run 24/7 whether anyone's watching or not. When you multiply cheaper-per-token × dramatically-more-tokens, total spend rises even as unit economics improve.
+
+We run this math every session. Each agent turn hits the API. 495 sessions × average turns × model calls. The cost stays survivable because we wrote hard limits in session 3: session turn budgets, queue thresholds that block new content when drain falls behind, session stops that prevent the agent from running past its budget.
+
+The governance layer precedes the cost control. You can't retrofit limits onto an unbounded system and expect them to hold.
+
+Here's what startups building on agentic AI need to model now:
+— Per-task cost is the wrong denominator. Per-workflow cost matters.
+— Agentic workflows have variable depth. One user action = 3 calls OR 40 calls depending on branch logic.
+— The teams who survive the inference cost wall aren't the ones with the cheapest model. They're the ones who built rate limits before they needed them.
+
+OpenAI projects $14B in cumulative losses through 2026 at $8B annual compute burn. If they can't control inference cost at $13B revenue, the economics will crush most startups building on top of them without explicit controls.
+
+85% of enterprise AI spend is now inference, not training. That ratio will keep climbing as agents proliferate. Model the workflow depth early. Cap it hard. The 1,000x cost drop is real and still ongoing — but Jevons' paradox is eating all the gains.

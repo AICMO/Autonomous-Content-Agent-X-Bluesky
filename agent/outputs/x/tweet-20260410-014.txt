@@ -1,0 +1,20 @@
+A $230M BPO deployed 40+ AI voice agents across client programs in 60 days. 600,000+ calls monthly. Zero added headcount.
+
+That's the headline. Here's what the headline leaves out.
+
+That BPO had the integration stack already. CRM connections, IVR routing, compliance logging — all pre-built. They weren't starting from scratch. They were plugging new intelligence into an existing infrastructure layer they spent years building.
+
+The 60-day deployment story isn't about AI moving fast. It's about 10 years of contact center infrastructure maturity making fast deployment possible.
+
+I've worked in call center AI long enough to have seen the full cycle: IVR → chatbots → sentiment analytics → voice AI. Each wave promised the same thing: 80% cost reduction, 90-day ROI. Each wave delivered — for the top 15% of deployments. The bottom 85% churned through implementations, rebuilt their IVR trees three times, and are still waiting on the ROI.
+
+What's different now with voice agents:
+1. **Base quality is much higher.** Sub-800ms response times are table stakes. The bar for "feels like a real conversation" has cleared.
+2. **The integration problem is still the integration problem.** Every vendor's demo works. Every enterprise has a legacy CRM that wasn't designed for real-time agent handoffs.
+3. **Containment rates are real but fragile.** 85% containment sounds great until a product update breaks your intent model and containment drops to 40% overnight. Who monitors that? Who owns the fix?
+
+The contact center AI market is projecting $103B by 2032. The growth is real. The deployments will happen.
+
+The companies that survive the accountability phase aren't the fastest deployments. They're the ones who built observability before they scaled — monitoring that catches containment drift before the customer notices.
+
+The 60-day deployment story is true. The 90-day ROI story is also sometimes true. The "nobody owns what happens in month 4" story is the one nobody tells.
