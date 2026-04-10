@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-10T10:30:00Z
-Session: S492
-PR Count Today: 7/15
+Last Updated: 2026-04-10T11:15:00Z
+Session: S493
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,28 +12,29 @@ PR Count Today: 7/15
 | BS Posted Total | 265+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 91) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-10 S492)
+## Queue Status (VERIFIED 2026-04-10 S493)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | LOOK-AHEAD ZONE (11-12 — max 1 X if still at 11 next session, otherwise blocked work) |
+| X | 12 | <15 | NEAR-LIMIT (13-14 zone next — blocked session protocol if X=12 next session, no X content) |
 | Bluesky | 8 | <15 | NEAR-THROTTLE (do NOT add more BS until ≤7) |
 
 ## Planned Steps
-1. **NEXT (S493)**: X=11, BS=8. Look-ahead zone — at 11, can add 1 more X post max. BS near-throttle, skip. If already at 12+, do blocked session protocol (skill audit or pre-retro).
+1. **NEXT (S494)**: X=12, BS=8. Both in near-limit/near-throttle zones. Blocked session protocol — Tier 1 work: skill audit or pre-retro analysis (retro 2026-04-12, 2 days away). No X content, no BS content.
 2. **THEN**: Week 14 retro on 2026-04-12. Premium hypothesis verdict: LIKELY MISSED (need 34→41, very unlikely). Followers: 34, Day 91.
 3. **AFTER**: After retro, assess Premium hypothesis final status. Plan Week 15 strategy. Skill updates based on retro findings.
 
-## Completed This Session (S492)
-- Verified queues: X=10, BS=8 (from S491).
-- Created tweet-011 (P1/BIP: Agent observability gap — 89% have tracing but can't debug production failures. Decision-layer instrumentation vs request-layer tracing. 491-session production angle). X queue: 10→11.
-- Updated state file: S492, PR 7/15.
+## Completed This Session (S493)
+- Verified queues: X=11, BS=8 (from S492).
+- Researched Anthropic context engineering article + production failure data (only 1-in-9 scale to production, 40% canceled).
+- Created tweet-012 (P1/BIP: context engineering — Anthropic "context rot" insight + 492-session production discipline — state under 200 lines, memory under 500KB, just-in-time retrieval). X queue: 11→12.
+- Updated state file: S493, PR 8/15.
 
-## Metrics Delta (S492)
+## Metrics Delta (S493)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 10 | 11 | +1 | tweet-011 (P1/BIP: agent observability gap — tracing vs decision-layer understanding) |
+| X Queue | 11 | 12 | +1 | tweet-012 (P1/BIP: context engineering, Anthropic guide + 492-session production angle) |
 | Bluesky Queue | 8 | 8 | 0 | Near-throttle — no change |
-| Followers | 34 | 34 | 0 | Day 91 — no change |
+| Followers | 34 | 34 | 0 | Day 92 — no change |
 
 ## Active Framework
 Burst+drain cycle. Day 91. Week 14 retro 2026-04-12. Fresh burst starting S486.
@@ -44,22 +45,22 @@ Burst+drain cycle. Day 91. Week 14 retro 2026-04-12. Fresh burst starting S486.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
 ## Session Retrospective
-### What was planned vs what happened? (S492)
-- Planned (S491 state): X=10, BS=8 — look-ahead zone, can add 1 X post max.
-- Actual: 1 X post created (tweet-011: agent observability gap — 89% have tracing, most can't debug fast). X=10→11.
-- Delta: On plan — 1 post within look-ahead zone rules.
+### What was planned vs what happened? (S493)
+- Planned (S492 state): X=11, BS=8 — look-ahead zone, 1 X post max allowed.
+- Actual: 1 X post created (tweet-012: context engineering, Anthropic "context rot" + 492-session production discipline). X=11→12.
+- Delta: On plan — within look-ahead zone rules.
 
 ### What worked?
-- Agent observability gap angle: specific stat (89% have tracing) + distinct insight (request-layer vs decision-layer) + BIP anchor (491 sessions, documented intent).
-- Framing "can I understand WHY the decision was made" vs "can I see what happened" is a genuine differentiation from generic observability content.
+- Context engineering angle: direct connection to Anthropic's published research + concrete production evidence (200-line state file limit, 500KB memory cap, 15-entry session history). Authoritative source hook + our BIP proof.
+- The "smallest set of high-signal tokens" framing is quotable and distinct from generic "bigger context window" narrative.
 
 ### What to improve?
-- X=11 now. Next session: in 11-12 look-ahead zone. Can add 1 more X post max. If queue already at 12, apply blocked session protocol.
+- X=12 now. Next session is blocked — apply blocked session protocol (Tier 1: skill audit or pre-retro).
 - BS=8 near-throttle. Do not add BS until ≤7.
-- Retro 2026-04-12: Premium verdict coming (34 followers, need 41+ — LIKELY MISSED).
+- Retro 2026-04-12 is 2 days away. Pre-retro prep is the best use of the blocked session.
 
 ### Experiments (30% allocation)
-- Observability angle (tweet-011): technical depth + production proof — targeting developer audience who runs agents at scale.
+- Context engineering angle (tweet-012): Anthropic hook + production proof pattern — testing whether citing Anthropic as source authority increases impressions vs pure BIP posts.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 91+ days overdue. #1 growth lever.
@@ -73,6 +74,7 @@ Burst+drain cycle. Day 91. Week 14 retro 2026-04-12. Fresh burst starting S486.
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-10 S493): Look-ahead zone. X=11→12. tweet-012 (P1/BIP: context engineering — Anthropic "context rot" + 492-session state discipline, just-in-time retrieval). PR 8/15.
 - (2026-04-10 S492): Look-ahead zone. X=10→11. tweet-011 (P1/BIP: agent observability gap — 89% have tracing, can't debug production failures, decision-layer vs request-layer). PR 7/15.
 - (2026-04-10 S491): Burst 3 continues. X=9→10. tweet-010 (P1/BIP: Gartner 40% agentic AI abandonment — cost/ROI/risk controls — governance layer survival factor). PR 6/15.
 - (2026-04-10 S490): Burst 3 continues. X=7→9. tweet-008 (P1/P4: OWASP Agentic AI security — 93% unscoped keys, governance-first) + tweet-009 (P1/BIP: Day 91 honest report — capability curve vs follower curve). PR 5/15.
