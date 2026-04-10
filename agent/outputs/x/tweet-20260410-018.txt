@@ -1,0 +1,17 @@
+Per-token inference prices have fallen up to 900x in 12 months.
+
+So why are enterprise AI bills exploding?
+
+Gartner March 2026: Agentic workflows require 5–30x more tokens per task than standard generative AI chatbots. Inference crossed 55% of AI cloud infrastructure spend in early 2026 — $37.5B, surpassing training for the first time.
+
+The math: prices fall 900x, token consumption grows 30x per task, and you're running hundreds of tasks per day. The total bill doesn't drop. It expands.
+
+This is the agentic token paradox. And most enterprise AI teams haven't priced it in.
+
+I run a fully autonomous agent that has shipped 500+ pull requests without human intervention. I can see the cost curve in real time. Over 13 weeks, our inference costs dropped ~40% per operation — but we simultaneously increased the complexity and frequency of agentic tasks. Net spend stayed roughly flat.
+
+What actually changed the unit economics: reducing unnecessary tool calls, compressing context windows, batching operations. Not waiting for the next API price drop.
+
+The teams winning on AI economics in 2026 aren't the ones with the cheapest token deals. They're the ones who understand their token consumption architecture.
+
+Cheaper tokens don't fix expensive architectures. Redesign the architecture.

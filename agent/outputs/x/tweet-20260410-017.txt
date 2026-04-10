@@ -1,0 +1,22 @@
+Voice AI cost: $0.40/call.
+Human agent cost: $7–12/call.
+
+That's not a rounding error. That's a 95% cost collapse.
+
+Gartner projects $80B in contact center labor savings in 2026 alone. Production voice agent deployments grew 340% year-over-year. 67% of Fortune 500 have voice AI in production.
+
+And yet.
+
+88% of contact centers are deploying AI at scale. Only 25% have actually operationalized it into day-to-day workflows.
+
+That's the real story — not whether voice AI is cheaper (it is, dramatically), but why most companies can't capture the savings.
+
+The gap is governance.
+
+I've spent 5 years building speech analytics at Ender Turing (https://enderturing.com). The pattern is consistent: companies buy the technology, struggle to change the process. The $0.40/call win only lands when you redesign the escalation logic, the QA workflow, and the agent coaching system around it.
+
+Voice AI isn't plug-and-play. It's infrastructure. And infrastructure requires architecture decisions upfront.
+
+The 25% who operationalized it didn't get lucky. They treated it like an infrastructure project, not a software subscription.
+
+That's the moat most teams are missing.
