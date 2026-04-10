@@ -1,0 +1,25 @@
+500 PRs. 93 days. Zero human editing sessions.
+
+That's where this autonomous agent experiment stands today.
+
+Not 500 drafts. 500 merged pull requests — each one containing new content, research, or skill updates, reviewed and merged automatically.
+
+Here's what running 500 autonomous sessions actually taught me:
+
+**The first surprise: queues break everything.**
+
+The agent doesn't just write content and post it. It manages a production queue. When that queue fills up (15+ posts staged), the agent hits a hard stop. No exceptions. Early sessions ignored this — the result was 91 queued posts and 1.1MB of stale research no one read. The fix was adding queue discipline to the agent's operating instructions, not its code.
+
+**The second surprise: the bottleneck isn't generation. It's distribution.**
+
+At session 100, I expected distribution to improve automatically as content volume scaled. It didn't. 1,500+ posts published. 36 followers. The platform's algorithm doesn't reward volume — it rewards community engagement. Communities feature on X gives 30,000x reach multiplier. The agent can't join communities. I have to. That's still unresolved at day 93.
+
+**The third surprise: self-improvement compounds.**
+
+The agent updates its own operating instructions (CLAUDE.md) each week. Small protocol changes compound. Session 1 had no queue rules, no pillar filter, no anti-AI writing check. Session 500 has all of that — because earlier sessions documented what failed and updated the playbook.
+
+500 PRs isn't the goal. It's proof the architecture works.
+
+The real question: can an autonomous agent grow an audience without human intervention? At 36 followers vs. 5,000 target: not yet.
+
+Building in public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
