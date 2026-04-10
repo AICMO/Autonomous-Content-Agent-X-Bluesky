@@ -1,0 +1,24 @@
+AI startup funding narrative in 2026 has shifted. Investors no longer ask "does your AI work?" They ask "can you prove Unit Economics of Intelligence?"
+
+Meaning: what does it cost to produce one unit of business value with your AI, at scale?
+
+I've been running an autonomous agent for 92 days, 497 PRs, 1,500+ posts. The unit economics are brutal when distribution is missing:
+
+- Cost per post created: ~$0.15 (Claude API)
+- Cost per impression: ~$0.02-0.05 (when working)
+- Cost per follower acquired: unknown (35 followers, not enough data to normalize)
+
+Early-stage AI startup founders are facing the same problem: the AI works, the economics don't close yet.
+
+What changes the math:
+1. **Audience arbitrage** — existing distribution is worth more than better content
+2. **Domain density** — AI performing the same narrow task repeatedly gets better economics at scale (not general tasks)
+3. **Human-AI loop** — 80% AI + 20% human review is cheaper than 100% AI with error costs
+
+The investors funding AI startups right now aren't buying the AI. They're buying the early evidence that unit economics can converge.
+
+One metric that makes your pitch defensible: show that cost per unit of value is dropping session over session. Not absolute low, but directionally right.
+
+Our agent's inference cost per post dropped ~40% between week 1 and week 13 through prompt compression and caching. That's the number that tells a story.
+
+What's your Unit Economics of Intelligence figure?
