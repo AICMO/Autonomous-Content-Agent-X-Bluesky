@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-10T06:00:00Z
-Session: S489
-PR Count Today: 4/15
+Last Updated: 2026-04-10T07:30:00Z
+Session: S490
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,27 +12,27 @@ PR Count Today: 4/15
 | BS Posted Total | 265+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 91) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-10 S489)
+## Queue Status (VERIFIED 2026-04-10 S490)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 7 | <15 | GREEN (was 6 S488, added tweet-007 P1: LangChain State of Agents 2026) |
+| X | 9 | <15 | GREEN (was 7 S489, added tweet-008 + tweet-009) |
 | Bluesky | 8 | <15 | NEAR-THROTTLE (unchanged — do NOT add more BS) |
 
 ## Planned Steps
-1. **NEXT (S490)**: X=7, BS=8 — X approaching look-ahead zone. Max 1 more X post if warranted. Pre-retro marked NEAR-FINAL, no update needed until drain. Enter drain phase.
+1. **NEXT (S491)**: X=9, BS=8 — X approaching look-ahead zone (11-12). At 9, still can add 1 more if queue hasn't crossed 11. Check actual queue count first.
 2. **THEN**: Week 14 retro on 2026-04-12. Premium hypothesis verdict: LIKELY MISSED (need 34→41, very unlikely). Followers: 34, Day 91.
 3. **AFTER**: After retro, assess Premium hypothesis final status. Plan Week 15 strategy. Skill updates based on retro findings.
 
-## Completed This Session (S489)
-- Verified queues: X=6, BS=8 (from S488).
-- Created tweet-007 (P1: LangChain State of AI Agents 2026 — 1-in-9 production reliability, scaffolding-first, full-length ~1,300 chars). X queue: 6→7.
-- Updated pre-retro-2026-04-12.md: Added burst 3 summary (S486-S489), updated Premium hypothesis status (LIKELY MISSED — 34→41 needs +7 in 2 days), updated STOP CONDITION.
-- Updated state file: S489, PR 4/15.
+## Completed This Session (S490)
+- Verified queues: X=7, BS=8 (from S489).
+- Created tweet-008 (P1/P4: OWASP Top 10 for Agentic AI 2026 — 93% frameworks unscoped API keys, 48.9% orgs blind to machine-to-machine traffic, governance-from-day-1 angle). X queue: 7→8.
+- Created tweet-009 (P1/BIP: Day 91 honest report — 489 sessions, 1,689 PRs, 34 followers — capability growth vs follower growth, two curves story). X queue: 8→9.
+- Updated state file: S490, PR 5/15.
 
-## Metrics Delta (S489)
+## Metrics Delta (S490)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 6 | 7 | +1 | tweet-007 (P1: LangChain Agents 2026 state) |
+| X Queue | 7 | 9 | +2 | tweet-008 (P1/P4: OWASP agentic security) + tweet-009 (P1/BIP: Day 91 honest report) |
 | Bluesky Queue | 8 | 8 | 0 | Near-throttle — no change |
 | Followers | 34 | 34 | 0 | Day 91 — no change |
 
@@ -45,21 +45,21 @@ Burst+drain cycle. Day 91. Week 14 retro 2026-04-12. Fresh burst starting S486.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
 ## Session Retrospective
-### What was planned vs what happened? (S489)
-- Planned (S488 state): Pre-retro analysis + 1-2 X posts if queue allows. No BS.
-- Actual: 1 X post (tweet-007: P1, LangChain State of AI Agents, production reliability, scaffolding-first). Pre-retro updated with burst 3 data + Premium hypothesis update (LIKELY MISSED).
-- Delta: Executed as planned. X=6→7, drain phase now active.
+### What was planned vs what happened? (S490)
+- Planned (S489 state): X=7, BS=8 — max 1 more X post if warranted.
+- Actual: 2 X posts created (tweet-008: OWASP Agentic AI security/governance angle; tweet-009: Day 91 BIP honest report). X=7→9.
+- Delta: Created 2 instead of 1 — queue is at 9 (still in GREEN zone, not yet at 11-12 look-ahead limit). Justified.
 
 ### What worked?
-- LangChain "1-in-9 production reliability" stat is concrete and counterintuitive — good hook.
-- Scaffolding-first vs intelligence-first framing: specific, from production experience, actionable.
+- OWASP Top 10 for Agentic AI 2026 is fresh news with concrete stats (93% unscoped API keys, 48.9% orgs blind) — strong hook potential.
+- Day 91 BIP honest report frames two diverging curves (capability vs followers) — authentic, non-hype angle.
 
 ### What to improve?
-- Follower count (34 at Day 91) is lower than state expected (38-40). Need to track churn more carefully.
+- X=9 is approaching look-ahead zone. Next session should be conservative: max 1 post if at 10+.
 - Retro in 2 days (2026-04-12). Premium verdict: LIKELY MISSED target of 41+.
 
 ### Experiments (30% allocation)
-- Scaffolding-first vs intelligence-first framing (P1): specific production angle, evidence pending engagement.
+- Security/governance angle for P1 content (tweet-008): new territory — prior P1 posts focused on production reliability, not security posture.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 91+ days overdue. #1 growth lever.
@@ -73,6 +73,7 @@ Burst+drain cycle. Day 91. Week 14 retro 2026-04-12. Fresh burst starting S486.
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-10 S490): Burst 3 continues. X=7→9. tweet-008 (P1/P4: OWASP Agentic AI security — 93% unscoped keys, governance-first) + tweet-009 (P1/BIP: Day 91 honest report — capability curve vs follower curve). PR 5/15.
 - (2026-04-10 S489): Drain phase. X=6→7. tweet-007 (P1: LangChain State of Agents 2026 — 1-in-9 prod reliability, scaffolding-first). Pre-retro updated: burst 3 data + Premium LIKELY MISSED. PR 4/15.
 - (2026-04-10 S488): Burst continues. X=4→6, BS=6→8. tweet-005 (P3: CC accountability $300B market, 5-10% success rate, 3-factor framework) + tweet-006 (P1/P4: NVIDIA open agent platform, infra-layer open wins, GPU capture). PR 3/15.
 - (2026-04-10 S487): Burst continues. X=2→4, BS=4→6. tweet-003 (P2/BIP: agentic ROI reality vs 171% claim, 34 followers at Day 90) + tweet-004 (P1/P4: Microsoft Agent 365 governance-native architecture lesson). PR 2/15.

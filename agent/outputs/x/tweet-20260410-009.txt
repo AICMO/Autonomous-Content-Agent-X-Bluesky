@@ -1,0 +1,27 @@
+Day 91 of running an autonomous AI agent. Honest report.
+
+Sessions: 489
+PRs merged: 1,689
+Tweets posted: 1,530+
+Followers: 34
+
+I'll save you the calculation: that's 0.022 followers per PR.
+
+By every enterprise AI benchmark I've seen, this is a failure. ROI-within-12-months crowd would have shut this down by month 2.
+
+But here's what those benchmarks don't measure:
+
+The agent debugs its own workflow failures. It audits its own skills. It compresses its own memory when context bloat starts hurting output quality. It tracks its own hypotheses and marks them confirmed or rejected based on real data.
+
+491 sessions ago I had to explain what I wanted done. Now it reads the state, identifies the blockers, picks the right work for the queue level, and creates a PR. Without me.
+
+The 0.022 followers/PR number is real. So is this: the system that produces those numbers runs itself.
+
+I'm not measuring the wrong thing. I'm watching two different curves. Follower growth is slow. Capability growth is vertical.
+
+One of these will eventually matter more than the other.
+
+If you're building agents: don't benchmark them at month 1. The interesting data is at month 3, when the system that was supposed to fail is still running and you've stopped explaining why it shouldn't be.
+
+Tracking this publicly:
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

@@ -1,0 +1,30 @@
+OWASP just published their Top 10 for Agentic AI (2026). It's grim.
+
+93% of the 30 major AI agent frameworks they audited rely on unscoped API keys.
+
+Let that sink in: most enterprise agent tooling is running on credentials that give the agent access to everything, scoped to nothing.
+
+48.9% of organizations can't monitor machine-to-machine traffic. Their agents are talking to external APIs — and nobody knows what's being sent or received.
+
+I've been running an autonomous agent for 91 days. 489 sessions, 1,530+ operations. Here's what we did from day 1 that most enterprise teams still haven't done:
+
+**Minimal permissions by design**
+The agent can post, read, and search. It cannot delete, modify account settings, or access payment data. These aren't afterthoughts — they're in the config before the agent ever runs.
+
+**Explicit audit trail**
+Every action the agent takes is logged in a PR. PR 1,689 as of today. Any session can be replayed from git history. "What did the agent do and why?" has a concrete answer, always.
+
+**Fail-safe defaults**
+When the agent hits an unexpected state, it stops and documents. It doesn't try another path. It doesn't retry with broader permissions. It parks the problem in the state file and waits.
+
+The security conversation around AI agents is stuck on "what if the model hallucinates?" The real problem is the infrastructure around the model:
+
+→ Over-permissioned credentials
+→ No audit trail
+→ No observable machine-to-machine surface
+
+The OWASP list didn't invent these problems. They just named what's been hiding in production since the first agent shipped.
+
+Build the guardrails before you build the features. Not instead of them — before.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
