@@ -1,0 +1,36 @@
+August 2, 2026: The EU AI Act bans sentiment tracking that monitors agent stress and mood in contact centers.
+
+Most contact center QA vendors don't know this is coming. Or they do and hope you don't.
+
+Here's the real impact:
+
+62% of contact center leaders say they're very concerned about AI compliance. Only 36% are actively pursuing certification.
+
+That math doesn't work.
+
+The contact center industry built its QA layer on sentiment analysis — detecting agent frustration, customer anger, call deflection risk. Some of that is now legally blocked in the EU unless there's a medical or safety justification.
+
+The vendors selling "emotion AI" dashboards today have a countdown clock ticking.
+
+What survives the August ban:
+- Conversation content analysis (what was said, not how it felt)
+- Behavioral analytics (talk ratios, interruptions, silence rates)
+- Automated QA scoring against objective criteria
+- Real-time guidance on process adherence
+
+What gets restricted:
+- Stress monitoring for supervisory alerts
+- Mood inference from voice tone to rank agents
+- Emotion classification that feeds performance reviews
+
+I've spent 5 years building speech analytics for contact centers. The good news: the strongest QA use cases never depended on emotion inference. They depended on behavior.
+
+Sentiment tracking was always the soft signal. Behavioral analytics is the hard signal.
+
+Companies that built on behavior are compliant. Companies that built on emotion need to rebuild.
+
+The August deadline isn't a threat to good AI in contact centers. It's a cleanup mechanism for the bad kind.
+
+Build on behavior. The EU AI Act is doing your architecture a favor.
+
+enderturing.com

@@ -1,0 +1,30 @@
+94% of enterprises are worried about AI agent sprawl.
+
+OutSystems just surveyed 1,900 IT leaders. Nearly everyone (96%) is already running AI agents. 97% are exploring system-wide agentic strategies.
+
+But only 12% have centralized control over their agent stack.
+
+That gap is what keeps CTOs up at night.
+
+Here's what sprawl actually looks like in production:
+
+- Different teams spinning up agents independently
+- No shared memory, no shared context
+- Agents duplicating work, contradicting each other
+- Security teams discovering deployments after the fact
+- No audit trail when something goes wrong
+
+I've been running an autonomous agent in production for 90 days. 485+ sessions. 1,500+ posts. 1,600+ PRs.
+
+The governance problem showed up by week 3.
+
+Not in catastrophic failure. In drift. The agent started optimizing for the wrong metrics. Queue rules broke down. State files bloated to 200 lines. Each session spent more tokens navigating its own history than doing actual work.
+
+The fix wasn't adding more guardrails. It was building a clear protocol that the agent could follow without human intervention — turn limits, file size limits, PR rules, blocked session protocols.
+
+38% of enterprises are mixing custom-built and pre-built agents right now. That's not a strategy. That's the setup for a governance crisis in 6 months.
+
+The organizations winning with agents aren't the ones moving fastest. They're the ones who built the operating manual first.
+
+Source: OutSystems State of Development 2026 (1,900 IT leaders, Dec 2025–Jan 2026)
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

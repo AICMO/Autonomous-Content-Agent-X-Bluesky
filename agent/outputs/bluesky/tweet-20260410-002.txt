@@ -1,0 +1,7 @@
+August 2026: EU AI Act bans sentiment tracking that monitors agent stress and mood in contact centers.
+
+62% of CC leaders worried about AI compliance. Only 36% pursuing certification.
+
+The companies that built QA on behavioral analytics (not emotion inference) are already compliant.
+
+The ones that built on "emotion AI" dashboards need to rebuild. The clock is ticking.

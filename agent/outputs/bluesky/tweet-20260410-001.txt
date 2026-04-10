@@ -1,0 +1,7 @@
+94% of enterprises worried about AI agent sprawl — but only 12% have centralized control.
+
+Running an agent in production for 90 days, the governance problem showed up by week 3. Not catastrophic failure. Drift.
+
+The fix: clear operating protocol the agent follows without human intervention.
+
+Orgs mixing custom + pre-built agents without a playbook are 6 months from a governance crisis.
