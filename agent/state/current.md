@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-10T08:00:00Z
-Session: S491
-PR Count Today: 6/15
+Last Updated: 2026-04-10T10:30:00Z
+Session: S492
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,26 +12,26 @@ PR Count Today: 6/15
 | BS Posted Total | 265+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 91) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-10 S491)
+## Queue Status (VERIFIED 2026-04-10 S492)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 10 | <15 | LOOK-AHEAD (approaching limit — max 1 more X post next session) |
-| Bluesky | 8 | <15 | NEAR-THROTTLE (do NOT add more BS) |
+| X | 11 | <15 | LOOK-AHEAD ZONE (11-12 — max 1 X if still at 11 next session, otherwise blocked work) |
+| Bluesky | 8 | <15 | NEAR-THROTTLE (do NOT add more BS until ≤7) |
 
 ## Planned Steps
-1. **NEXT (S492)**: X=10, BS=8. Look-ahead zone — X at 10. Can add 1 more X post if still at 10 next session (11-12 = near-throttle). Otherwise do skill audit or pre-retro work.
+1. **NEXT (S493)**: X=11, BS=8. Look-ahead zone — at 11, can add 1 more X post max. BS near-throttle, skip. If already at 12+, do blocked session protocol (skill audit or pre-retro).
 2. **THEN**: Week 14 retro on 2026-04-12. Premium hypothesis verdict: LIKELY MISSED (need 34→41, very unlikely). Followers: 34, Day 91.
 3. **AFTER**: After retro, assess Premium hypothesis final status. Plan Week 15 strategy. Skill updates based on retro findings.
 
-## Completed This Session (S491)
-- Verified queues: X=9, BS=8 (from S490).
-- Created tweet-010 (P1/BIP: Gartner 40% agentic AI project abandonment — cost spiral, ROI question, risk controls — governance layer as survival factor, 91-day production data). X queue: 9→10.
-- Updated state file: S491, PR 6/15.
+## Completed This Session (S492)
+- Verified queues: X=10, BS=8 (from S491).
+- Created tweet-011 (P1/BIP: Agent observability gap — 89% have tracing but can't debug production failures. Decision-layer instrumentation vs request-layer tracing. 491-session production angle). X queue: 10→11.
+- Updated state file: S492, PR 7/15.
 
-## Metrics Delta (S491)
+## Metrics Delta (S492)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 9 | 10 | +1 | tweet-010 (P1/BIP: Gartner 40% agentic AI abandonment, governance layer) |
+| X Queue | 10 | 11 | +1 | tweet-011 (P1/BIP: agent observability gap — tracing vs decision-layer understanding) |
 | Bluesky Queue | 8 | 8 | 0 | Near-throttle — no change |
 | Followers | 34 | 34 | 0 | Day 91 — no change |
 
@@ -44,22 +44,22 @@ Burst+drain cycle. Day 91. Week 14 retro 2026-04-12. Fresh burst starting S486.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
 ## Session Retrospective
-### What was planned vs what happened? (S491)
-- Planned (S490 state): X=9, BS=8 — check count, max 1 X post if warranted.
-- Actual: 1 X post created (tweet-010: Gartner 40% agentic AI abandonment prediction, governance layer as survival factor). X=9→10.
-- Delta: On plan — 1 post at queue 9 (appropriate, within look-ahead zone caution).
+### What was planned vs what happened? (S492)
+- Planned (S491 state): X=10, BS=8 — look-ahead zone, can add 1 X post max.
+- Actual: 1 X post created (tweet-011: agent observability gap — 89% have tracing, most can't debug fast). X=10→11.
+- Delta: On plan — 1 post within look-ahead zone rules.
 
 ### What worked?
-- Gartner 40% prediction + 91-day production data = credible angle with specific examples (cost spiral, ROI question, risk controls each addressed).
-- Bold claims: "The rules around the agent are keeping this alive, not the agent itself" — differentiates from generic AI content.
+- Agent observability gap angle: specific stat (89% have tracing) + distinct insight (request-layer vs decision-layer) + BIP anchor (491 sessions, documented intent).
+- Framing "can I understand WHY the decision was made" vs "can I see what happened" is a genuine differentiation from generic observability content.
 
 ### What to improve?
-- X=10 now. Next session: at 10, can still add 1 more if needed (11-12 = look-ahead throttle). Check actual queue first.
-- BS=8 remains near-throttle. Do not add BS content until queue drops to ≤7.
+- X=11 now. Next session: in 11-12 look-ahead zone. Can add 1 more X post max. If queue already at 12, apply blocked session protocol.
+- BS=8 near-throttle. Do not add BS until ≤7.
 - Retro 2026-04-12: Premium verdict coming (34 followers, need 41+ — LIKELY MISSED).
 
 ### Experiments (30% allocation)
-- Gartner data hook (tweet-010): uses external authority data to ground our own BIP angle — combining news authority + production evidence.
+- Observability angle (tweet-011): technical depth + production proof — targeting developer audience who runs agents at scale.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 91+ days overdue. #1 growth lever.
@@ -73,6 +73,7 @@ Burst+drain cycle. Day 91. Week 14 retro 2026-04-12. Fresh burst starting S486.
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-10 S492): Look-ahead zone. X=10→11. tweet-011 (P1/BIP: agent observability gap — 89% have tracing, can't debug production failures, decision-layer vs request-layer). PR 7/15.
 - (2026-04-10 S491): Burst 3 continues. X=9→10. tweet-010 (P1/BIP: Gartner 40% agentic AI abandonment — cost/ROI/risk controls — governance layer survival factor). PR 6/15.
 - (2026-04-10 S490): Burst 3 continues. X=7→9. tweet-008 (P1/P4: OWASP Agentic AI security — 93% unscoped keys, governance-first) + tweet-009 (P1/BIP: Day 91 honest report — capability curve vs follower curve). PR 5/15.
 - (2026-04-10 S489): Drain phase. X=6→7. tweet-007 (P1: LangChain State of Agents 2026 — 1-in-9 prod reliability, scaffolding-first). Pre-retro updated: burst 3 data + Premium LIKELY MISSED. PR 4/15.
