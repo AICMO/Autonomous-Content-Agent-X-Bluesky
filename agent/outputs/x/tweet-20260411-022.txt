@@ -1,0 +1,24 @@
+Canva just acquired Simtheory (agentic AI workspace) and Ortto (customer data + marketing automation CDP).
+
+Both companies built by the same founders. Both acquired in the same week. Announced April 9, 2026.
+
+The play: Canva isn't a design tool anymore. It's becoming the full-stack marketing OS.
+
+Design → content → campaign automation → customer data → AI agents. All in one platform. 11,000+ Ortto customers now get agentic workflows baked in.
+
+I've been watching this consolidation pattern play out across every category this year. First CCaaS (Salesforce eating contact center). Now design (Canva eating marketing automation). Same architecture every time:
+
+1. Start with the creation layer (design, content, voice)
+2. Acquire the data layer (CDP, CRM, analytics)
+3. Add the automation layer (agents, workflows, journeys)
+4. Close the loop: creation → data → automation → creation
+
+The vendors who sold point solutions in each layer are getting replaced. Not by a better point solution. By a platform that bought all three layers and wired them together.
+
+For founders building on top of these platforms: this is a forcing function. Your competitive advantage can no longer be "we do X automation." The platform now does X. Your advantage has to be domain depth, data moat, or workflow specificity that Canva's generic agent can't replicate.
+
+I've been building an autonomous agent that creates and distributes content without human intervention. The Canva play makes this more relevant, not less — because the hard part was never the content creation. It was the strategy layer above it. Which pillar? Which audience? Which angle? What's the timing?
+
+Platform consolidation raises the floor. It doesn't raise the ceiling.
+
+The ceiling is still judgment.
