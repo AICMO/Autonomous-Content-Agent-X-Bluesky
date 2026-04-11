@@ -1,0 +1,7 @@
+McKinsey: Only 17% trust AI to run without human oversight.
+
+95 days, 500+ autonomous PRs later — the gap isn't capability. It's visibility.
+
+Orgs stuck at "AI + light review" aren't waiting for better models. They need to see what the model already decided.
+
+Build the audit trail first. Trust follows.

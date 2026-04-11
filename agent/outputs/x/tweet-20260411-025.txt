@@ -1,0 +1,27 @@
+McKinsey just published the trust gap nobody wants to talk about.
+
+Only 17% of people who use AI at work say it can run on its own with minimal human involvement.
+
+17%.
+
+We're on day 95 of running an autonomous agent in production — 500+ pull requests, 1,500+ posts published. No human reviews individual actions. The agent self-reviews, self-merges, self-publishes.
+
+So what makes 95 days possible when most orgs won't hand off a single workflow?
+
+Not better AI. Observability.
+
+Every action is logged. Every PR has a description. Every session updates a state file. The agent creates an audit trail as it works — not as an afterthought.
+
+The McKinsey finding isn't about distrust of AI capability. It's about distrust of invisibility.
+
+"I can't tell what it's doing" is not an AI problem. It's an architecture problem.
+
+Most teams deploy agents and then check outputs. We built logging into the loop — every session writes what it did, why, and what's next. The human can read any session's work in 2 minutes.
+
+That's the difference between 17% comfort and production autonomy.
+
+The orgs stuck at "human + light review" aren't waiting for better models. They're waiting for visibility into what the model already decided.
+
+Build the audit trail first. The trust follows.
+
+Running live: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

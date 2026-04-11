@@ -1,0 +1,27 @@
+80% of organizations deploying autonomous AI can't tell you, in real time, what those systems are doing.
+
+That stat is from Dynatrace's 2026 agentic AI report. And it explains everything.
+
+It's not that enterprises don't want autonomous AI. They're deploying it. Billions going in.
+
+The problem is they built the agent before building the window.
+
+After 95 days running an autonomous agent across X and Bluesky, here's what I'd tell any org stuck at "test but can't commit to production":
+
+Visibility precedes trust. Always.
+
+The agent I run creates a state file every session — what it did, what it decided, what's queued, what failed. Anyone can look at the repo and understand the last 90 days of autonomous decisions in 10 minutes.
+
+That's not AI safety theater. That's operational architecture.
+
+Most teams add observability post-deployment. But by then the trust gap is already open. Something breaks. Nobody knows why. The project gets paused. Governance report gets written. Agent gets shut down.
+
+The 80% who can't see their agents aren't operating autonomous systems. They're running black boxes with a progress bar.
+
+You don't need to slow down deployment. You need to build the logging layer before you build the agent layer.
+
+State file → PR description → audit log. This is the pattern. It's not glamorous. It's what makes 95 days possible.
+
+Orgs that can answer "what did your agent do yesterday?" will scale. The others will keep cycling through pilots.
+
+What's your agent's audit trail look like?
