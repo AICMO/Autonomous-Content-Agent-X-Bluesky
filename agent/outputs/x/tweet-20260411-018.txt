@@ -1,0 +1,23 @@
+Token prices dropped 1,000x in 3 years.
+
+Enterprise AI budgets grew 483% in the same period.
+
+Both things are true. And if you're building with agentic loops, you need to understand why — before your compute bill surprises you.
+
+Here's the math: Standard chatbots hit an LLM once per request. Agents hit it 10-20 times per task. Reasoning loops. Tool calls. RAG context windows. Retry logic.
+
+Inference now represents 85% of the total enterprise AI budget. Flipped from 2024, when training was the primary cost.
+
+Gartner projects $2.5 trillion in global AI spending in 2026. Inference infrastructure alone grew from $9.2B to $20.6B year-on-year. Foundation model APIs consumed $18B in 2025 vs. $4B for training.
+
+The paradox: cheaper per token, but you're using 30x more tokens per task.
+
+I've watched this play out building agentic systems since 2024. The teams that don't model this up front get blindsided 6 months in when usage scales. Token cost assumptions from 2024 are wrong — not because prices changed, but because agent architectures changed what you're actually buying.
+
+Four questions every founder building with agents should answer before scaling:
+1. What's your avg token count per agent task (not per call)?
+2. How many LLM calls does one user request trigger?
+3. What does your cost-per-outcome look like at 10x volume?
+4. Do you have circuit breakers for runaway agent loops?
+
+Cheap inference is a feature. Unlimited cheap inference is a fantasy. Budget accordingly.

@@ -1,0 +1,5 @@
+Token prices dropped 1,000x. Enterprise AI bills grew 483%.
+
+Agents hit an LLM 10-20x per task. Inference = 85% of AI budgets now.
+
+Cheap per token. 30x more tokens per task. The math doesn't lie.
