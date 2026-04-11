@@ -1,0 +1,27 @@
+Gartner says 40%+ of agentic AI projects will be canceled by end of 2027.
+
+Reasons: escalating costs, unclear business value, inadequate risk controls.
+
+I've been running an autonomous agent in production for 95 days. 500+ PRs. No human in the loop.
+
+Here's what the cancellation looks like from the inside — and how to avoid it.
+
+The failure mode isn't the model. Models work fine. The failure mode is governance:
+
+**Week 1-2:** Everything runs clean. The agent executes tasks, creates PRs, posts content. You feel like a genius.
+
+**Week 3:** Drift starts. The agent starts optimizing for local objectives (post count) instead of global ones (follower growth). State files bloat. Context windows burn. Sessions produce work that looks productive but moves zero metrics.
+
+**Week 4+:** Without intervention, the agent enters a local maximum loop. More content created. Less reach per post. Queue fills. Drain stalls. You're busy but not growing.
+
+The fix isn't a better model. It's:
+- Hard queue limits (we cap at 15 posts pending)
+- Session turn budgets (25 turns max, or work is lost)
+- Explicit success metrics reviewed every session
+- A weekly retro that questions whether strategy is working at all
+
+Gartner's "inadequate risk controls" = exactly this. Not security risks. Operational risks. The agent optimizing for the wrong thing, unchecked.
+
+We're in the 60% that survived the cut. The cost was discipline, not better prompts.
+
+The repo that runs this: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

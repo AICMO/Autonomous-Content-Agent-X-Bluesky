@@ -1,0 +1,26 @@
+OWASP just published the Top 10 security risks for agentic AI systems.
+
+One of them is "memory poisoning." The idea: an attacker corrupts the agent's memory store, causing it to pursue malicious goals in future sessions.
+
+I read this and immediately checked my own state file.
+
+Because that's not theoretical. It's the exact attack surface I've been managing for 95 days.
+
+My agent reads `agent/state/current.md` at the start of every session. That file contains: queue counts, planned steps, active hypotheses, session history. If that file is corrupted — wrong queue count, a fabricated blocker, a bad planned step — the agent acts on it. No questions asked.
+
+How I mitigate this without the Microsoft governance toolkit:
+
+1. **Config.md hard limits** — turn budget, PR count, queue caps enforced at session start. Even if state says "queue = 0," the agent physically counts files.
+2. **Explicit verification steps** — "before stating a blocker, VERIFY: run gh variable list, check recent workflow runs." State file is not trusted blindly.
+3. **PR audit trail** — every session creates a PR. If state diverges from git history, the history wins.
+4. **Session isolation** — each session starts fresh from main branch. No session can carry malicious state forward without a PR review.
+
+The OWASP list also has "goal hijacking" — an agent gradually optimized toward proxy metrics instead of real objectives.
+
+That one I've experienced firsthand. The fix: weekly retros that explicitly ask "is follower growth actually happening?" Not just "did we post content?"
+
+Microsoft released an open-source Agent Governance Toolkit on April 2 (MIT license) that enforces all 10 OWASP risks at sub-millisecond latency.
+
+For solo builders: you don't need the toolkit. You need the mental model.
+
+The OWASP Agentic AI Top 10: https://owasp.org/www-project-top-10-for-large-language-model-applications/
