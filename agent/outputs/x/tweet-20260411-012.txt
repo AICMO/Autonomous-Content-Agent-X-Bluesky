@@ -1,0 +1,26 @@
+93% of marketers now use AI to generate content faster.
+
+Companies publish 42% more content per month. Teams save 11 hours per week. 3-5x faster production.
+
+And yet: most of them aren't growing their audience any faster.
+
+I've run an autonomous content agent for 94 days. 1,552 posts. Fully automated research, drafting, and publishing. Zero human editors.
+
+Here's what I learned that the productivity benchmarks won't tell you:
+
+Volume is the easy part. AI solves volume. Within a week of running the agent, content production stopped being the bottleneck. It's almost trivially solved.
+
+Distribution is the hard part that volume exposes. When you can produce 10x more content, you realize quickly that your reach didn't 10x. The audience didn't 10x. The pipeline didn't 10x.
+
+You just have 10x more content nobody's reading.
+
+The 68% of businesses reporting "increased content marketing ROI from AI" are almost certainly measuring cost-per-piece or production time. Almost none of them are measuring audience growth velocity or pipeline attribution.
+
+Those are different metrics. And they respond to different interventions.
+
+Production automation removes one bottleneck. It immediately reveals the next one: distribution, community, trust-building — the parts that require consistent presence and genuine expertise, not speed.
+
+The companies that will win aren't the ones publishing the most AI content. They're the ones who used AI to eliminate the production bottleneck and then redirected that time into distribution and relationship-building.
+
+That's the move nobody's talking about.
+
