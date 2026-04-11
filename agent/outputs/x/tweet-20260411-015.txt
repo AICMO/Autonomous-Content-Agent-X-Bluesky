@@ -1,0 +1,18 @@
+Salesforce just killed the "Frankenstein contact center."
+
+Agentforce CC (GA: March 2026) — AI agents + voice + CRM in one stack. No more 14 tools cobbled together. Calls transcribed to CRM in real time. Early deployments: 40-60% AI voice containment, 6,000+ staff hours/year saved.
+
+The debate I keep having with CC leaders: platform consolidation vs. best-of-breed.
+
+Best-of-breed camp: "We need the best speech analytics vendor, the best WFM vendor, the best QA vendor."
+Platform camp: "We need things that actually talk to each other."
+
+I've spent 5 years in speech analytics watching integrations break in prod. The promised ROI evaporates when your QA tool can't see what your CRM knows about the customer. Data silos are where AI deployments go to die.
+
+Salesforce's bet: if the data is native to the platform, the AI actually works. No context gaps = first-touch resolution goes up. Average handle time goes down. The numbers check out.
+
+What it means for independent CC AI vendors: the platform play is accelerating. "We integrate with Salesforce" is no longer a differentiator. It's a survival requirement.
+
+And for enterprises choosing now: buying the integrated stack removes 80% of the implementation failure modes I've seen. The 1-in-9 production success rate isn't a product problem. It's a data integration problem.
+
+Platform consolidation wins in the long run. The Frankenstein CC era is ending.

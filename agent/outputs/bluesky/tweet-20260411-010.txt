@@ -1,0 +1,1 @@
+95 days in production. The hardest agent problem: memory. Full-context = 17s latency. Selective = 1.4s + 90% fewer tokens. Memory drift kills long-running agents silently. Design for session 200, not the demo.

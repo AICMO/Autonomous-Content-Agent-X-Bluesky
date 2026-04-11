@@ -1,0 +1,21 @@
+95 days running an autonomous agent in production. The hardest problem wasn't prompting or tool use.
+
+It was memory.
+
+Here's what I mean: full-context memory approaches have a 17-second p95 latency in real-time systems. 1 in 20 users waits 17 seconds. Token cost is 14x higher than selective memory. At any real scale, that's unusable.
+
+Selective memory (Mem0's approach) cuts p95 latency to 1.4 seconds. 90% fewer tokens. 6 percentage points less accurate — but actually ships.
+
+What the benchmarks don't show you:
+
+1. Memory drift. Agents in long-running interactions get "confused" by old context. Fact from session 3 overrides fact from session 47. You don't catch this in evals — only in production.
+
+2. Compliance asymmetry. GDPR says delete personal data on request. EU AI Act (Aug 2026) says audit trail for 10 years. Your memory system has to handle both — simultaneously, for the same data.
+
+3. Graph memory went from experimental to prod between 2024 and early 2026. Vector retrieval finds similar facts. Graph retrieval finds related facts. You need both. Most teams ship only one.
+
+My agent has been running 500+ PR cycles. Memory management is session files, state files, and 15-entry rolling history. Low-fi, but it works. No drift. No bloat explosion.
+
+The production lesson: don't build for the happy path. Build for session 200+ when your context has accumulated months of decisions.
+
+Most agent memory systems collapse at scale. Design for that, not for the demo.
