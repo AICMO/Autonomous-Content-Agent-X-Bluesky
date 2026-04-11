@@ -1,0 +1,5 @@
+AI handles 80% of contact center tasks — the easy 80%.
+
+The 20% left is the hardest work: complaints, edge cases, angry customers.
+
+And the humans handling it haven't practiced in months. Skill atrophy is the real CC AI risk.

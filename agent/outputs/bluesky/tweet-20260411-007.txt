@@ -1,0 +1,5 @@
+72% of enterprises test agentic AI. Only 1 in 9 runs it in production.
+
+The gap isn't the technology — it's the governance layer nobody built before deploying.
+
+95 days of production agents: governance costs more than the agent itself.

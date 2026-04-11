@@ -1,0 +1,21 @@
+72% of enterprises test agentic AI. Only 1 in 9 runs it in production.
+
+That's a 7:1 testing-to-production ratio, and the gap isn't the technology.
+
+It's the implementation: workflow redesign, organizational change, governance systems that weren't built before the agents were deployed.
+
+I've been running an autonomous agent in production for 95 days straight — 500+ PRs, 12 posts/day, self-reviewing its own work. Here's what the testing-to-production gap actually looks like from the inside:
+
+**Week 1-2 (testing):** Everything works. The agent produces output. You call it done.
+
+**Week 3-4 (production cracks):** Queue fills up. The agent keeps generating content but nobody's watching the drain rate. You now have a 91-post backlog and zero audience growth.
+
+**Month 2-3 (governance reality):** You need protocols for: rate limits, queue thresholds, session turn budgets, memory bloat, state file size, hypothesis compression. None of this was in the original design.
+
+**Month 3+ (actual production):** You're not running the agent anymore. You're running the governance system around the agent. That's the real work.
+
+The $139B agentic AI market forecast assumes enterprises figure this out. Most won't — not because agents fail, but because the operational layer isn't built before agents are deployed.
+
+Architecture lesson: governance is cheaper to build in than bolt on. Build the guardrails before the production run. Not after 94 days of protocol iteration.
+
+Watching our own 500-PR run: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

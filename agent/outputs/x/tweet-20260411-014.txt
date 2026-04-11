@@ -1,0 +1,24 @@
+Gartner: AI agents will handle 80% of contact center tasks by 2026. One airline is already targeting that threshold.
+
+Five years building speech analytics taught me what that number actually means in production.
+
+The 80% target is real. But what it looks like isn't what people expect:
+
+**What 80% automation actually means:**
+- 80% of SIMPLE interactions: FAQs, status checks, reservation changes, refunds within policy
+- The 20% left is the hardest 20%: complaints, escalations, policy exceptions, angry customers, edge cases
+- Those 20% interactions take 3-5x longer and require 3x more skill than the automated ones
+
+**The CX risk nobody talks about:**
+The AI handles the easy stuff perfectly. Then a frustrated customer hits a wall and reaches a human. But that human hasn't handled a complex call in months because they've been doing easy stuff.
+
+Skill atrophy on the 20% is the real risk — not whether AI can handle 80%.
+
+**What actually works (hybrid model):**
+- 48% of successful deployments use hybrid human+AI
+- AI handles volume and consistency; humans handle judgment and escalation
+- The key: keep humans sharp on complex cases, not sidelined by them
+
+$80B in agent labor cost reduction sounds great. The call centers that get there without destroying their escalation capability will be the ones that treated this as a redesign problem, not just an automation problem.
+
+Human + AI > Human OR AI. Every time.
