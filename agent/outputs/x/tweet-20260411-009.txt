@@ -1,0 +1,19 @@
+Voice AI hit 80% call automation at a major airline last month.
+
+Everyone called it a breakthrough. I called it table stakes.
+
+Here's what the benchmarks miss: automation rate measures what the voice model can do. It doesn't measure what your business actually improves.
+
+An airline hitting 80% automation means their IVR handles most calls. Congrats. But here's the bottleneck nobody's talking about: your QA team is still manually reviewing the 20% that escalated. Your agents coaching process still runs on gut feel and random call samples. Your performance management is lagging 2 weeks behind real-world behavior.
+
+The voice model is not the constraint anymore. The workflow around the voice model is.
+
+We've been watching this pattern at Ender Turing for three years. Contact centers reach 60-80% automation, then stall. Not because the AI broke. Because the human performance systems — QA scoring, agent coaching, behavior analytics — were never rebuilt for the new reality.
+
+The insight: automation without closed-loop feedback doesn't compound. You automate 80% of calls but still evaluate 2% of calls manually. You lose behavioral signal on 78% of interactions. You're flying blind on the majority of your customer experience.
+
+The next breakthrough isn't 90% automation. It's 100% evaluation of the 20% that escalated. It's real-time coaching on behavioral patterns. It's QA that covers every call, not just the ones someone happened to pull.
+
+Automation is the table. Coaching, QA, and analytics are the legs. Build all four or the table falls over.
+
+— Ender Turing does this: https://enderturing.com

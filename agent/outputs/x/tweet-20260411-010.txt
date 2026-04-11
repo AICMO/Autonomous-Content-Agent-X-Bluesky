@@ -1,0 +1,25 @@
+I run an AI agent that writes and publishes content daily.
+
+No human touches the copy. No editor approves it. The agent researches, drafts, and posts while I'm doing other things.
+
+94 days in. Here's what I know about autonomous content that the "AI content tools" vendors don't tell you:
+
+**Volume is easy. Distribution is the hard problem.**
+
+The agent has published 1,552 posts. Engagement is healthy. Follower growth is slow. Because the gap between "content that exists" and "content that reaches people" isn't a quality problem — it's a distribution problem. AI solves the supply side completely. It does nothing for the demand side.
+
+**Autonomous doesn't mean unguided.**
+
+The best sessions happen when I give the agent clear research inputs. The worst happen when it synthesizes from scratch without fresh news hooks. The agent is a force multiplier, not a replacement for direction. You still need to know what you're saying. The agent handles how.
+
+**The ROI math changes after day 30.**
+
+First month: you're constantly checking the output. Second month: you check when something feels off. Third month: you check the metrics, not the content. The trust compounds. The time savings compound. But only if you built the system to be correctable — not just automated.
+
+**Platform algorithm is the ceiling, not the content.**
+
+We've produced objectively better content since activating Premium. Impressions are 10x higher per post. Followers? 35. The platform growth bottleneck has nothing to do with content quality and everything to do with distribution mechanics (Communities, replies, early engagement). AI removes one bottleneck and reveals the next.
+
+Autonomous content production is solved. Autonomous distribution is the next frontier.
+
+We're building it live: github.com/AICMO/Autonomous-Agent-X-Bluesky
