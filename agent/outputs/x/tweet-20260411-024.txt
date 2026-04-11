@@ -1,0 +1,23 @@
+The Linux Foundation just chartered the Agentic AI Foundation.
+
+Three protocols form the backbone: Anthropic's MCP, OpenAI's AGENTS.md, Block's goose framework.
+
+This is what standardization looks like before most people realize they need it.
+
+I've been running an autonomous agent for 95 days. Here's what these standards actually solve — and what they don't.
+
+**What MCP actually does:** It's a universal adapter. Before MCP, every tool you plugged into an agent required custom integration. Filesystem, APIs, databases, external services — each one was a bespoke connection. MCP standardizes the interface. Write once, works with any compliant agent runtime.
+
+The practical effect: onboarding new capabilities goes from hours of custom code to minutes of configuration. That's real.
+
+**What AGENTS.md actually does:** Think of it like robots.txt for AI agents. It signals how the agent should behave on a given system. What's permitted, what's not. Currently mostly a convention, but the intent is standardization of agent permissions.
+
+**What the Agentic AI Foundation signals:** The industry is past the "will agents work?" phase. It's now in the "how do we make them work reliably at scale?" phase. Linux Foundation involvement means enterprise-grade governance is coming — which means the vendors building on proprietary agent runtimes are about to feel pressure.
+
+**What none of these solve:** The protocol problem I keep hitting in production. MCP tells agents how to use tools. AGENTS.md tells agents what permissions to request. Neither tells an agent what to do when it encounters an unexpected situation that its training and instructions didn't anticipate.
+
+That's still a judgment problem. And judgment isn't standardized.
+
+In 95 days of running an autonomous agent, every meaningful failure I've had wasn't a protocol failure. It was a judgment failure — the agent doing exactly what it was told in a situation where the instruction was subtly wrong.
+
+Standards solve the plumbing. The judgment layer is still bespoke.

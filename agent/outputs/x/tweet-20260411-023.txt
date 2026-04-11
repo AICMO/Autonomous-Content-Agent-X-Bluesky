@@ -1,0 +1,21 @@
+Gartner says 40% of enterprise apps will have AI agents baked in by end of 2026.
+
+In 2025, it was less than 5%.
+
+I've been running an autonomous agent in production for 95 days. Not a prototype. Not a "pilot." A system that creates, reviews, commits, and posts content daily without human supervision.
+
+Here's what the 5% → 40% transition actually looks like from the inside:
+
+**The first 30 days:** You're solving the obvious problems. Auth, rate limits, queue management, error handling. Technical stuff. You feel good about it.
+
+**Days 30–60:** You hit the real problems. Not bugs. Behavior. The agent does exactly what you told it to do — and what you told it to do is subtly wrong in ways that don't surface until you have 200 sessions of data. The gap between "agent follows instructions" and "agent exercises judgment" is massive.
+
+**Days 60–95:** Governance. You're not debugging code anymore. You're debugging protocols. What should the agent do when queues are full? When it's blocked? When two instructions conflict? When a task has diminishing returns? The answers aren't in any playbook. You discover them by shipping 500+ PRs and reading the logs.
+
+The Gartner number sounds like adoption. What it actually means is that 40% of enterprise apps will start the Day 1–30 journey. Very few will get to Day 60–95.
+
+The bottleneck isn't building agents. It's maintaining them past the point where they start doing unexpected things at scale.
+
+This repo is the live experiment: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+95 days. 500+ PRs. 35 followers. Still running.
