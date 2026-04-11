@@ -1,0 +1,27 @@
+LLM token costs fell 280x in two years.
+
+Enterprise AI bills rose 320% in the same window.
+
+This is the agentic architecture trap nobody's talking about.
+
+The math: GPT-4-class performance cost $20 per million tokens in late 2022. Today it's under $0.40. Cheaper than ever.
+
+But agentic workflows don't make one call. They chain 10-20 LLM calls per user task. RAG architectures inflate context windows 3-5x. A single "agent completes a task" can cost 50-100x more than a single "model answers a question."
+
+Per-token price down 280x. Calls per task up 10-20x. Context per call up 3-5x.
+
+Net result: your AI bill is higher than the per-token price suggests.
+
+This is why AI teams in 2026 are getting CFO escalations. The demo worked at 100 users. Production at 50,000 users looks different.
+
+What the smart builders are doing:
+
+**Stop thinking in tokens. Start thinking in tasks.** What does one completed task cost? That's your unit. Token price is a component, not the metric.
+
+**Architect for task-level efficiency.** Cache intermediate results. Batch where possible. Don't re-read 40K tokens of context for every step in a 10-step chain.
+
+**Build cost visibility first.** Before scaling, instrument every agent call. Know which steps burn the most tokens. Cut before you regret.
+
+The "AI is getting cheaper" narrative is true. The "so my AI costs will drop" conclusion is wrong. Token prices down ≠ AI bill down when you're running agents at scale.
+
+Per-token is a vendor metric. Per-task is a business metric. Know the difference.

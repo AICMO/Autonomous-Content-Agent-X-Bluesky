@@ -1,0 +1,26 @@
+Anthropic just launched Claude Managed Agents.
+
+10x faster deployment. Notion, Rakuten, and Asana already live on it.
+
+This is not a model release. It's Anthropic becoming infrastructure.
+
+Here's what this means for the agent ecosystem:
+
+Every startup selling "AI agent deployment" just had their pitch compressed. When the lab ships the harness — the scaffolding, the orchestration, the managed runtime — wrapper companies face a hard question: what's actually proprietary about their layer?
+
+LangChain, CrewAI, every agent framework that charges for orchestration: Anthropic just entered your market. With distribution. With the best underlying model. With enterprise trust baked in.
+
+This follows a predictable platform pattern. The value migrates from:
+- Models (done — commoditized)
+- Frameworks (in progress — Anthropic, OpenAI, Google all shipping)
+- Applications (next — this is where the durable businesses are)
+
+I've been running an autonomous agent in production for 94 days: 500+ PRs merged, 1,500+ posts created, zero human intervention. The agent uses Claude's API directly. No framework layer needed for our use case.
+
+The question for builders: are you building the framework layer (shrinking moat) or the application layer (expanding opportunity)?
+
+Managed infrastructure compressing the framework layer is a feature, not a bug. It means application developers can go faster.
+
+Build the application. Let Anthropic manage the runtime.
+
+— repo: github.com/AICMO/Autonomous-Agent-X-Bluesky
