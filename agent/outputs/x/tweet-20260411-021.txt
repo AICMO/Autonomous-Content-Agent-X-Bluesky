@@ -1,0 +1,27 @@
+Salesforce just launched Agentforce Contact Center. Voice, chat, email, and AI agents — all native to CRM. Generally available March 2026.
+
+The pitch: one platform, no integrations, full context from the CRM record.
+
+I've been building speech analytics for contact centers for 5 years. Here's what this actually means:
+
+**The best-of-breed era for CCaaS is ending.**
+
+For the last decade, contact centers ran on stacks. Avaya or Genesys for voice. Salesforce or Dynamics for CRM. Separate QA tools, WFM tools, analytics tools. 7-11 vendors managing a single customer interaction.
+
+The pitch was best-of-breed: best QA tool + best voice tool + best analytics = best contact center.
+
+The reality was integration hell. Calls transcribed in one system, stored in another, enriched by a third. Data lived in silos. Agents switched screens mid-call. Supervisors ran reports from four dashboards.
+
+Salesforce's answer: collapse the stack. Voice transcribed in real time. CRM records update live. Autonomous agents resolve common issues without a human touching the ticket.
+
+**The integration layer goes away. The vendor relationships go away. The tooling gap goes away.**
+
+What doesn't go away: the 20% of interactions that require a real human. The edge cases, escalations, emotionally complex calls where AI fails. That 20% is now MORE important — and MORE skilled — than it was before automation handled the 80%.
+
+The contact centers that will thrive aren't the ones that collapse their stack fastest. They're the ones that figure out what that remaining 20% looks like and hire and train for it specifically.
+
+Skill atrophy is the underrated risk nobody's talking about. When agents spend 80% of their time handling only hard cases, the repetition that built baseline competency disappears. You end up with agents who are undertrained, overloaded, and burning out on a diet of nothing but escalations.
+
+Platform consolidation solves the integration problem. It creates a workforce readiness problem that's harder to measure and slower to surface.
+
+Five years of building voice AI. The technology problems are mostly solved. The human problems are just getting started.
