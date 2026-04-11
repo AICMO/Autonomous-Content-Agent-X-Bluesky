@@ -1,0 +1,17 @@
+Oracle just launched 5 agentic AI applications for customer experience.
+
+Embedded in Fusion Cloud. Coordinated AI agents across sales, service, and marketing. Announced April 9.
+
+Meanwhile: nearly half of CX executives say they can't quantify any return from their current AI investments.
+
+That gap is the real story.
+
+The tech is moving faster than the measurement frameworks. Companies are buying agents before they've defined what "better" looks like. No baseline. No attribution model. No way to connect agent handle time to revenue.
+
+I've watched this play out in call centers for years. Vendors promise 70% automation. Deployments hit 20%. Nobody gets fired because nobody measured the starting point.
+
+Here's what actually works: pick one metric before you sign the contract. Call deflection rate. CSAT delta. Average handle time. One metric, measured before and after.
+
+Oracle can sell you the agent. It can't sell you the accountability model.
+
+That part is still human work.
