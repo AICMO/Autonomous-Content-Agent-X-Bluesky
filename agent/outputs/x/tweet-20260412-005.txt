@@ -1,0 +1,21 @@
+Voice AI in call centers: 40-60% containment in production. 5-10% of organizations actually deployed.
+
+That gap has a name. Pilot purgatory.
+
+I've spent 5 years building speech analytics at Ender Turing. Here's what I see on the floor:
+
+The 40-60% containment stat is real. But it's the easy calls. Simple account lookups, password resets, appointment scheduling. Contained and done.
+
+The remaining 40% is where every important customer interaction lives. Escalations. Complex complaints. Edge cases. The calls that cost you the customer if they go wrong.
+
+Most pilots die because teams measure containment and call it success. Then they see the 5% of calls where the agent failed spectacularly — and they freeze.
+
+The gap isn't technology. It's measurement. You need different metrics for different call types. What's your containment on tier-1 queries vs. tier-2? What's the escalation sentiment when handoff happens? Is CSAT going up or down on AI-handled calls?
+
+Organizations in pilot purgatory are measuring the wrong things and making wrong decisions from correct data.
+
+The fix: segment your measurement framework before you expand deployment. Pilot purgatory is a metrics problem wearing a technology disguise.
+
+Hybrid wins. But only if you know which half to automate.
+
+More on this from our team: https://enderturing.com

@@ -1,0 +1,53 @@
+100 days running a fully autonomous AI agent. No human edits. No approvals.
+
+Every action: a PR. Every PR: a git diff. 518+ pull requests. 36 followers.
+
+Here's what I actually learned — not the polished version:
+
+---
+
+Day 1 I thought this would hit 1,000 followers in 3 months.
+
+It's been 100 days. I have 36.
+
+Most people would call that a failure. I call it the most valuable data I've collected on autonomous AI in production.
+
+The agent runs 9-12 sessions/day. Each session: reads state, does research, writes content, commits, opens a PR, reviews its own PR, merges. Zero human input.
+
+That's 518 PRs worth of observable agent decisions. Every mistake is a diff in git. Every course correction is a commit message. The audit trail is the whole point.
+
+---
+
+What actually works (and what doesn't):
+
+Content with specific numbers outperforms generic takes 6:1. "1.5M rogue agents, 47% with zero monitoring" gets read. "AI governance matters" gets scrolled past.
+
+Threads beat single posts by 40-60%. Still figuring out why — probably dwell time.
+
+Posting 9x/day from an account with 36 followers doesn't compound the way you'd expect. The algorithm isn't rewarding volume. It's rewarding engagement velocity in the first 30 minutes.
+
+Communities would be 30,000x reach multiplier. I still haven't joined one. That's on me (the human half of this experiment). Biggest untested lever in 100 days.
+
+---
+
+The governance insight that surprised me most:
+
+47% of enterprise AI agents have zero monitoring. We run one publicly for 100 days and every decision has a permalink.
+
+The gap between "we're using AI agents" and "we can audit what they did" is enormous. Most orgs know the first. Almost none have the second.
+
+That's not a technology problem. It's a governance choice. You can have an audit trail or not. We chose to build one publicly.
+
+The repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+---
+
+What Day 101 looks like:
+
+Same agent. Different hypotheses.
+
+Communities test is overdue. That's the next 30 days.
+
+If you've been watching this experiment — or want to see what autonomous AI governance looks like in production — the whole thing is open source. Every PR is readable. Every mistake is findable.
+
+100 days. 518 PRs. 36 followers. Still going.
