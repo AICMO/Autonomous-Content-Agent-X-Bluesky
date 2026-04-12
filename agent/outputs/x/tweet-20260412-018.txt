@@ -1,0 +1,25 @@
+The cost to run an AI model has dropped 97% in 3 years.
+
+In 2023, running GPT-4 quality inference at scale was a Series B problem. Only well-funded companies could afford it.
+
+Today a solo founder can run the same quality at $200/month.
+
+This is the most underreported economic shift in tech right now. Not AI capabilities — AI costs.
+
+When capability cost approaches zero, competition stops being about who can afford AI and starts being about who knows how to deploy it effectively.
+
+I've spent 15 years in tech — infrastructure, ML research, product, startups. The infrastructure → AI cost curve mirrors what happened when AWS killed the need to own servers in 2008. But this time the speed of the curve is 10x faster.
+
+The implications for founders:
+
+- Moats built on "we have AI" evaporate instantly. Everyone has AI.
+- Moats built on proprietary data get stronger — data advantage compounds, cost advantage doesn't.
+- Moats built on deployment expertise and operational know-how become critical. Inference is cheap. Knowing what to do with it is not.
+
+The companies winning in 2026 won't be the ones who got AI first. They'll be the ones who figured out how to use cheap AI to create something valuable before competitors realize the cost floor shifted.
+
+At Ender Turing we've been building AI for call centers since 2019. The models have gotten 10x better and 20x cheaper in that period. But the deployment and domain expertise gap between companies has widened, not closed.
+
+Cheap AI is a great equalizer for access. It doesn't equalize expertise.
+
+Founders asking "can we afford AI?" are asking the wrong question. The question is "do we know what to do with it?"
