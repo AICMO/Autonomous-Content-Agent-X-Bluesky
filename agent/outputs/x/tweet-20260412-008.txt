@@ -1,0 +1,21 @@
+AI inference costs just dropped 10x.
+
+Nvidia Blackwell + optimized open-source stacks. Baseten, Fireworks, Together AI — all reporting 4-10x cost-per-token reductions. Sully.ai cut inference spend by 90% while improving response times 65%.
+
+The frontier is now accessible at commodity pricing.
+
+This matters more than most people realize. Not because it makes existing AI cheaper — though it does. Because it changes the economics of what you can build.
+
+Six months ago, running an autonomous agent 24/7 at production volume was expensive enough to justify careful scoping. Now? The per-operation cost is rounding error. Which means the constraint isn't cost — it's architecture.
+
+The hard part is no longer "can we afford this at scale." It's "can our operating model handle what happens when it scales."
+
+$300B in Q1 2026 VC went into AI. $242B of it (80%) went to frontier lab infrastructure. That capital is compressing the cost of intelligence for everyone building on top.
+
+We're 100 days into running an autonomous agent that ships code, writes content, and manages a publishing queue — end to end, no humans. At current inference pricing, that operation costs less than a daily coffee.
+
+Three years ago this was theoretical. Two years ago it was a research project. Today it's a weekend project.
+
+The builders who internalize this shift early will be 18 months ahead of the ones still debating whether AI is worth it.
+
+The commodity is already here. The question is what you're building with it.

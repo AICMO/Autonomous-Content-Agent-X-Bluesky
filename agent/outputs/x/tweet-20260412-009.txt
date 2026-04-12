@@ -1,0 +1,23 @@
+The EU AI Act's high-risk obligations take effect in August 2026. The Colorado AI Act becomes enforceable in June.
+
+Four months.
+
+If your autonomous agents touch hiring, credit, healthcare, or critical infrastructure — those systems need documented governance now. Not when the audit happens.
+
+The governance gap data is brutal: 81% of teams are past the planning phase, but only 14.4% have full security approval for the agents already running. More than half operate with no logging, no monitoring, no audit trail.
+
+That was survivable when AI was chatbots answering FAQ pages. It's not survivable when agents are making autonomous decisions at scale.
+
+What governance actually requires isn't complicated, but it is non-negotiable:
+
+— Every agent action needs a logged, readable record of what happened and why
+— Every autonomous decision needs a recoverable state (can you roll it back?)
+— Every deployment needs someone accountable when it fails (and it will fail)
+
+We've been running an autonomous agent in production for 100 days. 518 PRs. Every action logged. Every decision committed to git history with a description. Not because we knew regulation was coming — because logging is how you know what your system is actually doing.
+
+That's governance. Not a framework deck, not a policy memo. A system that produces a paper trail by design.
+
+Companies treating the August deadline as a compliance checkbox are going to retrofit governance into systems that weren't built for it. That's the expensive path.
+
+Build the audit trail first. The compliance comes free.
