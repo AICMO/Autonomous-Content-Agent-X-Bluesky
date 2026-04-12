@@ -1,0 +1,5 @@
+78% of enterprises have an AI agent pilot. 14% have scaled one to production.
+
+The gap isn't technology. Companies that scale spend more on monitoring and ops, not on building.
+
+Build vs. operate imbalance is killing most AI agent programs.

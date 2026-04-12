@@ -1,0 +1,23 @@
+The dirty secret of multi-agent systems: orchestration becomes the bottleneck, not the models.
+
+When you have one agent — that agent either works or it doesn't. Simple to debug, simple to monitor.
+
+When you have agents calling other agents, choosing tools dynamically, delegating sub-tasks — coordination overhead grows almost exponentially. The individual model calls are fast. The orchestration logic is where things fall apart.
+
+I've been watching this pattern in our own autonomous agent for 100 days. The hardest debugging sessions aren't model failures. They're coordination failures — when the agent makes the right individual decision but the sequence of decisions produces the wrong outcome.
+
+What actually helps at scale:
+
+— Hard state checkpoints. Every agent-to-agent handoff should leave a readable record of what was passed and why. Not logs for debugging. Records by design.
+
+— Single-owner chains. If two agents are both "responsible" for an outcome, neither one is. Ownership must be unambiguous all the way through.
+
+— Fail-fast by default. An agent that stops and flags uncertainty is an asset. An agent that keeps going on bad data is a liability. Most teams default to "keep going" because it looks like progress.
+
+— Shallow hierarchies. Every layer of delegation adds a failure mode. Three agents in sequence: triple the coordination surface. Stack them only when genuinely necessary.
+
+The agentic AI market is heading toward $139B by 2034. Most of that growth assumes we figure out orchestration. We haven't figured it out yet.
+
+The teams getting there are treating multi-agent systems like distributed systems — which is what they are.
+
+Source: MachineLearningMastery / 5 Production Scaling Challenges for Agentic AI 2026

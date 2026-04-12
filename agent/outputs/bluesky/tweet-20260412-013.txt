@@ -1,0 +1,5 @@
+Multi-agent systems: orchestration becomes the bottleneck, not the models.
+
+Individual agents fail fast. Chains of agents fail in ways that look like progress but produce wrong outcomes.
+
+Hard state checkpoints + shallow hierarchies + fail-fast defaults = the actual solution.
