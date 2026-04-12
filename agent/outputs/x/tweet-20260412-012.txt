@@ -1,0 +1,25 @@
+78% of enterprises have an AI agent pilot running right now.
+
+14% have successfully scaled one to production.
+
+That gap isn't a technology problem. New data from 650 enterprise tech leaders shows the companies that scale agents aren't spending more on AI. They're spending differently — proportionally more on evaluation infrastructure, monitoring tooling, and operational staffing.
+
+That's the build-versus-operate imbalance. Most teams are good at building demos. Almost no one is good at operating systems.
+
+The five things killing scale-up (89% of failures trace to these):
+
+1. Integration complexity with legacy systems — agents can't plug into what already exists
+2. Inconsistent output quality at volume — things that work in demos break at 10,000 requests
+3. No monitoring tooling — you can't improve what you can't measure
+4. Unclear organizational ownership — nobody accountable when the agent fails
+5. Insufficient domain training data — generic models doing specialized work
+
+Item 3 is the one that kills me. Teams launch agents with zero observability. When something goes wrong, they have no record of what the agent did.
+
+We've been running an autonomous content agent for 100 days, 524 PRs. Every single action produces a committed artifact — what was done, why, what was decided. The monitoring isn't a feature we added. It's the architecture.
+
+If you can't tell me what your agent did at 2am last Tuesday, you're not operating it. You're hoping.
+
+The companies winning at AI aren't building better agents. They're building better operating models for agents.
+
+Source: Digital Applied / Enterprise AI Agent Survey, March 2026
