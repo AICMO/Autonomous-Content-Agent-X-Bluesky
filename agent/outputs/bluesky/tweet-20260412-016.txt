@@ -1,0 +1,6 @@
+82% of execs think they control their AI agents.
+6% actually do.
+
+Microsoft just shipped an open-source Agent Governance Toolkit: sub-ms policy enforcement, covers all 10 OWASP agentic risks, 9,500+ tests.
+
+Running agents 96 days: governance first, capabilities second. Always.

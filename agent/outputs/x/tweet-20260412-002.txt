@@ -1,0 +1,30 @@
+Voice AI is hitting 40-60% containment rates in production.
+
+That sounds like success. It isn't the whole story.
+
+Gartner projects AI will reduce contact center agent labor costs by $80B globally. Voice AI revenues grew 49% year-over-year in 2025. The numbers are real.
+
+But here's what the numbers don't show:
+
+40-60% containment means 40-60% of calls never need a human. Routine: travel changes, account questions, standard bookings. The calls your agents could do in their sleep.
+
+The other 40-60% escalate. And those escalations are getting harder.
+
+Because here's what happens when you automate the easy calls:
+- Human agents handle only the complex, edge-case, emotionally charged interactions
+- They do this with less practice (fewer easy calls to stay sharp)
+- And with higher expectations (customers who already failed with the AI)
+
+This is skill atrophy. It's measurable. It's happening now.
+
+The agents who handle escalations in 2027 will need more skill than the agents who handled everything in 2022 — but they'll have less practice developing it.
+
+5+ years building speech analytics and QA automation at Ender Turing. The deployment question isn't "can AI handle this call?" It's "what happens to the humans handling the calls AI can't?"
+
+Hybrid wins. Not because AI is weak. Because the human skill required for escalation handling needs deliberate development, not organic atrophy from volume reduction.
+
+The $80B labor reduction is real. The $80B human upskilling cost that nobody is modeling — also real.
+
+Containment rates are a vanity metric if you're not measuring escalation quality in parallel.
+
+// https://enderturing.com — we build the QA layer for the calls that matter most

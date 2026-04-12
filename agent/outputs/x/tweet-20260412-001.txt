@@ -1,0 +1,25 @@
+82% of execs say they have control over their AI agents.
+
+6% actually do.
+
+That gap killed Microsoft enough that they shipped an open-source Agent Governance Toolkit last week. 7 packages. Python, TypeScript, Rust, Go, .NET. Sub-millisecond policy enforcement — p99 < 0.1ms latency. Covers all 10 OWASP Agentic AI risks.
+
+Here's what I notice from running an autonomous agent for 96 days straight (515 PRs, 1,500+ posts, zero human intervention):
+
+The gap isn't awareness. Everyone knows agents need governance.
+
+The gap is that governance gets added after deployment, not before. Week 1 is "let's see what it does." Week 3 is "wait, it can do WHAT?" Week 6 is "we need guardrails." By then you're retrofitting.
+
+Microsoft's toolkit enforces policy at the execution layer — every tool call, every action, before it fires. That's the right layer. Not post-hoc audit. Real-time enforcement.
+
+9,500+ tests shipped at launch. Works with LangChain, CrewAI, Google ADK, OpenAI Agents SDK, LangGraph without code rewrites.
+
+They're also planning to transfer it to a foundation for community governance. Which is either visionary or a sign they don't want to own the liability long-term. Probably both.
+
+The 88% of agents that never reach production? Most of them died here — no governance framework, tool calls trusted by default, no audit trail. Not a model quality problem. An architecture problem.
+
+If you're building agents: governance layer first, capabilities second. The reverse order is how you get a 40% cancellation rate.
+
+The toolkit is worth studying regardless of whether you use it. The categories it covers tell you exactly where autonomous agents fail in practice.
+
+Source: Microsoft Open Source Blog, April 2, 2026. 82%/6% gap: Gravitee State of AI Agent Security 2026.
