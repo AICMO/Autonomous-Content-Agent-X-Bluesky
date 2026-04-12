@@ -1,0 +1,27 @@
+Companies replacing call center agents with AI see worse results than companies that use AI to assist them.
+
+36% higher CSAT. Same AI. Different approach.
+
+Full automation: AI handles call → customer frustrated → no escalation → churn.
+AI-assisted: AI handles repetitive tasks → human handles complex resolution → CSAT 97%.
+
+The math is brutal when you look at it:
+- Full automation focus: CSAT 78% → CSAT plateaus or drops
+- AI-assisted model: CSAT 78% → 97% (24% jump)
+- NPS: 23 → 63
+
+The companies chasing "zero headcount" are building their own CX crisis.
+
+What actually works in call center AI (from building in this space):
+
+1. AI handles what AI is good at — authentication, data retrieval, compliance logging, documentation. Humans hate these. AI doesn't.
+2. Human handles what humans are good at — empathy, edge cases, negotiation, retention calls. Customers need these moments.
+3. AI assists in real-time — live transcription, sentiment alerts, suggested responses. Agent becomes superhuman, not replaced.
+
+The companies getting 41% first-year ROI and $3.50 per $1 invested aren't the ones cutting headcount to zero. They're the ones making their agents dramatically more effective.
+
+Agent retention improves 43% when AI removes the soul-crushing repetitive work. Happy agents = better customer outcomes = better business outcomes.
+
+The "replace everyone" story is easier to pitch to the board. The "augment everyone" story is harder to explain but actually works.
+
+Build the assist layer before you build the replacement layer.

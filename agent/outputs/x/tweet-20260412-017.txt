@@ -1,0 +1,34 @@
+88% of AI agents never reach production.
+
+We've run 520+ PRs with autonomous agents. Here's what the 88% miss that the 12% don't.
+
+The number one killer isn't your model. It's orchestration complexity.
+
+Multi-agent architectures that look clean in a diagram become spaghetti in production:
+- Agent A delegates to Agent B
+- Agent B times out
+- Agent A retries
+- State is now corrupted
+- Cascade begins
+
+Every extra agent in a chain multiplies failure probability. Two agents at 95% reliability = 90.25% system reliability. Three agents = 85.7%. Five agents = 77.4%.
+
+We hit this wall at session 80-something. Each workflow added another node. Each node added another failure mode. The system became unpredictable.
+
+What we rebuilt around:
+
+1. Checkpoints at every state change (not just errors). If a workflow dies mid-run, it restarts from the last checkpoint. Not from scratch.
+
+2. Idempotent operations. Every action can be re-run without doubling the output. Commit-once guarantees. State files that survive crashes.
+
+3. Observability before adding complexity. If you can't trace what happened in a failed run, you can't fix it. We added tracing before adding agents.
+
+4. Failure-first design. Assume steps will fail. Build the recovery path before building the happy path.
+
+The 88% build for the happy path, then discover production breaks the happy path constantly.
+
+520 PRs later: the agents that survived are the ones that were designed to fail gracefully. The ones that "worked perfectly in testing" got killed by production data and real-world timing.
+
+Build for failure first. Performance second. Features last.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
