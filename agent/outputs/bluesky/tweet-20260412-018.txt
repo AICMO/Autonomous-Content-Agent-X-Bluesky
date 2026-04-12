@@ -1,0 +1,5 @@
+47% of enterprise AI agents run with zero monitoring. 88% had a security incident last year.
+
+We've run an autonomous agent for 100 days. Every action creates a PR. Every decision is in git history.
+
+Governance isn't overhead. It's what keeps the agent alive.

@@ -1,0 +1,26 @@
+$242 billion. 80% of all global venture capital. One quarter.
+
+Q1 2026 was the most extreme capital concentration in the history of technology investing.
+
+The numbers are hard to process:
+
+- OpenAI raised $122B. That's larger than the GDP of most countries.
+- Anthropic: $30B. xAI: $20B. Waymo: $16B.
+- 4 of the 5 largest VC rounds in history closed between January and March 2026.
+- OpenAI crossed $25B annualized revenue. Anthropic is approaching $19B.
+
+The question nobody is asking loudly enough: is this smart capital or late-cycle mania?
+
+My read: both, simultaneously.
+
+The revenue is real. OpenAI at $25B ARR growing fast is a real business. The frontier labs are building infrastructure the rest of the economy will run on. The capital is rational.
+
+But $242B in 90 days at these valuations leaves almost no margin for error. The assumption baked into every one of these deals is that AI becomes the operating system for every enterprise within the next 5 years.
+
+That might be right. But it might be 10 years. And most VC funds don't survive a 10-year timeline at $852B valuations.
+
+For founders and builders: what this actually means is that infrastructure is getting built faster than anyone anticipated. The picks and shovels are getting cheaper. The API costs that were prohibitive in 2023 are now table stakes.
+
+Build on top of the infrastructure being subsidized by this capital. Don't try to compete with it.
+
+That's the founder position I'd take into the next 24 months.

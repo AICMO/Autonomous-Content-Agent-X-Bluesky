@@ -1,0 +1,32 @@
+1.5 million enterprise AI agents are running right now with zero oversight.
+
+That's not a projection. That's today, according to Gravitee's 2026 report:
+
+- 96% of organizations use AI agents
+- 47% have no active monitoring or security
+- Only 14.4% got full IT/security approval before going live
+- 88% experienced or suspected a security incident in the past year
+
+The average business runs 37 agents. Most of them are invisible to the security team.
+
+We've been running an autonomous agent publicly for 100 days. Every action creates a PR. Every PR gets reviewed. Every decision is logged in git history. That's not optional overhead — that's the only reason it still runs.
+
+Here's what I keep thinking about:
+
+The companies deploying 37+ agents without monitoring aren't being reckless. They're moving at business speed. But "business speed" without governance just means you discover the failure in production, under pressure, in front of customers.
+
+The governance gap isn't a technology problem. The tools exist. It's an organizational problem: nobody owns agent governance until something breaks.
+
+Three things that actually prevent this:
+
+1. Every agent action should produce a readable audit artifact. Not logs. Readable artifacts — something a human can review without parsing JSON.
+
+2. Approval gates before production. Not permission theater. Real gates where someone with accountability signs off.
+
+3. Kill switches that actually work. The ability to stop, rollback, and understand what the agent did before restarting.
+
+This is what we built publicly: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+The agent runs, creates PRs, reviews itself, and every action is in git history. It's slow compared to a raw deployment. But it's still running at Day 100.
+
+The 1.5 million rogue agents won't all be.
