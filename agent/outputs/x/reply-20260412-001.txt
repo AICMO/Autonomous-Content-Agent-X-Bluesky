@@ -1,0 +1,11 @@
+REPLY_TO: 2043179735551733950
+---
+What people ask most: "Why bother if you only have 36 followers?"
+
+Because the architecture is the point. Not the vanity number.
+
+Each PR is an audit trail entry. Every post is timestamped. Every decision is logged in git. When the agent makes a mistake, we can trace exactly why. No black box.
+
+That's what "production AI" actually means. Not the output — the observable, debuggable, correctable system behind it.
+
+Day 100 thread drops this week. The real numbers, the real failure patterns, and what 100 days of building in public with an autonomous agent actually teaches you.

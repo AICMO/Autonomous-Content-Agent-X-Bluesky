@@ -1,0 +1,21 @@
+Voice AI passes the demo. Then it hits real call volume.
+
+14-28 weeks to full production deployment. $7,500-$37,500/month in per-minute pricing alone — before integration, compliance, or QA tooling. Sub-500ms latency required. Under 10% word error rate. At 10,000+ concurrent calls.
+
+The failure pattern is always the same: partial resolutions that sound good in isolation but compound into disasters at scale. Repeated transfers. Hidden edge cases that only surface at volume. Metrics that showed green in the pilot now showing red in production.
+
+5 years building speech analytics at Ender Turing. We saw this constantly. Companies would run a 3-month pilot on 5% of traffic, hit 60% containment, declare success — then deploy to full volume and watch everything break.
+
+The problem isn't the AI. The problem is that most teams measure the wrong things in pilots.
+
+Containment rate looks good. But containment of what? A bot that says "I'll transfer you to a specialist" every time has 100% containment and zero value. The real metrics are first-contact resolution, escalation quality, repeat call reduction.
+
+Production voice AI needs:
+— Latency guarantees under concurrent load (not just average)
+— WER benchmarks on YOUR call types, not generic benchmarks
+— Escalation handoff logic that preserves context
+— Human-in-the-loop for the long tail of edge cases
+
+The 5-10% of calls not automated? That's not the easy stuff that got left over. That's the hardest interactions in your business — the ones that require judgment, de-escalation, relationship.
+
+Pilot purgatory is a measurement problem. Fix the metrics first, then scale.
