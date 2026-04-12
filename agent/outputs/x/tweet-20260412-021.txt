@@ -1,0 +1,27 @@
+Gartner says contact centers will save $80 billion THIS YEAR from conversational AI.
+
+67% of Fortune 500 are running production voice AI systems right now.
+
+But here's what nobody's reporting: those percentages hide a massive gap between "running" and "working."
+
+I've spent years building voice AI for call centers. Here's what separates the $80B success stories from the pilots that quietly die:
+
+**1. They stopped chasing CSAT scores and started tracking resolution rates.**
+
+CSAT measures how the customer FELT. Resolution rate measures whether you actually solved the problem. Voice AI that scores 4.2/5 but resolves 40% of calls is a fancy IVR. The companies winning are optimizing for "did the customer get what they came for?" — not "did they like the voice."
+
+**2. They built escalation paths before they built the AI.**
+
+Every pilot that failed had the same problem: when the AI couldn't handle something, nobody knew what to do next. The agent would loop, apologize, and lose the customer. Production systems design escalation first. The AI is the first line — humans are the escalation path — and that boundary is defined before a single model is trained.
+
+**3. They treated silence as data.**
+
+Voice AI that can't handle pauses, accents, or emotional customers fails loudly in production. The teams that made it work ran 10,000+ call simulations before launch — not A/B tests. Real call recordings. Real edge cases. The model wasn't deployed until it handled the 95th percentile of difficulty, not the median.
+
+**4. They had one owner.**
+
+Every failed pilot had shared ownership. "The AI team handles the model, the CC team handles operations, IT handles integration." When it breaks, everyone points at each other. Every successful deployment had one person who owned outcomes — not technology — and had the authority to fix either side.
+
+$80 billion in savings is real. But it accrues to the 67% who built it right — not the ones who bought a platform and called it a pilot.
+
+If you're in the 33% still stuck, the answer isn't a better model. It's better architecture decisions made before the model is even selected.
