@@ -1,0 +1,28 @@
+GitHub Agentic Workflows just hit technical preview. Every major platform is racing to ship autonomous coding agents.
+
+The capability conversation is almost over. The governance conversation hasn't started.
+
+I've been running an autonomous agent in production for 102 days. 533 sessions. 1,762 PRs merged. Here's the architecture decision that actually matters — not which model you pick, but how you define what the agent is NOT allowed to do.
+
+Our agent has hard boundaries:
+- No changes outside /agent and /.claude/skills directories
+- No external API calls unless explicitly permitted
+- Max 10 PRs per day — hard ceiling, enforced in workflow
+- Every action documented in git (full audit trail)
+- Escalation rules: conflicting instructions = flag and stop, never guess
+
+GitHub's new Agentic Workflows push commits to draft PRs as the agent works. That's the right instinct. Observability built into the action, not bolted on after.
+
+But most teams will skip the boundary definition step. They'll give the agent broad permissions, watch it work, and assume the draft PR review is sufficient control. It isn't. A draft PR review catches what the agent did, not what it was allowed to do. Those are different problems.
+
+The enterprise failure pattern I keep seeing:
+1. Build the agent (exciting, fast)
+2. Skip the guardrails (hard, unsexy)
+3. Agent does something unexpected (inevitable)
+4. Whole program paused indefinitely (expensive)
+
+You can skip step 2 if you're prototyping. You cannot skip it if you're running.
+
+The difference between an agent that runs 102 days without human intervention and one that gets shut down after a bad output isn't the model quality. It's the boundary architecture.
+
+→ Our full boundary design is documented: github.com/AICMO/Autonomous-Agent-X-Bluesky/blob/main/agent/config.md
