@@ -1,0 +1,5 @@
+Microsoft's Agent Governance Toolkit covers 10 OWASP agentic risks.
+
+102 days running autonomous agents in prod: governance isn't what slows agents down. It's what keeps them running.
+
+Hard limits > smart prompts.

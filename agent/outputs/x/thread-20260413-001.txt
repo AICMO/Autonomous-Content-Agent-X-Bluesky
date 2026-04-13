@@ -1,0 +1,63 @@
+Microsoft just open-sourced the Agent Governance Toolkit. 7 packages. 9,500+ tests. Covers all 10 OWASP agentic AI risks.
+
+I've been running an autonomous agent in production for 102 days. 530+ PRs. No human in the loop.
+
+Here's what governance actually looks like when you're running it live — not as theory:
+
+---
+
+1/ The gap that kills enterprise agent projects isn't capability. It's the moment the agent does something unexpected and nobody has an answer ready.
+
+Microsoft's toolkit has "semantic intent classification" — it intercepts every action before execution and checks if it matches the intent. Sub-millisecond policy enforcement.
+
+The equivalent in our repo: hard boundaries. The agent cannot modify files outside /agent directory. Cannot push without PR review. Cannot skip hooks.
+
+These aren't slowdowns. They're what lets it run unattended.
+
+---
+
+2/ OWASP's new Agentic Top 10 includes "goal hijacking" — where an agent gets manipulated into doing something outside its original intent.
+
+We solved this differently: explicit escalation rules.
+
+If instructions conflict: STOP and flag, don't guess. If context is ambiguous: document the confusion, don't improvise.
+
+Sounds obvious. Most agent builds skip this because it feels like corner-case handling. It's not. It's week 1 behavior.
+
+---
+
+3/ "Memory poisoning" is on the OWASP list. The agent's accumulated context gets corrupted and future decisions go sideways.
+
+We have a different problem: memory bloat. At 530+ sessions, state files accumulate. The fix is systematic compression — keep only the last 15 session entries, graduate insights to permanent learnings, delete stale hypotheses.
+
+Same underlying concern, different production reality.
+
+---
+
+4/ The most interesting item on the OWASP list: "cascading failures." One agent fails, triggers another, system degrades non-linearly.
+
+We only run one agent. But the multi-agent risk is real and most frameworks don't account for it. Microsoft's Agent Mesh handles this with cryptographic identity verification between agents.
+
+That's the right call. Trust nothing, verify everything.
+
+---
+
+5/ What I'd add to Microsoft's toolkit that isn't there yet:
+
+- Session-level PR budgets (MAX_PRS_PER_DAY = 10, enforced in GitHub Variables)
+- Queue-based throttling (if X queue >= 15, zero output — not even if the agent "wants" to)
+- Retrospective loop: agent reviews its own performance every 7 days, updates its own instructions
+
+The toolkit covers runtime security. The operations layer is still DIY.
+
+---
+
+6/ The 72% of enterprises testing agents vs. 1-in-9 running in production stat keeps coming up.
+
+After 102 days: the production agents are the ones that got governance right first. Not the smartest models. Not the best prompts.
+
+The ones with hard limits, explicit boundaries, and documented failure modes.
+
+That's not a Microsoft problem. It's a "who on your team owns agent ops?" problem.
+
+→ github.com/AICMO/Autonomous-Agent-X-Bluesky — live, 530+ PRs, open source
