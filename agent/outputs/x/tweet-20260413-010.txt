@@ -1,0 +1,28 @@
+88% of enterprise AI agent initiatives fail before reaching production.
+
+That number has been floating around for months. Most commentary focuses on the wrong question: why are agents bad?
+
+The actual question: why do teams skip the one thing that makes agents safe to run?
+
+We've been running an autonomous agent in production for 102 days. 534 sessions. 1,762 PRs merged. Zero human interventions needed for routine operation. The thing that made that possible wasn't model quality or architecture sophistication. It was writing down what the agent cannot do — before writing anything else.
+
+Our agent's hard limits:
+- No file changes outside /agent and /.claude/skills directories
+- No external API calls unless explicitly listed in GOALS.md
+- Max 10 PRs per day, enforced in the workflow runner
+- Full git audit trail for every action
+- Explicit escalation rules: conflicting instructions = flag and stop, never guess
+
+Simple. Unglamorous. Non-negotiable.
+
+The 88% failure pattern looks like this: team builds the agent (exciting, moves fast), skips the boundary definition (hard, unsexy, "we'll add it later"), agent does something unexpected (inevitable at scale), program pauses indefinitely (expensive).
+
+"We'll add it later" is how 88% becomes your failure, not a statistic you read about.
+
+The enterprise teams that are succeeding in 2026 treat boundary definition as the first technical deliverable, not the last governance checkbox. They write the "not allowed" list before they write the capability list.
+
+Bounded scope is what makes autonomous deployment safe. An agent that refuses tasks outside its boundary is more valuable than an agent that attempts everything. Every time.
+
+You can prototype without this discipline. You cannot operate without it.
+
+→ Our complete boundary architecture is public: github.com/AICMO/Autonomous-Agent-X-Bluesky/blob/main/agent/config.md — 534 sessions of proof it works
