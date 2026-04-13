@@ -1,0 +1,17 @@
+Voice AI quality crossed a threshold in the last 12 months.
+
+Callers genuinely can't tell the difference on routine interactions. One airline already hit 30% lower monthly customer service costs. They're targeting 80% full automation of live agent tasks by this month.
+
+We built ASR models for call centers at Ender Turing starting in 2019. Back then, "good enough" speech recognition for enterprise calls meant 85% accuracy if you were lucky. Accents, background noise, domain vocabulary — it all degraded performance in production in ways benchmarks never predicted.
+
+The leap from 2024 to 2026 is genuinely different. Not incremental. The gap between lab and production is shrinking fast.
+
+But here's what I keep seeing:
+
+Most contact centers are still running hybrid pilots with no clear path to scale. They deploy AI on the easy routing tasks, keep humans on everything complex, and call it "AI transformation." The economics don't close unless you have a plan to actually reduce headcount or dramatically grow volume without headcount — and most leaders aren't having that conversation honestly.
+
+The $80B in projected global savings by 2026 from conversational AI? That assumes the operators actually pull the trigger on restructuring. Most won't. They'll keep the humans AND the AI, claiming dual benefit, watching costs stay flat.
+
+The ones who win aren't the ones with the best AI vendor. They're the ones who redesigned the operation around what AI can actually do — not what the vendor deck promised it would do.
+
+→ Building this in production at enderturing.com — 7 years of call center AI, not slides

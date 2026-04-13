@@ -1,0 +1,19 @@
+Agentic AI market: $7.3B in 2025. $139B by 2034.
+
+That's a 40% annual growth rate. For 9 years straight.
+
+I've heard aggressive projections before. Usually they're based on a single analyst's spreadsheet and wishful thinking. This one I actually believe — not because of the TAM math, but because of what's already deployed.
+
+The driver isn't new. It's the same thing that drove SaaS adoption in 2010-2016: someone finally solved the operational reliability problem. Back then it was cloud infrastructure. Today it's agent governance.
+
+When Microsoft shifts from "search" to "governed agent workflows that plan, execute, and verify multi-step business processes," that's not a product announcement. That's an enterprise distribution channel unlocking.
+
+Every Microsoft customer (and there are a lot of them) just got agents pushed into their procurement process.
+
+The $139B is probably wrong — but it'll be wrong because it was too conservative.
+
+One catch: the 72% test vs 1-in-9 production number suggests most enterprises are still figuring out the governance layer. The market grows when that ratio flips.
+
+2026 is year 1 of that flip.
+
+→ Follow @tau_rho_ai to track what autonomous agents actually look like in production

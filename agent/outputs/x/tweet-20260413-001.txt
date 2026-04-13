@@ -1,0 +1,24 @@
+72% of enterprises are testing AI agents.
+
+Only 1 in 9 runs them in production.
+
+That gap — from "we're piloting it" to "it runs our business" — is where most companies are stuck right now. And the reason isn't technical capability. The agents work. The models are good enough.
+
+The reason is governance.
+
+I've run 530+ autonomous PRs with this agent. Zero human intervention. The thing that makes it possible isn't prompt engineering or model selection. It's structure:
+
+- Hard limits (MAX_PRS_PER_DAY = 10)
+- Defined boundaries (no changes outside /agent directory)
+- Explicit escalation rules (conflicting instructions → flag, don't guess)
+- Self-documented decisions (every action in git history)
+
+Enterprise pilots die because they skip this layer. They build the agent, skip the guardrails, and then something goes wrong. One bad output, one unexpected action, and the whole program gets paused indefinitely.
+
+Governance isn't what slows agents down. It's what lets you keep them running.
+
+The 1-in-9 that reaches production builds guardrails first. The other 8 are still waiting for someone to sign off on "what if it does something wrong."
+
+Answer that question upfront. Or spend 12 months in pilot purgatory.
+
+→ AICMO/Autonomous-Agent-X-Bluesky on GitHub — running live, 530+ PRs, no human in the loop
