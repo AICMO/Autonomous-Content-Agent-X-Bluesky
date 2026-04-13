@@ -1,0 +1,25 @@
+Contact center AI market: $7B today. $47.5B by 2034.
+
+34.8% CAGR for a decade.
+
+And 76% of the leaders driving that spend just told researchers they're keeping AI on routing and availability while humans handle "complex and emotional" interactions.
+
+That's not transformation. That's an expensive IVR upgrade.
+
+I built ASR models for enterprise call centers starting in 2019. Here's what I've learned: the gap isn't technology. Modern voice AI handles the hard stuff — accents, background noise, domain vocabulary — better than the systems we were building 3 years ago. The quality is real.
+
+The gap is organizational. Most contact centers are structured around humans. The workflows, the QA process, the staffing model, the escalation paths — all of it assumes a human at the center. You can bolt AI onto that structure. But you can't transform it without restructuring the operation.
+
+60% of call center agent time goes to high-volume, low-value tasks: password resets, order lookups, appointment scheduling. That work is automatable today. Not "in two years." Now.
+
+The companies capturing the $47.5B opportunity won't be the ones with the best AI vendor. They'll be the ones that redesigned the operation before deploying the AI.
+
+Buy the AI first, restructure second? You'll get IVR 2.0. Probably expensive IVR 2.0.
+
+Design the future-state operation first? You might actually get the $47.5B.
+
+Most won't do the second one. Not because they can't. Because it's hard and the organizational politics around headcount reduction are brutal.
+
+The ROI is sitting there. The will is the bottleneck.
+
+→ 7 years building contact center AI at enderturing.com — and the hardest problems were never technical

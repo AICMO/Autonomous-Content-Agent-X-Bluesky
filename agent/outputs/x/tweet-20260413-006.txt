@@ -1,0 +1,23 @@
+85% of your enterprise AI budget goes to running models. Not building them. Not training them.
+
+Running them.
+
+That's the inference cost crisis, and it's the real story of AI in 2026.
+
+Most AI budget conversations still focus on the build side: model selection, fine-tuning, tooling, integration. That's maybe 15% of total cost at scale. The 85% — the per-query cost of every API call, every agent action, every document processed — that's where budgets actually bleed.
+
+We hit this at Ender Turing when we scaled our ASR pipeline. The model accuracy was excellent. The cost per call at volume was brutal. Production economics don't look like pilot economics, and the inference line item grows with every user and every query.
+
+What smart orgs are doing:
+
+First, they audit their call patterns. Not every use case needs the frontier model. A classification task or a routing decision doesn't need GPT-4-class inference. They're routing different task types to different model tiers.
+
+Second, they track cost per business outcome — not cost per token. "Cost per resolved ticket" forces you to think about the full system, not just the model call.
+
+Third, they build inference budgets before they build features. If you can't model the unit economics, you're building a demo, not a product.
+
+The top 5% of enterprises achieving 5-10x ROI on AI? They didn't find a better model. They found a better inference architecture.
+
+Everyone else is burning money at a rate that grows with usage.
+
+→ Running autonomous agents at scale for 102 days — the economics get real fast

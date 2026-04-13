@@ -1,0 +1,7 @@
+85% of enterprise AI budgets go to inference. Not training. Not building.
+
+Running models.
+
+The top 5% getting 5-10x ROI? They didn't find a better model. They found a better inference architecture.
+
+Everyone else is burning money at a rate that grows with usage.
