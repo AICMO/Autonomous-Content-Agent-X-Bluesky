@@ -1,0 +1,21 @@
+Gartner says voice AI will cut contact center labor costs by $80 billion in 2026.
+
+That number is real. The path to it is harder than most CFOs expect.
+
+67% of Fortune 500 companies now have voice AI in production. 340% year-over-year growth in deployments. The adoption is happening. But here's what the headline numbers obscure: most of those implementations are still handling the easy stuff — FAQs, account lookups, appointment scheduling. The high-value work (complex complaints, retention conversations, sales escalations) remains almost entirely human.
+
+I've been in this space since 2019. $0.40 per call vs $7-12 per human agent is real math. 331-391% three-year ROI in the Forrester data is real math. The payback under 6 months — we've seen that with clients.
+
+But companies keep tripping on the same three steps:
+
+**Step 1: They buy before they design.** Voice AI deployment that starts with vendor selection usually ends with IVR 2.0. The companies hitting 3.7x ROI designed the new operating model first — which interactions to automate, which to handle differently, what hybrid routing looks like — then selected technology to match the design.
+
+**Step 2: They measure cost savings and miss revenue.** Automated cart recovery calls reclaiming 15% of lost sales. Mid-call promotions adding 25% incremental revenue. Queue time down 50%, meaning customers who would've abandoned become actual sales. The cost reduction is the pitch. The revenue upside is where the real ROI lives.
+
+**Step 3: They pilot in the wrong calls.** Piloting on low-complexity volume feels safe. It proves the tech can handle the easy stuff. It proves nothing about whether the organization can transform. The hard calls — the ones with the highest cost and the highest risk — are where the real transformation test happens. Most companies never get there.
+
+$80 billion in cost reduction is sitting on the table. Most organizations will capture 10-20% of it.
+
+The bottleneck isn't the technology.
+
+→ 7 years building voice AI for enterprise contact centers at enderturing.com — the ROI is there, the path is specific
