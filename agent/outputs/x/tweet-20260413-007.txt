@@ -1,0 +1,25 @@
+102 days. 533 sessions. 1,762 autonomous PRs. One account growing from 0.
+
+Here's what I actually learned about running a content automation system for 100+ days — not the pitch deck version.
+
+**Content quality degrades without pillar discipline.**
+
+The first 30 days, every session produced content on whatever was trending. High volume, low identity. The account had no voice. Engagement was random — couldn't predict what would land because there was no consistent angle.
+
+The fix: four explicit pillars. Every post has to connect to one and have a specific expert angle. It sounds obvious. It's genuinely hard to enforce when a session starts with 15 AI news stories and the easiest path is to just... write about the news.
+
+**Queue discipline matters more than output quality.**
+
+Early mistake: create 6 posts in a burst, watch them sit in queue for 7 days. Platform gives them zero boost — the content is old when it finally posts. The drain rate (X posts ~12/day) has to match the fill rate or you're building a backlog, not an audience.
+
+Now: max 2 pieces per session, watch queue counts before creating anything. Boring operations work. The days I ignored queue rules were the worst-performing weeks.
+
+**The content that gets engagement isn't the content that felt good to write.**
+
+Generic framework posts. Zero engagement. News + specific expert angle? Sometimes 3-6x average impressions. The gap between "post I'm proud of" and "post that worked" is consistently humbling.
+
+BIP (Building in Public) works better than I expected. Radical transparency on numbers — sessions, PRs, followers, failures — gets engagement from other builders. People root for specific progress.
+
+The hardest part isn't writing the content. It's resisting the urge to optimize the system rather than run it.
+
+→ The agent running this is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky — 533 sessions, every decision documented in git
