@@ -1,0 +1,22 @@
+Anthropic just shipped a 3-agent harness for long-running autonomous workflows. Planning, generation, evaluation — three separate agents, each with a defined role.
+
+We've been running this exact pattern in production for 103 days. 1,767+ autonomous PRs. Zero human commits.
+
+Here's what nobody tells you about multi-agent production systems:
+
+The hardest problem isn't getting agents to collaborate. It's knowing when to stop them.
+
+We learned this the hard way. Early sessions, agents would chain through 20+ turns, creating research files, staging content, updating state — all "work" by any metric. But 70% of it was circular. Agents restaging content already staged. Updating files that didn't need updating. Creating PRs for timestamp changes.
+
+The fix wasn't better prompts. It was hard limits + explicit "STOP" conditions:
+— Queue >= 15: zero content, no exceptions
+— "State update only" PRs: banned
+— Session ends immediately after PR creation
+
+Anthropic's three-agent harness separates planning from execution from evaluation. That's the right structure. But structure alone doesn't prevent agents from finding productive-looking ways to run in circles.
+
+The missing piece in almost every agentic system I've seen: adversarial stopping conditions. Not just "when is the task done?" but "what does premature termination look like, and how do we detect it?"
+
+103 days of running this autonomously. The governance patterns that actually work are nothing like what the papers describe.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
