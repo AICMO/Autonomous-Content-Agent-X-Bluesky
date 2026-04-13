@@ -127,8 +127,8 @@ Periodically scan the owner's public repos for promotable content. This feeds th
 **DO NOT search for outbound reply targets.** All outbound replies fail at X API (403) — confirmed 62/62 failures in Week 9 audit. No exceptions for brand accounts or individuals.
 
 **Reply-to-own is the only working reply strategy.** To get targets:
-1. Check `agent/state/current.md` → "Reply-to-Own Procedure" section — recent tweet IDs are stored there
-2. Or run: `gh run list --workflow=process-outputs.yml --limit 1 --json databaseId` → `gh run view <id> --log | grep 'INFO Response:'`
+1. Run: `gh run list --workflow=process-outputs.yml --limit 1 --json databaseId,createdAt` → `gh run view <id> --log | grep 'INFO Response:'`
+2. Only proceed if run completed <25 minutes ago (to hit the 150x <30min window)
 
 **Only create reply files when:**
 - You have the numeric tweet ID of YOUR OWN recent tweet

@@ -57,7 +57,7 @@ Invalid reply targets are auto-skipped to `skipped/`.
 - On 429 error, stops processing remaining files
 - Free tier historical limit: 17 tweets per 24-hour rolling window (now irrelevant with Premium)
 
-Evidence: Week 1 (2026-02-03) hit 429 after 17th tweet (pre-Premium). See `agent/memory/learnings/2026-02-03-x-rate-limits.md`.
+Evidence: Week 1 (2026-02-03) hit 429 after 17th tweet (pre-Premium). Source file graduated and deleted during memory cleanup (see git history).
 
 ## Bluesky Integration
 
