@@ -1,0 +1,5 @@
+$242B of Q1 venture went to AI. 80% of total.
+
+Modal at $2.5B. $150M seed for inference infra.
+
+After 110 days running agents: inference cost becomes your biggest line item at scale. Token routing isn't optimization. It's margin management.

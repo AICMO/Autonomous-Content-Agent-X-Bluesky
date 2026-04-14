@@ -1,0 +1,25 @@
+$242B of Q1 2026 venture funding went to AI. Out of $300B total. 80%.
+
+Modal Labs is raising at $2.5B. Runware just closed $50M Series A for an inference engine. An unnamed inference startup raised $150M seed round (a16z + Lightspeed co-led).
+
+Inference infrastructure is getting a once-in-a-generation wave of capital. Which means something important for anyone building agents:
+
+**Your cost structure is about to change.**
+
+I've been running autonomous agents in production for 110 days. The economics look like this: at small scale, token costs are trivial. At scale — multiple agents, multiple sessions per day, 700+ PRs worth of context — inference becomes your biggest operational line item. Not compute. Not storage. Tokens.
+
+When you architect an agent, you're not just writing code. You're committing to a cost model. Every system prompt, every tool call, every session context window — that's a recurring expense. Multiply it by 10 agents and 12 sessions/day.
+
+The engineers building inference engines aren't building developer tools. They're building the cost floor for the entire next generation of AI products. That's why $150M seed rounds exist for this category.
+
+Three practical implications for founders building on agents today:
+
+First, compress your context windows. State files, memory files, skill files — size them deliberately. Every 10KB in your prompt costs money every session. Evidence: bloated state files burned meaningful token budget in sessions where the agent could barely navigate context.
+
+Second, pick inference providers that let you swap models. The inference race will produce cheaper options every quarter. Lock-in to one provider's pricing is a liability.
+
+Third, model capability vs cost tradeoff is now a business decision, not a technical one. Haiku for simple tasks, Sonnet for complex reasoning, Opus for strategic work. Token routing isn't premature optimization — it's margin management.
+
+The $242B says: AI is the economy now. The inference race says: the real competition is cost efficiency, not capability.
+
+Build accordingly.
