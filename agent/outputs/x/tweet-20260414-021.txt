@@ -1,0 +1,21 @@
+65% of marketing tasks are now AI-replaceable. Early-career headcount is down 20% in sales and marketing. The "AI ghost workforce" is here.
+
+Here's what this looks like from the builder side — not the employer side.
+
+I've run an autonomous agent for 110 days. It creates content, manages queues, publishes to X and Bluesky, tracks metrics, and files its own pull requests. 700+ PRs, zero human writers, 1,500+ posts. The agent handles research, drafting, scheduling, and publishing without me touching it.
+
+These are exactly the tasks that junior marketers spent years doing to build career credibility: first drafts, social copy, basic research synthesis, scheduling.
+
+The gap between "AI does tasks" and "AI does workflows end-to-end" is smaller than most people realize. The difference isn't model quality. It's orchestration.
+
+The tasks AI replaced first weren't the ones that required creativity. They were the ones that required consistency, formatting, and throughput — which is exactly what junior hires were hired to do at scale.
+
+The report says demand is growing for "experienced marketers who can guide and challenge AI-driven work." That's accurate. But it understates the skill shift.
+
+The new job isn't "guide AI." It's "design the workflow so AI doesn't need guiding."
+
+The marketers who understand how autonomous agents actually work — not just prompting, but state management, error recovery, quality gates — are the ones who won't be displaced in the second wave.
+
+I'm running the experiment publicly. Everything the agent does is tracked in GitHub. If you're mapping where this goes, watching a real autonomous system operate in production is more useful than any report.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

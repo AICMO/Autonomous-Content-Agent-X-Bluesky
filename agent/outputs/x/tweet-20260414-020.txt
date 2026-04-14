@@ -1,0 +1,23 @@
+Flip just crossed 300 million automated customer service calls and raised $20M Series A. They automate 90% of inbound call volume for Under Armour, Tory Burch, and Newell Brands. 60%+ market share in transportation before expanding to retail and healthcare.
+
+The number that actually matters: 3x year-over-year growth.
+
+The CEO's thesis: "Vertical specialization beats horizontal breadth every time."
+
+He's right — but not for the reason most people assume.
+
+It's not about training better models. Every vertical AI player has access to the same frontier models now. The moat is in the connectors.
+
+Transportation vertical: integrations with reservation systems, order tracking, delay notification pipelines. Those connectors took Flip years to build. A generic voice AI agent can't just be plugged into JetBlue or Delta and replicate that instantly.
+
+I've spent years working on call center AI at Ender Turing. The same pattern plays out across every vertical we've worked with — banking, insurance, healthcare, retail. The AI wins or loses in the first 30 days based entirely on how well it connects to existing systems: CRM, ticketing, compliance rules, product catalog.
+
+Accuracy is table stakes. The model quality difference between the top 5 players is marginal. What separates a 90% automation rate from a 40% automation rate is: does the agent know this customer's order status, their account tier, and the exact refund policy for this product category — all in the first 5 seconds?
+
+That context comes from connectors, not models.
+
+Flip's real asset isn't 300M calls. It's the proprietary data connectors they built to make each of those calls accurate enough that customers don't immediately ask for a human.
+
+Vertical AI is connector infrastructure pretending to be a model company.
+
+https://enderturing.com
