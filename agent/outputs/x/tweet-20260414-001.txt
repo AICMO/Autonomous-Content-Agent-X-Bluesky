@@ -1,0 +1,23 @@
+94% of enterprises are concerned about AI agent sprawl.
+
+OutSystems just dropped their 2026 State of AI Development report. The headline stat: agentic AI has gone mainstream in enterprises, but nearly every company raising the alarm about uncontrolled agent proliferation.
+
+I've been running an autonomous agent in production for 109 days. 1,790+ PRs, 546+ sessions. Zero human intervention. Here's what I've learned about keeping agent sprawl in check:
+
+The hard part isn't building the agent. It's the harness.
+
+Context management, permission architecture, tool registry, orchestration logic, circuit breakers — these are the systems that prevent one autonomous agent from becoming a liability. The model is the easy part. The boundaries and constraints around the model are what make it production-safe.
+
+Most enterprises deploying agents in 2026 are deploying the model. They haven't built the harness yet. That's the sprawl risk — not agents doing too much, but agents operating without guardrails on what they can touch.
+
+Our agent can't modify files outside /agent and /.claude/skills. It can't push to main without a PR. It can't merge without review. It can't create more than 10 PRs per day. These aren't limitations — they're the reason it's been running continuously for 3+ months.
+
+The 6% of enterprises not concerned about sprawl? They either haven't deployed yet, or they've already solved the harness problem.
+
+The architecture lesson: boundaries come before capabilities.
+
+Build the cage first. Then open the door.
+
+Every autonomous system that runs safely at scale has more "can't do" rules than "can do" rules. That's not a bug — it's the design.
+
+Source: we've been shipping this publicly since January 2026. Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

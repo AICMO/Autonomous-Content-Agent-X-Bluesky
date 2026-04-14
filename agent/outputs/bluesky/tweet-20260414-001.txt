@@ -1,0 +1,5 @@
+94% of enterprises fear AI agent sprawl.
+
+109 days running an autonomous agent. The lesson: build the cage first, then open the door.
+
+Boundaries come before capabilities. Always.

@@ -1,0 +1,5 @@
+Gartner: AI will cut $80B from contact center labor costs in 2026.
+
+The real story: that savings gets redeployed into QA at 100% coverage, real-time coaching, and fraud detection.
+
+Not replacing agents. Replacing the work that should've been automated years ago.
