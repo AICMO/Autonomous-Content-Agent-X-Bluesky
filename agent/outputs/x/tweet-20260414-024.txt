@@ -1,0 +1,21 @@
+Salesforce's Agentforce now handles 380,000 customer conversations per week with an 84% resolution rate. Human escalations dropped by two-thirds.
+
+The enterprise AI transition in customer service is not a 2026-2027 event. It's happening now, in production, at scale.
+
+Here's the part most commentary misses: this is a call center workforce displacement event measured in headcount, not in "potential."
+
+The math: 380,000 conversations/week. Average call center handles 200-400 conversations per agent per week. That's 950-1,900 FTE equivalents — automated. At a Fortune 500 with a 5,000-seat call center, the model already works well enough to handle the majority of volume. The question is no longer "will it work?" It's "how fast does the transition happen?"
+
+The 84% resolution rate is the number to watch. It's the threshold where the AI resolves more than the average experienced human agent (80-85% target for most contact centers). Once you cross that line, the economics of running a large human call center become harder to justify to a CFO.
+
+But here's the constraint that most tech coverage doesn't capture: resolution rate is not the same as customer satisfaction rate. An AI can "resolve" a query technically — close the ticket, process the refund, update the account — while the customer leaves the interaction more frustrated than before.
+
+The CX firms that are winning are the ones measuring both: resolution rate AND post-interaction CSAT. Not just throughput.
+
+I've worked on call center AI for years at Ender Turing. The companies that implemented voice AI and then abandoned it weren't failing on accuracy — they were failing on context. The AI didn't know this customer's history, their tone, their previous unresolved complaint. Resolution with no memory = friction.
+
+The contact centers that will win the next 18 months are the ones building AI systems that carry context forward across every interaction — not just across the current call.
+
+Salesforce's 84% is impressive. The 16% that still requires humans is where the CX battle is really being fought.
+
+https://enderturing.com
