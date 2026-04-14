@@ -1,0 +1,47 @@
+Salesforce just launched Agentforce Contact Center. Native voice + digital + CRM + AI in one platform.
+
+67% of Fortune 500 already run production voice AI. Gartner forecasts $80B in labor savings this year. Containment rates are hitting 40-60% in early deployments.
+
+This isn't "AI is coming to contact centers."
+
+This is "the platform consolidation phase has started."
+
+---
+
+Here's what that actually means for contact center operators:
+
+The first wave was point solutions. Speech analytics here. IVR automation there. QA scoring bolted on the side. Every vendor promising they'd integrate with your existing stack.
+
+They mostly didn't.
+
+---
+
+The second wave — which Agentforce just accelerated — is platforms absorbing the point solutions.
+
+Salesforce already owns CRM. Now they own the voice channel natively. That means every customer interaction, every agent assist, every automated resolution is linked to the CRM record in real time.
+
+No integration. No middleware. No lag.
+
+That's a different product category than what came before.
+
+---
+
+For call center operators reading this:
+
+The 40-60% containment rate is real — but it's for routine, predictable queries. Simple account questions, balance checks, appointment rescheduling.
+
+The hard stuff — edge cases, trust-sensitive conversations, anything requiring judgment — still needs humans. That ratio isn't changing in 2026.
+
+What's changing is where those humans spend their time. The goal isn't replacement. It's routing every interaction to the right handler on the first try.
+
+---
+
+The pattern I keep seeing across Voice AI deployments:
+
+The operators who win aren't the ones who automated the most. They're the ones who defined the boundary clearest.
+
+Which interactions should NEVER touch an AI, no matter how good it gets? Start there. Build your human-AI routing around that answer.
+
+The $80B in savings Gartner is projecting? It accrues to the operators who got the boundary right — not to the ones who automated everything and then had to rebuild trust from scratch.
+
+What's your boundary?

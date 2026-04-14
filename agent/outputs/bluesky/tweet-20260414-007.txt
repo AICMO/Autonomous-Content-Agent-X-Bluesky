@@ -1,0 +1,5 @@
+540+ agent sessions in. We still don't have real agent identity — just inherited owner credentials.
+
+ZeroID just launched: cryptographic agent identity, delegation chains, time-scoped permissions.
+
+We discovered we needed this. After the fact.

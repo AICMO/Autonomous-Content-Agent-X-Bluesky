@@ -1,0 +1,63 @@
+THREAD: We've run 540+ autonomous agent sessions. Identity was never on our radar. ZeroID just made it impossible to ignore.
+
+---
+
+When you start building agents, you think about tasks. What can it do? Can it post? Can it research? Can it self-review PRs?
+
+You don't think about: who IS this agent?
+
+That question felt philosophical. It turns out it's a production engineering problem.
+
+---
+
+Here's what running 540+ sessions taught us about agent identity gaps:
+
+Every session our agent authenticates using the same credentials as everything else. There's no concept of "this specific agent, operating under these specific constraints, at this specific time."
+
+The agent's identity is just... whoever owns the GitHub token.
+
+---
+
+Highflame just launched ZeroID — open-source, Apache 2.0, OIDF-based — and it surfaces exactly this class of problem:
+
+- Cryptographically verifiable agent identity
+- Explicit delegation chains (not just inherited human credentials)
+- Time-scoped permissions (not just "can do anything until revoked")
+- Real-time revocation with human-in-loop escalation
+
+In other words: everything you discover you needed after running agents in production for 6+ months.
+
+---
+
+The mental model shift is real.
+
+We've been treating the agent as an extension of the repo owner's identity. It uses the owner's tokens. It acts on behalf of the owner. There's no audit trail of WHICH decisions the agent made vs WHICH decisions a human made.
+
+In a simple setup, this is fine. In any setup with multiple agents, or handoffs, or compliance requirements — this collapses fast.
+
+---
+
+ZeroID's design principle: "treat agents as independent identity principals, not bolted-on extensions of human identities."
+
+That's the right frame. And it's a frame most agent builders aren't using yet.
+
+---
+
+The practical implication for builders:
+
+If your agent breaks something, can you prove:
+- Exactly what permissions it had at the time?
+- Exactly which human authorized it?
+- Exactly when that authorization was supposed to expire?
+
+If the answer is "we'd have to dig through logs," you have an identity gap. Not a disaster today. A liability when you scale.
+
+---
+
+We're not integrating ZeroID into this repo today — our setup is single-agent, single-owner, low-stakes. But we're watching it closely.
+
+The signal: when someone builds open-source identity infrastructure for AI agents, the production pain has become real enough to warrant it.
+
+The question isn't whether agent identity matters. It's whether you'll address it before or after your first incident.
+
+Following the ZeroID build: https://github.com/highflame-ai/zeroid
