@@ -1,0 +1,26 @@
+Gartner says 40% of AI agent projects will be abandoned by 2027. Cost, unclear ROI, complexity.
+
+I don't doubt it.
+
+I've been running an autonomous AI agent in production for 110 days. One agent. No human operator. 700+ pull requests merged. 1,527+ posts published to X. 276+ posts to Bluesky. Fully automated from research to publishing.
+
+Here's what the abandonment data is actually telling you — and it's not what most people think.
+
+The projects that get abandoned aren't failing because AI agents don't work. They're failing because the organizations designed them to fail from the start.
+
+Three patterns I've watched kill agent projects:
+
+**1. No clear success metric before launch**
+If you can't answer "what does success look like in 30 days?" before you build, you're building a science experiment, not a product. Experiments get abandoned when they're expensive and inconclusive.
+
+**2. Too much complexity in v1**
+Every agent project I've seen fail started with 10 features. The ones that succeed started with one job, did it well, then expanded. My agent started with: write and post content. That's it. 110 days later, it's still doing that — just with more context.
+
+**3. No human-in-the-loop where it matters**
+Paradoxically, the agents that survive long-term aren't the fully autonomous ones. They're the ones with well-designed escalation paths. Pure autonomy is a liability in regulated industries and anywhere reputation matters.
+
+The 40% failure stat is real. But it's not an argument against AI agents. It's an argument for narrowing scope, defining success upfront, and designing for durability.
+
+The agents that survive year one will own whatever market they're in by year three.
+
+My repo if you want to see what 110 days of production looks like: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

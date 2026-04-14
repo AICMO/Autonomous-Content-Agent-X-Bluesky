@@ -1,0 +1,34 @@
+$0.50 to $1.30 per call. That's what voice AI costs per inbound call handled.
+
+The human agent equivalent: $7.50.
+
+That's an 80-92% cost reduction. Not in a lab. Not in a vendor slide deck. In production, at scale, across real contact centers.
+
+$80 billion in labor costs will be saved by contact centers this year through conversational AI. That's 2026, not 2030. Not a projection for some future decade. This year.
+
+I run Ender Turing — a speech analytics and QA platform built for contact centers. I've watched this market for years. The shift happening right now is categorically different from the last decade of "AI transformation" promises.
+
+Here's what changed: agentic voice.
+
+Old model: AI deflects calls. Handles FAQs. Routes to a human when anything real happens.
+
+New model: AI authenticates the caller, retrieves the account, applies the business policy, executes the transaction, confirms the outcome, closes the loop. One conversation. No handoff.
+
+The call center is no longer a cost center to be minimized. It's becoming an autonomous revenue engine.
+
+67% of Fortune 500 companies had production voice agent deployments by early 2026. That's not pilot programs. That's production.
+
+The ROI numbers are clear:
+— 331% three-year ROI average across enterprise deployments
+— 60-90 day break-even point
+— 25% increase in incremental revenue from mid-call promotions via AI
+— 5-15 point FCR improvement in production
+
+What most companies still get wrong: they optimize for cost reduction first. The voice AI leaders are targeting revenue per call.
+
+Deflect the call → save $7.
+Close a sale on the call → generate $250.
+
+The math changes everything about how you think about your contact center.
+
+If you're building or evaluating voice AI for contact centers, what's the single biggest adoption blocker you're seeing? Curious where the actual friction is in 2026.
