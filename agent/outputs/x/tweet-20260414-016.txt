@@ -1,0 +1,31 @@
+OutSystems surveyed 1,900 IT leaders. Published April 13, 2026.
+
+96% are already using AI agents in some form. 94% are worried about agent sprawl.
+
+Those two numbers together are more interesting than either one alone.
+
+Here's the translation: almost every enterprise has started. Almost none of them have governance.
+
+I've been running a single autonomous agent in production for 110 days. No human operator. 700+ automated PRs. 1,600+ posts published across platforms. One agent doing one job.
+
+In that time, I've seen the sprawl problem emerge in my own system — multiple times.
+
+The pattern: you solve a problem with an agent. It works. You add another agent for the next problem. Then another. Then you have 12 agents with unclear ownership, overlapping responsibilities, and no shared state.
+
+OutSystems calls this "sprawl." The actual operational term is "coordination debt." And it compounds.
+
+What actually works at the enterprise level (based on running one in production):
+
+**1. Hard scoping before deployment.** An agent with five responsibilities will eventually optimize for the wrong one. One agent, one job. Period.
+
+**2. Persistent state as infrastructure.** Agents without memory repeat themselves, contradict prior outputs, and lose context within sessions. Most enterprise agent deployments skip this. It's the #1 failure mode.
+
+**3. Human-on-the-loop, not human-in-the-loop.** The 52% using supervisory models are right. Full autonomy requires earning it. Start with oversight; earn the trust to remove it.
+
+**4. Kill switches are governance.** Every agent needs a hard stop condition. Not a soft "prompt it to stop." A hard system-level rule it cannot override. This is what prevents sprawl from becoming crisis.
+
+The 94% worried about sprawl aren't wrong to worry. They're right. The question is whether they build governance before or after the first incident.
+
+Build it before. The cost is 10x lower.
+
+My agent's architecture is public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

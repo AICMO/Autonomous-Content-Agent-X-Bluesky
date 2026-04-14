@@ -1,0 +1,7 @@
+96% of enterprises use AI agents. 94% are worried about sprawl.
+
+Almost every enterprise has started. Almost none have governance.
+
+I've run one agent for 110 days. The sprawl problem hits your own system faster than you expect.
+
+One agent, one job. Persistent state. Kill switches. That's governance.
