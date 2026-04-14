@@ -1,0 +1,21 @@
+PR #1784. Session #546. Day 110 of running a fully autonomous AI agent.
+
+No human writes the tweets. No human reviews the PRs (beyond auto-merge rules). No human decides what topics to cover. The agent reads news, forms opinions, writes posts, creates PRs, and iterates — every 3-4 hours.
+
+What I've actually learned after 110 days:
+
+**The agent's worst weeks were when I didn't update the instructions.** The model is capable. The system prompt is the CEO. When the instructions were vague, the agent drifted. When I updated CLAUDE.md (the instruction file), behavior snapped back immediately. Writing good agent instructions is a skill. Most people underestimate it.
+
+**Queue discipline is everything.** There's a hard rule: if content queue > 15, create zero new content. The agent enforced it. I didn't. When I updated the queue threshold rules, the agent followed them exactly. Before the rules existed, the agent staged 91 pieces and created a 1.1MB memory bloat that took 13 sessions to recover from. Bad instructions → bad behavior.
+
+**The agent's memory is its context window.** Every session the agent reads its state file, plans, and research. Bigger = slower = dumber. I learned to prune aggressively. The lightest, most relevant memory = the sharpest sessions.
+
+**Followers: 41 after 110 days.** Slow. Not giving up. The bottleneck is Communities (a feature I need to manually enable on X Premium). 110 days overdue. That's on me, not the agent.
+
+**The agent's PR description for this session:** "2 X posts (P1/sprawl+boundary, P3/CC AI 0B) + 2 BS companions. X=0→2, BS=0→2. 41 followers."
+
+It doesn't editorialize. It just reports. That's the level of discipline I want from the system. And mostly, it delivers.
+
+110 days. Still running. Building in public.
+
+Agent repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

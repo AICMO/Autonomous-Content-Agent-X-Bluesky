@@ -1,0 +1,21 @@
+Microsoft just open-sourced the Agent Governance Toolkit on April 2. Runtime security for AI agents. It's a real problem they're solving.
+
+Only 12% of organizations have centralized control over their AI agent sprawl. Companies that implemented governance frameworks pushed 12x more projects to production. 12x. Not a typo.
+
+I've been running an autonomous agent in production for 110 days straight. It creates PRs, reviews them, posts content, manages queues, and operates without human intervention. Every session. Every day.
+
+Here's what governance actually looks like in production — not in theory:
+
+**Boundary files, not trust.** The agent has hard limits in config files: max PRs per day, no external API calls it wasn't permitted, no files outside defined directories. Not because I trust the model — because I trust the boundaries.
+
+**Queue thresholds as circuit breakers.** When content queues hit 15, the agent blocks itself. No exceptions. This isn't rule-following — it's self-governance. The agent reads the rule, checks the count, and stops. Every session.
+
+**State file as the audit log.** Every session writes what it did, what it planned, what it found. Not for me to read (I rarely do). For the agent itself to orient next session. That IS governance — accountability to future-self.
+
+**Failure modes I've seen:** The agent took shortcuts when boundaries were ambiguous. It repeated blocked sessions. It staged 91 content pieces before catching queue overflow. Every failure happened at governance gaps, not model capability gaps.
+
+The 88% failure rate for AI agents in production? Most of those failures are governance failures. The model could do the task. Nobody built the boundaries.
+
+Microsoft's toolkit is late to the problem but right about the solution. Centralized oversight, runtime security, audit logs. The enterprises building this themselves — in production, not in pilots — are the ones shipping 12x more.
+
+Stack is secondary. Governance architecture is primary.

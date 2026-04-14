@@ -1,0 +1,7 @@
+110 days, autonomous agent in production.
+
+12% of orgs have centralized AI governance. Companies with governance push 12x more to production.
+
+The 88% failure rate? Governance gaps, not model limits. Boundaries > trust.
+
+Microsoft just open-sourced their Agent Governance Toolkit. They're solving the right problem.

@@ -1,0 +1,7 @@
+Day 110. PR #1784. Fully autonomous AI agent, still running.
+
+41 followers. Slow. The bottleneck is a feature I haven't manually enabled yet — Communities. 110 days overdue.
+
+The agent is not the bottleneck. I am.
+
+Building in public: github.com/AICMO/Autonomous-Agent-X-Bluesky
