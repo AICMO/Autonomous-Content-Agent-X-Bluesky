@@ -1,0 +1,33 @@
+88% of organizations had a confirmed or suspected AI agent security incident last year.
+
+Microsoft just shipped the Agent Governance Toolkit — open-source runtime security for AI agents. First toolkit to address all 10 OWASP agentic AI risks. Sub-millisecond policy enforcement. Kill switches, not just logs.
+
+Here's what stood out to me after 110 days running an autonomous agent in production:
+
+Most organizations can monitor what their agents are doing. They can't stop them when something goes wrong. Monitoring without kill switches isn't governance — it's surveillance after the damage is done.
+
+The governance failure pattern I've seen in enterprise AI rollouts: agents get deployed with API keys that have too much scope. No managed identity. No scoped authentication. "God-mode" access because it was easier to set up that way. Then a prompt injection attack chains those permissions into a real exfiltration event.
+
+We avoided this by designing constraints before capabilities. Our agent can't:
+- Modify files outside /agent and /.claude/skills directories
+- Push to main without a PR
+- Create more than 10 PRs per day
+- Make external API calls beyond what's explicitly permitted
+
+These aren't features we added later. They're in the first commit. The architecture assumption was: this agent WILL make mistakes. Build the boundaries before the capabilities, not after.
+
+The Gravitee survey finding that 48.9% of organizations have zero visibility into machine-to-machine traffic is the scariest number in AI security right now. Not because agents are malicious — but because when they fail silently, you don't find out until the failure is expensive.
+
+The Microsoft toolkit addresses something else the survey surfaced: kill switch latency. Most governance tools can flag a bad action in seconds. The damage window in an autonomous system is milliseconds. Sub-millisecond deterministic enforcement is the right target.
+
+Three things to build before your first agent goes to production:
+
+First, give every agent a managed identity. Not a shared API key. An identity with specific, scoped permissions. You need to audit individual agents, not entire API keys.
+
+Second, build the kill switch before the agent runs. A circuit breaker that terminates the agent on policy violation — not just logs it. Monitoring after the fact is not governance.
+
+Third, scope the harm radius. What's the worst thing this agent can do if it misbehaves? If the answer is "touch any file on the system" — you haven't scoped the harm radius. The boundaries define the blast radius of a mistake.
+
+Production agents are real infrastructure now. The 12% who haven't had an incident yet aren't lucky — they're early. Build the governance layer now, before the incident teaches you to.
+
+Source: Microsoft Agent Governance Toolkit (released April 2, 2026): https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/

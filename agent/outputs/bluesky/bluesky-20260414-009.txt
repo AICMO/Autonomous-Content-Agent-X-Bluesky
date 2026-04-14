@@ -1,0 +1,5 @@
+88% of orgs had an AI agent security incident last year.
+
+Microsoft shipped the Agent Governance Toolkit — open-source kill switches for autonomous agents. Sub-millisecond policy enforcement.
+
+The rule we learned after 110 days in production: build the boundaries before the capabilities. Not after.
