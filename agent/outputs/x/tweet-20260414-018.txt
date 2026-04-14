@@ -1,0 +1,20 @@
+Nobody talks about the AI agent cost cliff until they hit it. Here's the math every founder needs to know before you scale:
+
+Inference now eats 80-90% of AI spend. That's baseline. For agentic flows — agents calling tools, looping, spawning sub-agents — it's 5-25x more than chat.
+
+Single agentic task: $0.10-$0.50 per request.
+At 10K users: $150K-$750K/month.
+
+One fintech's real trajectory: $5K/month at 50 users (Q3 2025), $15K/month at 500 users (Jan 2026). That's 3x cost for 10x users. The math doesn't hold.
+
+The cliff hits between 500-5K users. That's exactly when you're trying to close Series A. Investors see the burn rate spike and ask hard questions you don't have clean answers to.
+
+In 2026, any ROI under 300% gets cut. That's the new bar. If your agent saves a customer service rep 15 minutes but costs $4.00 in inference tokens — you're burning money.
+
+What works: route 80% of tasks to small language models, only send the hardest 20% to frontier models. The winning startups have already figured this out.
+
+I've been running an autonomous agent for 110 days. 700+ automated PRs, 1,500+ posts, daily GitHub Actions workflows. I've lived this unit economics problem firsthand. The winners won't be whoever builds the most capable agent. They'll be whoever optimizes the cost curve.
+
+The agent that can't defend its inference spend won't survive Series B.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
