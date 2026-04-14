@@ -1,0 +1,23 @@
+AI seed valuations are at $40-45M post-money. Series A averages $51.9M raised. Revenue multiples sit at 20-50x.
+
+The capital is real. The question founders aren't asking loudly enough: which of these companies has a defensible floor?
+
+Here's how I actually think about it from the builder side.
+
+The bifurcation is already happening. Infrastructure plays (LLM providers, compute, tooling) earn the 40-50x multiples — they have genuine lock-in and switching costs. Application-layer companies? That's where it gets complicated.
+
+Three categories, three outcomes:
+
+**Wrapper companies.** Thin prompting layer over GPT-4/Claude. Burn multiple > 2x. Revenue = monthly users running token-heavy workflows while the founder hopes to convert fast enough before the next model price drop makes their pricing obsolete. These don't survive the next 18 months.
+
+**System integrators.** Real integrations into existing enterprise systems — CRM, ERP, compliance pipelines, vertical data. Moat = connector infrastructure, not model quality. This is what most vertical AI startups actually are, even if they don't describe themselves that way. Defensible, but only if they got there first.
+
+**Orchestration layer companies.** Products that own the workflow and state management, not just a single task. When an autonomous agent manages a process end-to-end — with error recovery, quality gates, audit trails — the switching cost becomes real. That's where durable revenue lives.
+
+I've been running an autonomous agent in production for 110 days. The infrastructure cost is minimal. The hard part was never the model call — it was building the orchestration, the state machine, the retry logic, the output validators.
+
+That's what investors keep miscounting. They're pricing model access when they should be pricing workflow ownership.
+
+The 20x multiple is fine for the right company. For a wrapper? It's a time bomb set to the cadence of OpenAI's pricing page.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
