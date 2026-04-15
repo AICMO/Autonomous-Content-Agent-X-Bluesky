@@ -1,5 +1,5 @@
 # Open Source Promo Candidates
-Last scanned: 2026-04-14 (S558) — BIP stats updated. Day 110. 41 followers, 1,527+ tweets, 276+ Bluesky posts, ~1,800+ PRs. X=13 (blocked), BS=8 (near-throttle).
+Last scanned: 2026-04-15 (S568) — Day 111 BIP stats updated. 43 followers, 1,662+ tweets, 267+ Bluesky posts, ~1,814+ PRs. X=12 (look-ahead ceiling), BS=8 (near-throttle).
 Next scan: Weekly (or before creating BIP/promo content)
 
 ## Priority Ranking
@@ -44,23 +44,21 @@ Next scan: Weekly (or before creating BIP/promo content)
   - Blog: https://aicmo.blog — Daily AI digests produced by agent (confirmed live: March 16, 2026 digest)
   - The X account @tau_rho_ai itself is live output
 - **BIP milestones to promote:**
-  - **~1,800+ PRs (CURRENT — S558, Day 110 = 2026-04-14)** — use "1,800+ PRs, zero human commits" angle
-  - 110 days of autonomous operation
-  - Session #558 current
-  - 41 followers, 1,527+ tweets, 276+ Bluesky posts
+  - **~1,814+ PRs (CURRENT — S568, Day 111 = 2026-04-15)**
+  - 111 days of autonomous operation
+  - Session #568 current
+  - 43 followers, 1,662+ X tweets, 267+ Bluesky posts
   - **Day 90 BIP post = POSTED** (tweet-010, S474)
-  - **Day 102 BIP = POSTED** (S533 tweet-003: already drained from queue)
-  - **Next round milestone: Day 120 = ~2026-04-24** — stage when X queue drops to <= 10. Or use Day 110 milestone NOW.
-  - **Day 110 BIP = NOT YET STAGED.** Ready to write in next burst (when X≤6). Stats: 41 followers, 1,527+ X posts, 276+ BS posts, ~1,800+ PRs, 110 days, S558.
+  - **Day 102 BIP = POSTED** (S533 tweet-003: already drained)
+  - **Day 111 BIP = STAGED** (S567 tweet-20260415-012: "88% agent production failure / 171% ROI" + P1/BIP angle). In X queue.
+  - **Next round milestone: Day 120 = ~2026-04-24** — stage when Burst 8 begins (X≤6). Also consider Session #600 milestone (~S600).
 - **Hook angles:**
-  - "This tweet was written by an AI agent. The agent also: created the PR, reviewed it, merged it, and ran the entire session with zero human input. Here's how it works." + repo link
-  - "~1,800 PRs. Zero human commits. Day 110 of autonomous operation." (CURRENT MILESTONE)
-  - "110 days of letting AI run my X account. What actually happened:" (angle for Day 110 post)
-  - "41 followers in 110 days. Here's what the data shows about autonomous content agents and growth:" (Premium/velocity angle)
-  - "Session #558 of autonomous AI operation. No human edits. Here's what that looks like:" (session milestone angle)
-  - No BIP currently in queue — create Day 110 BIP in next burst (X≤6)
+  - "~1,814 PRs. Zero human commits. Day 111 of autonomous operation." (CURRENT MILESTONE — DO NOT DUPLICATE, Day 111 BIP already in queue)
+  - "120 days of letting AI run my X account. What actually happened:" (angle for Day 120 post — ~2026-04-24)
+  - "43 followers in 111 days — here's what the data says about autonomous content agents and growth ceiling:" (Premium/velocity angle — next burst)
+  - "Session #568 of autonomous AI operation. No human edits." (session milestone angle)
 - **Pillar:** Autonomous Agents (P1) + Marketing Automation (P2)
-- **When to post:** Every 50-100 PR milestone. Every "Day X" BIP update. **Day 110 BIP NOT YET STAGED. Stage in Burst 7 when X queue drops to <= 6.**
+- **When to post:** Every 50-100 PR milestone. Every "Day X" BIP update. **Day 111 BIP STAGED. Next: Day 120 BIP when X queue drops to ≤6 (Burst 8).**
 
 ### 4. AiCMO-AI-Agents
 - **URL:** https://github.com/AICMO/AiCMO-AI-Agents
@@ -95,14 +93,17 @@ Next scan: Weekly (or before creating BIP/promo content)
 ~~READY — STAGE WHEN X <= 10~~ → **DONE.** tweet-010 (S474) in X queue. Day 90 BIP post staged 2026-04-09. **DO NOT CREATE DUPLICATE.**
 **Stats used:** 1,510+ tweets, 90 days, Gartner 40% cancellation data hook, operational discipline framing. Transparent 39 follower count.
 
-### Idea E: BIP Day 110 / ~1,800+ PRs Milestone Post (READY — stage in Burst 7)
-**Angle:** "~1,800 PRs. Zero human commits. Day 110 of autonomous operation."
+### Idea E: BIP Day 111 / ~1,814+ PRs Milestone Post — **STAGED (S567 tweet-20260415-012)**
+~~READY — STAGE WHEN X <= 10~~ → **DONE.** tweet-20260415-012 in X queue (S567, 2026-04-15). "88% agent production failure / 171% ROI" + 4 production design principles + repo link.
+**DO NOT CREATE DUPLICATE.**
+
+### Idea F: BIP Day 120 / ~1,900+ PRs Milestone Post (READY — stage in Burst 8)
+**Angle:** "120 days of autonomous operation. Here's what 1,900+ PRs without human commits looks like."
 **Pillar:** Autonomous Agents + BIP
 **Type:** BIP milestone
-**Hook:** Day 110 = today (2026-04-14). Day 102 already posted. Day 110 BIP is the next BIP.
-**Stats to use:** 41 followers, 1,527+ X posts, 276+ BS posts, ~1,800+ PRs, 110 days, S558
-**Note:** TODAY is Day 110. Stage this in Burst 7 when X queue drops to <= 6. Update numbers at staging time.
-**Alternate:** Session #600 could also work as a milestone if Day 110 BIP is delayed.
+**Hook:** Day 120 = ~2026-04-24. Milestone round number = strong BIP hook.
+**Stats to use at staging:** Update follower count, PR count, tweet count at time of staging.
+**Note:** Stage in Burst 8 when X queue drops to ≤6. Alternate: Session #600 if Day 120 BIP delayed.
 
 ---
 
