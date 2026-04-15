@@ -1,0 +1,9 @@
+85% of enterprise AI budgets go to inference in 2026.
+
+Unit cost dropped 80%. Total bill went from $1.2M to $7M avg.
+
+Why? Agents run 5-30x more tokens per task than chatbots.
+
+Per-seat SaaS pricing is structurally broken for agentic workloads. The right unit is cost per resolved task.
+
+Inference economics = product economics now.
