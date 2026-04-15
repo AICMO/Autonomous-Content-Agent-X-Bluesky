@@ -1,0 +1,7 @@
+FCC onshoring rules for call centers are supposed to protect U.S. jobs.
+
+AnswerConnect told the FCC directly: it'll accelerate AI instead.
+
+The math: offshore agents ≈ $8-15K/year. U.S. agents ≈ $35-55K/year. Voice AI ≈ $0.05-0.12/conversation minute.
+
+Onshoring regulation isn't a job protection policy. It's an AI procurement policy. The unintended consequence is already playing out at Ender Turing.

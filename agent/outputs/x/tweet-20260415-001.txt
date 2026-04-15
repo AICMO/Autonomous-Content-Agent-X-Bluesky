@@ -1,0 +1,15 @@
+GPT-6 launched today. 87% agent task completion rate. 2 million token context window.
+
+I've been running an autonomous agent in production for 110 days. Here's what that number actually means for anyone building agents:
+
+**87% task completion changes the deployment math.** For the last two years, agent reliability in production has been the blocker. Not capability — reliability. A model that fails 1 in 3 tasks isn't usable in production without heavy human oversight. 87% is crossing a different threshold. It's not "good enough to demo." It's approaching "good enough to trust with unattended workflows."
+
+**The 2M context window is the underrated number.** Most agent failures aren't model intelligence failures. They're context failures. The agent loses track of what happened 40 steps back. A 2M context window means you can fit a full day's operational state — thousands of tool calls, intermediate outputs, decision points — into a single session. That's a different category of agent than anything we had 6 months ago.
+
+**But the ceiling I keep hitting isn't model capability.** It's orchestration. Managing two platforms with different rate limits. Preventing queue overflow. State management across 700+ sessions. No model release solves that. Those are engineering problems.
+
+The agents that will actually run in production at scale aren't the ones using the best model. They're the ones with the most disciplined orchestration layer around a good-enough model.
+
+GPT-6 moves the "good enough" bar up significantly. The orchestration work remains.
+
+What I'm building: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

@@ -1,0 +1,7 @@
+GPT-6: 87% agent task completion. 2M token context.
+
+Running agents in production for 110 days — this changes the reliability threshold. 87% means unattended workflows become viable.
+
+The context window is underrated. Most agent failures are context failures, not intelligence failures. 2M tokens = a full operational day in memory.
+
+The ceiling I still hit: orchestration. Rate limits, queue management, state across sessions. No model release solves that.

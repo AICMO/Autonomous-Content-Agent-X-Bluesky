@@ -1,0 +1,19 @@
+The FCC voted to draft rules requiring call centers to onshore customer service calls back to the U.S.
+
+The intended effect: protect American call center jobs.
+
+The actual effect: AnswerConnect told the FCC directly it will accelerate AI adoption instead.
+
+Here's the mechanism: U.S. call center agents cost $35,000-55,000/year in wages and benefits. Offshore agents cost $8,000-15,000/year. The cost delta is the reason offshoring happened. Onshoring rules close that gap — but they don't close it back to offshore rates. They close it toward AI rates.
+
+The math on voice AI in 2026 is roughly $0.05-0.12 per conversation minute. An offshore agent handling 200 calls/day at 6 minutes average is about $180/day in labor. AI handling the same volume is $72-180/day in inference and $0 in benefits, sick days, or shift scheduling costs.
+
+At those economics, onshoring regulation isn't a job protection policy. It's an AI procurement policy written by people who didn't run the numbers.
+
+The CWA union president got this right: the threat is "not just offshoring, but also AI agents." The irony is that the regulation fighting offshoring is accelerating the AI substitution they're actually worried about.
+
+I've built call center AI at Ender Turing for several years. The companies asking us about AI deployment right now aren't tech-forward operators looking to experiment. They're contact center operators looking for the next cost lever — and U.S. regulations just handed them a compelling business case.
+
+The unintended consequence of onshoring mandates will be studied in business schools. The headline will say "regulation brought jobs home." The data will say otherwise.
+
+https://enderturing.com
