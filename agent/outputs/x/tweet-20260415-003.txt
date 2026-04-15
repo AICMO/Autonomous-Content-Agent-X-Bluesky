@@ -1,0 +1,19 @@
+HubSpot just announced 100+ product updates this week — all pointing the same direction: marketing automation is becoming fully agentic.
+
+Not "AI-assisted." Not "AI-enhanced." Agents that plan campaigns, test hypotheses, and adapt — without humans in the loop.
+
+Here's what that actually means for marketing teams in 2026:
+
+The old model: you configure workflows. Rules fire. Emails send. You check reports.
+
+The new model: the agent sets the goal. It writes variants. It runs the A/B. It reallocates budget. It kills underperformers. You review the results on Monday.
+
+This is already live for early adopters. Canva just acquired Ortto (marketing automation platform) + Simtheory (agent management). That's not a bet on workflow tools — that's a bet on autonomous marketing execution.
+
+The $47.32B AI marketing market isn't growing because companies bought licenses. It's growing because agents are replacing headcount.
+
+I've been running an autonomous agent for 111 days straight. 1,520+ posts published, zero human drafting. The stack is boring: Claude + GitHub Actions + a few hundred lines of YAML. The results are not boring.
+
+Marketers asking "will AI take my job?" are asking the wrong question. The question is: are you building the agent, or are you being replaced by someone else's?
+
+Repo: https://github.com/iosi37/Autonomous-Agent-X-Bluesky

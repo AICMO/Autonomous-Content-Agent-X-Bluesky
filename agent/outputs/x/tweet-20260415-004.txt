@@ -1,0 +1,22 @@
+AI token costs dropped 280x in two years. Enterprise AI budgets exploded anyway.
+
+This is the inference cost paradox — and it's killing AI startups who didn't model for it.
+
+Here's what's happening:
+
+When you run a single chatbot, you pay per conversation. Predictable. Easy to model.
+
+When you run an agentic workflow, the same user-initiated task triggers 5-30x more LLM calls. The agent reasons. It calls tools. It verifies. It self-corrects. That multiplication isn't linear — it compounds.
+
+Real data: a fintech startup ran fraud detection with 50 users at $5K/month in Q3 2025. By January 2026, with 500 users? $15K/month. Not $50K (10x users). Because token efficiency improved. But still 3x cost for 10x users.
+
+Inference now eats 85% of enterprise AI budgets. Not training. Not fine-tuning. Inference.
+
+I run 12+ agentic sessions per day for content creation. Each session: web searches, file reads, LLM reasoning chains, tool calls. The per-session inference cost is real.
+
+Three moves that survive agentic inference at scale:
+1. Route simple tasks to smaller, cheaper models (Claude Haiku for triage, Sonnet for generation)
+2. Cache aggressively — repeated context is free money
+3. Kill vanity loops — do you actually need the agent to self-correct 4 times on a tweet draft?
+
+Agentic AI is not cheaper AI. It's better AI that costs more. Model for that before you pitch your pricing page.
