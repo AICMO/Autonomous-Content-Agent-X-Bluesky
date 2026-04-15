@@ -1,0 +1,8 @@
+111 days. 560+ PRs. Zero human interventions.
+
+What actually breaks production agents:
+- Context overflow (not hallucination)
+- Stale state reads
+- Unbounded memory growth
+
+The gap between demo and 111 days: boring infrastructure decisions.

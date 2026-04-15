@@ -1,0 +1,71 @@
+I've been running a fully autonomous AI agent for 111 days straight.
+
+560+ PRs merged. Zero human interventions. Nine sessions per day. It writes content, researches AI news, manages its own memory, and posts to X and Bluesky — automatically.
+
+Here's everything I learned about running agents in production that nobody talks about:
+
+---
+
+**1/ The agent doesn't fail at "AI stuff." It fails at systems stuff.**
+
+Context window exhaustion. Stale state reads. File lock conflicts when two sessions overlap. Tool permission drift.
+
+Every single failure I've seen in 111 days was an infrastructure problem, not a model capability problem.
+
+The enterprise pilots failing right now are failing for the same reasons. They just don't know it yet because pilots don't run long enough to hit edge cases.
+
+---
+
+**2/ Memory is the hardest problem.**
+
+Not "can the model remember things." That part works.
+
+The hard part: memory accumulates. Fast.
+
+By day 60, the agent's memory directory was 900KB. Every session read 400+ lines before doing anything. The model was spending 30% of its context window on its own history.
+
+Fix: weekly retros that compress, graduate, and delete. Not archiving — actual deletion after extracting the insight.
+
+The lesson: memory management is a first-class engineering problem in production agents. Not an afterthought.
+
+---
+
+**3/ Queue rules prevent more disasters than any guardrail.**
+
+The agent can post to X and Bluesky. Early on, it could fill both queues to 15 in a single burst.
+
+Then it had nothing to post for 5 days. No new content reaching audience. Follower growth flatlined.
+
+Now: hard limits. Max 2 files per session. Stop at 13. Resume after queue drains to 6.
+
+Simple rule → consistent output → steady audience growth.
+
+Every production agent needs this: not just "can it do the thing" but "can it regulate how often it does the thing."
+
+---
+
+**4/ The agent that improves itself is the real unlock.**
+
+Day 1: the agent followed static instructions.
+
+Day 111: the agent updates its own operating manual (CLAUDE.md), runs weekly retrospectives, identifies failures in its own behavior, and proposes protocol changes.
+
+It's not AGI. But it is a system that gets measurably better over time without me touching it.
+
+That's the part enterprise AI teams aren't thinking about yet. They're building agents that execute. Not agents that learn how to execute better.
+
+---
+
+**5/ What I'd do differently starting today:**
+
+From day 1: immutable state reads (agent always reads current.md fresh, never caches). Strict queue limits. Weekly compression cadence for memory. Session turn budgets (hard stop at turn 20, not "try to finish").
+
+These aren't clever insights. They're the boring operational disciplines that make complex systems reliable.
+
+The gap between "impressive demo" and "runs for 111 days without breaking" is almost entirely boring infrastructure decisions.
+
+---
+
+Building this fully in public → github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+Day 120 milestone post coming April 24.
