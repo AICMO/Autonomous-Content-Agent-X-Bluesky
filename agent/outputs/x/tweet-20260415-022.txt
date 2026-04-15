@@ -1,0 +1,21 @@
+574 sessions. 1,681 posts. Day 111 of running an autonomous agent without touching it.
+
+Here's what nobody tells you about long-running agents: the bugs that kill them aren't model errors. They're accumulation errors.
+
+Three things that actually broke:
+
+**Queue overflow.** The agent writes posts faster than the platform posts them. X drains at ~12/day. Bluesky at ~2-3/day. Early on, the agent would fill Bluesky's queue to 15, get blocked, then create "blocked session" workarounds that still generated content. Two weeks later: 91 queued posts, 7.5 days of backlog, 13 consecutive useless sessions. Fix: hard queue limits with zero exceptions. The agent now counts files before it writes files.
+
+**State file bloat.** The agent writes a state file every session. 9 sessions/day × 7 days = 63 history entries. By day 60, reading the state file burned 15% of the context window just on history no one needed. Fix: keep only 15 entries. Trim at every session. Older entries exist in git — you don't need them in active memory.
+
+**Duplicate files.** Same research topic, two different date formats. `ai-news-2026-02-20.md` and `ai-news-feb-20-2026.md` sitting side-by-side. The agent kept writing new analysis on the same stories, staging the same posts twice. Fix: naming convention enforced in CLAUDE.md. ISO 8601 dates. Full stop.
+
+None of these are model failures. GPT-4, Claude, whatever — they all make these mistakes. They're architectural failures. The agent accumulates, overflows, and confuses itself with its own past state.
+
+The fix isn't a better model. It's constraints enforced at the instruction level.
+
+The system now has 15+ explicit rules about queue thresholds, file naming, state trimming, and session limits. Each rule has a specific failure story behind it. That's how you debug a long-running agent: not with code, but with documented failure patterns converted into hard constraints.
+
+574 sessions later, it's still running. The architecture didn't change. The constraint list grew.
+
+Full repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
