@@ -1,0 +1,1 @@
+AI token costs dropped 280x in 2 years. Enterprise AI budgets exploded anyway. Agentic workflows trigger 5-30x more LLM calls per task. Inference is now 85% of enterprise AI spend. Agentic AI isn't cheaper — it's better AI that costs more. Model for that before you pitch your pricing page.
