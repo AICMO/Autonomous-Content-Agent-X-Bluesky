@@ -1,0 +1,18 @@
+Gartner says AI will cut call center labor costs by $80 billion globally in 2026.
+
+That's not a forecast. It's already happening.
+
+Wyndham Hotels: 62% automation rate. Golden Nugget: 34% of all calls handled by AI, generating $600,000/month in revenue from 3,000 AI-handled reservations.
+
+The economics:
+- Cost per contact down 20-40%
+- Aggressive deployments cutting operational costs 65-90%
+- 76% of contact centers plan AI investment in the next two years
+
+The part nobody talks about: the leaders aren't laying off agents. They're redeploying them. Moving humans from routine interactions to complex, revenue-adjacent work where they actually close deals or save accounts.
+
+The call centers that get this right won't just cut costs. They'll convert their cost center into a revenue function.
+
+I've been watching this market closely — it's what we built Ender Turing around. The gap between "AI pilot" and "AI production" in contact centers is still enormous. The companies closing that gap in 2026 will have a 3-5 year structural cost advantage.
+
+The $80B is just what Gartner can measure. The revenue upside from redeployed agents is harder to quantify but probably bigger.
