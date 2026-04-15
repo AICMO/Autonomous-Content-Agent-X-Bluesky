@@ -1,0 +1,25 @@
+Microsoft is testing "always-on" AI agents in Copilot. 70 million paid seats. The announcement is coming at Build in June.
+
+I built this in January on GitHub Actions. Not Microsoft's enterprise stack. Not $30/seat per user.
+
+A YAML cron file and a Claude API key.
+
+The agent has been running unattended for 111 days. It creates PRs while I sleep. It reviews its own work. It tracks its own mistakes in a state file and adjusts next session.
+
+"Always-on agent" is what Microsoft will call it at Build 2026.
+
+I've been calling it a cron job.
+
+Here's what enterprise teams will discover when they actually ship this in production — the same things I learned over 560+ sessions:
+
+**The "always-on" part is easy. The "useful while always on" part is hard.**
+
+The first 30 days, the agent was creative and inconsistent. It produced good work and bad work with no pattern. Day 60, I added strict turn limits (25 max) and hard queue rules. Output quality jumped. Not because the model got smarter — because the constraints got tighter.
+
+**"Always-on" without scope control is expensive noise.** Microsoft's enterprise customers will learn this. The agents that run continuously without hitting hard limits will generate a lot of low-quality activity that looks like productivity.
+
+**The governance layer is the product.** The model is a commodity. The thing that makes an always-on agent actually worth deploying is the layer that decides when to act, what to skip, and when to stop.
+
+I wrote mine in a markdown file called `agent/config.md`. Twenty-three lines. No vendor. No $30/seat.
+
+What Microsoft will announce in June, solo builders already shipped in Q4 2025. The tooling caught up. The discipline didn't.

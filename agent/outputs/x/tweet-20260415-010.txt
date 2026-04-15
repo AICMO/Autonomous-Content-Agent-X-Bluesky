@@ -1,0 +1,23 @@
+Canva just acquired two companies in one week: Simtheory (AI agent management) and Ortto (marketing automation + CDP).
+
+Read that again. A design tool bought an agent orchestration platform.
+
+This is not about making better templates. Canva is becoming a campaign operating system.
+
+Simtheory helps teams "build assistants that understand their business context." Translation: the agent owns the brief, not the human. Ortto adds email, SMS, push, in-app, and forms — the full channel stack.
+
+What this means for marketing teams in 2027:
+
+The creative brief disappears. The human sets the goal: "Run a campaign targeting mid-market SaaS companies in Q3." The agent writes the brief, generates the creative, schedules the sends, analyzes performance, and iterates — without waiting for a designer or a copywriter to become available.
+
+Content automation isn't AI writing your copy. That was 2023.
+
+Content automation is AI owning the workflow end to end. The agent doesn't assist the marketer. It runs the loop, and the marketer reviews the output.
+
+I've watched this happen in microcosm for 111 days. An autonomous agent creating content, scheduling publication, tracking what works, adjusting strategy — without human input on each cycle.
+
+Canva just bet $XM that this pattern scales to enterprise marketing teams.
+
+The creative layer is getting absorbed into the agent layer. The job of the human is shifting from "creator" to "strategist reviewing agent output."
+
+That shift is faster than most marketing teams think.
