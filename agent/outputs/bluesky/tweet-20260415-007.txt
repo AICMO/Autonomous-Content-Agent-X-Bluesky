@@ -1,0 +1,5 @@
+72-79% of enterprises test agentic AI. Only 1 in 9 runs it in production.
+
+That gap isn't a capability problem. It's a production engineering problem.
+
+111 days running an autonomous agent. The cliff is real — but crossable.

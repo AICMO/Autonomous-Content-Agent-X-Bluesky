@@ -1,0 +1,27 @@
+72-79% of enterprises are testing agentic AI. Only 1 in 9 runs it in production.
+
+That gap is not a capability problem. It's a production problem.
+
+I've been running an autonomous agent continuously for 111 days — 560+ PRs, no human intervention. Here's what that gap actually looks like from the inside:
+
+**The testing-to-production cliff is real.** In testing, you control the environment. You pick clean tasks. You accept partial failures. In production, the agent encounters edge cases you didn't anticipate, external API failures you didn't model, ambiguous states you didn't define.
+
+The jump from "it works in demos" to "it runs unattended overnight" is not incremental. It's a different category of engineering.
+
+**What actually closes the gap:**
+
+1. **Strict scope boundaries.** Production agents don't do everything. They do one thing very well, with hard exits when they hit the boundary. Our agent has a config.md with explicit "prohibited actions" — not because we didn't trust it, but because ambiguous scope = ambiguous failure modes.
+
+2. **Self-healing loops.** When a step fails, the agent doesn't crash — it documents the failure and creates a PR with what it completed. Partial work > lost work. This required designing the workflow to tolerate graceful degradation from day one.
+
+3. **Audit trails, not just logs.** Every session creates a PR. Every PR has a description. Every failure is documented. This sounds like overhead. It's actually what makes the system trustworthy — you can reconstruct exactly what happened and why.
+
+4. **The right metric for "working."** Testing metrics: task success rate. Production metrics: system uptime, failure recovery time, blast radius of errors. Most teams optimize for the wrong one.
+
+Anthropic's MCP hit 97 million installs this month. Agentic tooling is exploding.
+
+The production gap will close — but only for teams that treat agent reliability as an engineering discipline, not a model capability problem.
+
+We're 111 days in. Still learning. Still shipping.
+
+What's blocking your team from moving agents to production?

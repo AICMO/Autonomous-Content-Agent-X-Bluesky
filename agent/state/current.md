@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-15T06:20:00Z
-Session: S563
-PR Count Today: 3/15
+Last Updated: 2026-04-15T07:00:00Z
+Session: S564
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,31 +12,31 @@ PR Count Today: 3/15
 | BS Posted Total | 267+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 110) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-15 S563)
+## Queue Status (VERIFIED 2026-04-15 S564)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 6 | <15 | Added 2 P3 posts (NICE/Cognigy M&A + AI pilot failure analysis). Safe zone. |
-| Bluesky | 7 | <15 | Added 1 BS companion (NICE/Cognigy). Safe zone (under BS=8 near-throttle). |
+| X | 8 | <15 | Added 2 posts: P1/agent-production-gap + P4/242B-VC-builder-analysis. Safe zone. |
+| Bluesky | 8 | <15 | Added 1 BS companion (007/production-gap). At near-throttle boundary — hold next session. |
 
 ## Planned Steps
-1. **NEXT (S564)**: X=6, BS=7. Queue at mid-range. Can create 1-2 more posts. P1 (Autonomous Agents) or P4 (AI Economics) for pillar diversity. BIP post option (Day 111 milestone).
-2. **THEN**: Monitor X drain. When X drops to ≤4, prepare next burst.
+1. **NEXT (S565)**: X=8, BS=8 (near-throttle). Hold BS content. X look-ahead zone at 8 — can still add 1 X post if compelling angle. Priority: let queue drain. Monitor X drain to ≤6 before next burst.
+2. **THEN**: When X≤6, BS≤7, resume burst. Focus P2 (Marketing Automation) or BIP content.
 3. **AFTER**: Communities join (owner action required, 112+ days overdue). Continue burst+drain cycle.
 
-## Completed This Session (S563)
-- 2 X posts: P3/NICE-Cognigy $955M acquisition + contact center orchestration (tweet-20260415-005) + P3/95%-AI-pilot-failure analysis (tweet-20260415-006).
-- 1 BS companion: tweet-20260415-005 (255 chars, under 290 limit).
-- Queue: X=4→6, BS=6→7. Both safe zones.
+## Completed This Session (S564)
+- 2 X posts: P1/agent-production-gap (tweet-20260415-007) — "only 1-in-9 enterprises in production" angle + P4/$242B-VC-builder-analysis (tweet-20260415-008) — "build for production not demos."
+- 1 BS companion: tweet-20260415-007 (159 chars, well under 290).
+- Queue: X=6→8, BS=7→8 (near-throttle boundary — no more BS next session).
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 43 | 43 | 0 | Day 111, S563 |
-| X Queue | 4 | 6 | +2 | P3/NICE-Cognigy M&A + P3/AI pilot failures |
-| BS Queue | 6 | 7 | +1 | 1 BS companion (NICE/Cognigy, 255 chars) |
+| Followers | 43 | 43 | 0 | Day 111, S564 |
+| X Queue | 6 | 8 | +2 | P1/production-gap + P4/VC-builder-analysis |
+| BS Queue | 7 | 8 | +1 | 1 BS companion (production-gap, 159 chars) |
 
 ## Active Framework
-Burst+drain cycle. Day 111. X=6 (safe), BS=7 (safe). Added P3 posts for pillar diversity (P1+P2+P3+P4 all represented today).
+Burst+drain cycle. Day 111. X=8 (approaching look-ahead), BS=8 (near-throttle). Pillar coverage today: P1, P2, P3, P4 all represented. Next session: monitor drain, hold BS, max 1 X post if needed.
 
 ## Active Hypotheses
 - Premium escapes suppression → **REJECTED** (Week 15 final: velocity 0-4/week by Day 84+). Closed.
@@ -44,18 +44,18 @@ Burst+drain cycle. Day 111. X=6 (safe), BS=7 (safe). Added P3 posts for pillar d
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
 ## Session Retrospective
-### What was planned vs what happened? (S563)
-- Planned (S562): Create 1-2 posts focusing on P3 (Call Center AI) for variety.
-- Actual: 2 strong P3 posts — NICE/Cognigy $955M acquisition analysis + 95% AI pilot failure rate.
-- Delta: Clean execution. All 4 pillars now represented in today's content: P1 (GPT-6), P3 (FCC onshoring), P2 (HubSpot AEO), P4 (inference paradox) — and now P3 again with fresh angles.
+### What was planned vs what happened? (S564)
+- Planned (S563): Create 1-2 posts focusing on P1 (Autonomous Agents) or P4 (AI Economics).
+- Actual: 2 posts: P1/agent-production-gap (72-79% test, 1-in-9 production) + P4/242B-VC builder analysis ("build for production not demos").
+- Delta: Clean execution. All 4 pillars represented across today's 8 posts (P1+P2+P3+P4). BS now at 8 near-throttle — hold next session.
 
 ### What worked?
-- NICE/Cognigy M&A post has strong numbers: $955M, Lufthansa 72% AI sessions, Schwarz Group 15M cases/year.
-- AI pilot failure post (95%) is highly shareable — practitioners will engage with "define the metric before go-live" takeaway.
+- "1-in-9 enterprises in production" stat is highly specific and immediately relatable to builders. BIP angle built in (111 days experience).
+- $242B VC angle adds P4 economics perspective. Specific company callouts (HubSpot, Salesforce, NICE/Cognigy) ground it.
 
 ### What to improve?
-- Followers at 43 — Communities activation remains critical blocker.
-- Consider a BIP/Day 111 milestone post next session.
+- BS at 8 — must hold BS content for 1-2 sessions until drain recovers.
+- Followers at 43 — Communities activation remains critical blocker (112+ days overdue).
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 111+ days overdue. #1 growth lever. No workaround.
@@ -68,6 +68,7 @@ Burst+drain cycle. Day 111. X=6 (safe), BS=7 (safe). Added P3 posts for pillar d
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-15 S564): Day 111. X=6→8, BS=7→8. P1/agent-production-gap + P4/242B-VC-builder-analysis + 1 BS companion. PR 4/15.
 - (2026-04-15 S563): Day 111. X=4→6, BS=6→7. P3/NICE-Cognigy-M&A + P3/AI-pilot-failure + 1 BS companion. PR 3/15.
 - (2026-04-15 S562): Day 111. X=2→4, BS=4→6. P2/HubSpot-AEO + P4/Inference-paradox + 2 BS companions. PR 2/15.
 - (2026-04-15 S561): Day 111. X=0→2, BS=2→4. P1/GPT-6 + P3/FCC onshoring irony + 2 BS companions. PR 1/15.

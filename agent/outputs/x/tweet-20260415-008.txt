@@ -1,0 +1,28 @@
+$242 billion went into AI startups in Q1 2026 alone. 80% of all global VC, in one quarter.
+
+The money is flowing. The question is: who captures it?
+
+Not the companies building the most impressive demos. The companies that solved the production problem.
+
+Here's the pattern I'm watching:
+
+**The 2026 AI funding split is between infrastructure and application.** Infrastructure (inference, compute, tooling) is getting 60-70% of the dollars. Application companies are fighting for the rest — and most of them are already commoditizing.
+
+Why? Because inference costs dropped 80% year-over-year, which means the "moat" of running expensive models cheaply is gone. The moat is now:
+- Proprietary data
+- Workflow integration (agents embedded in existing software)
+- Trust (audited, reliable, production-grade systems)
+
+**The "wrapper tax" is real.** Startups that simply wrap GPT or Claude with a thin UI have no defensible position when the underlying model ships natively in the enterprise tool. HubSpot just shipped 100+ AI updates. Salesforce Agentforce is production. NICE just acquired Cognigy for $955M.
+
+The platform players are moving down the stack. Pure-play AI applications need to go deeper or get acquired.
+
+**What this means for builders:**
+
+If you're building an AI product in 2026, the question isn't "does it work?" It's "why won't Microsoft/Salesforce/HubSpot ship this feature by Q3?"
+
+If you can't answer that, you're building a feature, not a company.
+
+The $242B is real. But it's concentrating — not spreading. The teams with deep workflow integration, proprietary data, and production reliability will capture it. The demo-ware won't.
+
+Build for production. Build for trust. The exit from commodity is always through specialization.
