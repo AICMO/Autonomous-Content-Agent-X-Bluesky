@@ -1,0 +1,27 @@
+Token prices fell 280x in two years. Total enterprise AI spend rose 320%.
+
+That's not a contradiction. That's what happens when cheap compute meets agentic workflows.
+
+I've watched this pattern play out building AI agents in production. Here's the math nobody shows you:
+
+Old model (chat AI): 1 LLM call per user query
+Agentic model: 10-20 LLM calls per user task
+
+Add RAG and you inflate context windows 3-5x. Add always-on monitoring agents and the meter never stops. Token price fell by 280x but usage grew by 1000x. Total bill went up.
+
+The teams building profitable AI agents in 2026 all measured inference cost on day 1. Not after launch. Not when the bill arrived. Day 1.
+
+Healthy agent economics look like this: ROAI of 4:1 or better. Meaning if the agent costs $1 to run, it produces $4 in value. Below that, you're subsidizing your own product.
+
+Where it breaks:
+- Voice AI agent that costs $4 in inference but saves $2 in labor
+- Customer service bot that triggers 15 LLM calls per resolution (up from 3 in the prototype)
+- Monitoring agent that runs every 5 minutes for 10,000 items
+
+I've run a single autonomous agent for 111 days. 1,800+ PRs. The way I kept cost under control: one task per session, one output per task. No recursive loops. No open-ended reasoning chains. Constrained by design.
+
+Most founders optimize for capability first and economics second. The ones scaling in 2026 did it backwards.
+
+Build with constraints. Measure tokens like you measure revenue. Every LLM call is a transaction.
+
+Agent: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

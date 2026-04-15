@@ -1,0 +1,5 @@
+Token prices fell 280x. Enterprise AI spend rose 320%.
+
+Agentic workflows = 10-20 LLM calls per task (not 1). RAG inflates context 3-5x. Monitoring agents never stop.
+
+Healthy agent economics: 4:1 ROAI. Build with cost constraints on day 1, not after the bill arrives.

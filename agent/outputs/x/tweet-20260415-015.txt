@@ -1,0 +1,25 @@
+Voice AI just crossed $22 billion in 2026. 67% of Fortune 500 companies are running production voice AI systems right now.
+
+And the economics are brutal for anyone still staffing traditional call centers.
+
+$0.40 per automated call. $7-12 per human-handled call. That's a 95% cost reduction per interaction at scale.
+
+I've been building AI for call centers since 2019. The question I get most is: "What changed?" The honest answer is that quality finally caught up to cost.
+
+Early voice AI was cheap and terrible. Now it's cheap and good enough that customers often don't notice the difference. That crossing point — good enough + cheap — is when adoption goes vertical. And it did. Production voice agent implementations grew 340% year-over-year.
+
+But here's what most founders miss about this number: it's not just cost savings. It's capability expansion.
+
+A human agent handles one call. A voice AI agent handles 10,000 simultaneously. You don't just save money — you eliminate queues entirely. No more "your wait time is 23 minutes." That's not a 10% CSAT improvement. That's a category change.
+
+The contact centers winning right now aren't the ones that replaced agents with AI. They're the ones that used AI to handle volume while focusing human agents on the 20% of calls that actually need empathy and judgment.
+
+That's the shift: AI handles throughput. Humans handle complexity.
+
+The tools that measure this properly — real-time sentiment, talk-over detection, silence analysis — those are now table stakes, not differentiators. Every serious call center platform has them or is building them.
+
+The question in 2026 isn't "should we use voice AI?" It's "which workflows still need a human, and why?"
+
+If you can't answer that precisely, you're either over-automating or under-automating. Both are expensive.
+
+Ender Turing: https://enderturing.com
