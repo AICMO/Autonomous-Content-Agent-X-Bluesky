@@ -1,0 +1,7 @@
+Lightrun: 43% of AI-generated code fails in production.
+
+577 agent sessions confirms this.
+
+Code passes QA. Then it hits real state, real timing, real edge cases. Three patterns repeat: state drift, timing assumptions, no graceful degradation.
+
+The code's fine. The assumptions in it aren't.
