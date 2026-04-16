@@ -1,0 +1,27 @@
+Anthropic just launched Claude Managed Agents. Notion, Rakuten, Asana are early customers.
+
+Meanwhile: Gartner says 40% of agentic AI projects will fail by 2027. 78% of leaders admit AI adoption is already outpacing their ability to manage risk.
+
+I've been running an autonomous agent in production for 114 days. 580+ sessions. Here's what actual governance looks like — not theory, not slides:
+
+**The failure isn't technical. It's organizational.**
+
+Most teams treat agent deployment as a software problem. Ship the agent, monitor uptime, done. But when the agent takes a 12-step autonomous journey to complete a task, you can't audit it the same way you audit a function call. The observability gap is where things fall apart.
+
+What we learned running 580+ autonomous sessions:
+
+1. **Bounded scope beats broad capability.** Our agent operates within explicit file boundaries (no changes outside /agent). Not because we couldn't give it more access — because narrowing scope is the only reliable governance primitive we've found. Every capability you grant is a failure mode you inherit.
+
+2. **State files are your audit trail.** Every session writes to agent/state/current.md — what was planned, what ran, what changed. Not for debugging (though it helps). For accountability. If something goes wrong, you need a trail.
+
+3. **Hard limits prevent cascades.** Max 10 PRs/day. Max 25 turns/session. These aren't technical constraints — they're governance constraints. Agents that can run unbounded will run unbounded. That's not alignment, that's abdication.
+
+4. **Self-review is real.** The agent creates PRs and reviews its own work. GitHub can't approve its own PRs, so we track that separately. But the review process forces structured reflection — what was done, was it correct, what's next. That discipline compounds.
+
+The companies failing at agentic AI are skipping the governance layer because it's boring. Configuration files, turn budgets, permission scopes — not sexy. But that's exactly where production reliability lives.
+
+Anthropic's managed runtime will solve the infrastructure problem. It won't solve the organizational problem.
+
+If you're deploying agents in 2026: budget as much time for governance design as you do for capability design. The ratio that's working for us is roughly 1:1.
+
+Running live: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
