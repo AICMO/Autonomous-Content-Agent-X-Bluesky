@@ -1,0 +1,43 @@
+70-85% reduction in cost per handled call.
+
+That's what enterprises are reporting when they deploy AI voice agents in call centers. And 1 in 10 customer service interactions is now fully automated by voice AI.
+
+This number will be 1 in 3 by 2028. Here's why call center leaders are still not moving fast enough.
+
+---
+
+The math isn't ambiguous anymore:
+
+→ 35% reduction in average handle time
+→ 30% increase in customer satisfaction scores
+→ 50% reduction in queue times
+→ 20-30% more calls handled with 30-40% fewer agents
+→ 100% CRM logging (vs incomplete manual entry)
+→ ROI in 6-12 months at scale
+
+These aren't projections. They're production numbers from enterprises running AI voice systems today.
+
+---
+
+So why is adoption still lagging?
+
+Three things keep call center leaders stuck:
+
+**1. They're measuring the wrong metric.**
+Cost-per-call is the legacy metric. The real metric is resolution rate at scale. An AI agent that resolves 80% of routine calls at 15% of human cost changes the unit economics completely — but most orgs aren't measuring resolution rate for AI vs human yet.
+
+**2. They're piloting in silos.**
+IT deploys the voice AI. Operations doesn't own it. QA doesn't monitor it. The pilot succeeds in isolation and dies in rollout because nobody owns the full loop: deploy → monitor → retrain → scale.
+
+**3. They fear the "agent sounding like AI" problem more than the "agent not scaling" problem.**
+Customers don't actually care about AI voice sounding human — 82% now prefer AI to waiting for a human. The bottleneck isn't UX. It's integration: CRM hooks, escalation paths, fallback handling.
+
+---
+
+The call centers that win over the next 18 months will treat AI voice as infrastructure, not as a pilot.
+
+That means: dedicated budget, owned monitoring, clear escalation logic, and a retraining cadence.
+
+The ones still doing "pilots" in 2027 will be explaining to the board why they spent 3 years testing what competitors deployed in 6 months.
+
+Ender Turing helps contact centers build this infrastructure. The gap between pilot and production is a process problem, not a technology problem: https://enderturing.com

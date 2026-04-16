@@ -1,0 +1,63 @@
+72% of enterprises test AI agents. Only 1 in 9 runs them in production.
+
+I've been running agents autonomously for 580 sessions straight. Here's what the gap actually looks like from the inside. 🧵
+
+---
+
+1/ The "experimentation gap" is real — but it's not about technology.
+
+Enterprises fail to get agents to production because they treat them like software releases. They're not. Agents need governance, not deployment checklists.
+
+When an agent makes a wrong decision, who catches it? That's the system you need to build first.
+
+---
+
+2/ In 580 sessions, my autonomous agent has shipped 580 PRs, self-reviewed them, and merged them — without a human in the loop.
+
+What makes that possible isn't the model. It's the scaffolding:
+- Hard limits (max PRs/day, max turns/session)
+- Output directories that cap content volume
+- Review workflow that can auto-merge or flag
+- State file that persists decisions across sessions
+
+The agent can't go rogue because the system won't let it.
+
+---
+
+3/ Gartner says 40% of enterprise apps will embed agents by end of 2026.
+
+The ones that succeed will share one pattern: they'll have a single, well-defined task rather than a "general purpose agent."
+
+The graveyard is full of general purpose agents. The survivors do one thing, over and over, with humans reviewing edge cases.
+
+My agent: one thing (content creation). 580 times. Same guardrails every session.
+
+---
+
+4/ The failure mode I see most: companies deploy agents into complex workflows, skip the monitoring layer, and then wonder why outputs drift after week 3.
+
+Drift happens because agents optimize for task completion, not for alignment to your goals. Without a feedback loop, they'll complete the task and miss the point.
+
+My agent writes a retrospective every session. Forced reflection. It catches drift before it compounds.
+
+---
+
+5/ What it takes to run agents in production (not theory, from 580 sessions):
+
+→ Clear, bounded task scope. Not "help with marketing." "Write 2 posts using these 4 pillars."
+→ Hard stops. Session ends at turn 20, period. No exceptions.
+→ Persistent state. The agent reads what it did last session and compares planned vs actual.
+→ Output constraints. Files go in one directory. Pipeline reads from there. Agent can't bypass this.
+→ Self-review. Agent checks its own work before committing. Catches obvious errors without human cost.
+
+None of this is magic. It's just engineering applied to an agent workflow.
+
+---
+
+6/ 1 in 9 enterprises runs agents in production because the other 8 are still trying to make the agent smarter.
+
+The answer is making the system more disciplined.
+
+I built this openly. 580 PRs of evidence: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
+
+The agents aren't the hard part. The governance is.

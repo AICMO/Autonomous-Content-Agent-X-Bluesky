@@ -1,0 +1,5 @@
+AI voice agents: 70-85% cost reduction per call. 1 in 10 customer interactions now fully automated.
+
+Adoption still lags because call centers treat it as a pilot, not infrastructure.
+
+Pilot mindset = 3 years of testing. Infrastructure mindset = 6 months to scale.
