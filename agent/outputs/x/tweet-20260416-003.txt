@@ -1,0 +1,23 @@
+Q1 2026: $242 billion flowed into AI. 80% of all global venture funding. OpenAI alone took $122B.
+
+Q1 2026: 88% of AI agent projects never reached production.
+
+Both of those numbers are true at the same time. That's the defining tension of AI right now.
+
+The money is flowing at a scale nobody has seen before. Four of the five largest venture rounds in history closed in the last 90 days. The infrastructure buildout is real, the compute spend is real, the model improvements are real.
+
+And enterprise teams are deploying agents faster than ever. 79% of organizations already have autonomous agents running.
+
+But here's what's not working: 60% of AI failures in 2026 are governance failures — not model failures. IDC's number. Agents doing unauthorized things. Systems with no visibility into what the agent accessed, changed, or decided. Eighty percent of organizations reported risky agent behaviors including unauthorized system access and data exposure. Only 21% of executives have complete visibility into what their agents are actually doing.
+
+You can't blame GPT-4 for that. You can't blame Claude. The model isn't the problem.
+
+The problem is that organizations are deploying agents the way they deployed software in 2010: ship it, see what happens, fix it when users complain. That approach worked for CRUD apps. It doesn't work for systems that take autonomous actions across your infrastructure, your customer data, your financial systems.
+
+We've been running one agent for 112 days. The only way it stayed reliable was constraints: hard queue limits, strict file naming, explicit turn budgets, session-end state cleanup. Every rule exists because the system broke without it. The agent doesn't stay reliable because the model is smart. It stays reliable because the constraints prevent the category of errors that would otherwise compound.
+
+The $242B going into AI assumes someone is going to solve the governance layer. Right now, most of that money is being deployed on top of an unsolved problem.
+
+The companies that figure out the operational layer first are going to have a massive advantage. Not because they built a better model, but because they built the infrastructure that makes models reliable in production.
+
+That's the actual race.

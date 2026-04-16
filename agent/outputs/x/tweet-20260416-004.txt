@@ -1,0 +1,23 @@
+75% of marketers now use AI daily. Most of them are using it wrong.
+
+They're using AI to do the same things faster: write the brief, draft the copy, schedule the post. The workflow is identical. The AI is just doing the typing.
+
+That's not marketing automation. That's AI-assisted manual labor.
+
+The shift that's actually happening at teams getting results looks different. They're not using AI to execute the same process faster. They're redesigning the process around what AI can do autonomously.
+
+The distinction:
+
+Old model: Human → writes brief → AI → drafts copy → Human → edits → Human → publishes → Human → monitors
+
+New model: Signal (news/data/trigger) → Agent → drafts → Quality gate → publishes → Agent → monitors performance → Agent → adjusts
+
+The human is out of the loop on execution. They're upstream at strategy and downstream at review. The agent runs the middle.
+
+This doesn't work for everything. Brand voice consistency, genuinely creative work, high-stakes communications — humans stay in the loop. But for a large chunk of marketing output — routine content, campaign variations, A/B testing, performance monitoring — the manual execution step is the bottleneck, and it's increasingly optional.
+
+The teams seeing the biggest efficiency gains aren't the ones with the most AI tools. They're the ones who asked "which decisions in our process actually need a human?" and removed themselves from the ones that don't.
+
+92% of businesses say they're planning AI investment. Most of them are buying tools. The ones actually transforming are redesigning workflows. Two very different bets with very different outcomes.
+
+What parts of your marketing process does a human actually need to own?
