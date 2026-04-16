@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-16T15:35:00Z
-Session: S589
-PR Count Today: 14/15
+Last Updated: 2026-04-16T16:00:00Z
+Session: S590
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,28 +12,28 @@ PR Count Today: 14/15
 | BS Posted Total | 267+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 114) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-16 S589)
+## Queue Status (VERIFIED 2026-04-16 S590)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 10 | <15 | Look-ahead zone (11-12 = max 1 post). Added P1 BIP + P3 CC-AI (8→10). |
+| X | 11 | <15 | Look-ahead zone (11-12 = 0 new X content). Added P2/marketing-agents ($300K team math). |
 | Bluesky | 8 | <15 | Near-throttle — hold BS until ≤7. |
 
 ## Planned Steps
-1. **NEXT (S590)**: X=10 (look-ahead zone). Max 1 X post if it stays at 10; hold if it hits 11-12. BS=8 (near-throttle — hold). Check queue first. Consider P4 or P2 for pillar rotation.
-2. **THEN (S591+)**: Continue Burst 10. Burst 10 at 10 posts now (P1×3, P2×2, P3×3, P4×2). Day 120 BIP (~2026-04-24) = session ~S600. Prepare BIP milestone thread.
-3. **AFTER**: 2+ threads for Burst 10. Day 120/S600 BIP milestone thread. Communities blocker still critical.
+1. **NEXT (S591+)**: X=11 (look-ahead zone — 0 new content). BS=8 (near-throttle — hold). Wait for drain. Check queue at start of each session.
+2. **THEN**: When X drops to ≤10 again: resume Burst 10. P4 or P2 next for pillar balance. Burst 10 = 11 posts now (P1×3, P2×3, P3×3, P4×2).
+3. **AFTER**: Day 120 BIP milestone thread (~2026-04-24, session ~S600). 2+ threads still needed for Burst 10. Communities blocker = critical.
 
-## Completed This Session (S589)
-- Queue verified: X=8, BS=8 (confirmed from file count).
-- Created 2 X posts: P1/BIP-114-days-580PRs-lessons (tweet-018), P3/CC-AI-AHT-to-outcome-visibility (tweet-019).
+## Completed This Session (S590)
+- Queue verified: X=10, BS=8 at session start.
+- Created 1 X post: P2/marketing-agents-300K-team-math (tweet-020). HubSpot data hook + production proof + repo link.
 - BS=8 near-throttle — no BS content created.
-- Pillar balance: Burst 10 now P1(3), P2(2), P3(3), P4(2) = 30/20/30/20%.
+- Pillar balance: Burst 10 now P1(3), P2(3), P3(3), P4(2) = 27/27/27/18%.
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 42 | 42 | 0 | Day 114 |
-| X Queue | 8 | 10 | +2 | P1 BIP 114-day lessons + P3 CC-AI AHT insight |
+| X Queue | 10 | 11 | +1 | P2/marketing-agents (max 1 at look-ahead zone) |
 | BS Queue | 8 | 8 | 0 | Held — near-throttle |
 
 ## Active Framework
@@ -45,19 +45,18 @@ Burst+drain cycle. Day 114. **Burst 10** (X=10, BS=8). Approaching look-ahead zo
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
 ## Session Retrospective
-### What was planned vs what happened? (S589)
-- Planned: Create P3 or P1 BIP posts at X=8 (safe zone ≤10).
-- Actual: X=8 confirmed. Created exactly 2 X posts (P1 BIP + P3 CC-AI). X=8→10. BS held at 8 (near-throttle).
-- Delta: On plan. Created both planned pillars.
+### What was planned vs what happened? (S590)
+- Planned: X=10 (look-ahead zone), max 1 X post if at 10, hold if 11-12. BS hold.
+- Actual: X=10 confirmed. Created 1 P2 post (marketing agents + $300K team math). X=10→11. BS held at 8.
+- Delta: On plan. Correct queue discipline — 1 post at look-ahead zone exactly.
 
 ### What worked?
-- P1 BIP (114 days, 580+ PRs): Memory-as-coherence + governance lessons from production — strong authority + proof angle.
-- P3 CC-AI (AHT → outcome visibility): Contrarian reframe (AHT obsession = wrong metric) + Ender Turing data proof.
-- Pillar balance: Burst 10 now 30/20/30/20% across 10 posts.
+- P2/marketing-agents: Strong data hook (HubSpot, 60-80% cost reduction, 19% autonomous adoption) + production proof from our repo. Good authority angle with personal credibility.
+- Pillar balance improved: P1/P2/P3 now tied at 27% each. P4 at 18% — needs one more post.
 
 ### What to improve?
-- X hitting look-ahead zone (10). Next session: check queue before creating. Max 1 X post at 10, 0 if 11-12.
-- BS near-throttle (8). Hold until ≤7. Do NOT create BS content.
+- X now at 11 (look-ahead zone). Next sessions: 0 X content until X drops to ≤10. BS remains near-throttle (hold).
+- P4 still underrepresented (18%). Next content burst should prioritize P4.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 114+ days overdue. #1 growth lever. No workaround.
@@ -70,6 +69,7 @@ Burst+drain cycle. Day 114. **Burst 10** (X=10, BS=8). Approaching look-ahead zo
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-16 S590): Day 114. X=10→11, BS=8 (held). P2/marketing-agents-300K-math (1 X post, max at look-ahead zone). Burst 10: 11 posts, 27/27/27/18%. PR 15/15.
 - (2026-04-16 S589): Day 114. X=8→10, BS=8 (held). P1/BIP-114days-580PRs + P3/CC-AI-AHT-to-outcome. Burst 10: 10 posts, 30/20/30/20% pillar balance. PR 14/15.
 - (2026-04-16 S588): Day 114. X=6→8, BS=7→8. P4/inference-cost-paradox + P2/GEO-vs-SEO-CTR-61pct + 1 BS. Burst 10: perfect 25/25/25/25% pillar balance. PR 13/15.
 - (2026-04-16 S587): Day 114. X=7→9 (Burst 10 starts), BS=7→8. 2 X posts (P3/voice-AI-CAGR + P1/agent-sprawl-94%), 1 BS companion. PR 12/15.
@@ -84,5 +84,4 @@ Burst+drain cycle. Day 114. **Burst 10** (X=10, BS=8). Approaching look-ahead zo
 - (2026-04-16 S578): Day 113. X=4→6, BS=5→6. P1/AI-code-prod-failure + P3/CC-integration-gap + 1 BS. PR 3/15.
 - (2026-04-16 S577): Day 112. X=2→4, BS=4→5. P4/$242B-vs-88%-failure + P2/marketing-redesign + 1 BS. PR 2/15.
 - (2026-04-16 S576): Day 112. X=0→2, BS=3→4. Burst 9 begins. P1/Mizuho-Agent-Factory + P3/CC-metrics-AHT-death + 1 BS. PR 1/15.
-- (2026-04-15 S575): Day 111. X=10→11, BS=8 (held). P1 BIP (574 sessions, 3 failure patterns). Burst 8 complete. PR 15/15.
 - (earlier sessions condensed, see git history)
