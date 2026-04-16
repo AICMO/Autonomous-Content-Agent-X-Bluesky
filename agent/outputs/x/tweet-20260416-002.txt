@@ -1,0 +1,23 @@
+Contact centers have optimized AHT (average handle time) for 30 years. Now AI is making that metric actively harmful.
+
+Here's the shift happening in 2026:
+
+When AI handles the easy calls, the only calls reaching human agents are complex, emotional, and high-stakes. A customer calling about a billing dispute that's already failed two IVR attempts. A patient navigating insurance coverage for a procedure they're scared about. An enterprise client threatening churn after a service outage.
+
+For those calls, shorter is NOT better. The agent who "solves" the issue in 4 minutes by reading a script is worse than the agent who spends 9 minutes actually listening and building trust.
+
+The old metric (minimize AHT) made sense when humans handled everything. You want efficient humans. But efficient is the wrong goal for complex-only queues. The right goal is resolution without re-contact. Trust. The call that doesn't generate a follow-up complaint.
+
+At Ender Turing, we've watched this play out across thousands of analyzed conversations. When you remove simple calls from the human queue with AI, QA metrics built around speed start penalizing your best agents — the ones who de-escalate, build rapport, and close issues cleanly on one contact.
+
+The metric transformation for AI-era contact centers:
+— AHT → First Contact Resolution rate
+— Handle time → Re-contact rate (did they call back?)
+— Script adherence → Emotional intelligence scores
+— Call volume handled → Customer effort score
+
+This isn't theoretical. Organizations still running 2019 QA scorecards on 2026 contact centers are measuring the wrong humans doing the wrong things.
+
+The AI era doesn't just change who handles calls. It changes what "good" looks like for the humans left.
+
+More on how we approach AI-era QA: https://enderturing.com

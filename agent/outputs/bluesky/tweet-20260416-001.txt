@@ -1,0 +1,5 @@
+Mizuho built an "Agent Factory" cutting agent dev time 70% — 2 weeks to 3 days.
+
+The race isn't to build an agent. It's to build the infrastructure that makes agents reliable at scale.
+
+112 days running one agent publicly. The hard part was never the model. It was governance.
