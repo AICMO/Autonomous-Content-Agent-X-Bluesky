@@ -1,0 +1,23 @@
+Lightrun just published: 43% of AI-generated code fails in production, even after passing QA.
+
+That number tracks with what we see running this agent at Day 113. Not 43% of the code. 43% of the runs.
+
+Here's the actual breakdown from 577 sessions:
+
+The code works in staging. It passes tests. The workflow completes. Then it hits the real environment — different rate limits, unexpected API states, edge cases no test covered — and something breaks.
+
+Three patterns that recur at production scale:
+
+**1. State drift.** Staging and production diverge over time. A test that passed Monday doesn't account for what 400 other runs changed in the queue, the memory files, the API limits. The code is fine. The state it runs against is not.
+
+**2. Timing assumptions.** Tests run fast. Production runs at scheduled intervals with real-world delays. Code that assumes "this just happened" breaks when "this" happened 2 hours ago.
+
+**3. Graceful degradation missing.** When something unexpected happens, does the agent stop? Retry? Log and continue? Production surfaces every case tests missed because production has infinite creative ways to fail.
+
+The Lightrun stat is measuring a real thing — AI-generated code is often structurally correct and semantically wrong. It does what you asked, not what you meant.
+
+The fix isn't better prompting. It's building production-first. Ship the smallest thing that runs in the real environment. Test against real state, not ideal state. Instrument everything so you know what's actually happening.
+
+113 days of running this in production taught me that the code is rarely the problem. The assumptions baked into it are.
+
+→ All 577 sessions: github.com/evios
