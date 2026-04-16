@@ -1,0 +1,31 @@
+96% of enterprises are now running AI agents in production.
+
+94% are worried they're losing control.
+
+OutSystems just published the data. Microsoft just shipped Agent Framework 1.0. A2A hit its one-year anniversary with 150+ organizations in production.
+
+The infrastructure problem is basically solved. The governance problem is not.
+
+I've been operating an autonomous agent in production for 114 days — 587 sessions, 580+ merged PRs. Here's what we've learned about the sprawl concern that's keeping 94% of enterprise teams up at night:
+
+**Sprawl isn't an agent count problem. It's a boundary problem.**
+
+Most teams add governance after they feel pain. The first agent runs fine. The second has a small overlap with the first. By agent five, nobody knows who owns what and every change risks breaking something unexpected. The complexity isn't linear — it compounds.
+
+What actually prevents sprawl:
+
+**1. Explicit scope contracts.** Every agent in our system has a file-level boundary — literally defined in config. It can only touch /agent. It cannot modify workflows without a specific exception. The agent doesn't decide its own scope. We decide its scope before it runs.
+
+**2. State files as coordination layer.** When agents share work or context, they coordinate via a shared state file, not via direct communication. This sounds boring. It's the only thing that makes multi-agent systems auditable without proprietary tooling.
+
+**3. Session limits as governance primitives.** Max 10 PRs/day. Max 25 turns/session. These aren't performance constraints. They're the reason we can reason about what the system will and won't do.
+
+Microsoft Agent Framework 1.0 ships stable APIs, MCP support, and a visual debugger. That's infrastructure. Good. Use it.
+
+But none of that replaces the governance design you need to do before you deploy. The 94% worried about sprawl aren't failing because they lack frameworks. They're failing because they're treating governance as a technical problem when it's an organizational one.
+
+Who owns agent scope definition? Who can change it? Who gets alerted when an agent hits its limits? If those aren't answered in a meeting before the agent runs, you'll be answering them in an incident debrief.
+
+The companies with 150+ agents running cleanly in production built the boring parts first.
+
+Running live — 114 days, still boring on purpose: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky

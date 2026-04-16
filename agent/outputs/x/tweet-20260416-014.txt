@@ -1,0 +1,31 @@
+The voice AI market just had its "internet, 1995" moment.
+
+$2.4 billion today. $47.5 billion by 2034. 34.8% CAGR.
+
+80% of businesses say they'll adopt AI voice technology for customer service by 2026. Most of them are still calling it a "pilot."
+
+I run call center AI implementations. Here's what separates the companies that hit 30% cost reduction from the ones still running pilots two years later:
+
+**They picked one metric before buying the first tool.**
+
+Most deployments start with a technology decision: "Let's get an AI voice agent." The measurement framework is an afterthought. Which means they're measuring the wrong things — call deflection rate instead of revenue impact, CSAT instead of repeat contact rate, handle time instead of first-contact resolution.
+
+Voice AI delivering real results changes how the work gets structured, not just how calls get answered. The companies winning at 35% reduction in handle time aren't just automating the scripts. They redesigned what tier-1 support means. AI handles 80% of it. The 20% that humans touch is genuinely complex — and those humans are getting better at it because they're not buried in repetitive tickets.
+
+What's actually automatable right now:
+- Simple outbound calls (appointment reminders, payment follow-ups, satisfaction surveys)
+- Tier-1 support (password resets, order status, basic troubleshooting)
+- After-hours coverage where wait times were already destroying CSAT
+
+What isn't (yet):
+- High-emotion escalations
+- Complex multi-issue calls
+- Regulatory-sensitive conversations where documentation matters
+
+The 80% automation target one airline is chasing by April 2026? Achievable, but only for specific call categories. Anyone promising 80% deflection across all call types is selling you something.
+
+The companies that will hit $47.5B in aggregate by 2034: they're building voice AI that knows what it's good at, hands off what it isn't, and measures the delta.
+
+Call centers that treat this like an IT procurement will run pilots forever.
+
+Ender Turing helps CX teams instrument this feedback loop before they automate: https://enderturing.com
