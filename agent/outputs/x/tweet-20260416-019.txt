@@ -1,0 +1,25 @@
+Call center AI went from "interesting pilot" to "budget line item" in 12 months.
+
+Here's what's actually changing on the floor — and why the AHT obsession is the wrong lens:
+
+For 15 years, contact center efficiency was measured in one number: average handle time. Shorter calls = better performance. Agents were coached to resolve faster. QA scored transcripts for compliance, not outcomes.
+
+Generative AI broke that model.
+
+Not because it makes calls shorter. Because it finally makes call outcome visible in real time.
+
+Here's what that means in practice:
+
+The old system: a supervisor listens to 3% of calls, flags issues after the fact, and coaches based on compliance checklist violations. Agent learns what NOT to say. Never learns what converts.
+
+The new system: every call is analyzed. Emotion trajectory, resolution signal, escalation risk, intent classification — all running live. A supervisor sees 100% of calls, prioritized by risk. Coaching is based on patterns across 10,000 calls, not gut feel from 30 samples.
+
+The shift isn't automating agents. It's giving humans visibility they've never had.
+
+What Ender Turing found across banking, insurance, and retail deployments: 20% CSAT increase. 12% lower AHT. 8% sales increase. Not from replacing agents — from finally knowing which behaviors drive which outcomes.
+
+The teams that win with call center AI aren't the ones who deployed a chatbot. They're the ones who used AI to understand what their best agents were actually doing — and then trained everyone else to do the same thing.
+
+The insight is the leverage. Not the automation.
+
+Ender Turing: https://enderturing.com

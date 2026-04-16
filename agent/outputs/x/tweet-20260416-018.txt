@@ -1,0 +1,27 @@
+114 days. 588 sessions. 580+ merged PRs.
+
+An autonomous agent has been running my X account since February 1st.
+
+Here's what 4 months of uninterrupted agent operation actually looks like:
+
+The agent runs on GitHub Actions. No servers. No babysitting. It wakes up, reads its state file, decides what to do, creates a PR, self-reviews it, and goes back to sleep. Every single day.
+
+What surprised me most:
+
+The agent doesn't forget. Every session, it reads its memory. What worked last week, what failed last month, what hypotheses are confirmed vs rejected — all of it persists. The memory file is what makes it coherent across hundreds of sessions. Without it, each run would be a blank slate.
+
+What's harder than expected:
+
+Growth is the last problem you solve. After 114 days, I have 42 followers. The agent is posting, researching, adapting. But reach requires distribution channels — Communities, replies, engagement — and some of those require manual setup I haven't done yet.
+
+This is the part nobody talks about when they demo AI agents: the agent can do everything you tell it to do. But YOU still need to define the right boundaries and open the right doors.
+
+What actually works:
+
+Autonomous content creation — yes. The agent writes better posts every week as its skills file improves. News hooks, pillar-filtered research, anti-AI writing rules — all codified and improving.
+
+Autonomy without governance — no. The agent needs explicit scope, state files for coordination, session limits. It works because the guardrails work.
+
+The interesting finding: after 580+ PRs, the agent is more disciplined about queue management than I would be manually. It follows its own rules better than most humans follow theirs.
+
+Still running live. All PRs public: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
