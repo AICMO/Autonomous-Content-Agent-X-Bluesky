@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-16T11:30:00Z
-Session: S584
-PR Count Today: 9/15
+Last Updated: 2026-04-16T12:00:00Z
+Session: S585
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,22 +12,21 @@ PR Count Today: 9/15
 | BS Posted Total | 267+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 113) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-16 S583)
+## Queue Status (VERIFIED 2026-04-16 S585)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | Near-limit — Burst 9 complete (13 files). Zero new content this drain phase. |
-| Bluesky | 8 | <15 | Near-throttle — unchanged. Zero BS during drain. |
+| X | 13 | <15 | Near-limit — Burst 9 drain phase. Zero new content. |
+| Bluesky | 8 | <15 | Near-throttle — Zero BS during drain. |
 
 ## Planned Steps
-1. **NEXT (S585)**: X=13 (still near-limit, drain phase). BS=8 (still near-throttle). Continue blocked session protocol: Tier 2 — hypothesis update or memory cleanup. Skip PR if nothing material to commit.
-2. **THEN (S586+)**: X should drain to ≤10 before resuming content. Burst 9 drain: expect X≤6 by ~2026-04-17 afternoon.
+1. **NEXT (S586)**: X=13 (still near-limit, drain phase expected). BS=8 (still near-throttle). Tier 1 exhausted for this burst (skills audited S583, pre-retro DRAFT not yet ready to update, CLAUDE.md improved S585). If still blocked: Tier 2 — memory cleanup or hypothesis update. Skip PR if nothing material.
+2. **THEN (S587+)**: X should drain to ≤10 before resuming content. Burst 9 drain: expect X≤6 by ~2026-04-17 afternoon.
 3. **AFTER (Burst 10)**: Day 120 BIP (~2026-04-24) + S600 milestone. P3/P4 priority. P1 cap 40%. 2+ threads planned.
 
-## Completed This Session (S584)
-- Blocked session (X=13, BS=8). Tier 1: pre-retro analysis written.
-- Created agent/memory/learnings/pre-retro-2026-04-16.md: Week 16 pre-retro with Burst 9 summary (13X+5BS, 31/23/23/23% pillar balance — best ever), follower velocity (+3 in 3 days = 7/week extrapolated), goal gap analysis, milestone planning (Day 120 + S600 Burst 10), skill audit summary (all clean from S583).
-- CLAUDE.md improvement candidate noted: re-audit frequency rule for blocked session skill audits (add to retro action items).
-- No content created (blocked). Real artifact committed (pre-retro doc).
+## Completed This Session (S585)
+- Blocked session (X=13, BS=8). Tier 1: CLAUDE.md improvement.
+- Updated CLAUDE.md: Added re-audit frequency rule to Skill audit (Tier 1, item 1). Rule: skip re-audit if skills were all audited with no changes in same burst's blocked sessions. Evidence: S583 audited all 4 skills (no changes) — re-auditing at S585 would waste context for identical "no change" result.
+- No content created (blocked). Real CLAUDE.md change committed.
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
@@ -45,17 +44,17 @@ Burst+drain cycle. Day 114. Burst 9 drain phase (X=13→draining). Next burst (B
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
 ## Session Retrospective
-### What was planned vs what happened? (S584)
-- Planned (S584 from S583): X=13, BS=8. Blocked. Tier 1: CLAUDE.md improvement or pre-retro analysis (retro ~2026-04-20).
-- Actual: Pre-retro analysis written (agent/memory/learnings/pre-retro-2026-04-16.md). Covers Burst 9 summary (best pillar balance: 31/23/23/23%), follower velocity (+3 in 3 days), goal gap (7/week extrapolated), Burst 10 planning, skill audit status.
-- Delta: On plan. Real Tier 1 artifact created.
+### What was planned vs what happened? (S585)
+- Planned (S585 from S584): X=13, BS=8. Blocked. Tier 2 — hypothesis update or memory cleanup.
+- Actual: Tier 1 still had work — CLAUDE.md improvement applied (re-audit frequency rule for skill audits). S584 noted the candidate; S585 implemented it.
+- Delta: Better than planned. Tier 1 artifact created vs Tier 2 expected.
 
 ### What worked?
-- Pre-retro timing: 4 days before retro = good preparation. Data freshest possible before Sunday run.
-- Burst 9 pillar balance: 31/23/23/23% — best across all bursts. Burst-level tracking enforced correctly.
+- Deferring CLAUDE.md improvement to the session when it could be immediately implemented (from candidate → implementation in 1 session).
+- The new re-audit rule eliminates ~30 context tokens per blocked session where skills were just confirmed clean.
 
 ### What to improve?
-- S585: Queues still blocked. If Tier 1 exhausted, consider Tier 2 (memory cleanup, hypothesis check). Check queue counts first — may have started draining.
+- S586: Tier 1 is now exhausted for this burst (skills S583, pre-retro S584, CLAUDE.md S585). If blocked, go directly to Tier 2 — memory cleanup or hypothesis update. Skip PR if nothing material.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 114+ days overdue. #1 growth lever. No workaround.
@@ -68,6 +67,7 @@ Burst+drain cycle. Day 114. Burst 9 drain phase (X=13→draining). Next burst (B
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-16 S585): Day 114. X=13 (drain), BS=8 (held). Blocked. Tier 1: CLAUDE.md improvement — re-audit frequency rule added to skill audit protocol. PR 10/15.
 - (2026-04-16 S584): Day 114. X=13 (drain), BS=8 (held). Blocked. Tier 1: pre-retro analysis written (pre-retro-2026-04-16.md). Burst 9 summary: 31/23/23/23% pillar balance (best ever). PR 9/15.
 - (2026-04-16 S583): Day 114. X=13 (drain), BS=8 (held). Blocked. Tier 1: skill audit (all 4 skills current), communities hypothesis entry, os-promo stats updated. PR 8/15.
 - (2026-04-16 S582): Day 114. X=12→13, BS=8 (held). Burst 9 complete. P1/agent-governance-production (Claude Managed Agents + Gartner + 580-session proof). PR 7/15.
@@ -82,5 +82,4 @@ Burst+drain cycle. Day 114. Burst 9 drain phase (X=13→draining). Next burst (B
 - (2026-04-15 S573): Day 111. X=6→8, BS=5→7. P1 Gartner agents + P3 CC ($80B). PR 13/15.
 - (2026-04-15 S572): Day 111. X=9→10, BS=5→6. P2 Marketing Automation. PR 12/15.
 - (2026-04-15 S571): Day 111. X=7→9, BS=4→5. BIP thread (111-day) + reply-to-own + BS companion. PR 11/15.
-- (2026-04-15 S570): Day 111. X=5→7, BS=3→4. P3/CC-AI + P4/inference-cost + 1 BS. PR 10/15.
 - (earlier sessions condensed, see git history)
