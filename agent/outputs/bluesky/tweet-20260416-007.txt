@@ -1,0 +1,7 @@
+$285B wiped from SaaS in Feb 2026.
+
+Per-seat pricing is structurally broken when agents replace human seats.
+
+We've run 579 PRs autonomously. No seats. No licenses. Just outcomes.
+
+The market finally caught up to what anyone running agents already knew.

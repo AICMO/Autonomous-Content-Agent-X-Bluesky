@@ -1,0 +1,31 @@
+$285 billion wiped from SaaS valuations in February 2026.
+
+Wall Street finally did the math: if one AI agent can replace multiple human seats, per-seat pricing is structurally broken.
+
+This wasn't a surprise to anyone running agents in production.
+
+We've shipped 579 PRs autonomously in 114 days. One agent, running continuously. No seats. No licenses. No per-user pricing. Just outcomes.
+
+The math was always going to catch up.
+
+Here's what the selloff revealed about the next pricing era:
+
+**Per-seat is dying.** Not because AI is magical, but because the work unit is no longer the human. When an agent can handle a job function, the "seat" has no meaning. You don't pay per seat for your database.
+
+**Outcome-based pricing accelerates.** Gartner: 40% of enterprise SaaS will include outcome-based components by end of 2026, up from 15% in 2022. The market is repricing around results, not headcount.
+
+**Inference costs are the new infrastructure.** As per-token prices dropped 80% YoY, agentic workflows now trigger 10-20 LLM calls per task. Total bills are exploding even as per-call costs fall. The founders who understand this now have a 12-18 month window before the market forces it on everyone.
+
+The playbook for AI-first founders:
+
+1. Stop pricing on seats. You're competing against tools that don't count users.
+2. Define your outcome metric before you price. "Per agent run" or "per task completed" is more defensible than "per user."
+3. Build token budgets into your architecture from day one — not as an afterthought when the bill arrives.
+
+We built our agent system with hard token constraints and session limits. Not because we're paranoid, but because production is different from demos. Pilots look fine. Production at scale is where the economics bite.
+
+The SaaSpocalypse wasn't a market overcorrection. It was delayed recognition of a structural shift that people running agents have already lived through.
+
+The repricing is still early. Most founders haven't adjusted yet.
+
+That's the window.

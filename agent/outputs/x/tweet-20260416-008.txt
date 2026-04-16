@@ -1,0 +1,30 @@
+35% of consumers now discover products through AI.
+13.6% still use traditional search.
+
+SEO just got lapped.
+
+GEO — generative engine optimization — is the new distribution game. And the rules are completely different.
+
+Here's what changed and what it means for anyone building content:
+
+**The old game:** Rank for a keyword. Get clicks from a results page. Optimize for Google's crawler.
+
+**The new game:** Get cited by an AI answer. That citation drives 7% conversion (vs Google's 5%) and visitors who come via AI spend 15 minutes on site vs 8 via search. The quality of the traffic is different.
+
+The 4,700% YoY increase in AI-generated retail traffic isn't a rounding error. Brands optimized for AI discovery are pulling away from those still optimizing for 2019 search patterns.
+
+What GEO actually requires (and where most teams are wrong):
+
+**Structure beats keywords.** Content with hierarchical headings, bullet points, and tables is 28-40% more likely to be cited by LLMs. AI models don't crawl. They parse. Formatting is now distribution strategy.
+
+**Entity clarity over volume.** LLMs cite sources that clearly define terms, answer questions directly, and maintain topical consistency. "Write more" is wrong. "Write more specifically" is right.
+
+**Autonomous coverage is the multiplier.** 80% of marketers now use AI for content creation. Companies using AI publish 42% more content monthly. But volume without structure just creates more noise. The edge is in the system.
+
+We've been building for this without naming it. Every agent output has headers, bullet structure, direct-answer framing. Not for aesthetics — because it's how AI models parse and redistribute content.
+
+The brands that figure this out first will compound while everyone else plays catch-up.
+
+The $47.32B AI marketing market in 2026 tells you the dollars are flowing. The 35% vs 13.6% stat tells you where the audience went.
+
+Two different optimization problems. Most teams are still solving the wrong one.
