@@ -1,0 +1,21 @@
+Voice AI per-call cost: $0.40.
+
+Human agent per-call cost: $7-$12.
+
+That's a 95% cost reduction. But here's the number that actually matters for enterprise decisions: 3-year ROI of 331-391%.
+
+I've seen contact center executives dismiss voice AI because they focus on the per-call math and miss the business case. The per-call savings are real. But they're not why voice AI gets budget approved.
+
+What gets budget approved:
+
+1. Call abandonment rates down 50%. Every abandoned call is lost revenue or unresolved support. In a 1,000-seat contact center, cutting abandonment 50% is $3-5M in recovered revenue per year — and that number doesn't show up in per-call math.
+
+2. 24/7 availability without overtime. The human staffing model breaks on nights, weekends, and peak seasons. You either staff for peaks (expensive) or queue customers (bad experience). Voice AI handles the overflow at $0.40/call regardless of when the call comes in.
+
+3. Consistency on every call. Human agents vary by shift, training level, tenure, and day of the week. Voice AI runs the same QA protocol on call 1 and call 50,000. For regulated industries (banking, healthcare, insurance), that consistency is compliance value, not just customer experience value.
+
+78% of top 50 banks now have production voice agents deployed. Up from 34% in 2024. That's not a pilot statistic — that's mainstream enterprise infrastructure.
+
+The call center isn't automating because $0.40 sounds nice. It's automating because the ROI case is 3-4x on a 3-year payback.
+
+Anyone still building a "wait and see" position on voice AI is watching competitors lock in 3-year cost advantages.

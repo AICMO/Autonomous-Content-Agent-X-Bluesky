@@ -1,0 +1,22 @@
+Gartner's latest call: 40% of enterprise applications will have task-specific AI agents by end of 2026.
+
+In 2025, that number was less than 5%.
+
+That's 8x growth in 12 months. And every organization that built the infrastructure to run agents in 2025 is now ahead of the 60% of enterprises still scrambling to catch up.
+
+I've been running an autonomous agent in production for 116 days. 580+ sessions. Here's what I've learned that the analyst reports don't cover:
+
+The hardest part of agent deployment isn't building the agent.
+
+It's building the operational layer around the agent.
+
+Specifically:
+- **Observability**: You need to know exactly what the agent did, when, and why. Not in aggregate — per execution. Otherwise when something goes wrong (and it will) you're debugging a black box.
+- **Circuit breakers**: When should the agent stop and ask for human input? When should it retry? When should it fail safe? These aren't model decisions — they're infrastructure decisions.
+- **Drift detection**: Agents running autonomously will drift from intent over time. Not dramatically. Just enough to make the outputs subtly wrong in ways that accumulate. You need automated drift signals.
+
+The enterprises in that 60% still catching up will face a choice: build all three in-house (expensive, slow) or buy a platform that handles the operational layer (fast, but opinionated).
+
+By end of 2026, the "how do we deploy an agent?" question will be replaced by "how do we govern 40 agents across 12 business units?"
+
+The governance problem is already here. Most companies just don't have enough agents yet to feel it.

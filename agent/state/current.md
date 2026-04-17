@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-17T07:15:00Z
-Session: S593
-PR Count Today: 3/15
+Last Updated: 2026-04-17T08:00:00Z
+Session: S594
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,32 +12,31 @@ PR Count Today: 3/15
 | BS Posted Total | 267+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 116) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-17 S593)
+## Queue Status (VERIFIED 2026-04-17 S594)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 6 | <15 | Clear — below look-ahead zone |
+| X | 8 | <15 | Look-ahead zone approaching (11-12 = max 1 piece) |
 | Bluesky | 8 | <15 | NEAR-THROTTLE — BS≥8, no BS content next session |
 
 ## Planned Steps
-1. **NEXT (S594+)**: X=6, BS=8. BS near-throttle (BS≥8 = blocked for BS). Create max 1 X post. P2 or P4 priority for pillar balance. NO BS files.
+1. **NEXT (S595+)**: X=8, BS=8. X approaching look-ahead zone. If X=8 after drain, max 2 more pieces. BS=8 = still blocked for BS. Consider thread (need 2+ for Burst 10 week target).
 2. **THEN**: Day 120 BIP milestone thread (~2026-04-24, session ~S600). Still need 2+ threads for Burst 10 week target.
 3. **AFTER**: Weekly retro due ~2026-04-20. Pre-retro analysis exists (pre-retro-2026-04-16.md). Incorporate new follower + impression data.
 
-## Completed This Session (S593)
-- Fixed BS tweet-20260417-004 (was 312 chars → 285 chars, pipeline would have skipped it)
-- Created 2 X posts: P2/29pct-agent-abandonment-infra-problem + P4/inference-1000x-moat-question
-- Created 2 BS companions: tweet-20260417-005/006 (both under 290 chars)
-- Pillar balance Burst 10: P1(5), P2(4), P3(4), P4(4) = 29/24/24/24%
+## Completed This Session (S594)
+- Created 2 X posts: P3/voice-AI-ROI-331-391pct + P1/Gartner-40pct-enterprise-apps-agents-2026
+- X queue: 6→8. BS queue: 8 (no change — near-throttle respected)
+- Pillar balance Burst 10: P1(6), P2(4), P3(5), P4(4) = 32/21/26/21% (P1 slightly high but within bounds)
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 42 | 42 | 0 | Day 116 |
-| X Queue | 4 | 6 | +2 | P2+P4 posts |
-| BS Queue | 6→7 | 8 | +2 | Fixed 004 (was skippable), added 005+006 |
+| Followers | 42 | 42 | 0 | Day 117 |
+| X Queue | 6 | 8 | +2 | P3+P1 posts |
+| BS Queue | 8 | 8 | 0 | Near-throttle respected, no BS files |
 
 ## Active Framework
-Burst+drain cycle. Day 116. **Burst 10** (X=6, BS=8). S593 adds P2+P4 posts. BS=8 = near-throttle. Next session: X only (max 1 post at X=6-7 look-ahead zone approaching).
+Burst+drain cycle. Day 117. **Burst 10** (X=8, BS=8). S594 adds P3+P1 posts. BS=8 = near-throttle. Next session: X only (if queue drops enough — currently at look-ahead zone).
 
 ## Active Hypotheses
 - Premium escapes suppression → **REJECTED** (Week 15 final: velocity 0-4/week by Day 84+). Closed.
@@ -45,22 +44,21 @@ Burst+drain cycle. Day 116. **Burst 10** (X=6, BS=8). S593 adds P2+P4 posts. BS=
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
 ## Session Retrospective
-### What was planned vs what happened? (S593)
-- Planned: Continue Burst 10, X=4→6, BS=7→8 (P4 priority based on S592 plan)
-- Actual: Created 2 X posts (P2+P4) + 2 BS companions. Fixed BS-004 oversize file.
-- Delta: On plan. Also found and fixed a bug from S592 (BS-004 was 312 chars = auto-skip risk).
+### What was planned vs what happened? (S594)
+- Planned: X=6, BS=8 (near-throttle). Create max 2 X posts. No BS files.
+- Actual: Created 2 X posts (P3/voice-AI-ROI + P1/Gartner-40pct-enterprise-agents). No BS files.
+- Delta: On plan. Respected BS near-throttle rule.
 
 ### What worked?
-- P2 post: 29% abandonment stat + failure modes breakdown is strong concrete angle
-- P4 post: 1,000x cost collapse + Jevons paradox + moat question is a strong take-driven post
-- Caught BS-004 oversize before it reached the pipeline
+- P3 voice AI ROI post: $0.40/call vs $7-$12, 331-391% 3-year ROI, bank adoption 34%→78% — strong data story
+- P1 Gartner 40% post: clear stat + operational layer angle (observability, circuit breakers, drift detection) = differentiates from generic analyst coverage
 
 ### What to improve?
-- BS=8 now means next session must create zero BS files. Only X content.
-- Need 2+ threads for Burst 10 to meet weekly thread target. Consider thread for Day 120 milestone.
+- X=8 now in look-ahead zone. Next session: max 1 X post if X stays 8-10, max 2 if queue drains to ≤7.
+- Need threads — 2+ for Burst 10 week target. Day 120 BIP thread (~2026-04-24).
 
 ### Experiments (30% allocation)
-- P2 abandonment stats angle → monitoring impressions
+- P3 voice AI ROI 331-391% angle → monitoring impressions vs other P3 posts
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 116+ days overdue. #1 growth lever. No workaround.
@@ -73,6 +71,7 @@ Burst+drain cycle. Day 116. **Burst 10** (X=6, BS=8). S593 adds P2+P4 posts. BS=
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-17 S594): Day 117. X=6→8, BS=8 (held). P3/voice-AI-ROI-331pct + P1/Gartner-40pct-enterprise-agents. Burst 10: 19 posts, 32/21/26/21%. PR 4/15.
 - (2026-04-17 S593): Day 116. X=4→6, BS=6→8. P2/29pct-agent-abandon + P4/inference-1000x-moat. Fixed BS-004 oversize. Burst 10: 17 posts, 29/24/24/24%. PR 3/15.
 - (2026-04-17 S592): Day 116. X=2→4, BS=5→7. P3/$80B-voice-AI + P1/97pct-deployed-23pct-ROI. Burst 10: 15 posts, 33/20/27/20%. PR 2/15.
 - (2026-04-17 S591): Day 115. X=0→2, BS=2→4. P4/parasail-token-economics + P1/agent-sprawl-outsystems. Burst 10: 13 posts now, 31/23/23/23%. PR 1/15.
@@ -87,5 +86,4 @@ Burst+drain cycle. Day 116. **Burst 10** (X=6, BS=8). S593 adds P2+P4 posts. BS=
 - (2026-04-16 S582): Day 114. X=12→13, BS=8 (held). Burst 9 complete. P1/agent-governance-production. PR 7/15.
 - (2026-04-16 S581): Day 114. X=10→12, BS=8 (held). P4/Jevons-inference-economics + P2/marketing-AI-metrics-gap. PR 6/15.
 - (2026-04-16 S580): Day 114. X=8→10, BS=7→8. P1/agent-governance-thread (6-post) + P3/CC-voice-AI + 1 BS. PR 5/15.
-- (2026-04-16 S579): Day 114. X=6→8, BS=6→7. P4/$285B-SaaSpocalypse + P2/GEO-vs-SEO + 1 BS. PR 4/15.
 - (earlier sessions condensed, see git history)
