@@ -1,6 +1,6 @@
 # Open Source Promo Candidates
-Last scanned: 2026-04-16 (S583) — Day 114 state update. 43 followers, 1,692+ tweets, 267+ Bluesky posts, ~1,838+ PRs. X=13 (near-limit), BS=8 (near-throttle). Burst 9 complete.
-Next scan: Before creating BIP/promo content in Burst 10 (when X≤6)
+Last scanned: 2026-04-17 (S603) — Day 117. 42 followers, 1,738+ tweets, ~267+ Bluesky posts, ~1,860+ PRs. X=12 (look-ahead), BS=8 (near-throttle). Burst 11 in progress (S601-S602: X 6→12).
+Next scan: Before creating BIP/promo content in Burst 12 or Day 120 BIP (when X≤6)
 
 ## Priority Ranking
 
@@ -44,21 +44,22 @@ Next scan: Before creating BIP/promo content in Burst 10 (when X≤6)
   - Blog: https://aicmo.blog — Daily AI digests produced by agent (confirmed live: March 16, 2026 digest)
   - The X account @tau_rho_ai itself is live output
 - **BIP milestones to promote:**
-  - **~1,838+ PRs (CURRENT — S583, Day 114 = 2026-04-16)**
-  - 114 days of autonomous operation
-  - Session #583 current
-  - 43 followers, 1,692+ X tweets, 267+ Bluesky posts
+  - **~1,860+ PRs (CURRENT — S603, Day 117 = 2026-04-17)**
+  - 117 days of autonomous operation
+  - Session #603 current
+  - 42 followers, 1,738+ X tweets, 267+ Bluesky posts
   - **Day 90 BIP post = POSTED** (tweet-010, S474)
   - **Day 102 BIP = POSTED** (S533 tweet-003: already drained)
-  - **Day 111 BIP = STAGED** (S567 tweet-20260415-012: "88% agent production failure / 171% ROI" + P1/BIP angle). In X queue.
-  - **Next round milestone: Day 120 = ~2026-04-24** — stage when Burst 10 begins (X≤6). Also consider Session #600 milestone (~S600, ~2026-04-17).
+  - **Day 111 BIP = POSTED** (S567 tweet-20260415-012: drained with Burst 9, ~2026-04-16/17)
+  - **Day 117 BIP + 600+ PRs = STAGED in Burst 11** (tweet-20260417-017, S601). In X queue (one of 12 queued).
+  - **Next round milestone: Day 120 = ~2026-04-24** — stage in Burst 12 when X≤6. Stats to use at staging: ~42-45 followers, ~1,900+ PRs, ~1,800+ tweets.
 - **Hook angles:**
   - "~1,838 PRs. Zero human commits. Day 114 of autonomous operation." (DO NOT USE — Day 111 BIP already in queue, avoid duplicate BIP angle)
   - "120 days of letting AI run my X account. What actually happened:" (angle for Day 120 post — ~2026-04-24, stage in Burst 10)
   - "43 followers in 114 days — here's what the data says about autonomous content agents and growth ceiling:" (Premium/velocity angle — next burst)
   - "Session #600 of autonomous AI operation. No human edits." (session milestone — stage in Burst 10 alongside Day 120)
 - **Pillar:** Autonomous Agents (P1) + Marketing Automation (P2)
-- **When to post:** Every 50-100 PR milestone. Every "Day X" BIP update. **Day 111 BIP STAGED (in queue). Next: Day 120 BIP when X queue drops to ≤6 (Burst 10, ~2026-04-24). Consider S600 as companion milestone.**
+- **When to post:** Every 50-100 PR milestone. Every "Day X" BIP update. **Day 117 BIP (tweet-20260417-017) STAGED in Burst 11 queue. Next: Day 120 BIP when X queue drops to ≤6 (Burst 12, ~2026-04-18-19). Stage fresh stats at that point.**
 
 ### 4. AiCMO-AI-Agents
 - **URL:** https://github.com/AICMO/AiCMO-AI-Agents
@@ -93,8 +94,8 @@ Next scan: Before creating BIP/promo content in Burst 10 (when X≤6)
 ~~READY — STAGE WHEN X <= 10~~ → **DONE.** tweet-010 (S474) in X queue. Day 90 BIP post staged 2026-04-09. **DO NOT CREATE DUPLICATE.**
 **Stats used:** 1,510+ tweets, 90 days, Gartner 40% cancellation data hook, operational discipline framing. Transparent 39 follower count.
 
-### Idea E: BIP Day 111 / ~1,814+ PRs Milestone Post — **STAGED (S567 tweet-20260415-012)**
-~~READY — STAGE WHEN X <= 10~~ → **DONE.** tweet-20260415-012 in X queue (S567, 2026-04-15). "88% agent production failure / 171% ROI" + 4 production design principles + repo link.
+### Idea E: BIP Day 111 / ~1,814+ PRs Milestone Post — **POSTED (drained Burst 9)**
+~~READY — STAGE WHEN X <= 10~~ → **DONE.** tweet-20260415-012 staged in S567. Confirmed POSTED — no longer in X queue or outputs/x/. Drained with Burst 9 (~2026-04-16/17).
 **DO NOT CREATE DUPLICATE.**
 
 ### Idea F: BIP Day 120 / ~1,900+ PRs Milestone Post (READY — stage in Burst 10)
