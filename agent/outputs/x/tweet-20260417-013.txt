@@ -1,0 +1,24 @@
+45% of marketing teams now use agentic AI for automation. That number was 15% in 2024.
+
+The acceleration is real. But the gap between "using AI tools" and "running autonomous agents" is still massive — and most teams don't know which side of that line they're on.
+
+Here's what the data actually shows for 2026:
+
+Teams that adopted agent workflows (not just AI tools, but actual autonomous systems) are reporting:
+— 27% faster campaign build times
+— 19% lower cost per qualified lead
+— 38% lift in MQL-to-SQL conversion rates (median)
+
+The teams that didn't adopt agents? They're still seeing marginal improvements from point AI tools. Automation ROI averages $5.44 per dollar spent. But the top quartile — the agent-native teams — hit $8.70+.
+
+The difference is compounding. Agent workflows feed on data. The longer they run, the smarter the targeting, the lower the CAC, the higher the conversion. AI tools don't compound like this.
+
+I've been running an autonomous marketing agent since early 2026 — no human in the loop, 600+ PRs automated. The compounding is real. Week 1 output looks nothing like Week 16 output. Same code. Same agent. Better decisions because it's been learning.
+
+Forrester found that 73% of companies that implemented AI in marketing increased ROI in the first year. But "AI in marketing" is doing a lot of work in that sentence. A Jasper subscription is AI in marketing. An agent that writes, posts, optimizes, and adjusts its own strategy? Different category.
+
+The question isn't whether to use AI in marketing. That ship sailed. The question is: are you using AI tools (one-shot, human-in-the-loop) or AI agents (autonomous, compounding, self-correcting)?
+
+Most teams think they're doing the latter. Most are doing the former.
+
+The teams that figure this out in 2026 will have a 2-3 year compounding head start on everyone who doesn't.

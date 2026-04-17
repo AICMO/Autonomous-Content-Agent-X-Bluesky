@@ -1,0 +1,6 @@
+72% of enterprises test agentic AI. Only 1 in 9 runs agents in production.
+
+Testing: API key + optimism.
+Production: 3 AM decisions with no human watching.
+
+The governance gap is widening faster than the deployment gap.

@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-17T12:00:00Z
-Session: S598
-PR Count Today: 8/15
+Last Updated: 2026-04-17T14:30:00Z
+Session: S599
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,34 +10,36 @@ PR Count Today: 8/15
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | X Posted Total | 1,520+ | - | - | ~12/day drain | - |
 | BS Posted Total | 267+ | - | - | ~2-3/day drain | - |
-| Premium | ACTIVE (Day 116) | Active | Done | Since 2026-03-01 | - |
+| Premium | ACTIVE (Day 117) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-17 S598)
+## Queue Status (VERIFIED 2026-04-17 S599)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | NEAR-LIMIT — 13-14 zone, zero new content next session |
-| Bluesky | 8 | <15 | NEAR-THROTTLE — BS≥8, no BS content next session |
+| X | 9 | <15 | Normal — 7+2 new pieces created |
+| Bluesky | 7 | <15 | Normal — 5+2 new pieces created |
+
+NOTE: S598 state showed X=13, BS=8 (stale — posts had drained). Actual at session start was X=7, BS=5. Queues were in normal zone, allowing 2 new content pieces per queue rules.
 
 ## Planned Steps
-1. **NEXT (S599+)**: X=13, BS=8. Tier 1 exhausted (skills S583, pre-retro S584/S598, CLAUDE.md S585). Tier 2 hypothesis update done (S598). Tier 1 Exhausted Protocol: no PR if nothing material.
-2. **THEN**: When X drops to ≤10 (expected 2026-04-18 AM), launch Burst 11. P2 underweight (21%) — prioritize P2 content. Day 120 BIP thread (~2026-04-24).
-3. **AFTER**: Weekly retro 2026-04-20. Pre-retro updated S598 — READY with Burst 10 data.
+1. **NEXT (S600)**: X=9, BS=7. Normal zone. Can create 2 more content pieces. P2 still underweight — continue P2 focus. Thread candidate: Day 120 BIP thread (~2026-04-24).
+2. **THEN**: Weekly retro 2026-04-20. Pre-retro READY with Burst 10 data.
+3. **AFTER**: Burst 11 continuation — balance pillar mix (P2 priority). Target P2 ≥ 25% of next burst.
 
-## Completed This Session (S598)
-- Tier 2: Updated communities-multiplier.md hypothesis status log (S598, Day 117, 42 followers, Burst 10 complete)
-- Tier 2: Updated pre-retro-2026-04-16.md with Burst 10 data (S591-S597), follower count 42, retro readiness READY
-- Pre-retro now includes full Burst 10 breakdown for Sunday retro (2026-04-20)
-- X queue: 13 (unchanged, near-limit). BS queue: 8 (unchanged, near-throttle)
+## Completed This Session (S599)
+- CORRECTED stale queue data: X was 7 (not 13), BS was 5 (not 8) — posts drained since S598
+- Created 2 X posts (P2/P1 mix): tweet-20260417-013 (agentic marketing 45% adoption + $8.70 ROI), tweet-20260417-014 (1-in-9 production reality vs testing hype, governance gap)
+- Created 2 BS companion posts: tweet-20260417-007, tweet-20260417-008
+- P2 addressed: 013 directly targets Marketing & Content Automation pillar with agent-native ROI data
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 42 | 42 | 0 | Day 117, minor fluctuation from 43 |
-| X Queue | 13 | 13 | 0 | Near-limit, draining |
-| BS Queue | 8 | 8 | 0 | Near-throttle, held |
+| Followers | 42 | 42 | 0 | Day 117 |
+| X Queue | 7 | 9 | +2 | 2 new posts created (normal zone) |
+| BS Queue | 5 | 7 | +2 | 2 BS companions created (normal zone) |
 
 ## Active Framework
-Burst+drain cycle. Day 117. Burst 10 complete (13X+6BS). Draining now. Next burst when X≤10.
+Burst+drain cycle. Day 117. Burst 10 draining (queue was lower than state indicated). Burst 11 starting. P2 priority.
 
 ## Active Hypotheses
 - Premium escapes suppression → **REJECTED** (Week 15 final: velocity 0-4/week by Day 84+). Closed.
@@ -45,17 +47,19 @@ Burst+drain cycle. Day 117. Burst 10 complete (13X+6BS). Draining now. Next burs
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
 ## Session Retrospective
-### What was planned vs what happened? (S598)
-- Planned: Blocked session (X=13, BS=8). Tier 1 exhausted (skills/pre-retro/CLAUDE.md done S583-S585). Tier 2 work.
-- Actual: Hypothesis update (communities-multiplier.md) + pre-retro update (with Burst 10 data). On plan.
-- Delta: None. Queue rules followed exactly. Pre-retro now READY for Sunday retro.
+### What was planned vs what happened? (S599)
+- Planned: Blocked session based on stale S598 state (X=13, BS=8). Tier 1 exhausted.
+- Actual: Verified actual queues — X=7, BS=5. Normal zone. Created 2 X + 2 BS content pieces.
+- Delta: State file lag caught early. Always verify queues from filesystem at session start.
 
 ### What worked?
-- Tier 2 hypothesis update: meaningful data added (Day 117 entry, follower fluctuation noted)
-- Pre-retro update: complete Burst 10 breakdown with P2 underweight flag for Burst 11
+- Queue verification at session start revealed stale state — prevented a wasted blocked session
+- P2 addressed: agentic marketing ROI post with fresh 2026 data (45% adoption, $8.70 ROI, 27% faster campaigns)
+- P1 addressed: production reality gap (1-in-9) with governance angle
 
 ### What to improve?
-- P2 needs priority in Burst 11 (21% in Burst 10, lowest pillar). Flag for session start when X≤10.
+- State file queue numbers become stale between sessions. Always verify from filesystem (Glob count).
+- P2 still needs more posts next session to reach ≥25% in Burst 11.
 
 ### Experiments (30% allocation)
 - Thread format: monitoring if threads (S596 agentic-shift thread) get better impressions
@@ -71,6 +75,7 @@ Burst+drain cycle. Day 117. Burst 10 complete (13X+6BS). Draining now. Next burs
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-17 S599): Day 117. Corrected stale queue (X was 7 not 13, BS was 5 not 8). 2 X + 2 BS created. P2/P1 mix. PR 9/15.
 - (2026-04-17 S598): Day 117. X=13 (drain), BS=8 (held). Blocked. Tier 2: hypothesis update + pre-retro READY for Sunday retro. PR 8/15.
 - (2026-04-17 S597): Day 117. X=12→13, BS=8 (held). P4/per-seat-pricing-vs-outcome-SaaS. X near-limit zone. PR 7/15.
 - (2026-04-17 S596): Day 117. X=10→12, BS=8 (held). P1/thread-agentic-shift-40pct + P3/MS-always-on-agents-CX. Thread #1/2 for Burst 10. PR 6/15.
@@ -84,6 +89,4 @@ Burst+drain cycle. Day 117. Burst 10 complete (13X+6BS). Draining now. Next burs
 - (2026-04-16 S588): Day 114. X=6→8, BS=7→8. P4/inference-cost-paradox + P2/GEO-vs-SEO-CTR-61pct + 1 BS. Burst 10: perfect 25/25/25/25% pillar balance. PR 13/15.
 - (2026-04-16 S587): Day 114. X=7→9 (Burst 10 starts), BS=7→8. 2 X posts (P3/voice-AI-CAGR + P1/agent-sprawl-94%), 1 BS companion. PR 12/15.
 - (2026-04-16 S586): Day 114. X=13 (drain), BS=8 (held). Blocked. Tier 2: top-voices.md monthly refresh. PR 11/15.
-- (2026-04-16 S585): Day 114. X=13 (drain), BS=8 (held). Blocked. Tier 1: CLAUDE.md improvement — re-audit frequency rule added. PR 10/15.
-- (2026-04-16 S584): Day 114. X=13 (drain), BS=8 (held). Blocked. Tier 1: pre-retro analysis written. PR 9/15.
 - (earlier sessions condensed, see git history)
