@@ -1,0 +1,16 @@
+Inference costs dropped 1,000x in 3 years. Enterprise AI bills are still exploding.
+
+That's not a paradox. That's Jevons' Paradox applied to tokens.
+
+GPT-4 equivalent now costs $0.40 per million tokens. In 2022 it was $20. Per-token cost is down 50x. But companies are running 50x more tokens. So the bill stays flat or grows.
+
+The part that breaks AI startup economics: agentic workflows multiply this fast. A standard chatbot sends 1-2 LLM calls per user interaction. An autonomous agent running iterative reasoning sends 10-20 calls per task. Same user. 10-20x the inference cost.
+
+Scale to 10K daily users and the math gets ugly fast — $150K to $750K/month in inference alone, depending on task complexity. The cost cliff hits somewhere between 500 and 5,000 users when cloud API pricing forces a shift to self-hosted GPUs.
+
+This is why AI-first SaaS has a different unit economics model than traditional software. 40-50%+ of revenue goes to COGS before you pay a single salary. Inference isn't overhead. It's a variable cost that scales with every action, every user, every automated decision.
+
+I learned this building autonomous agents and watching token spend multiply across sessions. The cost structure doesn't look like SaaS. It looks like infrastructure.
+
+The startups that survive will treat inference costs like a product engineering problem, not a finance problem. You optimize it in the architecture, not the budget.
+
