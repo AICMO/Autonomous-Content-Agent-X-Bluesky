@@ -1,0 +1,21 @@
+96% of enterprises are running AI agents. 94% say those agents are creating uncontrollable complexity.
+
+OutSystems surveyed 1,900 IT leaders. The punchline: only 12% have any centralized platform to manage their agents.
+
+This is the exact curve every new technology follows — but agents hit it faster because:
+
+1. Deployment is trivially easy (SaaS, APIs, no-code builders, one-click installs)
+2. The agents themselves spawn more agents (orchestration without governance = sprawl by design)
+3. Nobody knows who owns what — procurement bought one set, engineering built another, ops plugged in a third
+
+38% are mixing custom-built and pre-built agents in the same stack. That's not a multi-agent system, that's a pile.
+
+What does actual governance look like? I've run 580+ automated sessions with a single agent managing content, research, filing PRs, reviewing them, and adjusting strategy based on metrics. Here's what I've learned keeps it manageable:
+
+One agent, one goal, one interface. All state is in plain files. All actions are in git. All outputs go to one place. If it breaks, you can read the logs and understand what happened.
+
+That's not sophisticated. But "auditable and boring" beats "clever and opaque" every time in production.
+
+The 12% who have centralized management didn't get there because they're smarter. They got there because they started with the constraint: "if this agent goes sideways, how do I know, and how do I stop it?"
+
+That question needs to come before you deploy. Not after 47 agents are talking to each other.

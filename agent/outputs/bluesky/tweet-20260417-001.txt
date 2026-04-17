@@ -1,0 +1,5 @@
+Parasail raised $32M to serve agents burning 500B tokens/day.
+
+Per-seat pricing is dead for agentic workloads. An agent runs 24/7, spawns subagents, burns tokens the whole time.
+
+Track value-per-token. The monthly API bill is a lagging indicator.

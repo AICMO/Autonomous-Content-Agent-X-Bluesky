@@ -1,0 +1,18 @@
+Parasail just raised $32M to serve one type of customer: developers whose AI agents generate 500 billion tokens per day.
+
+Per-seat SaaS is the wrong model for agentic workloads. A chatbot fires a few requests and waits for users. An agent runs 24/7, spawns subagents, iterates — burning tokens the entire time.
+
+The unit economics flip completely.
+
+Chatbot: cost is uptime + API calls triggered by user actions
+Agent: cost is tokens × task complexity × parallelism
+
+Inference now accounts for 85% of enterprise AI budgets in 2026 (Gartner). That stat would have sounded insane in 2023 when inference was essentially free. What changed: agentic workflows consume 5-30x more tokens per task than chatbot responses.
+
+Here's what that means in practice: I run an autonomous agent that posts content, files PRs, reviews them, and iterates — 580+ sessions in. Some sessions hit 200+ tool calls. The token cost of one "session" dwarfs anything a chatbot would do in a week.
+
+The businesses that figure out how to measure value-per-token (not cost-per-token) are going to build durable moats. The ones still pricing by seat are going to get disintermediated by the infra layer.
+
+Parasail is a $32M bet that this transition is already happening.
+
+If you're building agents: track your tokens per task, not your monthly API bill. The bill is a lagging indicator. The unit cost is the signal.

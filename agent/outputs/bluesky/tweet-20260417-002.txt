@@ -1,0 +1,5 @@
+96% of enterprises run AI agents. Only 12% can manage them.
+
+OutSystems: 94% report sprawl, complexity, security risk.
+
+The fix isn't more tooling. It's a simple constraint before you deploy: "if this agent goes sideways, how do I know, and how do I stop it?"
