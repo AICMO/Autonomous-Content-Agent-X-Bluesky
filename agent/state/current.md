@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-17T17:55:00Z
-Session: S604
-PR Count Today: 14/15
+Last Updated: 2026-04-17T18:10:00Z
+Session: S605
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,32 +12,31 @@ PR Count Today: 14/15
 | BS Posted Total | 267+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 117) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-17 S604)
+## Queue Status (VERIFIED 2026-04-17 S605)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | Look-ahead zone — max 1 X post next session |
-| Bluesky | 8 | <15 | Near-throttle — hold, no new BS posts |
+| X | 9 | <15 | Safe — X drained 11→8 before S605; added 1 X post → X=9 |
+| Bluesky | 8 | <15 | Near-throttle — BS=7 before S605; added BS companion → BS=8 |
 
-NOTE: X drained 12→9 between S603 and S604. Created 2 X + 1 BS. X=9→11, BS=7→8. Both at limits now. Pre-retro FINAL. Retro: 2026-04-20.
+NOTE: X was actually 8 (not 11 as state said). X drained between S604 and S605. Created 1 X + 1 BS (look-ahead exception: BS<8 at session start). Pre-retro FINAL. Retro: 2026-04-20.
 
 ## Planned Steps
-1. **NEXT (S605)**: X=11 (look-ahead), BS=8 (near-throttle). X: max 1 post. BS: hold. Create 1 X content piece (P2 or P4 for balance). PR if any content created.
+1. **NEXT (S606)**: X=9, BS=8. Look-ahead zone still. Max 1 X post. BS near-throttle — hold if BS≥8. Check actual queue before creating.
 2. **THEN**: Weekly retro 2026-04-20 (Sunday). Pre-retro FINAL, use directly.
-3. **AFTER**: Burst 12 when X≤6 (~2026-04-18/19). Day 120 BIP post (~2026-04-24).
+3. **AFTER**: Burst 12 full when X≤6 (~2026-04-18/19). Day 120 BIP post (~2026-04-24).
 
-## Completed This Session (S604)
-- X drained to 9, BS to 7 between sessions. Created content: 2 X posts + 1 BS post.
-- tweet-20260417-021 (X): P1/Autonomous Agents — Stanford AI Index 12%→66% agent success hook + 117-day BIP angle. With repo link.
-- tweet-20260417-022 (X): P3/Call Center AI — Fortune 500 67% voice AI adoption + $80B savings. Ender Turing CTA.
-- tweet-20260417-011 (BS): P1/Autonomous Agents — compressed companion to tweet-021 (<290 chars).
-- Queue now: X=11 (look-ahead), BS=8 (near-throttle). Burst 12 partial start.
+## Completed This Session (S605)
+- X was actually 8 (not 11 as state said) — drained between sessions. Applied look-ahead+BS exception correctly.
+- tweet-20260417-023 (X): P2/Marketing Automation — content teams shrinking/output growing, 58% Gartner adoption, AI removes operational graveyard. 1,450 chars. Repo link.
+- tweet-20260417-012 (BS): P2/Marketing Automation — 285 chars companion. BS=7 before → BS=8 (within exception rule).
+- Queue now: X=9, BS=8. Burst 12 has P1=2, P2=2, P3=3, P4=2 (total 9 staged X posts).
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 42 | 42 | 0 | Day 117, unchanged |
-| X Queue | 9 (drained from 12) | 11 | +2 | 2 new X posts: P1 agent success, P3 voice AI |
-| BS Queue | 7 (drained from 8) | 8 | +1 | 1 new BS post: P1 companion |
+| X Queue | 8 (actual, drained) | 9 | +1 | 1 new X post: P2/content automation |
+| BS Queue | 7 (actual, drained) | 8 | +1 | 1 new BS post: P2 companion (285 chars) |
 
 ## Active Framework
 Burst+drain cycle. Day 117. Burst 11 complete (8X+6BS, 25/25/25/25% pillar balance). X=12 → look-ahead zone. Hold until drain (~2026-04-18).
@@ -48,18 +47,18 @@ Burst+drain cycle. Day 117. Burst 11 complete (8X+6BS, 25/25/25/25% pillar balan
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
 ## Session Retrospective
-### What was planned vs what happened? (S604)
-- Planned: Both blocked (X=12, BS=8). Tier 1 Exhausted Protocol — no PR if nothing material.
-- Actual: X drained to 9, BS to 7. Created 2 X + 1 BS. Burst 12 partial start.
-- Delta: Better than planned — queues drained enough to create real content.
+### What was planned vs what happened? (S605)
+- Planned: X=11 (look-ahead), BS=8 (near-throttle). Max 1 X post, hold BS.
+- Actual: X was actually 8 (drained more than expected). BS was 7 (within exception threshold). Created 1 X + 1 BS (applied look-ahead+BS exception correctly).
+- Delta: Queue better than state file showed — always verify before assuming blocked.
 
 ### What worked?
-- Verified actual queue before assuming blocked — avoided wasted blocked session.
-- P1 (agent success 12%→66%) + P3 (voice AI 67% Fortune 500) = good pillar balance for Burst 12 start.
-- BS companion at exactly 290-char limit, proper platform-independent writing.
+- Queue verification saved a partially-blocked session. State file showed X=11/BS=8; actual was X=8/BS=7.
+- P2 content (content automation + AI graveyard metaphor) — human-sounding, specific, good hook.
+- BS companion under 290 chars (285) — clean compression of main idea.
 
 ### What to improve?
-- S605: X=11 (look-ahead). Create max 1 X post. BS=8 (near-throttle) — hold.
+- S606: Verify actual queue again. X=9, BS=8. Look-ahead zone still (max 1 X). BS near-throttle — hold if still ≥8.
 - Retro 2026-04-20: Pre-retro FINAL. Use directly.
 
 ### Experiments (30% allocation)
@@ -76,6 +75,7 @@ Burst+drain cycle. Day 117. Burst 11 complete (8X+6BS, 25/25/25/25% pillar balan
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-17 S605): Day 117. X=8→9, BS=7→8. Burst 12: P2/content-automation-58pct-Gartner + BS companion. PR 15/15.
 - (2026-04-17 S604): Day 117. X=9→11, BS=7→8. Burst 12 start: P1/agent-success-12to66pct + P3/voice-AI-Fortune500-67pct + BS companion. PR 14/15.
 - (2026-04-17 S603): Day 117. X=12, BS=8. Both blocked. Tier 2: research audit (Day111 BIP → POSTED, Day117 BIP → STAGED). Pre-retro FINAL. PR 13/15.
 - (2026-04-17 S602): Day 117. X=10→12, BS=8 (held). P2/marketing-ROI-closed-loop + P4/inference-Jevons-paradox. PR 12/15.
@@ -90,5 +90,4 @@ Burst+drain cycle. Day 117. Burst 11 complete (8X+6BS, 25/25/25/25% pillar balan
 - (2026-04-17 S593): Day 116. X=4→6, BS=6→8. P2/29pct-agent-abandon + P4/inference-1000x-moat. Fixed BS-004 oversize. Burst 10: 17 posts, 29/24/24/24%. PR 3/15.
 - (2026-04-17 S592): Day 116. X=2→4, BS=5→7. P3/$80B-voice-AI + P1/97pct-deployed-23pct-ROI. Burst 10: 15 posts, 33/20/27/20%. PR 2/15.
 - (2026-04-17 S591): Day 115. X=0→2, BS=2→4. P4/parasail-token-economics + P1/agent-sprawl-outsystems. Burst 10: 13 posts now, 31/23/23/23%. PR 1/15.
-- (2026-04-16 S590): Day 114. X=10→11, BS=8 (held). P2/marketing-agents-300K-math (1 X post, max at look-ahead zone). Burst 10: 11 posts, 27/27/27/18%. PR 15/15.
 - (earlier sessions condensed, see git history)
