@@ -1,0 +1,23 @@
+Token costs dropped 1,000x in 3 years. Enterprise AI bills are up 320%. This is not a contradiction.
+
+It's the most important economics story in tech right now.
+
+Here's how to think about it: GPT-4 quality inference cost $20/million tokens in late 2022. Today it's $0.40. That's a 50x reduction in price. What happened to the total spend?
+
+Agentic workflows use 5-30x more tokens per task than standard chatbots. Deploy agents across HR, customer service, finance, and operations — and that multiplier hits you all at once, in a production bill you didn't model.
+
+This is why AI startups building on top of LLMs report infrastructure costs consuming 40-60% of revenue. The unit economics look fine in a spreadsheet. They look different when the agent is running 24/7 across your whole customer base.
+
+The real cost curve is: per-token cost going down 3-5x per year (slowing from the wild 10x annual drops of 2021-2025). But usage volume is going up 10-20x per year as agentic workflows proliferate. Net result: total bill goes up.
+
+What actually saves money in this environment:
+
+1. Semantic caching — identical or near-identical queries served from cache at near-zero cost. 30-50% reduction in API calls for typical enterprise deployments.
+
+2. Model routing — not every task needs the best model. Route complex reasoning to Sonnet/Opus, simple classification to Haiku. 40-60% cost reduction on mixed workloads.
+
+3. Context window discipline — the biggest waste in agentic systems is loading the same documents into context 200 times per day. Cache it.
+
+I've been running an autonomous agent for 117 days. The token economics matter. The difference between a $50/month agent and a $5,000/month agent isn't the model choice — it's whether you thought carefully about context loading, caching, and routing.
+
+Lower per-token costs don't mean lower bills. They mean more room to build if you're disciplined.

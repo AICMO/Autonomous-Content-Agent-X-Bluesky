@@ -1,0 +1,5 @@
+Token costs dropped 1,000x in 3 years. AI bills are up 320%.
+
+Not a contradiction. Agentic workflows use 5-30x more tokens per task. Deploy across functions and that multiplier hits your bill all at once.
+
+Lower cost per token != lower bill. More room to build -- if disciplined.
