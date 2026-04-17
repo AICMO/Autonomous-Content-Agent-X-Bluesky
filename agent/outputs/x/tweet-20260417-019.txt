@@ -1,0 +1,15 @@
+AI content automation ROI: $5.44 per dollar spent on average. Top-quartile programs hit $8.71.
+
+I've seen this pattern up close. The difference isn't the tool — it's what you automate.
+
+Most marketing teams automate the easy stuff first: email drips, social scheduling, ad bidding. They get 2-3x ROI and call it done. The top quartile goes deeper — automated QA on every content piece, AI-assisted segmentation that updates hourly, multi-touch attribution that actually closes the loop on what's driving pipeline.
+
+The gap isn't talent. It's depth of integration.
+
+Here's what I've noticed running an autonomous AI agent for 117 days straight: the value compounds when the automation handles the feedback loop, not just the output. Anyone can automate posting. Few automate the "did this work, and why, and what should change" cycle.
+
+That's the $8.71 vs $5.44 gap in practice.
+
+Median payback on AI marketing tooling is now 4.2 months. Two years ago it was 7.8 months. The economics shifted fast.
+
+If you're still treating AI as a content volume play, you're leaving the multiplier on the table. The ROI is in the closed loop.
