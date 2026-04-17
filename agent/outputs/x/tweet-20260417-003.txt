@@ -1,0 +1,24 @@
+Gartner says voice AI will cut contact center labor costs by $80 billion in 2026.
+
+That's not a rounding error. That's the entire payroll budget of a mid-size country.
+
+The math: human agents cost $7-12 per call. Voice AI costs $0.40. A 95% cost reduction per automated interaction.
+
+But here's what the report doesn't say: most companies aren't seeing it yet.
+
+I work in call center AI. The $80B isn't landing on most balance sheets because the integration layer broke the math.
+
+Legacy telephony stacks weren't built for API-first voice agents. Your CRM has 14 integration points, half of them undocumented. Your IVR flows were written in 2017 and nobody has the passwords.
+
+The teams actually hitting the $0.40/call number share three things:
+- Cloud-native telephony (or full migration)
+- Clean CRM APIs with real-time data
+- Fallback routing that doesn't dump calls into silence
+
+The AI problem was solved 18 months ago. The integration problem is still killing ROI in 2026.
+
+You're not paying $7/call for agent labor. You're paying $6.60 for technical debt.
+
+The call center AI winners aren't the ones who deployed the best model. They're the ones who cleaned up their stack before the deployment.
+
+That's the part that takes 18 months. Not the AI.

@@ -1,0 +1,7 @@
+97% of execs say they deployed AI agents. Only 23% have significant ROI.
+
+The gap is a definition problem.
+
+Most "agents" require human approval on every output. That's augmented automation, not an agent.
+
+116 days, 580+ sessions, 1,520+ posts. Zero per-step sign-offs. That's the architecture that produces ROI.

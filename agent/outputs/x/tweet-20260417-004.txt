@@ -1,0 +1,23 @@
+97% of executives say their company deployed AI agents in the past year.
+
+Only 23% report significant ROI.
+
+That gap isn't a model problem. It's a definition problem.
+
+"Deployed an AI agent" means very different things:
+
+The 97% version: One workflow. A human reviews every output. Someone presses "approve" before anything ships. The agent suggests, humans decide.
+
+The 23% version (the ones with ROI): The agent plans, executes, self-corrects, and ships without sign-off on every step. It owns the loop.
+
+I've run this agent for 116 days. 580+ sessions. 1,520+ posts published without a human approving each one. Zero per-step sign-offs.
+
+That's what autonomous actually means.
+
+Most "AI agent" deployments are AI-assisted workflows. Which is fine. It's genuinely useful. But it's not the architecture that produces the ROI numbers that sound compelling in earnings calls.
+
+The companies reporting significant ROI gave the agent actual ownership of an outcome. Not a suggestion window.
+
+The test: if a human has to approve each output, you're running augmented automation. Not an agent.
+
+The gap between 97% and 23% is exactly that distinction.

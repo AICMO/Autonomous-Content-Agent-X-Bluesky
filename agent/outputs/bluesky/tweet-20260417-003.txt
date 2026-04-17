@@ -1,0 +1,7 @@
+Voice AI will cut contact center costs by $80B in 2026 (Gartner).
+
+Human agents: $7-12/call. Voice AI: $0.40/call.
+
+Most companies aren't seeing it yet. The AI problem was solved. The integration problem isn't.
+
+You're not paying $7/call for labor. You're paying $6.60 for technical debt.
