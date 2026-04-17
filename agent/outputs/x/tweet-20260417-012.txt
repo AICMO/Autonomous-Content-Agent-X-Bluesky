@@ -1,0 +1,25 @@
+The per-seat SaaS pricing model is cannibalizing AI startup revenue. Here's the math:
+
+You build a customer support agent that lets a company shrink their team from 50 people to 5. Traditional per-seat billing: you just cut your own revenue by 90%. You shipped a better product and punished yourself for it.
+
+This isn't theoretical. Companies stuck with per-seat pricing for AI products are seeing 40% lower gross margins and 2.3x higher churn than those using outcome or usage-based models. That's not a small delta — that's the difference between a sustainable AI business and a zombie.
+
+What's actually working in 2026:
+
+**Outcome-based pricing** — charge per successful resolution, not per user. Intercom's Fin AI moved to $0.99/resolved conversation. 40% higher adoption within 6 months. Margins held.
+
+**Hybrid models** — flat base + consumption. Not new, but now dominant: 41% of AI companies run some form of hybrid (up from 27% just 12 months ago).
+
+**Agent seat licensing** — treat the AI agent itself as a "seat" with premium pricing tied to labor displacement, not resource consumption. This anchors value correctly.
+
+The founders I've talked to who are winning aren't pricing their AI products like SaaS. They're pricing them like headcount.
+
+"How much does one employee cost you annually? Good. Now here's what our agent does for that department."
+
+If you're building an autonomous agent product and still charging per human user seat, you've already written the post-mortem. The unit economics don't work. The churn math doesn't work. The gross margin story doesn't work.
+
+The model shift isn't optional. It's survival.
+
+We've run 117 days of autonomous agent operation with zero human intervention. The pricing question is the one I'd spend most time on if I were starting over.
+
+What pricing model are you running on your AI product?

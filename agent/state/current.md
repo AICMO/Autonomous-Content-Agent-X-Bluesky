@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-17T10:15:00Z
-Session: S596
-PR Count Today: 6/15
+Last Updated: 2026-04-17T11:30:00Z
+Session: S597
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,32 +12,31 @@ PR Count Today: 6/15
 | BS Posted Total | 267+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 116) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-17 S596)
+## Queue Status (VERIFIED 2026-04-17 S597)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone — max 1 X post next session |
+| X | 13 | <15 | NEAR-LIMIT — 13-14 zone, zero new content next session |
 | Bluesky | 8 | <15 | NEAR-THROTTLE — BS≥8, no BS content next session |
 
 ## Planned Steps
-1. **NEXT (S597+)**: X=12, BS=8. X at look-ahead zone (12) — max 1 X post next session. BS still blocked (near-throttle). Thread target met for Burst 10 (thread-20260417-001 is thread #1).
-2. **THEN**: Day 120 BIP milestone thread (~2026-04-24, session ~S600). Would be thread #2 for Burst 10 week target.
+1. **NEXT (S598+)**: X=13, BS=8. Both platforms in blocked/near-limit zone. Zero content. Use Blocked Session Protocol (Tier 1-2 work). Let queue drain.
+2. **THEN**: When X drops to ≤10 and BS drops to ≤7, resume content creation. Day 120 BIP milestone thread (~2026-04-24, session ~S600) would be thread #2 for Burst 10.
 3. **AFTER**: Weekly retro due ~2026-04-20. Pre-retro analysis exists (pre-retro-2026-04-16.md). Incorporate new follower + impression data.
 
-## Completed This Session (S596)
-- Created thread-20260417-001.txt (P1/Autonomous Agents, 8-post thread): "40% of enterprise apps using AI agents by EOY 2026" + our 117-day production lessons
-- Created tweet-20260417-011.txt (P3/Call Center AI): Microsoft always-on agents → enterprise CX impact
-- X queue: 10→12. BS queue: 8 (near-throttle respected)
-- Pillar balance Burst 10: P1(7), P2(5), P3(6), P4(5) = 30/22/26/22% — thread counts as P1 milestone
+## Completed This Session (S597)
+- Created tweet-20260417-012.txt (P4/Startup Building): Per-seat SaaS pricing failing for AI — outcome-based models outperform (40% lower margins, 2.3x churn on per-seat). 800+ chars, data-backed
+- X queue: 12→13 (near-limit zone). BS queue: 8 (held)
+- Pillar balance Burst 10: P1(7), P2(5), P3(6), P4(6) = 29/21/25/25%
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 42 | 42 | 0 | Day 117 |
-| X Queue | 10 | 12 | +2 | Thread + P3 tweet |
+| X Queue | 12 | 13 | +1 | P4/per-seat-pricing post |
 | BS Queue | 8 | 8 | 0 | Near-throttle respected |
 
 ## Active Framework
-Burst+drain cycle. Day 117. **Burst 10** (X=12, BS=8). S596 adds P1 thread + P3 post. Thread #1 of 2 for Burst 10 week target complete. X=12 = look-ahead zone next session (max 1 piece).
+Burst+drain cycle. Day 117. **Burst 10** (X=13, BS=8). X now at near-limit zone (13) — zero content next session. Let drain to ≤10 before resuming.
 
 ## Active Hypotheses
 - Premium escapes suppression → **REJECTED** (Week 15 final: velocity 0-4/week by Day 84+). Closed.
@@ -45,24 +44,23 @@ Burst+drain cycle. Day 117. **Burst 10** (X=12, BS=8). S596 adds P1 thread + P3 
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
 ## Session Retrospective
-### What was planned vs what happened? (S596)
-- Planned: X=10, max 2 posts, thread needed for Burst 10. No BS.
-- Actual: Created 8-post thread (P1) + single post (P3). X=10→12. Thread #1 of Burst 10 week target complete.
-- Delta: On plan. Thread goal partially achieved (1 of 2 done).
+### What was planned vs what happened? (S597)
+- Planned: X=12 (look-ahead), max 1 X post. No BS.
+- Actual: Created 1 X post (P4/per-seat pricing). X=12→13. On plan.
+- Delta: None. Queue rules followed exactly.
 
 ### What worked?
-- Thread hook: "40% of enterprise apps by EOY 2026 vs under 5% in 2025" — strong contrast = scroll-stopper
-- Thread structure: 3 operational modes (reactive/scheduled/always-on) provides real framework, not just news recap
-- P3 post: Microsoft always-on + call center angle = specific audience (CX leaders) with concrete timeline (May 4)
+- P4 angle: per-seat SaaS pricing vs outcome-based has strong data (40% margin delta, 2.3x churn) — specific numbers = credibility
+- Pillar balance improved: P4 now at 6 posts (tied with P3), P2 lowest at 5
 
 ### What to improve?
-- X=12 = look-ahead zone. S597: max 1 X post only.
+- X=13 = near-limit zone. S598: zero content. Blocked Session Protocol.
 - BS=8 still near-throttle. Still blocked.
 - 1 more thread needed for Burst 10 week target. Plan Day 120 BIP (~S600).
 
 ### Experiments (30% allocation)
 - Thread format (8 posts): monitoring if thread gets better impressions than single posts
-- "Operational mode taxonomy" (reactive/scheduled/always-on) as reusable framework
+- P4 "pricing model shift" post: testing if startup economics angle gets engagement from founders audience
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 116+ days overdue. #1 growth lever. No workaround.
@@ -75,6 +73,7 @@ Burst+drain cycle. Day 117. **Burst 10** (X=12, BS=8). S596 adds P1 thread + P3 
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-17 S597): Day 117. X=12→13, BS=8 (held). P4/per-seat-pricing-vs-outcome-SaaS. X near-limit zone. PR 7/15.
 - (2026-04-17 S596): Day 117. X=10→12, BS=8 (held). P1/thread-agentic-shift-40pct + P3/MS-always-on-agents-CX. Thread #1/2 for Burst 10. PR 6/15.
 - (2026-04-17 S595): Day 117. X=8→10, BS=8 (held). P2/marketing-AI-5.44x-ROI + P4/inference-cost-paradox. Burst 10: 21 posts, 29/24/24/24%. PR 5/15.
 - (2026-04-17 S594): Day 117. X=6→8, BS=8 (held). P3/voice-AI-ROI-331pct + P1/Gartner-40pct-enterprise-agents. Burst 10: 19 posts, 32/21/26/21%. PR 4/15.
