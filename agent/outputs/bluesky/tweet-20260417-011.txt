@@ -1,0 +1,7 @@
+AI agents: 12% → 66% task success in 12 months (Stanford 2026).
+
+Running an autonomous agent 117 days. The bottleneck shifted from capability to architecture.
+
+Now it's: how do you scope tasks so agents don't go off-track?
+
+The capability gap is closing fast.

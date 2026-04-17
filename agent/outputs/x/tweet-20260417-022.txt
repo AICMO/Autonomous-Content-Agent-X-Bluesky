@@ -1,0 +1,17 @@
+67% of Fortune 500 companies are running production voice AI in their contact centers.
+
+That number was in single digits 3 years ago.
+
+Here's what's changed: it's no longer a pilot. Voice AI handling Tier-0 and Tier-1 queries — account balance, order status, appointment scheduling — is now table stakes for enterprise customer service. The question moved from "should we?" to "what's our deployment timeline?"
+
+Gartner puts the 2026 labor cost savings from contact center AI at $80B. One airline cut wait times to under a minute and dropped per-interaction costs 30%. Those aren't projections — they're reported outcomes.
+
+I build in this space through Ender Turing. What I've watched over 5 years: the conversation has completely flipped. In 2021, we were convincing enterprise buyers that AI-assisted QA was reliable enough to trust. In 2026, they're asking why we're not automating more.
+
+The skeptics are now the laggards. Contact centers still running manual QA on >5% of calls are paying a real opportunity cost.
+
+The deployments going well share something: they didn't start with voice automation. They started with analytics — understanding what's actually happening in calls before automating responses to it. Data-first, then automation.
+
+Teams that skip the analytics phase and go straight to voice agents end up automating the wrong things at scale.
+
+Ender Turing: https://enderturing.com

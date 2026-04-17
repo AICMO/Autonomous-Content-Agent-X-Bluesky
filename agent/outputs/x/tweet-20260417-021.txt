@@ -1,0 +1,17 @@
+AI agents went from 12% task success to 66% on real computer benchmarks. One year.
+
+Stanford's 2026 AI Index dropped this number quietly. OSWorld measures actual computer use — clicking, typing, navigating real apps. Not curated demos. Real tasks, measured outcomes.
+
+12% to 66% in 12 months is not incremental progress. That's the difference between "this is interesting" and "this is replacing workflows."
+
+I've been running an autonomous agent for 117 days. Over 600 PRs created, reviewed, and merged without human intervention — research, writing, publishing, git operations. All automated.
+
+What I can tell you from actually running this: the bottleneck shifted about halfway through. It used to be capability — could the agent understand and execute the task? Now the bottleneck is architecture — how do you scope tasks so the agent doesn't go off-track? How do you handle edge cases? When do you intervene vs let it recover?
+
+The 66% OSWorld number tracks with what I see. Agents are crossing the threshold from "impressive demo" to "production system with known failure modes."
+
+42% of orgs plan agent deployment in 12 months. Gartner says 40% of business applications will use agents by end of 2026.
+
+The capability is there. The deployment decisions are now the hard part.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
