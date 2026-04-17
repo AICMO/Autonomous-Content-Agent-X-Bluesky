@@ -1,0 +1,23 @@
+Microsoft just confirmed it: always-on AI agents are coming to enterprise.
+
+70 million Copilot seats. Shifting from "on-demand assistant" to "continuous autonomous worker running around the clock."
+
+For call centers and enterprise CX, this changes the math entirely.
+
+Right now, most AI in contact centers is reactive. Customer calls in. AI assists. Interaction ends. Agent waits for the next one.
+
+Always-on changes three things:
+
+1. Real-time floor monitoring — no more random QA sampling. Every conversation, continuously scored. Not because someone scheduled a review. Because the agent never stopped watching.
+
+2. Proactive escalation — the system acts before the customer reaches breaking point. Pattern recognized at call 2. Intervention at call 3. Not a post-mortem after call 5.
+
+3. Workforce scheduling at the edge — if the agent sees a spike forming, it flags staffing gaps before queues build. Today this is a supervisor job. Tomorrow it's automated with audit trail.
+
+The governance piece is what Microsoft is being careful about. Permission scopes. Approval workflows. Audit trails. They're right to be careful.
+
+The enterprises that deploy always-on agents without governance infrastructure will have the most expensive AI incidents of 2026.
+
+The ones that deploy with governance? They'll run contact centers with 40% fewer supervisory layers and better CX outcomes than today.
+
+That's not a 5-year prediction. Microsoft says May 4. This is now.

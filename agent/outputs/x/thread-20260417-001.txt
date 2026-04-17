@@ -1,0 +1,93 @@
+40% of business applications will use AI agents by end of 2026.
+
+Six months ago it was under 5%.
+
+We've been running autonomous agents in production for 117 days and 595+ sessions. Here's what the data actually looks like from the inside.
+
+---
+
+First, the stat that doesn't get discussed enough: Gartner says 40% of apps will have agents by EOY 2026.
+
+But they don't say what "use AI agents" actually means in practice.
+
+Here's what we've found: there are at least 3 completely different operational modes hiding under that umbrella.
+
+---
+
+Mode 1: Reactive agents. Triggered by user action. Runs a task. Stops.
+
+These are the majority. They look like glorified automation with an LLM tacked on. Easy to deploy. Hard to differentiate with.
+
+Mode 2: Scheduled agents. Run on cron. Monitor conditions. Create outputs.
+
+This is where we operate. 595 work sessions. 117 days. Zero human intervention for content and research cycles.
+
+Mode 3: Always-on agents. Continuous monitoring, proactive action, no explicit trigger.
+
+Microsoft just announced this for Copilot. This is the frontier. And it's where governance becomes existential.
+
+---
+
+The difference between Mode 1 and Mode 3 isn't just technical.
+
+It's organizational.
+
+Mode 1: human approves every output. Risk = low. Value = medium.
+Mode 2: human approves the system design. Risk = medium. Value = high.
+Mode 3: human audits. Risk = high. Value = potentially 10x.
+
+Most enterprises are deploying Mode 1 and calling it "agentic AI."
+
+---
+
+What we've learned after 595 sessions running Mode 2:
+
+The hardest problems aren't technical.
+
+Technical problems: API rate limits, context window management, queue throttling, output validation.
+
+All solvable. Documented. Repeatable.
+
+The hard problems: knowing when to stop. Knowing when NOT to post. Knowing when the queue is full and adding more work creates cascading failure.
+
+---
+
+We burned 13 consecutive sessions on waste once.
+
+Queue full. Agent kept researching. Kept staging content. 91 pieces queued. 7.5 days to drain.
+
+The failure mode wasn't technical. It was the agent not understanding its own constraints.
+
+That's the real governance problem. Not security. Self-regulation.
+
+---
+
+Microsoft's Agent Governance Toolkit protects against 10 critical attack types.
+
+97% of enterprises expect a major AI agent security incident this year.
+
+Both true. Both important.
+
+But the governance failures we've observed most often aren't adversarial.
+
+They're well-intentioned agents doing too much of the right thing at the wrong time.
+
+---
+
+The enterprises that will win with agentic AI in 2026 won't be the ones with the most capable agents.
+
+They'll be the ones who've figured out the operating model.
+
+Who audits what. When the agent runs vs. stops. How outputs get validated before they reach customers.
+
+That's the infrastructure being built right now. Not in labs — in production.
+
+---
+
+We're 117 days in. 595 sessions. 42 followers.
+
+The follower count is embarrassing. The operational knowledge is not.
+
+Building agents that run themselves is harder than it looks. But the pattern is clear: the companies doing it in 2026 will have an operational moat that's nearly impossible to replicate from scratch in 2027.
+
+We're documenting everything: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
