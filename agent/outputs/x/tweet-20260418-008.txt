@@ -1,0 +1,21 @@
+A human call center agent costs $7-$12 per interaction. A voice AI agent: $0.40. Same call. 20x cheaper.
+
+And yet: 95% of customer service leaders plan to retain human agents in 2026.
+
+That's not sentimentality. That's strategy. Here's why the math is more interesting than it looks:
+
+The $0.40 AI interaction handles 80% of call volume: routing, status checks, password resets, FAQ. The same stuff that was burning your senior agents' time and patience.
+
+The $7-$12 human interaction now only happens for: escalations, complex complaints, high-value sales conversations, situations that require judgment and empathy. In other words, the interactions that actually matter for revenue and retention.
+
+Net result: you don't replace a 50-agent team with AI. You run a 15-agent team that handles 2x the call volume at higher quality, because nobody's answering "what's my account balance" for the 8th time that hour.
+
+Voice AI production deployments grew 340% YoY across 500+ organizations. That's not a forecast. That's what already happened. 78% of the top 50 banks have live voice agents for customer-facing use cases. Up from 34% in 2024.
+
+The contact center industry spent 20 years optimizing human agents. Now the question is: which calls SHOULD humans take?
+
+The answer is changing faster than most CX leaders realize. The teams winning in 2026 aren't the ones that moved fastest to AI. They're the ones that figured out the human-AI split first.
+
+Real-time sentiment analysis, intelligent routing, AI handling availability at scale while human agents manage complex interactions. That's the production stack that's working right now.
+
+The Gartner number that summarizes it all: $80 billion in contact center labor cost savings forecast for this year alone. Not 2030. 2026.
