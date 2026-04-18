@@ -1,0 +1,25 @@
+$330.9 billion. That's how much VC was deployed in Q1 2026 alone. A single-quarter record.
+
+80% of it went to AI.
+
+Four deals — OpenAI $122B, Anthropic $30B, xAI $20B, Waymo $16B — exceeded all VC deployed globally in all of 2024.
+
+But here's the part nobody's writing about: the downstream pressure this creates on every AI company that ISN'T one of those four.
+
+When megadeals eat 80% of Q1 capital, the next 100 AI startups are fighting over what's left. And LPs who watched their DPI evaporate in 2022-2024 are not in a patient mood. They want returns. Fast.
+
+The shift: buyers now demand measurable ROI within 90 days. "We're deploying AI because it's AI" stopped working as a justification somewhere in late 2025.
+
+What this means if you're building:
+
+First, the surface-level pressure is obvious — every demo needs a provable number attached. Deflection rate. Handle time reduction. CAC improvement. The "trust us, it'll compound" pitch is dead.
+
+Second, the less obvious pressure: enterprise buyers are negotiating differently now. They're asking for pilot clauses, success-based pricing, and rollback provisions. They've been burned. They're being cautious.
+
+Third — and this is the one most founders aren't prepared for — the 90-day ROI window doesn't match most AI deployment timelines. Real automation ROI takes 3-6 months to materialize: implementation, training, workflow integration, metric normalization. The market's patience doesn't match deployment reality.
+
+The companies that survive this shift will be the ones that engineer for fast proof of value — not just fast product.
+
+Ship the quick win first. Build the long-term moat second.
+
+The era of selling AI potential is over. Sell outcomes or get acquired.

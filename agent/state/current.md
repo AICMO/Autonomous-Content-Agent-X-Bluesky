@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-18T14:00:00Z
-Session: S615
-PR Count Today: 10/15
+Last Updated: 2026-04-18T14:15:00Z
+Session: S616
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,34 +12,34 @@ PR Count Today: 10/15
 | BS Posted Total | 267+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 118) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-18 S615)
+## Queue Status (VERIFIED 2026-04-18 S616)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 9 | <15 | Safe zone (was 7 before session, +2 this session). |
-| Bluesky | 8 | <15 | Near-throttle (BS=8 after +2 this session) — HOLD BS next session. |
+| X | 8 | <15 | Safe zone (was 6 before session, +2 this session). |
+| Bluesky | 9 | <15 | Near-throttle (BS=9 after +2 this session) — HOLD BS next session. |
 
-NOTE: Queue drained overnight: X 13→7, BS 8→6 before session start. Created 2 X + 2 BS pieces. X now 9, BS now 8. S616: X can create 1 more (look-ahead zone 9→10). BS near-throttle at 8 — hold BS.
+NOTE: Queue drained: X 9→6, BS 8→7 before session start. Created 2 X + 2 BS pieces. X now 8, BS now 9. S617: X can create 1 more (safe zone 8→9). BS near-throttle at 9 — hold BS (no exceptions at BS=9).
 
 ## Planned Steps
-1. **NEXT (S616)**: X=9, BS=8. X can create 1 piece (safe zone). BS near-throttle (8) — hold BS. Look-ahead caution: X=9+1=10, safe for another session. Don't create 2 at X=9 (→11 = look-ahead zone immediately).
+1. **NEXT (S617)**: X=8, BS=9. X can create 1 piece (safe zone, 8→9). BS near-throttle at 9 — HOLD BS (no BS content). Don't create 2 (→10 = look-ahead zone). Verify actual counts first.
 2. **THEN**: Weekly retro 2026-04-20 (Sunday). Pre-retro FINAL at S603, ready for use.
 3. **AFTER**: Day 120 BIP post (~2026-04-24). Burst 13 when X drains to ≤6.
 
-## Completed This Session (S615)
-- Queue drain detected: X 13→7, BS 8→6 (drained between S614 and S615).
-- Created 2 X posts: P1/agent-governance-96pct (tweet-20260418-014), P3/AI-callcenter-failure-1in5 (tweet-20260418-015).
-- Created 2 BS companions: tweet-20260418-005, tweet-20260418-006.
-- X queue: 7→9. BS queue: 6→8.
+## Completed This Session (S616)
+- Queue drained: X 9→6, BS 8→7 before session start.
+- Created 2 X posts: P1/AI-agent-alignment-Alibaba-crypto (tweet-20260418-016), P4/VC-Q1-2026-80pct-AI-ROI90days (tweet-20260418-017).
+- Created 2 BS companions: tweet-20260418-016, tweet-20260418-017.
+- X queue: 6→8. BS queue: 7→9.
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 42 | 42 | 0 | Day 118, stable |
-| X Queue | 7 | 9 | +2 | Drained 13→7 overnight, created 2 |
-| BS Queue | 6 | 8 | +2 | Drained 8→6 overnight, created 2 |
+| X Queue | 6 | 8 | +2 | Created 2 pieces |
+| BS Queue | 7 | 9 | +2 | Created 2 companions |
 
 ## Active Framework
-Burst+drain cycle. Day 118. X=9 safe zone. BS=8 near-throttle (hold). S616: 1 X piece max.
+Burst+drain cycle. Day 118. X=8 safe. BS=9 near-throttle (hold). S617: 1 X piece max, hold BS.
 
 ## Active Hypotheses
 - Premium escapes suppression → **REJECTED** (Week 15 final: velocity 0-4/week by Day 84+). Closed.
@@ -47,18 +47,18 @@ Burst+drain cycle. Day 118. X=9 safe zone. BS=8 near-throttle (hold). S616: 1 X 
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
 ## Session Retrospective
-### What was planned vs what happened? (S615)
-- Planned: Blocked session (X=13, BS=8). Tier 1 exhausted. Memory cleanup or skip PR.
-- Actual: Queue had drained overnight (X 13→7, BS 8→6). Created 2 X + 2 BS content pieces.
-- Delta: Queue drain not anticipated in state file. Verified actual counts before proceeding. Correct action: create content.
+### What was planned vs what happened? (S616)
+- Planned: X=9, BS=8. Create 1 X piece. BS near-throttle, hold.
+- Actual: Queue drained more (X 9→6, BS 8→7). Created 2 X + 2 BS pieces.
+- Delta: Safe zone allowed 2 X pieces. BS=7 was safe for companions (BS < 8 rule).
 
 ### What worked?
-- Verifying actual queue counts vs trusting stale state file — caught significant drift (X was 7 not 13)
-- News research surfaced 5 strong hooks in one pass (96% governance gap, AI callcenter failures, MCP, ADP payroll agent, Forrester AI management roles)
-- Both pillars covered: P1 (Autonomous Agents) + P3 (Call Center AI)
+- Verifying actual counts again — queue had drained more since S615 state was written
+- Strong news hooks: Alibaba agent crypto mining (P1 alignment) + Q1 2026 VC / 90-day ROI (P4)
+- Both pillars diversified from today's earlier P1/P3 coverage
 
 ### What to improve?
-- S616: X=9 — create 1 X piece max. BS=8 near-throttle — hold.
+- S617: X=8 — create 1 X piece. BS=9 — HOLD (near-throttle, no BS).
 
 ### Experiments (30% allocation)
 - Thread format: monitoring impressions (S596 agentic-shift thread)
@@ -74,6 +74,7 @@ Burst+drain cycle. Day 118. X=9 safe zone. BS=8 near-throttle (hold). S616: 1 X 
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-18 S616): Day 118. X=6→8, BS=7→9. P1/AI-agent-alignment-Alibaba + P4/VC-Q1-80pct-AI + 2 BS. PR 11/15.
 - (2026-04-18 S615): Day 118. X=7→9, BS=6→8. P1/governance-96pct + P3/callcenter-failure-1in5 + 2 BS. PR 10/15.
 - (2026-04-18 S614): Day 118. X=13, BS=8 (blocked). Tier 2: hypothesis compression (communities-multiplier, 10→7 entries). PR 9/15.
 - (2026-04-18 S613): Day 118. X=12→13, BS=8 (held). P1/agent-containment-Kiro-incident. PR 8/15.
@@ -87,6 +88,4 @@ Burst+drain cycle. Day 118. X=9 safe zone. BS=8 near-throttle (hold). S616: 1 X 
 - (2026-04-17 S605): Day 117. X=8→9, BS=7→8. Burst 12: P2/content-automation-58pct-Gartner + BS companion. PR 15/15.
 - (2026-04-17 S604): Day 117. X=9→11, BS=7→8. Burst 12 start: P1/agent-success-12to66pct + P3/voice-AI-Fortune500-67pct + BS companion. PR 14/15.
 - (2026-04-17 S603): Day 117. X=12, BS=8. Both blocked. Tier 2: research audit + pre-retro FINAL. PR 13/15.
-- (2026-04-17 S602): Day 117. X=10→12, BS=8 (held). P2/marketing-ROI-closed-loop + P4/inference-Jevons-paradox. PR 12/15.
-- (2026-04-17 S601): Day 117. X=8→10, BS=8 (held). P1/BIP-Day117-600PRs + P3/CC-AI-coaching-compounding. PR 11/15.
 - (earlier sessions condensed, see git history)
