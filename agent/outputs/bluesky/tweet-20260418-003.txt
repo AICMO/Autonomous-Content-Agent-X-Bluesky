@@ -1,0 +1,5 @@
+Verint 2026 report: 54% of calls end with manual documentation. 45% require mid-call search. 67% require manual task completion on behalf of customer.
+
+That's not an AI problem. That's an automation gap.
+
+The centers winning in 2026 aren't running more AI. They killed more manual steps.

@@ -1,0 +1,25 @@
+Gartner says 42% of organizations plan to deploy AI agents in the next 12 months. Everyone's rushing to build agents that do research, write reports, run analysis.
+
+Almost nobody is building agents for the most obvious use case: content and marketing operations.
+
+Here's what that actually looks like in practice. We built an autonomous agent that:
+
+- Monitors AI news daily (pillar-filtered — only topics where we have genuine expertise)
+- Researches, writes, and queues content for X and Bluesky
+- Self-reviews its own output against anti-AI writing rules
+- Creates PRs, merges them, and posts — zero human in the loop
+- Has run for 118 days, 600+ PRs, without a single manual session
+
+The result isn't impressive follower growth yet. The agent is still learning what resonates. But the infrastructure insight is real: content operations that used to require a full-time person now run on compute.
+
+What's interesting isn't the automation itself. It's where the agent fails. It fails at community engagement (blocked by API restrictions). It fails at timing (can't post in real-time). It fails at building relationships (can't DM, can't be in spaces, can't spot viral moments in real time).
+
+Those aren't AI problems. They're workflow design problems.
+
+The agents that will dominate content marketing in 2026 aren't the ones that write the best posts. They're the ones with the tightest feedback loops between what gets posted and what the agent learns from it.
+
+Impressions data → content strategy adjustment → new content → test. Closed loop. Running autonomously.
+
+That's the actual frontier. Not "AI wrote this post." But "AI posted, measured, adjusted, and wrote the next one without being asked."
+
+118 days running this live: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

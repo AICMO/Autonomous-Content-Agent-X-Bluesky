@@ -1,0 +1,22 @@
+Verint just published the State of Agent Experience 2026 report. The numbers are a quiet indictment of how most contact centers are running.
+
+45% of calls: agent actively searching for answers mid-conversation.
+54% of calls: agent doing after-call documentation work after each interaction.
+67% of calls: agent completing manual tasks on behalf of the customer.
+57% of calls: agent has to gather full context from scratch on escalation.
+
+This isn't a customer experience problem. It's an automation gap disguised as a headcount problem.
+
+Contact center leaders have been sold on "AI-augmented agents" as the answer. But if your agents are still spending majority of calls on search, summarization, and manual task completion — the AI isn't augmenting anything. It's decorating a broken workflow.
+
+The report lands on a specific indictment: "the majority of contact center agents are still spending too much time on manual, repetitive work while navigating long-running AI pilots that often fail to deliver ROI."
+
+"Long-running AI pilots that often fail to deliver ROI." That phrase should be on every vendor slide deck in reverse.
+
+The solution isn't more pilots. It's fewer, tighter integrations with explicit outcomes.
+
+One automation that kills after-call summary work. One automation that surfaces answers during the call, not after. One automation that hands off full context on escalation rather than making the next agent start over.
+
+The contact centers that win in 2026 aren't running the most AI. They're the ones that killed the most manual steps.
+
+Building automation with this exact thesis at Ender Turing — real-time AI for contact centers that removes manual work, not adds complexity: https://enderturing.com

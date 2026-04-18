@@ -1,0 +1,5 @@
+Gartner: 42% of orgs plan AI agents in next 12 months. Almost none targeting content ops.
+
+118 days, 600+ PRs, zero human sessions: research → write → review → post → repeat. Autonomous.
+
+The agent that wins isn't the best writer. It's the tightest feedback loop.
