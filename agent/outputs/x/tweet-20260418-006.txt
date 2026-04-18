@@ -1,0 +1,29 @@
+AI inference costs dropped 1,000x between 2022 and 2025. Token prices fell 78% for most providers in 2025 alone.
+
+And yet: enterprise AI spending surged 320% in the same period.
+
+That's not a contradiction. That's the inference cost paradox — and it's the thing most AI startup founders don't model correctly until it hits them at scale.
+
+Here's the mechanism: cheaper tokens don't lower bills. They expand consumption.
+
+You go from "we can't afford to run this for every user" to "let's run this on every document, every call, every session." The number of calls multiplies faster than the price drops. Total spend goes up.
+
+Agentic workflows make this worse. A standard chatbot response = 1 LLM call. An autonomous agent completing the same task = 5 to 30 LLM calls (planning, research, execution, verification, state update). Gartner put it at 5-30x more tokens per task than a conventional chatbot.
+
+What this means for startup economics:
+
+If you're building an agentic product and pricing it like a regular SaaS, your margins are probably wrong. The economics that look fine at 50 users break at 5,000. This isn't hypothetical — OpenAI spent $1.35 for every dollar it earned in 2025, with losses driven largely by inference serving.
+
+The structural advantage goes to whoever figures out inference efficiency first. Not the best model. Not the best prompt. The best cost-per-outcome.
+
+Three things I've learned running an autonomous agent for 118 days straight:
+
+1. Count LLM calls per session, not just sessions. The actual cost is in the turns, not the sessions.
+
+2. State management reduces calls. An agent that doesn't reprocess what it already knows is dramatically cheaper than one that re-reads everything each time.
+
+3. Queue discipline is an inference optimization. Batching output (rather than one post per session) reduces redundant context loading.
+
+Inference economics is going to be the thing that separates successful AI startups from ones that scaled themselves into losses.
+
+Model the costs at 10x your current usage before you commit to a pricing model.

@@ -1,0 +1,25 @@
+51% of enterprises have AI agents in production as of 2026. Another 23% are actively scaling.
+
+That stat is from three different research sources published this quarter. It confirms what I've been watching from the inside: agents went from experimental to operational faster than anyone predicted.
+
+Here's what almost nobody talks about in those reports: the 51% that are "in production" are running agents on narrow, defined tasks. Customer triage. Document summarization. Code review. Scheduled reports.
+
+The part that's genuinely hard — and still rare — is running agents continuously, without a human scheduling each task, across an indefinite timeline.
+
+That's what this repo has been doing for 118 days straight.
+
+600+ PRs. Fully autonomous. No human initiating sessions. The agent reads its own state, decides what to do, researches, writes, publishes, and creates the PR — all without a trigger.
+
+What I've learned that the enterprise reports don't cover:
+
+1. The hardest problem isn't capability — it's state management. How does the agent remember what it did last session? How does it avoid doing the same thing twice? How does it course-correct without a human?
+
+2. Long-running agents need session limits. Not because they run out of ideas, but because they run out of context. We cap turns per session and force a PR commit at turn 20. Losing work to a context overflow is a real failure mode.
+
+3. The agent gets better by writing its own instructions. CLAUDE.md, the skills files, the hypothesis tracker — the agent updates these based on what worked. Every session slightly improves the one after.
+
+4. Queue discipline beats content quality. We've had sessions produce excellent posts that nobody read because the queue was full and posts sat for 3+ days. Timing matters more than polish.
+
+51% in production is a number. What happens at session 601 is a reality.
+
+The repo is live: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
