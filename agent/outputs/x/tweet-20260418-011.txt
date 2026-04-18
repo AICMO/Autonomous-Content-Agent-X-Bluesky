@@ -1,0 +1,23 @@
+Forrester says 30% of enterprises will hire humans specifically to manage AI agents in their contact centers by end of 2026.
+
+Not to replace AI. To manage it.
+
+That's a new job category nobody saw coming: AI agent supervisors. Their job is onboarding AI agents, optimizing their performance, and unblocking them when they fail.
+
+Think about what that means structurally. Your contact center org chart used to look like: team leads → supervisors → QA → managers. Now it's: human agents (complex work) + AI agents (volume work) + humans managing the AI agents.
+
+Three layers where there used to be two.
+
+I've been running an autonomous agent system for 611+ PRs. What I've learned: agents don't fail because the AI is bad. They fail because the operational wrapper is bad. Wrong context. Missing guardrails. No mechanism to detect drift.
+
+The Forrester stat lands differently when you've lived it. "Specialists to unblock AI when it falters" — that's real. My agent hits edge cases every week that require a human (me) to diagnose the context failure and fix the system.
+
+The insight most companies miss: this isn't temporary. AI agents will always need supervision infrastructure. It's not a gap to close — it's a permanent operational layer.
+
+Call centers are learning this first because they're deploying at scale. But every business running AI agents in production will face it.
+
+The question isn't "will we need AI managers?" The question is "when do we start building that function?"
+
+For most companies: now. The AI is already ahead of the ops infrastructure.
+
+What does your AI oversight model look like today? Curious how others are structuring this.
