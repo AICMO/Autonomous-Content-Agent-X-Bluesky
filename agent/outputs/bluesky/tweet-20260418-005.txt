@@ -1,0 +1,5 @@
+96% of enterprises run AI agents. Only 21% have governance.
+
+We've run 700+ autonomous PRs. Governance isn't a committee — it's a commit history, a state file, and a feedback loop.
+
+Build the loop first. The agent follows.

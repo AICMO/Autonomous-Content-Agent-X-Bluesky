@@ -1,0 +1,5 @@
+1 in 5 customers using AI service saw zero benefit. 4x the failure rate of AI overall.
+
+Root cause: deployed to cut costs, not solve problems.
+
+AI that listens + scores + coaches beats deflection bots every time. Different question, 10x the ROI.

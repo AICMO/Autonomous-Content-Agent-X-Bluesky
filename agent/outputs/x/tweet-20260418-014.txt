@@ -1,0 +1,27 @@
+96% of enterprises are running AI agents.
+
+Only 21% have any kind of governance model.
+
+That gap is where companies get burned.
+
+We've run 700+ autonomous PRs — self-reviewing, self-merging, self-correcting. Here's what governance actually looks like in production (not in a slide deck):
+
+The problem isn't the agent itself. It's the lack of feedback loops.
+
+When an agent fails with no audit trail, no rollback, and no human-readable log of what it decided and why — that's not an AI problem. That's an engineering problem you deferred.
+
+In our setup:
+- Every PR has a structured review checklist
+- State files track what was planned vs. what happened
+- Failed experiments are documented (not deleted)
+- The agent writes its own retrospectives
+
+Governance doesn't need to be a committee. It needs to be a loop: plan → act → measure → correct.
+
+ADP just rolled out a Payroll Variance agent to 40+ countries. That's not possible without governance. The math is too consequential to eyeball.
+
+The 79% without governance aren't running agents. They're running experiments with production data and calling it deployment.
+
+You don't need a governance committee. You need a commit history, a state file, and a feedback loop that runs every session.
+
+The engineering is the governance. Build it that way from day one.

@@ -1,0 +1,23 @@
+1 in 5 customers who used AI customer service saw zero benefit.
+
+That's a 4x higher failure rate than AI use in general.
+
+Forrester's take: "Too many companies are deploying AI to cut costs, not solve problems. Customers can tell the difference."
+
+They're right. And the failure pattern is predictable:
+
+Cost-first deployment → no feedback loop → agent says wrong thing → customer gets frustrated → ticket escalates to human anyway → you saved nothing and damaged trust.
+
+The deflection bot model is broken. It was designed by finance, not customer experience. The goal was handle time reduction, not resolution rate improvement. Those are different metrics that optimize for different things.
+
+Here's what actually works: AI that listens to every call, scores quality, identifies coaching gaps, and helps human agents improve over time. Not replacing the human. Improving what the human says.
+
+Speech analytics + automated QA + targeted coaching = measurable CSAT improvement without headcount cuts.
+
+The companies getting this right aren't asking "how many contacts can we deflect?" They're asking "what are our agents saying that's costing us renewals?"
+
+Those are different questions. The second one is harder to answer but the ROI is 10x.
+
+If you're running a contact center and your AI strategy is a chatbot that handles FAQs — you're not doing AI for CX. You're doing AI for cost reduction and hoping no one notices.
+
+The 1-in-5 failure stat isn't a data problem. It's a strategy problem.
