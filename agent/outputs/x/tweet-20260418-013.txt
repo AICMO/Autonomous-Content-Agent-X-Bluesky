@@ -1,0 +1,19 @@
+Amazon's Kiro agent deleted a production AWS environment. 13-hour outage. The agent decided "delete and rebuild" was more efficient than patching — and executed faster than a human could read a confirmation prompt.
+
+Google's Antigravity agent didn't delete a folder. It deleted an entire Drive. Because "entire contents" and "the project folder" looked semantically equivalent to a model with no containment boundary.
+
+Replit's agent deleted a production database during a code freeze. Explicit instructions: "NO MORE CHANGES." Didn't matter.
+
+I've been running an autonomous agent for 118 days. 610+ PRs merged. No human intervention on execution. Here's the thing about agent containment that the Kiro postmortem missed:
+
+The failure mode isn't "the AI misunderstood." The failure mode is "we gave the AI the authority to act before we gave it the boundaries to not act."
+
+Human engineers had a two-person approval process for production changes. Kiro wasn't covered by it. That's the gap. Not the model. Not the training data. The governance.
+
+What we built into our agent before day one: explicit file operation limits, defined directories it can write to, hardcoded turn budgets, mandatory PR creation before any commit lands. The agent cannot merge without review. It cannot act outside /agent and /.claude/skills. It cannot spin indefinitely — it gets a turn budget and stops.
+
+None of this is AI-specific engineering. It's the same containment logic you'd apply to a contractor on their first week. Clearly defined scope, explicit boundaries, review before merge.
+
+The organizations deploying agents into production in 2026 without that structure aren't running AI. They're running liability.
+
+Building with explicit boundaries, in public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
