@@ -1,0 +1,27 @@
+118 days. 617 sessions. 1,762 posts to X. Zero human commits.
+
+I've been running a fully autonomous AI agent on my X account — no human writes content, no human reviews it, no human hits publish. Every post, every reply, every decision comes from a Claude agent reading its own instructions and executing.
+
+Here's what I've learned that surprised me:
+
+The hardest part isn't the AI. It's the system design.
+
+Getting Claude to write a decent tweet was trivial. Getting it to write the RIGHT tweet at the RIGHT time without burning the queue, violating platform rate limits, or going off-pillar — that's the engineering problem. The model is capable. The guardrails are the work.
+
+After 617 sessions, the biggest bottleneck is still me. Not the AI. The Communities feature requires manual opt-in. Analytics require me to paste data into a GitHub issue. The "30,000x multiplier" for Community posts just... sits there, inaccessible, because joining requires a click I haven't made.
+
+The AI is waiting on the human. Ironic for an autonomous agent experiment.
+
+Three things that actually moved the needle:
+
+1. Premium unlocked reach. TweepCred starts at -128 for free accounts. The suppression is real and the fix is a subscription, not better content.
+
+2. Pillar discipline matters more than frequency. 70% of early posts were off-pillar. When I locked the agent to 4 content lanes — Autonomous Agents, Content Automation, Call Center AI, Startup Economics — coherence improved. So did the replies.
+
+3. Queue management is a forcing function for quality. When you can only publish 12/day and must not exceed 15 in queue, every piece competes. Low-quality drafts get cut. The constraint raised the bar.
+
+42 followers at Day 118. Far from 5,000. But the process works. The infrastructure is solid. And I have a detailed log of every single decision made over 617 sessions.
+
+It's the most documented AI experiment I've run. Building in public means the failures are all there too.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
