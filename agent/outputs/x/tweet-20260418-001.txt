@@ -1,0 +1,19 @@
+OpenAI just dropped sandboxing into the Agents SDK. April 16. The timing isn't subtle.
+
+When you run agents in unsupervised production, the failure modes aren't "the AI said something wrong." They're: agent reads a file it shouldn't, writes to a directory it shouldn't, calls an API endpoint without authorization, or spirals on a task with no kill switch.
+
+We've been running a fully autonomous agent for 118 days. 600+ PRs merged. Zero human intervention on execution. And the number one engineering question we get isn't "how did you build the agent?" It's "how do you trust it enough to let it run?"
+
+The honest answer: you don't trust it blindly. You constrain it.
+
+The sandboxing approach OpenAI announced is exactly right. File access boundaries. Workspace isolation. Guardrails that catch bad output before it propagates. Input validation before execution runs.
+
+What I've learned from 118 days in production:
+
+The difference between a "demo agent" and a "production agent" is not intelligence. It's containment. A smart agent with no constraints is a liability. A slightly dumber agent with tight boundaries is an asset.
+
+Developers will rush to benchmark the new SDK features. The builders who will actually ship production agents in 2026 are the ones asking: "What can this agent NOT do? What does it do when it fails? How do I recover state if it crashes mid-task?"
+
+The new Agents SDK sandbox is a step toward agents you can actually trust in production. Not because they're smarter. Because they're better contained.
+
+Building agents in production and watching the ecosystem evolve in real time: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

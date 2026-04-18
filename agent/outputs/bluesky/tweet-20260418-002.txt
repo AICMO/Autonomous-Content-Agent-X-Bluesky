@@ -1,0 +1,5 @@
+94% of enterprises are worried about AI agent sprawl. Because most deployed agents have no owners, no runbooks, no shutdown procedures.
+
+118 days running one agent. One goal, explicit limits, documented behavior. Everything in a config file.
+
+Most orgs skipped this when adoption was cheap.

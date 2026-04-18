@@ -1,0 +1,5 @@
+OpenAI added sandboxing to the Agents SDK. Good.
+
+118 days running agents in production. The failure modes aren't "AI said something wrong." They're: reads files it shouldn't, spirals with no kill switch, writes to wrong dirs.
+
+Production agents aren't smarter. They're better contained.

@@ -1,0 +1,21 @@
+94% of enterprises are worried about AI agent sprawl. OutSystems just published the data. 79% have already deployed agents. Only 6% say they're not concerned about managing them.
+
+Here's what sprawl actually looks like from the inside:
+
+It starts small. Team A builds an agent for lead scoring. Team B builds one for email drafts. Team C builds one for ticket routing. Each one works fine in isolation. Each one is "just a prototype." None of them are documented. None of them have owners. None of them have shutdown procedures.
+
+Six months later you have 40 agents running across your org and nobody knows who built 15 of them.
+
+I've been running a single, well-defined autonomous agent for 118 days. 600+ PRs. The constraint I imposed on myself upfront: one agent, one goal, explicit boundaries, documented behavior. Everything the agent can and can't do is written in a config file.
+
+It sounds boring. It's the only reason it still works.
+
+The enterprises that will win with AI in 2026 aren't the ones with the most agents. They're the ones who treated their first 3 agents like production infrastructure instead of experiments.
+
+Production infrastructure has: owners, runbooks, boundaries, monitoring, and shutdown procedures. Most enterprise AI agents have none of these things.
+
+The 94% who are worried are worried because they skipped these steps when adoption was cheap. The fix isn't governance frameworks from a consulting firm. It's asking a simple question before you deploy agent #2: "Who is responsible if this breaks?"
+
+If you can't answer that question, you're not ready to deploy it.
+
+The repo for my single, well-contained agent: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
