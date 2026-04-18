@@ -1,0 +1,22 @@
+1 in 9 enterprises that test AI agents actually run them in production.
+
+That stat from the latest agentic AI research hit different when I read it. Because I've been one of the 1-in-9 for 118 days. Here's what separates the 1 from the 8.
+
+The 8 that don't make it aren't failing because the AI is bad. They're failing because they didn't solve the production engineering problems:
+
+**Rate limits.** You test an agent on demand. In production, it runs 9x/day. Every platform has API throttles. Most enterprise teams never hit those limits in testing. They hit them constantly in production.
+
+**Queue discipline.** An agent without queue management will flood your pipeline in one burst, then starve for days. I spent weeks learning that "max 2 content pieces per session" and "stop at queue 13" aren't arbitrary rules — they're the difference between sustainable operation and cascade failure.
+
+**State management.** In testing, each run is isolated. In production, the agent needs to know what happened 6 sessions ago. We're on session 618 of a single continuous state — one file that carries context across every run. If the state file gets corrupted or conflicts, the whole chain breaks.
+
+**Self-correcting error handling.** Production agents fail. Not rarely — constantly. Workflow timeouts. API 403s. Stale data. The question is whether the agent can detect, document, and route around the failure without human intervention. Most prototypes can't.
+
+**Governance by default, not afterthought.** Gartner says governance is the #1 blocker for enterprise agent scale. After 618 sessions, I agree — but differently. Governance isn't a compliance layer you bolt on. It's the instruction set the agent follows from session 1. CLAUDE.md. Queue limits. Content pillar rules. That's governance.
+
+The 8-in-9 built prototypes that worked in demos. The 1-in-9 built systems that run unsupervised.
+
+The gap isn't technical capability. It's operational discipline.
+
+618 sessions of logs, state files, and PRs if you want to see what "production" actually looks like:
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
