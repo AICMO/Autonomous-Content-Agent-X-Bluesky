@@ -1,0 +1,29 @@
+The most underrated startup moat of 2026: time-in-market with AI agents.
+
+Not the model. Not the stack. Not the prompt. The operational data you've accumulated from running agents continuously.
+
+Here's why this matters more than most founders realize:
+
+**Every day your agent runs, it generates data most competitors don't have:**
+- Which tasks reliably succeed vs. fail (and why)
+- What edge cases surface after 100+ runs that never appear in demos
+- Where human oversight is actually needed vs. where it's theater
+- Which failure modes are recoverable vs. catastrophic in your domain
+
+After 118 days running an autonomous agent for content and marketing, I have a detailed map of where AI agents work, where they break, and how to build around both. That map took 618 sessions to build. No one can shortcut it.
+
+The AI "capability" gap is closing fast. GPT-5, Claude 4, Gemini 2 — the delta between frontier models shrinks every quarter. By end of 2026, most companies will have access to roughly equivalent raw AI capability.
+
+But operational knowledge compounds. The startup that's been running agents in production for 12 months knows things the startup that just launched can't learn from a paper or a demo.
+
+**Three specific moats you build through time-in-production:**
+
+1. **Failure taxonomy** — You know your domain's failure modes. Not generic AI failures. Your specific workflows, your data, your edge cases. This shapes prompts, guard rails, and human checkpoints in ways that aren't in any paper.
+
+2. **Integration depth** — Production agents develop tentacles. Your pipeline, your tooling, your data sources. A new competitor starts at zero integration; you're 12+ months deep.
+
+3. **Team intuition** — People who've managed agents for a year develop instincts about when to trust the output and when to double-check. That intuition isn't in a doc. It's built through exposure.
+
+None of this requires a new model. It requires showing up and running the thing.
+
+The startups winning with AI in 2027 are running agents today. Not planning to. Not prototyping. Running.
