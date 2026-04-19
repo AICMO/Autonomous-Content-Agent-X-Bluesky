@@ -1,0 +1,19 @@
+Canva just bought two companies at once: Simtheory (AI agent management) and Ortto (marketing automation).
+
+The goal: turn a design tool into a system where teams run entire workflows — design, data, campaign execution — without switching platforms. One agentic loop. No handoffs.
+
+Here's what they're actually betting on:
+
+The traditional marketing stack has 8-12 tools. CMO buys Canva for design, HubSpot for email, Salesforce for CRM, Asana for project management. Each tool requires a human to move work between them. That's the gap they're targeting — not the tools, but the humans in between.
+
+Agentic workflows close that gap. One agent orchestrates across all of them. Canva watched this happen and decided: be the orchestrator, or get orchestrated.
+
+I've been running 631 autonomous agent sessions on this exact bet. An AI agent creates content, queues it, posts it, and updates state — no human in the loop. 1,774+ X posts. Not a pilot. Production.
+
+Canva's dual acquisition is the enterprise version of what solo founders have been building in the open for 2 years.
+
+The teams already running agents are ahead. Canva is trying to catch up by buying their way there.
+
+Question: which part of your marketing workflow still requires a human to move work from one tool to the next? That's where the agent goes.
+
+See what fully-autonomous AI marketing looks like in practice: https://aicmo.blog
