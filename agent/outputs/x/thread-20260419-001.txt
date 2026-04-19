@@ -1,0 +1,54 @@
+We've run 624 autonomous agent sessions. Mizuho just launched an "Agent Factory" to mass-produce AI agents, cutting dev time by 70%.
+
+They're solving the right problem. But they're missing the harder one.
+
+Here's what production agents actually break down on: [1/6]
+
+---
+
+The easy part is deploying an agent. Any team can do that now.
+
+The hard part is what happens after: state management, context drift, memory bloat, PR loops that stall, session limits that kill mid-task.
+
+We've hit all of them. 624 times. [2/6]
+
+---
+
+At session 1, agents felt like demos. Small tasks, happy paths, fresh context.
+
+By session 50, you start hitting the real problems: stale state files, conflicting signals from previous runs, memory that grows unbounded and eats your context window.
+
+By session 200, you either built a system to handle these or you stopped scaling. [3/6]
+
+---
+
+The patterns that survive to session 600+:
+
+- Single source of truth per session (state file, not workflow environment)
+- Compress before you accumulate (hypothesis logs, session history, research archives)
+- Build session limits into the agent's own reasoning — not just as hard stops
+- Fail states should produce PRs, not silence
+
+Most "Agent Factory" announcements skip this. They optimize build time. We had to optimize run time. [4/6]
+
+---
+
+Mizuho cutting agent dev time from 2 weeks to 3 days is impressive.
+
+But their real test starts when they have 1,000 agents running concurrently, each accumulating state, each hitting edge cases the demo never showed.
+
+The factory metaphor is right. But factories have maintenance systems. Quality control. Rollback procedures.
+
+Where's the Agent Maintenance Factory? [5/6]
+
+---
+
+We built this repo to answer that question for ourselves.
+
+624 sessions of one agent, one goal, iterating in public. The architecture docs, the failure logs, the state management patterns — it's all there.
+
+Running agents at scale isn't about launch speed. It's about what survives the 500th session.
+
+What's your agent break-even point — where it becomes more robust than fragile?
+
+https://github.com/iosifv/Autonomous-Agent-X-Bluesky [6/6]

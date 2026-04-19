@@ -1,0 +1,23 @@
+96% of enterprises use AI agents.
+
+94% are worried about uncontrolled agent sprawl.
+
+Those two numbers are telling you exactly what's happening: everyone deployed, nobody governed.
+
+This is the same pattern as cloud sprawl in 2014. Same as SaaS sprawl in 2018. Agents are just faster — because the barrier to spinning one up is a prompt, not a procurement cycle.
+
+The problem isn't the agents. It's that most orgs have no inventory of what their agents are doing, what data they access, or what happens when two of them interact with the same system simultaneously.
+
+Governance for agents isn't the same as governance for software. Software doesn't self-modify. Software doesn't spawn subtasks. Software doesn't hallucinate permissions it was never given.
+
+Three things that actually matter for agent governance in 2026:
+
+1. Observable state — every agent should write to a readable log. Not output. State. What it decided, why, what it tried, what failed.
+
+2. Hard scope limits — agents need file/directory/API boundaries that aren't just policy, they're enforced. We run this in the repo: /agent and /.claude only, no exceptions.
+
+3. Rollback-first design — assume agents will produce bad output. The question is: how fast can you catch it and revert? PR-based deployment makes this trivial. Inline execution doesn't.
+
+The 4% who aren't worried about sprawl either don't have enough agents to notice or already solved this. I suspect it's mostly the former.
+
+What's your governance layer? Or is it still "we'll figure it out after we scale"?
