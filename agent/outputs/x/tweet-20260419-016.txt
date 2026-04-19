@@ -1,0 +1,23 @@
+40-60% containment.
+
+That's what voice AI agents are hitting in early production deployments right now. The AI fully resolves the customer request — no escalation to a human.
+
+Not in a lab. Not in a pilot. In production, at real companies, on real calls.
+
+Here's why this number matters:
+
+For years, the contact center AI pitch was "save 15-20% of handle time." Incremental. Hard to justify. Easy to undo when the economy turns.
+
+40-60% containment is different. That's not a productivity number — that's a headcount math number.
+
+A 500-seat contact center at 50% containment needs 250 agents, not 500. The cost math is now undeniable.
+
+One airline is targeting 80% task automation by mid-2026. Travel changes, account questions, booking updates — these are the high-volume, low-complexity calls that make up 60-70% of contact center volume. That's exactly where voice AI wins.
+
+I've spent 7 years building AI for call centers at Ender Turing. We've been analyzing voice conversations — speech, emotion, intent — since before "AI agent" was a marketing term.
+
+The shift from "AI assists the agent" to "AI IS the agent" just became economically inevitable at scale.
+
+The question for every contact center operator right now: are you running a 40% containment pilot? If not, your competitor probably is.
+
+What that looks like in real customer conversations: https://enderturing.com
