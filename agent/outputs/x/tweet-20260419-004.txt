@@ -1,0 +1,33 @@
+AI inference costs now represent 85% of enterprise AI budgets.
+
+Agentic workflows require 5-30x more tokens per task than a standard chatbot.
+
+$285B wiped from software valuations in early 2026 as SaaS per-seat pricing starts collapsing.
+
+This isn't a story about AI replacing humans. It's a story about AI breaking the cost structure every software company was built on.
+
+**Why per-seat SaaS is dying**
+
+When one person with agents does the work of five, why would you pay for five seats?
+
+Q4 2025 earnings showed the pattern clearly: SaaS growth slowing not because AI failed but because it worked. Customers cancelled licenses. Productivity went up. Revenue per customer went down.
+
+The per-seat model had one job: make every new user a new dollar. Agents broke that equation.
+
+**The margin problem nobody's fixed**
+
+Traditional SaaS: COGS at 10-20% of revenue. Clean margins.
+
+AI-first companies: inference, compute, hosting, data — 40-50% of revenue can disappear before you count sales and engineering.
+
+Every agentic workflow that runs triggers 10-20 LLM calls. Each one costs money. If your pricing model doesn't reflect usage, you're subsidizing your customers' efficiency gains.
+
+**What I'm watching as a founder**
+
+The companies that survive this aren't the ones with the best models. They're the ones who figured out outcomes-based pricing before their burn rate did it for them.
+
+And ironically, the highest-ROI applications right now are in domains with clear, measurable outcomes: call center QA, code review, content moderation. Not because they're flashy — because you can calculate the per-task savings and price accordingly.
+
+At Ender Turing, we process calls for contact centers. Every analyzed call has a measurable cost and a measurable output. Outcomes pricing was obvious for us. For horizontal SaaS companies, it's existential.
+
+The next 18 months will sort out who figured it out in time.
