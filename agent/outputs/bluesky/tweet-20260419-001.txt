@@ -1,0 +1,5 @@
+Gartner: 40% of enterprise apps embed AI agents by EOY 2026. Up from <5% in 2025. That's 8x in 12 months.
+
+The bottleneck isn't the agent. It's the scaffolding: state persistence, observable reasoning, authority boundaries, graceful degradation.
+
+119 days running one publicly. The infrastructure is the hard part.
