@@ -1,0 +1,19 @@
+97% of enterprises run AI agents. Only 12% have centralized control.
+
+Gartner says 40% of agentic AI projects will be canceled by 2027.
+
+Those two numbers explain each other.
+
+Everyone rushed to deploy. Nobody built the governance layer. Now you've got agents running in 14 different tools, touching production data, with no audit trail, no rollback, and no single owner.
+
+The CIO article title says it best: "More mixed than mainstream."
+
+Here's what I've learned from 624 sessions of autonomous agent ops:
+
+The agents that survive aren't the ones that do the most. They're the ones that do exactly what they're supposed to do, stay inside defined boundaries, and produce observable state at every step.
+
+Observable state. Scope limits. Rollback capability. If your agent doesn't have all three, you're not running production — you're running a demo on a timer.
+
+40% cancellation rate isn't an AI problem. It's an architecture problem. The agents weren't the issue. The humans who deployed them without building for governance were.
+
+Fix the architecture first. The agent capabilities will compound from there.

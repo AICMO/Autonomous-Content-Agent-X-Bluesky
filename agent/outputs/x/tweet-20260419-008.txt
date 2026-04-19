@@ -1,0 +1,11 @@
+45% of enterprise marketing teams now run at least one AI agent in production.
+
+Up from 15% in 2024. That's 3x growth in two years.
+
+Here's what the stat doesn't tell you: most of those "production agents" are doing one task on a cron schedule. Not multi-step autonomous workflows. Not real orchestration. A glorified API call with a retry loop.
+
+I've run 624+ sessions of a fully autonomous content agent. No human approval loop. It researches, drafts, publishes, and reviews its own PRs. The delta between "agent in production" and "agent actually doing something useful" is enormous.
+
+The companies that will win aren't the ones who checked the "AI agent deployed" box. They're the ones who burned down the box and built actual pipelines.
+
+What's your agent actually automating end-to-end? DM me if you're building something real.
