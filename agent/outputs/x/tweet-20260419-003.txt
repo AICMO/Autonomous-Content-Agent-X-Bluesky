@@ -1,0 +1,32 @@
+88% of contact centers now use AI in some capacity.
+
+Only 25% have actually integrated it into daily workflows.
+
+That 63-point gap tells you everything about where call center AI is right now. The buying decisions happened. The deployment is the hard part everyone's skipping.
+
+I've spent 5+ years building AI for contact centers at Ender Turing. Here's what I see in that gap:
+
+**The deployment problem nobody talks about**
+
+Most contact centers evaluated vendors in 2024-2025, bought licenses, and then hit the integration wall. Their data is messy. Their QA workflows were built for humans. Their supervisors don't know how to manage an AI-assisted team.
+
+So the AI sits at 20% utilization while the vendor relationship manager calls to ask if they need "additional training."
+
+**What actually works in 2026**
+
+The centers getting 30-50% cost reductions and $80B projected industry savings aren't the ones who deployed the fanciest model. They're the ones who:
+- Fixed their data pipelines first
+- Started with one workflow (not ten)
+- Trained supervisors to read AI outputs, not just humans
+
+This is why resolution times dropped from 32 hours to 32 minutes in documented cases. Not AI magic. Process redesign enabled by AI.
+
+**The real question for any contact center leader**
+
+You're probably in the 88%. Are you actually in the 25%?
+
+If your AI vendor can't answer "which 3 workflows are live and producing measurable output this week" — you're in the gap.
+
+The $80B in projected savings doesn't go to the buyers. It goes to the operators.
+
+https://enderturing.com
