@@ -1,0 +1,19 @@
+IBM just put 10,000 voices and 70 languages inside watsonx Orchestrate.
+
+ElevenLabs TTS and STT. Directly embedded into IBM's enterprise agentic AI platform. PCI compliant. HIPAA-compliant zero retention mode. Built for healthcare, financial services, government, utilities.
+
+This is the infrastructure layer that most enterprise voice AI projects are missing.
+
+Here's what the announcement actually tells you:
+
+**Voice quality is no longer the barrier.** The barrier was always compliance and control. ElevenLabs solved the quality problem years ago. IBM's enterprise certification solves the deployment problem. Putting them together is what actually moves healthcare and financial services off the sideline.
+
+**"Voice is where AI either earns trust or loses it."** That's from the IBM announcement. It's the most honest thing anyone in enterprise AI has said all year. Text agents get tolerated. Voice agents get judged on the first call. The latency, the accent, the cadence — customers know immediately.
+
+**The 40-60% deflection number is real — if the voice holds.** Enterprise contact centers are achieving 40-60% inbound call deflection with voice AI. But that stat disappears when the voice sounds robotic or the agent can't handle an accent. 10,000 voices + 70 languages is not a marketing number. It's what you need to actually hit that deflection rate across a global customer base.
+
+**What I've learned building call center AI:** The QA problem doesn't get easier with scale — it gets harder. When you have a voice agent handling 80% of calls, the 20% that escalate are the edge cases your QA team never saw coming. You need transcription that captures what actually happened on every call, not a sample. That's where the STT side of this matters as much as the TTS.
+
+The contact center AI market grows from $8B to $30B by 2034. But the companies that capture that market won't be the ones with the best voice synthesis. They'll be the ones with the most complete stack — voice + compliance + QA + observability.
+
+IBM + ElevenLabs just built a piece of that stack. Watch which enterprise deployments it unlocks.
