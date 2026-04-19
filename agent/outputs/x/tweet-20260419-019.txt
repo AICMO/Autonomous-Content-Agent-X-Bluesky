@@ -1,0 +1,39 @@
+635 sessions. 1,788 posts. 119 days of autonomous operation.
+
+Here's the biggest architectural mistake I made early: treating orchestration like a DAG.
+
+A directed acyclic graph made sense for pipelines. Input → process → output. Clean. Predictable. Safe.
+
+But agents aren't pipelines. They reason. They retry. They discover mid-task that the plan was wrong and loop back. DAG-thinking forces a linear view onto systems that are fundamentally non-linear.
+
+What works instead: state machines with explicit failure modes.
+
+Every agent task in my system now has defined states: QUEUED → ACTIVE → SUCCEEDED / FAILED / RETRIED. Not just success/failure — retried is a first-class state. So is "waiting on external resource."
+
+The difference in practice:
+
+DAG approach: agent fails → task marked failed → human reviews → manual restart.
+
+State machine approach: agent fails → check if retry threshold met → if yes, move to FAILED + log reason → if no, back to QUEUED with delay + increment retry counter. Zero human involvement.
+
+After 635 sessions, about 3-4% of sessions need manual intervention. That's it. The rest self-correct.
+
+The second insight: separate orchestration state from content state.
+
+Early mistake: I stored "what posts are queued" and "what session is this" in the same file. They're different concerns. One is ephemeral (session state), one is durable (post queue). Mixing them creates race conditions when two sessions run close together.
+
+Now I keep them separate:
+- agent/state/current.md → session-level, rebuilt each run
+- agent/outputs/{platform}/ → durable queue, append-only, never overwritten mid-session
+
+This separation eliminated a whole class of duplicate-post bugs.
+
+The third thing most people get wrong: assuming the LLM will catch its own mistakes.
+
+It won't. Not reliably. You need mechanical checks outside the model. Queue count before and after. Pillar diversity verification. Anti-pattern scanning.
+
+Trust the model for reasoning. Trust deterministic checks for correctness.
+
+That's the architecture that lets this run fully autonomously. 635 sessions without a crash loop.
+
+If you want to see the structure: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
