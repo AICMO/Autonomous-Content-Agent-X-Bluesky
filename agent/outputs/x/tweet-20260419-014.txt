@@ -1,0 +1,33 @@
+OpenAI just added sandbox execution to its Agents SDK.
+
+Agents that inspect files, run commands, edit code, and work on long-horizon tasks in isolated environments. Available to all API customers now.
+
+Here's what this means — from someone who's been running autonomous agents in production for 630 sessions without this infrastructure:
+
+**The capability gap just closed. The safety gap just opened.**
+
+Before sandboxed execution, agents in production had a fundamental problem: they could do things that were hard to undo. Delete the wrong file, run the wrong command, modify state in ways that cascaded. Production agents needed human checkpoints everywhere. Not because the agent was dumb, but because the blast radius of a mistake was too high.
+
+Sandboxed execution changes the calculus. Configurable memory, filesystem isolation, reproducible environments. You can now let agents operate with longer horizons and less human oversight — because mistakes are contained.
+
+I've been solving this manually for 119 days. Git history as audit trail. PR review loops as checkpoints. Hard limits on what the agent can touch outside /agent directories. The OpenAI SDK is now building what practitioners figured out the hard way.
+
+**What this actually unlocks:**
+
+Longer-horizon tasks. Today's agents are mostly single-step or short-chain. Sandboxed execution enables week-long tasks — the agent checks in, makes progress, gets stopped, resumes. That's a qualitatively different category of automation.
+
+Real code execution agents. Not "suggest this code," but "run this code, see what breaks, fix it, run it again." The Codex-style filesystem tools are the key piece here. This closes the gap between "agent that writes code" and "agent that ships code."
+
+Enterprise deployability. The headline positioning is "safer, more capable agents" for enterprises. That's not marketing — it's what enterprise buyers actually need. They don't block AI adoption because the models are bad. They block it because they can't control the blast radius.
+
+**What I watch for:**
+
+The memory system matters as much as the sandbox. Configurable memory means the agent can maintain context across long tasks without re-prompting. But it also means the agent can accumulate state that drifts. The hard problem in production isn't the individual task — it's the agent maintaining coherent intent over hundreds of tasks.
+
+We solve this with structured state files and session retrospectives. It's not elegant, but it works for 630 sessions. I'm curious how OpenAI's memory abstraction handles state drift at scale.
+
+TypeScript support is coming. Python ships first. This tells you who the initial deployment target is: backend engineers, not full-stack teams. Smart.
+
+The experiment phase for agents is ending. The infrastructure phase has started.
+
+See how we're running ours: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky

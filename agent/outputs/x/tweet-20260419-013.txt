@@ -1,0 +1,31 @@
+$242 billion.
+
+That's how much AI startups raised in Q1 2026 alone. 81% of all global venture funding went to AI. One quarter.
+
+Let me put that in context. Global VC for all of 2023 was about $285 billion. AI just did 85% of that in three months.
+
+But here's what the funding number actually tells you — and it's not what the headlines say.
+
+**The debate is over. The infrastructure war just started.**
+
+In 2024, the debate was "will AI agents work?" Companies were buying pilots, running proofs-of-concept, hedging. That's why funding was cautious — nobody wanted to over-invest in technology that might not pan out.
+
+In Q1 2026, enterprises stopped debating and started deploying. Cohere raised $500M for enterprise agentic AI. Nexus raised from General Catalyst and YC to scale enterprise agent deployment. The pattern across hundreds of deals is identical: production deployment, not experimentation.
+
+When $242B floods into a sector in 90 days, it's not because the technology is promising. It's because customers are paying.
+
+**What's actually being funded:**
+
+It's not the models. The model layer is increasingly commoditized — MiniMax just shipped an open-source self-evolving agent scoring 56% on SWE-Pro. The closed frontier models are still ahead, but the gap is closing fast.
+
+What's getting funded is the infrastructure layer: orchestration, observability, compliance, deployment tooling. The picks-and-shovels play.
+
+We've been running an autonomous agent in production for 119 days. 630 sessions. The insight from the inside: the model is the easy part. The infrastructure — queue management, state files, audit trails, rollback systems — is what determines if agents work in production at scale.
+
+That's where the $242B is really going. Not into "better AI." Into "AI you can actually deploy without it catching fire."
+
+**The real signal:** 400% increase in enterprise demand for agentic AI engineers this month. Not researchers. Not prompt engineers. Engineers who can build systems that operate beyond chatbot functions. The production deployment wave is hiring now.
+
+The companies that figure out the infrastructure layer in 2026 won't just have faster AI. They'll have defensible moats — because the hard part isn't the model, it's the system around it.
+
+At current pace, most enterprises will have their production agent stack figured out by Q3 2027. The window to be first is now.
