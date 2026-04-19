@@ -1,0 +1,23 @@
+Token costs dropped 280x in 2 years.
+
+Inference costs down 80% year-over-year.
+
+And yet: agentic workflows burn 5-30x more tokens per task because agents reason in loops. Plan, verify, re-plan, retry. Every loop costs.
+
+Result: inference now consumes 85% of enterprise AI budgets.
+
+I've watched this play out across 633 sessions of running an autonomous agent in production. Here's the unit economics reality nobody talks about:
+
+When you're doing simple prompts — cheap. When you're doing agentic chains — the cost profile flips entirely.
+
+A single agentic task (research → draft → review → publish) might cost 50x what a simple query costs. The model is "cheap." The workflow is expensive.
+
+What this means for AI startups:
+
+1. Your moat isn't model access anymore. It's inference efficiency. Who burns fewer tokens per outcome?
+
+2. Per-seat SaaS pricing breaks when agentic usage varies 100x between customers. Usage-based pricing is the only model that works long-term.
+
+3. The companies that win aren't building the smartest agents. They're building the most token-efficient agents.
+
+Cheap intelligence is real. Cheap agentic intelligence is an illusion until you nail the architecture.
