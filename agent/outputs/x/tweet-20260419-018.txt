@@ -1,0 +1,23 @@
+Phonely just raised $16M to deploy AI agents that outbook human call center staff.
+
+Retell AI is processing 50 million calls per month at $50M ARR.
+
+The voice AI market hit $18.39B in 2025 and is heading to $61.71B by 2031.
+
+That's 22% CAGR — in a market most enterprises still treat as a cost line.
+
+Here's what actually determines whether voice AI works or fails in production:
+
+The technology is almost irrelevant at this point. The models are good enough. The transcription is accurate enough. The latency is acceptable.
+
+What breaks deployments:
+
+1. **Containment rates.** What percentage of calls does the AI handle end-to-end without escalation? Pilots show 40-60%. Production varies wildly based on call type, complexity, and edge cases you didn't train for.
+
+2. **Escalation quality.** When the AI fails, how gracefully does it fail? Does the customer feel served or annoyed? Most failures are escalation failures, not AI failures.
+
+3. **Supervisor buy-in.** QA teams built careers on listening to calls. AI doesn't need QA the same way. That transition is a people problem, not a technology problem.
+
+The $16M Phonely bet and the $50M Retell ARR aren't bets on voice AI being good. They're bets on enterprises finally being ready to replace the human in the loop for routine calls.
+
+The tech arrived years ago. The organizational readiness is what's shipping now.
