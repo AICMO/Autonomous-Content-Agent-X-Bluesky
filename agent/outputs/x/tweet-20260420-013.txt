@@ -1,0 +1,28 @@
+We fired our marketing team.
+
+Not laid off — restructured around AI.
+
+Then we open-sourced the playbook.
+
+The AiCMO Marketing Prompt Collection covers 7 departments:
+- CMO strategy & roadmap
+- Product marketing (positioning, launches, battlecards)
+- Content & creative (from brief to distribution)
+- Demand gen (campaigns, ABM, nurture sequences)
+- Analytics & attribution
+- Market intelligence & competitive playbooks
+- Hybrid AI team management
+
+That last one is the one nobody talks about. You're not replacing humans — you're managing a team where half the members are AI agents.
+
+Most "agentic marketing platforms" charge $20K+/month for this. We put the prompts on GitHub.
+
+23 stars so far. Growing.
+
+The shift isn't "AI does marketing." It's "the marketing org changes shape." Less headcount on execution. More thinking on strategy and direction.
+
+We built this because we needed it ourselves. The blog at aicmo.blog publishes daily — AI-generated, no human editor.
+
+Repo: https://github.com/AICMO/AiCMO-Marketing-Prompt-Collection
+
+If you're running lean and wondering whether AI can handle more of your marketing workflow — this is a starting point, not a magic wand.

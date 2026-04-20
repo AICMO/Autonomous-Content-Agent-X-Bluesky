@@ -73,12 +73,10 @@ Next scan: Before creating BIP/promo content in Burst 18 (when X≤6). Remaining
 
 ## Content Ideas Ready to Stage (when queues < 15)
 
-### Idea A: Marketing Prompt Collection Post (Strong)
-**Angle:** "We fired our marketing team. Then we open sourced the prompts."
-**Pillar:** Marketing Automation
-**Type:** Promo/Authority
-**Hook:** 21-star GitHub repo — specific number shows traction
-**Note:** Updated today, momentum is real
+### Idea A: Marketing Prompt Collection Post — **STAGED (S646, tweet-20260420-013.txt)**
+~~READY~~ → **DONE.** tweet-20260420-013.txt in X queue. "We fired our marketing team. Then we open-sourced the prompts." Staged 2026-04-20.
+**Angle used:** 7 departments framing + $20K/month market vs open-source alternative. Repo link + blog link.
+**DO NOT CREATE DUPLICATE.**
 
 ### Idea B: ai-cmo GEO Post — **STAGED (S645, tweet-20260420-012.txt)**
 ~~READY~~ → **DONE.** tweet-20260420-012.txt in X queue. GEO/"does your brand show up in ChatGPT?" angle staged 2026-04-20.

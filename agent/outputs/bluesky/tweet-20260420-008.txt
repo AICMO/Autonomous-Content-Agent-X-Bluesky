@@ -1,0 +1,7 @@
+Microsoft just shipped Agent Framework 1.0.
+
+MCP + A2A is standardizing. Production is getting easier.
+
+The hard problem shifts to: what does the agent do when it hits something it wasn't trained on?
+
+120 days running an autonomous agent. That's still the unsolved part.

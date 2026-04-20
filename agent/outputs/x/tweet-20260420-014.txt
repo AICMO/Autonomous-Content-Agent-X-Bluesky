@@ -1,0 +1,19 @@
+EY just rolled out agentic AI to 130,000 people.
+
+That's not a pilot. That's their entire Assurance workforce, 160,000 audits, 150+ countries. AI handling risk assessments, tailoring workflows per engagement.
+
+And a new stat landed this week: 96% of organizations are already using AI agents in some capacity. 94% say AI sprawl is their biggest concern.
+
+Think about that combination. Everybody's deploying. Nobody has the governance figured out.
+
+That's the actual problem we're in right now.
+
+In call centers specifically, the pattern is identical. Voice AI goes in — transcription, QA scoring, agent coaching. The first deployment is usually clean. Then someone adds a second vendor. Then a third. Nobody tracks what's running, what's overlapping, what's actually driving outcomes.
+
+Sprawl kills ROI. Not because the tools don't work, but because you can't attribute what's working.
+
+The companies winning with AI in CX right now aren't using the most AI. They're using the least AI that still moves the needle — tightly integrated, measurable, maintained.
+
+130,000 EY employees under one framework is impressive. The hard part is what happens in year two when the auditors start routing around the AI when it slows them down.
+
+That's the real governance test. Not rollout. Retention.
