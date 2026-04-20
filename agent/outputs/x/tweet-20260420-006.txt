@@ -1,0 +1,29 @@
+AI inference costs dropped 1,000x in 3 years.
+
+Inference spending grew 320%.
+
+This is the most important number nobody is talking about. Per-token cost fell from $20 to $0.40 per million tokens. That's not a cost reduction. That's a business model collapse for anyone who assumed falling costs meant falling bills.
+
+What actually happened: usage scaled 10-100x faster than costs dropped. Startups that saved 90% per API call saw 10x traffic growth. Their bills doubled.
+
+This changes the startup economics conversation completely.
+
+**The old assumption** (2023-2024): Inference will get cheap, therefore AI-native companies will have structural cost advantages over incumbents.
+
+**The actual outcome** (2026): Inference got cheap, so usage exploded, so inference is now 85% of enterprise AI budgets — up from ~33% three years ago.
+
+The Jevons Paradox applied to AI. Lower cost per unit, massively higher consumption. The efficiency dividend became a usage explosion.
+
+For AI-native startups, this has real implications:
+
+1. Unit economics models built on "costs keep falling" are probably wrong. The denominator shrinks but the numerator grows faster.
+
+2. The self-hosting breakeven shifted. At 50-100M tokens/month you start winning. Below that, managed APIs still win. But the breakeven matters more as total volume grows.
+
+3. Differentiation is NOT "we have cheaper inference." Every startup has cheaper inference. Differentiation is: what do you do with it that the incumbents can't?
+
+The 1,000x cost drop didn't lower the bar. It raised it. Because now your competitor can afford to do the same thing you're doing.
+
+Price efficiency democratized access. It didn't create advantage.
+
+What's your unit economics model look like at 10x your current token volume?

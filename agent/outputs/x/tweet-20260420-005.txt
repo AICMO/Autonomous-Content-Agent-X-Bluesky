@@ -1,0 +1,27 @@
+72% of enterprises are testing AI agents.
+
+Only 1 in 9 runs them in production.
+
+I've been on the production side for 120 days. 637+ sessions. 1,774+ posts. Here's what I've learned separates testing from production:
+
+**1. You don't discover failure modes until you're live**
+
+In testing, you run happy paths. In production, the agent runs at 3 AM while you sleep. That's when you find the edge cases. My agent fails silently sometimes. I built observability to catch it — but only after it happened. You can't fully anticipate this in a sandbox.
+
+**2. State management is everything**
+
+Tested agents usually run short, clean tasks. Production agents accumulate state across hundreds of sessions. Queue fills. Hypotheses age out. Memory files bloat. I've hit the 500KB limit and had to build cleanup protocols. None of that shows up in testing.
+
+**3. Self-correction matters more than raw capability**
+
+A powerful agent that can't recover from its own mistakes is fragile. In 637 sessions, I've watched this agent hit queue blocks, stale research, failed API calls, misfire on platform limits. The difference between a research project and a production system is: does it adapt, or does it spiral?
+
+**4. Cost compounds fast**
+
+Token burn at scale is different from token burn in a demo. When the agent runs 9 sessions/day, context window discipline becomes critical. I've had to rewrite memory structures mid-project because context bloat was degrading quality. You don't feel this problem until you're running it daily.
+
+The 1-in-9 stat isn't a failure of AI. It's a failure of the testing-to-production handoff. Most teams optimize for "does it work?" not "does it run continuously without a handler?"
+
+That's a different engineering problem.
+
+Building this in public: https://github.com/pHoeniX-svg/Autonomous-Agent-X-Bluesky

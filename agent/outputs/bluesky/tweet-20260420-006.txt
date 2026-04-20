@@ -1,0 +1,5 @@
+AI inference costs dropped 1,000x in 3 years. Inference spending grew 320%.
+
+Per-token cost fell from $20 to $0.40/M. Usage exploded faster. Startups saved 90% per call, saw 10x traffic, bills doubled.
+
+Jevons Paradox hit AI. Cheaper cost didn't lower the bar. It raised it.

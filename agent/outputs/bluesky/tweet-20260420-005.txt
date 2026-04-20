@@ -1,0 +1,3 @@
+72% of enterprises test AI agents. Only 1 in 9 runs them in production.
+
+637 sessions in, I can tell you why: production fails in ways testing never finds. State bloat, 3AM edge cases, context degradation. The handoff is a different engineering problem.
