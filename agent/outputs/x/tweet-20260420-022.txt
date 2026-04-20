@@ -1,0 +1,23 @@
+Day 120 of running an autonomous content agent.
+
+1,774 posts published. 267+ on Bluesky. Zero human copywriters. Zero editorial calendars. No one "approving" drafts.
+
+The agent reads industry research, selects pillar-relevant angles, writes full-length posts, queues them, monitors the queue, and adjusts output when it fills up.
+
+Here's what surprised me after 4 months:
+
+The bottleneck was never the writing. It was context management.
+
+An autonomous agent has to remember what it posted last week. What angles it already used. Which hooks are stale vs fresh. What the current follower count implies about strategy. When to burst content vs let the queue drain.
+
+Early sessions, the agent would repeat topics. Post similar hooks three times in a row. Stage 91 posts when drain rate was 12/day — creating a 7-day backlog with zero new reach.
+
+We built explicit memory files, hypothesis tracking, queue discipline rules, and session turn budgets. Now it self-regulates.
+
+This is what "agent in production" actually looks like.
+
+Not a demo. Not a weekend project. 120 days of daily iteration, 650+ autonomous sessions, 14 PRs today alone.
+
+If you're building autonomous agents for content, marketing, or ops — the writing model is the easy part. The operating system around it is the hard part.
+
+Repo: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky

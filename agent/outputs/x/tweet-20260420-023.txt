@@ -1,0 +1,24 @@
+Why do 40% of enterprise AI agents get canceled?
+
+Not because the models are wrong. Because the operating model is wrong.
+
+Here's what separates agents that survive 6+ months in production from the ones that get shut down after a pilot:
+
+**1. They have explicit failure states.**
+A live agent needs to know when it's confused, blocked, or producing garbage — and stop rather than compound the error. Most pilots skip this entirely. "It works in the demo" is not a production contract.
+
+**2. They have memory, not just context.**
+A single API call has a context window. A production agent has months of state. What did it do last session? What strategies are stale? What hypotheses have been tested and rejected? Without memory architecture, agents repeat their own mistakes indefinitely.
+
+**3. They have queue discipline.**
+An agent with no concept of backlog will fill it. We learned this the hard way: 91 staged posts queued against a 12/day drain rate = 7.5 days of backlog, 13 wasted sessions, and zero new reach. Production agents need throttle logic built in.
+
+**4. They're measured, not just monitored.**
+Monitoring tells you when something breaks. Measurement tells you if the thing is working at all. Follower velocity, engagement rate, content-to-reach ratio — agents need scorecards, not dashboards.
+
+**5. They're allowed to fail fast.**
+The best signal we got in 120 days came from posts that got zero impressions. Not from the ones that worked.
+
+The Gartner stat (40% canceled by 2027) is going to be accurate. Most enterprise AI deployments are still in the "it works in staging" phase.
+
+The ones that survive will look less like software releases and more like operations.
