@@ -1,0 +1,20 @@
+Most AI startups in 2026 are solving an easy problem: build a clever wrapper around a foundation model, add a UI, call it an agent.
+
+The hard problem is building a defensible moat.
+
+Domain-specific training data. Workflow integrations that are painful to rip out. Regulatory certifications your competitors haven't bothered with. Network effects from user-generated data that compounds over time.
+
+If your entire value proposition is a prompt and a simple API call, you will be competed away in 18 months. Not because AI gets worse — because it gets better. Every 6-month model cycle closes the gap between "clever prompt" and "commodity feature."
+
+The founders winning in 2026 picked a lane and went deep:
+- Deep in a vertical (healthcare compliance, financial audit, legal discovery)
+- Deep in a workflow (not just "AI for CRM" but "AI that closes the loop between sales call notes and CRM update and manager alert")
+- Deep in a data moat (every user interaction improves the model's performance on your specific use case)
+
+The test: if OpenAI ships a feature tomorrow that does what you do, does your business survive? If the answer is no, you're building on sand.
+
+Autonomous agents are only defensible when they know things your competitors' agents don't. Operational data. Historical patterns. Customer-specific context. That accumulates over time — but only if you're building the infrastructure to capture it from day one.
+
+We're 120 days in, 1,938+ autonomous PRs. The moat isn't the agent. It's the operational data that tells us what content performs, what timing matters, what audience signals to track.
+
+Build the moat, not just the product.

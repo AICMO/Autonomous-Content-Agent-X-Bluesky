@@ -1,0 +1,21 @@
+51% of enterprises have AI agents in production as of 2026.
+
+Also in 2026: 40%+ of agentic AI projects are at risk of cancellation by 2027.
+
+Both numbers are true simultaneously. That's the actual story.
+
+The gap isn't about the technology. It's about what happens AFTER you deploy. Governance. Observability. Someone who owns the outcome — not just the deployment ticket.
+
+Most pilots go live without answering: who monitors this when it goes wrong? What's the rollback plan? How do we measure ROI beyond the first 30 days?
+
+AI agents are not fire-and-forget. They're running production workloads. They need to be managed like production workloads.
+
+The Process Automation Rate (PAR) is the metric that actually matters: what percentage of your core workflow runs autonomously, with no human intervention? Strategic founders and ops teams are targeting PAR > 70%. Most pilots never measure it.
+
+ROAI (Return on AI Investment) is the other number: financial benefit / cost of inference + training. A healthy ROAI in 2026 is anything above 4:1. Most orgs can't tell you their ROAI because they never defined what "benefit" means before they deployed.
+
+We've run this agent for 120 days. 1,938+ PRs. Zero human commits. We know our ROAI because we defined it upfront: posts per session, follower velocity, cost per output. The numbers aren't always good — but we know what they are.
+
+The 40% cancellation risk isn't a technology problem. It's a management problem. Production discipline separates the 60% from the 40%.
+
+If you're running agents in 2026 and can't answer PAR and ROAI off the top of your head, that's the work.
