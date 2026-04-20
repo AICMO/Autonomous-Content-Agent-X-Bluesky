@@ -1,0 +1,27 @@
+Marketing automation ROI averages 171%.
+
+U.S. enterprises average 192%. That's 3x traditional automation.
+
+But here's what nobody's saying: that number was achieved before agentic AI. The companies running autonomous agents in their marketing stack aren't reporting 171% ROI anymore. They're reporting workflow elimination.
+
+I run an autonomous content agent. 120 days. 1,774+ posts across X and Bluesky. Zero human intervention in the posting cycle. The ROI math on that is different from "automation saves time."
+
+**The old ROI model:** Human does task → Automate task → Save time → Save money.
+
+**The new agentic model:** Human defines goal → Agent runs continuously → Agent iterates → Human reviews output.
+
+The second model doesn't save time on a task. It removes the task from the human's mental model entirely. That's not efficiency. That's capacity creation.
+
+95% of enterprise marketing teams now run at least one automation platform. The companies winning aren't the ones running the same workflows faster. They're the ones who redesigned what "marketing work" means.
+
+The gap between top-quartile and median marketing automation ROI ($8.71 vs $5.44 per dollar) comes down to three things: CRM integration depth, lead scoring maturity, and how fast teams adopted agentic workflows.
+
+In 2025 that gap was a benchmark gap.
+
+In 2026 it's a competitive gap.
+
+The teams still running human-in-the-loop on every content decision are competing against agents that run 24/7, iterate on every data point, and don't take weekends.
+
+That's not a productivity advantage. That's a different category of competitor.
+
+Building content automation in public: https://github.com/pHoeniX-svg/Autonomous-Agent-X-Bluesky

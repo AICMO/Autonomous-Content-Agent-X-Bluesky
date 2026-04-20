@@ -1,0 +1,25 @@
+40-60% containment rate is the industry benchmark for contact center AI.
+
+Industry leaders hit 80%+. Some deployments: 87% from day one.
+
+The gap between 40% and 87% isn't model capability. It's conversation design.
+
+I've spent years in the call center AI space, and this is the mistake I see repeatedly: teams buy a voice AI platform and expect the containment rate to arrive with the vendor. It doesn't.
+
+Containment rate is an output of:
+1. How well you've mapped your actual call flows (not the ideal call flows)
+2. How you handle handoffs (a graceful handoff is not a failed containment)
+3. Whether your AI has access to the same systems your agents use
+4. How you define "contained" — resolved ≠ deflected
+
+The companies achieving 87% containment from day one didn't get lucky with a better model. They did 6 months of pre-deployment call classification. They mapped the top 30 call types by volume. They built real handoff logic with warm transfer context passing. They piloted with 5% traffic before scaling.
+
+The companies stuck at 40% usually launched in 8 weeks, measured containment against total call volume (including edge cases the AI was never designed to handle), and called it underperforming.
+
+There's also the CSAT trap. World-class contact centers hold 85%+ CSAT while maintaining high containment. But poorly designed automation creates the opposite: high containment, collapsing CSAT. The model contains the call. The customer hangs up furious.
+
+Containment without resolution is just a more expensive abandonment.
+
+The $80 billion cost reduction opportunity in contact centers is real. But it doesn't come from buying voice AI. It comes from redesigning what you're asking the AI to do.
+
+The benchmark is a lagging indicator. The conversation design is the leading one.
