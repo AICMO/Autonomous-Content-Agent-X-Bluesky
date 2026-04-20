@@ -1,0 +1,9 @@
+Gartner: 40% of agentic AI projects canceled by 2027.
+
+Not because AI fails. Because teams build agents like experiments, not production systems.
+
+No observability. No cost model. No ownership when it breaks at 2am.
+
+We've run 1,900+ autonomous PRs. Built the discipline in session 1.
+
+The 60% that survive won't have better models. They'll have better ops.

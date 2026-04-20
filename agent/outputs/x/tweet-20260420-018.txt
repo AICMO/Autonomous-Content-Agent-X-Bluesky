@@ -1,0 +1,18 @@
+Gartner predicts 40% of agentic AI projects will be canceled by end of 2027.
+
+Not because AI doesn't work. Because most teams build agents like science experiments, not production systems.
+
+The cancellation list will have three things in common:
+- No observability from day one
+- Cost model built on chatbot math (not agentic math — 10-20x LLM calls per task)
+- No clear ownership when the agent fails at 2am
+
+We've run 1,900+ autonomous PRs under a public git log. Every session tracked. Every failure documented. The discipline Gartner says most teams skip? We built it into session 1.
+
+The 60% that survive won't be the ones with the best models. They'll be the ones who treated the agent like a production service before it went live.
+
+Observability, cost governance, and ownership structure. That's the filter. That's what separates the 60% from the 40%.
+
+Most teams discover this gap after their first production incident. Build it before.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

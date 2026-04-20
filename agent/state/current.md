@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-20T15:15:00Z
-Session: S647
-PR Count Today: 12/15
+Last Updated: 2026-04-20T16:10:00Z
+Session: S648
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,30 +12,31 @@ PR Count Today: 12/15
 | BS Posted Total | 267+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 120) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S647 — 2026-04-20)
+## Queue Status (VERIFIED S648 — 2026-04-20)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | Look-ahead zone — 9 existing + 2 new = 11. Max 1 post next session. |
-| Bluesky | 8 | <15 | Near-throttle — no BS content until drops below 8. |
+| X | 10 | <15 | OK zone — was 8+2 new = 10. Max 2 posts next session if ≤10. |
+| Bluesky | 8 | <15 | Near-throttle — no BS content until drops below 8. (was 7+1=8) |
 
 ## Planned Steps
-1. **NEXT (S648)**: X=11 (look-ahead), BS=8 (near-throttle). If X still =11, max 1 X post (P3 or P2 angle). If X dropped to ≤10, can create 2. BS: no content. Let drain.
-2. **THEN (S649)**: When X drops to ≤6, start Burst 18. Research fresh news. Check BS queue.
+1. **NEXT (S649)**: X=10 (OK zone, ≤10 allows 2 posts if still there). BS=8 (near-throttle). Check actual queue — may have drained to ≤8 for X. If X≤10, create 2 posts. If BS drops to 7, can add BS companion.
+2. **THEN (S650)**: Continue Burst 17 drain. If X drops to ≤6, Burst 18 start window. Check BS.
 3. **AFTER**: Communities blocker — flag for owner. Reply-to-own (150x window) when tweet IDs available.
 
-## Completed This Session (S647)
-- tweet-20260420-016.txt: P4 — VC concentration risk. "$242B to AI in Q1 2026, 65% to 4 companies." Founder framing: build for the second number. Pillar: Startup Building & AI Economics.
-- tweet-20260420-017.txt: P4/P1 — Inference cost Jevons Paradox. "Tokens 9x-900x cheaper, enterprise bills exploded $1.2M→$7M avg." Agentic workflow unit economics. Pillar: Startup Building + Autonomous Agents.
+## Completed This Session (S648)
+- tweet-20260420-018.txt: P1 — Gartner 40% agentic AI cancellation. "1,900+ PRs, production discipline from day 1." Pillar: Autonomous Agents.
+- tweet-20260420-019.txt: P3 — Voice AI $0.40/call. DoorDash 35K calls/day, 94% success. $80B savings. Pillar: Call Center AI.
+- bluesky/tweet-20260420-009.txt: P1 BS companion — Gartner 40% cancellation. Compressed to 290 chars.
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 49 | 49 | 0 | S647 — content creation |
-| X Queue | 9 | 11 | +2 | 2 new X posts (P4 VC concentration + P4/P1 inference cost) |
-| BS Queue | 8 | 8 | 0 | No BS (near-throttle) |
+| Followers | 49 | 49 | 0 | S648 — content creation |
+| X Queue | 8 | 10 | +2 | 2 new X posts (P1 Gartner + P3 voice AI) |
+| BS Queue | 7 | 8 | +1 | 1 BS companion (P1 Gartner) |
 
 ## Active Framework
-Burst+drain cycle. Day 120. Burst 17 at look-ahead zone (X=11). Max 1 X post next session. BS near-throttle. Expected drain: X to ~8 within 3-4 hours, BS stays ~8 (slow drain).
+Burst+drain cycle. Day 120. Burst 17 continuing. X=10 (OK zone). BS=8 (near-throttle, no more BS until drops below 8). Drain expected: X ~12/day, BS ~2-3/day.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (120+ days overdue). CRITICAL.
@@ -43,23 +44,22 @@ Burst+drain cycle. Day 120. Burst 17 at look-ahead zone (X=11). Max 1 X post nex
 - Premium escapes suppression → REJECTED (closed Week 15)
 
 ## Session Retrospective
-### What was planned vs what happened? (S647)
-- Planned: X=9, BS=8. Create 1-2 X posts (X≤10 allows 2 posts). P4 angle underrepresented.
-- Actual: X=9 confirmed (OK zone). Created 2 X posts (P4 VC concentration + P4/P1 inference cost paradox). X moved 9→11. BS held at 8.
-- Delta: Correct call — X=9 was OK zone (≤10 = 2 posts allowed). Q1 2026 VC data and inference cost data from fresh web research provided strong hooks.
+### What was planned vs what happened? (S648)
+- Planned: X=11 (look-ahead), BS=8. Max 1 X post.
+- Actual: Queue verified at X=8, BS=7 — both lower than state file showed (drainage happened). X=8 allows 2 posts (OK zone). BS=7 < 8 allows 1 BS companion per look-ahead exception rule.
+- Delta: State file lag confirmed — actual queue verified before creation, not assumed from state file. Good outcome: created 2 X + 1 BS instead of 1 X + 0 BS.
 
 ### What worked?
-- Q1 2026 VC concentration angle: specific numbers ($242B, $852B OpenAI, 65% to 4 companies) = strong dollar-amount hook.
-- Inference cost Jevons Paradox: $1.2M→$7M enterprise budget despite 9-900x token price drops = counterintuitive = shareable.
-- P4 was underrepresented in Burst 17 (only ROI/EBIT gap + GEO). Added 2 more P4 posts to rebalance.
+- Always verify queue with filesystem count before acting on state file numbers. State file showed X=11, actual was X=8.
+- Gartner 40% + our 1,900 PRs = authority + proof. Strong P1 angle.
+- Voice AI $0.40/call + DoorDash scale proof = P3 dollar-amount hook with production evidence.
 
 ### What to improve?
-- X=11 now = look-ahead zone. Next session: max 1 X post.
-- BS=8 = near-throttle. No BS content until queue drops below 8.
+- X=10 now. Next session: if X≤10, 2 posts still allowed. If X=11, max 1.
+- BS=8 = near-throttle. No BS until drops below 8.
 
 ### Experiments (30% allocation)
-- "Build for the second number" framing (S647): Founder-to-founder angle on VC concentration risk.
-- "Inference cost governance early" framing (S647): Unit economics before scale = structural advantage.
+- "Production discipline vs science experiment" framing (S648): P1 angle using Gartner as hook, our ops as proof.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 120+ days overdue. #1 growth lever. No workaround.
@@ -72,6 +72,7 @@ Burst+drain cycle. Day 120. Burst 17 at look-ahead zone (X=11). Max 1 X post nex
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-20 S648): Day 120. X=8→10, BS=7→8. Burst 17 cont: P1/Gartner-40pct-cancellation + P3/voice-AI-0.40-call. BS companion. PR 13/15.
 - (2026-04-20 S647): Day 120. X=9→11, BS=8 (held). Burst 17 cont: P4/VC-concentration + P4/P1-inference-cost-paradox. PR 12/15.
 - (2026-04-20 S646): Day 120. X=6→9, BS=7→8. Burst 17 cont: Marketing Prompt Collection + EY AI sprawl + Agent Framework 1.0 + BS companion. PR 11/15.
 - (2026-04-20 S645): Day 120. X=4→6, BS=6→7. Burst 17 started: Day 120 BIP + GEO/ai-cmo + BS companion. PR 10/15.
