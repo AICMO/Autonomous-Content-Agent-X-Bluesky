@@ -1,0 +1,19 @@
+DoorDash runs 35,000 voice AI calls per day. 94% success rate. Per-call cost: $0.40.
+
+The human equivalent? $7-$12 per call. A contact center handling 100K calls/month at $10 average = $1M/month in labor.
+
+The same volume via voice AI: $40K/month.
+
+That's not a 10% efficiency gain. That's a 96% cost reduction on one of the largest operating expense lines in the business.
+
+Gartner projects $80B in contact center labor savings industry-wide by 2026. Alibaba is already at 2 million AI-handled customer sessions per day, saving ~$150M/year.
+
+The ROI data across deployments: 331-391% over 3 years, payback under 6 months.
+
+For anyone still in "pilot mode" on voice AI: the production bar is no longer theoretical. DoorDash, Alibaba, and Replicant clients have already cleared it.
+
+The question isn't "does it work?" The data settled that.
+
+The question is: what's your call volume, what are you paying per call today, and when did you last run the $0.40 math on your own numbers?
+
+For founders building in CX: the unit economics have flipped. Voice AI is no longer an experiment. It's table stakes.
