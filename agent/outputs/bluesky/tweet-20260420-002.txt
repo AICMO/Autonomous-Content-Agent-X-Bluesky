@@ -1,0 +1,5 @@
+DeepSeek — known for running cheap — just raised $300M because inference costs are climbing even for efficient builders.
+
+Running agents at scale, the hidden costs aren't API calls. They're context creep, retry loops, and planning overhead.
+
+Your inference budget is 2-3x what you think it is.

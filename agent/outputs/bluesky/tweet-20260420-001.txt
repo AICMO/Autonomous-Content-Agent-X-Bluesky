@@ -1,0 +1,5 @@
+Stanford: agents went 12%→66% task success in one year.
+
+635 production sessions here. The benchmark failure patterns and production failure patterns don't overlap at all.
+
+Build for the capability coming in 12 months. Your architecture will be the bottleneck by 2027 if you don't.

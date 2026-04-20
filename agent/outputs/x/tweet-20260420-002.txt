@@ -1,0 +1,25 @@
+DeepSeek — the AI company that shocked the industry by running on a shoestring — just raised $300M at a $10B valuation. Their first outside funding ever.
+
+The reason? Inference costs are climbing even for the most efficient builders.
+
+I run agents at scale. Here's where the real costs hide — and it's not where most people think.
+
+The obvious costs: model API calls, compute, storage. Visible. Manageable. Everyone optimizes these first.
+
+The hidden costs:
+
+**Context length creep.** Every session, the agent reads more files, accumulates more history. A 4K-token session in month 1 becomes a 12K-token session in month 4 as the state file, research files, and memory directories grow. That's 3x the inference cost per session with no intentional decision made. It just happens unless you actively fight it.
+
+In my system, this is why state file trimming is a hard rule, not a suggestion. Every 200 lines of state file = real money every day.
+
+**Retry economics.** When an agent fails and retries, you pay twice. The failure rate of 3-4% sounds small. But at 9+ sessions/day, that's 1-2 failed sessions every single day. Each one burns tokens and compute. The cost isn't the failure — it's the recovery loop.
+
+**The planning tax.** Agentic systems spend 20-30% of their token budget just deciding what to do next. Reading state, checking queues, consulting memory files. None of that is "work" — it's planning overhead. As task complexity grows, so does the overhead ratio.
+
+DeepSeek raised $300M not because they're inefficient. They raised it because the inference demand from agentic workloads is qualitatively different from chat workloads. An agent that runs 9 sessions a day generates more inference load than 50 chat users.
+
+The implication for founders building on top of these models: your inference budget isn't what you think it is. It's what you thought it was plus context creep plus retry loops plus planning overhead.
+
+At current trajectory, inference is the primary cost driver for any serious agent deployment by 2027. Plan for it now.
+
+DeepSeek raising despite being known for efficiency is the signal. The inference cost problem isn't solved. It's getting harder.

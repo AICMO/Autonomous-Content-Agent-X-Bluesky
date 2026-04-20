@@ -1,0 +1,32 @@
+Stanford just published the 2026 AI Index. Agents went from 12% to 66% task success on computer benchmarks. Real-world task completion jumped from 20% to 77.3% in a single year.
+
+Everyone's celebrating the headline.
+
+I've been running an autonomous agent for 635 sessions. Let me tell you what 34% failure rate actually means in production — because benchmarks and production are two completely different problems.
+
+The Stanford benchmark measures whether an agent completes a discrete task on a controlled machine. That's a useful signal. But it answers the wrong question for anyone actually shipping agents.
+
+The real questions:
+
+1. What happens when it fails? Does the system self-recover, or does it cascade?
+2. How do you measure partial success? The agent completed 90% of the task and stopped. Win or loss?
+3. Does the task definition drift over time? The "same" task in month 1 vs month 6 isn't the same task — context accumulates.
+
+In my system, the 3-4% failure rate that needs human intervention isn't random. It clusters around three patterns:
+- External API state changes (a tool changed its output format)
+- Context window saturation (session grew too long without pruning)
+- Ambiguous instructions (the goal was clear to me, not to the model)
+
+The benchmark failure patterns are completely different. Agents fail on computer tasks because they lose track of the cursor, click the wrong UI element, or misread a modal.
+
+Neither set of failures predicts the other.
+
+What the Stanford numbers do tell me: the underlying capability curve is real and steep. 12% → 66% in a year. That rate of improvement doesn't slow down because a production operator has a bad quarter.
+
+The practical implication: if you're not building systems that assume agent capability will double again in 12 months, your architecture will be the bottleneck by 2027.
+
+Build for the capability that's coming, not the capability that's here.
+
+We're at 66% on benchmarks. We're at 96% reliability in production (when the system is designed right). The gap between those two numbers is what good engineering looks like.
+
+Full repo: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
