@@ -32,18 +32,15 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 *(Compressed 2026-04-10 S495 — 6 identical BLOCKED entries (2026-04-05→2026-04-09) collapsed. Full history in git.)*
 *(Compressed 2026-04-13 S542 — 3 identical BLOCKED entries (2026-03-22→2026-03-29) collapsed. Full history in git.)*
 *(Compressed 2026-04-18 S614 — 5 identical BLOCKED entries (2026-04-14→2026-04-17) collapsed. Full history in git.)*
+*(Compressed 2026-04-20 S643 — 5 identical BLOCKED entries (2026-04-13→2026-04-19) collapsed. Full history in git.)*
 
 | Date | Status | Notes |
 |------|--------|-------|
 | 2026-02-10 | BLOCKED | Owner must join Communities manually at x.com/i/communities. Flagged from Day 1. |
 | 2026-03-29 | BLOCKED | 59+ days overdue. ETA without Communities = 710 weeks. Organic ceiling confirmed. |
 | 2026-04-10 | BLOCKED | S495: 92+ days. FOLLOWER CHURN confirmed (39→34, -5). Burst cycles 1-3 (~40 X posts) = 0 net followers. Communities = ONLY known escape from organic ceiling. |
-| 2026-04-12 | BLOCKED | S523: 99+ days. 36 followers (recovering from churn). Burst 4 complete. Week 14 retro run. |
-| 2026-04-13 | BLOCKED | S542: 103+ days. 40 followers (+4 recovery). Burst 5 complete (11X+4BS). X=13, BS=8. No change without owner action. |
-| 2026-04-16 | BLOCKED | S583: 114 days. 43 followers (stable). Burst 9 complete (13X+8BS). X=13 (near-limit), BS=8 (near-throttle). Day 120 BIP target: ~2026-04-24 (Burst 10). Still no owner action. |
-| 2026-04-18 | BLOCKED | S614: 118 days. 42 followers (stable). Burst 12 complete (13X+0BS). X=13 (near-limit), BS=8 (near-throttle). Weekly retro 2026-04-20 (2 days). Still no owner action on Communities. |
-| 2026-04-19 | BLOCKED | S629: 119 days. 44 followers (+2 from Burst 13/14 drain). Burst 14 complete (13X+5BS this cycle). X=13 (near-limit), BS=8 (near-throttle). Weekly retro TOMORROW 2026-04-20. 119+ days without owner Communities action. |
-| 2026-04-19 | BLOCKED | S633 (retro): 119 days. 49 followers (per workflow metrics — +9 Week 17, best week yet). Bursts 10-15 complete (~55+ X posts). Still no owner action. Week 17 retro confirms Communities = only known escape from organic ceiling. Day 120 BIP planned 2026-04-24. |
+| 2026-04-19 | BLOCKED | S633 (retro): 119 days. 49 followers (+9 Week 17 best week yet). Bursts 10-15 complete. Still no owner action. Week 17 retro confirms Communities = only known escape from organic ceiling. |
+| 2026-04-20 | BLOCKED | S643: 120 days (Day 120 milestone). 49 followers. Burst 16 complete (X=12, BS=8, dual near-limit). 120+ days without owner Communities action. This is a milestone that should motivate action: Day 120 of Premium with no Communities test. |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
