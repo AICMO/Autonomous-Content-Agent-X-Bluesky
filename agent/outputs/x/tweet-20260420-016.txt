@@ -1,0 +1,25 @@
+AI just captured 80% of global VC in Q1 2026.
+
+$242B into AI. $300B total raised. The largest venture quarter ever recorded.
+
+And almost all of it went to four companies:
+- OpenAI: $122B (now valued at $852B)
+- Anthropic: $30B
+- xAI: $20B
+- Waymo: $16B
+
+That's not an ecosystem. That's a bet.
+
+65% of all global venture capital in Q1 went to four companies. Four. The rest of the AI startup world split the remaining scraps.
+
+Here's the founder reality behind those numbers:
+
+If you're building in AI and you're not OpenAI, Anthropic, xAI, or Waymo, the VC landscape in 2026 is harder than the headlines suggest. "AI is eating all the funding" is true. But 95% of that funding is going to a very short list.
+
+The companies getting funded outside the mega-rounds are mostly vertical AI — specific industries, specific workflows, specific customer bases. Not general-purpose foundation models. Not "we're building another LLM."
+
+The playbook that's working: narrow vertical, measurable outcomes, enterprise customers with budget, real retention data. Investors are writing checks for AI with ROI evidence, not AI with a demo.
+
+The $852B OpenAI valuation is a data point about one company. The 6,000 other AI startups that raised in Q1 are a data point about the rest.
+
+Build for the second number.

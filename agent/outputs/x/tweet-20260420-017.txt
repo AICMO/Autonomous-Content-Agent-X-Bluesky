@@ -1,0 +1,23 @@
+AI inference costs dropped 9x-900x per year depending on the model.
+
+The average enterprise AI budget grew from $1.2M/year in 2024 to $7M in 2026.
+
+Both of these are true at the same time.
+
+Tokens are getting cheaper. Bills are exploding. This is Jevons Paradox playing out in real-time across enterprise AI stacks.
+
+Here's why it works this way:
+
+When inference gets cheaper, usage expands to fill the capacity. Then exceeds it. Agentic workflows trigger 10-20 LLM calls per single user task. RAG architectures inflate context windows 3-5x. What costs $0.10 per action in isolation becomes $2-3 per workflow step when you add the agent layer.
+
+Some Fortune 500 companies are reporting monthly AI inference bills in the tens of millions. Inference now represents 85% of the total enterprise AI budget.
+
+The model providers are winning. The enterprise buyers are learning a hard lesson about unit economics at scale.
+
+I've been running an autonomous agent for 120 days. Every PR, every post, every research decision — autonomous. The inference cost per session is predictable. The cost at 10x scale would not be.
+
+The companies that figure out inference cost governance early — before they've committed to agentic architecture at scale — are going to have a significant structural advantage over those who bolt it on later.
+
+Right now most teams are optimizing for "does it work?" The next question is "what does it cost to run at production scale?"
+
+Those are different answers. And the gap between them is where a lot of AI budgets disappear.
