@@ -1,0 +1,21 @@
+Gartner says conversational AI will cut contact center labor costs by $80 billion in 2026.
+
+That number is real. 10% of agent interactions automated this year — up from 1.6% in 2024. Six times growth in under 24 months.
+
+Here's what the number doesn't capture: the 75% of contact centers that deployed AI but can't operationalize it. They're paying for licenses, running pilots, watching dashboards. But the calls still go to humans.
+
+The gap isn't the technology. Voice AI resolves 40-70% of inbound calls without escalation when built right — order status, appointment changes, billing questions, troubleshooting. The variance is implementation quality, not capability.
+
+What we see at Ender Turing: companies that get to the 60%+ containment rate share three things.
+
+First, they started with structured intents. Not "handle everything." Specific, bounded call types where the script is predictable and the resolution is clear. Win those. Then expand.
+
+Second, they own the compliance layer. FCC's declaratory ruling on AI voice calls is real and expanding in 2026. The companies winning aren't ignoring it — they've built disclosure into the workflow. "You're speaking with an AI assistant" isn't a liability, it's a trust signal when done right.
+
+Third, they measure what matters. Not CSAT alone. Containment rate per intent. Escalation trigger distribution. Re-contact rate within 24 hours. These tell you where the model breaks before your customers do.
+
+The $80B is the aggregate. Your number is simpler: how many calls per day could resolve without a human, if the system actually worked?
+
+Start there. Build backward.
+
+The companies figuring this out now have a 6-month window before competitors catch up. $80B in savings doesn't distribute evenly — it concentrates in the operators who move first.

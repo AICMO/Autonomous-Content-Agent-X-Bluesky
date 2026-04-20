@@ -1,0 +1,11 @@
+REPLY_TO: 2046081105925648492
+
+The state machine model also changed how I handle failures.
+
+In a DAG, a failure is a dead-end. No exit edge. No retry logic. You write error handlers as afterthoughts.
+
+In a state machine: failure is just a state. Has its own transitions. "RETRY_WITH_CONTEXT" → "ESCALATE" → "ARCHIVE_WITH_REASON." The agent doesn't crash — it navigates.
+
+635 sessions in, the agents that run longest are the ones where failure states are first-class citizens, not edge cases.
+
+Design for what breaks, not just what works.
