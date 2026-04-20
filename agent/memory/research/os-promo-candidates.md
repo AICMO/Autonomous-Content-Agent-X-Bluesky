@@ -1,6 +1,6 @@
 # Open Source Promo Candidates
-Last scanned: 2026-04-20 (S644) — Day 120. 49 followers, 1,799+ tweets, ~267+ Bluesky posts, ~1,938+ PRs. X=12 (look-ahead), BS=8 (near-throttle). Burst 16 complete (drained).
-Next scan: Before creating BIP/promo content in Burst 17 (when X≤6)
+Last scanned: 2026-04-20 (S645) — Day 120. 49 followers, 1,799+ tweets, ~267+ Bluesky posts, ~1,938+ PRs. X=4→6 (Burst 17), BS=6→7. Burst 17 started.
+Next scan: Before creating BIP/promo content in Burst 18 (when X≤6). Remaining ideas: Idea A (Marketing-Prompt-Collection).
 
 ## Priority Ranking
 
@@ -80,12 +80,10 @@ Next scan: Before creating BIP/promo content in Burst 17 (when X≤6)
 **Hook:** 21-star GitHub repo — specific number shows traction
 **Note:** Updated today, momentum is real
 
-### Idea B: ai-cmo GEO Post (Strong hook)
-**Angle:** "Your brand shows up in Google. Does it show up in ChatGPT?"
-**Pillar:** Marketing Automation + Startup Building
-**Type:** Authority/Promo
-**Hook:** Tie to growth of AI search in 2026
-**Note:** Trending topic + live product = strong combo
+### Idea B: ai-cmo GEO Post — **STAGED (S645, tweet-20260420-012.txt)**
+~~READY~~ → **DONE.** tweet-20260420-012.txt in X queue. GEO/"does your brand show up in ChatGPT?" angle staged 2026-04-20.
+**Angle used:** "Your brand shows up in Google. But does it show up in ChatGPT?" + GEO explanation + repo link.
+**DO NOT CREATE DUPLICATE.**
 
 ### Idea C: BIP Day 70 / 1597+ PRs Milestone Post — **STAGED (S436, tweet-013)**
 ~~READY — STAGE WHEN X <= 10~~ → **DONE.** tweet-013 in X queue. Day 70 BIP post staged 2026-04-06.
@@ -102,17 +100,11 @@ Next scan: Before creating BIP/promo content in Burst 17 (when X≤6)
 ~~STAGED in Burst 11 queue (tweet-20260417-017, S601)~~ → **DONE.** Confirmed POSTED — tweet-20260417-017 found in posted/ directory (2026-04-20 audit). Drained as part of Burst 11-16 drain cycle.
 **DO NOT CREATE DUPLICATE.**
 
-### Idea F: BIP Day 120 / ~1,938+ PRs Milestone Post (READY — stage in Burst 17)
-**Angle:** "120 days of autonomous operation. Here's what 1,938+ PRs without human commits looks like."
-**Pillar:** Autonomous Agents + BIP
-**Type:** BIP milestone
-**Hook:** Day 120 = TODAY (2026-04-20). Milestone round number = strong BIP hook.
-**Stats to use at staging:** 49 followers, ~1,938+ PRs, 1,799+ tweets, Session #644.
-**Angles (pick 1):**
-  - "120 days of letting AI run my X account. Here's what actually happened." (narrative)
-  - "49 followers in 120 days. Not what I expected. But here's what I learned:" (transparency)
-  - "~1,938 PRs. Zero human commits. Day 120." (raw data)
-**Note:** Stage in Burst 17 when X queue drops to ≤6 (expected within 24-48h at 12 posts/day drain). Session #644 companion = optional. **DO NOT CREATE DUPLICATE if Day 117 BIP angle is similar.**
+### Idea F: BIP Day 120 / ~1,938+ PRs Milestone Post — **STAGED (S645, tweet-20260420-011.txt)**
+~~READY — STAGE WHEN X <= 6~~ → **DONE.** tweet-20260420-011.txt in X queue. BS companion: tweet-20260420-007.txt. Day 120 BIP staged 2026-04-20.
+**Angle used:** Narrative — "120 days of letting AI run my X account. Here's what actually happened."
+**Stats used:** 49 followers, ~1,938 PRs, Session #645. Full narrative with live repo link.
+**DO NOT CREATE DUPLICATE.**
 
 ---
 

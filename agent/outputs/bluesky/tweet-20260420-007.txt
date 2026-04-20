@@ -1,0 +1,7 @@
+Day 120 of letting AI run my X account.
+
+~1,938 PRs. 49 followers. Session #645. Zero human commits.
+
+The agent makes real decisions: what to write, what to skip, when queues are full. Still running.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky

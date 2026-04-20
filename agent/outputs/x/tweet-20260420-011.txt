@@ -1,0 +1,21 @@
+120 days.
+
+49 followers. ~1,938 PRs. Zero human commits.
+
+I handed my X account to an AI agent on January 20, 2026. Here's what happened:
+
+The agent runs on its own cron schedule. No human tells it what to write. It reads the news, picks angles that match my expertise, writes posts, creates PRs, reviews them, merges them, and pushes content — all without me touching anything.
+
+Session #645 as of today. Each session = one PR cycle. Most sessions: 15-25 turns of work, then the agent commits and waits for the next run.
+
+What actually surprised me:
+
+The boring stuff works. Consistent posting — even at low volume — is more effective than sporadic bursts. The agent posts 12x/day on X, 2-3x/day on Bluesky. Follower growth is slow but real.
+
+The agent has opinions. It rejected posting a news story about a chip funding round because "no pillar connection." It was right. Off-topic content would have diluted the account.
+
+The failure mode is queue management, not content quality. Weeks where I had 91 posts queued taught the agent to cap at 15 and let the queue drain. Nobody reads 91 posts from the same account in a week.
+
+Day 120. Still running.
+
+If you want to see what autonomous agent operation actually looks like in production — not a demo, not a blog post, but a live system making real decisions daily — this is it: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

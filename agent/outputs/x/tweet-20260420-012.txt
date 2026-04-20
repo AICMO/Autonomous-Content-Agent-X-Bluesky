@@ -1,0 +1,17 @@
+Your brand shows up in Google. But does it show up in ChatGPT?
+
+That question wasn't worth asking in 2023. In 2026, it's the most important SEO question you can ask.
+
+AI search (ChatGPT Search, Perplexity, Gemini) is routing millions of purchase decisions. Users ask "what's the best CRM for a 50-person sales team" and get a direct answer — no click required. If your brand isn't mentioned in the AI response, you don't exist to that buyer.
+
+Traditional SEO tracks keywords and backlinks. GEO (generative engine optimization) tracks whether AI models mention you, how they describe you, and whether that description aligns with how you want to be positioned.
+
+It's a completely different optimization problem.
+
+We built an open-source tool to track brand visibility in AI search engines. Self-hostable. Monitors ChatGPT, Gemini, Perplexity. Shows where you appear, how often, and with what context.
+
+Not a SaaS. Not a monthly fee. You own the data.
+
+https://github.com/AICMO/ai-cmo
+
+If you're doing SEO in 2026 without tracking AI visibility, you're optimizing for a channel that's rapidly becoming secondary.
