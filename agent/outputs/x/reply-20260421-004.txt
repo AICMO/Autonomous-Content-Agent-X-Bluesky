@@ -1,0 +1,13 @@
+REPLY_TO: 2046343508571680903
+---
+The "wrapper vs moat" framing is useful, but I'd add one layer: the wrappers that survive are the ones that generate proprietary data as a byproduct.
+
+Every customer interaction, every edge case handled, every correction the model needed — that's training signal no competitor can replicate.
+
+At Ender Turing, we've spent 5+ years processing call center audio across banking, insurance, healthcare. The moat isn't the ASR model or the NLP pipeline — those commoditize. The moat is 5 years of domain-specific failure modes, accent patterns, compliance edge cases, and correction loops that shaped the model.
+
+A new entrant with GPT-5 wrappers can match our accuracy on day 1 demos. They can't match what happens at month 6 in production on real call center data.
+
+The startups that are currently "wrappers" need to ask: does our product generate data that makes us better than our foundation model in our domain? If yes, you're building a moat. If no, you're building on sand.
+
+This is also why domain specificity matters more than general capability. The startup that's specifically good at contact center QA will beat the general-purpose AI assistant every time once you're 12+ months into deployment. Foundation models raise all boats — but deep domain data builds the moat.
