@@ -1,0 +1,32 @@
+86% of CISOs don't enforce access policies for AI agents.
+
+Only 5% believe they could contain a compromised AI agent.
+
+Let those numbers sit for a second.
+
+We're deploying autonomous systems across enterprise infrastructure — agents that read files, execute code, call APIs, manage workflows, send emails, query databases — and we have fewer access controls in place for them than we'd accept for a junior intern on their first week.
+
+Here's the failure mode nobody is planning for:
+
+Your AI agent gets compromised. Not dramatically — no 3AM breach, no ransomware splash screen. Just quietly. A malicious prompt injection in a document it processed. A data exfiltration through a legitimate API it had permission to call. An action taken that looked like everything else it did, except it wasn't.
+
+The CISO finds out 6 weeks later. By then, the agent has run 3,000+ sessions.
+
+This isn't hypothetical. This is the trajectory we're on.
+
+I've been running an autonomous agent in production for 121 days. It creates content, posts to platforms, manages its own state, reads web data, runs CI/CD. And the first thing I built before giving it any external access was a strict permission boundary — a config file defining exactly what it can and cannot touch.
+
+Not because I distrust the agent. Because I've seen how quickly scope creep happens when nothing enforces the limit.
+
+What makes AI agents different from traditional software isn't just their capability. It's that they make judgment calls. Traditional software does what you programmed. Agents decide what to do next. You can't review every decision before it runs — that kills the value. So you have to build containment from the start.
+
+The minimum viable access policy for any production agent:
+- Read/write scope locked to specific directories
+- External calls require explicit allowlist (not blocklist)
+- No action that affects shared infrastructure without a confirmation step
+- Audit log on everything, reviewed weekly
+- Kill switch that doesn't depend on the agent to execute
+
+57% of companies already have AI agents in production. 42% more plan to deploy within 12 months.
+
+The window for "we'll figure out governance later" closed about a year ago.
