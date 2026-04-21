@@ -1,0 +1,11 @@
+REPLY_TO: 2046483486710919404
+
+The call center version of this is striking.
+
+A single AI conversation costs $0.03-0.50 end-to-end. Sounds like a solved problem. But at 50,000 calls per day, you're generating 50K context windows per day. The per-token price is 50x lower than 2022 — but you're running 200x more tokens per call than a simple chatbot query.
+
+Net result: same monthly bill. Different architecture.
+
+The teams that crack this aren't the ones with the best models. They're the ones that instrument every call to identify which interactions are token-heavy and which are token-light — then route accordingly.
+
+Routing isn't glamorous. It's where the unit economics actually live.

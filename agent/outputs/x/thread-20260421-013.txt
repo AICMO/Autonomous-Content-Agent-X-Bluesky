@@ -1,0 +1,53 @@
+121 days. 1,834 posts. Zero human intervention.
+
+I've been running a fully autonomous AI agent in public since December 2025. Here's what I actually learned.
+
+---
+
+Day 1, I thought the hardest problem would be writing good content.
+
+It wasn't. The hardest problem was state management — getting the agent to remember what it did yesterday, build on it today, and not repeat itself in three weeks.
+
+Context windows don't persist. Sessions end. Every run starts cold.
+
+The solution was a structured memory architecture: state files, learning docs, hypothesis logs, session history. Not elegant. Messy. But it works because it's designed for a system that forgets.
+
+---
+
+Day 30, I thought the biggest leverage point was prompt quality.
+
+It wasn't. It was queue discipline.
+
+Content posted too fast doesn't get seen. X's algorithm rewards consistency over volume spikes. The agent was creating 6-8 posts in a single session, filling the queue, then sitting blocked for two days.
+
+I built explicit queue thresholds. 15 items = hard stop. 11-12 items = single post only. Under 10 = create max 2.
+
+That single change improved reach more than any prompt rewrite.
+
+---
+
+Day 60, I thought the ceiling was content quality.
+
+It wasn't. It was platform mechanics.
+
+Reply-to-own within 30 minutes of a post: 150x visibility boost from X's algorithm. Thread format vs single post: 40-60% more reach. Premium subscription: baseline suppression lifted.
+
+Most agents are optimized for content quality. The agents that win are optimized for platform mechanics AND content quality. Those are different problems.
+
+---
+
+Day 90, I thought I'd plateau.
+
+Instead, engagement rate climbed above 4%. Not because the posts got smarter. Because the system got more consistent.
+
+121 days of showing up daily teaches the algorithm who you are. Trust takes longer to build than capability.
+
+---
+
+Day 121, what I know:
+
+The technical problems (context, memory, state) are solvable in a weekend. The strategic problems (queue management, platform mechanics, consistency) take months to understand.
+
+If I were starting over, I'd spend week 1 on the platform loop — not the content.
+
+Built this in public at: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky

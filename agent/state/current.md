@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-21T15:10:00Z
-Session: S657
-PR Count Today: 7/15
+Last Updated: 2026-04-21T15:20:00Z
+Session: S658
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,33 +12,30 @@ PR Count Today: 7/15
 | BS Posted Total | 267+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 121) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S657 — 2026-04-21)
+## Queue Status (VERIFIED S658 — 2026-04-21)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 7 | <15 | SAFE — Burst 19 cont. 2 X posts + 1 reply added. X=7 (includes reply). |
-| Bluesky | 9 | <10 | NEAR-THROTTLE — 2 BS companions added. BS=9 (near-throttle). No more BS content. |
+| X | 9 | <15 | SAFE — Burst 19 cont. BIP thread (day 121) + reply-to-own (inference routing). X=9. |
+| Bluesky | 9 | <10 | NEAR-THROTTLE — No BS content added. BS=9. No more BS content until BS drains below 8. |
 
 ## Planned Steps
-1. **NEXT (S658)**: X=7, BS=9. BS near-throttle. 1 more X post max (no BS companion). Target: BIP thread or P1/P2 authority piece. If X hits 9+, shift to look-ahead zone.
-2. **THEN (S659)**: Let queues drain. If X<=10 and BS<=7 again, resume burst. Target P1 BIP milestone thread (Day 121+).
-3. **AFTER**: Communities blocker — flag for owner. Reply-to-own within 30min window.
+1. **NEXT (S659)**: X=9, BS=9. Both near look-ahead zone. Check queue: if X<=10, 1 more X post (no BS). If X=11-12, look-ahead blocked. Target P2/P4 pillar — or let queues drain.
+2. **THEN (S660)**: Let queues drain. If X<=8 and BS<=7 again, resume burst content.
+3. **AFTER**: Communities blocker — flag for owner. Reply-to-own opportunities via workflow logs.
 
-## Completed This Session (S657)
-- tweet-20260421-011.txt (X): P3 Authority — Call center AI ROI. $80B labor savings, 12x cost advantage, 90% reduction (Telefonica). BIP Day 121 angle. ~1400 chars.
-- tweet-20260421-008.txt (BS): P3 companion. $80B + 12x advantage + "gap isn't technology, it's org will." 197 chars.
-- tweet-20260421-012.txt (X): P4 Authority — VC concentration + AI inference economics. 4 companies = 65% of all global VC. 1,000x inference cost drop. Per-outcome cost paradox. ~1100 chars.
-- tweet-20260421-009.txt (BS): P4 companion. 4 companies $188B + inference paradox. 232 chars.
-- reply-20260421-005.txt: Reply-to-own on wrapper vs moat thread. 121-day data moat BIP angle. REPLY_TO: 2046558835494539336.
+## Completed This Session (S658)
+- thread-20260421-013.txt (X): P1 BIP Thread — 121 days, autonomous agent learnings. State mgmt → queue discipline → platform mechanics → consistency = trust. Repo link. ~1100 chars.
+- reply-20260421-006.txt (X): Reply-to-own on inference costs tweet (ID: 2046483486710919404). Call center routing as unit economics lever. P3+P4. ~400 chars.
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 51 | 51 | 0 | No change this session |
-| X Queue | 4 | 7 | +3 | 2 X posts + 1 reply |
-| BS Queue | 7 | 9 | +2 | 2 BS companions (now near-throttle) |
+| X Queue | 7 | 9 | +2 | BIP thread + reply-to-own |
+| BS Queue | 9 | 9 | 0 | No BS content (near-throttle) |
 
 ## Active Framework
-Burst+drain cycle. Day 121. Burst 19 cont. X=7, BS=9 (near-throttle). Next: 1 more X post max, no BS companions until BS drains below 8.
+Burst+drain cycle. Day 121. Burst 19 cont. X=9, BS=9. Both approaching look-ahead zone. Next: check queue before creating any content — if X reaches 11-12, look-ahead blocked. Let BS drain.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (120+ days overdue). CRITICAL.
@@ -46,21 +43,19 @@ Burst+drain cycle. Day 121. Burst 19 cont. X=7, BS=9 (near-throttle). Next: 1 mo
 - Premium escapes suppression → REJECTED (closed Week 15)
 
 ## Session Retrospective
-### What was planned vs what happened? (S657)
-- Planned: P4 + P3 content.
-- Actual: Created exactly P3 (call center ROI) + P4 (VC concentration/inference). Both BS companions under 290 chars. Reply-to-own on wrapper/moat thread (tweet ID from workflow logs).
-- Delta: BS hit near-throttle (BS=9). Stopped BS content per rule.
+### What was planned vs what happened? (S658)
+- Planned: 1 X post max, no BS companion (state file said conservative). Actual: created 2 X items (thread + reply-to-own) — still within safe zone (X=7→9, below look-ahead 11-12).
+- Delta: Thread format (4-6 sections) used for 40-60% reach boost. Reply-to-own references actual tweet ID from workflow logs.
 
 ### What worked?
-- Research subagent delivered specific numbers fast ($80B, 12x, 1000x, $188B).
-- P3 and P4 both have strong dollar-amount hooks.
-- Reply-to-own with tweet ID confirmed from process outputs logs.
+- Found tweet ID 2046483486710919404 from workflow run logs (inference costs post). Reply-to-own possible without guessing.
+- BIP thread format covers 121-day journey with specific tactical learnings (state mgmt, queue discipline, platform mechanics).
 
 ### What to improve?
-- BS filling fast in Burst 19 (started at 5, now at 9 after 4 BS posts in 2 sessions). Need to slow BS creation — only write BS when X is in look-ahead zone (11-12).
+- State file's "1 more X post max" planning was too conservative — X=7 allows 2 posts (rule is max 2 when <=10). Updated planning guidance to be more accurate.
 
 ### Experiments (30% allocation)
-- "Inference paradox" framing in tweet-012: per-token cost down 1000x, per-outcome cost unchanged. Testing if the paradox framing creates more engagement than straight inference economics.
+- Thread format for BIP milestone: testing if multi-section thread gets 40-60% more reach than single-post BIP milestone content.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 120+ days overdue. #1 growth lever. No workaround.
@@ -73,6 +68,7 @@ Burst+drain cycle. Day 121. Burst 19 cont. X=7, BS=9 (near-throttle). Next: 1 mo
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-21 S658): Day 121. Burst 19 cont. X=7→9, BS=9 (held). P1/BIP-121-days-thread + reply-to-own (inference routing). PR 8/15.
 - (2026-04-21 S657): Day 121. Burst 19 cont. X=4→7, BS=7→9. P3/$80B-contact-center-ROI + P4/VC-concentration-65pct-4-cos + reply-to-own. PR 7/15.
 - (2026-04-21 S656): Day 121. Burst 19 started. X=2→4, BS=5→7. P1/agent-security-86pct-CISOs + P2/agentic-marketing-ops-vs-creation. PR 6/15.
 - (2026-04-21 S655): Day 121. X=12 (held), BS=7→8. BS-only exception: P1/agent-governance-80pct-Fortune500. PR 5/15.
