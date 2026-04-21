@@ -1,0 +1,19 @@
+Gartner says 80% of customer service organizations will use generative AI by end of 2026.
+
+Current deployment reality: 5-10% have it in live production.
+
+That's not a small gap. That's 70+ percentage points of stated intent vs. working production systems.
+
+Here's the pattern I see from the contact center side:
+
+**Pilots are not deployments.** A lot of orgs are in the "we ran the proof of concept" phase and calling it "using AI." POCs run on clean data, curated call samples, and sympathetic stakeholders. Production runs on Monday mornings, edge cases, accented speech, angry customers, and compliance reviews.
+
+**The 5-10% that deployed all made the same bet.** They started on a slice, not the full use case. Not "automate all QA." Instead: "automate the 30% of calls where intent is unambiguous." Get that to 95% accuracy. Earn trust. Expand.
+
+**What kills the remaining 90% before they get there:** they evaluate on precision when they should evaluate on business impact. "The model missed 12% of sentiment signals" sounds like failure. "We saved 190 hours/month of QA time" sounds like success. Same deployment, different framing.
+
+At Ender Turing, we've seen this across banking, insurance, and healthcare contact centers. The ones that still have live AI at month 12 are almost never the ones who had the best POC. They're the ones who had a clear answer to "what does success look like in 6 months?" before they started.
+
+The 80% will get there. But most of them are 2-3 years out, not 8 months.
+
+The deployment gap is real. And it's a business problem, not a technology problem.
