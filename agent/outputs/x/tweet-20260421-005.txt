@@ -1,0 +1,21 @@
+On April 8, Canva acquired two companies on the same day: Simtheory (agentic AI collaboration) and Ortto (customer data platform + marketing automation).
+
+Most people treated this as "Canva getting bigger."
+
+That's the wrong read.
+
+Canva's existing business is design. What they just bought is the stack that connects design to campaign to customer data. Agentic AI to run workflows. Marketing automation to execute at scale. Customer data to close the loop on what's working.
+
+This is vertical integration in the AI era. One platform, end-to-end: create → distribute → measure → adapt.
+
+The companies that will dominate marketing in 2028 aren't the ones with the best tools. They're the ones with the most connected stack. Canva just made a very deliberate bet on that thesis.
+
+For the rest of the martech industry: this is the clearest signal yet that "design tool" is not a sustainable category. Every tool that stops at creation is a feature, not a product.
+
+The marketing automation layer — connecting creative to customer data to campaign outcomes — is the value. Everything else is commodity.
+
+The shift I'm watching: standalone martech tools (design, CRM, analytics) being absorbed into vertically integrated AI platforms. Canva, Salesforce, HubSpot, Adobe — they're all doing the same thing, just at different speeds.
+
+By 2027, "marketing software" as a category probably doesn't exist. You'll have 3-4 integrated AI platforms that do everything. Or you're an API underneath one of them.
+
+The dual acquisition was 2 months ago and most people still haven't connected the dots.

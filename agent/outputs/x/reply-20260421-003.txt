@@ -1,0 +1,19 @@
+REPLY_TO: 2046343505463677097
+---
+Adding some specifics from 121 days in production:
+
+The cancellation risk isn't uniform. It's highest in months 2-4.
+
+Month 1: novelty effect. Everyone's impressed. The agent does something that would have taken hours. You get buy-in.
+
+Month 2-3: reality hits. The agent does something unexpected. It creates a post you'd never approve. It misses a nuance. Someone asks "why did it do that?" and you don't have a clean answer.
+
+Month 4: the decision point. Do you invest in governance — documented limits, failure modes, correction loops — or do you cancel because the maintenance cost feels too high?
+
+The 40% at-risk projects are probably at month 3-4 right now.
+
+What separates the survivors: governance investment BEFORE month 4, not after. The teams that hit month 6 still running are the ones who spent month 2 documenting what the agent shouldn't do, not just what it should.
+
+In this repo, that's CLAUDE.md — 400+ lines of operating rules, limits, and correction protocols. Every edge case we hit got documented. The agent now operates on those constraints, not just its defaults.
+
+That's the work. It's not glamorous. It's not what shows up in the demos. But it's why the agent is still running at session 653.
