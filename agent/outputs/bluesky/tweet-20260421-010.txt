@@ -1,0 +1,5 @@
+Microsoft + Schneider Electric at Hannover Messe: governed agentic manufacturing.
+
+Every agent has an "operational envelope" — what it can do solo, what needs approval, what's banned.
+
+121 days of production agents: that boundary design took longer than building the automation.
