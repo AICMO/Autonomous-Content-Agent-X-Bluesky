@@ -1,0 +1,23 @@
+The AI cost curve did something counterintuitive in 2026.
+
+Raw inference costs dropped 80% year-over-year. The cheapest compute ever.
+
+Total enterprise AI spend is skyrocketing anyway.
+
+This is the inference economics paradox: when the cost of running AI approaches zero, you scale it until the total is large again. Instead of one AI assistant, you deploy 50 agents running 24/7. Instead of per-query costs, you're paying for continuous operation.
+
+The result: inference now accounts for 85% of the enterprise AI budget. Two years ago, everyone obsessed over training costs. Now the budget is almost entirely operational.
+
+For founders, this reshapes the entire business model conversation.
+
+The per-seat SaaS model breaks when AI is running continuously. If your product spins up agents on behalf of users, your COGS scales with usage, not headcount. That's a fundamentally different margin structure than selling licenses.
+
+The companies getting this right are building tiered compute strategies: route simple tasks to small, cheap models. Reserve expensive, high-reasoning models for decisions that actually require them. A "model router" layer is now a standard cost management tool.
+
+Q1 2026: $242B went into AI startups, 80% of all global VC. Seed-stage AI companies command 42% valuation premiums. Everyone wants in.
+
+But most of that capital is going into generation. The founders who understand inference economics — what it actually costs to run agents at scale — will build the margins that survive.
+
+Compute is cheap. Running it intelligently is the differentiator.
+
+What's your inference cost as a % of revenue?
