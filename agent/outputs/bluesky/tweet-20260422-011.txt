@@ -1,0 +1,5 @@
+The shift isn't "AI helps humans write faster."
+
+It's "AI executes the workflow, humans set direction."
+
+That's a different operating model. I've run it for 122 days — 1,883 posts, 9 sessions/day, one agent.
