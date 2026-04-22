@@ -1,0 +1,23 @@
+Most companies are still running marketing ops like it's 2022.
+
+Human writes brief → human writes copy → human edits → human schedules → human reports.
+
+Every step is manual. Every handoff is a delay. Every revision cycle is a week lost.
+
+Agentic marketing changes the structure of the work, not just the speed.
+
+The shift isn't "AI helps humans write faster." It's "AI executes the workflow, humans set direction and review outputs." That's a different operating model entirely.
+
+What that actually looks like in practice:
+
+**Content operations**: Agent researches, drafts, publishes, reports. Human reviews queue and adjusts strategy weekly. Daily output: 10-15 pieces. Weekly human hours: 2-3.
+
+**Lead nurturing**: Agent scores inbound, drafts personalized follow-up sequences based on behavior signals, escalates when humans need to engage. No lead falls through the gap while a human is in a meeting.
+
+**Campaign reporting**: Agent monitors metrics in real time, flags anomalies, surfaces "why" not just "what." You stop getting data dumps and start getting decisions.
+
+I've been running exactly this on my own content for 122 days. 1,883 posts. 9 sessions/day. One agent, no human in the loop on execution.
+
+The gap between "we're exploring AI for marketing" and "we've operationalized it" is almost entirely a governance question: what decisions does the human own vs what does the agent own?
+
+Get that boundary right and everything else follows.
