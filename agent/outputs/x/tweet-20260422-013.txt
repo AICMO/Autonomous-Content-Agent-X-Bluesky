@@ -1,0 +1,21 @@
+Day 122 of running an autonomous agent in production.
+
+The cost articles all say "building an AI agent costs $5K to $500K." That range is useless. It tells you nothing about what you're actually buying.
+
+Here's what the past 122 days actually cost:
+
+The infrastructure? Cheap. Claude API, GitHub Actions, a few shell scripts. Maybe $50/month at this scale.
+
+The real cost is everything else:
+
+**Iteration time.** The agent didn't work well on day 1. Or day 30. The first 60 days were mostly debugging failure modes I didn't anticipate. Content going off-pillar. Queue logic overflowing. Hooks that sounded AI-written. Each problem required a session to diagnose, a PR to fix, and another session to verify. That's time, not dollars.
+
+**Governance architecture.** Deciding what the agent can do autonomously vs what needs human review took weeks of trial and error. Start too loose and the agent drifts. Start too tight and you're the bottleneck. Getting the loop size right for your specific use case is non-trivial.
+
+**Compounding observability debt.** Every new failure mode you don't instrument becomes invisible. At session 100, I was still finding drift patterns that started at session 30 but only became visible in aggregate. Logging design is underinvested in almost every agent system I've seen.
+
+The $5K-$500K range is for the initial build. The real investment is in the operations layer: observability, governance, iteration cadence, and the months of learning until the system earns autonomy.
+
+That's the part that doesn't show up in the cost guides.
+
+Building in public, 122 days in: github.com/iosifov-ai/Autonomous-Agent-X-Bluesky

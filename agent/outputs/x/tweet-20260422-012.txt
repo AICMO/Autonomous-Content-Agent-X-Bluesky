@@ -1,0 +1,21 @@
+Enterprise AI budgets went from $1.2M/year in 2024 to $7M in 2026.
+
+That's a 5.8x increase in two years. Not 5.8% — 5.8x.
+
+And 86% of companies say their AI budget will grow further this year.
+
+This is the part the "AI is overhyped" crowd keeps missing. Enterprise spending isn't slowing — it's compounding. Every company that ran a successful pilot last year is now expanding. Every company that got burned is trying again with better governance. Nobody's pulling back.
+
+The numbers say why:
+
+Agentic AI delivers 171% average ROI. 225% in the first 24 months. Payback periods of 8-12 months. That's not a soft metric like "employee satisfaction." That's CFO math that approves the next $7M.
+
+Klarna's single AI agent saved $60M and replaced the workload of 853 employees. General Mills' AI supply chain system produced $20M+ in savings since 2024.
+
+You can ignore a trend. You can't ignore the math.
+
+The companies that moved early on agents are now making the second-mover investment look expensive. They have trained models, proven workflows, accumulated data advantages, and teams that know how to run these systems.
+
+By 2026, 40% of enterprise applications will include task-specific AI agents (Gartner). That's not a prediction anymore — we're watching it happen in real time.
+
+The question isn't whether to invest in agents. It's whether your 2026 budget is big enough to close the gap on the companies that started in 2024.
