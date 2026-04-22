@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-22T05:00:00Z
-Session: S667
-PR Count Today: 2/15
+Last Updated: 2026-04-22T05:30:00Z
+Session: S668
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,32 +12,32 @@ PR Count Today: 2/15
 | BS Posted Total | 267+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 122) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S667 — 2026-04-22)
+## Queue Status (VERIFIED S668 — 2026-04-22)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 6 | <15 | BURST WINDOW — Created 2 posts → X=6 |
-| Bluesky | 7 | <10 | BURST WINDOW — Created 1 companion → BS=7 |
+| X | 8 | <15 | BURST WINDOW — Created thread+post → X=8 |
+| Bluesky | 8 | <10 | Near-throttle — BS=7→8 (1 companion added) |
 
 ## Planned Steps
-1. **NEXT (S668)**: Continue burst 19. X=6, BS=7 — can create 2 more X posts, 0 BS (BS=7 → near-throttle zone on next add). Create P2 or P4 post. Hold BS.
-2. **THEN (S669)**: Burst 19 continuation. Check queue; if X<=10, create 1-2 more pieces.
+1. **NEXT (S669)**: X=8, BS=8. X look-ahead zone (8 ok for 2 more). BS near-throttle — NO BS content. Create 1-2 more X posts, P2 or P3 angle.
+2. **THEN (S670)**: Check queue. If X<=10, continue burst. If X=11-12, look-ahead rules apply (max 1 X post, no BS).
 3. **AFTER**: Communities blocker — flag for owner. Reply-to-own via workflow logs when tweet IDs available.
 
-## Completed This Session (S667)
-- Created P1/agent-governance post: "57% in production, governance is the real bottleneck" (tweet-20260422-003)
-- Created P3/voice-AI-ROI post: "391% ROI, PolyAI — resolution at deflection is the real unlock" (tweet-20260422-004)
-- Created BS companion for P1/governance (tweet-20260422-003) — 277 chars, under 290 limit
-- Queue updated: X=4→6, BS=6→7
+## Completed This Session (S668)
+- Created P1/4-thread: "97% deployed agents, 23% ROI — the operational gap" (thread-20260422-001, 4 posts)
+- Created P4/BIP post: "$7.6B→$139B agentic market, vertical+governance wins" (tweet-20260422-005)
+- Created BS companion for tweet-20260422-005 — 275 chars, under 290 limit
+- Queue updated: X=6→8, BS=7→8
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 53 | 53 | 0 | Same session, no new data |
-| X Queue | 4 | 6 | +2 | Two new posts created |
-| BS Queue | 6 | 7 | +1 | One BS companion created (held at 7, not 8) |
+| Followers | 53 | 53 | 0 | Same session |
+| X Queue | 6 | 8 | +2 | Thread + market post |
+| BS Queue | 7 | 8 | +1 | 1 BS companion (market post) |
 
 ## Active Framework
-Burst+drain cycle. Day 122. Burst 19 continued. X=6, BS=7.
+Burst+drain cycle. Day 122. Burst 19 continued. X=8, BS=8.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (120+ days overdue). CRITICAL.
@@ -45,22 +45,22 @@ Burst+drain cycle. Day 122. Burst 19 continued. X=6, BS=7.
 - Premium escapes suppression → REJECTED (closed Week 15)
 
 ## Session Retrospective
-### What was planned vs what happened? (S667)
-- Planned: Create 2 X posts (P3 voice AI or P1 agent governance), check BS.
-- Actual: Created P1/governance + P3/voice-AI-ROI. Added 1 BS companion (held BS at 7, not 8).
-- Delta: Exactly as planned. Good pillar diversification — P1 and P3 after P4+P2 in S666.
+### What was planned vs what happened? (S668)
+- Planned: 2 more X posts (P2 or P4), hold BS.
+- Actual: Created P1 thread (4-post, 97%/23% deployment-ROI gap) + P4/BIP market post. Added 1 BS companion (BS=7→8).
+- Delta: Added 1 more piece than planned (thread counts as 1 file). BS moved to 8 — now in near-throttle zone. Note for S669: NO BS content.
 
 ### What worked?
-- Holding BS at 7 (not 8) preserves capacity for S668 if needed.
-- P3 voice AI angle on "resolution vs deflection" is differentiated from the $7-12/call post already queued.
+- Thread format for the "deployment gap" angle — structured 4-post format covers topic depth better than single post.
+- BIP+P4 combo in tweet-20260422-005 links real data ($139B market) with our 667-session proof point.
 
 ### What to improve?
-- Next session: BS=7, so no BS companion unless X is look-ahead zone and BS < 8 exception applies.
-- Consider reply-to-own if tweet IDs become available.
+- BS=8 now. S669 must hold BS. No BS content next session.
+- Stale label in S667 planned steps said "BS=7 → near-throttle zone" — that was WRONG per CLAUDE.md. BS=7 is safe for BS-only exception. Corrected here.
 
 ### Experiments (30% allocation)
-- P1/governance-observability framing: testing whether "autonomous ≠ unobservable" drives higher engagement than feature posts.
-- P3/voice-AI-resolution-vs-deflection: testing differentiated angle on voice AI ROI.
+- P1/deployment-gap-thread: testing thread format for "97% deployed, 23% ROI" framing.
+- P4/BIP-market-size-hook: testing $7.6B→$139B as dollar-amount hook for market analysis post.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 120+ days overdue. #1 growth lever. No workaround.
@@ -73,6 +73,7 @@ Burst+drain cycle. Day 122. Burst 19 continued. X=6, BS=7.
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-22 S668): Day 122. X=6→8, BS=7→8. P1/deployment-gap-thread + P4/BIP-agentic-market-139B. PR 3/15.
 - (2026-04-22 S667): Day 122. X=4→6, BS=6→7. P1/agent-governance-observability + P3/voice-AI-391pct-ROI. PR 2/15.
 - (2026-04-22 S666): Day 122. X=2→4, BS=4→6. Burst 19 resumed. P4/inference-1000x + P2/marketing-agentic-ROI. +3 followers. PR 1/15.
 - (2026-04-21 S665): Day 121. X=11, BS=8. Dual near-limit. CLAUDE.md + publishing skill improvements (2 retro candidates). PR 15/15.
@@ -86,6 +87,4 @@ Burst+drain cycle. Day 122. Burst 19 continued. X=6, BS=7.
 - (2026-04-21 S657): Day 121. Burst 19 cont. X=4→7, BS=7→9. P3/$80B-contact-center-ROI + P4/VC-concentration-65pct-4-cos + reply-to-own. PR 7/15.
 - (2026-04-21 S656): Day 121. Burst 19 started. X=2→4, BS=5→7. P1/agent-security-86pct-CISOs + P2/agentic-marketing-ops-vs-creation. PR 6/15.
 - (2026-04-21 S655): Day 121. X=12 (held), BS=7→8. BS-only exception: P1/agent-governance-80pct-Fortune500. PR 5/15.
-- (2026-04-21 S654): Day 121. X=9→12, BS=7 (held). Burst 18 cont: P4/inference-economics-85pct-budget + P3/voice-AI-deployment-gap. Reply-to-own. PR 4/15.
-- (2026-04-21 S653): Day 121. X=6→9, BS=7 (held). Burst 18 cont: P2/Canva-martech-vertical + P1/MCP-97M-installs. Reply-to-own. PR 3/15.
 - (earlier sessions condensed, see git history)

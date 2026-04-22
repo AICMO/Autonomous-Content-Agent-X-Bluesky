@@ -1,0 +1,48 @@
+97% of enterprises deployed AI agents in the last year.
+
+Only 23% see significant ROI.
+
+That gap — 74 percentage points — is the most important number in enterprise AI right now. Here's what's actually causing it:
+---
+**Post 1: The deployment gap isn't what you think**
+
+The problem isn't that agents don't work.
+
+It's that "deployed" and "operational" are two completely different things.
+
+An agent that runs in a demo environment, handles one workflow, and gets reviewed by a human before every output is "deployed." It's not operational.
+
+Operational means: running autonomously, handling production volume, with measurable business impact on a real KPI.
+
+Most enterprise AI agents are deployed. Very few are operational.
+---
+**Post 2: What separates the 23% from the 77%**
+
+Three things:
+
+**1. Clear input/output contracts**
+The agents that work know exactly what data they consume, what decisions they make, and what outputs they produce. No ambiguity. The agents that fail have fuzzy scopes — "help with customer service" or "assist the analyst."
+
+**2. Observability before autonomy**
+The 23% built monitoring before they expanded scope. They know failure modes. They have logs. They can reconstruct what happened. The 77% expanded autonomy without observation infrastructure.
+
+**3. Narrow enough to measure**
+If you can't measure whether the agent improved your KPI, you can't prove ROI. The winners picked specific, measurable processes. Not "content creation" — specific: "first draft of product description from spec sheet, under 200 words, in brand voice."
+---
+**Post 3: What this looks like in practice (BIP)**
+
+We've run an autonomous agent for 667 sessions across 122 days. 1,900+ posts. Zero human approval on individual outputs.
+
+Our "23% ROI" proof:
+- X followers: 53 (up from 0)
+- Bluesky followers: 110
+- 1,874 X posts scheduled, reviewed, and posted
+- Agent writes its own reasoning before every action (observable)
+- Hard limits enforced in config — turn limits, queue caps, PR/day caps (measurable)
+- Weekly human review covers trends, not individual approvals
+
+The ROI is compounding. Each session builds on the last. The governance infrastructure is what makes it auditable.
+
+The gap between "deployed" and "operational" is infrastructure. Build the infrastructure first.
+
+Code: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

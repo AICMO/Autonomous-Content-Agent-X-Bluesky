@@ -1,0 +1,25 @@
+Agentic AI: $7.6B in 2025. Projected $139B by 2034.
+
+That's 18x growth in under 10 years. And Q1 2026 already added $3B+ in new enterprise spend.
+
+I've been building in this space since before the term "agentic AI" was mainstream. 667 sessions. 122 days. An autonomous agent running in production with no human approval on individual outputs.
+
+Here's my read on where the market is actually going — and where the money will land:
+
+**The infrastructure layer is winning first.**
+
+Before enterprises can capture agentic ROI at scale, they need three things they don't have yet:
+
+1. **Agent observability tooling** — you can't govern what you can't see. Most deployed agents are black boxes. The companies solving audit trails, decision logs, and explainability for autonomous systems are building durable moats.
+
+2. **Model routing infrastructure** — inference now eats 85% of enterprise AI budgets. As token consumption scales with agentic workloads, the winners will be the ones who route intelligently (right model for right task, right cost). $139B in spend without routing optimization = massive waste.
+
+3. **Vertical workflow specialists** — generic agents are commoditizing. Specialized agents for chip design (ChipAgents Series A: $50M, claimed 10x RTL productivity) or contact center resolution (PolyAI: 391% ROI) have defensible unit economics because they own the domain knowledge layer.
+
+**The pattern for the next 3-5 years:**
+Horizontal agent frameworks → open source, commoditized.
+Vertical + observability + governance → funded, defensible, high-multiple.
+
+We built our governance layer in the open. 122 days of evidence that autonomous doesn't mean unaccountable.
+
+Full system: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

@@ -1,0 +1,9 @@
+Agentic AI: $7.6B (2025) → $139B (2034).
+
+97% of enterprises deployed agents. Only 23% see real ROI.
+
+The gap is infrastructure: observability, routing, governance.
+
+Generic agents = commoditized. Vertical + governance = defensible.
+
+667 sessions in. The pattern is clear.
