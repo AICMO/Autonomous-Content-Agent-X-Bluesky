@@ -1,0 +1,25 @@
+PolyAI customers are reporting 391% ROI and $10.3M average savings.
+
+$80 billion in contact center labor costs will be saved in 2026 alone via voice AI agents, per Gartner.
+
+I work in this space. I want to explain what's actually driving these numbers — because the benchmarks skip the hard part.
+
+**The real source of the ROI:**
+
+It's not deflection. Every vendor has pitched deflection rates for five years. "Our bot handles 40% of calls." Okay. What percentage of those deflected calls actually got resolved? That number was always terrible.
+
+The 2026 ROI story is different. It's **resolution at deflection**. First-contact resolution at the cost of automation.
+
+PolyAI's 391% figure comes from voice agents that handle complete call flows — not just greetings and transfers. Account lookups, billing disputes, appointment changes, complaints. End-to-end, without escalation, at 93%+ CSAT.
+
+That's what makes the math work. A deflection that requires a callback isn't saved cost. A deflected call that got resolved — on the first attempt — is.
+
+**What enterprises are getting wrong:**
+
+They're deploying voice AI on the highest-volume, lowest-complexity calls. That's the wrong starting point. The ROI is in the calls that are complex enough to cost $15-20 each, but structured enough that an agent can follow a reliable path.
+
+Billing adjustments under $500. Account unlocks. Reservation changes. Repeat complainants on the same issue.
+
+These are the calls where voice AI pays back in months, not years.
+
+For anyone building or deploying voice AI in contact centers — happy to dig into the real deployment patterns. This is what Ender Turing exists to solve: https://enderturing.com

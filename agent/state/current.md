@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-22T04:30:00Z
-Session: S666
-PR Count Today: 1/15
+Last Updated: 2026-04-22T05:00:00Z
+Session: S667
+PR Count Today: 2/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,35 +10,34 @@ PR Count Today: 1/15
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | X Posted Total | 1,774+ | - | - | ~12/day drain | - |
 | BS Posted Total | 267+ | - | - | ~2-3/day drain | - |
-| Premium | ACTIVE (Day 121) | Active | Done | Since 2026-03-01 | - |
+| Premium | ACTIVE (Day 122) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S666 — 2026-04-22)
+## Queue Status (VERIFIED S667 — 2026-04-22)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 4 | <15 | BURST WINDOW — drained from 11 to 2 overnight. Created 2 posts → X=4 |
-| Bluesky | 6 | <10 | BURST WINDOW — drained from 8 to 4 overnight. Created 2 companions → BS=6 |
+| X | 6 | <15 | BURST WINDOW — Created 2 posts → X=6 |
+| Bluesky | 7 | <10 | BURST WINDOW — Created 1 companion → BS=7 |
 
 ## Planned Steps
-1. **NEXT (S667)**: Continue burst 19. X=4, BS=6 — can create 2 more X posts. Target P3 (voice AI) or P1 (agent governance). Add reply to own post.
-2. **THEN (S668)**: Burst 19 continuation. Check queue; if X<=10, create 1-2 more pieces.
-3. **AFTER**: Communities blocker — flag for owner. Reply-to-own via workflow logs when next tweet IDs available.
+1. **NEXT (S668)**: Continue burst 19. X=6, BS=7 — can create 2 more X posts, 0 BS (BS=7 → near-throttle zone on next add). Create P2 or P4 post. Hold BS.
+2. **THEN (S669)**: Burst 19 continuation. Check queue; if X<=10, create 1-2 more pieces.
+3. **AFTER**: Communities blocker — flag for owner. Reply-to-own via workflow logs when tweet IDs available.
 
-## Completed This Session (S666)
-- Queues drained overnight: X=11→2, BS=8→4. Burst 19 resumed.
-- Created P4/inference-economics post: "1,000x cost collapse → bottleneck is now architecture, not cost" (tweet-20260422-001)
-- Created P2/marketing-automation-ROI post: "45% agentic adoption, honest BIP breakdown — 2.5hrs/day → 15min review" (tweet-20260422-002)
-- Created BS companions for both (tweet-20260422-001, 002)
-- Follower count: session prompt shows 53 (up from 50 last session — +3 gain)
+## Completed This Session (S667)
+- Created P1/agent-governance post: "57% in production, governance is the real bottleneck" (tweet-20260422-003)
+- Created P3/voice-AI-ROI post: "391% ROI, PolyAI — resolution at deflection is the real unlock" (tweet-20260422-004)
+- Created BS companion for P1/governance (tweet-20260422-003) — 277 chars, under 290 limit
+- Queue updated: X=4→6, BS=6→7
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 50 | 53 | +3 | Session prompt authoritative — good gain overnight |
-| X Queue | 2 | 4 | +2 | Two new posts created |
-| BS Queue | 4 | 6 | +2 | Two BS companions created |
+| Followers | 53 | 53 | 0 | Same session, no new data |
+| X Queue | 4 | 6 | +2 | Two new posts created |
+| BS Queue | 6 | 7 | +1 | One BS companion created (held at 7, not 8) |
 
 ## Active Framework
-Burst+drain cycle. Day 122. Burst 19 resumed after overnight drain. X=4, BS=6.
+Burst+drain cycle. Day 122. Burst 19 continued. X=6, BS=7.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (120+ days overdue). CRITICAL.
@@ -46,20 +45,22 @@ Burst+drain cycle. Day 122. Burst 19 resumed after overnight drain. X=4, BS=6.
 - Premium escapes suppression → REJECTED (closed Week 15)
 
 ## Session Retrospective
-### What was planned vs what happened? (S666)
-- Planned: Verify drain, create if X<=9 AND BS<=7.
-- Actual: X drained to 2, BS to 4 — far better than expected. Burst 19 resumed with 2 X posts + 2 BS companions.
-- Delta: Overnight drain was very efficient. +3 followers overnight (50→53).
+### What was planned vs what happened? (S667)
+- Planned: Create 2 X posts (P3 voice AI or P1 agent governance), check BS.
+- Actual: Created P1/governance + P3/voice-AI-ROI. Added 1 BS companion (held BS at 7, not 8).
+- Delta: Exactly as planned. Good pillar diversification — P1 and P3 after P4+P2 in S666.
 
 ### What worked?
-- Queues drained aggressively overnight — S665 blocked session paid off by allowing content circulation time.
-- P4 (inference economics) and P2 (marketing automation ROI) posts with strong BIP angle and real data.
+- Holding BS at 7 (not 8) preserves capacity for S668 if needed.
+- P3 voice AI angle on "resolution vs deflection" is differentiated from the $7-12/call post already queued.
 
 ### What to improve?
-- Next session: add reply-to-own if tweet IDs from new posts are available in workflow logs.
+- Next session: BS=7, so no BS companion unless X is look-ahead zone and BS < 8 exception applies.
+- Consider reply-to-own if tweet IDs become available.
 
 ### Experiments (30% allocation)
-- P4/inference-1000x-collapse: testing whether "1,000x" framing in hook drives higher impressions than prior P4 posts.
+- P1/governance-observability framing: testing whether "autonomous ≠ unobservable" drives higher engagement than feature posts.
+- P3/voice-AI-resolution-vs-deflection: testing differentiated angle on voice AI ROI.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 120+ days overdue. #1 growth lever. No workaround.
@@ -72,6 +73,7 @@ Burst+drain cycle. Day 122. Burst 19 resumed after overnight drain. X=4, BS=6.
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-22 S667): Day 122. X=4→6, BS=6→7. P1/agent-governance-observability + P3/voice-AI-391pct-ROI. PR 2/15.
 - (2026-04-22 S666): Day 122. X=2→4, BS=4→6. Burst 19 resumed. P4/inference-1000x + P2/marketing-agentic-ROI. +3 followers. PR 1/15.
 - (2026-04-21 S665): Day 121. X=11, BS=8. Dual near-limit. CLAUDE.md + publishing skill improvements (2 retro candidates). PR 15/15.
 - (2026-04-21 S664): Day 121. X=9→11, BS=8 (held). P2/marketing-agentic-45pct + P4/inference-economics-85pct. PR 14/15.
@@ -86,6 +88,4 @@ Burst+drain cycle. Day 122. Burst 19 resumed after overnight drain. X=4, BS=6.
 - (2026-04-21 S655): Day 121. X=12 (held), BS=7→8. BS-only exception: P1/agent-governance-80pct-Fortune500. PR 5/15.
 - (2026-04-21 S654): Day 121. X=9→12, BS=7 (held). Burst 18 cont: P4/inference-economics-85pct-budget + P3/voice-AI-deployment-gap. Reply-to-own. PR 4/15.
 - (2026-04-21 S653): Day 121. X=6→9, BS=7 (held). Burst 18 cont: P2/Canva-martech-vertical + P1/MCP-97M-installs. Reply-to-own. PR 3/15.
-- (2026-04-21 S652): Day 121. X=2→6, BS=5→7. Burst 18 cont: P4/inference-cost-5-30x + P3/voice-AI-80B-airline. Reply-to-own. PR 2/15.
-- (2026-04-21 S651): Day 121. X=0→2, BS=3→5. Burst 18 start: P1/Managed-Agents-tradeoffs + P1/multi-agent-327pct. Reply-to-own. PR 1/15.
 - (earlier sessions condensed, see git history)

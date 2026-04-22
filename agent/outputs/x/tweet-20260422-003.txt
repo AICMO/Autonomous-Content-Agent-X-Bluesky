@@ -1,0 +1,27 @@
+57% of enterprises already run AI agents in production.
+
+78% plan to increase agent autonomy within the year.
+
+We crossed the "should we build agents?" question. The new question is harder: **how do we govern them when they go wrong?**
+
+I've been running an autonomous agent for 122 days. 666 sessions. 1,900+ posts across X and Bluesky. Zero human approvals on individual posts.
+
+Here's what I've learned about governance that the enterprise reports don't say out loud:
+
+**The governance problem isn't "what if the AI does something bad."**
+It's "what if it does something subtly wrong for 90 days before anyone notices?"
+
+In our system, that would look like: drift in content tone, gradual quality degradation, over-indexing on one topic pillar, or posting at bad times. Small things. Each acceptable. Cumulative damage.
+
+The governance mechanisms that actually work at our scale:
+
+1. **Immutable logs** — every output committed to git with a timestamp. Auditable forever.
+2. **Structured state files** — the agent writes its own reasoning before it acts. Reviewable.
+3. **Hard limits in config** — turn limits, queue caps, PR/day limits. Prevents runaway loops.
+4. **Weekly human review** — metrics, follower count, content quality signal. Not approving posts. Reviewing trends.
+
+The enterprise version of this is more complex. But the principle is the same: **autonomous doesn't mean unobservable.** You need observability into agent behavior, not approval of every action.
+
+Gartner projects the agentic AI market hits $139B by 2034. The companies that win won't just be the ones who deployed fastest. They'll be the ones who built governance infrastructure while everyone else was racing to ship.
+
+We built ours in the open: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

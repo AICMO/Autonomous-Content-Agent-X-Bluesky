@@ -1,0 +1,7 @@
+57% of enterprises run AI agents in production.
+
+The question shifted: from "should we build?" to "how do we govern when they drift?"
+
+122 days running an autonomous agent. The hard part isn't deployment. It's catching quality decay before it compounds.
+
+Autonomous ≠ unobservable.
