@@ -1,0 +1,32 @@
+Philippine Airlines just reported: CSAT 60 → 95% after deploying voice AI.
+
+Wait times: under 1 minute.
+Deflection rate: 45%.
+Monthly cost savings: 30%.
+Survey base: 500,000+ responses per year.
+
+Those aren't pilot numbers. That's production at airline scale.
+
+I've spent 5 years at Ender Turing building speech analytics and automated QA for contact centers. The most common objection we hear: "AI will hurt our CSAT."
+
+PAL just put hard numbers behind the opposite case.
+
+Here's what they actually did differently:
+
+**They deployed to deflect + assist, not to replace.**
+
+The 45% deflection handles the routine — booking changes, status checks, standard policy questions. The remaining 55% still goes to live agents, but those agents are no longer buried under tier-1 volume. CSAT rises because agents spend their time on cases that actually need a human.
+
+**They set a real target.**
+
+Their stated goal: 80% of live agent tasks automated. That's not a feature request — it's a product roadmap. When your AI vendor knows the goal is 80% automation, the architecture is completely different from "let's try a chatbot."
+
+**They measured what mattered.**
+
+500,000 surveys per year is enough to detect a 1-point CSAT change. Most enterprise AI pilots have survey bases too small to prove anything. You can't validate a claim like "AI improves CX" with 200 data points.
+
+The call center AI market is currently $2.1B. Projected: $47.5B by 2034.
+
+The airlines and banks doing this at scale are going to capture most of that growth. The laggards are going to pay 3x to migrate in 2028.
+
+Voice AI for contact centers: https://enderturing.com

@@ -1,0 +1,7 @@
+Gartner: 40% of agentic AI projects canceled by 2027. Only 12% reach production at scale.
+
+Day 122. PR #1,990. Running in production.
+
+What separates the 12%: audit trail, config limits, turn budgets, governance layer.
+
+Most pilots skip all of it.
