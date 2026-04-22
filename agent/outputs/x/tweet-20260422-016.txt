@@ -1,0 +1,24 @@
+P3: Voice AI / Call Center
+
+The voice AI market crossed $22 billion in 2026.
+
+Gartner says contact centers will save $80 billion THIS YEAR from conversational AI alone.
+
+67% of Fortune 500 companies have voice agent systems in production.
+
+The numbers on individual deployments:
+- 3-year ROI: 331–391% (Forrester)
+- Per-call cost: $7-12 → $0.40
+- FCR improvements: 5-15 points
+- AHT reduction: 20-50%
+- Agent ramp time cut: 50-85%
+
+Philippine Airlines went from 60% CSAT to 95% in one deployment. 45% call deflection. 30% monthly cost savings.
+
+The industry has been talking about "AI in call centers" for a decade. The talk ended. Companies are pulling $10M+ in savings out of these deployments now.
+
+The executives I see still asking "is voice AI ready?" have a competitor who's 18 months into deployment and already retraining their workforce on what's left.
+
+At Ender Turing we've been in this space since before it was obvious. The pattern is consistent: every contact center that waited another year regrets it. The ones that moved early are now defending a real competitive moat.
+
+https://enderturing.com

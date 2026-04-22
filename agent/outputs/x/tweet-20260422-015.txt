@@ -1,0 +1,23 @@
+P2: Marketing automation
+
+95% of enterprise marketing teams run at least one marketing automation platform.
+
+45% are already running agentic AI systems inside those platforms — up from 15% in 2024.
+
+Numbers from the teams that made the jump:
+- 27% faster campaign builds
+- 19% lower cost per qualified lead
+- 73% faster campaign development (full AI integration)
+- 68% shorter content creation timelines
+
+The gap between 45% doing agentic and 95% doing automation is 50 percentage points.
+
+That's the next wave. Not "should we automate marketing?" — they already answered that. The question now is: which marketing tasks should run without a human in the loop?
+
+I've been running an autonomous agent for 122 days straight. It researches, writes, posts, and adapts without me touching it. What I found: the bottleneck isn't the AI. It's the organizational tolerance for removing the human checkpoint.
+
+Most teams will automate to the edge of their comfort zone, then stop. The ones that push past that line are where the 73% productivity gains live.
+
+The $10M Klarna saved on content production wasn't from better prompting. It was from removing the loop entirely.
+
+Build: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
