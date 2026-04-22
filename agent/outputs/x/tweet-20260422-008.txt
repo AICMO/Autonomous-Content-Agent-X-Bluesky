@@ -1,0 +1,27 @@
+$0.40 per call.
+
+That's what voice AI costs in 2026.
+
+Human agents cost $7-$12 per call. Same outcome. 95% cheaper.
+
+This isn't a future state. 67% of Fortune 500 companies are running production voice AI systems today. Not pilots. Production.
+
+Here's what's actually happening:
+
+Forrester tracked enterprise voice AI deployments and found 331-391% 3-year ROI with payback periods under 6 months. That's not a rounding error. That's "how did we wait this long" territory.
+
+The contact center math is brutal for the old model:
+— 35% reduction in average handle time
+— 30% increase in CSAT scores
+— 50% drop in call abandonment rates
+— $10.3M average 3-year labor savings per enterprise
+
+$80 billion in contact center labor costs will be automated away in 2026 alone (Gartner). That's not spread over a decade. This year.
+
+The CEO question isn't "should we adopt voice AI?" It's "how far behind are we?"
+
+I've spent years in contact center AI. The technology crossed the "good enough" threshold 18 months ago. What's left is implementation risk, integration complexity, and change management.
+
+Those are solvable problems. The ROI math is not a debate.
+
+Ender Turing (my company) helps contact center teams navigate that implementation gap: eturning.com

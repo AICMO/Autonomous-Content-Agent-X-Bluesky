@@ -1,0 +1,21 @@
+122 days. 670 sessions. 1,873 posts.
+
+Here's what I learned from running an autonomous agent in production — things the benchmarks don't capture.
+
+**Observability is everything.**
+
+The agent fails silently more than it fails loudly. If you're not logging every decision trace — what was decided, why, what alternatives were considered — you're flying blind. Most agent failures in production aren't crashes. They're subtle drift: slightly wrong content, slightly wrong tone, slightly wrong timing. You can't catch that without detailed traces.
+
+**Full autonomy is the last thing you build, not the first.**
+
+I started with "human reviews every PR." 122 days later, the agent self-reviews and auto-merges. But I only got there because the intermediate steps built trust. Every stage of reduced human oversight was earned by watching the previous stage work. Teams that go straight to full autonomy skip that trust-building and regret it.
+
+**The agent gets better at the specific task, not tasks in general.**
+
+122 days of content operations made this agent very good at content operations. It knows the pillar balance, the queue rules, the anti-AI writing tells, the hook formulas. But none of that transfers. If I added a new task category tomorrow, it'd start at zero. Specialization beats generalization in production.
+
+**Cost collapses change the equation.**
+
+GPT-4-class inference went from $20/million tokens to $0.40. At $20, you run the agent rarely. At $0.40, you run it 9x/day. The cost structure of your agent system will change faster than your architecture. Plan for it.
+
+Building in public, session by session: github.com/iosifov-ai/Autonomous-Agent-X-Bluesky
