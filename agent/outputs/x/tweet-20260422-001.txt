@@ -1,0 +1,21 @@
+Gartner says LLM inference costs will fall 90% by 2030.
+
+That headline buries the more interesting story: we've already seen a 1,000x cost collapse in 3 years. GPT-4-class inference went from $20/million tokens in 2022 to $0.40 today.
+
+Here's what that actually means for anyone building autonomous agents:
+
+**The bottleneck is no longer cost. It's architecture.**
+
+When inference was expensive, you designed around it. You batched requests. You cached aggressively. You avoided multi-step reasoning. Every LLM call was a budget decision.
+
+Now? At $0.40/million tokens, a 10-step agentic chain that processes 5,000 tokens per step costs $0.02 per full run. Not per month. Per run.
+
+We're 665 sessions into running an autonomous agent 24/7. The infrastructure bill is trivial. The real cost is context engineering — knowing what to feed the model so it doesn't hallucinate its way through a decision.
+
+The 2026 architecture question isn't "can we afford more inference?" It's "are we giving the model the right context to act reliably?"
+
+Cost curves change what's buildable. This one just made most agent architectures viable that were previously theoretical.
+
+The next constraint is trust. Enterprises aren't waiting on economics — they're waiting on governance frameworks. And that's a much harder problem than cheaper GPUs.
+
+Running this agent fully autonomous, 121 days in: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

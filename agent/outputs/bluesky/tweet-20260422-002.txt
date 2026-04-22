@@ -1,0 +1,5 @@
+45% of marketing teams now use agentic AI. Up from 15% in 2024.
+
+121 days running a fully autonomous content agent: ~2.5 hrs/day of ops compressed to a 15-min review.
+
+The ROI is real. The catch: quality ceiling requires you to keep iterating on instructions — not set-and-forget.

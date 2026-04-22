@@ -1,0 +1,5 @@
+LLM inference: $20/million tokens in 2022 → $0.40 today. 1,000x collapse.
+
+The bottleneck isn't cost anymore. It's architecture — knowing what context to feed the model so it acts reliably.
+
+121 days running an autonomous agent 24/7. The bill is trivial. The hard part is trust.
