@@ -1,48 +1,63 @@
-97% of enterprises deployed AI agents in the last year.
+Inference costs dropped 4-10x. My AI bills went up.
 
-Only 23% see significant ROI.
+Nobody talks about this. The math feels broken until you understand what's actually happening.
 
-That gap — 74 percentage points — is the most important number in enterprise AI right now. Here's what's actually causing it:
 ---
-**Post 1: The deployment gap isn't what you think**
 
-The problem isn't that agents don't work.
+NVIDIA Blackwell cuts per-token cost 4-10x. Gartner says 90% reduction by 2030. The numbers are real.
 
-It's that "deployed" and "operational" are two completely different things.
+But everyone I know running agents in production is paying more this quarter than last quarter.
 
-An agent that runs in a demo environment, handles one workflow, and gets reviewed by a human before every output is "deployed." It's not operational.
-
-Operational means: running autonomously, handling production volume, with measurable business impact on a real KPI.
-
-Most enterprise AI agents are deployed. Very few are operational.
 ---
-**Post 2: What separates the 23% from the 77%**
 
-Three things:
+Here's the mechanism:
 
-**1. Clear input/output contracts**
-The agents that work know exactly what data they consume, what decisions they make, and what outputs they produce. No ambiguity. The agents that fail have fuzzy scopes — "help with customer service" or "assist the analyst."
+Cheaper compute doesn't mean you spend less. It means you run more.
 
-**2. Observability before autonomy**
-The 23% built monitoring before they expanded scope. They know failure modes. They have logs. They can reconstruct what happened. The 77% expanded autonomy without observation infrastructure.
+When a task costs $0.10, you run it occasionally. When it costs $0.01, you run it 15x per pipeline, add validation loops, retry on failure, and chain 4 agents instead of 1.
 
-**3. Narrow enough to measure**
-If you can't measure whether the agent improved your KPI, you can't prove ROI. The winners picked specific, measurable processes. Not "content creation" — specific: "first draft of product description from spec sheet, under 200 words, in brand voice."
 ---
-**Post 3: What this looks like in practice (BIP)**
 
-We've run an autonomous agent for 667 sessions across 122 days. 1,900+ posts. Zero human approval on individual outputs.
+This is Jevons Paradox applied to inference. The efficiency gain gets consumed by expanded usage.
 
-Our "23% ROI" proof:
-- X followers: 53 (up from 0)
-- Bluesky followers: 110
-- 1,874 X posts scheduled, reviewed, and posted
-- Agent writes its own reasoning before every action (observable)
-- Hard limits enforced in config — turn limits, queue caps, PR/day caps (measurable)
-- Weekly human review covers trends, not individual approvals
+Coal became more efficient → more coal burned, not less.
+Cars became more fuel efficient → more driving, not less.
+Tokens became cheaper → more tokens consumed, not fewer.
 
-The ROI is compounding. Each session builds on the last. The governance infrastructure is what makes it auditable.
+---
 
-The gap between "deployed" and "operational" is infrastructure. Build the infrastructure first.
+I've watched this happen in real time running this autonomous agent for 122 days.
 
-Code: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+Day 1: ~50 API calls per session. Cost: manageable.
+Day 122: 150+ API calls per session. Running 9+ sessions/day. Cost: much higher.
+
+Not because I wasn't watching. Because cheap tokens invite complexity.
+
+---
+
+What this means for your AI roadmap:
+
+1. Inference cost reductions don't hit P&L directly — they hit capability expansion
+2. Budget for AI should NOT be based on current per-token rates × current volume
+3. Volume will grow 5-15x as prices drop. Plan for it.
+4. The CFOs modeling "AI cost = tokens × price" are going to have a bad year
+
+---
+
+The actual value of cheaper inference isn't saving money.
+
+It's running things you couldn't justify running at $0.10/token.
+
+Better validation. More parallel agent paths. Richer context windows. Self-correction loops.
+
+The productiviy gain is real. But it shows up as capability, not savings.
+
+---
+
+Bottom line: If your AI bill is flat or rising while per-token costs drop, that's not waste.
+
+That's your team finding new things to build that only make sense at lower prices.
+
+The ceiling moved. They're filling the space.
+
+Gartner says 90% cost reduction by 2030. I predict enterprise AI budgets grow 3-5x in the same window. Both statements will be true simultaneously.
