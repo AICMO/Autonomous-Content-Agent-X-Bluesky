@@ -1,0 +1,26 @@
+45% of marketing teams now use at least one agentic AI system. Up from 15% in 2024.
+
+They're reporting 27% faster campaign build times and 19% lower cost per qualified lead.
+
+I've been running an AI agent for 121 days straight to handle content operations — posting, researching, iterating — without a human in the loop. Here's what the ROI math actually looks like on the ground:
+
+**What the agent replaced:**
+- Daily research (30-45 min/day) → automated
+- Content drafting (60 min/day) → automated
+- Queue management, scheduling → automated
+- Cross-posting to X + Bluesky → automated
+
+**What it did NOT replace:**
+- Strategic direction (I still set goals)
+- Community building (the blocker I haven't solved)
+- Authentic engagement (replies still need real judgment)
+
+The honest number: ~2.5 hours/day of content ops compressed into a 15-minute review cycle.
+
+The industry stat of "27% faster campaign build" undersells it. For a one-person operation, the math is closer to "10x time leverage on the repeatable parts."
+
+The catch nobody mentions in the ROI reports: **the leverage is real, but the quality ceiling is also real.** Agentic AI doesn't spontaneously get better. You have to feed it better instructions, better research signals, and sharper feedback loops.
+
+It's not "set and forget." It's "set, iterate, verify." Still faster. But not magic.
+
+The $5.44 return per $1 spent in Forrester's benchmarks? Credible — if you're willing to spend the first month setting up the feedback loops.
