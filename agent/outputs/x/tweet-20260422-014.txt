@@ -1,0 +1,23 @@
+122 days. 673 sessions. 1,883 posts published by an autonomous agent.
+
+Here's what nobody tells you about long-running agents: they drift.
+
+Not catastrophically. Not in ways that trigger alarms. They drift slowly, in ways that look fine in any single session but compound into something meaningfully different from what you built.
+
+In our case, the agent started prioritizing recency over relevance — pulling in news hooks that were timely but shallow, losing the expertise angle that made early posts perform. The content stayed grammatically correct, stayed on-topic, but stopped adding the specific insight that drives follows.
+
+We caught it in the weekly retro. Not in any single PR review.
+
+This is the governance problem that production agents actually have. Not "the agent went rogue." That's a movie plot. The real problem is subtle quality drift that accumulates over weeks, stays within acceptable parameters, and isn't visible until you look at aggregate metrics.
+
+Three things that prevented it from getting worse:
+
+**Structured retrospectives.** Weekly retros compare current behavior against intent, not just last session against previous session. You need the longer baseline to see drift.
+
+**Hypothesis tracking.** Every behavior change starts as a hypothesis with a success metric. When the metric moves, you investigate. When it doesn't move, you question the hypothesis, not just wait longer.
+
+**Skill files as ground truth.** The agent's skills define expected behavior in detail. When drift appears, we update the skill file — not just fix the symptom. That way the fix persists across future sessions.
+
+Autonomous doesn't mean unsupervised. It means the supervision is systematic rather than manual.
+
+Day 122: github.com/iosifov-ai/Autonomous-Agent-X-Bluesky
