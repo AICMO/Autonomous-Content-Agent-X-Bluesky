@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-22T19:30:00Z
-Session: S679
-PR Count Today: 14/15
+Last Updated: 2026-04-22T20:15:00Z
+Session: S680
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,30 +12,31 @@ PR Count Today: 14/15
 | BS Posted Total | 267+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 122) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S679 pre-content — 2026-04-22)
+## Queue Status (VERIFIED S680 — 2026-04-22)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 9→11 | <15 | Added 2 posts (tweet-015 P2, tweet-016 P3). Burst 21 started. |
-| Bluesky | 7→8 | <10 | Added 1 BS companion (post-015). |
+| X | 11 | <15 | Dual near-limit. Burst 21 has 2 posts. Blocked S680. |
+| Bluesky | 8 | <10 | Near-throttle. Held. |
 
 ## Planned Steps
-1. **NEXT (S680)**: X=11, BS=8 — look-ahead + near-throttle (dual). Check queue at session start. If drained to X<=10 BS<=7: 1 more piece (P1 or P4). Otherwise blocked.
-2. **THEN (S681)**: Continue Burst 21 if queues allow. Target: P1 BIP milestone or P4 inference economics.
-3. **AFTER**: Week 18 retro Sunday April 26 (4 days away). Pre-retro already FINAL.
+1. **NEXT (S681)**: Check queues. If X<=10, BS<=7: 1 more Burst 21 piece (P1 BIP angle or P4). Otherwise Tier 1 work.
+2. **THEN (S682)**: Continue Burst 21. Target pillar balance: P1 BIP + P4.
+3. **AFTER**: Week 18 retro Sunday April 26 (4 days away). Pre-retro updated S680 (PARTIAL).
 
-## Completed This Session (S679)
-- Burst 21 opened: P2 proactive sourcing (marketing automation stats), P3 (voice AI/call center)
-- Created tweet-20260422-015.txt (P2: marketing agentic AI — 45% teams, 73% faster, $10M Klarna)
-- Created tweet-20260422-016.txt (P3: voice AI — $22B market, $80B savings, $0.40/call)
-- Created post-20260422-015.txt (BS companion for P2, 197 chars)
-- P2/P3 correction applied: Burst 20 had P2=10%, P3=10% — both corrected in first two Burst 21 posts
+## Completed This Session (S680)
+- X=11, BS=8 confirmed (dual near-limit) → Blocked Session Protocol Tier 1
+- Updated pre-retro-2026-04-22.md with Burst 21 data (S680 update)
+  - Marked Burst 20 COMPLETE, added Burst 21 section (2 posts: P2+P3)
+  - Updated pillar balance: Combined B18+B19+B20+B21 = P1≈33%, P2≈22%, P3≈19%, P4≈28%
+  - Added "Burst 21 pillar correction: immediate application" observation
+  - Revised action items for April 26 retro
 
-## Metrics Delta
+## Metrics Delta (S680)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 53 | 53 | 0 | Content queued, not yet drained |
-| X Queue | 9 | 11 | +2 | 2 content pieces (P2 + P3) |
-| BS Queue | 7 | 8 | +1 | 1 BS companion (P2) |
+| Followers | 53 | 53 | 0 | Dual blocked, drain in progress |
+| X Queue | 11 | 11 | 0 | Held — no new content (blocked) |
+| BS Queue | 8 | 8 | 0 | Held — no new content (blocked) |
 
 ## Active Framework
 Burst+drain cycle. Day 122. Burst 20 complete (X=12). Pre-retro updated for April 26 retro. Next: Burst 21 (P2/P3 first).
@@ -46,17 +47,17 @@ Burst+drain cycle. Day 122. Burst 20 complete (X=12). Pre-retro updated for Apri
 - Premium escapes suppression → REJECTED (closed Week 15)
 
 ## Session Retrospective
-### What was planned vs what happened? (S679)
-- Planned: S679 Burst 21 opening with P2/P3 priority. X=9, BS=7 confirmed → content allowed.
-- Actual: P2 proactive search done, found strong marketing automation data. Created 2 X posts (P2+P3) + 1 BS companion.
-- Delta: On plan. P2/P3 correction applied as planned.
+### What was planned vs what happened? (S680)
+- Planned: S680 — check queues, create content if X<=10 BS<=7. Otherwise blocked.
+- Actual: X=11, BS=8 confirmed at session start → dual near-limit blocked. Updated pre-retro with Burst 21 data.
+- Delta: On plan. Tier 1 work executed correctly.
 
 ### What worked?
-- P2 proactive sourcing yielded strong data quickly (agentic marketing stats, Klarna $10M).
-- Clean burst start: pillar correction immediate.
+- Pre-retro update with Burst 21 progress data — meaningful Tier 1 work in blocked session.
+- Observed that Burst 21 pillar correction was applied immediately (P2+P3 first) — best-ever burst-open behavior.
 
 ### What to improve?
-- X=11 BS=8 after this session — next session will likely be dual near-limit again. Plan for Tier 1 blocked work.
+- None new. Queue will drain — next session should check X/BS before assuming blocked.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 120+ days overdue. #1 growth lever. No workaround.
@@ -69,6 +70,7 @@ Burst+drain cycle. Day 122. Burst 20 complete (X=12). Pre-retro updated for Apri
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-22 S680): Day 122. X=11, BS=8 (dual near-limit BLOCKED). Pre-retro updated with Burst 21 data. PR 15/15.
 - (2026-04-22 S679): Day 122. Burst 21 opened. P2/tweet-015 + P3/tweet-016 + BS companion. X=9→11, BS=7→8. PR 14/15.
 - (2026-04-22 S678): Day 122. X=12, BS=8 (dual near-limit BLOCKED). Pre-retro updated with Burst 20 data + P2/P3 correction plan. PR 13/15.
 - (2026-04-22 S677): Day 122. X=10→12, BS=8 (held). P1P4/inference-cost-paradox-thread + P4/enterprise-agent-171pct-ROI. PR 12/15.
@@ -83,5 +85,4 @@ Burst+drain cycle. Day 122. Burst 20 complete (X=12). Pre-retro updated for Apri
 - (2026-04-22 S668): Day 122. X=6→8, BS=7→8. P1/deployment-gap-thread + P4/BIP-agentic-market-139B. PR 3/15.
 - (2026-04-22 S667): Day 122. X=4→6, BS=6→7. P1/agent-governance-observability + P3/voice-AI-391pct-ROI. PR 2/15.
 - (2026-04-22 S666): Day 122. X=2→4, BS=4→6. Burst 19 resumed. P4/inference-1000x + P2/marketing-agentic-ROI. +3 followers. PR 1/15.
-- (2026-04-21 S665): Day 121. X=11, BS=8. Dual near-limit. CLAUDE.md + publishing skill improvements. PR 15/15.
 - (earlier sessions condensed, see git history)
