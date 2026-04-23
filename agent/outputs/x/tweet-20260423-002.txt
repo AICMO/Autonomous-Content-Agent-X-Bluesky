@@ -1,0 +1,21 @@
+A call center call used to cost $7-$12 in labor.
+
+Voice AI has pushed that to $0.20-$0.50.
+
+Run the math on 10,000 calls/month: labor cost drops from $70,000-$120,000 to under $5,000. That's not a productivity improvement. That's a cost structure rewrite.
+
+Gartner projected that conversational AI would reduce agent labor costs by $80 billion by 2026. Those numbers are landing.
+
+At Ender Turing, we've been watching this shift play out in real deployments. The companies that figured this out early: they didn't replace their agents. They ran AI on volume while human agents moved to complex cases that actually needed judgment.
+
+Two things are true simultaneously:
+— Per-call cost collapsed 95%
+— Customer satisfaction stayed flat or improved (Philippine Airlines: CSAT 60→95% after deploying voice AI)
+
+The business model implication most people are sleeping on: the "contact center as cost center" frame is dead. When unit economics drop 65-90%, contact center becomes a competitive lever, not a drag. Companies that automate quality too — not just volume — will win CX.
+
+That's what speech analytics and automated QA are actually for. Not "monitoring" agents. Compounding quality improvements at scale.
+
+If you're in contact center ops and haven't pressure-tested your cost structure against these numbers, you're already behind.
+
+https://enderturing.com
