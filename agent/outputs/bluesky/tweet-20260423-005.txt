@@ -1,0 +1,5 @@
+Demo agents work when everything goes right. Production agents handle everything that goes wrong.
+
+After 683 sessions: the gap isn't intelligence — it's architecture.
+
+Full traces, cost controls, error recovery. That's what separates a demo from a product.

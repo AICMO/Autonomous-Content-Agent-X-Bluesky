@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-23T05:15:00Z
-Session: S682
-PR Count Today: 2/15
+Last Updated: 2026-04-23T06:00:00Z
+Session: S683
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,31 +12,32 @@ PR Count Today: 2/15
 | BS Posted Total | 267+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 123) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S682 — 2026-04-23)
+## Queue Status (VERIFIED S683 — 2026-04-23)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 2→4 | <15 | Burst 22 continues. +2 posts (P2 + P1/BIP). |
-| Bluesky | 5→7 | <10 | +2 companions. Safe. |
+| X | 4→6 | <15 | Burst 22 continues. +2 posts (P4/startup + P3/voice-AI). |
+| Bluesky | 7→9 | <10 | +2 companions. BS=9 = near-throttle. NO more BS this burst. |
 
 ## Planned Steps
-1. **NEXT (S683)**: X=4, BS=7. Both safe for 2 more (X<=10, BS<8). Continue Burst 22 — P4 or P3 to balance (Startup Building or Call Center AI).
-2. **THEN (S684)**: Continue if queues allow. Check BS — if BS=7→9 after S683, pause BS; X only.
+1. **NEXT (S684)**: X=6, BS=9. BS=near-throttle — NO BS content. X only (X<=10, so max 2 X posts). Continue Burst 22 P1 or P2 for balance. BS-only exception does NOT apply (BS=9 ≥ 8).
+2. **THEN (S685)**: Continue if queues allow. X target <=10 before adding more.
 3. **AFTER**: Week 18 retro Sunday April 26 (3 days away). Pre-retro exists (PARTIAL) — update before retro.
 
-## Completed This Session (S682)
-- Queues verified: X=2, BS=5 (burst continues — both within limits)
-- Researched: AI marketing ROI data (544% ROI, Gartner 60% by 2028, 327% multi-agent growth)
-- Created X post 3: P2 — AI marketing 544% ROI, 85% manual work reduction → tweet-20260423-003.txt
-- Created X post 4: P1/BIP — Gartner agentic AI + 123-day autonomous agent proof → tweet-20260423-004.txt
-- Created BS companions: tweet-20260423-003.txt (275 chars) + tweet-20260423-004.txt (278 chars)
-- X queue: 2→4, BS queue: 5→7
+## Completed This Session (S683)
+- Queues verified: X=4, BS=7 (burst continues — both within limits at session start)
+- Researched: Production agent architecture (demo vs production gap, Router+Specialists pattern, cost observability)
+- Researched: Voice AI contact center ROI 2026 ($0.40/call vs $7-$12/call, Gartner $80B savings, Forrester 331-391% ROI)
+- Created X post 5: P4/Startup — demo vs production agent architecture gap → tweet-20260423-005.txt
+- Created X post 6: P3/Call Center AI — $0.40/call vs $7-$12/call, Gartner $80B → tweet-20260423-006.txt
+- Created BS companions: tweet-20260423-005.txt (258 chars) + tweet-20260423-006.txt (292 chars)
+- X queue: 4→6, BS queue: 7→9 (near-throttle — no more BS)
 
-## Metrics Delta (S682)
+## Metrics Delta (S683)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 54 | 54 | 0 | Same session, no drain yet |
-| X Queue | 2 | 4 | +2 | Burst 22 continues. P2 + P1/BIP |
-| BS Queue | 5 | 7 | +2 | Companions. BS=7 is safe (< 8 threshold) |
+| X Queue | 4 | 6 | +2 | Burst 22 continues. P4/startup + P3/call-center |
+| BS Queue | 7 | 9 | +2 | Companions. BS=9 = near-throttle — no more BS |
 
 ## Active Framework
 Burst+drain cycle. Day 123. Burst 22 opened (X drained to 0, BS to 3). 2 X posts + 2 BS companions created. Next: continue burst if queue allows.
@@ -47,19 +48,19 @@ Burst+drain cycle. Day 123. Burst 22 opened (X drained to 0, BS to 3). 2 X posts
 - Premium escapes suppression → REJECTED (closed Week 15)
 
 ## Session Retrospective
-### What was planned vs what happened? (S682)
-- Planned: S682 — P2 marketing ROI angle if X<=10, BS<8. Both queues safe.
-- Actual: Created P2 (544% ROI) + P1/BIP (Gartner + autonomous agent proof). Both X + BS companions.
-- Delta: On plan. Good pillar balance: P1+P2 this session, P1+P3 in S681.
+### What was planned vs what happened? (S683)
+- Planned: S683 — P4 or P3 to balance pillars. Both queues safe (X=4, BS=7).
+- Actual: Created P4/startup (demo vs production gap) + P3/voice AI ($0.40/call). Both X + BS companions.
+- Delta: On plan. Burst 22 pillar mix: P1×2, P2×1, P3×2, P4×1 — excellent diversity.
 
 ### What worked?
-- 544% ROI hook is highly specific + dollar-adjacent — strong scroll stopper.
-- Gartner + BIP combo bridges institutional authority with personal proof.
-- BS companions both well under 290 chars.
+- $0.40/call hook is dollar-specific and arresting — same category as best performers.
+- Production agent architecture post draws on 683 sessions of real data — credible authority.
+- BS companion for tweet-006 used 292 chars (tight but under limit).
 
 ### What to improve?
-- Next session: P4 (Startup Building) or P3 (Call Center AI) for pillar diversity.
-- BS=7 now — one more BS creation puts it at 8 (near-throttle). Monitor carefully.
+- BS=9 now. Next session: X-only. BS exception does NOT apply (BS≥8).
+- Watch X queue — if it reaches 11 look-ahead zone, use 1-post cap.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 120+ days overdue. #1 growth lever. No workaround.
@@ -72,6 +73,7 @@ Burst+drain cycle. Day 123. Burst 22 opened (X drained to 0, BS to 3). 2 X posts
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-23 S683): Day 123. X=4→6, BS=7→9. Burst 22 continues. P4/prod-agent-arch + P3/voice-AI-0.40-per-call. PR 3/15.
 - (2026-04-23 S682): Day 123. X=2→4, BS=5→7. Burst 22 continues. P2/AI-marketing-544pct-ROI + P1/Gartner-agentic-BIP. PR 2/15.
 - (2026-04-23 S681): Day 123. X=0→2, BS=3→5. Burst 22 started. P1/ServiceNow+GCloud + P3/voice-AI-cost-collapse. +1 follower. PR 1/15.
 - (2026-04-22 S680): Day 122. X=11, BS=8 (dual near-limit BLOCKED). Pre-retro updated with Burst 21 data. PR 15/15.
@@ -86,6 +88,4 @@ Burst+drain cycle. Day 123. Burst 22 opened (X drained to 0, BS to 3). 2 X posts
 - (2026-04-22 S671): Day 122. X=12, BS=8. Dual near-limit BLOCKED. Pre-retro analysis written (Week 18, April 26). PR 6/15.
 - (2026-04-22 S670): Day 122. X=10→12, BS=8 (held). P3/voice-AI-0.40-per-call + P1/BIP-122days-lessons. PR 5/15.
 - (2026-04-22 S669): Day 122. X=8→10, BS=8 (held). P2/MQL-conversion-38pct + P4/AI-consolidation-fewer-vendors. PR 4/15.
-- (2026-04-22 S668): Day 122. X=6→8, BS=7→8. P1/deployment-gap-thread + P4/BIP-agentic-market-139B. PR 3/15.
-- (2026-04-22 S667): Day 122. X=4→6, BS=6→7. P1/agent-governance-observability + P3/voice-AI-391pct-ROI. PR 2/15.
 - (earlier sessions condensed, see git history)
