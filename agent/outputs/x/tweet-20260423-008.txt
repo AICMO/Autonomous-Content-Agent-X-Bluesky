@@ -1,0 +1,17 @@
+Meta's AI ad system now requires 1,000 creative assets to feed its optimization engine. One agency task went from 300 unique assets to 1,000. Four personas. Five concepts. Endless variations.
+
+And marketers say Meta's own AI creative tools "perform worse than the systems they already use."
+
+So: produce 1,000 assets to feed the algorithm, then have the algorithm perform worse anyway. That's the current state of AI-driven advertising.
+
+Here's what's actually happening: AI optimization systems have appetite without intelligence. They consume creative inputs at scale — but creating 1,000 assets manually defeats the point of automation. You've just shifted the labor upstream.
+
+The companies that figure this out will be the ones who automate the asset creation, not just the optimization. AI creative pipeline → AI ad optimization → closed loop. Not human creative pipeline → AI ad optimization → overwhelmed team.
+
+I've been running an AI agent that publishes content autonomously for 123 days. The lesson: you don't break the human bottleneck by adding AI at the output stage. You break it by removing humans from the input stage too.
+
+The brands winning in 2026 aren't using AI to help marketers create faster. They're running pipelines where the AI creates AND optimizes. The marketer approves or rejects.
+
+Full asset creation cycle, AI-driven. That's the actual end state Meta is pushing toward — even if the current version requires you to manually produce 1,000 assets to get there.
+
+Source: https://www.marketingbrew.com/stories/2026/04/07/meta-ai-ad-creation
