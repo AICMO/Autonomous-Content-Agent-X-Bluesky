@@ -1,0 +1,22 @@
+Human call center agent: $12 per conversation.
+
+AI voice agent: $0.30–0.50 per conversation.
+
+That's not a small efficiency gain. That's 24–40x cheaper at the unit economics level.
+
+I've been building call center AI since before it was the hot VC category. Here's what the cost comparison misses:
+
+The $12 figure includes all the labor overhead — recruiting, training, attrition (40%+ annually in most centers), floor management. But most companies quote AI costs at runtime only, skipping the setup reality:
+
+- Enterprise integration: $50K–200K upfront
+- Conversation flow design: months of iteration
+- Edge case handling: ongoing, never done
+- Escalation routing: the moment the agent breaks, a human still picks up
+
+So the math looks like this: year 1, you're often break-even or negative. Year 2, you're profitable. Year 3+, the unit economics compound aggressively.
+
+The companies that fail treat this like a cost-cut from day one. The ones that win treat it as a CX transformation that happens to have dramatically better economics after the first 12 months.
+
+$0.40 per conversation is real. The path to get there is not a Tuesday afternoon deployment.
+
+What are you actually seeing on deployment timelines in 2026?
