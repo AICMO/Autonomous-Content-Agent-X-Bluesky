@@ -1,0 +1,17 @@
+A DTC ecommerce brand replaced their $8,000/month marketing setup with AI agents. New cost: $400/month.
+
+Same results: +34% social engagement, +22% email revenue, +4x content output (2 articles/month → 8 articles/month). The marketing manager got 12 hours back per week — reallocated to influencer outreach and retail partnerships.
+
+This isn't a future case study. It's a 2026 pattern repeating across hundreds of companies.
+
+The economics are brutal if you're on the wrong side of them. $7,600/month is not a rounding error.
+
+What's interesting is where the savings don't go. Most teams aren't firing the marketing manager. They're redeploying them. The McKinsey pattern: agents handle ideation, draft creation, compliance checking, localization. Humans handle strategy, relationships, and judgment calls that require context the agent doesn't have.
+
+The Series B SaaS version is even cleaner: 2-person team, content volume 3x (4 articles → 12/month), cost per article $800 → $180. Organic traffic up 40% over 6 months.
+
+This is what "AI + human" actually looks like in production. Not AI replacing humans. Humans redeploying attention to higher-leverage work while agents handle the rest.
+
+The companies still treating content as a manual workflow are 18-24 months behind on this transition.
+
+What's your current cost per published piece?

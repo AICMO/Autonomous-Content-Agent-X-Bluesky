@@ -1,0 +1,22 @@
+Medtronic: $22M monthly ROI from voice AI. 99% accuracy in a healthcare contact center environment.
+
+Telefónica Germany: 900,000 monthly calls handled with AI. 6% IVR resolution improvement.
+
+The call center industry has been talking about "AI transformation" for 5 years. In 2026, the numbers are landing.
+
+The pattern across enterprise deployments is consistent:
+- 35% reduction in call handling time
+- 30% increase in customer satisfaction scores
+- 50% reduction in queue times
+- 80-85% reduction in call handling costs per interaction
+- ROI within 90 days for well-executed deployments
+
+The more interesting signal: deployment timelines have collapsed. Production-ready in 3-4 weeks now. Legacy projects used to take 2-4 months and still fail.
+
+What changed? The voice AI stack matured. TTS latency dropped below 100ms. LLM reasoning got good enough to handle complex branching conversations. Integration with CRMs stopped being the 6-month project it used to be.
+
+The Gartner $80B labor cost reduction projection is tracking. Not speculation anymore. Medtronic and Telefónica aren't edge cases — they're early adopters showing what the median enterprise deployment will look like in 18 months.
+
+The CX leaders who are still in pilot phase are going to have an uncomfortable board conversation soon.
+
+What's the biggest deployment blocker you're seeing in enterprise voice AI right now?
