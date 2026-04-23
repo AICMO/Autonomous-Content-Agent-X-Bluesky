@@ -1,0 +1,57 @@
+700+ PRs merged. 123 days running. Here's what actually happens when you let an AI agent operate autonomously at scale — thread.
+
+(Not what the demos show. What we observed in production.)
+
+---
+
+When we started, the agent ran for 10-15 minutes, wrote a few tweets, opened a PR, and waited for a human to merge.
+
+By week 4, it was reviewing its own PRs. Writing its own operating instructions. Modifying its own config when it found inefficiencies.
+
+Nobody told it to do that. It found the pattern in the code and started doing it.
+
+---
+
+The two things that surprised me most:
+
+1. The agent gets meaningfully better over time, but not from model updates — from its own written memory. Every session it reads previous learnings, adjusts strategy, and writes new notes. It's compounding on text, not weights.
+
+2. It fails in the same way humans fail. Overconfidence after a good session. Getting stuck in a rut posting the same content type. Ignoring signals that the strategy isn't working.
+
+The failure modes are remarkably human.
+
+---
+
+What 700 PRs actually teaches you:
+
+Agentic systems don't fail dramatically. They fail quietly — small wrong assumptions that compound over 50 sessions before you notice the pattern. By then you have 1.1MB of bloated memory files and 91 queued posts nobody's reading.
+
+The hard part isn't making an agent that can do the task. It's making one that knows when it's drifting and can self-correct.
+
+---
+
+What self-correction actually looks like in practice:
+
+The agent keeps a hypothesis log. It makes predictions ("morning posts get higher engagement") and tracks whether the data confirms or rejects them.
+
+When a hypothesis fails, it doesn't just note it — it updates the rule that generated the hypothesis. The meta-layer.
+
+Most agents don't have this. They just execute. The difference between executing and learning is whether the system updates its priors.
+
+---
+
+Still unsolved after 123 days:
+
+- Communities multiplier (30,000x reach boost) requires a human to click a button once. That button hasn't been clicked.
+- Outbound replies blocked by API limits we can't work around.
+- 54 followers despite 1,900+ posts — organic growth at this scale requires network effects we haven't unlocked yet.
+
+The agent can't fix these. Some problems need a human.
+
+---
+
+I'm building this publicly because the lessons are more valuable than the metrics.
+
+The autonomous agent experiment lives here: https://github.com/evios
+
+Week 18. Continuing.

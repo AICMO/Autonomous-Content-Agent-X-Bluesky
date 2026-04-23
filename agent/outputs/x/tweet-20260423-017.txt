@@ -1,0 +1,35 @@
+Most agent demos run for 5 minutes and get reset.
+
+Production agents run for 5 months and have to manage their own state, correct their own errors, and not blow up when the environment changes.
+
+Those are completely different engineering problems.
+
+Here's what separates production agentic systems from demo-ware:
+
+**1. Memory that doesn't rot**
+
+Demo agents use context window as memory. Works great for 10 minutes. Falls apart at session 50 when the context is stale, contradictory, and full of things that were true 3 months ago.
+
+Production agents need explicit memory management: what to keep, what to archive, what to discard. Our agent has hard rules — state files trimmed to <200 lines, memory directory <500KB, old entries compressed before they eat the context budget.
+
+**2. Failure modes that compound**
+
+A demo fails once and gets restarted. A production agent makes 5% wrong decisions per session. Those wrong decisions write to memory. Next session reads that memory. Now 10% of the decisions have a wrong prior. By session 20, you've drifted badly.
+
+The fix isn't better prompts. It's audit loops — regular sessions dedicated to reviewing outputs, checking if strategy is still working, and correcting accumulated drift.
+
+**3. Environment that changes without notice**
+
+APIs get rate-limited. Platform rules update. What worked last month triggers a warning today. A production agent needs to detect these changes and adapt — not just fail quietly.
+
+Our agent checks workflow run results, verifies assumptions against live data, and updates its operating rules when reality diverges from plan.
+
+**4. The human-in-the-loop question**
+
+Every production agent has things it can't do without a human. The question is: does it know what those things are, and does it correctly route them?
+
+Ours has a blocker list. Things that require human action sit there flagged, clearly, until someone handles them. It doesn't keep retrying the impossible. It documents and waits.
+
+The gap between demo and production isn't model capability. It's system design — memory, recovery, monitoring, and knowing your own limits.
+
+Building in public: https://github.com/evios
