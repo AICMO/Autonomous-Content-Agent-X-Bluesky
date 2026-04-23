@@ -1,0 +1,19 @@
+LLM inference costs dropped 1,000x in 3 years.
+
+GPT-4 equivalent: $20 per million tokens in 2022. $0.40 in 2026.
+
+That's not incremental. That's a complete economic restructuring of what's viable to build.
+
+A few things I keep coming back to as an AI founder:
+
+**What this unlocks:** Products that were technically possible in 2022 but economically impossible are now baseline. Every agent that runs continuously, every RAG pipeline with hundreds of calls, every voice AI conversation — these only pencil out at $0.40 per million tokens, not $20.
+
+**What nobody is talking about:** Inference now eats 67% of total AI compute spend. Training got all the press, but inference is where the money actually flows. For every $1B spent training a model, organizations face $15-20B in inference costs over its lifetime. The compute war is happening at inference, not training.
+
+**What it means for startups:** Your moat is no longer model access. Everybody has access. Your moat is workflow design — how you chain tools, structure state, manage costs at the call-per-user-per-day level.
+
+H100 cloud pricing: $8-10/hr in Q4 2024. $2.99/hr in Q1 2026. That's a 64-75% drop in 18 months.
+
+Building production agents today is a different category than building demos in 2023. The economics changed the playbook entirely.
+
+What are you building that wasn't viable 18 months ago?
