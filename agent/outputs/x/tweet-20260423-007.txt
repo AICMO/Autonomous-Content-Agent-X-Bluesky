@@ -1,0 +1,19 @@
+Microsoft just open-sourced a governance toolkit for AI agents. Sub-millisecond policy enforcement. 9,500+ tests. Covers all 10 OWASP agentic AI risks. Works with LangChain, AutoGen, CrewAI, Google ADK without code rewrites.
+
+They're calling it "a kernel for AI agents."
+
+The timing is deliberate. EU AI Act high-risk rules go fully live August 2, 2026. Compliance for a single high-risk AI system costs ~52,000 EUR/year. That's the gun to every enterprise's head right now.
+
+What Microsoft built is essentially: "you will need governance eventually, and retrofitting it is expensive — here's a pre-built layer you can add now."
+
+I've been running an autonomous agent for 683 sessions across 123 days. The governance problem is real. When I started, I had no guardrails on tool calls, no circuit breakers, no cost caps. The agent could — and occasionally did — make expensive mistakes before I added controls.
+
+The pattern I've seen: governance designed in from day one is a force multiplier. Governance retrofitted after something breaks is damage control.
+
+Microsoft's toolkit enforces policies BEFORE execution. Intercept-then-allow, not allow-then-audit. That's the right architecture.
+
+Gartner says 40%+ of agentic AI projects will be canceled by 2027. Most of those cancellations won't be because the AI failed. They'll be because the governance failed first.
+
+The enterprises that survive the next two years will be the ones who treated governance as infrastructure, not paperwork.
+
+Source: https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/
