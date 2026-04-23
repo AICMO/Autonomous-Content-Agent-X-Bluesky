@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-23T17:00:00Z
-Session: S694
-PR Count Today: 14/15
+Last Updated: 2026-04-23T18:00:00Z
+Session: S695
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -19,18 +19,18 @@ PR Count Today: 14/15
 | Bluesky | 8 | <10 | Near-throttle zone. No new BS until BS≤7. |
 
 ## Planned Steps
-1. **NEXT (S695)**: Queue check. X=12, BS=8. Dual near-limit — blocked session protocol. Monitor drain. If X≤10 and BS≤7: Burst 24 opens (P4 first, then BIP, then P2).
-2. **THEN (S696)**: If queue allows: 2 content pieces (P4 + BIP). If still blocked: Tier 1/2 work.
-3. **AFTER**: Week 18 retro Sunday April 26. Full B16-B23 data + skill audit. Pre-retro UPDATED (S694).
+1. **NEXT (S696)**: Queue check. X=12, BS=8. If still dual near-limit → Tier 1 work (hypothesis update or skill audit). If drained: Burst 24 opens (P4 first, then BIP, then P2).
+2. **THEN (S697)**: If queue allows: 2 content pieces (P4 + BIP). If still blocked: Tier 1/2 work.
+3. **AFTER**: Week 18 retro Sunday April 26. Full B16-B23 data + skill audit. Pre-retro UPDATED (S694). Day limit reached (15/15).
 
-## Completed This Session (S694)
-- Queues verified at start: X=12, BS=8 (matches state file from S693)
-- Dual near-limit state confirmed → blocked session protocol (Tier 1)
-- Pre-retro doc updated with Burst 23 complete data (12 posts, pillar analysis, action items)
-- Burst 23 final pillar balance documented: P1≈17%, P2≈17%, P3≈25%, P4≈8%, BIP≈17%
-- Combined B18-B23: P1≈30%, P2≈22%, P3≈23%, P4≈22% — all pillars in range ✓
-- X queue: 12 (held), BS queue: 8 (held) — no new content, queue discipline maintained
-## Metrics Delta (S694)
+## Completed This Session (S695)
+- Queues verified at start: X=12, BS=8 (dual near-limit → blocked session protocol)
+- CLAUDE.md improvement (Tier 1): Added STOP CONDITION 2 to pre-retro option
+  - Problem: stop condition only checked for "FINAL" status, not "recently updated"
+  - Fix: Added rule to skip pre-retro if updated in immediately prior session with no new data
+  - Evidence: S694 updated pre-retro with B23 data; S695 had nothing new to add
+- State file updated: S695, PR 15/15
+## Metrics Delta (S695)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 54 | 54 | 0 | Drain period |
@@ -38,7 +38,7 @@ PR Count Today: 14/15
 | BS Queue | 8 | 8 | 0 | Held — near-throttle, no new BS content |
 
 ## Active Framework
-Burst+drain cycle. Day 123. Burst 23 COMPLETE (12 X posts + 2 BS companions). X=12 (look-ahead), BS=8 (near-throttle). Pre-retro updated with B23 data. Week 18 retro Sunday April 26 in 3 days. S695 = continue drain monitoring or Tier 1 work.
+Burst+drain cycle. Day 123. Burst 23 COMPLETE (12 X posts + 2 BS companions). X=12 (look-ahead), BS=8 (near-throttle). Pre-retro updated with B23 data (S694, not FINAL). Week 18 retro Sunday April 26 in 3 days. S695 = CLAUDE.md improvement (pre-retro stop condition 2). Day limit reached (15/15).
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (123+ days overdue). CRITICAL.
@@ -46,19 +46,19 @@ Burst+drain cycle. Day 123. Burst 23 COMPLETE (12 X posts + 2 BS companions). X=
 - Premium escapes suppression → REJECTED (closed Week 15)
 
 ## Session Retrospective
-### What was planned vs what happened? (S694)
-- Planned: Dual near-limit blocked session. Pre-retro update for Sunday April 26 retro (B23 data to document).
-- Actual: Updated pre-retro with Burst 23 complete data (12 posts, pillar analysis, action items for retro). State file updated.
-- Delta: Executed as planned. Tier 1 Blocked Session Protocol applied correctly.
+### What was planned vs what happened? (S695)
+- Planned: Dual near-limit blocked session. S694 already updated pre-retro — needed other Tier 1 work.
+- Actual: CLAUDE.md improvement — added STOP CONDITION 2 to pre-retro option in Blocked Session Protocol.
+- Delta: Identified genuine gap. Pre-retro would have been re-updated at S695 with zero new data without this fix.
 
 ### What worked?
-- Pre-retro update clean execution: B23 pillar balance documented, action items updated for retro.
-- Queue discipline: X=12, BS=8 held unchanged — no content created on dual near-limit session.
-- Pre-retro doc now covers B16-B23 (all Week 18 bursts). Retro has complete data.
+- Identified recurring inefficiency: pre-retro STOP CONDITION only checked "FINAL" status, not "recently updated."
+- CLAUDE.md updated with STOP CONDITION 2 for pre-retro — prevents redundant consecutive-session updates.
+- Queue discipline: X=12, BS=8 held unchanged — no content on dual near-limit session.
 
 ### What to improve?
-- Burst 23 had P4 underweight (8% = only 1 post). Burst 24 must open with P4 first.
-- BIP rate combined ≈14-17%, still below 25% target. Burst 24 needs 3 BIP posts.
+- Burst 24 must open with P4 first (B23 P4 only 8%). Then BIP (2-3 posts). Then P2/P3.
+- Day limit reached (15/15). Tomorrow's first session opens fresh.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 123+ days overdue. #1 growth lever. No workaround.
@@ -71,6 +71,7 @@ Burst+drain cycle. Day 123. Burst 23 COMPLETE (12 X posts + 2 BS companions). X=
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-23 S695): Day 123. X=12, BS=8 (dual near-limit BLOCKED). CLAUDE.md: added pre-retro STOP CONDITION 2 (recently updated). PR 15/15.
 - (2026-04-23 S694): Day 123. X=12, BS=8 (dual near-limit BLOCKED). Pre-retro updated: B23 FINAL (12 posts, pillar analysis). PR 14/15.
 - (2026-04-23 S693): Day 123. X=10→12, BS=8 (held). Burst 23 extended. P1/SUSE-MCP + P3/voice-AI-$80B. PR 13/15.
 - (2026-04-23 S692): Day 123. X=8→10, BS=8 (held). Burst 23 CLOSED. P2/DTC-content-cost + P3/voice-AI-Medtronic. PR 12/15.
@@ -85,5 +86,4 @@ Burst+drain cycle. Day 123. Burst 23 COMPLETE (12 X posts + 2 BS companions). X=
 - (2026-04-23 S683): Day 123. X=4→6, BS=7→9. Burst 22 continues. P4/prod-agent-arch + P3/voice-AI-0.40-per-call. PR 3/15.
 - (2026-04-23 S682): Day 123. X=2→4, BS=5→7. Burst 22 continues. P2/AI-marketing-544pct-ROI + P1/Gartner-agentic-BIP. PR 2/15.
 - (2026-04-23 S681): Day 123. X=0→2, BS=3→5. Burst 22 started. P1/ServiceNow+GCloud + P3/voice-AI-cost-collapse. +1 follower. PR 1/15.
-- (2026-04-22 S680): Day 122. X=11, BS=8 (dual near-limit BLOCKED). Pre-retro updated with Burst 21 data. PR 15/15.
 - (earlier sessions condensed, see git history)
