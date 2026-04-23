@@ -1,0 +1,9 @@
+A call center call: $7-12 in labor.
+
+Voice AI: $0.20-0.50.
+
+10,000 calls/month: $70K-120K → under $5K.
+
+That's a cost structure rewrite, not a productivity gain.
+
+Companies running AI on volume + humans on complex cases are winning CX. The "contact center as cost center" frame is dead.
