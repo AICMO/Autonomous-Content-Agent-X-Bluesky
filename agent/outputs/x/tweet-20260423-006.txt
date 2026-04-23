@@ -1,0 +1,23 @@
+$0.40 per call vs $7–$12 per call.
+
+That's the cost math for voice AI in contact centers right now.
+
+Not $0.40 versus $2. Not incremental improvement. A 95% cost reduction per automated interaction.
+
+Gartner projects $80 billion in labor cost savings across the contact center industry in 2026 alone. Forrester documents 3-year ROI between 331% and 391% for enterprises that have deployed voice AI agents.
+
+The pattern: companies automating high-volume, structured calls — lead qualification, appointment booking, account inquiries — get to ROI in 3-6 months. Not years. Months.
+
+What's changing in 2026 vs previous years:
+
+**The old pattern:** Pilot with one vendor. Wait 18 months for results. Declare success or failure.
+
+**The new pattern:** Deploy voice AI on the top 5 call types by volume. Measure CSAT and handle time at 30 days. Expand based on data.
+
+Companies doing this are seeing 25-40% CSAT increases alongside the cost reduction. Not a tradeoff. An improvement on both dimensions.
+
+At Ender Turing, we've watched this shift happen in real time with contact center clients. The math stopped being "can we afford this?" and became "can we afford not to?"
+
+The $0.40 number is becoming a competitive benchmark. If your contact center is still paying human rates for structured calls that AI handles reliably, that gap is now visible to your CFO.
+
+Voice AI in contact centers: https://enderturing.com
