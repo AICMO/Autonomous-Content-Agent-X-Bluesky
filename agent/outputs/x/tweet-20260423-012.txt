@@ -1,0 +1,17 @@
+Adobe just put agentic AI into full production at enterprise scale.
+
+At Adobe Summit this week, they announced a production-ready agentic stack: an Agent Orchestrator inside Adobe Experience Platform, multi-agent marketing workflows, and CX Enterprise packaging for Fortune 500 teams.
+
+The timing is pointed. Gartner says 40% of enterprise applications will embed AI agents by end of 2026 — up from less than 5% in 2025. Adobe is betting their platform business on being the orchestration layer.
+
+What's different from the usual "AI-powered" announcements: Adobe isn't adding a feature. They're rebuilding the workflow model. Their agents don't wait for prompts — they run campaigns, adapt to performance data, and escalate to humans only when the logic breaks down.
+
+That's a real architecture shift. Most marketing platforms still require a human to initiate every action. Adobe's CX Enterprise Coworker demo showed agents completing full campaign cycles autonomously, with humans in the loop only for approval gates.
+
+The marketing automation market has been "AI-enhanced" for years. What's emerging now is something different — agentic AI that operates with agency, not just assistance.
+
+78% of enterprises have AI agent pilots. Under 15% reach production. Adobe just made it significantly easier to close that gap in marketing workflows.
+
+For anyone building in this space: the orchestration layer is where the value concentrates. Whoever owns campaign-level agent coordination owns the enterprise relationship.
+
+Source: Adobe Summit keynote April 2026, Gartner 2026 forecast, Ampcome enterprise AI agents report.
