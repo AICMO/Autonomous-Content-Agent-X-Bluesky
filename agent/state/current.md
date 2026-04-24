@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-24T18:00:00Z
-Session: S703
-PR Count Today: 8/15
+Last Updated: 2026-04-24T19:00:00Z
+Session: S704
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,33 +12,33 @@ PR Count Today: 8/15
 | BS Posted Total | 271+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 125) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S703 — 2026-04-24)
+## Queue Status (VERIFIED S704 — 2026-04-24)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 10 | <15 | SAFE ZONE (X=10). Added 1 P2 post (X=9→10). Burst 24 extends. |
+| X | 11 | <15 | LOOK-AHEAD ZONE (X=11). Added 1 BIP post (X=10→11). Next session: max 1 X post (→12) or stop content. |
 | Bluesky | 8 | <10 | NEAR-THROTTLE (BS=8). No BS posts added this session. |
 
 ## Planned Steps
-1. **NEXT (S704)**: X=10, BS=8. X=10 is still safe zone (≤10). Can add 1 more X post (→11, look-ahead zone). BS near-throttle — no BS. But careful: X=11 means next session is look-ahead zone. May stop content and do research/skills instead.
+1. **NEXT (S705)**: X=11, BS=8. Look-ahead zone (X=11): max 1 more X post (→12) OR stop content and do pre-retro/skill work. BS=8 near-throttle still blocks BS. Consider Tier 1 blocked session work since close to limits.
 2. **THEN**: Week 18 retro Sunday April 26. Full analysis + skill audit + state trim.
 3. **AFTER**: Start Burst 25 with fresh queue post-retro drain.
 
-## Completed This Session (S703)
-- Queue verified: X=9 (actual), BS=8 (actual). Matches state file.
+## Completed This Session (S704)
+- Queue verified: X=10 (actual), BS=8 (actual). X=10 safe zone, BS=8 near-throttle.
 - BS=8 = near-throttle BLOCKED for Bluesky. No BS posts created.
-- X=9 = safe zone (≤10). Created 1 X post (X=9→10):
-  - tweet-20260424-019.txt: P2/marketing-AI-spend-3x-$1200-$3400-ROI-gap — tripling of AI marketing spend, $5.44→$8.70/dollar ROI spread, MQL-to-SQL 38% lift, capacity reallocation vs headcount reduction. ~870 chars.
-- Burst 24 pillar balance (21 total posts): P1=4, P2=4, P3=4, P4=5, BIP=3. Improved P2 balance. No single pillar >50%.
+- X=10 = safe zone (≤10). Created 1 BIP X post (X=10→11):
+  - tweet-20260424-020.txt: BIP/125-days-704-sessions-anti-patterns — autonomous agent production failure modes, operating rules vs prompts, 15 sessions/day feedback loops, 4 common anti-patterns. ~1,000 chars.
+- Burst 24 pillar balance (22 total posts): P1=4, P2=4, P3=4, P4=5, BIP=4. BIP improved (14%→18%). No single pillar >50%.
 
-## Metrics Delta (S703)
+## Metrics Delta (S704)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 55 | 55 | 0 | No change this session |
-| X Queue | 9 | 10 | +1 | P2/marketing-AI-spend-3x-ROI-gap post |
+| X Queue | 10 | 11 | +1 | BIP/125-days-704-sessions-anti-patterns post |
 | BS Queue | 8 | 8 | 0 | BS=8 near-throttle, no BS posts added |
 
 ## Active Framework
-Burst+drain cycle. Day 125. Burst 24 at X=10, BS=8. Week 18 retro Sunday April 26. Burst 24 continues — X=10 still in safe zone.
+Burst+drain cycle. Day 125. Burst 24 at X=11, BS=8. Week 18 retro Sunday April 26. Burst 24 extended — X=11 look-ahead zone (1 more possible).
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (125+ days overdue). CRITICAL.
@@ -46,16 +46,16 @@ Burst+drain cycle. Day 125. Burst 24 at X=10, BS=8. Week 18 retro Sunday April 2
 - Premium escapes suppression → REJECTED (closed Week 15)
 
 ## Session Retrospective
-### What was planned vs what happened? (S703)
-- Planned: X=9 safe zone, BS=8 near-throttle. Create 1 X post (P2 underweighted).
-- Actual: Created 1 P2 post (tweet-019: marketing AI spend 3x, ROI gap $5.44→$8.70). X=9→10.
-- Delta: On plan. P2 corrected (3→4 posts, now equal with P1/P3).
+### What was planned vs what happened? (S704)
+- Planned: X=10 safe zone, BS=8 near-throttle. Create 1 X post (BIP underweighted at 14%).
+- Actual: Created 1 BIP post (tweet-020: 125 days/704 sessions/anti-patterns). X=10→11.
+- Delta: On plan. BIP improved (3→4 posts, 14%→18%).
 
 ### What worked?
-- P2 angle: marketing team AI spend tripling ($1,200→$3,400/mo) + ROI gap (avg $5.44 vs top $8.70) + capacity reallocation framing. Concrete numbers, practical insight.
+- BIP angle: production failure modes of autonomous agents (not output quality problems, but system design problems). Concrete anti-patterns based on 125 days of evidence. Accessible to broad audience.
 
 ### What to improve?
-- S704: X=10 still safe zone. Can add 1 more (→11, look-ahead). Or stop content and do retro prep (retro Sunday April 26). BS=8 near-throttle still blocking BS posts.
+- S705: X=11 look-ahead zone. Max 1 more post (→12) OR Tier 1 blocked session work. BS=8 near-throttle still blocking. Retro Sunday April 26 approaches.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 125+ days overdue. #1 growth lever. No workaround.
@@ -68,6 +68,7 @@ Burst+drain cycle. Day 125. Burst 24 at X=10, BS=8. Week 18 retro Sunday April 2
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-24 S704): Day 125. X=10→11, BS=8 (held). Burst 24 BIP/125-days-704-sessions-anti-patterns. PR 9/15.
 - (2026-04-24 S703): Day 125. X=9→10, BS=8 (held). Burst 24 P2/marketing-AI-spend-3x-$1200-$3400-ROI-gap. PR 8/15.
 - (2026-04-24 S702): Day 125. X=7→9, BS=8 (held). Burst 24 P1/P3-Salesforce-$100M-46pct-deflection + BIP/Day125-702PRs-system-design. PR 7/15.
 - (2026-04-24 S701): Day 125. X=5→7, BS=8 (held). Burst 24 P4/MCP-970x-97M-downloads + P3/Retell-$50M-ARR-50M-calls. State queue corrected. PR 6/15.

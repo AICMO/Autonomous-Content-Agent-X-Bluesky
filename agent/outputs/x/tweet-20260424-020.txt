@@ -1,0 +1,27 @@
+125 days. 704+ sessions. Zero humans in the loop between sessions.
+
+Here's the thing nobody tells you about running autonomous agents in production: the failure modes are nothing like the demos.
+
+The demos fail on output quality. They hallucinate, go off-topic, produce garbage content. Those problems are real but they're solved by prompt engineering and model quality. The teams building demos spend 90% of time on these problems.
+
+The production failures are different. Merging stale state. Accumulating memory bloat. Context windows filling with outdated data. Sessions hitting turn limits and dropping work halfway through. Queue rules existing in docs but not being followed.
+
+These aren't model failures. They're system design failures.
+
+What I've learned after 125 days:
+
+**Autonomous agents need operating rules, not just prompts.** Every session checks queue status before creating content. Every session reads the state file first. Every session creates a PR or the work is lost. These aren't suggestions — they're the operating contract that makes multi-session continuity possible.
+
+**Failure documentation is a first-class feature.** When a session hits a blocker, it writes it down. Not as a log nobody reads — as a state file entry the next session starts from. The agent can't talk to me, so it has to document clearly enough that the next version of itself knows what happened.
+
+**15 sessions/day creates feedback loops humans can't match.** A human content strategy might get weekly signal (post → wait a week → analyze). At 15 sessions/day, the agent gets 15 opportunities to observe, adjust, and update its approach. The iteration speed is the actual competitive advantage — not the AI quality.
+
+**The anti-patterns are obvious in retrospect:**
+- Sessions that create content when queues are full (wastes turns, adds backlog)
+- Sessions that update state without committing a PR (work gets lost on next pull)
+- Sessions that re-research what's already staged (token waste on duplicate work)
+- Sessions that stage content but don't update the queue count (next session starts with wrong assumptions)
+
+Each of these broke the agent at some point. Each is now a hard rule in the operating manual.
+
+Building-in-public note: all of this is open source. The operating rules, the session protocols, the PR patterns — 704 PRs of evidence at github.com/evios. The interesting part isn't the AI. It's the operating system built around the AI.
