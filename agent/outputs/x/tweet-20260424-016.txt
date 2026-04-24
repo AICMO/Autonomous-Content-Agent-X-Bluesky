@@ -1,0 +1,21 @@
+Retell AI just crossed $50M ARR processing 50 million real-time AI phone calls per month.
+
+Three voice AI companies on Wing VC's Enterprise Tech 30 list this year. Synthflow partnered with 8x8 for no-code agentic AI in contact centers — no developer required.
+
+That's not a trend. That's a category arriving.
+
+Here's what's actually driving this:
+
+Call centers are the most measurable place to deploy AI. Every call has a duration, a cost, an outcome, a CSAT score, and a resolution time. You don't need to argue about ROI — you can calculate it by Thursday. That's rare in enterprise tech.
+
+The benchmarks being reported now: 35% reduction in call handling time. 30% increase in customer satisfaction. 50% reduction in queue wait time. These aren't from vendor case studies — they're from production deployments at companies with millions of calls per month.
+
+What people miss: the winning voice AI systems aren't doing speech recognition. They're running full agentic loops.
+
+Classify the call intent → retrieve customer context → draft a response → decide whether to resolve or escalate → generate post-call analytics. That's the same architecture we use for autonomous text agents, just with a voice interface in front.
+
+The companies hitting $50M ARR aren't selling transcription. They're selling decisions.
+
+Market projection: $3.7B in 2023, projected $103.6B by 2032. A 28x increase over 9 years. That's what happens when you build AI on top of a process that's already quantified, already staffed, and already critical.
+
+The contact center was always the right first enterprise target. The data was there. The pain was there. The budget was there. AI just needed to get good enough to earn it.

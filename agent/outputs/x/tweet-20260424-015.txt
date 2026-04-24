@@ -1,0 +1,22 @@
+MCP went from zero to 97 million SDK downloads per month in 18 months.
+
+970x growth. 17,000+ active servers. Fortune 500 adoption at Amazon, Bloomberg, Block, Pinterest. Every major AI lab — Anthropic, OpenAI, Google, Microsoft, AWS — adopted within 13 months of launch.
+
+That's not a developer tool. That's infrastructure.
+
+Forrester says 30% of enterprise app vendors will ship their own MCP servers in 2026. Gartner puts enterprise agent adoption at 40% of applications by year end — up from under 5%.
+
+Here's what this actually means for anyone building agents right now:
+
+The protocol bottleneck is gone. For the last two years, the hardest part of enterprise agent deployment wasn't the model — it was getting the agent to talk to enterprise data without custom connectors for every single system. MCP solves that. It's ugly, it's verbose, but it works and now everyone supports it.
+
+Which means the bottleneck has shifted.
+
+It used to be: "How do agents access data?"
+Now it's: "How do you run agents reliably at scale?"
+
+That's a harder problem. Connectivity is table stakes. What's not solved is output consistency, cost containment, monitoring, ownership, and domain-specific quality. Those are the five things that separate the 14% of agent deployments that reach production from the 86% that stay in pilot.
+
+We've been running agents in production for 125 days. 2,025+ PRs. What we've learned: connectivity was the easy part. The protocol layer matters — but it only exposes the operational problems you haven't solved yet.
+
+If you're planning enterprise agent rollouts, don't let MCP adoption fool you into thinking the hard work is done. The hard work just got visible.
