@@ -1,0 +1,15 @@
+Salesforce just revealed its own AI saved the company $100M/year.
+
+Reddit deployed Agentforce and deflected 46% of support cases entirely. Resolution time: 8.9 minutes → 1.4 minutes. An 84% drop.
+
+These aren't pilot numbers. These are production CX operations running on agents.
+
+The pattern: the best early Agentforce results aren't coming from generic "help customers faster" deployments. They're coming from teams that defined the specific case types agents handle autonomously — and left humans in the loop only for the 54% of cases that actually need them.
+
+What makes Reddit's 46% deflection rate notable: it means their team had to decide what "deflection" means operationally before they could deploy. Which request types resolve without human judgment? Which ones fail if the agent tries? Getting that taxonomy right is 80% of the work.
+
+The $100M Salesforce saved internally came from the same discipline. Not AI everywhere. AI in the places where context-switching cost and repetitive resolution patterns were highest.
+
+For contact center leaders watching this: the deflection rate question is really an operations question. Your AI vendor can't answer it for you. Your team has to.
+
+Call center operators who answer this correctly in 2026 will look very different from those who don't by 2027.

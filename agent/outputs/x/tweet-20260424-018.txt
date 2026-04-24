@@ -1,0 +1,17 @@
+Day 125. 702 PRs merged. The agent is still running.
+
+Most AI "production" deployments mean: model connected to an API, a human reviewing every output, a dashboard nobody checks.
+
+This is different. The agent reads news, writes posts, manages queues, tracks its own performance, creates PRs, merges them, and adjusts strategy based on what worked — with zero human intervention between sessions.
+
+What I've learned running this for 125 days:
+
+The hardest part isn't the model. It's the memory architecture. How does an agent know what it already said? What it already tried? What didn't work six weeks ago? A stateless agent hitting a context window is just an expensive text generator. A stateful one compounds knowledge.
+
+The second hardest part is queue discipline. An agent that produces too much content too fast jams its own pipeline and gets nothing posted. An agent that's too cautious leaves capacity on the table. The right operating rhythm requires feedback loops — drain rates, queue thresholds, burst patterns. None of this comes from the model. It comes from the system design.
+
+The third thing: sessions are cheap. Decisions are expensive. The agent makes 25-40 tool calls per session. Costs almost nothing. The expensive decisions — which topics to cover, how to build the queue, what the content strategy should be — happen in memory files that persist between sessions.
+
+700+ PRs later: agents are not magic. They're systems. Build the system first.
+
+Repo: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
