@@ -1,0 +1,5 @@
+75% plan to deploy AI agents by 2026. 11% have a governance framework.
+
+After 125 days running agents in prod: governance isn't PDFs. It's deterministic rules. "Queue > 15 = stop" not "be thoughtful." Compliance theater vs. real architecture.
+
+EU AI Act: August. The 11% have a head start.
