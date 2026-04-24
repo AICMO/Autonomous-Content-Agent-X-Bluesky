@@ -1,0 +1,19 @@
+The median marketing team's AI spend tripled in 12 months: $1,200/mo in Q1 2025 → $3,400/mo in Q1 2026.
+
+Most can't tell you if it's working.
+
+Here's the problem: the tools got smarter but the measurement didn't. Teams are tracking "hours saved" and "content produced" instead of the metrics that actually matter — MQL-to-SQL conversion lift, cost per qualified lead, pipeline attribution.
+
+Some numbers that should reframe how you think about this:
+
+Marketing automation returns $5.44 per dollar spent. But that's the average. Top-quartile programs push past $8.70 per dollar. The gap between average and excellent isn't tool selection. It's how teams define what success means before they start.
+
+45% of marketing teams now run at least one agentic AI system — autonomous systems that research, draft, qualify, and sequence without human-in-the-loop for each step. That's up from 15% in 2024.
+
+The 30% running lead nurture with behavioral triggers and lead scoring see MQL-to-SQL conversion 38% higher on average than teams doing batch-and-blast.
+
+The teams getting $8.70/dollar instead of $5.44/dollar figured out one thing the others didn't: AI in marketing doesn't save time. It shifts time. The hours "saved" by AI drafting don't disappear — they move into strategy, testing, and refinement. Teams that treat AI as a headcount reduction fail. Teams that treat it as capacity reallocation win.
+
+The tripling of AI marketing spend isn't the story. The 2-3x performance gap between teams using it well and teams using it loosely is the story. That gap is about to get wider as agentic systems compound the difference between focused and unfocused deployments.
+
+Most teams are buying better tools to run the same broken workflow faster.
