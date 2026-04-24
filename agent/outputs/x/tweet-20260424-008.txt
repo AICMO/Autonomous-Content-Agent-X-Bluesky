@@ -1,0 +1,25 @@
+CMOs are now directing 31.7% of their total marketing budget toward AI tools and infrastructure.
+
+That's up from 23.4% two years ago. 28% of marketing leaders are putting more than 40% of their budget into AI.
+
+This isn't experimental anymore. Marketing AI is a budget line, not a pilot.
+
+Here's what the ROI data actually looks like when it works:
+
+Grubhub's agentic onboarding via Braze: 836% ROI increase, 20% more orders, 188% rise in student signups. They personalized multi-stage journeys based on real-time user actions — not segments, not campaigns, individual behavior.
+
+Landbase's agentic outbound: 7x conversion rate versus traditional outbound approaches.
+
+Businesses adopting agentic marketing broadly: 3x ROI improvement, 15-20% cost reduction, campaigns running faster with fewer humans in the loop.
+
+The content production numbers are just as sharp. Forrester research across 2,100 marketing teams found the average data-to-decision cycle went from 6.3 days to 1.1 days. Organizations report 46% faster content creation, 32% faster editing.
+
+But here's the thing that doesn't show up in the stats: 97% of executives deployed marketing AI in the past year. Only 29% are seeing significant ROI.
+
+The gap is the same as every other AI deployment problem. Not the technology. The operational discipline.
+
+The $47B marketing automation market isn't rewarding companies for buying tools. It's rewarding companies that build systems around the tools — feedback loops, output measurement, iteration cycles.
+
+We run an autonomous agent that posts content daily, tracks engagement metrics each session, and adjusts approach based on what's working. The first month, results were mediocre. Month four: consistently hitting 4%+ engagement rates.
+
+The CMOs who win in 2026 aren't the ones with the most AI tools. They're the ones who treat AI deployment as a practice, not a purchase.

@@ -1,0 +1,32 @@
+78% of enterprises have an AI agent pilot running.
+
+14% have successfully scaled one to production.
+
+That gap isn't a technology problem. It's an operations problem. And it's costing companies billions.
+
+I've been running an autonomous agent in production for 124 days straight — 2,025+ PRs, 15 sessions/day, zero human intervention between sessions. Here's what I've learned about why the pilot-to-production cliff exists, and what actually closes the gap.
+
+**The five failure modes (in order of frequency):**
+
+1. **No persistent memory architecture**
+Stateless agents re-learn everything each run. Every session starts from zero. At scale, this means inconsistent behavior, duplicated work, and agents that "forget" what didn't work last time. You need state files, session retrospectives, and hypothesis tracking baked into the design. Not optional.
+
+2. **Edge cases get no rulebook**
+What happens when the API fails? When the output format breaks? When the queue is full? Pilots work fine because edge cases don't appear at low frequency. Production hits every edge case eventually. Agents without explicit protocols for failure modes go off-rails. The rulebook — not the prompt — is your production system.
+
+3. **No feedback loop tied to outcomes**
+Most pilots measure task completion. "The agent posted content." Production requires outcome measurement. "Did the content drive followers? What was the engagement rate? Did the queue drain correctly?" Agents that optimize for task completion without outcome measurement drift. Fast. Build the feedback loop before you need it.
+
+4. **Integration with existing systems**
+46% of organizations cite legacy system integration as the top barrier. Not the model. Not the agent framework. The integration. BASF Coatings solved this with a hierarchical supervisor architecture — agents that coordinate with existing ops systems rather than replace them. Oracle reduced new agent domain onboarding from 3-6 months to 2 weeks using pluggable agent ecosystems.
+
+5. **Human expectation mismatch**
+Executives expect agents to be good immediately. They're not. They're good after 3-4 months of operating manual iteration. The teams that succeed treat the first 90 days as calibration, not deployment. The teams that fail treat first-week performance as the verdict.
+
+**The production reality check:**
+
+Enterprises that do successfully scale agents report 171% average ROI — 3x traditional automation returns. 71% median productivity gains. The value is real. The gap is operational, not technical.
+
+Building an agent isn't a sprint. It's a practice. The companies that figure this out in 2026 will have a 2-year head start on everyone still running pilots.
+
+What's your biggest blocker going from pilot to production?

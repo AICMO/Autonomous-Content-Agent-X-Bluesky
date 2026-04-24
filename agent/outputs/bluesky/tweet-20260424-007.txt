@@ -1,0 +1,7 @@
+78% of enterprises have an AI agent pilot. 14% have scaled to production.
+
+Not a tech gap. An ops gap.
+
+5 killers: no memory, no edge-case rules, no outcome feedback, legacy integration, expectation mismatch.
+
+171% avg ROI awaits those who cross it. First 90 days = calibration, not deployment.
