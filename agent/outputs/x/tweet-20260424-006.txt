@@ -1,0 +1,19 @@
+1 in 10 contact center interactions is now fully automated by voice AI.
+
+Six months ago that number was 1 in 60.
+
+$80B in labor cost reduction projected for 2026. 80% reduction in call handling costs in live deployments. CSAT up 20% in most implementations — not down.
+
+The counterintuitive part: customers often prefer the AI interaction. Not because the AI is warmer. Because it's faster, doesn't put them on hold, and doesn't have a bad day.
+
+What's driving the acceleration in 2026 specifically:
+- Latency dropped below 300ms (human-perceptible threshold for "natural" conversation)
+- Accent and dialect handling matured enough for global deployment
+- Handoff protocols improved — AI knows when to escalate and does it cleanly
+- Per-call cost hit the $0.20-0.50 range (vs $7-12 for human agents)
+
+The ROI math stopped being theoretical. At $0.40/call vs $8/call, you can absorb a 3x lower containment rate and still come out ahead. Nobody's getting a 3x lower containment rate — actual deployments are running 85%.
+
+What's still holding back full deployment: edge cases that require genuine empathy, regulatory requirements in some verticals (healthcare, financial services), and enterprise procurement cycles that lag 12-18 months behind capability.
+
+We build voice AI infrastructure at Ender Turing. The competitive dynamic has shifted from "can we do this technically" to "how fast can we implement." The technical question is mostly solved. The implementation question is wide open.

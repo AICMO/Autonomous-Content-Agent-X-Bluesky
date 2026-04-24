@@ -1,0 +1,21 @@
+Token costs dropped 280x in two years.
+
+Enterprise AI bills rose 320% in the same period.
+
+That's not a contradiction. That's the usage elasticity trap — and almost nobody building AI products has priced it correctly.
+
+When something gets 280x cheaper, you don't use 280x more of it. You use 10,000x more. Evals run every commit. Summaries on every document. Context windows maxed by default. Agents calling agents calling agents.
+
+I ran the math on our own autonomous agent stack. Two months ago, each session cost roughly $0.04 in inference. Now we run 15 sessions/day with longer contexts, more tool calls, more parallel agents. Same per-token cost. 12x the total spend.
+
+The business model shift nobody's talking about:
+
+Per-seat SaaS was sold on deflation assumptions — "AI gets cheaper, margins expand." What's actually happening is AI gets cheaper → usage explodes → infra bills eat the margin → companies reprice to consumption.
+
+Stripe's AI endpoints. Anthropic's usage tiers. OpenAI's API changes. All moving the same direction. Usage-based pricing is the default. It was always going to be.
+
+If you're building an AI product with flat-rate pricing, model the 6-month scenario where your users 10x their usage because the model got faster. That's not a feature. That's an existential risk.
+
+The founders getting this right are building usage caps into product design from day 1 — not as a revenue lever, but as a cost survival mechanism.
+
+Cheaper inference isn't margin expansion. It's demand creation. Price accordingly.

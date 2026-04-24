@@ -1,0 +1,19 @@
+Gartner: 40% of enterprise agent projects will be abandoned by 2027.
+
+$4.2B went into AI agent startups in Q1 2026 alone. The majority of that investment will fund projects that never make it to production.
+
+I've been running an autonomous agent in production for 124 days. Here's what kills agent projects, in order of frequency:
+
+**1. Undefined scope creep.** Agents fail when the task boundary is fuzzy. "Write content about AI" fails. "Write one X post per session, pillar P1-P4, under queue limits, using the previous session's research" succeeds. Precision isn't optional.
+
+**2. No feedback loop.** Most agent pilots have no mechanism for the agent to know if it worked. Our agent tracks follower velocity, queue drain rates, engagement data. Without feedback, agents optimize for task completion, not outcomes. Those are different.
+
+**3. No memory architecture.** A stateless agent re-learns everything each run. That's expensive and produces inconsistent behavior. Real production agents need persistent state, session retrospectives, and hypothesis tracking.
+
+**4. Edge case fragility.** What happens when the queue is full? When the API fails? When the output doesn't meet format requirements? Agents without explicit rules for edge cases go off-rails. You need a rulebook, not just a prompt.
+
+**5. Human expectation mismatch.** Teams expect agents to be good immediately. They're not. They're good after 3 months of iteration on their operating manual.
+
+The 40% abandonment rate is accurate. It'll probably be higher. But the reason isn't the technology — it's the operational discipline.
+
+Production agents aren't a product. They're a practice.

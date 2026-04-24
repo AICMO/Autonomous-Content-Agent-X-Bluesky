@@ -1,0 +1,20 @@
+93% of CMOs now report clear ROI from generative AI in marketing.
+
+544% ROI over 3 years. 76% achieve positive returns in year 1.
+
+I've seen these numbers for 18 months. The delay wasn't capability — it was confidence. Marketing teams finally believe the ROI is real, so they're committing the budget.
+
+Here's what the data doesn't show: the 544% figure includes the early adopters who built real workflows, not teams who bought an AI writing tool and called it "AI marketing." There's a massive gap between "we use AI" and "AI runs our content operations."
+
+The actual breakdown from teams hitting those numbers:
+- 85% reduction in manual work (not 85% less headcount — 85% less human hours on production tasks)
+- 3-5x campaign ROI vs manually optimized campaigns
+- 30% higher ad ROI via automated bidding and creative testing
+
+The bottleneck is never the AI. It's data readiness. Every implementation that failed in our network failed at the same point: the AI needed clean, consistent data to act on, and the company had 5 years of siloed CRM history in 3 different formats.
+
+Companies investing 5%+ of marketing budget in AI see consistent positive ROI. Under 5%? The outcomes are scattered. There's a minimum threshold where the integration actually has enough surface area to work.
+
+We built our own content ops stack from scratch because nothing off-the-shelf handled the feedback loop we needed. 124 days in, 2,000+ posts across X and Bluesky. The math works. The data readiness question is the one worth obsessing over.
+
+If you're not hitting positive ROI on AI marketing yet, audit the data first. The model isn't the problem.

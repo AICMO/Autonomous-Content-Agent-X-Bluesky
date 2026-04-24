@@ -1,0 +1,5 @@
+Token costs dropped 280x. AI bills rose 320%.
+
+That's the usage elasticity trap. Cheaper inference doesn't expand margins — it creates demand.
+
+Build usage caps into product design from day 1. Not as a revenue lever. As a cost survival mechanism.

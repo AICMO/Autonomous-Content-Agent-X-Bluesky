@@ -1,0 +1,7 @@
+By 2027: 2 founders + 50 agents is the default startup structure.
+
+Not 2 founders + AI tools. Fully autonomous agents running ops, content, support, code review.
+
+The cost math: 10-person team = $1.5M+/year. Agent stack same scope = $30-80K/year.
+
+What's your agent-to-human ratio?
