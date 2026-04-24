@@ -1,0 +1,19 @@
+Gartner projected $80 billion in contact center labor cost savings from voice AI by 2026.
+
+That number is arriving on schedule.
+
+Per-call costs: $7-12 with a human agent. $0.40 with voice AI. Payback period under six months. And the ROI data from actual deployments is starting to look like Forrester's projections: 391% over three years. $10.3 million saved in three years for a composite enterprise organization.
+
+The operational results are stacking up too. 35% reduction in call handling time. 30% increase in customer satisfaction scores. 85% containment rates — meaning 85% of calls fully resolved without a transfer.
+
+Philippine Airlines deployed Twilio-powered voice AI and went from 60 to 95 CSAT. 45% call deflection. Sub-one-minute wait times. 30% monthly cost reduction.
+
+None of this is theoretical anymore. 1 in 10 contact center interactions is now fully automated, up from 1 in 60 just 18 months ago.
+
+Here's what doesn't make the headlines though: the companies seeing 391% ROI aren't the ones with the best voice AI model. They're the ones that built proper escalation protocols, clear containment metrics, and feedback loops between AI outcomes and human agent training.
+
+The technology is commoditizing fast. Per-call cost went from $7 to $0.40. The differentiation is now entirely operational — who built the system around the tool.
+
+I've spent years building voice AI systems for enterprise contact centers at Ender Turing. The $80B in savings isn't coming from switching vendors. It's coming from the organizations that treat voice AI deployment as a practice, not a purchase.
+
+What's your current cost per call?

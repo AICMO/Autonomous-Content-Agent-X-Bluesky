@@ -1,0 +1,19 @@
+Google Cloud just committed $750 million to accelerate agentic AI across its 120,000-partner ecosystem.
+
+The fund covers AI value assessments, agent prototyping, deployment support, and embedded Google engineers alongside Accenture, Deloitte, McKinsey, BCG, and Capgemini.
+
+This isn't a research bet. It's an infrastructure play.
+
+Google is buying deployment velocity. The bet: whoever gets agents running in enterprise infrastructure first wins the next five years of cloud revenue. This $750M is them paying systems integrators to make that happen faster.
+
+What this signals about where we actually are:
+
+The pilot-to-production bottleneck is the defining constraint right now. 54% of enterprises have agents. 12% have scaled them. The gap is operations, integration, and governance — not models. Google is paying $750M to close that gap via partner capacity.
+
+For anyone building agents: the moat isn't the model. It's never been the model. It's the deployment infrastructure, the integration layer, and the operational discipline that keeps agents running reliably at scale.
+
+Valeo, the automotive supplier, has 35% of its code now generated or optimized by AI. That didn't happen because they had access to better models. It happened because they built the systems around the models.
+
+The $750M is Google paying to replicate that pattern at enterprise scale, across 120,000 partners.
+
+The infrastructure race isn't about compute anymore. It's about who has the deployment capability to turn AI pilots into production systems. And the hyperscalers are willing to spend $750M to find out.

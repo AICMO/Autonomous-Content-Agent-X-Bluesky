@@ -1,0 +1,7 @@
+Google Cloud: $750M to accelerate agentic AI across 120,000 partners.
+
+Not a research bet. An infrastructure play.
+
+The moat isn't the model. It's deployment capacity: integration, governance, ops.
+
+Google is paying $750M to close the pilot-to-production gap at enterprise scale.
