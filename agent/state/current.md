@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-25T10:00:00Z
-Session: S714
-PR Count Today: 4/15
+Last Updated: 2026-04-25T11:00:00Z
+Session: S715
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,30 +12,30 @@ PR Count Today: 4/15
 | BS Posted Total | 271+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 126) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S714 — 2026-04-25)
+## Queue Status (VERIFIED S715 — 2026-04-25)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | LOOK-AHEAD ZONE — B25 running. 10 pre-session + 2 new (P3/voice-AI-$80B-Gartner + BIP/S714-126days). Next session hold or max 1. |
-| Bluesky | 8 | <10 | NEAR-THROTTLE — No BS companions added. Hold until BS drains to <8. |
+| X | 12 | <15 | LOOK-AHEAD ZONE — B25 running. Dual near-limit with BS. Hold. |
+| Bluesky | 8 | <10 | NEAR-THROTTLE — Hold until BS drains to <8. |
 
 ## Planned Steps
-1. **NEXT (S715)**: X=12 (look-ahead zone), BS=8 (near-throttle). DUAL NEAR-LIMIT — Blocked Session Protocol. Tier 1 work: skill audit, pre-retro, or CLAUDE.md improvement.
+1. **NEXT (S716)**: X=12, BS=8 — dual near-limit. Blocked Session Protocol. Tier 1 exhausted (skills audited S715). Pre-retro FINAL (S706). Check if Tier 2 applies (memory/hypothesis audit).
 2. **THEN**: Week 18 retro Sunday April 26. Full analysis + skill audit + state trim. Pre-retro marked FINAL at S706 — retro ready.
 3. **AFTER**: B25 pillar coverage after retro — P1=3, P2=2, P3=3, P4=3, BIP=2, thread=1. Good balance. Target 1 more thread in B25 if X drains.
 
-## Completed This Session (S714)
-- Queue verified: X=10, BS=8 (matches S713 state).
-- Created 2 more X pieces for B25. BS held at 8 (near-throttle — no companions added).
-  - tweet-20260425-010: P3/call-center-AI-$80B-Gartner-$0.40-per-call-67pct-Fortune500
-  - tweet-20260425-011: BIP/S714-126days-714sessions-autonomous-content-ops
-- B25 X queue now at 12. Pillar balance: P1=3, P2=2, P3=3, P4=3, BIP=2, thread=1.
+## Completed This Session (S715)
+- Queue verified: X=12, BS=8 (dual near-limit — Blocked Session Protocol).
+- Skill audit: All 4 skills reviewed. One genuine finding → publishing skill updated.
+  - Added BS companion burst limit rule: During burst fill, keep BS ≤ 6 post-session.
+  - Evidence: B25 S711 created 5 BS companions → BS 3→8 → BS blocked entire remaining burst.
+  - This rule prevents the recurring pattern of BS near-throttle locking out BS for entire bursts.
 
-## Metrics Delta (S714)
+## Metrics Delta (S715)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 55 | 55 | 0 | No change this session |
-| X Queue | 10 | 12 | +2 | P3/voice-AI + BIP/S714 added |
-| BS Queue | 8 | 8 | 0 | No BS companions (near-throttle held) |
+| X Queue | 12 | 12 | 0 | Dual near-limit, no content created |
+| BS Queue | 8 | 8 | 0 | Near-throttle held |
 
 ## Active Framework
 Burst+drain cycle. Day 126. Burst 25 running. X=12 (look-ahead zone — hold next session), BS=8 (near-throttle — hold). Week 18 retro Sunday April 26.
@@ -46,18 +46,17 @@ Burst+drain cycle. Day 126. Burst 25 running. X=12 (look-ahead zone — hold nex
 - Premium escapes suppression → REJECTED (closed Week 15)
 
 ## Session Retrospective
-### What was planned vs what happened? (S714)
-- Planned: X=10, BS=8. X active zone, BS near-throttle. Create max 1-2 X pieces.
-- Actual: Created 2 X pieces (P3 + BIP). X=10→12. BS held at 8.
-- Delta: On plan. B25 balance improved. P3 now at 3 (was 2 — underweighted).
+### What was planned vs what happened? (S715)
+- Planned: Dual near-limit. Blocked Session Protocol Tier 1.
+- Actual: Skill audit completed. Found genuine BS burst companion gap in publishing skill. Updated with evidence.
+- Delta: On plan. Meaningful skill improvement made.
 
 ### What worked?
-- P3 post used Gartner $80B headline + $0.40/call vs $7-12/call spread — strong dollar-amount hook.
-- BIP post used S714/Day 126 milestone + specific operational details (queue discipline, pillar tracking).
-- Both posts follow anti-AI rules: varied sentence length, specific numbers, no banned patterns.
+- Skill audit found real gap (not forced). BS burst companion limit rule addresses recurring B24/B25 pattern.
+- Evidence-based: B25 S711 data confirmed the rule.
 
 ### What to improve?
-- S715: X=12, BS=8 — dual near-limit. Use Blocked Session Protocol Tier 1.
+- S716: Tier 1 exhausted (skills audited). Pre-retro FINAL. Check Tier 2 options.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 126+ days overdue. #1 growth lever. No workaround.
@@ -70,6 +69,7 @@ Burst+drain cycle. Day 126. Burst 25 running. X=12 (look-ahead zone — hold nex
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-25 S715): Day 126. X=12, BS=8 (dual near-limit). Skill audit: BS burst companion limit rule added to publishing skill. PR 5/15.
 - (2026-04-25 S714): Day 126. X=10→12, BS=8 (held). P3/voice-AI-$80B-Gartner + BIP/S714-126days. PR 4/15.
 - (2026-04-25 S713): Day 126. X=8→10, BS=8 (held). P2/marketing-ops-$47B-300pct-ROI + P4/FinOps-AI-model-routing-semantic-caching. PR 3/15.
 - (2026-04-25 S712): Day 126. X=6→8, BS=8 (held). P4/inference-cost-$7M-budget + P3/voice-AI-380pct-ROI deployment playbook. PR 2/15.
