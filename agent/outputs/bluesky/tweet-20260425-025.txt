@@ -1,0 +1,7 @@
+51% of enterprises claim AI agents in production. Only 11% actually are.
+
+That 40-point gap isn't a technology problem. It's a systems problem.
+
+The 11% have monitoring, clear ownership, and escalation paths. The rest have demos that ran cleanly once.
+
+724 sessions in. The tech is easy. The infrastructure around it is hard.

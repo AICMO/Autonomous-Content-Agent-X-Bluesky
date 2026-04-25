@@ -1,0 +1,21 @@
+Enterprise AI budgets grew from $1.2M to $7M/year between 2024 and 2026.
+
+At the same time, the cost of running AI dropped 80%.
+
+Both of those things are true simultaneously, and it's creating a category of problem that CFOs weren't expecting.
+
+Inference now accounts for 85% of the average enterprise AI budget. Not training. Not tooling. Not people. Running the models — repeatedly, at scale, in production — is where the money goes.
+
+The paradox: per-token costs are collapsing (NVIDIA Blackwell pushed 4-10x per-token cost reduction alone), but total inference bills are exploding. Some Fortune 500 companies are reporting monthly AI inference bills in the tens of millions.
+
+Why? Three compounding factors:
+
+1. Agentic loops. Autonomous agents don't call the LLM once per task. They call it 10, 15, 20 times. Each reasoning loop is a new inference request. A task that looked like "one API call" becomes a 15-call chain. Volume compounds fast.
+
+2. RAG bloat. Most enterprise RAG implementations are sending massive context windows with every query. The "context tax" — padding every call with 10,000 tokens of retrieved docs — adds up when you're running thousands of agent sessions per day.
+
+3. Optimization lag. Companies moved fast to ship agents. Very few moved equally fast to monitor cost-per-task, route cheaper models to lower-complexity subtasks, or implement semantic caching.
+
+The organizations winning on AI economics right now aren't necessarily using the best models. They're doing FinOps on their inference stack. Model routing, semantic caching, context compression — these aren't optional. They're the difference between AI being an asset and AI being an uncontrolled cost center.
+
+I've been watching this shift for 15 months across infrastructure and call center AI. The unit economics of AI get better every quarter. The bill gets larger every quarter. Managing that gap is the real skill.

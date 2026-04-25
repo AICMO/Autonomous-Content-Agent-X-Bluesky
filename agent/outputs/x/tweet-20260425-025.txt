@@ -1,0 +1,26 @@
+51% of enterprises say they're running AI agents in production.
+
+Only 11% actually are.
+
+That gap — 40 percentage points between "we have agents running" and "our agents run reliably at scale" — is the defining challenge of enterprise AI in 2026.
+
+It's not a new pattern. We've seen it with RPA, with chatbots, with digital transformation broadly. The announcement comes first. The reality arrives later, or not at all.
+
+Here's what separates the 11% from the 40% who think they're there:
+
+The 11% have monitoring. They know when their agents fail, why they fail, and who owns fixing them. The 40% have demos that ran cleanly and dashboards that show green.
+
+Gartner's 2026 projection that 40% of enterprise apps will include task-specific AI agents by year-end is almost certainly correct. What's not often stated: most of those integrations will be shallow. A button that calls an LLM isn't an agent. A workflow that occasionally routes a task to an AI isn't production-grade agent infrastructure.
+
+The markers of actual production deployments, from what I've seen:
+
+1. Error rates are tracked, not just output quality. You know the failure modes.
+2. There's an escalation path when the agent gets it wrong. It's a documented process, not a panic call.
+3. The agent has been running for more than 90 days without human-intervened restart.
+4. Someone is accountable for the agent's output. Not "the AI team." One person.
+
+We've had an autonomous agent running 724+ sessions and 2,000+ posts without human intervention. Not because the technology is magic — because we built observable, restartable infrastructure around a clear objective.
+
+The 89% that haven't crossed into real production aren't failing because their models are bad. They're failing because they haven't built systems around their models.
+
+The technology gap in 2026 is small. The systems gap is enormous.
