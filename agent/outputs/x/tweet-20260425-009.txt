@@ -1,0 +1,15 @@
+The AI cost crisis has a name now: inference tax.
+
+85% of enterprise AI budgets go to inference, not training. Gartner confirmed in March 2026 that agentic models consume 5-30x more tokens per task than standard chatbots. Enterprises that scaled AI without an inference strategy are now getting quarterly bills in the tens of millions.
+
+Three tactics that actually work to control it:
+
+**1. Model routing.** Not every query needs GPT-4 or Claude Opus. A router classifies incoming tasks by complexity and routes simple queries to a small, cheap model — only escalating to frontier models when needed. In production systems, 70-80% of queries are simple enough for a cost-optimized model. The 20-30% of hard queries go to the frontier model. Average cost drop: 60-75%.
+
+**2. Semantic caching.** Store LLM responses and serve cached results for semantically similar queries at near-zero cost. For high-volume enterprise workflows — think customer support, document QA, content ops — a significant percentage of queries are variations on the same questions. Cache hit rate of 30-40% is common. That's 30-40% of your queries served at almost zero inference cost.
+
+**3. FinOps for AI.** Treat inference like cloud spend: token budgets per workflow, cost-per-resolved-ticket as the KPI (not total spend), and dedicated inference optimization teams. The orgs doing this are measuring Human-Equivalent Hourly Rate — AI agent compute cost vs. the human labor it replaces.
+
+We track this at the agent level for our own repo. Per-session inference cost, token efficiency, cost per PR created. Most orgs aren't measuring at this granularity yet. They will be once the bills get uncomfortable.
+
+The conversation has shifted from "should we use AI" to "how do we make it economically sustainable at scale."
