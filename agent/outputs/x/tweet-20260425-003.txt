@@ -1,0 +1,17 @@
+Marketing automation now returns $5.44 for every dollar spent. Top quartile: $8.71.
+
+45% of marketing teams are running at least one agentic AI workflow in 2026, up from 15% two years ago.
+
+Those teams: 27% faster campaign build times. 19% lower cost per qualified lead.
+
+But the number that gets me is this: the broader AI-powered marketing automation market is $47 billion today, forecast to $81 billion by 2030.
+
+That's not a trend. That's a full structural rewrite of how marketing gets done.
+
+The teams losing ground aren't slow to adopt AI for content generation. They're slow to adopt it for workflow orchestration — the connective tissue between CRM, ads, email, and attribution.
+
+One agentic system that owns the full workflow outperforms three isolated AI tools every time. The model isn't what matters. The workflow ownership is what matters.
+
+MQL-to-SQL conversion for teams running agentic nurture: 38% higher than batch-and-blast email. Median lift. Not edge case.
+
+This is a craft problem disguised as a technology problem. Most teams have the tech. Few have thought hard enough about the workflow.

@@ -1,0 +1,21 @@
+Your call center agents cost $29-42/hour.
+
+AI voice agents cost $0.07-0.15/minute.
+
+That math should end the "is AI ready for contact centers" conversation permanently.
+
+Gartner's 2026 numbers:
+- $80 billion in labor cost savings from conversational AI by end of 2026
+- 1 in 10 agent interactions fully automated
+- 72% of call centers planning to increase AI investment this year
+- Companies running full AI automation: 20-30% higher CSAT, 30-45% lower ops costs in year one
+
+Healthcare deployments (Retell AI data): 80% reduction in call handling costs.
+
+I spent years building call center analytics systems. The unit economics are not close. They're not even in the same category.
+
+The companies still debating "whether" to deploy voice AI aren't running a technology evaluation. They're running a political negotiation — and every quarter they wait, they're paying the gap between $0.07 and $42 in pure margin erosion.
+
+The question isn't ROI. The ROI is 250%.
+
+The question is who owns the decision, and whether they're willing to be wrong about needing headcount.

@@ -1,0 +1,47 @@
+AI agents can now do your job. The Stanford 2026 AI Index proves it. So why isn't anyone deploying them?
+
+I've run an autonomous agent for 125 days. Here's what the benchmarks don't tell you:
+
+---
+
+Benchmark: Agents went from 12% → 66% on real computer tasks. WebArena web agents: 15% → 74%. Both within 5 points of human performance.
+
+Reality: Enterprise autonomous agent deployment is in the single digits across every business function.
+
+That gap is not a technology problem.
+
+---
+
+What's actually blocking production deployment (from 710+ sessions of running one):
+
+**1. Verification overhead exceeds delegation savings**
+
+Most managers don't trust what they can't spot-check. An agent that runs 50 tasks autonomously creates 50 things someone feels obligated to review. Until you've built the feedback loops to trust outputs without reviewing every step, you haven't actually delegated anything.
+
+**2. Agents break on exception paths**
+
+Happy-path benchmarks are high. Real workflows have edges. The 34% of tasks agents fail on aren't random — they cluster on ambiguous states, missing context, and unexpected inputs. Building robust exception handling takes longer than building the agent.
+
+**3. Org structure fights workflow ownership**
+
+An agent needs to own a workflow end-to-end to perform well. But workflows cross team boundaries. Who owns the agent that spans sales and CS? Nobody volunteers to give up their part of the process.
+
+**4. Governance is 11% while deployment is 75%**
+
+Three out of four companies deploying agents have no formal governance framework. That's fine until one agent makes one decision that affects a customer in a way nobody can explain. Then it's a legal problem.
+
+---
+
+The companies that will deploy agents at scale in 2026 aren't solving the AI problems.
+
+They're solving the org problems:
+- Clear workflow ownership
+- Exception-path training data
+- Audit trails and rollback capability
+- Governance before the fleet scales
+
+The model is ready. The org isn't.
+
+If you're building agent infrastructure, build the governance layer first. Everything else comes after.
+
+→ Building in public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

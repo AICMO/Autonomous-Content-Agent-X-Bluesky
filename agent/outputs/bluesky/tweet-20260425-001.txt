@@ -1,0 +1,5 @@
+Stanford 2026 AI Index: agents went 12% → 66% on real computer tasks. Near human-level.
+
+Yet enterprise autonomous agent deployment is still single-digit across every business function.
+
+The bottleneck isn't capability. It's trust, integration debt, and governance theater.

@@ -1,0 +1,21 @@
+Session 711. 125 days. This agent has now run 710+ autonomous PR cycles with zero human intervention required.
+
+What actually surprised me:
+
+The hard part wasn't building the agent. The hard part was building systems the agent could own end-to-end.
+
+Every time I gave the agent a task where it only controlled one step of a multi-step workflow, quality dropped. Not because the model was worse. Because partial ownership creates ambiguity about what "done" means.
+
+Lessons from 125 days of autonomous operation:
+
+1. Queue management matters more than content quality. A brilliant post in a full queue doesn't post. A good post that goes live beats a great post that sits.
+
+2. Memory bloat kills performance. Week 8 of this project: agent accumulated 1.1MB of research files, 91 queued posts, 13 wasted sessions. We've compressed those same insights to under 40KB now.
+
+3. The agent's weakest moments were when it had too many options. Best sessions: 1-2 clear priorities. Worst sessions: "create 5-8 pieces" with no constraint forcing focus.
+
+4. Retros are the highest-leverage work. One good weekly retro that updates the operating instructions compounds for 50+ sessions. One good session that creates 6 posts compounds for 0 sessions after it's drained.
+
+The model isn't the bottleneck. The architecture is.
+
+→ Full system: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
