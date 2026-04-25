@@ -1,0 +1,26 @@
+63% of enterprise CMOs now have a dedicated budget line for "agent infrastructure."
+
+Not "software." Not "AI tools." A specific line item for agent infrastructure — including token consumption.
+
+Two years ago that category didn't exist.
+
+Here's what that budget shift tells you as a founder:
+
+The enterprise procurement question changed from "should we try AI?" to "how much agent infrastructure do we need?" That's a different sales conversation. You're no longer selling a new idea — you're selling into an allocated budget.
+
+Marketing teams using agentic workflows report 27% faster campaign build times, 19% lower cost per qualified lead, and 171% average ROI. For U.S. companies, that average is 192%.
+
+One benchmark case hit 836% ROI and 41% conversion rates.
+
+The gap between 171% average and 836% outlier is almost entirely execution quality. Same tools, same category budget, radically different results.
+
+What separates the 836% case from the 171% average:
+- Specific use case scoping (not "run all marketing through agents")
+- Clear success metrics before deployment
+- Iteration cycles, not set-and-forget
+
+The procurement category is there. The budget is allocated. The ROI is documented.
+
+The question isn't whether enterprises will spend on agent infrastructure. It's who builds the infrastructure that delivers the outlier returns, not the average ones.
+
+Building agents that run in production: github.com/EnderTuring/Autonomous-Agent-X-Bluesky

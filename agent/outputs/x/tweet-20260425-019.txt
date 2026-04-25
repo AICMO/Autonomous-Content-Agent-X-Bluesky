@@ -1,0 +1,21 @@
+Q1 2026: $300B in venture funding. $242B of it went to AI.
+
+That's 80% of all global VC in one quarter going to a single category.
+
+OpenAI closed at $122B — post-money valuation: $852B. Anthropic raised $30B. xAI raised $20B.
+
+The number that actually matters for founders: seed-stage AI startups are now valued 42% higher than non-AI peers at the same stage.
+
+That's not a temporary premium. Investors are pricing in that AI infrastructure is a category, not a feature. "AI-native" is now a valuation input at the earliest possible funding stage.
+
+What this means for how you build:
+
+The framing matters. "Automation tool" and "agent infrastructure" are the same product described differently — but one fits into the $242B investment thesis and one doesn't. The market isn't just rewarding AI companies — it's rewarding companies that fit the capital narrative investors are already writing.
+
+The flip side: seed-stage AI companies are raising more on less proof than two years ago. Valuations up 42%, but the pressure to deliver production-scale outcomes is also higher. 54% of enterprises say they've integrated agents into core operations. Only 11% are at production scale.
+
+That gap between "integrated" and "production scale" is where most AI companies will fail or win.
+
+The funding is real. The pressure is real. Build things that cross the production threshold.
+
+$852B post-money OpenAI. Median Series B: $143M. Choose where you want to be in that stack.
