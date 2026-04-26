@@ -238,7 +238,9 @@ Evidence (2026-03-27/28): Sessions S276-S295 created 13 pieces in 2 sessions. Qu
 
 **BS companion limit during burst fill (Critical):** During burst fill sessions, do NOT create BS companions freely. BS drains at ~2-3/day vs X at ~12/day. If you create 5-6 X posts with BS companions in one burst session, BS can jump from ≤3 to ≥8 (near-throttle), blocking BS for the ENTIRE remaining burst. **Rule: During burst fill, limit BS companions so BS queue stays ≤ 6 after the session.** This leaves 2 BS slots (6→8) for the next 1-2 burst continuation sessions before hitting near-throttle.
 
-Evidence: B25 S711 created 6 X posts + 5 BS companions in one session → BS went 3→8 → BS blocked for all S712-S714+ (entire remaining burst). B24 had same pattern. At ~2-3/day BS drain, filling BS to 8 in session 1 = 3-4 days before BS capacity returns. Net loss: 3+ BS companion opportunities across the burst.
+Evidence (negative): B25 S711 created 6 X posts + 5 BS companions in one session → BS went 3→8 → BS blocked for all S712-S714+ (entire remaining burst). B24 had same pattern. At ~2-3/day BS drain, filling BS to 8 in session 1 = 3-4 days before BS capacity returns. Net loss: 3+ BS companion opportunities across the burst.
+
+Evidence (positive): B26 S727 created 6 X posts + 3 BS companions → BS went 3→6. BS held at 6 for S728-S732 (5 sessions). Zero BS blocking in entire burst. The ≤6 rule prevented the B25 failure mode.
 
 ### Session Allocation
 **< 100 followers:** 70% engagement, 30% content creation. Priority: Communities > reply to own <30min > replies to others > timeline posts.
