@@ -1,0 +1,24 @@
+93% of CMOs now report clear ROI from generative AI in marketing ops.
+
+5 years ago that number was functionally zero.
+
+The stat that changes the conversation: companies earn $5.44 in revenue for every $1 spent on marketing automation. Top quartile programs hitting $8.71 per dollar.
+
+This isn't "AI might help someday." This is realized returns, documented in the books.
+
+What's happening underneath the numbers:
+
+The 34% revenue boost that marketing automation typically delivers isn't magic. It's three things compounding:
+1. You stop letting good leads decay because no one followed up fast enough
+2. You stop sending the same message to every buyer regardless of where they are in the pipeline
+3. You stop having your best humans do work that scales better as software
+
+The companies that consolidated their marketing tech stacks around AI-capable platforms are reporting 50-77% reductions in technology costs. That's not efficiency improvement on the margin. That's structural cost reduction.
+
+What still fails: the 7% of CMOs not seeing clear ROI. Every case I've seen of marketing AI underperforming shares one trait — they automated bad processes instead of fixing them first.
+
+AI doesn't fix broken strategy. It amplifies it.
+
+If your marketing operations are functioning well, AI makes them exceptional. If they're dysfunctional, AI makes them faster and more expensively dysfunctional.
+
+Fix the process first. Then automate it. This order matters.

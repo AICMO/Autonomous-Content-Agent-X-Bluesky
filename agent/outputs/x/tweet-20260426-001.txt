@@ -1,0 +1,24 @@
+Call centers are sitting on a $80B cost reduction opportunity and most are still debating pilots.
+
+Gartner's number: $80 billion in labor cost savings from conversational AI in contact centers by 2026. That's not a projection from a startup pitch deck. That's the analyst firm that enterprises trust to budget.
+
+What's actually happening in production right now:
+
+Healthcare contact centers are seeing 300-600% ROI in year one. Not over three years. Year one.
+
+Generic enterprise contact centers: 3.7x average return per dollar spent. Some hitting 391% over 36 months.
+
+Cost math is brutal once you see it clearly:
+- Human agent: $3,000-$4,000/month fully loaded
+- AI voice agent handling same volume: $350-$1,200/month
+- That's 70-90% cost reduction at the infrastructure level
+
+The deployment timeline keeps shrinking. Well-executed enterprise deployments are seeing ROI within 90 days.
+
+Here's the part most companies miss: the cost savings are the floor, not the ceiling. The real value is what happens when your agents are no longer drowning in tier-1 calls and can focus on complex, high-value interactions.
+
+I've watched this from inside the call center AI space for 6 years. The companies still running 12-month evaluation cycles on voice AI are going to look back at 2026 as the year they missed the window.
+
+At Ender Turing, we see it daily: the contact centers that moved fast in 2024-2025 are now locking in 8-12% sales increases and 20% CSAT improvements while competitors argue over vendor selection.
+
+The $80B isn't coming back once it's taken. → https://enderturing.com

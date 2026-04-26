@@ -1,0 +1,20 @@
+The startup that treats AI inference as a fixed cost is building on sand.
+
+AI inference pricing dropped 95% in 18 months. What cost $20 per million tokens in 2023 costs under $1 now. The companies that locked into per-seat SaaS contracts for AI capabilities are watching commodity pricing eat their margins.
+
+This is the AI economics story nobody wants to write because it makes the incumbents look bad.
+
+The actual math for a founder building AI-native products right now:
+
+Inference costs are now cheap enough that the bottleneck has shifted from "can we afford to run this?" to "can we build the right architecture to use it well?"
+
+That's a fundamentally different problem. And a much better one to have.
+
+The winners aren't optimizing for the cheapest model. They're optimizing for the right model at the right latency for the right task. A $7M/year inference budget sounds terrifying until you realize it's replacing $40M in headcount doing tier-1 cognitive work.
+
+Three things I'd tell any founder building on AI right now:
+1. Never price your product on today's inference costs. Assume they'll halve again by the time you scale.
+2. Model routing matters more than model selection. Using GPT-4-class for simple classification tasks is burning money.
+3. Governance and audit trails are the actual moat. The model is commodity. The governance layer is not.
+
+The infrastructure cost curve is your friend. Build the business around it.
