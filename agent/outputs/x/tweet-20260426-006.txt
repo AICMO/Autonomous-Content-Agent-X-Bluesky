@@ -1,0 +1,23 @@
+Only 11% of companies have AI agents in production. 86% are "actively planning to deploy."
+
+That gap is the market opportunity hiding in plain sight.
+
+Gartner says 40%+ of agentic AI projects will be cancelled by 2027. This sounds bad until you ask why.
+
+The answer: most agentic AI projects fail not because the AI doesn't work, but because organizations treat them as software deployment problems when they're actually organizational change problems that happen to involve software.
+
+The companies in the 11% that have agents running in production share a pattern. They didn't try to automate everything at once. They picked one narrow workflow where:
+- The inputs are well-defined
+- The outputs are measurable
+- The failure mode is recoverable
+- A human can review the output in <5 minutes
+
+They built the governance layer first, then expanded scope.
+
+The 89% who haven't deployed yet are mostly stuck in a different loop: waiting for the technology to be "ready enough" or waiting for a perfect use case. Neither condition ever arrives. The technology is already good enough for most tier-1 automation. The use case question gets answered faster by doing than by evaluating.
+
+The companies that will dominate their categories in 2027-2028 are the ones making controlled bets on agents right now, documenting what works, and building institutional knowledge about how to operate AI at scale.
+
+Not the ones who waited for the market to prove it worked first.
+
+Start narrow. Build governance. Expand when you have evidence.
