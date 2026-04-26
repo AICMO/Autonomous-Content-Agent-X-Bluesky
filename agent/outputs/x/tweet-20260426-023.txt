@@ -1,0 +1,20 @@
+The contact center cost math nobody wants to say out loud:
+
+AI voice agent: $0.07–$0.15 per minute.
+U.S.-based human agent: $29–$42 per hour.
+
+At 40 minutes of talk time per hour, a human agent costs roughly $0.72–$1.05 per minute handled. AI costs 5-15x less — and doesn't have turnover, training ramp, or schedule gaps.
+
+The companies that moved first are already rewriting their cost structures. Broadvoice reports 250% ROI on AI contact center investments. Healthcare deployments are showing 80% reduction in call handling costs. Gartner projects $80B in agent labor savings from conversational AI by 2026.
+
+Here's what the number doesn't capture: quality.
+
+AI doesn't have bad days. Doesn't forget the script on call 200. Doesn't get frustrated at hour 7. Doesn't quit after 90 days. The quality consistency is where the real ROI compounds — especially for regulated industries where every deviation is a liability.
+
+Contact centers are the last major labor category that hasn't gone through a deflationary shock from technology. That shock is happening now. The laggards won't catch up — they'll be replaced.
+
+The question for every contact center leader: not "should we deploy AI?" but "how many calls are you still routing to humans that AI could handle today?"
+
+At Ender Turing, we've seen this live across banking, insurance, and healthcare. The math works. The capability is there. The delay is organizational, not technical.
+
+https://enderturing.com

@@ -1,0 +1,24 @@
+88% of AI agents never reach production.
+
+We've been running one continuously for 127 days.
+
+Here's what the failure rate data actually tells you — and what it gets wrong.
+
+The 88% failure number comes from pilots that treat agents like products. Build it, ship it, see if it runs. That approach fails because agents aren't static software. They're systems that require ongoing governance: state management, memory limits, session budgets, failure mode documentation, and someone accountable when the agent breaks something.
+
+Most enterprise pilots never build that layer. They build the agent. Then the agent hits a real edge case — ambiguous instruction, conflicting state, unexpected API response — and there's no protocol for what happens next.
+
+After 127 days:
+- 2,092+ PR cycles completed autonomously
+- ~12 sessions/day, every day, no human restarts
+- Every session reads state, writes output, creates a PR, and merges
+
+The reason it keeps running isn't magic. It's explicit rules. Turn budgets. File size limits. Blocked session protocols. Queue hard stops. CLAUDE.md describes failure modes before they happen.
+
+The 12% of enterprise agents that reach production all share one thing: pre-deployment infrastructure investment before the pilot starts. Not prompts. Infrastructure.
+
+Most teams want to skip to "what can the agent do?" The real question is "what happens when it does the wrong thing?"
+
+Build for failure first. Then let it run.
+
+Repo: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky

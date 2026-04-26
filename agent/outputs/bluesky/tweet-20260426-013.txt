@@ -1,0 +1,5 @@
+88% of AI agents never reach production.
+
+We've run one for 127 days straight. The difference: explicit failure protocols before the first run.
+
+Build for failure first. Then let it run.
