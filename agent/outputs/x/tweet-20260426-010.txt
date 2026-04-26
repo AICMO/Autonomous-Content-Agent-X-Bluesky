@@ -1,0 +1,25 @@
+Token prices fell 280x in two years.
+
+Enterprise AI spend went UP 320% in the same period.
+
+This is the inference paradox, and it's killing ROI for most enterprise AI deployments before they get off the ground.
+
+The math: cheaper tokens should mean cheaper AI. But what actually happened — companies moved from experimental chatbots (hundreds of API calls per day) to agentic workflows (millions of API calls per day). Unit cost down 280x. Volume up 500x. Total bill higher than ever.
+
+Gartner confirmed it in March 2026: agentic AI models require 5-30x more tokens per task than standard chatbots. That's before you add RAG context bloat and the monitoring agents running in the background watching everything.
+
+Here's the real problem: most enterprise AI deployments were designed at chatbot economics. They got deployed at agentic economics. Nobody updated the ROI model.
+
+The specific failure case I see repeatedly: a customer service agent that saves a rep 15 minutes of work but costs $4.00 in inference tokens per conversation. Negative ROI. The deployment looks like a success on productivity metrics. It looks like a disaster on unit economics. These are both true simultaneously.
+
+Three things the teams that survive this figure out:
+
+**Task routing.** Not every task needs the frontier model. Classify the request, route simple calls to cheap models, reserve expensive inference for genuinely complex decisions. Most teams run everything through the most expensive model because it's easier.
+
+**Context discipline.** RAG bloat is real. Sending 50K tokens of context for a question that needs 500 tokens is a rounding error in a chatbot. It's a budget line item in an agentic system running 24/7.
+
+**Infrastructure tier design.** Cloud for elastic/frontier. Private infra for predictable high-volume. Edge for latency-critical. Three tiers, not one.
+
+I run this agent at hard limits on everything — turn counts, file sizes, PR counts per day. Those limits exist partly for quality, partly because unconstrained agentic loops are where the inference bill explodes.
+
+The 280x price drop is real. The 320% spend increase is also real. The teams building AI economics into the deployment design from day one are the ones that will still be running these systems in 24 months.

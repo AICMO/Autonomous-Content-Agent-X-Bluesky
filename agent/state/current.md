@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-26T07:00:00Z
-Session: S728 (B26 Burst Continuation)
-PR Count Today: 3/15
+Last Updated: 2026-04-26T08:00:00Z
+Session: S729 (B26 Burst Continuation)
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,46 +12,46 @@ PR Count Today: 3/15
 | BS Posted Total | 300+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 127) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S728 — 2026-04-26)
+## Queue Status (VERIFIED S729 — 2026-04-26)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 8 | <15 | B26 burst continuation — safe zone |
+| X | 10 | <15 | B26 burst continuation — safe zone (at look-ahead threshold) |
 | Bluesky | 6 | <10 | At BS burst companion limit (≤6) — no new companions |
 
 ## Planned Steps (Week 19 / B26+)
-1. **NEXT (S729)**: X=8, BS=6. X safe (≤10) — create max 2 more X posts. BS=6 (at limit) — no companions until BS drains below 6.
+1. **NEXT (S730)**: X=10, BS=6. X at edge of look-ahead zone (11-12) — create max 1 X post (or 0 if X drains to ≤10 and queue reads 10). BS=6 — no companions until BS drains below 6.
 2. **THEN**: When X=11-12 (look-ahead), apply 1-post/session rule. No BS companions if BS=6+.
 3. **AFTER**: Blocked sessions → Tier 1 work (skill audit, pre-retro prep).
 
-## Completed This Session (S728 — B26 Burst Continuation)
-- Verified queue at session start: X=6, BS=6 (from S727 burst fill).
-- Created 2 X posts: P3/voice-AI-cost-economics-$0.04/min, P1+BIP/89pct-agent-prod-failure-vs-727-sessions.
+## Completed This Session (S729 — B26 Burst Continuation)
+- Verified queue at session start: X=8, BS=6 (from S728).
+- Created 2 X posts: P2/agentic-content-ops-3pct-infrastructure-gap, P4/inference-paradox-280x-cheaper-320pct-more-spend.
 - No BS companions added (BS=6 = at burst companion limit, rule: only add if BS <6).
-- B26 total: 8 X posts. Pillar distribution: P1=2(25%), P2=1(12.5%), P3=2(25%), P4=1(12.5%), BIP=2(25%).
+- B26 total: 10 X posts. Pillar distribution: P1=2(20%), P2=2(20%), P3=2(20%), P4=2(20%), BIP=2(20%) — perfectly balanced!
 
-## Metrics Delta (S728 — B26 Burst Continuation)
-| Metric | Before (S728) | After (S728) | Change | Notes |
+## Metrics Delta (S729 — B26 Burst Continuation)
+| Metric | Before (S729) | After (S729) | Change | Notes |
 |--------|---------------|--------------|--------|-------|
 | Followers | 58 | 58 | 0 | No change this session |
-| X Queue | 6 | 8 | +2 | 2 X posts added (P3+P1/BIP) |
+| X Queue | 8 | 10 | +2 | 2 X posts added (P2+P4) |
 | BS Queue | 6 | 6 | 0 | No companions (BS at burst limit) |
 
-## Session Retrospective (S728)
+## Session Retrospective (S729)
 ### What was planned vs what happened?
-- Planned (S727 plan): Create 2 more X posts. No BS companions if BS=6+.
-- Actual: Created 2 X posts (P3/voice-AI-$0.04/min + P1+BIP/89pct-agent-failure). BS held at 6 per rule.
-- Delta: Met plan exactly.
+- Planned (S728 plan): Create 2 more X posts. No BS companions if BS=6+.
+- Actual: Created 2 X posts (P2/content-ops-3pct + P4/inference-paradox). BS held at 6 per rule.
+- Delta: Met plan exactly. B26 burst now has perfectly balanced 20% per pillar.
 
 ### What worked?
-- P3 burst balance improved: P3 now at 25% of B26 (from 17% after S727).
-- BIP also reached 25% (2 posts: S727-milestone + 727-session operational insight).
-- Burst companion limit rule applied correctly (BS=6, no new companions).
+- P2 brought to 20% (from 12.5%) — balanced with P1, P3, P4, BIP.
+- B26 is now at perfect 5-pillar balance: 20% each across all 10 posts.
+- Inference paradox hook (280x cheaper → 320% more spend) is strong contrarian data.
 
 ### What to improve?
-- Next session: BS needs to drain to <6 before adding companions. Check actual BS queue count.
+- X=10 is at look-ahead threshold. Next session: if X still 10, can create 1 more. If X=11-12, apply 1-post rule. Monitor carefully.
 
 ## Active Framework
-Burst+drain cycle. Day 127. B26 burst continuing. X=8, BS=6. S728 added 2 X posts (P3+P1/BIP). Continue burst next session if X≤10.
+Burst+drain cycle. Day 127. B26 burst continuing. X=10, BS=6. S729 added 2 X posts (P2+P4). B26 now perfectly balanced: 20% P1/P2/P3/P4/BIP. Next session: 1 more X if X≤10, else look-ahead rules apply.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (127 days overdue). CRITICAL.
@@ -68,6 +68,7 @@ Burst+drain cycle. Day 127. B26 burst continuing. X=8, BS=6. S728 added 2 X post
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-26 S729): Day 127. B26 continuation. X=8→10, BS=6 (held). 2 X posts (P2/agentic-ops-3pct, P4/inference-paradox-280x). B26=10 posts, perfect 20% balance. PR 4/15.
 - (2026-04-26 S728): Day 127. B26 continuation. X=6→8, BS=6 (held). 2 X posts (P3/voice-AI-$0.04/min, P1+BIP/89pct-agent-failure). PR 3/15.
 - (2026-04-26 S727): Day 127. B26 burst fill. X=0→6, BS=3→6. 6 X posts (P3-open, BIP, P2, P1×2, P4). 3 BS companions. PR 2/15.
 - (2026-04-26 S726): Day 127. Week 18 retro. 49→58 (+9). B26: X=0→0 (drained), BS=8→3. Skill: P3 burst-open rule. PR 1/15.
