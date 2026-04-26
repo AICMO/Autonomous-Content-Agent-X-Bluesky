@@ -1,0 +1,17 @@
+The ROI story on enterprise AI just flipped.
+
+For 3 years, everyone measured AI success by productivity — time saved, tasks automated, headcount not hired.
+
+That just changed. Direct financial impact (revenue growth + margin improvement) nearly doubled to 21.7% of primary ROI metrics in 2026. Productivity gains collapsed 5.8 percentage points as the leading success metric.
+
+Why this matters for founders: the "we're saving 10 hours/week" pitch is dead. CFOs now want "we grew revenue by X%" or "we cut margin cost by Y%."
+
+The companies getting AI budget increases (86% of respondents) are the ones connecting AI capabilities directly to the P&L — not the productivity deck.
+
+What changed? Enterprises moved from experimentation to execution. Agentic systems went mainstream. When AI is in production at scale, productivity becomes table stakes. Revenue impact is the only metric that survives board review.
+
+Practical signal: If your AI pitch still leads with time savings and headcount reduction, you're selling last year's value prop. Rebrand around margin expansion and revenue lift.
+
+The evaluation criteria shifted. Align your positioning or lose the deal.
+
+#AI #EnterpriseSales #AIStrategy #StartupFounders
