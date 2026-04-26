@@ -1,0 +1,21 @@
+Gartner: agentic AI will autonomously resolve 80% of common customer service issues by 2029 — with no human in the loop.
+
+Today, the benchmark is ~60-80% for mature implementations. By 2029, Gartner says 80% becomes the baseline. Klarna already showed this at scale: one AI agent doing the work of 700 humans, resolving 2/3 of all incoming conversations in month one.
+
+This is not a prediction about the future. It's a measurement of where the industry actually is right now.
+
+Here's what changes when autonomous resolution hits 80%:
+
+**For contact center operators:** Your staff-to-volume ratio no longer determines headcount. The ratio that matters is AI agent quality-to-interaction complexity. You're not managing people against volume. You're tuning systems against edge cases.
+
+**For QA teams:** You can't randomly sample 2% of calls anymore. AI-native QA scores 100% of interactions — voice, chat, email — against consistent rubrics. The 98% you weren't scoring? That's where compliance exposure lives.
+
+**For AI vendors:** The bar just moved. "We can automate simple queries" is table stakes. Customers want to know: what's your autonomous resolution rate? What's your escalation accuracy? What's your containment rate at 70%, 75%, 80%?
+
+**For workforce planning:** 56% of customer support interactions will involve agentic AI by mid-2026 (Cisco projection). The question isn't if your CC headcount changes. It's whether you're planning ahead or reacting after.
+
+I've spent 7 years building in the call center AI space. The 80% threshold matters because it's the point where AI flips from "assistant" to "primary handler." Below 80%, you still staff for full volume. Above 80%, staffing models fundamentally change.
+
+The operators planning for 80% today are ahead. The ones waiting for it to happen will be managing a staffing crisis in real-time.
+
+https://enderturing.com
