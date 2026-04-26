@@ -1,0 +1,23 @@
+Voice AI in call centers costs $0.02 to $0.05 per minute to run.
+
+A human agent in a BPO costs $8 to $15 per hour when you factor in training, benefits, attrition, and floor management.
+
+The math isn't complicated. $0.04/min vs $0.20/min for a 3-minute call. That's an 80% cost reduction on handle time alone — before you account for 24/7 coverage, zero training overhead, and no call volume spikes.
+
+Here's the piece most CX leaders miss when they run these numbers: the 90-day payback window.
+
+Most well-executed enterprise voice AI deployments hit ROI in 90 days or less. That's not a vendor pitch. That's what the deployment data shows when you have clear use-case targeting, proper integration, and a feedback loop built in from day one.
+
+What separates the 30% CSAT increase deployments from the ones that fail quietly:
+
+1. They don't try to replace everything — they pick 3-5 high-volume, low-complexity call types and automate those first. Routine status checks, appointment reminders, payment confirmations.
+
+2. They build quality evaluation into the loop — not just containment rate, but conversation quality scoring. An AI that handles 70% of calls but tanks satisfaction in the process isn't winning.
+
+3. They keep a human escalation path that actually works. Seamless handoff matters more than the AI itself.
+
+I've spent 6 years building conversation AI for contact centers. The technology is ready. The gap is almost always in deployment design, not model capability.
+
+The contact centers running voice AI at scale right now are not the ones that have the best AI. They're the ones that designed the deployment right from the start.
+
+$0.04/min changes the cost structure of customer service permanently. The question for 2026 isn't whether to deploy — it's how fast you can get the design right.
