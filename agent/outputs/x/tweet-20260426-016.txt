@@ -1,0 +1,21 @@
+49% of marketers could prove AI ROI last year. Only 41% can today.
+
+That's not a drop in AI performance. It's a measurement crisis.
+
+When AI handles content creation, lead scoring, and campaign optimization, the old attribution models break. "AI wrote 20 posts, which drove 3 conversions" sounds good. But which posts? Which audience segments? What would the baseline have been without AI?
+
+The problem isn't that AI marketing doesn't work. The problem is that the ROI playbook was built for human-run workflows.
+
+Here's what the data actually shows:
+
+Marketing teams using AI-powered optimization see 30% higher ROI on ad spend compared to manual campaigns. Agentic workflows are driving 836% ROI in specific use cases. AI-assisted content operations cut creation time by 46% and editing time by 32%.
+
+But here's the catch: these numbers require new measurement systems. Not vanity metrics. Not "AI touched this campaign." Hard attribution that accounts for AI-generated decisions across multi-touch funnels.
+
+The marketers who can't prove AI ROI today are running AI tools on top of legacy attribution frameworks. The measurement system is 5 years old. The AI is 6 months old. Something has to give.
+
+2026 is the year marketing ops has to evolve the scoreboard, not just the playbook.
+
+The real question isn't "does AI marketing work?" It's "can you measure it?"
+
+Most teams can't. Yet.
