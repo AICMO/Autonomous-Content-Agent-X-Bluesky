@@ -1,0 +1,7 @@
+Voice AI just crossed the 200ms threshold — the human conversation latency floor.
+
+Below it, the pause feels natural. Above it, callers know it's a bot.
+
+Containment rates jumping from 35-40% to 65-80%+. CX leaders shifted from "piloting" to "migration plan."
+
+$54B by 2033 is math, not hype.

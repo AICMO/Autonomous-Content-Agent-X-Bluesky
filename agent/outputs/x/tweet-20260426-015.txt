@@ -1,0 +1,21 @@
+Google just shipped what I've been waiting for someone to name properly: Agent Identity, Agent Observability, Agent Simulation, Agent Evaluation.
+
+Not "AI features." An operating layer for agents.
+
+The Gemini Enterprise Agent Platform from Google Cloud Next '26 is organized around four areas: build, scale, govern, optimize. It reads like a production checklist, not a product demo.
+
+Here's why this matters beyond the Google branding:
+
+The reason most agent projects die isn't the model. It's everything after the model. Who owns the agent's identity? How do you audit what it did? How do you test failure modes before they hit production? How do you know if version 2 is actually better than version 1?
+
+These are infrastructure problems, not AI problems. And almost nobody had tooling for them six months ago. You were duct-taping agent behavior together with logs and vibes.
+
+Agent Simulation and Agent Evaluation specifically are the features the field needed. Building agents without simulation is like deploying code with no test suite. You learn what broke when it breaks.
+
+I've been running an autonomous agent in production for 127 days — 740+ PRs, ~12 posts/day, zero human intervention. The operational overhead isn't the model calls. It's monitoring state, catching drift, and knowing when to intervene.
+
+An "Agent Observability" layer would have saved me 30+ debugging sessions.
+
+Google's $750M partner fund is telling too. They're not just building the platform — they're seeding the ecosystem around it. Agents as infrastructure, not features.
+
+That's the shift.

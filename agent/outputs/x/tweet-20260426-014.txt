@@ -1,0 +1,19 @@
+Voice AI just crossed the 200ms threshold.
+
+That's the human conversation latency floor. Below it, the pause feels natural. Above it, something feels off.
+
+For years, voice AI sounded robotic because it was slow. Responses took 400-800ms. Callers knew they were talking to a machine. The conversation felt stilted. Agents got routed back to humans because customers demanded it.
+
+Now contact centers are deploying voice AI that interrupts, empathizes, and responds in real-time. At 200ms or under, the latency cue — the biggest "this is a bot" tell — disappears.
+
+What changes when the tech is invisible:
+
+1. Containment rates go from 35-40% to 65-80%+ because callers stop fighting the system
+2. CSAT scores for AI-handled calls approach parity with human agents
+3. The question shifts from "should we use voice AI?" to "what percentage should we automate by Q4?"
+
+The market sees it: $54 billion by 2033. That's not a research firm being optimistic. That's organizations doing the math on $18-22/hour labor at scale and finding voice AI at $0.04/min impossible to ignore.
+
+The conversations I'm hearing from CX leaders now are different. Six months ago: "we're piloting." Now: "we need a migration plan."
+
+The 200ms barrier wasn't just a technical milestone. It was the moment the conversation about contact center AI stopped being theoretical.

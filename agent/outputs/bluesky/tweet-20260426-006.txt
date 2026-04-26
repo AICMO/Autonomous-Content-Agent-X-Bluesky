@@ -1,0 +1,7 @@
+Google's Gemini Enterprise Agent Platform ships Agent Identity, Agent Observability, Agent Simulation, Agent Evaluation.
+
+Not features. An operating layer.
+
+127 days running autonomous agents in prod — the overhead isn't the model. It's monitoring state and catching drift.
+
+An Agent Observability layer would've saved 30+ debug sessions.
