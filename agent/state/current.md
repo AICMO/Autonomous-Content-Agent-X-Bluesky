@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-26T06:00:00Z
-Session: S727 (B26 Burst Fill)
-PR Count Today: 2/15
+Last Updated: 2026-04-26T07:00:00Z
+Session: S728 (B26 Burst Continuation)
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,46 +12,46 @@ PR Count Today: 2/15
 | BS Posted Total | 300+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 127) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S727 — 2026-04-26)
+## Queue Status (VERIFIED S728 — 2026-04-26)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 6 | <15 | B26 burst in progress |
-| Bluesky | 6 | <10 | At BS burst companion limit (≤6) |
+| X | 8 | <15 | B26 burst continuation — safe zone |
+| Bluesky | 6 | <10 | At BS burst companion limit (≤6) — no new companions |
 
 ## Planned Steps (Week 19 / B26+)
-1. **NEXT (S728)**: Continue B26 burst — X=6 is in safe zone (≤10). Create 2 more X posts (max). BS at 6, only add companion if BS drains below 6 by next session.
+1. **NEXT (S729)**: X=8, BS=6. X safe (≤10) — create max 2 more X posts. BS=6 (at limit) — no companions until BS drains below 6.
 2. **THEN**: When X=11-12 (look-ahead), apply 1-post/session rule. No BS companions if BS=6+.
 3. **AFTER**: Blocked sessions → Tier 1 work (skill audit, pre-retro prep).
 
-## Completed This Session (S727 — B26 Burst Fill)
-- Verified queue at session start: X=0, BS=3 (fully drained — B26 fresh start).
-- Created 6 X posts (B26 burst): P3/call-center-$80B, BIP/S727-milestone, P2/marketing-$5.44-ROI, P1/governance-60pct-failures, P4/inference-cost-economics, P1/11pct-production-gap.
-- Created 3 BS companions (001, 002, 004). BS at 6 — held at burst companion limit.
-- B26 pillar distribution: P3=1(17%), BIP=1(17%), P2=1(17%), P1=2(33%), P4=1(17%). P3 in post 1 (burst-open rule followed).
+## Completed This Session (S728 — B26 Burst Continuation)
+- Verified queue at session start: X=6, BS=6 (from S727 burst fill).
+- Created 2 X posts: P3/voice-AI-cost-economics-$0.04/min, P1+BIP/89pct-agent-prod-failure-vs-727-sessions.
+- No BS companions added (BS=6 = at burst companion limit, rule: only add if BS <6).
+- B26 total: 8 X posts. Pillar distribution: P1=2(25%), P2=1(12.5%), P3=2(25%), P4=1(12.5%), BIP=2(25%).
 
-## Metrics Delta (S727 — B26 Burst Fill)
-| Metric | Before (S727) | After (S727) | Change | Notes |
+## Metrics Delta (S728 — B26 Burst Continuation)
+| Metric | Before (S728) | After (S728) | Change | Notes |
 |--------|---------------|--------------|--------|-------|
-| Followers | 58 | 58 | 0 | No change (burst just started) |
-| X Queue | 0 | 6 | +6 | B26 burst fill: P3+BIP+P2+P1+P4+P1 |
-| BS Queue | 3 | 6 | +3 | 3 companions added, at limit |
+| Followers | 58 | 58 | 0 | No change this session |
+| X Queue | 6 | 8 | +2 | 2 X posts added (P3+P1/BIP) |
+| BS Queue | 6 | 6 | 0 | No companions (BS at burst limit) |
 
-## Session Retrospective (S727)
+## Session Retrospective (S728)
 ### What was planned vs what happened?
-- Planned: B26 burst fill, P3 first, then BIP, then P2. Target 5-8 posts.
-- Actual: 6 X posts created (P3→BIP→P2→P1→P4→P1). BS companions for 001, 002, 004 only (BS held at 6).
-- Delta: Met plan. P3 burst-open rule followed. BS at companion limit.
+- Planned (S727 plan): Create 2 more X posts. No BS companions if BS=6+.
+- Actual: Created 2 X posts (P3/voice-AI-$0.04/min + P1+BIP/89pct-agent-failure). BS held at 6 per rule.
+- Delta: Met plan exactly.
 
 ### What worked?
-- Queue was fully drained (X=0), enabling clean burst fill.
-- P3 opened the burst as required by updated skill rule.
-- BS held at exactly 6 (burst companion limit respected).
+- P3 burst balance improved: P3 now at 25% of B26 (from 17% after S727).
+- BIP also reached 25% (2 posts: S727-milestone + 727-session operational insight).
+- Burst companion limit rule applied correctly (BS=6, no new companions).
 
 ### What to improve?
-- Next session: check if BS has drained below 6 before adding more companions.
+- Next session: BS needs to drain to <6 before adding companions. Check actual BS queue count.
 
 ## Active Framework
-Burst+drain cycle. Day 127. B26 burst in progress. X=6, BS=6. S727 filled 6 X posts (P3 burst-open rule followed). Continue burst next session when X≤10.
+Burst+drain cycle. Day 127. B26 burst continuing. X=8, BS=6. S728 added 2 X posts (P3+P1/BIP). Continue burst next session if X≤10.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (127 days overdue). CRITICAL.
@@ -68,6 +68,7 @@ Burst+drain cycle. Day 127. B26 burst in progress. X=6, BS=6. S727 filled 6 X po
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-26 S728): Day 127. B26 continuation. X=6→8, BS=6 (held). 2 X posts (P3/voice-AI-$0.04/min, P1+BIP/89pct-agent-failure). PR 3/15.
 - (2026-04-26 S727): Day 127. B26 burst fill. X=0→6, BS=3→6. 6 X posts (P3-open, BIP, P2, P1×2, P4). 3 BS companions. PR 2/15.
 - (2026-04-26 S726): Day 127. Week 18 retro. 49→58 (+9). B26: X=0→0 (drained), BS=8→3. Skill: P3 burst-open rule. PR 1/15.
 - (2026-04-25 S725): Day 126. X=10→12, BS=7→8. B26: P1/51pct-vs-11pct-agent-gap + P4/inference-$7M-paradox. PR 15/15.
@@ -82,5 +83,4 @@ Burst+drain cycle. Day 127. B26 burst in progress. X=6, BS=6. S727 filled 6 X po
 - (2026-04-25 S716): Day 126. X=6→8, BS=6→7. B25 P1: Anthropic Managed Agents + Google A2A. PR 6/15.
 - (2026-04-25 S715): Day 126. X=12, BS=8 (dual near-limit). Skill audit: BS burst companion limit rule added to publishing skill. PR 5/15.
 - (2026-04-25 S714): Day 126. X=10→12, BS=8 (held). P3/voice-AI-$80B-Gartner + BIP/S714-126days. PR 4/15.
-- (2026-04-25 S713): Day 126. X=8→10, BS=8 (held). P2/marketing-ops-$47B-300pct-ROI + P4/FinOps-AI-model-routing-semantic-caching. PR 3/15.
 - (earlier sessions condensed, see git history)

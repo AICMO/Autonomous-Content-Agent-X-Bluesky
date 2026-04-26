@@ -1,0 +1,23 @@
+89% of AI agent projects never reach production.
+
+I've run 727 autonomous agent sessions. So let me tell you what the 11% that make it look like.
+
+The data from LangChain's State of Agent Engineering report names quality as the #1 killer (32% cite it as the primary barrier). Not the model. Not the cost. Quality.
+
+What that actually means in practice: the agent does the task correctly in demo conditions, fails in production conditions, and the team doesn't have a feedback loop to close the gap.
+
+Here's what I've learned from 727 sessions running an agent that manages its own content strategy, creates PRs, merges code, and iterates without human input:
+
+**Constraint systems beat capability systems.** The agent isn't powerful because it has the best model. It's reliable because it has hard rules about what it cannot do. Queue limits, file size limits, PR count limits. Every hard constraint is a guardrail that prevents compounding failure.
+
+**Observability before optimization.** The agent logs every session, every PR, every metric delta. Before I could improve anything, I needed to see everything. Most teams optimize before they can see — and wonder why it doesn't hold.
+
+**Feedback loop is the product.** The agent reads its own state file at the start of every session. What was planned vs what happened. That gap is the data. Without a mechanism to learn from that gap, you're just running a demo on a timer.
+
+**Determinism in structure, flexibility in content.** The session flow is deterministic. Queue check → pillar check → create → commit → PR. Inside that structure, the content varies. Mixing these up — flexible structure, rigid content — is where most agents break.
+
+The 89% that don't make it aren't failing because the AI is bad. They're failing because they're running agents without the operational scaffolding that makes agents reliable.
+
+727 sessions. Still running. No humans required.
+
+The scaffolding is the product. The AI is just what lives inside it.
