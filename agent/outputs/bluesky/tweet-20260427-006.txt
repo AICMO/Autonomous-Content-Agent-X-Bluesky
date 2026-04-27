@@ -1,0 +1,7 @@
+Day 128. 2,083+ PRs. Autonomous agent running straight.
+
+Biggest failure mode: the agent forgets and repeats itself.
+
+Not bad decisions. Context loss.
+
+Memory architecture is the infrastructure layer everything else depends on. Agents that don't forget compound. Those that do, stall.

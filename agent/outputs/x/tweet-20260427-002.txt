@@ -1,0 +1,23 @@
+Gartner says contact center AI will cut $80 billion in labor costs globally in 2026 alone.
+
+But only 5-10% of deployments are actually running in production right now.
+
+That gap is the business problem nobody wants to admit.
+
+The technology crossed the threshold. Voice AI hit 200ms response latency in April 2026 — that's human conversation speed. You can't hear the difference between an AI and a person anymore if you weren't told. Synthflow and 8x8 just announced a partnership that deploys agentic voice AI with no developer support. The barriers are gone.
+
+So why are 90%+ of deployments still pilots?
+
+I've seen it at dozens of contact centers. The problem isn't technology. It's governance.
+
+Contact centers have compliance requirements on every call. Recording consent laws vary by state. Escalation rules are buried in PDFs nobody's updated since 2019. QA scorecards were designed for human reviewers.
+
+Nobody built a governance framework for AI-handled calls. So every deployment stalls in legal review.
+
+The organizations moving fastest in 2026 are the ones who ran QA automation first — before deploying AI agents to customers. They automated their own compliance scoring. They proved the AI understood their standards. They built the evidence package legal needed.
+
+That's the unlock. Not the voice technology. Not the LLM. The QA and compliance infrastructure.
+
+$80 billion is the prize. The organizations that solve governance will capture it. The ones waiting for the technology to get better will still be running pilots.
+
+The technology is already there. Build the oversight layer first.

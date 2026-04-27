@@ -1,0 +1,25 @@
+95% of enterprise marketers use AI in their workflows.
+
+Only one-third have scaled it beyond isolated experiments.
+
+That 67% gap is where $47 billion in marketing AI spend is going to die in the next 18 months.
+
+The data on what's actually working in 2026:
+
+Content creation with AI: 86% adoption. Makes sense — low stakes, high volume, easy to measure. You generate 10 variations, pick the best one, see what performs. Feedback loop is fast.
+
+Analytics, reporting, attribution: highest ROI, lowest adoption. Because this requires connecting your AI tools to your actual data. Which requires integrations. Which requires IT. Which requires budget justification. Which requires a roadmap. Which requires a manager who understands both marketing and data architecture.
+
+That's why most AI adoption stalls at content creation and never reaches the decisions.
+
+The teams I've watched break through the ceiling have one thing in common: they started with a single measurement pipeline before expanding AI tools. Not a grand transformation. One pipeline that fed AI outputs back into a dashboard their CFO could read.
+
+Then they ran that for 90 days and showed the ROI report.
+
+Then they got budget for the next thing.
+
+Content AI gets the headlines. Operations AI gets the results. The difference is feedback loops — not technology, not budget, not executive buy-in.
+
+You can't optimize what you can't measure. And if your AI experiments aren't connected to outcomes, they stay experiments indefinitely.
+
+85% reduction in manual work means nothing if you can't show the 3-5x ROI. Build the measurement layer first.

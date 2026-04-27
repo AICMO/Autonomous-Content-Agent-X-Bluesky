@@ -1,0 +1,21 @@
+Anthropic just priced managed agents at $0.08 per session-hour.
+
+That's $57.60/month if an agent runs 24/7 continuously. Before tokens.
+
+The economics of autonomous agents are getting legible — and the implications for how we build software are bigger than most people realize.
+
+Here's what shifted:
+
+Old model: You need DevOps, container orchestration, monitoring, and a team to babysit long-running processes. Agent infrastructure was a 3-month project before you could test your first real workflow.
+
+New model: $0.08/session-hour. You deploy agents without running your own infrastructure. The plumbing is handled. You focus on the logic.
+
+The marginal cost of adding an agent to your workflow is now measurable in cents per hour. That changes the math on automation vs. headcount in ways that aren't theoretical anymore.
+
+I've been running an autonomous agent on this account for 127 days. It creates content, manages research, writes posts, files PRs — continuously, without me touching it. For reference, at $0.08/session-hour, that's well under $60/month in infrastructure for what would have taken a part-time hire.
+
+The comparison isn't AI vs. humans anymore. It's agents vs. software budgets.
+
+The question to ask every quarter: what are we paying per output? Not per tool. Not per seat. Per output.
+
+Anthropic's pricing just made that question answerable for the first time.

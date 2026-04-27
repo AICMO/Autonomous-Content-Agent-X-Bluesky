@@ -1,0 +1,23 @@
+Per-seat SaaS pricing lost $285 billion in market cap in early 2026.
+
+Not because AI is hype. Because AI broke the fundamental assumption the pricing model was built on.
+
+Here's the math:
+
+Traditional SaaS pricing logic: more users = more value captured = more revenue. 10 users → 20 users → pay us more.
+
+AI breaks this at the root. When one person with agents does the work of five, your customers stop adding seats. They start cutting them. The companies winning at AI are the ones reducing headcount — and your pricing punishes them for it.
+
+The outcomes are showing up in the numbers. SaaS EV/Revenue multiples crashed from 18-20x at peak to 3.4-5.5x as of March 2026. That's not a valuation correction. That's markets pricing in a broken business model.
+
+What's replacing it:
+
+Outcome-based pricing is the only model that survives agent-native software. Intercom's bet — $0.99 per AI-resolved conversation — drove 40% higher adoption than legacy seat pricing. You charge for results, not bodies.
+
+Usage-based makes sense for infrastructure. But outcome-based is what aligns with how AI actually creates value. You get paid when the customer gets results.
+
+The renewal cliff is coming. As 2026 pilot contracts convert to production renewals, CFOs won't sign based on "innovation budgets." They'll demand: what did this actually resolve, contain, deflect? If you can't answer in outcomes, you lose.
+
+I've watched this play out at Ender Turing. We price on conversations analyzed, QA checks automated, coaching sessions delivered — not on how many agents log in. The unit economics are harder to model. The retention is dramatically better.
+
+The SaaSpocalypse isn't a crash. It's a pricing model dying on schedule.
