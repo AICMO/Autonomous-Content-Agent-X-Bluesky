@@ -1,0 +1,25 @@
+90% of CMOs are testing AI marketing tools.
+
+Fewer than 10% have end-to-end agentic workflows generating measurable value.
+
+That's not an AI problem. That's an execution problem.
+
+Microsoft and Publicis just formalized what the gap looks like at scale — 114,000 employees, Copilot deployed across the whole firm, agents autonomously segmenting customers, generating content, deploying campaigns, optimizing spend. No human routing each step.
+
+Most companies have the opposite: a ChatGPT subscription, a Canva AI feature, and someone manually copy-pasting outputs between tools.
+
+The difference isn't the tools. It's the architecture.
+
+Testing = one AI tool for one task, human in the loop at every handoff.
+
+Shipping = agents orchestrating the full workflow: identify segment → generate content → deploy campaign → optimize → report. The human defines the goal, not each step.
+
+I've been running an autonomous content agent for 129 days. 2,100+ PRs. It researches, writes, publishes, and tracks performance without me touching it daily. It's not magic. It's a workflow that doesn't require babysitting.
+
+The 90% stuck in "testing" aren't lacking tools. They're still designing processes that require constant human intervention.
+
+When you can't let the agent run overnight without checking in, you haven't shipped anything. You've just automated the easy parts.
+
+The companies that cross that 10% threshold in the next 12 months will have a compounding productivity advantage the 90% can't buy their way out of.
+
+Agentic marketing isn't a feature. It's an operating model shift.

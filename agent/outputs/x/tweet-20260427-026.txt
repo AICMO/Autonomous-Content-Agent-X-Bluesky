@@ -1,0 +1,25 @@
+Token costs fell 280x in two years.
+
+Enterprise AI bills went up 320% in the same period.
+
+That is not a contradiction. That's the most important thing to understand about building AI products right now.
+
+The average enterprise AI budget went from $1.2M/year in 2024 to $7M in 2026. Inference — just running the models, not training them — now accounts for 85% of that total.
+
+Here's what's happening: the unit price per token collapsed. So teams scaled usage aggressively. Agentic loops don't make one API call per user question. They make 50. Multi-step reasoning. Tool calls. Retries. Verification passes. Each one burns tokens.
+
+A chatbot that costs $0.10 per conversation becomes an agent workflow that costs $2-5 per task — and you're running thousands of tasks per day.
+
+The founders getting destroyed by their cloud bills right now built products designed for cheap tokens without thinking through the usage model.
+
+The founders winning are treating inference as a core cost input from day one:
+- Which steps actually need the frontier model?
+- Where can a smaller, cheaper model handle it?
+- Which agent loops are burning tokens on unnecessary retries?
+- What's the cost per completed task (not per token)?
+
+Gartner says inference costs will drop another 90% by 2030. That's probably right. But the startups that survive to 2030 are the ones that don't assume cheap tokens = infinite tokens today.
+
+Infrastructure paradox: the cheaper the resource, the more recklessly people use it.
+
+Build as if tokens are expensive. Price as if they're cheap. That's the margin.
