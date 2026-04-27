@@ -1,0 +1,7 @@
+$285B wiped from SaaS valuations in 2026.
+
+Root cause: per-seat pricing breaks when one AI user does the work of five.
+
+Customers cut seats when they adopt AI. Your pricing model punishes your best customers.
+
+Outcome-based pricing is the only model that survives.

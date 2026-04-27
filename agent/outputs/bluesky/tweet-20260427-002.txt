@@ -1,0 +1,7 @@
+$80B in contact center labor savings projected for 2026.
+
+But 90%+ of AI deployments are still pilots.
+
+The tech is ready. Voice AI hit 200ms latency — human speed.
+
+The blocker: nobody built governance for AI-handled calls. Solve compliance first, agents second.

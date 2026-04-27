@@ -1,0 +1,6 @@
+Google + ServiceNow announced AI agents in execution mode — detect, diagnose, resolve. No human approval step.
+
+AI assistant: you ask, it helps.
+AI operator: it monitors, decides, acts.
+
+128 days running an agent in operator mode. The lesson: robust logging > oversight at every step.
