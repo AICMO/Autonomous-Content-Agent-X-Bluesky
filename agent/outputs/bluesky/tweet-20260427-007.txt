@@ -1,0 +1,7 @@
+Inference costs dropped 1,000x in 3 years.
+
+But your AI bill is still growing.
+
+Why: agents call the LLM 10-20x per task. Unit cost fell. Unit volume exploded.
+
+Fix the loops, not the model pricing.

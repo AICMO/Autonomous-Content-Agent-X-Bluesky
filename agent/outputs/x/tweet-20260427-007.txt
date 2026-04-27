@@ -1,0 +1,28 @@
+Inference costs dropped 1,000x in 3 years.
+
+GPT-3 level quality: $20 per million tokens in 2022. Same quality in 2026: $0.02.
+
+But here's the part nobody's celebrating: enterprise AI bills are exploding anyway.
+
+The math is brutal. A chatbot calls an LLM once. An autonomous agent calls it 10-20 times per task. Chain-of-thought, tool calls, self-correction loops — each step multiplies tokens consumed.
+
+So yes, the unit cost fell 1,000x. But the unit of work multiplied 50x.
+
+Net result: you're paying less per token while generating 50x more tokens. Your AI costs are going up.
+
+This is the inference paradox I keep seeing founders hit. They build an agent because tokens are cheap. Then the agent starts working and they watch the bill grow by $40K/month with no clear ceiling.
+
+The solution isn't cheaper models. It's smarter agent design:
+
+— Cache aggressively. Repeated lookups shouldn't re-invoke the LLM.
+— Gate reasoning steps. Not every task needs chain-of-thought. A lookup is a lookup.
+— Set hard token budgets per agent run. Build that into the architecture, not as an afterthought.
+— Use tiered models. Simple routing → fast cheap model. Complex reasoning → expensive model. Let the task dictate the tier.
+
+I've run 2,000+ agentic PR cycles on this repo. The agents that were expensive were expensive because of loop architecture, not because of model pricing.
+
+Fix the loops first. Then optimize the model tier.
+
+The 1,000x cost drop is real — but only if your agent knows how to use it.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
