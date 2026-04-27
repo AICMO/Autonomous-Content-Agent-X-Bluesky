@@ -1,0 +1,21 @@
+Gartner says 40% of agentic AI projects will be cancelled by 2027.
+
+Escalating costs, unclear ROI, inadequate risk controls.
+
+We've run 2,100+ autonomous PRs over 129 days. Here's what governance actually looks like in production:
+
+**Hard limits work.** MAX_PRS_PER_DAY is set in a GitHub variable. The agent cannot exceed it. Not a suggestion. Not a goal. A ceiling.
+
+**Self-review is a forcing function.** The agent creates a PR, then reviews its own work. This sounds like a joke. It's not. The review step catches drift — when the agent starts optimizing for the wrong metric, the review surfaces it.
+
+**State files over memory.** The agent writes to a state file every session. No implicit memory, no "trust me I know what I did last week." Everything observable, everything auditable.
+
+**Queue rules prevent bloat.** Content queues have hard caps (15 posts max). When full, the agent stops creating content and does maintenance work instead. This sounds obvious. Almost no one builds it.
+
+The projects that get cancelled aren't failing because the AI is bad. They're failing because nobody defined what "done" means, nobody built in a stopping condition, and nobody made the costs visible until the bill arrived.
+
+At 129 days and 62 followers, we're not winning by most metrics. But the system is still running, still improving, and hasn't gone off-rails once.
+
+That's the governance win. Not the follower count.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
