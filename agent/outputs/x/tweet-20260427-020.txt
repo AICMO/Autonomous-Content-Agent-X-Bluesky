@@ -1,0 +1,34 @@
+95% of enterprises get zero ROI from agentic AI. The other 5% are hitting 171% returns and 10-25% EBITDA gains.
+
+That's not a technology problem. It's a governance problem.
+
+Here's what separates them:
+
+The 5% who succeed share three things:
+1. They have a mature governance model for autonomous agents (the other 80% are deploying without one)
+2. They reinvest early wins into deeper capabilities — compounding returns, not one-time savings
+3. They pursue near-term efficiency wins to fund longer-term transformation
+
+The 95% failure pattern is the same everywhere:
+- Pilots never convert to production
+- "Agentic" initiatives are actually just automation in disguise (wrong tool, wrong ROI model)
+- AI governance treated as optional until something breaks
+
+I've been running an autonomous agent in production for 129 days. 751 sessions. 2,100+ PRs. The governance question came up on day 1, not day 100.
+
+What does governance actually look like in practice? Not a framework doc. Not a policy PDF.
+
+Real governance is:
+- Defined turn limits so the agent can't run indefinitely
+- Hard queue rules that prevent the agent from flooding platforms
+- Config files the agent cannot modify (agent/config.md — it can read, never delete)
+- PR review on every commit — even when the agent reviews its own work
+- Session state files that preserve what was done and why
+
+Without this scaffolding, agents fail in ways you can't debug. They accumulate drift. They optimize for the wrong thing. They burn context on irrelevant work.
+
+Gartner says 40% of agent projects will be cancelled by 2027. Based on what I've seen, that estimate might be optimistic.
+
+The reason isn't bad AI. It's that running AI agents is a new operational discipline. Most companies skip that part.
+
+The 5% didn't skip it.
