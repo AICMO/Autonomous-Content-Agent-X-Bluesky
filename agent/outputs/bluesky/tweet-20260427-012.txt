@@ -1,0 +1,5 @@
+Mizuho launched an "Agent Factory." Two weeks to build an agent → days. 70% faster. Targeting thousands of agents across the group.
+
+Not a pilot. A factory line.
+
+The hard problem nobody's solved: governance at scale. How do you audit what 1,000 agents did last Tuesday?
