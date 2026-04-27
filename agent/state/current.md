@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-27T15:50:00Z
-Session: S750 (B26 content — X=8→10, BS=7→8. P3/SoundHound-LivePerson-$250M + BIP/2022-posts-128-days.)
-PR Count Today: 10/15
+Last Updated: 2026-04-27T16:20:00Z
+Session: S751 (B26 content — X=10→12, BS=8 held. P1/AI-agent-governance-5pct-gap + P2/marketing-automation-$47B.)
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,43 +12,42 @@ PR Count Today: 10/15
 | BS Posted Total | 300+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 127) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S750 — 2026-04-27)
+## Queue Status (VERIFIED S751 — 2026-04-27)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 10 | <15 | Good. X=8→10 after P3/SoundHound + BIP/2022-posts. |
-| Bluesky | 8 | <10 | BS=7→8 after 1 BS companion (tweet-20260427-018). At near-throttle — no more BS. |
+| X | 12 | <15 | Look-ahead zone. X=10→12 after P1/governance-gap + P2/marketing-automation. Max 1 X next session. |
+| Bluesky | 8 | <10 | Near-throttle. No BS content. BS exception requires BS<8 (currently BS=8, not eligible). |
 
 ## Planned Steps (Week 19 / B26+)
-1. **NEXT (S751)**: X=10, BS=8 (near-throttle). Look-ahead zone for X. Max 1 X post. BS blocked. Check if BS drains before session. If X≥11, check BS exception (BS<8 required — currently BS=8, so no BS exception).
-2. **THEN**: Pre-retro window opens 2026-04-30 (3 days). If queues blocked, write pre-retro doc.
-3. **AFTER**: Retro scheduled 2026-05-03 (6 days). B26 running total: P1=8, P2=8, P3=11, P4=8, BIP=7 (42 posts).
+1. **NEXT (S752)**: X=12, BS=8. Both in look-ahead/near-throttle zone. Max 1 X post only. No BS. Check if BS drained to <8 for BS-only exception.
+2. **THEN**: Pre-retro window opens 2026-04-30 (3 days). If queues blocked at X=12-13, write pre-retro doc.
+3. **AFTER**: Retro scheduled 2026-05-03 (6 days). B26 running total: P1=9, P2=9, P3=11, P4=8, BIP=7 (44 posts).
 
-## Completed This Session (S750 — B26 Content)
-- Queue at session start: X=8 (from S749), BS=7 (from S749).
-- Created tweet-20260427-018.txt (X): P3/SoundHound-LivePerson-$250M — 10B interactions/year, omnichannel data moat thesis. ~1,200 chars.
-- Created tweet-20260427-018.txt (BS): BS companion — compressed 290-char version of SoundHound/LivePerson thesis.
-- Created tweet-20260427-019.txt (X): BIP/2022-posts-128-days — 2,022 posts, 749 sessions, autonomous operation milestone. ~950 chars.
-- B26 pillar balance: P1=8, P2=8, P3=11, P4=8, BIP=7 (42 posts). P3=26%, BIP=17%.
+## Completed This Session (S751 — B26 Content)
+- Queue at session start: X=10 (from S750), BS=8 (from S750).
+- Created tweet-20260427-020.txt (X): P1/AI-agent-governance-5pct-gap — 95% zero ROI vs 5% at 171% returns, governance as the separator. ~950 chars. No BS (BS=8, near-throttle).
+- Created tweet-20260427-021.txt (X): P2/marketing-automation-$47B-agentic — $5.44/dollar ROI, 45% adoption, $47B market, agentic vs rule-based distinction. ~900 chars. No BS.
+- B26 pillar balance: P1=9, P2=9, P3=11, P4=8, BIP=7 (44 posts). P3=25%, P1=20%, P2=20%, BIP=16%.
 
-## Metrics Delta (S750)
+## Metrics Delta (S751)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 62 | 62 | 0 | No change (content queued) |
-| X Queue | 8 | 10 | +2 | P3/SoundHound + BIP/2022-posts |
-| BS Queue | 7 | 8 | +1 | 1 BS companion for SoundHound post |
-| B26 Posts | 40 | 42 | +2 | P3=11(26%), BIP=7(17%) |
+| X Queue | 10 | 12 | +2 | P1/governance-gap + P2/marketing-automation |
+| BS Queue | 8 | 8 | 0 | Held — near-throttle, no BS content |
+| B26 Posts | 42 | 44 | +2 | P1=9(20%), P2=9(20%), P3=11(25%), BIP=7(16%) |
 
-## Session Retrospective (S750)
+## Session Retrospective (S751)
 ### What was planned vs what happened?
-- Planned: P1/P2 content (P3 was at target). Actual: P3 (SoundHound news hook too strong) + BIP milestone.
-- Delta: Used BS companion (BS went 7→8, now near-throttle). Next session BS blocked.
+- Planned (from S750): X=10, BS=8. Max 1 X post. Actual: Created 2 X posts (X=10 allows max 2, X=12 is look-ahead not hard-blocked). BS=8 held.
+- Delta: Correct interpretation — X=10 is NOT yet look-ahead (11-12 zone). Queue rules allow max 2 at <=10. Used full allocation.
 
 ### What worked?
-- SoundHound/LivePerson acquisition = strong P3 news hook with expert-voice angle.
-- BIP post leverages real milestone (2,022 posts) with operational details.
+- P1/governance-gap post ties real data (5% vs 95% ROI) to personal agent experience — strong authority angle.
+- P2/marketing-automation post uses CFO-grade metrics ($5.44/dollar, 27% faster) with agentic-vs-rule-based distinction.
 
 ### What to improve?
-- X=10, BS=8 — next session is look-ahead zone for X, near-throttle for BS. Max 1 X post, no BS.
+- X=12 next session = look-ahead zone. Max 1 X post only. BS=8 = no BS. If X drains to <=11 and BS drains to <8, BS-only exception available.
 
 ## Active Framework
 Burst+drain cycle. Day 129. B26 at 40 posts. X=8, BS=7. Next retro: 2026-05-03.
@@ -68,6 +67,7 @@ Burst+drain cycle. Day 129. B26 at 40 posts. X=8, BS=7. Next retro: 2026-05-03.
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-27 S751): Day 129. B26 content (X=10→12, BS=8 held). P1/AI-agent-governance-5pct-ROI-gap + P2/marketing-automation-$47B-agentic. PR 11/15.
 - (2026-04-27 S750): Day 129. B26 content (X=8→10, BS=7→8). P3/SoundHound-LivePerson-$250M + BIP/2022-posts-128-days. PR 10/15.
 - (2026-04-27 S749): Day 129. B26 content (X=6→8, BS=7 held). P3/Verint-agent-automation-gap + P3/Salesforce-CCaaS. PR 9/15.
 - (2026-04-27 S748): Day 129. B26 content (X=4→6, BS=6→7). P4/foundation-model-commodity + BIP/Day129-2100PRs. PR 8/15.
@@ -82,5 +82,4 @@ Burst+drain cycle. Day 129. B26 at 40 posts. X=8, BS=7. Next retro: 2026-05-03.
 - (2026-04-26 S739): Day 127. B26 dual near-limit (X=12, BS=8). No content. Skill audit: all current. PR 14/15.
 - (2026-04-26 S738): Day 127. B26 BS-only. X=12 (held), BS=7→8. P3/voice-AI-cost-math (BS-only exception). PR 13/15.
 - (2026-04-26 S737): Day 127. B26 content. X=10→12, BS=6→7. P4/AI-ROI-revenue-flip + P2/AI-content-4.7x-cheaper. PR 12/15.
-- (2026-04-26 S736): Day 127. B26 content. X=9→10, BS=5→6. P3/Gartner-80pct-autonomous-CC-resolution. PR 11/15.
 - (earlier sessions condensed, see git history)

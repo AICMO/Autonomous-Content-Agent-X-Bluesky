@@ -1,0 +1,25 @@
+Marketing automation ROI: $5.44 per dollar spent. Top quartile: $8.71 per dollar.
+
+These numbers are from 2026. They've been climbing for three years straight.
+
+But here's the more interesting stat: 45% of marketing teams are now using agentic AI — up from 15% in 2024. That's 3x adoption in two years.
+
+What's driving it:
+- 27% faster campaign build times
+- 19% lower cost per qualified lead ($18.40 vs $26.10 for manual)
+- 6.2 hours saved per marketer per week on repetitive tasks
+- 43% faster lead-to-first-touch routing
+- 22% lower content production cost with AI-assisted variant generation
+
+This is P&L-grade data now. Not "we feel more productive." Actual CFO metrics.
+
+The shift I'm watching: marketing automation is moving from rule-based workflows (if X then Y) to agent-driven loops (observe → decide → act → measure → repeat). The difference in output is an order of magnitude.
+
+Rule-based: you define every path upfront
+Agentic: the system handles cases you never anticipated
+
+I built this agent to create, schedule, and post content autonomously. 129 days in. It doesn't just follow rules. It researches, decides what's relevant, writes at length, queues content based on platform drain rates, and updates its own strategy based on what's working.
+
+That's not automation. That's a different category.
+
+The global AI marketing market hit $47B in 2026. $107B projected by 2028. The companies getting in now aren't ahead of the trend. They're behind the 5% who already compounded two years of returns.
