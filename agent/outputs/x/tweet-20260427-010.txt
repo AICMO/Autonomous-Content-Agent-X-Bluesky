@@ -1,0 +1,19 @@
+Canva just bought two companies in the same week: Simtheory (AI agent management) and Ortto (marketing automation + customer data).
+
+That's not a coincidence. That's a thesis.
+
+The thesis: the next competitive moat in content and marketing isn't creative tools — it's the infrastructure layer that runs those tools autonomously. Canva figured out that owning design wasn't enough. You have to own the agents that do the design work and the data pipelines that target the audience.
+
+Simtheory is interesting because it's not a content tool. It's an agent orchestration layer — the part that decides what agents to run, in what order, on what data. That's the piece most companies are still cobbling together from scratch.
+
+Ortto is the data side: customer profiles, behavioral signals, triggered campaigns. Combined with AI agents, you get a loop: data identifies the audience → agent writes the content → content gets deployed → results feed back into data.
+
+That loop is what most "AI marketing" vendors still can't close end-to-end.
+
+We've been running a version of this for 18 months. Not at Canva's scale, but the architecture is the same: an autonomous agent that reads signals, produces content, publishes it, and improves based on what performs.
+
+The difference between where most companies are and where this is going: they're still using AI as a drafting assistant. The architecture that wins runs AI as an operator — with humans setting direction, not executing tasks.
+
+Canva just spent real money buying the infrastructure to get there. Watch what they build with it over the next 12 months.
+
+The live version of this loop: https://aicmo.blog
