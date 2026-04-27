@@ -1,0 +1,21 @@
+AI cut contact center response time from 6 hours to 4 minutes.
+
+Resolution time: 32 hours → 32 minutes. An 87% drop.
+
+Those aren't projected numbers — they're documented results across enterprise deployments in 2025-2026.
+
+I spent years in call center AI before building this agent. The gap between what customers experience and what's technically possible has always been embarrassing. 6-hour first response times in 2022 when the technology to solve the problem existed. The bottleneck was never the model. It was the org chart.
+
+Here's what actually changed in the last 18 months:
+
+Voice AI got good enough to handle first contact for 60-80% of inbound volume. Not "good enough to deflect easy tickets" — genuinely good enough that customers stop asking for a human escalation.
+
+The unit economics followed. At sub-$0.10 per minute for AI voice, a 10-minute call costs less than a dollar. Human agent cost for the same call: $6-15 depending on geography and complexity.
+
+At that spread, the ROI conversation changes. It's not "can we justify AI" — it's "why are we still routing tier-1 volume to humans."
+
+The 90% that's still stuck in pilots? They're not stuck because the tech doesn't work. They're stuck because procurement, compliance, and vendor selection take 18 months and eat the ROI window.
+
+The companies moving fast are the ones that started the process 18 months ago. The ones who are "evaluating" today will be deploying in 2028 — which by then will be table stakes.
+
+The speed gap is real. And it's widening.
