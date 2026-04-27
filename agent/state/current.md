@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-27T16:30:00Z
-Session: S752 (B26 content — X=12->13, BS=8 held. P4/inference-economics-5x-cost-gap-agent-routing.)
-PR Count Today: 12/15
+Last Updated: 2026-04-27T20:10:00Z
+Session: S753 (B26 content — X=10->12, BS=7->9. P1/AI-governance-sprawl-94pct + P3/voice-AI-250pct-ROI-0.25-per-call.)
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,43 +12,45 @@ PR Count Today: 12/15
 | BS Posted Total | 300+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 127) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S752 — 2026-04-27)
+## Queue Status (VERIFIED S753 — 2026-04-27)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | Near-limit. X=12→13 after P4/inference-economics. Zero X content next session. |
-| Bluesky | 8 | <10 | Near-throttle. No BS content. BS exception requires BS<8 (currently BS=8, not eligible). |
+| X | 12 | <15 | Look-ahead zone (11-12). Zero X content next session — at 12, max was used (state file was stale at 13, actual was 10 at session start). |
+| Bluesky | 9 | <10 | Near-throttle. No BS content next session. |
 
 ## Planned Steps (Week 19 / B26+)
-1. **NEXT (S753)**: X=13, BS=8. Dual near-limit/near-throttle. Blocked Session Protocol. Tier 1 options: skill audit, CLAUDE.md improvement. Pre-retro window opens 2026-04-30 (3 days).
-2. **THEN (S754+)**: Pre-retro window. Write pre-retro doc if queues still blocked.
-3. **AFTER**: Retro scheduled 2026-05-03 (6 days). B26 running total: P1=9, P2=9, P3=11, P4=9, BIP=7 (45 posts).
+1. **NEXT (S754)**: X=12 (look-ahead), BS=9 (near-throttle). Dual blocked. Tier 1 blocked session work. Skill audit or CLAUDE.md improvement. Pre-retro window opens 2026-04-30 (3 days).
+2. **THEN (S755+)**: Pre-retro window. Write pre-retro doc.
+3. **AFTER**: Retro scheduled 2026-05-03 (6 days). B26 running total: P1=10, P2=9, P3=12, P4=9, BIP=7 (47 posts).
 
-## Completed This Session (S752 — B26 Content)
-- Queue at session start: X=12 (look-ahead), BS=8 (near-throttle).
-- Created tweet-20260427-022.txt (X): P4/inference-economics-5x-cost-gap — 85% AI spend on inference, $1.90 vs $10/M tokens, agent routing as moat, 2,100+ PRs context. ~900 chars. No BS (BS=8, near-throttle).
-- B26 pillar balance: P1=9, P2=9, P3=11, P4=9, BIP=7 (45 posts). P3=24%, P1=20%, P2=20%, P4=20%, BIP=16%.
+## Completed This Session (S753 — B26 Content)
+- Queue at session start: X=10 (verified live — state file was stale at 13), BS=7 (stale at 8).
+- Created tweet-20260427-023.txt (X+BS): P1/AI-governance-sprawl — 94% enterprise AI sprawl concern, ServiceNow+Google unification, governance-first architecture, agent rails lesson from 2,100+ PRs. ~1,500 chars X, ~240 chars BS.
+- Created tweet-20260427-024.txt (X+BS): P3/voice-AI-ROI — $0.25 vs $3-6/call cost gap, 85% containment, 250% ROI, first-mover advantage closing. ~1,400 chars X, ~240 chars BS. Ender Turing CTA.
+- B26 pillar balance: P1=10, P2=9, P3=12, P4=9, BIP=7 (47 posts). P3=26%, P1=21%, P2=19%, P4=19%, BIP=15%.
 
-## Metrics Delta (S752)
+## Metrics Delta (S753)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 62 | 62 | 0 | No change (content queued) |
-| X Queue | 12 | 13 | +1 | P4/inference-economics (look-ahead max 1) |
-| BS Queue | 8 | 8 | 0 | Held — near-throttle, no BS content |
-| B26 Posts | 44 | 45 | +1 | P4=9(20%), P3=11(24%), P2=9(20%), P1=9(20%), BIP=7(16%) |
+| X Queue | 10 | 12 | +2 | 2 X posts (state file was stale showing 13, actual was 10) |
+| BS Queue | 7 | 9 | +2 | 2 BS companions — near-throttle after |
+| B26 Posts | 45 | 47 | +2 | P1=10(21%), P3=12(26%), P2=9(19%), P4=9(19%), BIP=7(15%) |
 
-## Session Retrospective (S752)
+## Session Retrospective (S753)
 ### What was planned vs what happened?
-- Planned (from S751): X=12, BS=8. Max 1 X post only. No BS. Actual: Created 1 X post (P4/inference-economics). BS=8 held. Queue rules followed correctly.
-- Delta: Correct — X=12 = look-ahead zone, max 1 post. Used full allocation without exceeding.
+- Planned (from S752): X=13, BS=8. Dual blocked. Tier 1 work. Actual: State file was STALE — live queue count showed X=10, BS=7. Created 2 X posts + 2 BS companions.
+- Delta: Critical correction — always verify live queue counts, not state file. State file lagged by 3 X files and 1 BS file. This session recovered that capacity.
 
 ### What worked?
-- P4/inference-economics post uses strong data ($1.90 vs $10/M tokens, 5x gap, 85% inference budget) + personal agent context (2,100+ PRs, 129 days). Authority + BIP hybrid.
+- P1/governance post hooks on fresh data (94% enterprise sprawl concern, ServiceNow+Google unification) and ties to 2,100+ PR agent experience. Strong authority + BIP hybrid.
+- P3/voice-AI post uses stark cost comparison ($0.25 vs $3-6/call) + 85% containment milestone + 250% ROI — concrete numbers that drive engagement.
 
 ### What to improve?
-- X=13, BS=8 next session = dual blocked. No content. Tier 1 blocked session work (skill audit or CLAUDE.md). Pre-retro window opens 2026-04-30.
+- State file queue counts can lag by 1+ sessions when prior sessions' state updates don't reflect actual drain. Must always `find agent/outputs/x -name "*.txt" | wc -l` to verify.
 
 ## Active Framework
-Burst+drain cycle. Day 129. B26 at 40 posts. X=8, BS=7. Next retro: 2026-05-03.
+Burst+drain cycle. Day 129. B26 at 47 posts. X=12, BS=9. Next retro: 2026-05-03.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (127 days overdue). CRITICAL.
@@ -65,6 +67,7 @@ Burst+drain cycle. Day 129. B26 at 40 posts. X=8, BS=7. Next retro: 2026-05-03.
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-27 S753): Day 129. B26 content (X=10→12, BS=7→9). P1/governance-sprawl-94pct + P3/voice-AI-250pct-ROI. PR 13/15.
 - (2026-04-27 S752): Day 129. B26 content (X=12→13, BS=8 held). P4/inference-economics-5x-cost-gap-agent-routing. PR 12/15.
 - (2026-04-27 S751): Day 129. B26 content (X=10→12, BS=8 held). P1/AI-agent-governance-5pct-ROI-gap + P2/marketing-automation-$47B-agentic. PR 11/15.
 - (2026-04-27 S750): Day 129. B26 content (X=8→10, BS=7→8). P3/SoundHound-LivePerson-$250M + BIP/2022-posts-128-days. PR 10/15.
