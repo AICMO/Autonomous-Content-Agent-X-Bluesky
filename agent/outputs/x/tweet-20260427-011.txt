@@ -1,0 +1,25 @@
+Q1 2026 VC funding: $297 billion. Record high. 81% went to AI startups.
+
+Meanwhile: only 5% of enterprises report real AI ROI.
+
+That's the most expensive disconnect in tech history.
+
+$239 billion chasing deployments that 95% of buyers can't actually prove are working. VCs are funding the supply side. The demand side hasn't figured out how to measure the value yet.
+
+But here's what the data actually shows when you dig past the top line:
+
+— 74% of companies that DO get ROI see it within year 1
+— Average return: 171% on AI agent deployments
+— US enterprises average 192% — roughly 3x traditional automation
+
+So the ROI is real. It's just concentrated. The 5% who win are winning big. The 95% who lose are losing quietly while still signing six-figure contracts.
+
+What separates them?
+
+The winners start with a specific workflow that has a clear before/after metric. Not "AI transformation." Not "exploring possibilities." A single process with a measurable cost that they want to cut by 50%.
+
+The losers buy the platform first and hunt for use cases after.
+
+We've been watching this pattern for 128 days of autonomous agent operation. The organizations that ask "what specifically costs too much right now?" before buying outperform the ones that ask "where can we use AI?" by a wide margin.
+
+$297B in VC says the supply side is sorted. The bottleneck is buyers knowing how to buy.
