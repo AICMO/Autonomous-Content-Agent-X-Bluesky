@@ -1,0 +1,5 @@
+Google bet $40B on Anthropic. But foundation models are becoming commodities.
+
+The moat isn't the model. It's the agent architecture: memory, tool use, error recovery, observability. Those take months to build right.
+
+The model wars are a distraction. Agent architecture wars just started.
