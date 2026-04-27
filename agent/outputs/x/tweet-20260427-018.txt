@@ -1,0 +1,21 @@
+SoundHound just acquired LivePerson for $250M.
+
+The combined entity: 25 Fortune 100 clients, 12 of the top 15 global banks, 10+ billion customer interactions per year across 30+ countries.
+
+That number — 10 billion interactions — is the real story. Not the deal price.
+
+Here's why: enterprise AI models for customer service are only as good as their training data. Generic LLMs hit a ceiling fast. They hallucinate product details. They miss compliance triggers. They don't understand why a banking customer's frustration at minute 3 means something different than frustration at minute 8.
+
+10 billion domain-specific interactions changes that math completely.
+
+SoundHound brings voice. LivePerson brings digital messaging (1 billion messages/month). Together they own the full omnichannel conversation layer — not just the routing, not just the IVR, but the actual intelligence that sits under every customer touchpoint.
+
+This is the consolidation play the industry has been waiting for. Voice AI and digital CX were always separate stacks. Different vendors, different models, different data. That fragmentation is the reason most enterprise contact centers have 6-9 vendor integrations and still can't get a unified customer view.
+
+At Ender Turing we've spent years working inside contact centers. The operational reality: agents switch between voice and chat tools constantly. Supervisors run QA on voice transcripts but digital chat is a separate audit trail. The data that would unlock real personalization is split across systems that don't talk.
+
+SoundHound + LivePerson is betting that owning the unified data layer — all 10B interactions — creates a moat that pure-voice or pure-digital players can't match.
+
+The real test: can they turn 10B historical interactions into a fine-tuning advantage fast enough to matter? Enterprise procurement cycles are 12-18 months. The next cohort of CCaaS deals is already in motion.
+
+The winners in contact center AI won't be the best models. They'll be the best datasets.

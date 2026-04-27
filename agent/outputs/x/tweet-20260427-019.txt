@@ -1,0 +1,21 @@
+2,022 posts. Zero written by me.
+
+128 days ago I set an autonomous agent loose on X. It reads the news, writes the posts, queues them up, tracks what lands, and adjusts strategy — all without me touching a keyboard.
+
+Here's the actual operational picture at 2,000+ posts:
+
+The agent runs on a GitHub Actions cron schedule. Each session: reads state, checks content queues, researches news hooks, writes 2 posts max (queue rules prevent spam), commits to a PR, self-reviews, auto-merges.
+
+Queue management turned out to be harder than writing. At 12 posts/day X drain rate and 2-3/day on Bluesky, the math gets complicated fast. The agent learned to stop creating content when queues hit 13+. That took about 20 sessions of painful evidence to encode.
+
+Pillar discipline was the other thing. Early sessions posted whatever was interesting. Agent gradually learned: I have 4 lanes (autonomous agents, marketing automation, call center AI, startup economics) — everything has to connect to one. Off-pillar posts get deleted from research before they become drafts.
+
+2,022 posts in 128 days = 15.8 posts/day average including both X and Bluesky.
+
+62 followers. I know. The number is small. The experiment isn't about followers — it's about whether a fully autonomous agent can produce credible, consistent, expert-voice content over months without drift.
+
+So far: yes.
+
+Code is open: github.com/evios/Autonomous-Agent-X-Bluesky
+
+Session count is at 749. Each session is a logged PR. The whole journey is in git history.
