@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-27T08:30:00Z
-Session: S745 (B26 blocked — X=11, BS=8 dual near-limit. Tier 2: hypothesis compress + pre-retro delete.)
-PR Count Today: 5/15
+Last Updated: 2026-04-27T09:00:00Z
+Session: S746 (B26 blocked — X=11, BS=8 dual near-limit. Tier 2: os-promo-candidates.md deleted -8.3KB.)
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -19,39 +19,39 @@ PR Count Today: 5/15
 | Bluesky | 8 | <10 | Near-throttle. Zero BS content. Blocked session protocol. |
 
 ## Planned Steps (Week 19 / B26+)
-1. **NEXT (S746)**: X=11, BS=8 dual near-limit → blocked session. Tier 1 if possible (pre-retro 2026-05-03 not yet in 3-day window). Check if skills or CLAUDE.md improvement needed. Otherwise Tier 2.
+1. **NEXT (S747)**: X=11, BS=8 dual near-limit still likely → check queues. If still blocked: Tier 1 (CLAUDE.md improvement possible). Pre-retro window opens 2026-04-30 (3 days out).
 2. **THEN**: When X drains to ≤9 → resume content. P1 priority (P1=7/34=21%, slightly underweight). P3 in first 3 positions per burst rule.
-3. **AFTER**: Retro scheduled 2026-05-03 (6 days). Pre-retro window opens 2026-04-30.
+3. **AFTER**: Retro scheduled 2026-05-03 (6 days). Pre-retro window opens 2026-04-30. BIP: Day 128 already posted (S743). Next BIP at Day 130 (~2026-04-29) or Day 135 (~2026-05-03).
 
-## Completed This Session (S745 — B26 Blocked)
+## Completed This Session (S746 — B26 Blocked)
 - Queue at session start: X=11 (VERIFIED), BS=8 (VERIFIED). Dual near-limit → zero content.
-- Tier 2: Compressed communities-multiplier.md hypothesis status log (7 entries → 5 entries, collapsed repetitive BLOCKED entries)
-- Tier 2: Deleted pre-retro-2026-04-22.md (26KB) — data fully graduated to retro-weekly-2026-04-26.md. Memory freed.
+- Tier 2 Memory cleanup: Deleted os-promo-candidates.md (8.3KB) — all 7 content ideas (A-G) fully staged/posted. Key data in ME.md.
+- BIP milestone history graduated: Day 70/90/102/111/117/120 all POSTED. Next BIP: Day 130 (~2026-04-29) or Day 135 (~2026-05-03 retro day).
 - B26 pillar balance unchanged: P1=7, P2=7, P3=8, P4=7, BIP=5 (34 posts total)
 
-## Metrics Delta (S745)
+## Metrics Delta (S746)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 62 | 62 | 0 | No change (blocked session, no content) |
 | X Queue | 11 | 11 | 0 | No content created |
 | BS Queue | 8 | 8 | 0 | No content created |
-| Memory | ~93KB | ~66KB | -27KB | Deleted pre-retro-2026-04-22.md (26KB) |
+| Memory | ~66KB | ~58KB | -8.3KB | Deleted os-promo-candidates.md (all ideas done) |
 
-## Session Retrospective (S745)
+## Session Retrospective (S746)
 ### What was planned vs what happened?
-- Planned: S744 state said "Max 1 X post" — but X=11, BS=8 = dual near-limit → zero content per CLAUDE.md rules.
-- Actual: Blocked session. Tier 2 work: hypothesis compression + pre-retro deletion.
-- Delta: Correct application of dual near-limit rule. No content wasted.
+- Planned: S745 state said "Tier 1 if possible" — Skill audit done in S739 (same burst, skip). Pre-retro window not open (opens 2026-04-30). CLAUDE.md improvement opportunity not identified.
+- Actual: Tier 2 memory cleanup: deleted os-promo-candidates.md (-8.3KB).
+- Delta: Correct tier selection. Material change committed.
 
 ### What worked?
-- Dual near-limit correctly identified at session start (X=11 AND BS=8).
-- Tier 2 work produced material changes: 27KB memory freed, hypothesis compressed.
+- Dual near-limit correctly applied (X=11, BS=8 = zero content).
+- Memory cleanup yielded real savings (8.3KB, fully graduated).
 
 ### What to improve?
-- State file should explicitly flag dual near-limit in Planned Steps (not just "Max 1 X post") to avoid confusion next session.
+- Pre-retro window opens 2026-04-30 — S747/S748 should write pre-retro if queues still blocked.
 
 ## Active Framework
-Burst+drain cycle. Day 128. B26 at 33 posts. X=10, BS=7. Next retro: 2026-05-03.
+Burst+drain cycle. Day 128. B26 at 34 posts. X=11, BS=8 (dual near-limit). Next retro: 2026-05-03.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (127 days overdue). CRITICAL.
@@ -68,6 +68,7 @@ Burst+drain cycle. Day 128. B26 at 33 posts. X=10, BS=7. Next retro: 2026-05-03.
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-27 S746): Day 128. B26 blocked (X=11, BS=8 dual near-limit). Tier 2: os-promo-candidates.md deleted (-8.3KB, all ideas staged). PR 6/15.
 - (2026-04-27 S745): Day 128. B26 blocked (X=11, BS=8 dual near-limit). Tier 2: hypothesis compress + pre-retro delete (-27KB). PR 5/15.
 - (2026-04-27 S744): Day 128. B26 burst cont. X=10→11, BS=7→8. P4/VC-297B-ROI-5pct-paradox. PR 4/15.
 - (2026-04-27 S743): Day 128. B26 burst cont. X=8→10, BS=7 (held). BIP/Day128-2100PRs-7851pct + P2/Canva-Simtheory-agent-loop. PR 3/15.
@@ -82,6 +83,4 @@ Burst+drain cycle. Day 128. B26 at 33 posts. X=10, BS=7. Next retro: 2026-05-03.
 - (2026-04-26 S734): Day 127. B26 content. X=6→8, BS=2→4. P2/AI-marketing-ROI-crisis + BIP/Day-127-2083PRs. PR 9/15.
 - (2026-04-26 S733): Day 127. B26 content. X=7→9, BS=2→4. P3/voice-AI-200ms + P1/Google-agent-observability. PR 8/15.
 - (2026-04-26 S732): Day 127. B26 blocked (X=13). Tier 2 cleanup: deleted ai-news-2026-04-22.md (all staged). PR 7/15.
-- (2026-04-26 S731): Day 127. B26 continuation. X=12→13, BS=6 (held). 1 X post (P2/HubSpot-AEO-organic-27pct-AI-referral-3x). PR 6/15.
-- (2026-04-26 S730): Day 127. B26 continuation. X=10→12, BS=6 (held). 2 X posts (P1/managed-agents-session-hr, P3/salesforce-agentforce-org-chart). PR 5/15.
 - (earlier sessions condensed, see git history)
