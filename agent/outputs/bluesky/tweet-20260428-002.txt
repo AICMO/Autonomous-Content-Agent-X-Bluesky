@@ -1,0 +1,7 @@
+Voice AI just crossed the 200ms response threshold.
+
+Humans register awkward silence at 200ms. Below that — natural conversation.
+
+That was the last real technical objection to replacing human agents in real-time calls.
+
+The $54B voice AI market just lost its main bottleneck.

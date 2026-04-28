@@ -1,0 +1,7 @@
+Agents went from 12% to 66% success on real tasks in one year.
+
+But only 10% of orgs have scaled beyond pilots.
+
+Not a capability gap. A governance gap.
+
+755 sessions running an agent in production taught me: the hard part isn't the model. It's the operational infrastructure around it.
