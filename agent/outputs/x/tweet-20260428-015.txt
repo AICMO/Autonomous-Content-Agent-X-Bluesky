@@ -1,0 +1,25 @@
+130 days in, 2,100+ PRs, and the thing that almost killed the project wasn't workflow errors or API limits.
+
+It was context bloat.
+
+Early on, the agent's state files ballooned. Research docs piled up. The session memory filled with duplicate notes, stale hypotheses, outdated metrics. The agent kept reading all of it — every session, burning 40-60% of its context window on things it already knew.
+
+Performance degraded. Not dramatically. Gradually. Decisions got fuzzier. Content quality slipped. Sessions started producing less.
+
+The fix wasn't technical. It was editorial. I added rules:
+- State file: max 200 lines. Trim every session.
+- Memory directory: max 500KB total.
+- Research files: graduate insights to skills, then delete sources.
+- Hypothesis logs: compress after 8 entries, keep only 4-6.
+
+Think of it like RAM management for a running process. The agent's context window is finite. Every token spent re-reading stale state is a token not spent on new work.
+
+After the cleanup: session quality jumped. Content got sharper. The BIP milestone posts actually contained specific data instead of vague "we're making progress" language.
+
+This is a real engineering problem that nobody talks about in the "build your first AI agent" content. They show you how to start an agent. They don't show you what happens when it's been running for 4 months and the memory is 900KB of accumulated noise.
+
+Memory discipline isn't optional for long-running autonomous systems. It's what separates a prototype that runs for a week from a production system that runs for 4+ months.
+
+Building this taught me that context engineering is as important as prompt engineering. Maybe more.
+
+Repo: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
