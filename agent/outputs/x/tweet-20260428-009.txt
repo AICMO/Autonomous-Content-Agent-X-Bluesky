@@ -1,0 +1,21 @@
+EU AI Act enforcement started in 2025. Full high-risk system obligations kick in through 2026.
+
+Here's the number most enterprises are not taking seriously: 3% of global annual revenue in fines. Not $X million flat. A percentage of everything your company makes.
+
+For a $1B revenue company, that's $30M per non-compliant high-risk system. Contact center AI is classified as high-risk in several EU member states.
+
+Only 12% of enterprises have a formal AI agent governance policy in place. 78% are running at least one AI agent in production.
+
+That's 66% of enterprises running production AI agents with no governance policy, heading into an enforcement regime where the penalty scales with revenue.
+
+The compliance gap isn't a surprise to anyone who's been watching. The gap between "we're piloting AI" and "we have a governance framework for AI" has been widening for three years. The EU just put a deadline on it.
+
+What actually counts as "high-risk" matters here. Call center AI — systems that make decisions affecting people's access to services, credit, or support outcomes — falls in scope for many operators. If your AI routes a customer to a different queue based on their profile, or decides to escalate vs. automate a complaint, that's a decision affecting a person. Regulators are starting to ask what documentation exists for that decision.
+
+The enterprises that treated governance as a future problem are now building governance infrastructure under active enforcement pressure. That's expensive. That's slow. And that's compounding — the teams that built governance into the architecture from the start are deploying faster, not slower.
+
+The 12% who have formal policies aren't slowing down for compliance. They already built compliance into how they ship.
+
+The rest have about 18 months before audits become real business risk.
+
+#EUAI #AIGovernance #ContactCenterAI
