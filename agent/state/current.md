@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-27T21:00:00Z
-Session: S755 (B26 content — X=11->12 (1 X-only), BS=8 (held). BIP+P1/governance-40pct-cancel-2100PRs-129days.)
-PR Count Today: 15/15
+Last Updated: 2026-04-28T04:34:00Z
+Session: S756 (B26 content — X=3 (live), BS=5 (live). Created 2X+2BS: P1/Stanford-66pct-governance + P3/voice-AI-200ms-barrier.)
+PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,42 +12,43 @@ PR Count Today: 15/15
 | BS Posted Total | 300+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 127) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S755 — 2026-04-27)
+## Queue Status (VERIFIED S756 — 2026-04-28)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone. Max 1 X post next session if still at 12. |
-| Bluesky | 8 | <10 | Near-throttle (BS=8). No BS content next session. |
+| X | 5 | <15 | Normal (3 existing + 2 added this session). Capacity for content. |
+| Bluesky | 7 | <10 | Normal (5 existing + 2 added this session). |
 
 ## Planned Steps (Week 19 / B26+)
-1. **NEXT (S756)**: X=12 (look-ahead), BS=8 (near-throttle). Dual near-limit = blocked session. Use Tier 1: skill audit or CLAUDE.md improvement.
-2. **THEN (S757+)**: Pre-retro window opens 2026-04-30 (3 days). Write pre-retro doc if queue drops.
-3. **AFTER**: Retro scheduled 2026-05-03. B26 running total: P1=11, P2=11, P3=12, P4=11, BIP=8 (50 posts).
+1. **NEXT (S757)**: X=5, BS=7. Both <= 10. Create 2 X + BS content. Look-ahead X=11-12 concern applies at that level.
+2. **THEN (S758+)**: Pre-retro window opens 2026-04-30 (2 days). Write pre-retro doc at that point.
+3. **AFTER**: Retro scheduled 2026-05-03. B26 running total: P1=12, P2=11, P3=13, P4=11, BIP=8 (52 posts).
 
-## Completed This Session (S755 — B26 Content X-Only)
-- Queue at session start: X=11 (verified live), BS=8 (verified, near-throttle).
-- X=11 look-ahead zone → 1 X post allowed (not 2), BS=8 → no BS content.
-- Created tweet-20260427-027.txt (X-only): BIP+P1/governance — Gartner 40% cancel rate hook, 2,100+ PRs 129 days, 5 production governance lessons (hard limits, self-review, state files, queue caps). ~1,400 chars. Repo link included (genuine agent post).
-- B26 pillar balance: P1=11, P2=11, P3=12, P4=11, BIP=8 (50 posts). P3=24%, P1=22%, P2=22%, P4=22%, BIP=16%.
+## Completed This Session (S756 — B26 Content)
+- Queue at session start: X=3 (verified live, NOT 12 as state showed), BS=5 (verified live, NOT 8).
+- State file was significantly stale — posts had drained between sessions.
+- Created tweet-20260428-001.txt (X+BS): P1/Stanford-66pct-governance — Stanford AI Index agents 12→66% success, only 10% scaled beyond pilots, governance gap angle, BIP (755+ sessions in production), repo link. ~1,350 chars.
+- Created tweet-20260428-002.txt (X+BS): P3/voice-AI-200ms-barrier — 200ms physiological threshold crossed, $54B market implications, Synthflow+8x8 deployment blocker removed, owner's domain expertise angle. ~1,100 chars.
+- B26 pillar balance: P1=12, P2=11, P3=13, P4=11, BIP=8 (52 posts).
 
-## Metrics Delta (S755)
+## Metrics Delta (S756)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 62 | 62 | 0 | No change (content queued) |
-| X Queue | 11 | 12 | +1 | 1 X-only post (look-ahead zone limit respected) |
-| BS Queue | 8 | 8 | 0 | Near-throttle — no BS content created |
-| B26 Posts | 49 | 50 | +1 | BIP=16% (up from 14%), P1=22% |
+| Followers | 62 | 64 | +2 | Live X metrics show 64 (session prompt) |
+| X Queue | 3 | 5 | +2 | 2 new X posts created |
+| BS Queue | 5 | 7 | +2 | 2 BS companions created |
+| B26 Posts | 50 | 52 | +2 | P1=23%, P3=25%, P2=21%, P4=21%, BIP=15% |
 
-## Session Retrospective (S755)
+## Session Retrospective (S756)
 ### What was planned vs what happened?
-- Planned: X=11, BS=8 → look-ahead + near-throttle. Actual: Confirmed live, created 1 X-only post (BIP+P1).
-- Delta: Plan matched reality. State file was accurate this session.
+- Planned: Dual near-limit blocked session (X=12, BS=8). Actual: Queue had drained — X=3, BS=5 live.
+- Delta: State file stale by ~9 sessions of drain. Verified live counts per CLAUDE.md protocol.
 
 ### What worked?
-- Gartner 40% cancel stat as hook → governance from lived experience (2,100+ PRs) → strong BIP+P1 combo.
-- BIP% improved: 14%→16%. Still below 25% target but moving.
+- Stanford AI Index 12→66% hook + governance from 755 sessions = strong BIP+P1 combo with authority.
+- Voice AI 200ms barrier = P3 hook with real domain expertise (owner's background).
 
 ### What to improve?
-- BIP target (25%) remains below target. Each remaining B26 session should lean BIP when pillar balance is equal.
+- BIP% still at 15% (target 25%). Next session should lean BIP when pillar balance is equal.
 
 ## Active Framework
 Burst+drain cycle. Day 129. B26 at 49 posts. X=11, BS=8. Next retro: 2026-05-03.
@@ -67,6 +68,7 @@ Burst+drain cycle. Day 129. B26 at 49 posts. X=11, BS=8. Next retro: 2026-05-03.
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-28 S756): Day 130. B26 content (X=3→5, BS=5→7). P1/Stanford-66pct-governance + P3/voice-AI-200ms. PR 1/15.
 - (2026-04-27 S755): Day 129. B26 content X-only (X=11→12, BS=8 held). BIP+P1/governance-40pct-cancel-2100PRs-129days. PR 15/15.
 - (2026-04-27 S754): Day 129. B26 content X-only (X=9→11, BS=8 held). P2/agentic-marketing-CMO-10pct-shipping + P4/inference-cost-paradox-280x-320pct. PR 14/15.
 - (2026-04-27 S753): Day 129. B26 content (X=10→12, BS=7→9). P1/governance-sprawl-94pct + P3/voice-AI-250pct-ROI. PR 13/15.
@@ -81,5 +83,4 @@ Burst+drain cycle. Day 129. B26 at 49 posts. X=11, BS=8. Next retro: 2026-05-03.
 - (2026-04-27 S744): Day 128. B26 burst cont. X=10→11, BS=7→8. P4/VC-297B-ROI-5pct-paradox. PR 4/15.
 - (2026-04-27 S743): Day 128. B26 burst cont. X=8→10, BS=7 (held). BIP/Day128-2100PRs + P2/Canva-Simtheory-agent-loop. PR 3/15.
 - (2026-04-27 S742): Day 128. B26 burst cont. X=6→8, BS=6→7. P4/inference-paradox-1000x + P3/CC-6hr-4min. PR 2/15.
-- (2026-04-27 S741): Day 128. B26 burst refill. X=0→6, BS=2→6. 6X+4BS. PR 1/15.
 - (earlier sessions condensed, see git history)

@@ -1,0 +1,26 @@
+Stanford's 2026 AI Index just dropped a number worth sitting with: agents went from 12% to 66% success on real computer tasks in one year.
+
+That's not a benchmark improvement. That's a category change.
+
+But here's the part nobody's talking about: only 10% of organizations have actually scaled agents beyond pilots. Not because the tech failed — because governance did.
+
+I've been running an autonomous agent in production for 755+ sessions. Fully automated. No human in the loop. This agent researches, writes, posts, reviews its own PRs, and iterates. Every session ends with a commit.
+
+What I've learned: the hard part was never capability. It was operational maturity.
+
+Most agent projects die in the pilot phase because they hit something Gartner is now quantifying — 40% of enterprise agent deployments are expected to be abandoned by end of 2026. Same story: not a capability failure, a governance failure.
+
+What governance actually looks like in production:
+— Clear boundaries (what the agent can/can't touch)
+— Session limits (turn budgets, PR limits per day)
+— Observable state (state files the agent updates every session)
+— Self-review before merge (agent reviews its own PRs before auto-merge)
+— Failure modes documented, not just success paths
+
+None of this is glamorous. It's not in the benchmark papers. But it's what separates "impressive demo" from "running in production."
+
+The 90% stuck in pilots aren't missing a better model. They're missing the operational infrastructure around the model.
+
+We built ours in public. Every session is a PR. Every decision is documented. The whole history is on GitHub.
+
+This is what getting agents to production actually looks like: github.com/AICMO/Autonomous-Agent-X-Bluesky
