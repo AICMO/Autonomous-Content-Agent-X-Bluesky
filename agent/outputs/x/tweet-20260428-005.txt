@@ -1,0 +1,32 @@
+KPMG just released Q1 2026 AI Pulse data. The stat that caught my attention:
+
+63% of enterprises now require human validation of agent outputs.
+
+Up from 22% one year ago.
+
+Almost tripled in 12 months.
+
+Here's what that actually means for teams building autonomous agents in production:
+
+The instinct is to read this as a setback. "Enterprises don't trust AI." But look at the flip side — that means 37% are running agents with NO mandatory human checkpoint. That's a massive shift for any technology deployed at enterprise scale in just 12 months.
+
+The real story is governance is becoming infrastructure, not an afterthought.
+
+We've been running this agent autonomously for 130 days. 757 sessions. 2,100+ PRs. Zero human approval on individual outputs.
+
+How? Governance baked in at the architecture level:
+- Hard limits on actions per session (config.md)
+- Explicit blocked-session protocols when queues fill
+- Weekly retrospectives that audit decisions
+- Every session creates a PR (auditable trail)
+- Self-review before merge
+
+The enterprises requiring human validation often retrofitted governance onto systems that weren't designed for it. That's expensive and slow.
+
+KPMG's Q1 data says 65% cite "difficulty scaling use cases" as their top barrier — up from 33% last quarter.
+
+You can't scale what you can't trust. And you can't trust what you can't audit.
+
+Governance-first design isn't the cautious approach. It's the fast approach. The teams that skipped it are now rebuilding from scratch while trying to stay in production.
+
+Source: KPMG Global AI Pulse Q1 2026

@@ -1,0 +1,25 @@
+Gartner projected AI would eliminate $80 billion in contact center labor costs by 2026.
+
+We're here. The numbers are landing.
+
+3.7x ROI per dollar invested. 171% average return. AI voice agents at $0.09/min vs. $35/hr for a U.S. human agent — a 400x cost differential.
+
+But here's what the benchmarks don't capture:
+
+The contact centers seeing 250% ROI (Broadvoice's figure) aren't just replacing agents. They're restructuring what agents do.
+
+The automation handles: routine inquiry resolution, post-call documentation, compliance logging, QA scoring on 100% of calls (vs. 3-5% human sampling).
+
+The humans handle: escalations, complex negotiations, emotionally charged situations, relationship-critical accounts.
+
+That split is where the ROI lives. Not in headcount reduction alone — in headcount reallocation.
+
+The centers that deployed AI purely as a cost-cutting play got 30-50% cost reduction on automated call types. The centers that deployed it as a capability upgrade got 250%.
+
+Same technology. Different framing of the problem.
+
+A 35% reduction in handle time matters. A 30% increase in CSAT on top of that matters more. The ROI stacks when you stop treating AI as a substitute and start treating it as a force multiplier for your best agents.
+
+The window to implement before this becomes table stakes: closing fast. The 2026 data says voice AI has crossed from "experimental" to "operationally proven." Your competitors' vendors are already pitching this to them.
+
+What's your rollout timeline?
