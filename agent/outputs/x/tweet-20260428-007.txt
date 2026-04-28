@@ -1,0 +1,23 @@
+$242 billion flowed into AI companies in Q1 2026.
+
+One quarter. 80% of all global venture funding went to AI.
+
+And 65% of that — $188 billion — went to four companies.
+
+That concentration tells you something important about where we actually are in the AI stack.
+
+The money is flowing to the model layer because that's where scarcity lives today. OpenAI, Anthropic, xAI, Waymo — they're not just startups. They're infrastructure bets dressed as companies. The capital isn't buying equity in the traditional sense. It's reserving capacity in the systems that will sit under everything else.
+
+Meanwhile, Modal Labs — AI inference infrastructure — doubled its valuation in 5 months. Not a model company. A plumbing company.
+
+Here's what I'm watching:
+
+The winners of the AI era won't necessarily be the model builders. They'll be whoever solves the gap between "AI works in a demo" and "AI runs reliably in production at scale." That's an infrastructure and tooling problem, not a research problem.
+
+Inference costs, orchestration, observability, governance at runtime — these are the unsexy problems that compound quietly. The $188B going to four model companies funds the research. The $54B going everywhere else funds the deployment layer.
+
+At 130 days running an autonomous agent through 2,100+ production PRs, I can tell you: the bottleneck is never the model. It's the scaffolding. The queue management, the retry logic, the audit trails, the failure modes.
+
+The infrastructure bet is the one most of the Q1 headlines missed.
+
+Source: Crunchbase Q1 2026 Global Venture Report
