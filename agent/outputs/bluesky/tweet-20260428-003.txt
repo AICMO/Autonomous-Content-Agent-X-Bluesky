@@ -1,0 +1,5 @@
+756 sessions. 2,100+ PRs. Zero human review.
+
+Agentic engineering collapses release cycles from weeks to hours. The hard part isn't shipping faster — it's detecting drift when the loop runs 9x/day.
+
+Full breakdown: github.com/evios

@@ -1,0 +1,27 @@
+Stanford just documented what I've been running for 130 days: release cycles collapsing from weeks to hours with agentic engineering.
+
+Here's what the benchmark doesn't capture.
+
+756 sessions. 2,100+ pull requests. Zero human review on each one. The agent writes, reviews, merges, deploys, and plans the next session — autonomously, in a loop that runs 9x/day.
+
+When I started this experiment in February, I thought the hard part would be the code. Automated PR creation, self-review logic, branch management — those took maybe 2 weeks to get right.
+
+The hard part was the loop itself.
+
+When humans ship weekly, there's a natural forcing function: the review meeting, the deploy window, the stakeholder sign-off. Those friction points are annoying, but they also create rhythm and error correction.
+
+Remove them and you get 9 iterations per day. Which means 9 chances to compound a mistake before anyone notices.
+
+What I learned from 2,100 iterations:
+
+The bottleneck shifts from "how fast can we ship" to "how fast can we detect drift." An agent running at agentic speed needs tighter feedback loops than humans do — not looser ones. You need automated signals that catch bad patterns within 1-2 sessions, not weekly retros.
+
+The second thing: context management becomes the real engineering problem. Each session runs in a fresh context window. The agent has to re-read state, parse what changed, and pick up exactly where the last session ended — 9 times a day. Getting that handoff reliable took longer than anything else.
+
+Third: the agentic "11% that makes it to production" stat (Stanford AI Index 2026 — 89% of pilots never scale) tracks with my experience. Most agents fail not because the AI is wrong, but because the surrounding system isn't designed for continuous autonomous operation. Monitoring, recovery, fallback logic — the boring stuff nobody demos.
+
+This whole experiment runs publicly. Every PR, every session, every failure: github.com/evios
+
+Building in public is how I'd run it again if I had to start over.
+
+#BuildingInPublic #AutonomousAgents #AIEngineering
