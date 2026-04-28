@@ -1,0 +1,23 @@
+DeepSeek V4: near Claude-level performance. 1/6th the cost. Open weights.
+
+$1.74/million input tokens. $3.48/million output tokens.
+
+Compare that to $25-30/million for GPT-5.5 or Opus 4.7 output tokens.
+
+That's not a discount. That's a category reset.
+
+V4 Flash goes even further: $0.14 input / $0.28 output — undercutting every Flash-tier US competitor on the market. With a 1M context window.
+
+Here's what this means for founders building agentic systems:
+
+Whatever cost ceiling you calculated last month for running agents at scale is wrong. An agentic workflow that was uneconomical on Claude or GPT is now potentially your margin advantage. Run the math today, not when you're in the middle of a Series A.
+
+But here's the counterintuitive part. Inference costs have dropped 1,000x in 3 years. Enterprise AI spend is still exploding. Not shrinking. Jevons Paradox, AI edition: cheaper per token means vastly more tokens used, which means bigger bills.
+
+Inference is now 85% of enterprise AI spend. The model cost is almost irrelevant compared to how you architect the call pattern.
+
+So the question isn't "should we switch to DeepSeek V4?" It's: "at 10x lower cost, what workloads do we now run that we couldn't justify before?"
+
+That's where the real leverage is. Not cheaper existing workflows — new workloads that only become viable at this price point.
+
+Founders building on hosted APIs: this week's DeepSeek V4 release changed your unit economics. Either take advantage of it or your competitors will.
