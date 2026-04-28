@@ -1,0 +1,17 @@
+3CLogic just expanded their Voice AI Hub with outbound agents and multimodal capabilities. Timing matters here.
+
+Most call center AI has been reactive for the last 3 years: AI answers inbound calls, contains simple queries, deflects tickets. The contact center industry built an entire generation of tooling around "how do we get customers to self-serve so humans don't have to pick up."
+
+Outbound voice AI flips this completely.
+
+Instead of waiting for customers to call, the system initiates. Proactive collections, appointment reminders, health check-ins, renewal outreach. The ROI math is completely different — you're not replacing cost (inbound agents), you're replacing revenue-generating or relationship-maintaining activities that previously required human dialing.
+
+Here's what the multimodal piece means in practice: voice AI that can handle a call AND simultaneously pull up account details, push SMS follow-ups, log CRM notes, and trigger downstream workflows. Not switching channels — running them in parallel during a single interaction.
+
+We built parts of this at Ender Turing. The hardest problem isn't the voice AI itself. It's the integrations. Every enterprise has CRM, CCaaS, ticketing, and billing systems that don't talk to each other well, and voice AI has to orchestrate across all of them in real-time with <200ms latency targets.
+
+The companies that crack the integration layer win. The voice AI model itself is becoming a commodity.
+
+What 3CLogic is doing — no-developer-required setup — is an attempt to abstract the integration complexity. That's the right bet. The bottleneck isn't AI capability anymore. It's deployment friction.
+
+Call center leaders: 2026 is when outbound AI becomes a real line item in your planning. Not a pilot. A budget decision.

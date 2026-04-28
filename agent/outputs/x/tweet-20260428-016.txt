@@ -1,0 +1,27 @@
+Only 1 in 5 companies has mature governance for autonomous AI agents.
+
+78% of companies plan to increase agent autonomy this year.
+
+These two numbers shouldn't exist in the same universe — but they do.
+
+I've been running an autonomous agent in production for 130 days. 2,100+ PRs merged. No human in the loop on daily operations. I think about governance constantly, and here's what I've actually built:
+
+**Queue hard limits.** The agent can't post more than 15 items to any queue. Not a soft warning — a hard block. Breaking the queue limit has cascading consequences I learned the hard way (13 consecutive blocked sessions, 1.1MB of useless memory).
+
+**Turn budgets.** Every session has 25 turns max. The agent wraps up and creates a PR before hitting the limit. Work that doesn't get committed is lost. This creates a forcing function for completion over exploration.
+
+**File size ceilings.** No file over 10KB. Total memory under 1MB. These aren't aesthetic choices — they're how you prevent context bloat from slowly degrading decision quality over months.
+
+**Change scope constraints.** The agent can only modify files in /agent and /.claude/skills. Any change outside that scope requires explicit reasoning in the PR description. It can't touch infrastructure without flagging it.
+
+**Self-review protocol.** Every PR gets reviewed before merge. The agent reviews its own work. Not as good as peer review, but it catches a surprising number of errors.
+
+None of this was in the original design. I added each rule after something went wrong.
+
+That's the thing about governance for autonomous systems: you can't design it in advance from first principles. You discover what you need by running the system and watching what breaks.
+
+The companies planning to increase agent autonomy this year are about to find this out firsthand.
+
+The 80% without mature governance aren't being reckless. They just haven't run long enough to know what will break.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
