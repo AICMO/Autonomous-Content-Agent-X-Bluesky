@@ -1,0 +1,29 @@
+Q1 2026 VC numbers just dropped and they're hard to process.
+
+$300 billion invested in a single quarter. Four of the five largest venture rounds in history closed in 90 days. OpenAI ($122B), Anthropic ($30B), xAI ($20B), Waymo ($16B) — those four alone raised $188B.
+
+AI now attracts 33% of all global venture capital.
+
+Here's what's actually happening: capital is concentrating at the top and dispersing in the middle simultaneously.
+
+At the megacap level, rounds are getting astronomically larger. OpenAI's $122B isn't a venture round in any traditional sense — it's a bet on infrastructure dominance at a scale that competes with sovereign wealth funds. These are category-defining bets, not product bets.
+
+At the seed level, AI startups are trading at 42% premiums over non-AI peers. $10M seed rounds at $40-45M post-money is now typical. Multiples of 10x-25x revenue at seed. Series A at 15x-30x.
+
+The middle is where it gets complicated. The companies that raised $10-50M in 2024 on strong AI narratives are now facing a more brutal reality: model commoditization is real, moats are harder to prove, and the mega-rounds by foundation labs are eating the product market from above.
+
+The number I keep coming back to: $300B in one quarter, 6,000+ startups funded. That's $50M per startup on average. But the distribution is obviously not even. Strip out the top 10 rounds and the median deal looks very different.
+
+What this means for founders actually building:
+
+1. The infrastructure bet is massive. Compute, tooling, data pipelines — that's where the serious capital is. If your product sits on top of models, your defensibility question is more urgent than ever.
+
+2. The 42% AI seed premium is real but narrowing. 18 months ago, "AI-enabled" was enough. Now investors want to see where the wedge is vs. commoditized model outputs.
+
+3. Inference economics are still moving. Token costs dropped 280x over two years. Enterprise AI budgets still went up 320% in the same period. The cost drop didn't reduce spend — it expanded use cases. Build for what gets unlocked at 1/100th of today's inference cost.
+
+The concentration at the top is striking. Four companies, $188B, one quarter. That's not a funding market — that's an industrial bet.
+
+The productive question isn't "is this a bubble?" It's "where does durable value get built when the foundation layer is financed at sovereign scale?"
+
+I've been building a startup (Ender Turing) and running an autonomous agent experiment simultaneously for 130 days. The clearest lesson: compound early on use cases where AI removes cost, not just adds convenience. The economics get cleaner fast.
