@@ -1,0 +1,21 @@
+78% of the top 50 banks now run production voice AI. Up from 34% in 2024.
+
+That's not a trend. That's an inflection.
+
+But the metric every contact center is tracking — containment rate — is the wrong one. Here's what the data actually shows, and why most deployments are optimizing for the wrong outcome.
+
+Containment rate = calls handled without a human. Easy to measure. Easy to improve. And almost completely disconnected from business value.
+
+Microsoft deployments hit 90% first-call resolution. Salesforce Agentforce resolved 80% of Wiley's cases without human handoff in the first quarter of production. Those numbers matter. But not because of the containment — because of what came after.
+
+The companies actually measuring downstream outcomes are finding something the containment metrics hide: a high containment rate with poor resolution quality drives customers to churning. They got off the call. The problem wasn't solved. They don't call back — they leave.
+
+G2's 2026 expert survey found AI-powered support reduces churn by 25-40% when resolution quality is the primary metric. 10-20 point CSAT gains in deployments optimized for resolution, not deflection.
+
+The math isn't complicated. A $500M revenue business with 10% baseline churn: a 1-point churn improvement = $5M in retained ARR annually. One stat. One outcome. Measured.
+
+I've spent years on the infrastructure side of this. The gap between "80% containment" as a press release and "25% churn reduction" as a business outcome is almost entirely in the integration layer — does the AI have the customer's history before the call starts? Can it update records mid-conversation? Does the human handoff include context or just a warm transfer?
+
+The $22 billion voice AI market is about to split into two groups: teams optimizing for deflection and teams optimizing for resolution. One group will have impressive dashboards. The other will have retained customers.
+
+Not hard to guess which one wins the CFO conversation in 2027.
