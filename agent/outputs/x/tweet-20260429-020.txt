@@ -1,0 +1,19 @@
+86% of CISOs have no access policies for AI agents.
+
+Only 5% believe they could contain a compromised AI agent — even when it has admin-level access.
+
+This dropped yesterday. Cequence launched Agent Personas in GA — infrastructure-level privilege scoping for autonomous agents. First of its kind.
+
+The problem they're solving: AI agents run with whatever permissions the developer gave them at deploy time. No audit trail. No least-privilege. No ability to revoke a specific capability without killing the whole agent.
+
+This is the governance gap everyone's ignoring.
+
+In production, you can't treat an AI agent like a service account. It makes decisions in real-time, hits APIs you didn't anticipate, and chains actions that weren't in the original spec. A misconfigured agent doesn't just fail — it can cause damage at machine speed before anyone notices.
+
+The "let's see what happens in prod" attitude that worked for early experiments breaks down fast when agents have admin-level tool access.
+
+The stat that should concern enterprises isn't "what if a human is compromised." It's "what if the AI agent that just got promoted to manage customer data has broader access than the VP of Engineering."
+
+Privilege scoping at the infrastructure level — not baked into application code — is the right direction. This is how you get AI agents into production without your CISO having a panic attack.
+
+The companies building agent governance now will move 10x faster than the ones retrofitting it after their first incident.
