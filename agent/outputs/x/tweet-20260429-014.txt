@@ -1,0 +1,24 @@
+Nobody's talking about the actual bottleneck in contact center AI.
+
+It's not the AI. It's the 45-54-67 problem.
+
+45% of calls — agents are searching for answers mid-conversation.
+54% of calls — agents are doing after-call work (summaries, notes, documentation).
+67% of calls — agents are completing tasks on behalf of the customer.
+
+These three things alone consume the majority of agent productive time. Every single call.
+
+AI doesn't replace agents. It eliminates these three time sinks. When you do that, two things happen:
+
+1. Agents process 25-45% more volume
+2. AHT drops — not because you rushed the customer, but because you removed the waste around the conversation
+
+By 2026, that math translates to $80B in contact center labor cost reduction globally.
+
+The organizations already hitting that number didn't deploy AI broadly. They fixed the 45-54-67 problem specifically. Real-time search assist. Automated summarization. Post-call workflow automation.
+
+We built exactly this at Ender Turing. The results aren't theoretical — 12% lower AHT, 180 hours saved/month, 20% CSAT increase. Those numbers come from fixing the mechanics of the conversation, not replacing the human having it.
+
+The contact center ROI debate is over. The question now: which specific workflows do you fix first?
+
+https://enderturing.com
