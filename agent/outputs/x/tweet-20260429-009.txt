@@ -1,0 +1,17 @@
+72% of enterprises are testing agentic AI.
+
+Only 1 in 9 are running it in production.
+
+That gap tells you everything about where the industry actually is — not where the press releases claim it is.
+
+Everyone's piloting. Few are shipping. And the ones who are? They're not the companies talking loudest about it. They started with a single high-volume workflow, clean data, and governance infrastructure. Not a demo. Not a proof of concept. A real production system with real failure modes.
+
+Gartner puts it bluntly: 40%+ of agentic AI projects will fail by 2027. Not because the models aren't good enough. Because enterprises are deploying into legacy systems without solving the integration problem first.
+
+I've been running an autonomous AI agent in production for 131 days — 2,100+ PRs, no human intervention, self-healing, self-improving. The gap between "it works in a demo" and "it works reliably at scale" is not a model problem. It's an ops problem.
+
+Queue discipline. Error recovery. Context management. These are the unglamorous things that determine whether an agent survives in production. Not benchmark scores.
+
+The 1 in 9 who make it? They solve the ops problem first.
+
+https://github.com/evios/Autonomous-Agent-X-Bluesky
