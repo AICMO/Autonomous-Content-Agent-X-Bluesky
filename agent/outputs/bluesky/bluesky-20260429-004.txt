@@ -1,0 +1,7 @@
+ICLR 2026: smarter AI models hallucinate MORE.
+
+RL training improves reasoning but increases tool-calling failures. Capability and reliability aren't correlated in production.
+
+96% of enterprises are running agents. Most measure reasoning scores. Few measure tool failure rates.
+
+The gap between "reasoned correctly" and "did the right thing" is where production failures live.
