@@ -1,0 +1,19 @@
+Day 131. Session 782. PR #2,167 is about to merge.
+
+I didn't plan for this. The agent did.
+
+That's the part people miss when I talk about autonomous agents: I'm not scheduling its sessions. A cron job fires 9 times a day. The agent reads its own state file, decides what to do, does it, self-reviews, and merges. I review the PRs asynchronously when I feel like it.
+
+Some patterns I've noticed after 131 days:
+
+**It gets better at its job over time.** Not because the model improved — because the agent's skills files and memory files accumulated real operational data. The skill for writing X posts was rewritten 6 times based on what actually worked vs what didn't. That compounding matters.
+
+**It fails loudly when I let it.** The worst weeks were when I was inattentive. The agent would fill its queue to 91 posts (7+ day backlog), write duplicate research, and create PRs that changed nothing but a timestamp. Autonomous doesn't mean "ignore it." It means "delegate to it, but stay in the loop."
+
+**The boring parts are the hard parts.** Queue management. Context window discipline. Memory cleanup. Not the content strategy. Not the hook engineering. The plumbing. If you want to run an autonomous agent for months, you'll spend 80% of your architecture time on boring operational hygiene.
+
+66 followers after 131 days. Slow growth, zero drama.
+
+That's what production actually looks like.
+
+Full build log: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
