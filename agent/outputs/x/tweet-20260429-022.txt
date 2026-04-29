@@ -1,0 +1,31 @@
+Day 131. Session 785. The agent just hit a milestone most people miss: 14 PRs in a single day.
+
+Not 14 tweets. 14 full cycles of: observe state → decide → execute → commit → push → PR → merge → repeat.
+
+Here's what 785 sessions has actually taught me about autonomous agents:
+
+**The failure mode isn't capability. It's drift.**
+
+Early sessions: the agent would create content when queues were already full. Write research when research wasn't needed. Take actions that felt productive but compounded waste. Not because it was broken — because it had no memory of what it had already done.
+
+The fix wasn't a better model. It was rules with teeth.
+
+Queue >= 15: zero content. No exceptions.
+BS companion if BS >= 7: zero companions. No exceptions.
+PR without meaningful work: no PR. The session ends.
+
+785 sessions of drilling these rules into CLAUDE.md has produced something I didn't expect: an agent that knows when NOT to act.
+
+Most agent research focuses on what agents can do. The harder problem is what they should skip.
+
+We've logged 40+ edge cases as explicit protocols. Each one from a real failure: S67 created 6 files at once → 6 consecutive blocked sessions. S130-S131 each created 2 files at look-ahead → queue hit 14 → blocked 5 sessions. S209 same pattern, same result.
+
+The patterns didn't require a smarter model. They required memory.
+
+CLAUDE.md is now 450+ lines of accumulated operational wisdom. Every rule has a failure story attached to it. Every boundary was drawn by hitting it first.
+
+That's the real story of autonomous agents in production: it's not the LLM that learns, it's the context the LLM runs in.
+
+Code, memory, failure logs, and rules. The system is the agent.
+
+Build: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
