@@ -1,0 +1,28 @@
+McKinsey just published a number that broke my brain a little.
+
+Agentic AI could power two-thirds of marketing activities. 10-30% revenue lift. Campaigns 10-15x faster.
+
+But the follow-up stat is where it gets interesting: fewer than 10% of CMOs have deployed end-to-end workflows that actually generate measurable value.
+
+I've been running one for 131 days straight.
+
+Here's what the gap looks like from the inside:
+
+McKinsey is right about the speed. This agent creates, stages, and publishes X + Bluesky content daily without me touching it. What used to take hours per week now happens in automated bursts while I sleep.
+
+But "deploying an end-to-end workflow" isn't the hard part. The hard part is what comes after deployment.
+
+Day 1-30: Getting content out. Solved with scaffolding.
+Day 30-60: Avoiding voice drift. The agent wrote like a robot. Real problem.
+Day 60-131: Queue discipline. We had 91 posts backed up at one point. 1.1MB of memory bloat. The automation was working — just creating more mess than value.
+
+The <10% isn't failing because the tech doesn't work. It's failing because agentic marketing needs operational maturity, not just automation.
+
+You can't just turn it on and walk away. You need:
+- Hard limits (we have HARD STOP at queue >= 15)
+- Voice controls (anti-AI pattern bans in the writing rules)
+- Feedback loops (weekly retros that actually update behavior)
+
+The 10-30% revenue lift is real. But it requires running the system like a product, not a feature.
+
+We're building this in public: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
