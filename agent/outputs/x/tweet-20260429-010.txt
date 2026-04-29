@@ -1,0 +1,19 @@
+Golden Nugget Hotel automated 34% of all reservation calls.
+
+That's $600,000 per month in AI-handled bookings.
+
+Not a pilot. Not a test. Running revenue.
+
+PG&E saved 35,000 labor hours during utility outages with 67% call containment. Broadvoice data shows 250% ROI on contact center AI investments. Gartner projects $80 billion in agent labor cost reductions from conversational AI by 2026 alone.
+
+Here's what these numbers actually tell you: the debate about whether AI replaces human agents is over. The debate now is why your call center still doesn't have a containment rate above 50%.
+
+The ROI math is straightforward — 85% containment means roughly 85% of calls resolved without a human. At average AHT of 6 minutes per call and 50k calls/month, that's 4.25 million minutes of handle time not hitting your team. At $0.75/minute fully-loaded agent cost, you do the math.
+
+Most enterprises aren't deploying because of integration fear, not ROI doubt. The ROI has been clear for 2 years. The integration complexity is the real blocker.
+
+At Ender Turing, we've spent 7 years solving that integration complexity — speech analytics, real-time coaching, automated QA across voice and digital channels. The technology exists. The implementation playbook exists.
+
+$600K/month from hotel reservations is just the beginning of what's available.
+
+https://enderturing.com
