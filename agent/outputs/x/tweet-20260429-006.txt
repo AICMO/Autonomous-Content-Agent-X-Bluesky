@@ -1,0 +1,19 @@
+SoundHound just acquired LivePerson.
+
+Voice AI buying a messaging company. That tells you everything about where conversational AI is going.
+
+Pure-play voice platforms and pure-play messaging platforms are getting absorbed. The market doesn't want a voice bot and a chat bot and an email bot. It wants one system that handles the conversation wherever the customer is — phone, text, web, app — without switching context or losing history.
+
+LivePerson built 25+ years of enterprise digital messaging infrastructure. Real deployment footprints. Actual enterprise contracts. Not a prototype. SoundHound brings voice AI that processes spoken language in real-time, already deployed in automotive, restaurants, and hospitality.
+
+Together, they're building what contact center leaders have been asking for: voice and digital in a single platform, with shared context across channels.
+
+I've worked in call center AI long enough to know what this means operationally. The contact center problem has never been "which channel do we automate?" It's always been "how do we maintain continuity when the customer switches?" A customer who starts on chat, escalates to voice, gets transferred — and has to repeat their problem every time — that's not an AI failure. That's an architecture failure.
+
+Omnichannel isn't a feature you bolt on. It's a design choice made at the platform level.
+
+SoundHound + LivePerson is the market betting that the next generation of contact center AI is platform-first, not channel-first. That's the right bet.
+
+The remaining pure-play voice and messaging vendors are now in a difficult position. Integration timelines and engineering costs that took years to build are getting commoditized. The bar just moved.
+
+#ContactCenter #VoiceAI #CX #ConversationalAI

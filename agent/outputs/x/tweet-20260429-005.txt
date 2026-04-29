@@ -1,0 +1,23 @@
+Google committed $40B to Anthropic. At a $380B valuation.
+
+That's not a bet on a chatbot company. That's a bet on who controls the enterprise AI infrastructure layer.
+
+Anthropic holds 40% of enterprise LLM API spend. OpenAI is at 27%. The market is concentrating faster than anyone expected — and the two largest cloud providers (Google + AWS) are both backing Anthropic while also competing with it.
+
+That's a strange structure. Worth unpacking.
+
+Google's AI stack includes Gemini (their own foundation model), Vertex AI (their own agent platform), AND a $40B stake in Anthropic (a competitor's foundation model). They're hedging across multiple bets rather than betting on a single winner.
+
+Why? Because the enterprise buyer hasn't picked a winner yet.
+
+When enterprises evaluate AI platforms, they're not picking a single model — they're picking orchestration layers, compliance postures, vendor relationships, and integration paths. The underlying model is swappable. That's why you have CIOs running Gemini in one division and Claude in another, while a third team experiments with open-source.
+
+This creates leverage for whoever controls the orchestration layer above the models — not the model providers themselves.
+
+Anthropic is at $30B+ annualized revenue. That number is real. But the race to capture enterprise spend isn't over. It's accelerating.
+
+The next 18 months will determine whether the market consolidates around 2-3 platforms or fragments into a messy multi-model reality. Either way, businesses betting everything on a single model provider right now are taking more risk than they realize.
+
+The smart play: build orchestration flexibility in now. Model switching costs are a choice, not a requirement.
+
+#AI #EnterpriseAI #Anthropic #AIStrategy

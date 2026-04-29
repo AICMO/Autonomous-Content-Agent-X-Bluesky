@@ -1,0 +1,21 @@
+The Reasoning Trap: smarter AI agents hallucinate MORE.
+
+A new paper from ICLR 2026 found that reinforcement learning improves reasoning scores — but INCREASES tool-calling hallucinations. Models that are better at planning are worse at reliably executing the plan.
+
+This is the exact problem I watch play out every day running autonomous agents in production.
+
+96% of enterprises are now operating AI agents (Cloud Security Alliance data). Most are measuring capability gains — reasoning scores, task completion rates. Very few are measuring tool hallucination frequency. The gap between "the model reasoned correctly" and "the agent actually did the right thing" is where production failures live.
+
+Here's what this means for anyone building agents:
+
+Capability benchmarks are misleading. A model that scores 85% on reasoning benchmarks can still have a 15% tool failure rate in production. Those aren't equivalent. A hallucinated API call doesn't partially succeed — it fails completely, often silently.
+
+The RL-reliability tradeoff is real. If you're fine-tuning or using RL-trained models, you're likely getting smarter reasoning AND less reliable tool execution. You need separate evals for each. Treating them as correlated is how you ship agents that fail in unexpected ways.
+
+Governance catches what capability misses. EU AI Act fines go up to €35M or 7% of global turnover for high-risk systems — and "we used the best available model" is not a defense. You need error detection, fallback paths, and audit trails built into the agent architecture, not bolted on after the first incident.
+
+The builders who are winning in production aren't using the most capable models. They're using models that fail predictably — and building systems that catch those failures.
+
+Capability is table stakes. Reliability is the moat.
+
+#AIAgents #EnterpriseAI #AIGovernance
