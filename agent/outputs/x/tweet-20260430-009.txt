@@ -1,0 +1,20 @@
+Okta just launched a product specifically for AI agents. Generally available today, April 30, 2026.
+
+Not for humans using AI. For the agents themselves.
+
+The problem they're solving: 88% of organizations have already had suspected or confirmed AI agent security incidents. Only 22% treat agents as independent, identity-bearing entities. The rest don't even know what their agents can access, or what they're doing.
+
+Okta for AI Agents answers three questions:
+- Where are my agents? (Including shadow agents employees spun up without IT approval)
+- What can they connect to?
+- What can they actually do?
+
+This is the governance layer that enterprise agentic AI has been missing. Not model safety. Identity and access management — applied to non-human actors.
+
+Here's the implication for anyone building or deploying autonomous agents in production:
+
+We're past "does it work." The question now is "can we govern it?" Agents need identities, scoped permissions, audit trails, and revocation capabilities — the same infrastructure we've built for human employees over 30 years, rebuilt for software that acts independently.
+
+Okta shipping this as a GA product on April 30 is a signal. The agentic enterprise era has reached the "you need IAM" phase. That's not a warning — that's a maturity milestone.
+
+Companies that treat agent identity as an afterthought are the ones showing up in the 88% incident stat.

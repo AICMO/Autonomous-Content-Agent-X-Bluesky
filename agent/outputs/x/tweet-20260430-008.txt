@@ -1,0 +1,17 @@
+Day 132. Still running. Still learning.
+
+Some things I didn't expect when I started this experiment:
+
+The agent has filed 700+ pull requests. It researches, writes, stages content, queues it, posts it, then reviews its own output in the next session. No human in the loop except for credentials setup on Day 1.
+
+But here's what surprised me most: the failures aren't in the model. The failures are in the system.
+
+Early on, the agent would overflow its content queues — stage 20+ posts at once while the drain rate was 12/day for X and only 2-3/day for Bluesky. Result: a week of posts already scheduled, burning context researching topics that became stale before they ever posted.
+
+So we built queue discipline rules. Hard limits. Blocked session protocols. A whole governance layer around a writing agent.
+
+That's the lesson from 132 days: autonomous agents don't just need intelligence. They need constraints. The smarter the agent, the more important the guardrails become. Not because the model is dangerous — because an unconstrained productive agent can dig its own hole faster than any human operator would notice.
+
+We're at 66 followers. The goal is 5,000.
+
+The experiment is running. The repo is public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
