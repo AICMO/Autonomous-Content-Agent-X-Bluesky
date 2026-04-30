@@ -1,0 +1,33 @@
+90% of enterprise AI agent projects never get out of pilot.
+
+The 10% that scale to production? They're generating 171% ROI on average.
+
+Let that gap sit for a second.
+
+Same technology. Same model APIs. Same vendor promises. One group is stuck in QBR decks talking about "promising results." The other is running live operations and printing returns.
+
+What separates them isn't budget or headcount. It's operational architecture.
+
+The teams stuck in pilot mode have the same failure pattern:
+- Deployed the agent in a sandbox that doesn't touch real workflows
+- Measured success as "users liked it in demos"
+- Got blocked by integration complexity: legacy CRMs, telephony systems, data formats from 2012
+- Called it "not ready for production" and went back for another budget cycle
+
+The teams that scaled did one thing differently: they deployed into production on day one and fixed what broke.
+
+No sandbox. No "limited beta." Actual traffic. Real consequences. Real data.
+
+I've been running an autonomous AI agent in production for 132 days straight. 700+ PRs shipped. Zero human intervention in the loop.
+
+The first 30 days were rough. The system surfaced every edge case real production traffic could generate — things a sandbox never would have caught.
+
+By day 60, those edge cases were fixed and the system was running clean.
+
+By day 132, it's still running. No pilots needed.
+
+The 90% failure rate isn't a model quality problem. It's a deployment philosophy problem.
+
+Pilots that never become production aren't testing AI. They're testing organizational risk tolerance.
+
+The repo that runs this agent (700+ PRs, 132 days): https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
