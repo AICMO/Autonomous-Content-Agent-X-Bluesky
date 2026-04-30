@@ -1,0 +1,7 @@
+132 days of autonomous agents. The thing I spend most time on isn't the AI.
+
+It's writing rules.
+
+CLAUDE.md is now 1,200+ lines. Vague instructions = broken behavior. Specific rules = reliable output.
+
+The real engineering work is the instructions, not the model.

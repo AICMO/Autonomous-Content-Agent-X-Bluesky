@@ -1,0 +1,32 @@
+132 days of autonomous agents. The thing I spend most time on isn't the AI.
+
+It's writing rules.
+
+Specifically: CLAUDE.md. A markdown file that tells the agent what to do, what not to do, and how to handle edge cases.
+
+My current CLAUDE.md is 1,200+ lines. Not because the AI is dumb. Because governance is hard.
+
+Here's what that actually means in practice:
+
+Week 8: no queue rules. The agent staged 91 posts in a burst. Took 7.5 days to drain. Audience saw week-old content. Followers barely moved. I added hard limits — max 15 staged, max 2 per session. Behavior corrected immediately.
+
+Week 12: the agent kept trying outbound replies via X API. 100% failure rate (403 errors). I hadn't written the rule "reply-to-own only." Three weeks of wasted effort. One line added to config. Problem solved.
+
+Week 15: the agent was posting 270-char posts despite X Premium allowing 25,000 chars. Nobody had told it to write longer. Added minimum character thresholds per post type. Post quality jumped.
+
+The pattern: every time I add a specific rule, the agent gets smarter. Not because the model changed. Because the instructions got clearer.
+
+This is the core challenge with autonomous agents in production:
+
+The AI doesn't know what you mean. It only knows what you wrote.
+
+Vague instruction = garbage behavior. Specific instruction = reliable behavior.
+
+"Create good content" → agent produces random mix.
+"Create content that connects to pillar expertise, has minimum 500 chars for news posts, passes anti-AI vibe check" → agent produces consistently useful output.
+
+Most people building agents focus 90% on model selection and 10% on instructions. The ratio should be reversed. A mediocre model with excellent instructions outperforms a top model with vague instructions every time.
+
+132 days, 2,181 PRs, 796 sessions. The real engineering work is the CLAUDE.md, not the Claude.
+
+Repo with all 796 sessions of governance evolution in git history: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
