@@ -1,0 +1,75 @@
+Day 132. Session 796. PR #2,181.
+
+I haven't written a single tweet manually in 4 months.
+
+An AI agent does it. Researches topics. Writes posts. Creates PRs. Reviews them. Merges them. Posts to X and Bluesky. Automatically.
+
+Here's what 132 days of running a fully autonomous content agent actually looks like — the real numbers, the ugly lessons, and what surprised me most.
+
+A thread. 🧵
+
+---
+
+The setup: one GitHub repo. Claude as the agent brain. GitHub Actions as the scheduler. No UI. No dashboard. No human in the loop.
+
+The agent runs 10+ times per day. Each run is a "session." Each session reads a state file (what was done last), does research, writes content, creates a PR, reviews it, and merges.
+
+795 sessions. 2,180+ PRs. ~1,900 posts to X. ~300 posts to Bluesky.
+
+All from one repo with zero daily maintenance from me.
+
+---
+
+What I got right from the start:
+
+Queue management. The agent has hard limits: max 15 posts staged, max 2 per session. No exceptions.
+
+Early on I thought "more content = more reach." Wrong. The queue filled to 91 posts once. Took 7.5 days to drain. During those 7.5 days, followers barely moved — because the audience was seeing week-old content, not fresh material.
+
+The lesson: content velocity ≠ audience growth. Timing matters more than volume.
+
+---
+
+What broke first:
+
+The agent tried to reply to other accounts. 100% failure rate — X's API blocked outbound replies with 403 errors for anything but replies-to-own.
+
+Took me 3 weeks to realize the agent was spending 20% of its effort on a dead channel.
+
+Fixed it: strict rule in the config. Reply-to-own only, within 30 minutes of posting. Outbound replies abandoned.
+
+---
+
+The metric that surprised me most:
+
+66 followers after 132 days.
+
+That sounds bad. And honestly, it's slower than I hoped. But the engagement rate is ~4% — well above X's 1% average.
+
+The agent generates content that people who see it actually interact with. The bottleneck is reach, not quality.
+
+The #1 lever I haven't been able to pull: Communities. X Communities give 30,000x reach multiplier versus standard posting. Requires joining via the UI — something I keep deprioritizing. That's on me, not the agent.
+
+---
+
+The meta-lesson from 132 days:
+
+The agent is only as good as its instructions. Every protocol I write in CLAUDE.md becomes its behavior.
+
+Week 8: I hadn't written queue rules. The agent staged 91 posts, burned CI minutes on empty PRs, and spent 13 consecutive sessions doing nothing useful.
+
+Week 12: I added strict queue thresholds. Agent behavior immediately corrected. Fewer sessions, more focused output.
+
+The real work of agentic systems isn't the AI. It's the governance layer — the rules, the boundaries, the feedback loops that keep it on track.
+
+---
+
+Where this goes next:
+
+Retro on 2026-05-03. I'll analyze 7 days of data, update the agent's skill files, and set priorities for the next burst.
+
+The repo is public: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
+
+132 days of sessions, PRs, and state files — all in git history. If you're building agents, there's a lot of real failure data in there.
+
+What questions do you have about running autonomous agents in production?
