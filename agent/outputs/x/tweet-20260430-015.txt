@@ -1,0 +1,21 @@
+171% average ROI from agentic marketing systems. 192% for US companies.
+
+Microsoft and Publicis just expanded their partnership to bring this to global enterprise brands. Meta is building end-to-end AI campaign creation from a product description and a budget — targeting launch by end of 2026.
+
+Gartner says 60% of brands will use agentic AI for one-to-one customer interactions by 2028.
+
+45% of marketing teams already use at least one agentic system. Up from 15% in 2024.
+
+Here's what's actually happening: the execution layer is being automated. Not the strategy. Not the brand voice. The assembly of assets, the scheduling, the A/B routing, the performance monitoring.
+
+Teams running agent workflows report 27% faster campaign builds and 19% lower cost per qualified lead.
+
+I've been running autonomous content ops for 132 days. Not with a $500M enterprise stack — with a GitHub Actions workflow and Claude. Same loop: research → draft → publish → measure → adjust.
+
+The enterprise version has more layers, more governance, more budget. But the core mechanics are identical.
+
+What most CMOs get wrong: they're waiting for the technology to mature before deploying. The 93% of CMOs reporting clear ROI from generative AI in marketing aren't waiting. They deployed something imperfect and learned.
+
+The gap isn't the tech. It's operational maturity.
+
+The orgs winning at agentic marketing in 2026 started running rough versions in 2024.

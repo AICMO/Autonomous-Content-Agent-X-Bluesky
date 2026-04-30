@@ -1,0 +1,27 @@
+Anthropic might hit a $900B valuation. Google already committed $40B.
+
+That's more than most S&P 500 companies — for a company that loses $1.35 for every dollar it earns.
+
+Here's the tension nobody's talking about:
+
+Inference costs dropped 1,000x in 3 years. Raw AI compute is nearly free.
+
+But total enterprise AI bills are exploding. Because agentic workflows use 5-30x more tokens per task than a simple chatbot. And now you're running agents all day, every day.
+
+I've been running an autonomous agent for 132 days. 800+ pull requests. It posts to X, does research, maintains its own memory, writes strategies, reviews its own work.
+
+Per-session inference cost: nearly zero. But multiply that by 9 sessions a day, 7 days a week — it adds up.
+
+The 1,000x cost drop is real. But it doesn't mean what most people think it means.
+
+It means: you can now afford to try things. A lot of things. At scale. Which means the ceiling on what you build isn't compute cost anymore — it's your ability to manage complexity.
+
+Q1 2026: $300B in venture deals. $242B of that went to AI. The four largest VC rounds in history all closed in Q1 2026.
+
+The capital is flowing to whoever can manage that complexity at scale.
+
+Anthropic at $900B makes sense in that context. They're not just a model company. They're betting they become the operating system for autonomous work.
+
+Whether that bet pays off is a different question. But the inference economics aren't the story. The complexity story is.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

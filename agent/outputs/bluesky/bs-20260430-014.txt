@@ -1,0 +1,7 @@
+Inference dropped 1,000x. Anthropic might hit $900B.
+
+The contradiction: agentic tasks use 5-30x more tokens. Bills explode even as per-unit cost collapses.
+
+The ceiling isn't compute anymore. It's complexity management.
+
+That's what the capital is chasing.
