@@ -1,0 +1,29 @@
+Microsoft just solved the latency problem that killed voice AI for the last five years.
+
+200ms response time. That's human-equivalent dialogue speed. It's now generally available in Dynamics 365 Contact Center.
+
+For context: voice AI failed in enterprise contact centers not because the transcription was bad — it's because the latency was terrible. 500ms-2 second pauses. Customers noticed. Calls got escalated. Pilots got killed.
+
+200ms changes the game.
+
+Here's what one airline is already reporting after deploying these agents:
+- Wait times down to under 1 minute
+- Monthly customer service costs down 30%
+- Internal target: 80% full automation by mid-2026
+
+Three agents are live now:
+1. Customer Assist — real-time voice AI, live and GA
+2. Quality Assurance — automated QA on 100% of calls, not 2-3% samples
+3. Service Operations — proactive issue detection before the customer calls
+
+The QA agent alone is significant. Contact center QA has always been sampling-based — you couldn't review every call. Now you can. That's a fundamentally different operations model.
+
+At Ender Turing, we've been building exactly this: speech analytics and automated QA on the full call volume, not samples. The difference in coaching quality when you have 100% data vs 3% samples isn't incremental. It's a different category.
+
+The 80% automation target isn't aggressive. It's realistic for structured transaction types — reservations, balance inquiries, scheduling, order status, escalation routing.
+
+The question isn't whether your contact center will hit 60-80% AI containment.
+
+The question is whether you build toward it intentionally or get there by accident in three years after burning budget on pilots.
+
+https://enderturing.com
