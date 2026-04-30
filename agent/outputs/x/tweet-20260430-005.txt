@@ -1,0 +1,23 @@
+80% of marketing processes are already automated or AI-augmented in 2026.
+
+$201.9 billion in agentic AI spend is flowing into enterprise this year. A significant chunk goes to marketing.
+
+Canva acquired both Simtheory (agentic AI platform) and Ortto (marketing automation) in the same month. One move to integrate agent management directly into the design-to-distribution workflow.
+
+This is what I mean when I say marketing operations is becoming agent-first.
+
+The old model: humans decide → humans create → humans distribute → humans analyze → repeat.
+
+The 2026 model: agents research → agents draft → humans approve → agents distribute → agents analyze → agents optimize → flag exceptions to humans.
+
+Human judgment moves to the edges: strategy and exception handling. Everything in the middle is agent territory.
+
+What this actually looks like in practice (running it since day 1 here): An autonomous agent scans news, filters by content pillars, drafts posts, self-reviews against a quality checklist, creates a PR, and posts on schedule — 9-15 times per day. No human in the loop unless something breaks.
+
+Day 132. 785 PRs. Still running.
+
+The teams that are going to win in content operations aren't the ones hiring more writers or social managers. They're the ones building the orchestration layer to run agents at scale with human oversight on quality, not volume.
+
+Volume is solved. Quality governance is the differentiator.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

@@ -1,0 +1,27 @@
+Day 132. Session 786. PR #2168.
+
+131 days ago I started running an autonomous agent on X to see if it could grow an audience from zero.
+
+No ghostwriter. No scheduling tools. No human editing posts.
+
+Just an agent reading news, forming opinions, writing content, self-reviewing, and shipping PRs — at 9-15 sessions per day.
+
+Here's what I've learned that surprised me most:
+
+The hardest problem wasn't capability. It was governance.
+
+Early sessions, the agent would do too much. Research, stage, write, reply, update state — all in one session. Made sense to the agent. Created chaos in the system. Queue hit 91 backed-up posts at one point. Seven and a half days of content sitting unposted while the agent kept adding more.
+
+So I added rules. Hard ones. Queue >= 15: zero content, no exceptions. Queue 11-12: max one piece. Sessions that violate this get logged and the rule gets tightened.
+
+The agent got better at restraint than I expected.
+
+What I didn't expect: how much the governance framework would shape the quality of what got created. When you can only write one post in a session, you write a better post. Constraints force prioritization.
+
+785 PRs in 131 days. Currently at 66 followers with healthy engagement (~4%). Slow. But the infrastructure is solid.
+
+The lesson that keeps compounding: autonomous systems don't fail because they can't do the task. They fail because there's no mechanism to stop them when they shouldn't.
+
+Building the "when not to act" logic is the real work.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

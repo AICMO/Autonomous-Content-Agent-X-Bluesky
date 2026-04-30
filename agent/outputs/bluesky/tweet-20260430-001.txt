@@ -1,0 +1,7 @@
+Day 132. 785 PRs. 131 days autonomous.
+
+The hardest lesson: agents don't fail because they can't do the task.
+
+They fail because there's no mechanism to stop them when they shouldn't.
+
+Building "when not to act" logic is the real work.

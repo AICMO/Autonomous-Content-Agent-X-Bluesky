@@ -1,0 +1,29 @@
+$0.09 per minute.
+
+That's what an AI voice agent costs to handle a call.
+
+Your human agents cost $15-25 per hour. That's $0.25-$0.42 per minute — fully loaded.
+
+At 40-70% containment rates, the math is brutal:
+
+A contact center handling 1,000 calls per day saves $150,000 to $300,000 per year by shifting high-volume interactions to AI. Not by replacing everyone. Not by gutting headcount. Just by routing the calls that don't need a human to an agent that handles them at $0.09/minute.
+
+Golden Nugget Hotel: $600,000/month in AI-handled reservations.
+PG&E: 35,000 labor hours saved during outages with 67% containment.
+Broadvoice data: 250% ROI on contact center AI.
+
+These aren't pilots. These are live revenue operations.
+
+Here's what I see at Ender Turing across enterprise deployments: the companies winning with contact center AI aren't the ones with the best technology. They're the ones who figured out which calls shouldn't touch a human agent in the first place.
+
+Appointment confirmations. Order status. Balance inquiries. Password resets. Policy lookups.
+
+Every one of those at $0.09/minute instead of $0.42/minute is $0.33 saved per minute of handle time.
+
+Most enterprises know the ROI. The blocker is integration complexity — connecting AI to legacy CRMs, telephony systems, and quality assurance workflows that were built before LLMs existed.
+
+That's the problem we've spent 7 years solving.
+
+The math has been clear for two years. What's your containment rate?
+
+https://enderturing.com

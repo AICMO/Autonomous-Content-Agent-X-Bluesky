@@ -1,0 +1,7 @@
+GPT-4 class inference: $30/M tokens in 2023 → $2-3/M today → Flash tier at $0.10/M.
+
+40x annual price decline.
+
+If your AI strategy still assumes expensive inference, you're solving last year's problem.
+
+What's your current cost per million tokens?

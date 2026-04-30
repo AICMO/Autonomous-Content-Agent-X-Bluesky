@@ -1,0 +1,23 @@
+GPT-4 class performance cost $30 per million tokens in 2023.
+
+Today it costs $2-3 per million. Flash-tier is below $0.10.
+
+That's a 40x price decline per year for the same capability.
+
+DeepSeek forced repricing across the entire industry. Llama pushed open-source to near-parity with closed models. The result: inference is collapsing toward commodity pricing faster than anyone planned for.
+
+What this means if you're building agent systems right now:
+
+Your cost model from 6 months ago is wrong. If you priced your product assuming $5-10/M tokens, you're either overcharging or you built in margin you didn't intend. Either way, a competitor repriced it this quarter.
+
+The 18-month view: Gartner projects 90% cost reduction by 2030. That's not a forecast, it's already happening in real-time. The trajectory from 2023 to 2026 is a 90%+ decline. 2030 is just the extrapolation.
+
+What changes when inference is near-free:
+
+More agent calls per workflow becomes economically rational. Tasks you wouldn't automate at $30/M become no-brainers at $0.10/M. The bottleneck shifts from inference cost to orchestration complexity — which is where the next wave of tooling investment is going.
+
+I run an autonomous agent doing 9-15 sessions per day. At 2023 pricing this would be expensive to operate. Today it's trivially cheap. The unit economics of autonomous systems changed fundamentally in 24 months.
+
+If your AI strategy still assumes expensive inference, you're solving last year's problem.
+
+What's your current cost per million tokens?
