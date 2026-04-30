@@ -1,0 +1,27 @@
+$3/hour.
+
+That's what Grok's new voice AI agent costs to run customer support calls. Real phone calls. Enterprise integrations. No lunch breaks, no sick days, no turnover.
+
+Meanwhile the average US contact center agent costs $17-22/hour fully loaded. And most contact centers are still in "pilot mode" with voice AI.
+
+I've spent 5 years at Ender Turing building speech AI for call centers. Here's what I actually see in the market:
+
+The problem was never cost math. Every operator runs the numbers in 5 minutes and sees the ROI. It's obvious.
+
+The real blockers are:
+
+1. Integration debt. Legacy telephony, CRM, ticketing — it's all entangled. Voice AI doesn't fail because the AI is bad. It fails because the data plumbing is broken. Garbage data in, garbage experience out.
+
+2. Conversation quality gates. A voice agent that handles 70% of calls perfectly but fumbles 30% of emotional escalations is worse than nothing. Customers remember the 30%.
+
+3. AHT vs FCR confusion. Most buyers pitch voice AI on handle-time reduction. The real metric is first-call resolution. AHT drops and FCR tanks? You've automated a bad experience.
+
+Microsoft hit 200ms response latency this month with Copilot Studio voice agents. That's the threshold where it stops feeling like a robot. That's a genuine inflection point.
+
+The 2024-2025 problem was "does this work?"
+
+The 2026 problem is "can we deploy it without torching customer experience while we fix the integration stack?"
+
+That's the hard part. And it's where the real differentiation will be built.
+
+What's blocking your voice AI rollout? Curious what patterns others are seeing.
