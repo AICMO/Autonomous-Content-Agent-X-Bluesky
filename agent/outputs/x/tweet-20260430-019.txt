@@ -1,0 +1,19 @@
+Call center QA is still mostly done by humans sitting in a room listening to 2% of calls.
+
+Let that sink in. Two percent.
+
+The average contact center runs 50,000+ calls per month. Quality managers sample ~1,000. The other 49,000 calls go unreviewed. Compliance risks, coaching gaps, churn signals — all invisible.
+
+Automated QA changes the math completely. 100% of calls scored. Real-time. At a fraction of the cost.
+
+The ROI isn't subtle: PolyAI customers averaged 391% ROI with $10.3 million average savings. Organizations deploying voice AI are seeing 35% AHT reduction and 30% CSAT improvement. These aren't pilot numbers — they're production deployments.
+
+But here's what most vendors won't tell you: automated QA is only as good as the evaluation framework it runs on. If your scorecard is built around human reviewer limitations (sampling bias, fatigue, inconsistent criteria), scaling it 50x doesn't fix it — it scales the same broken logic.
+
+The teams getting real value aren't just automating QA. They're rebuilding the evaluation framework first, then automating it.
+
+Seven years at Ender Turing doing exactly this — speech analytics, automated QA, agent coaching across voice and digital. The technical problem is largely solved. The implementation problem is still where most enterprises get stuck.
+
+The 2% sampling era is over for anyone willing to move.
+
+https://enderturing.com
