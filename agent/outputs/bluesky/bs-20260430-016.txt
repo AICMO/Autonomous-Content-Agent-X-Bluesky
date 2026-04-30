@@ -1,0 +1,9 @@
+Citi launched Arc — an OS for coordinating AI agents across banking.
+
+Not a pilot. Infrastructure.
+
+Only 14.4% of orgs send agents to production safely. 88% had security incidents.
+
+Arc is the rare case where governance matched deployment ambition.
+
+Financial services is the canary.

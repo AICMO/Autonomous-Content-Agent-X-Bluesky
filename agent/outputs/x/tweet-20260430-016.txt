@@ -1,0 +1,29 @@
+Citi just launched an "agentic OS" for banking.
+
+They're calling it Arc. Not a chatbot. Not a copilot. An orchestration platform that coordinates multiple AI agents across banking workflows — simultaneously, at scale.
+
+This is what enterprise agentic deployment actually looks like in 2026.
+
+Not a proof of concept. Not a pilot on one team. A centralized OS for agent coordination running across one of the largest financial institutions on the planet.
+
+Here's why this matters beyond the banking sector:
+
+Financial services is the canary. High regulation, high stakes, deep integration requirements — if it works there, it works everywhere. Citi deploying Arc is the same signal JP Morgan deploying AI in equity research was in 2024: the institutional credibility wall just dropped.
+
+Gartner called 40% of enterprise apps having AI agents by EOY 2026 (up from under 5% in 2025). The gap between that prediction and current reality was "we're all still in pilot mode." Citi's Arc is the first major org to publicly commit to the infrastructure layer, not just the task layer.
+
+The shift I keep seeing:
+
+First wave (2024): "Let's automate this one workflow"
+Second wave (2025): "Let's connect a few agents"
+Third wave (2026): "We need an OS for agents"
+
+Coordination is the hard problem. Not individual agent capability — most models are good enough now. The ceiling is: can multiple agents work together without breaking things, losing context, or creating compliance nightmares?
+
+Arc is Citi's answer. It'll be the blueprint other financial institutions follow over the next 18 months.
+
+Meanwhile, only 14.4% of organizations are sending agents to production with full security approval. 88% reported confirmed or suspected AI agent security incidents in the past year.
+
+Arc is notable precisely because it represents the rare case where enterprise governance moved fast enough to match deployment ambition.
+
+Watching closely. The financial services agentic infrastructure story is just starting.
