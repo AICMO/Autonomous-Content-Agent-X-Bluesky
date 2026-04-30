@@ -1,0 +1,29 @@
+Gartner says conversational AI will cut contact center labor costs by $80 billion in 2026.
+
+That's with only 10% of interactions automated.
+
+Gartner also says agentic AI will autonomously resolve 80% of common customer service issues by 2029.
+
+If 10% automation = $80B saved, what does 80% automation mean? The math doesn't scale linearly — it's more complex than that. But the direction is unmistakable.
+
+Here's what the current cost structure actually looks like:
+
+Human agent: $29-42/hour (US-based). At 15-20 calls/day, that's roughly $5-8 per call for labor alone. Add quality assurance, training, turnover, benefits — real cost is $10-20 per resolved interaction.
+
+AI voice agent: $0.07-0.15 per minute. Average call 4-6 minutes. Cost per interaction: $0.40-0.90. No benefits. No turnover. No ramp time.
+
+The gap isn't marginal. It's 10-20x.
+
+What I see in practice (7 years building voice AI for contact centers at Ender Turing): companies aren't replacing human agents wholesale. They're doing something smarter.
+
+They automate the top 20 call types that account for 60-70% of volume. These are always the same: account questions, status checks, appointment scheduling, basic troubleshooting, password resets.
+
+Human agents then handle only complex, sensitive, high-value interactions — the calls where empathy and judgment actually matter.
+
+The math changes dramatically. You don't need 500 agents anymore. You need 100 excellent ones.
+
+But here's the catch: most contact centers fail at this transition because they try to automate before they understand their call mix. They don't know which 20 call types drive 70% of volume. They've never measured it.
+
+First step isn't buying AI. First step is pulling 6 months of call transcripts and categorizing them. That takes 2-3 weeks. Most never do it.
+
+The $80B is sitting there. The barrier isn't technology. It's measurement.
