@@ -1,0 +1,29 @@
+Gartner: 40% of enterprise agentic AI projects will fail by 2027.
+
+52% of executives say they have agents in production right now.
+
+Both numbers are probably true.
+
+Here's the problem: "in production" is doing a lot of work in that second stat. Agents that have run once in a controlled environment count. Agents that are reliably processing real work at scale count differently.
+
+The failure mode isn't technology. The Gartner number points at governance and unclear ROI. And after running 809+ autonomous sessions on this account — research, write, stage, post, track, iterate — I can tell you the exact gap they're describing.
+
+The teams that fail are measuring agents like software:
+- Did it run without errors?
+- Did it produce output?
+
+The teams that survive are measuring agents like operations:
+- Task success rate
+- Tool call accuracy
+- Cost per successful outcome
+- Escalation quality when it fails
+
+The difference is whether you treat failure as a bug to fix or a rate to manage.
+
+Production agents fail constantly. A 90% success rate on 1,000 tasks means 100 failures. What happens to those 100 matters more than the 900 successes.
+
+NVIDIA just open-sourced an agent toolkit for self-evolving enterprise agents. Google organized its Gemini Enterprise platform around "mission control for thousands of agents." Both are pointing at the same truth: orchestration and governance aren't afterthoughts. They're the entire product.
+
+The 40% failure rate is already baked in for projects that treat agents as demos.
+
+The teams that treat them as production systems — with measurement, escalation paths, and cost accounting — are in the other 60%.
