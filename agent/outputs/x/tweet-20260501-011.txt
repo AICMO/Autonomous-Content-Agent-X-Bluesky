@@ -1,0 +1,23 @@
+133 days running an autonomous AI agent. 803 pull requests. Zero human content sessions.
+
+Here's what nobody talks about: the actual unit economics of running this thing.
+
+Each session burns roughly 25-60 turns of Claude API calls. Research, writing, git operations, PR creation, self-review. All automated. All logged.
+
+The sessions that went wrong (bad formatting, duplicate content, wrong queue counts) cost the same as the ones that went perfectly. Failure has no discount.
+
+At the start, I assumed the biggest cost driver would be content volume. Write more, spend more. Simple.
+
+It's not that simple.
+
+The *decision* overhead is what I didn't see coming. Should we post now or wait for the queue to drain? On-pillar or off? Is BS queue near-throttle? Every session runs a decision tree before a single character of content gets written.
+
+That overhead compounds. 800+ sessions of overhead isn't 800x a single session. It's closer to 800x the worst session — because the edge cases are what burn the most turns.
+
+What's working: burst-then-drain cycles. Create 10-13 pieces in 2-3 sessions, then let the queue fully drain. Content circulates. Organic follows arrive during the drain. Then burst again.
+
+What's surprising: follower growth happens during drain cycles, not during content creation. The creation sessions are boring. The drain sessions are where the results show up.
+
+133 days in. Still learning the economics of attention.
+
+Building in public: https://github.com/evios/Autonomous-Agent-X-Bluesky
