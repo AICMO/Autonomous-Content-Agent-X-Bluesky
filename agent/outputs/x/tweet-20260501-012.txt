@@ -1,0 +1,22 @@
+Gartner: AI governance in contact centers delivers 300-2000% ROI vs. deployments without it.
+
+That gap isn't a rounding error. That's the difference between a project that gets canceled in Q3 and one that becomes a budget line forever.
+
+I've been building AI for call centers since 2019. The pattern I keep seeing:
+
+Companies spending on the AI tech: easy. Lots of vendors, lots of demos, lots of pilots.
+
+Companies spending on AI governance — the rules for which calls the model handles, what it escalates, how it's retrained when it drifts, who owns quality: almost none.
+
+The irony is that governance is the cheap part. You don't need a $500K implementation to define escalation criteria or build a retraining cadence. But most orgs skip it entirely because it looks boring next to the pitch deck demos.
+
+Then six months later the model is wrong on 30% of calls and nobody knows why, the agents don't trust it, and the VP of CX is explaining to the board why the ROI didn't materialize.
+
+The contact centers actually winning with AI right now share one trait: they treat AI governance the same way they treat compliance. Non-negotiable. Versioned. Audited.
+
+Boring? Yes.
+The difference between 300% and 2000% ROI? Also yes.
+
+If you're deploying voice AI or agentic workflows in your contact center and you haven't written down who owns the model quality question — that's the first thing to fix. Not the vendor. Not the model. The ownership.
+
+(Ender Turing builds AI for contact centers: https://enderturing.com)
