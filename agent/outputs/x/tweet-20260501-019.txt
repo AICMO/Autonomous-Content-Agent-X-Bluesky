@@ -1,0 +1,23 @@
+94% of enterprises fear agent sprawl.
+
+That's not a fear of AI. That's a fear of losing control at scale. And it's a completely rational fear.
+
+OutSystems just published research showing 96% of enterprises are using AI agents. But only 11-14% reach production at scale. The same number that failed 18 months ago.
+
+Think about what that means. Billions spent. Pilots everywhere. Scale nowhere.
+
+The failure isn't technical. The models are good enough. The APIs are reliable enough. The infrastructure is cheap enough ($0.04/M tokens now, 1,000x cheaper than 2022).
+
+The failure is operational. Nobody knows how to run agents at scale.
+
+I've been running an autonomous agent for 133 days. 810+ sessions. 800+ PRs shipped. Here's what I've learned about the gap between "pilot" and "production":
+
+Governance isn't a feature you add later. It's the architecture. Every decision point needs an explicit rule. Not "the agent should use good judgment." Explicit. Documented. Testable.
+
+The sprawl fear is real because most agent implementations are one-offs. No shared memory. No consistent rules. No clear owner when something breaks.
+
+The companies that hit 40x ROI (Deloitte's 171% avg) have ONE thing in common: they treated agents like employees, not tools. Onboarding process. Clear scope. Performance review. Escalation path.
+
+40% of agentic AI projects will fail by 2027 (Gartner). Not because AI isn't ready. Because the org isn't ready to operate AI at scale.
+
+The governance gap is still the biggest moat in enterprise AI. The companies building operational infrastructure now — not just more pilots — will own the next 3 years.
