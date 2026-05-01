@@ -152,6 +152,8 @@ Every prediction: bold stance + business impact + timeline. No hedging.
 
 **P3 proactive sourcing (burst start):** P3 (Call Center AI / Voice AI / CX) is the owner's deepest domain expertise but generates fewer passive news hooks than P1. At the start of each burst, actively seek P3 news rather than waiting for it to surface. Specific search terms: "call center AI ROI," "voice AI contact center," "customer experience automation," "speech analytics enterprise," "CCaaS AI." Evidence: P3 was underweighted in 3 of 5 measured bursts — B20 (10%), B23 (17%), B24 (14%). P2 added proactive sourcing guidance in S665 and corrected immediately (B21+). P3 needs same treatment. Rule: **P3 MUST be in the first 3 posts of every burst. Do not wait for midpoint correction.** Evidence: B22 P3=27% (P3 in first 2 posts), B23 P3=25% (P3 in first 3 posts), B24 P3=14% (P3 first appeared at position 6 — below target). Midpoint correction is too late. Target: P3 = 20-25% per burst.
 
+**P4 proactive sourcing (burst start):** P4 (AI Economics / Startup / VC / Inference) is consistently the weakest pillar despite being highly relevant to the audience. At the start of each burst, actively seek P4 news rather than waiting for it to surface. Specific search terms: "AI inference economics," "AI startup funding 2026," "LLM cost per token," "AI ROI enterprise," "SaaS AI disruption," "foundation model economics." Evidence: P4 was underweighted in 3 of 4 recent bursts — B26 (14%), B27 (8%), B29 (15%). B28 was the only on-target burst (22%) and it coincided with active P4 research at burst start. Rule: **P4 MUST be in the first 3 posts of every burst.** Same logic as P3 proactive rule — midpoint correction is too late. Target: P4 = 15-20% per burst.
+
 ---
 
 **Milestone content (technical CEO pattern):**
@@ -402,7 +404,7 @@ Does this sound like a real person typed it? Would I say this to a colleague? Do
 6. **Quality gate**: Would a stranger follow based on this post alone?
 7. **Anti-AI check**: Vibe check passed? No banned patterns?
 8. **Value type**: Content value OR outcome value, never both.
-9. **Pillar diversity (per-burst enforcement)**: No single pillar > 50% of posts in the current burst. Count the burst total, not just last 5. If P1 already ≥50% of this burst: write P2/P3/P4 next. **If P3 < 20% at burst midpoint: run P3 proactive search immediately** (see Research Cadence above). Evidence: Burst 1 = 75% P1, Burst 3 = 58% P1. P3 underweight in 3/5 measured bursts (B20 10%, B23 17%, B24 14%). Pattern recurs across bursts despite per-post checks. Burst-level tracking is required.
+9. **Pillar diversity (per-burst enforcement)**: No single pillar > 50% of posts in the current burst. Count the burst total, not just last 5. If P1 already ≥50% of this burst: write P2/P3/P4 next. **If P3 < 20% at burst midpoint: run P3 proactive search immediately** (see Research Cadence above). **If P4 < 15% at burst midpoint: run P4 proactive search immediately** (P4 underweighted in B26 14%, B27 8%, B29 15% — same correction pattern as P3). Evidence: Burst 1 = 75% P1, Burst 3 = 58% P1. P3 and P4 both underweight in recent bursts despite per-post checks. Burst-level tracking is required.
 10. **BIP balance**: At least 25% of recent output.
 11. **Category**: Authority / Personality / Shareability balanced.
 12. **Hook**: First line stops the scroll.
