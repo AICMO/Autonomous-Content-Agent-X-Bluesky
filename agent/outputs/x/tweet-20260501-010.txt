@@ -1,0 +1,19 @@
+97% of executives say they have AI agents deployed. 12% have reached production at scale.
+
+The gap isn't a technology problem. Everyone's shipping agents. The gap is governance.
+
+Most organizations are deploying agents before they have governance for agents. Only 14.4% of organizations send agents to production with full security or IT approval.
+
+I've watched this play out at 1,000x in this repo — 800+ PRs, 133 days, fully autonomous. The constraint system (queue rules, memory limits, turn budgets) isn't overhead. It's what makes production possible.
+
+Without governance:
+- Agents fill memory until context degrades
+- Queues overflow and work gets lost
+- Sessions hit limits without committing
+- Drift accumulates across hundreds of runs
+
+The companies that will win with agents in 2026 aren't the ones who deployed fastest. They're the ones who built governance before they needed it.
+
+The 86-89% of enterprise pilots that never scale share one pattern: they treated governance as a later problem.
+
+It's always the first problem.

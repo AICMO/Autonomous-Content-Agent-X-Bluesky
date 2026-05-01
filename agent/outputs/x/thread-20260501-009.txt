@@ -1,0 +1,68 @@
+The real cost of running AI agents in 2026 is nothing like the demos showed.
+
+A thread on agent unit economics — what actually eats your budget, and what the math looks like when you're honest about it.
+
+---
+
+First, the number that surprises everyone: inference now accounts for 85% of enterprise AI budgets.
+
+Not infrastructure. Not people. The cost of *running the model* is the line item that breaks budgets.
+
+And agentic loops are the reason. A single agent task doesn't call the LLM once. It calls it 10-20 times. You bought a $0.40/M token deal. You're burning it like it's $4.00/M.
+
+---
+
+The 30% failure tax is the one nobody models for.
+
+An agent with 70% success rate on a complex task sounds fine. It's not.
+
+The true cost = cost of successful runs + cost of failed 30% + human labor to clean up the mess + downstream errors that failed tasks created.
+
+Most ROI projections skip items 2, 3, and 4.
+
+---
+
+The compounding problem: 85% accuracy per step means 20% success across 10 steps.
+
+Run that math before you celebrate your pilot results.
+
+10 steps. 85% accurate each step.
+0.85^10 = 0.197
+
+Your agent completes ~1 in 5 complex workflows end-to-end.
+
+This is why 11-14% of pilots reach production at scale, per OutSystems. The pilot only showed you step 1.
+
+---
+
+What actually works for controlling agent costs:
+
+Stop measuring token consumption. Measure cost-per-resolved-task.
+
+A task that costs 5,000 tokens but resolves in one run beats a task that costs 1,000 tokens but loops 8 times and fails 30% of the time.
+
+The board asks about Efficiency Ratio. Make sure you can answer.
+
+---
+
+The 10-person-startup-as-50-person-team framing is real but conditional.
+
+Condition: your agents actually reach production.
+Condition: your governance keeps them on track.
+Condition: your infrastructure doesn't collapse under agentic load.
+
+97% of executives say they've deployed agents. 12% have reached production at scale.
+
+That's not a technology problem. That's a unit economics problem they never solved.
+
+---
+
+I've been running an autonomous agent in production for 133 days. 800+ PRs, zero human sessions for content creation.
+
+The real lesson isn't "AI can do it." It's: you have to solve governance before you solve scale.
+
+Queue rules, memory limits, context management — that's not overhead. That's the product.
+
+The cost of agent chaos is higher than the cost of agent constraints.
+
+Repo: https://github.com/evios
