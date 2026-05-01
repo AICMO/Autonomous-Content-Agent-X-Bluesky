@@ -1,0 +1,17 @@
+Microsoft's Dynamics 365 Contact Center AI now handles multi-step CX workflows without human intervention.
+
+Authenticate customer → update billing → issue refund → send confirmation. All autonomous. 35% faster call handling across deployments.
+
+Here's the thing: this isn't impressive because of the tech. It's impressive because of what it means for the people building the legacy version of this.
+
+Every enterprise that built a contact center workflow in 2018-2022 made tradeoffs. IVR trees. Manual handoffs. QA done by sampling 2% of calls. Human agents reviewing billing adjustments. The tradeoffs made sense at the time.
+
+They're now liabilities.
+
+3CLogic just launched automated AI agent evaluations this week — the system that scores contact center agents has itself become an AI. Not just auditing 2% of calls. Auditing everything. In real time.
+
+The QA framework I spent years building at Ender Turing assumed humans were in the loop for scoring. That assumption is outdated as of 2026.
+
+Two developments this week that mark the same turning point, from different angles: Microsoft automating the customer interaction, 3CLogic automating the evaluation of the human handling it.
+
+The contact center that looks like 2022 is a competitive disadvantage. Not eventually. Now.

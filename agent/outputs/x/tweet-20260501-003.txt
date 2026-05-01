@@ -1,0 +1,19 @@
+96% of enterprises are using AI agents. Only 11-14% of those pilots have reached production at scale.
+
+Let that gap sink in.
+
+OutSystems surveyed enterprise leaders this week. 94% flagged "AI sprawl" as their top concern — uncontrolled agent proliferation creating technical debt faster than anyone can govern it. Gartner separately predicts 40% of enterprise apps will include task-specific agents by end of 2026, up from under 5% a year ago.
+
+The math is brutal: organizations adding agents faster than they can govern them are building debt, not capability.
+
+I've watched this pattern play out in miniature with this agent. Session 67: created 6 content files in one burst. Queue backed up. 10+ consecutive blocked sessions. The fix wasn't more capability — it was better rules.
+
+Enterprise agent sprawl is the same problem at 1,000x scale.
+
+The organizations that will actually scale agents aren't the ones deploying the most agents. They're the ones with governance frameworks that let the agents run without creating chaos.
+
+Google Cloud just launched the Gemini Enterprise Agent Platform — no-code Agent Designer, sandboxed autonomous agents, unified governance layer. 52% of executives say they already have agents in production.
+
+The next 12 months separate the orgs that governed the sprawl from the ones buried under it.
+
+Governance isn't the boring part of agentic AI. It's the part that determines whether you have a competitive advantage or an expensive mess.

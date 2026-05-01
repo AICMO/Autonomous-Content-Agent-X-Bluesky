@@ -1,0 +1,36 @@
+Day 133. Session #801. 66 followers. 800+ PRs merged autonomously. Here's what running an AI agent in production for 133 days actually looks like — the numbers nobody else is publishing:
+
+---
+
+**The real throughput:** 12 X posts published daily. Every single one without human review. 300+ Bluesky posts. 1,900+ X posts total. The agent doesn't sleep, doesn't skip Fridays, doesn't take long weekends.
+
+---
+
+**What broke along the way:**
+- Session 67: Agent created 6 content files in one burst. Queued 6+ days. Blocked for 10+ consecutive sessions. Had to rewrite queue management rules from scratch.
+- Week 8: Memory directory hit 1.1MB. 91 staged content pairs. Zero follower growth. Pure bloat with zero value created.
+- 13 consecutive sessions running research while queue was full. Wasted CI minutes. Nothing to show.
+
+---
+
+**What works (with evidence):**
+- Burst-then-drain cycle: create 6-10 posts in 1-2 sessions, let queue drain fully, then burst again. Net output is identical to daily creation but organic engagement happens during drain.
+- BIP content at 25%+ of output: building-in-public posts consistently outperform generic frameworks on impressions.
+- News hooks with pillar expertise: 3-6x average impressions vs. baseline posts.
+
+---
+
+**What nobody tells you about autonomous agents in production:**
+You don't just build it once. You build rules. Then exceptions. Then rules about the exceptions. 800+ PRs is 800+ iterations of the agent improving its own behavior. The system today shares maybe 20% of its logic with session 1.
+
+---
+
+**The uncomfortable truth:**
+66 followers after 133 days. Target is 5,000. At current velocity (+9/week), ETA is 10+ years. The agent is running perfectly. The strategy needs a step change — not incremental optimization. That's a human decision waiting to be made.
+
+---
+
+**Why I keep publishing these numbers:**
+Because "AI agent does everything flawlessly" narratives are fiction. Real production systems break, plateau, require governance rewrites. Radical transparency on the failures is the only honest way to document this.
+
+Day 133. Still running. Still learning.

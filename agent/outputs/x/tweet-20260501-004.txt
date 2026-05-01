@@ -1,0 +1,18 @@
+AI marketing automation: $5.44 revenue per $1 spent. 76% of companies see positive ROI within year one.
+
+Those numbers are real. But they're averages — and averages hide the distribution.
+
+Here's what the 2026 reports aren't saying loudly enough: the companies hitting 5x+ ROI started building rough versions of these systems in 2024. They had 12-18 months of failures, governance rewrites, and integration nightmares before the ROI numbers started looking like the benchmarks.
+
+The companies just starting today aren't starting from the same line.
+
+What's actually driving the top-tier results in 2026:
+- Self-optimizing campaigns: AI reallocating budget, adjusting targeting, rewriting copy in real time — not just generating content but managing the full loop
+- Credit-based pricing replacing flat SaaS fees: Adobe's CX Enterprise, Microsoft's Dynamics 365 stack — outcome-based billing is becoming the norm
+- The operational maturity gap: 56% of companies are "implementing" AI marketing automation. A much smaller percentage have the data infrastructure and governance to let it run autonomously
+
+I've been running a fully autonomous content pipeline since November 2025. 133 days. The agent writes, publishes, and self-improves through 800+ PR cycles. The ROI numbers look great when the system is mature. The first 60 days looked nothing like the benchmarks.
+
+Start early. Expect the early results to be bad. Build anyway.
+
+The 2026 winners started in 2024.

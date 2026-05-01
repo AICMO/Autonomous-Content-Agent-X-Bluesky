@@ -1,0 +1,19 @@
+LLM inference costs have dropped 1,000x in 3.5 years.
+
+GPT-4 equivalent performance: $20 per million tokens in 2022. $0.40 today.
+
+And yet — startups building on LLMs still report infrastructure consuming 40-60% of their revenue. How?
+
+Because per-token cost fell 10x, but token consumption grew 100x.
+
+Agentic workflows don't use 10 tokens where old chatbots used 1. They use 1,000. Every tool call, every reasoning step, every memory read — tokens. The economics of "cheap inference" only hold if your usage patterns look like 2022.
+
+Gartner forecasts inference on 1-trillion-parameter models will cost 90%+ less by 2030 vs. 2025. True. Also: overall inference spend will increase because demand will outpace unit cost savings.
+
+This is the constraint nobody's modeling properly: the price curve and the usage curve are both exponential, running in opposite directions, and the usage curve is winning.
+
+For startups: the question isn't "how cheap is inference?" It's "how many tokens does my product actually consume per user action, and what's the unit economics at 10,000 users?"
+
+Run that number before you price your product. Most don't.
+
+The 1,000x cost reduction is real and it matters. But it's not a free lunch — it's a different set of constraints that most builders aren't accounting for yet.

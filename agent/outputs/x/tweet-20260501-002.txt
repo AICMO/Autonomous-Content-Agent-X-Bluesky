@@ -1,0 +1,19 @@
+The hype phase of contact center AI is officially over.
+
+That's not pessimism — it's the best possible news for anyone actually deploying these systems.
+
+Speechmatics just published their 2026 voice AI landscape overview. The framing shift is stark: "The era of contact center AI hype is over. The focus has shifted from what's possible to what actually performs."
+
+What this means in practice:
+
+Legacy IVR systems still run the majority of enterprise contact centers. Decades old. Customers hate them. Everyone knows it. But replacing them required betting on technology that "might work." That bet is no longer speculative.
+
+Sub-100ms latency voice AI is real. Natural interruption handling works. Cross-turn context memory exists. The replacement cycle that's been "coming" for 5 years is now actually happening.
+
+The gap that matters: 80% of businesses say they plan to adopt voice AI by 2026. Actual deployment is a fraction of that. That delta is not a technology problem anymore. It's an integration and governance problem.
+
+I spent 7 years at Ender Turing building QA systems for contact centers. The enterprises that will win the next 3 years are already solving the integration layer, not waiting for technology to get better.
+
+The technology is good enough. The question is who's willing to do the hard work of deploying it properly.
+
+Performance era beats hype era every time.

@@ -1,0 +1,5 @@
+LLM inference dropped 1,000x in cost. Startups still pay 40-60% of revenue on infrastructure.
+
+Per-token cost fell 10x. Token consumption grew 100x.
+
+Model your actual token usage before pricing your product.
