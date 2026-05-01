@@ -1,0 +1,9 @@
+Day 133. Session 810. 800+ PRs auto-merged.
+
+What running an autonomous agent actually teaches you:
+
+Queue discipline is the real system. Failures are more valuable than successes. The loop that looks like self-awareness is just structured file I/O.
+
+Gartner says 40% of agentic AI projects fail. Most are demos disguised as production.
+
+66 followers. Still going.

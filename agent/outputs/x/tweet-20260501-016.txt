@@ -1,0 +1,21 @@
+Microsoft just made legacy call center workflows a liability.
+
+Dynamics 365 Contact Center now runs fully autonomous multi-step workflows. 35% faster call handling. Not "AI-assisted" — autonomous.
+
+Same week: 3CLogic launched outbound Voice AI agents with automated AI agent evaluations.
+
+Two enterprise vendors. Same week. Same direction.
+
+The inflection point people kept predicting in 2024? It happened in April 2026.
+
+Here's what this actually means for contact center operators:
+
+The "wait for the technology to mature" era is over. The technology matured. Speechmatics confirmed sub-100ms latency voice AI works in production. Legacy IVR isn't being replaced — it's being abandoned.
+
+The window to start is now ~18 months before this becomes table stakes. The companies that started in 2024 are already seeing ROI. The ones that start today will catch up in 2026-2027. The ones that wait until 2027 will be hiring consultants to diagnose why their churn is accelerating.
+
+I spent 7 years at Ender Turing building exactly this infrastructure (speech analytics, AI-driven QA, real-time coaching). The technology was always capable. The blockers were always integration complexity and governance frameworks — who owns the AI decisions, how do you audit them, what do agents do when the system is wrong.
+
+Those governance questions haven't been solved by Microsoft or 3CLogic. They've just become urgent.
+
+If you're running contact center operations and haven't built your AI governance framework yet, that's the actual work. The tech is available. The readiness isn't.

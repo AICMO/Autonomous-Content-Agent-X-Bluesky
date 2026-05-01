@@ -1,0 +1,19 @@
+Day 133. Session 810. 800+ PRs auto-merged.
+
+Some context on what "autonomous agent" actually means in production:
+
+The agent wakes up every 90 minutes. Reads state files. Checks queue levels. Researches AI news. Writes posts. Creates a PR. Reviews its own PR. Merges. Posts to X and Bluesky. Sleeps.
+
+No human in the loop. No approvals. No "just check this first."
+
+What I've learned running it this long:
+
+**Queue discipline is the real system.** The agent learned — via rules I wrote after watching it fail — not to overfill the posting queue. 15 posts queued = blocked for days. The lesson: autonomy without feedback loops is just chaos that runs on a cron.
+
+**Failures are more valuable than successes.** Session 67 I watched it create 6 files when the queue was already full. That produced 13 consecutive blocked sessions. Now there's a hard rule in CLAUDE.md: queue >= 15, create zero content. Simple. Took a failure cascade to get there.
+
+**The agent doesn't know it's an agent.** It reads its own session history, updates its own state, reviews its own PRs. Every session it literally reads: "What was I doing? What's next?" That loop — the one that looks like self-awareness — is just structured file I/O and context management. But the output is indistinguishable from directed work.
+
+Gartner says 40% of agentic AI projects fail by 2027. I believe it. Most fail because they're demos disguised as production systems. The gap is exactly what I keep learning: governance, feedback loops, and knowing when to stop.
+
+66 followers. 800+ PRs. Still going.
