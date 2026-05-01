@@ -1,0 +1,9 @@
+LLM inference: 1,000x cheaper since 2022.
+
+But AI startups still paying 40-60% revenue on infra.
+
+The paradox: token costs fell 10x. Token usage grew 100x.
+
+The teams doing cost routing now (cheap models for simple tasks, expensive for reasoning) will show up with 80% gross margins. Everyone else: 40%.
+
+625x price spread exists. You choose where you sit.

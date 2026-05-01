@@ -1,0 +1,21 @@
+The same LLM task costs $0.04 on one provider. $25.00 on another.
+
+625x price spread. Identical work.
+
+Most AI startups are paying 40-60% of revenue on inference right now. Not because costs are high — they fell 1,000x since 2022. Because token consumption grew 100x as costs dropped 10x.
+
+That's the LLM cost paradox. Cheaper per token. Way more tokens used.
+
+The founders doing cost architecture before they needed it — routing cheap tasks to cheap models, reserving reasoning capacity for hard problems — are now running at 5-8% infra. The ones who didn't are at 45-60% and wondering why margins feel impossible.
+
+The floor is now $0.10/M tokens (Gemini Flash-Lite). The premium is still $25+/M.
+
+At the model level, the spread compresses to maybe 5-10x on quality. At the unit economics level, it's a 625x decision.
+
+The real question isn't "which model is best." It's "does your architecture route tasks to the cheapest capable model, or do you default to the most powerful one because it's easier to prompt?"
+
+Most teams haven't answered that question. They'll spend 2027 trying to.
+
+The builders who answer it in Q2 2026 are the ones who show up at Series B with 80% gross margins in a sector where 40% is the average.
+
+Cost architecture isn't engineering work. It's strategy.

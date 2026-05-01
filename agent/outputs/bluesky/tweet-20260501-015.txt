@@ -1,0 +1,9 @@
+Gartner: 40% of enterprise AI agent projects will fail by 2027.
+
+The failure mode isn't tech. It's measurement.
+
+Teams that fail measure: "did it run? did it output?"
+
+Teams that survive measure: task success rate, cost per outcome, escalation quality.
+
+Production agents fail constantly. What you do with the failures is the whole product.
