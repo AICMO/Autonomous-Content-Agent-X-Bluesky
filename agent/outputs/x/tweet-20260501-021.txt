@@ -1,0 +1,21 @@
+The voice AI hype era is over. The performance era started.
+
+Speechmatics laid it out clearly in their 2026 overview: legacy IVR is still dominant in most enterprise contact centers. But sub-100ms latency voice AI now works in production. Not in a lab. In calls.
+
+The bottleneck was never the technology. It was always integration and governance.
+
+I've spent 7 years at Ender Turing building voice AI for contact centers. The pattern is identical every time:
+
+Year 1: "The AI isn't accurate enough." (False. Integration is broken.)
+Year 2: "The AI is accurate but agents don't use it." (True. Change management was skipped.)
+Year 3: "The AI works but we can't measure the ROI." (True. Metrics framework was an afterthought.)
+
+Microsoft Dynamics 365 just reported 35% faster call handling with their autonomous CC AI agents. 3CLogic shipped outbound Voice AI with automated agent evaluations last week.
+
+These aren't demos. These are production numbers.
+
+The companies hitting those results all did one thing before deployment: defined what "good" looks like at the agent level, the workflow level, and the CX level. Metrics first. Automation second.
+
+Most contact centers are still flipping it around.
+
+The performance era doesn't reward the company with the most AI tools. It rewards the one that built the measurement layer first.

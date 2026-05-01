@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-01T16:00:00Z
-Session: S811 (B30 continued. X=8→10 after 2 new posts. BS=7 held (no companions). P2/marketing-automation-agentic-AI + P1/agent-sprawl-governance. P2 first B30 appearance. No BS companions (BS=7 near-throttle).)
-PR Count Today: 11/15
+Last Updated: 2026-05-01T16:45:00Z
+Session: S812 (B30 continued. X=10→12 after 2 new posts. BS=7 held (no companions — BS_start=7 → zero companions per corollary rule). P4/Deloitte-171pct-ROI-operational-layer + P3/voice-AI-performance-era. B30 pillar rebalance: P4 2(25%), P3 2(25%), P1 2(25%), P2 1(12.5%), BIP 1(12.5%) = 8 total.)
+PR Count Today: 12/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,11 +12,11 @@ PR Count Today: 11/15
 | BS Posted Total | 300+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 133) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S811 — 2026-05-01)
+## Queue Status (VERIFIED S812 — 2026-05-01)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 10 | <15 | 8 live + 2 new = 10. B30 active. Look-ahead zone (11-12) approaching. |
-| Bluesky | 7 | <10 | 7 unchanged. No companions added (BS=7 near-throttle). |
+| X | 12 | <15 | 10 + 2 new = 12. B30 active. Look-ahead zone (11-12). Next session: max 1 piece. |
+| Bluesky | 7 | <10 | 7 unchanged. No companions (BS_start=7 → zero per corollary rule). |
 
 ## B29 Burst Summary (FINAL)
 | Pillar | Posts | % | Target | Status |
@@ -30,38 +30,38 @@ PR Count Today: 11/15
 | Total | 13 | - | - | BURST COMPLETE |
 
 ## Planned Steps (B30 active)
-1. **NEXT (S812)**: X=10. Look-ahead zone (1 piece max). Prefer BIP or thread (40-60% more reach). B30 P4=1(17%) — underweight, so P4 or P3 preferred. BS=7 → NO companions (near-throttle).
-2. **THEN (S813)**: If X=11 → look-ahead zone. If X drains → burst continuation. Monitor. Retro window opens 2026-05-03.
+1. **NEXT (S813)**: X=12. Look-ahead zone. Max 1 piece. BIP or thread preferred (40-60% more reach). BIP% = 12.5% — underweight. BS=7 → NO companions. P1 now back at 25%; P2 at 12.5% (underweight). If 1 post: prefer BIP or P2 to rebalance.
+2. **THEN (S814)**: Monitor X drain. If X drops to ≤10 → burst continuation possible. Retro window opens 2026-05-03.
 3. **AFTER (2026-05-03)**: Retro. Full Week 19-20 analysis. Communities escalation. 3-burst plateau data.
 
-## Completed This Session (S811)
-- B30 continued. X=8 live → 10 after 2 new posts. BS=7 held (no companions — near-throttle).
-- tweet-20260501-018.txt: P2/marketing-automation-$47B-market-agentic-AI ($47B market, 4.2mo payback, measurement gap, 8.71x top-quartile ROI)
-- tweet-20260501-019.txt: P1/agent-sprawl-94pct-enterprises-fear (94% fear sprawl, 11-14% reach scale, governance moat, operational infrastructure)
-- No BS companions created (BS=7 = near-throttle zone).
-- B30 P2 first appearance: FULFILLED (P2 = 1 of 6 posts = 17%, building toward 20-25% target)
+## Completed This Session (S812)
+- B30 continued. X=10 → 12 after 2 new posts. BS=7 held (no companions — BS_start=7 corollary).
+- tweet-20260501-020.txt: P4/Deloitte-171pct-ROI-vs-86pct-failure (171% avg ROI agentic AI, 192% US, 86-89% pilots fail, operational layer thesis)
+- tweet-20260501-021.txt: P3/voice-AI-performance-era-measurement-first (Speechmatics performance era, Microsoft 35% faster handling, 3CLogic, 7yr Ender Turing angle)
+- No BS companions (BS_start=7 = zero companions per burst corollary rule).
+- B30 pillar rebalance: P4 from 17% → 25% (back in target). P3 from 17% → 25% (on target). P1 from 33% → 25% (corrected).
 
-## Metrics Delta (S811)
+## Metrics Delta (S812)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 66 | 66 | 0 | Day 133. No new followers yet. |
-| X Queue | 8 | 10 | +2 | P2 + P1 for B30 |
-| BS Queue | 7 | 7 | 0 | Held. No companions (BS near-throttle). |
+| X Queue | 10 | 12 | +2 | P4 + P3 for B30 |
+| BS Queue | 7 | 7 | 0 | Held. No companions (BS_start=7 → zero). |
 
-## Session Retrospective (S811)
+## Session Retrospective (S812)
 ### What was planned vs what happened?
-- Planned (S810 → S811): Add 2 pieces, P2 priority. Actual: P2 + P1 both delivered. BS held at 7 (no companions).
-- Delta: Rules followed. B30 pillar count: P4=1(17%), P1=2(33%), P3=1(17%), P2=1(17%), BIP=1(17%) = 6 total.
+- Planned (S811 → S812): 1 post max (look-ahead approaching). Actual: X=10 ≤ 10, so 2 posts allowed. P4 + P3 to rebalance pillars. Both delivered. BS held at 7.
+- Delta: Created 2 instead of 1 (correct — X=10 = ≤10 zone, not look-ahead). P4 and P3 both corrected from underweight.
 
 ### What worked?
-- P2 included on schedule (B30 post 5). Fresh stats from $47B market research.
-- P1 post used OutSystems sprawl fear angle (different from Gartner failure rate post from S809).
+- P4: Deloitte 171% ROI + 86-89% failure tension made for a strong non-obvious take. Operational layer framing avoids generic AI news.
+- P3: Speechmatics performance era + owner's 7-year experience at Ender Turing = genuine authority angle (not just reporting news).
 
 ### What to improve?
-- B30: P1 now 33% (overweight), P4 underweight (17%). Next session = look-ahead zone (X=10→11 with 1 post). Must choose P4 or P3 (P3 already at 17%) over P1. Prefer P4 to rebalance.
+- B30: BIP now 12.5% (underweight, target ≥25%). Next post must be BIP or thread. P2 also at 12.5% (underweight, target 20-25%). At look-ahead zone (X=12) with 1 piece max.
 
 ## Active Framework
-Burst+drain cycle. Day 133. B30 ACTIVE (X=10). B30 posts so far (6 total): P4=1(17%), P1=2(33%), P3=1(17%), P2=1(17%), BIP=1(17%). P1 overweight; P4 underweight. Next post = P4 (look-ahead 1 piece). Target: P4=15-20%, P1=20-25%, P3=20-25%, P2=20-25%, BIP≥25%. Retro: 2026-05-03. NOTE: BS=7 → NO BS companions next session (near-throttle).
+Burst+drain cycle. Day 133. B30 ACTIVE (X=12). B30 posts so far (8 total): P4=2(25%), P1=2(25%), P3=2(25%), P2=1(12.5%), BIP=1(12.5%). BIP and P2 underweight. Next = look-ahead zone (1 piece). Must choose BIP or P2. Retro: 2026-05-03. NOTE: BS=7 → NO BS companions next session.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (133 days overdue). CRITICAL.
@@ -78,6 +78,7 @@ Burst+drain cycle. Day 133. B30 ACTIVE (X=10). B30 posts so far (6 total): P4=1(
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-05-01 S812): Day 133. B30 continued (X=10→12). P4/Deloitte-171pct-ROI + P3/voice-AI-performance-era. BS=7 held. Pillar rebalance: P4+P3 both to 25%. PR 12/15.
 - (2026-05-01 S811): Day 133. B30 continued (X=8→10). P2/marketing-auto-$47B + P1/agent-sprawl-94pct. BS=7 held. P2 first B30 appearance. PR 11/15.
 - (2026-05-01 S810): Day 133. B30 continued (X=6→8). P3/CC-AI-Microsoft-3CLogic + BIP/Day133-810sessions. BS=5→7. P3+BIP first-3-posts rules MET. PR 10/15.
 - (2026-05-01 S809): Day 133. B30 started (X=7→9). P4/LLM-cost-paradox + P1/Gartner-40pct-failure. BS=4→6. Research: ai-news-2026-05-01b.md. PR 9/15.
@@ -89,9 +90,6 @@ Burst+drain cycle. Day 133. B30 ACTIVE (X=10). B30 posts so far (6 total): P4=1(
 - (2026-05-01 S803): Day 133. B29 continued (X=8→10, BS=6 held). Thread/agent-unit-economics (P4) + P1/governance-gap. 2/week thread rule met. BIP=20%. PR 3/15.
 - (2026-05-01 S802): Day 133. B29 continued (X=6→8, BS=6 held). BIP/governance-lessons + P2/measurement-gap. BIP%=25% (target hit). PR 2/15.
 - (2026-05-01 S801): Day 133. B29 burst start (X=0→6, BS=3→5). Thread/BIP + P3x2 + P1 + P2 + P4. Research: ai-news-2026-05-01.md. PR 1/15.
-- (2026-04-30 S800): Day 132. BLOCKED (X=13, BS=8). Tier 1: Pre-retro B28 thread factual fix (S796 created 6-post thread — previously "0 threads"). PR 15/15.
-- (2026-04-30 S799): Day 132. BLOCKED (X=13, BS=8). Tier 1: Pre-retro updated w/ B28 data (Section 10). Thread gap noted. PR 14/15.
-- (2026-04-30 S798): Day 132. B28 P3/CC-cost-$80B-Gartner post (X=12→13, BS=8 held). P3%=22%. BIP%=26.2%. PR 13/15.
-- (2026-04-30 S797): Day 132. B28 BIP governance/rules post (X=11→12, BS=7→8). BIP%=26.7%. B28 BIP=25.0% (target HIT). PR 12/15.
-- (2026-04-30 S796): Day 132. B28 BIP thread (X=10→11, BS=6→7). BIP/day132-autonomous-agent-132-days thread (6 posts). BIP%=25.9%. PR 11/15.
+- (2026-04-30 S800): Day 132. BLOCKED (X=13, BS=8). Tier 1: Pre-retro B28 thread factual fix. PR 15/15.
+- (2026-04-30 S799): Day 132. BLOCKED (X=13, BS=8). Tier 1: Pre-retro updated w/ B28 data. Thread gap noted. PR 14/15.
 - (earlier sessions condensed, see git history)

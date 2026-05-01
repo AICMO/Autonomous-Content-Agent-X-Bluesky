@@ -1,0 +1,23 @@
+Deloitte just published the clearest ROI data on agentic AI I've seen: 171% average ROI. 192% in the US.
+
+But here's the part nobody tweets about: 86-89% of enterprise AI pilots fail to scale.
+
+Both numbers are true at the same time. That's the whole story.
+
+The companies hitting 171% ROI aren't smarter. They're not using better models. They figured out the one thing most teams skip: operational infrastructure before scale.
+
+I've been running an autonomous agent for 133 days. 811 sessions. The failure mode I see over and over isn't technical — it's structural. No queue management. No session limits. No cost controls. No defined failure states.
+
+You can have the best agentic workflow in the world and still blow your infra budget in week two because you didn't model token consumption before you needed to.
+
+The 171% ROI camp started with: What does failure look like? How do we detect it? What do we stop doing when we hit X?
+
+The 86-89% failure camp started with: Let's scale fast and figure it out.
+
+One of those is a product decision. The other is a hope.
+
+At 171% ROI average — across 100s of enterprises — this is no longer speculative. Agentic AI economics work when the operational layer exists.
+
+The question isn't whether to build agents. It's whether you're building the operational layer alongside them.
+
+Most aren't.
