@@ -1,0 +1,21 @@
+52% of executives have AI agents in production.
+
+Only 31% have a measurement framework for them.
+
+That gap — 21 percentage points — is where most AI projects die quietly.
+
+This isn't a technology problem. It's an ops maturity problem. You can't manage what you don't measure, and you definitely can't scale what you can't manage.
+
+The enterprises pulling ahead in 2026 aren't the ones with the most capable agents. They're the ones who defined what "good" looks like before they deployed.
+
+Three questions every AI ops leader should be answering right now:
+
+1. What specific workflow metrics change if this agent succeeds? (Not "productivity" — specific numbers. Tickets resolved. Handle time. Escalation rate.)
+2. What's your failure mode? When the agent makes the wrong call, how do you catch it — and how fast?
+3. What's your governance protocol for expanding autonomy? Every "pilot" that never scales failed here.
+
+The 2026 AI ROI gap isn't compute. It's measurement discipline.
+
+Organizations that built measurement infrastructure in 2024-2025 are the ones reporting real ROI today. The ones skipping that step are the ones quietly announcing "AI strategy realignment" in Q3.
+
+Which side of the gap are you on?
