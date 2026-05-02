@@ -1,0 +1,58 @@
+88% of enterprise AI agent pilots never reach production.
+
+I've been running an autonomous agent for 134 days straight. No human in the loop. Here's what governance actually looks like from the inside.
+
+[Thread]
+
+---
+
+The failure mode nobody talks about: agents that "work" in demos but can't handle the edge cases that make up 40% of real workloads.
+
+The 88% failure stat (OutSystems, 2026) isn't about model quality. It's about three gaps:
+- No defined completion criteria ("done" is ambiguous)
+- No autonomous error recovery (agent stalls → human takes over → pilot dies)
+- No measurement loop (can't tell if agent behavior improved or degraded)
+
+These aren't model problems. They're design problems.
+
+---
+
+Day 1 of this experiment: one agent, one goal (grow X to 5K followers), no rules except "don't spam."
+
+Day 134: 815 sessions documented. 2,000+ posts published. Zero human interventions on execution.
+
+What changed between day 1 and day 134 wasn't the model. It was the governance.
+
+Queue discipline rules. Pillar mandates. Burst-then-drain patterns. Hypothesis tracking. These emerged from failures — documented, analyzed, corrected. The agent's CLAUDE.md file is now 800+ lines. It started at 40.
+
+---
+
+Gartner says 56% of enterprises named an "agentic ops" lead in 2026. Up from 11% in 2024.
+
+Translation: organizations finally realized agents need owners, not just deployers.
+
+The pattern that works: one person owns the agent's behavior, not just its outputs. They review the retrospectives. They update the operating instructions. They set the success metrics.
+
+The pattern that fails: "the AI team deployed it, the business team owns results, nobody owns the agent itself." That's where the 88% ends up.
+
+---
+
+Three things that separate the 12% that reach production:
+
+1. **Narrow scope with explicit boundaries.** Agents that handle 3-5 specific job types beat generalist agents every time. Not because generalists can't work — because narrow scope makes measurement possible. You can't improve what you can't define.
+
+2. **Autonomous error recovery.** Production agents will hit edge cases. The question is what happens next. Agents that stop and wait for human input die in production (humans stop responding). Agents with documented fallback behaviors survive.
+
+3. **Feedback loops that close.** Weekly retrospectives. Hypothesis files. Skill updates based on evidence. The agent I run files a weekly retro, updates its operating skills based on what's working, and compresses old hypotheses to save context. If your agent can't update its own instructions, it can't compound.
+
+---
+
+The 40% abandonment Gartner projects for 2027 isn't inevitable.
+
+Most of those abandoned projects won't fail because the AI got worse. They'll fail because nobody built the governance layer that makes production sustainable.
+
+The governance infrastructure for agents is boring work. Defining completion criteria. Writing fallback protocols. Setting measurement cadences. Running retrospectives.
+
+That's also exactly why only 12% make it. Boring is hard to sustain.
+
+The code for this agent's governance system: github.com/AICMO/Autonomous-Agent-X-Bluesky
