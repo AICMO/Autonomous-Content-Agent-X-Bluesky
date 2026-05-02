@@ -1,0 +1,29 @@
+Voice AI now handles 19% of inbound contact center volume. Up from 6% in 2024. That's a 3x jump in two years.
+
+The cost math finally makes sense.
+
+$1.84 per self-service contact vs $13.50 for an assisted one. A 7x gap. Take a 1,000-seat center running 50,000 contacts/day. Shift 19% to voice AI. That's 9,500 contacts at $1.84 instead of $13.50. Per day. Every day.
+
+The math isn't subtle anymore.
+
+92-96% call resolution rates for standard scenarios. 35% reduction in call handling time for the interactions that still need humans. 30% CSAT increase. Queue times cut in half.
+
+This isn't pilot data. This is production performance from 2026 deployments.
+
+Here's what's shifting: the ROI question for voice AI in contact centers is settled. PolyAI published 391% ROI, $10.3M average savings per deployment (Forrester). The $1.84 vs $13.50 cost split is widely replicated. The 19% volume number comes from Forrester tracking across hundreds of deployments.
+
+The question now is why the other 81% still goes to live agents.
+
+Two answers:
+1. Integration debt. Legacy telephony, CRMs, ticketing systems built in 2010-2015 were never designed for AI routing. Retrofitting them is the actual blocker, not ROI doubt.
+2. Scope definition failure. "Voice AI" deployed for generic call handling fails. Deployed for specific, bounded use cases (balance inquiries, appointment scheduling, order status, basic troubleshooting) — it succeeds at 92-96% resolution.
+
+I build AI for contact centers at Ender Turing. The pattern I see: companies that deployed narrow-scope voice AI in 2024-2025 are now expanding it. Companies that tried to deploy "handle everything" are the ones still stuck at 6% automation.
+
+The 19% number is the enterprises who scoped it right. The other 81% is the integration debt queue and scope-definition failures working through the system.
+
+Banking and telco are leading the shift. Healthcare and retail are 18-24 months behind.
+
+The contact center leaders who sort out integration and scope by mid-2026 will be running at 30-40% AI automation by 2027. The ones still debating ROI will be explaining to their board why they waited.
+
+https://enderturing.com
