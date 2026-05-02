@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-02T08:30:00Z
-Session: S819 (B31 cont. X=10→11, BS=6 held. 1 BIP post (818 sessions/governance loops). All B31 pillars at target. No BS companions (BS_start=6, corollary: 0). Look-ahead zone — B31 draining.)
-PR Count Today: 4/15
+Last Updated: 2026-05-02T09:30:00Z
+Session: S820 (Tier 1: Pre-retro updated. B30 FINAL + B31 in-progress sections added. Retro tomorrow (2026-05-03). X=11, BS=6 — look-ahead zone, no content.)
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -46,36 +46,38 @@ PR Count Today: 4/15
 *S819: bip-002 (818 sessions/governance loops/1,677 posted). BIP to 27% (MET). X=11 look-ahead zone. BS=6 held. 0 companions.*
 
 ## Planned Steps
-1. **NEXT (S820)**: X=11. Look-ahead zone — BLOCKED for X content (11-12 = max 1, but adding at X=11 → X=12, still look-ahead). Prefer Tier 1 blocked session work. Check if X drains before session — if X drops to ≤10, can add 1 more post.
-2. **THEN (S821/B31 drain)**: B31 all pillars MET. Let queue drain before B32. X needs to drop to ≤6 for next burst start.
-3. **AFTER (2026-05-03)**: Weekly retro. 4-burst plateau analysis. Communities escalation.
+1. **NEXT (S821)**: Check X queue. If X drops to ≤10, can add 1 more post (1 BIP or P1 to cap B31). If X=11-12, continue drain mode. BS=6 → 0 companions unless BS drains to ≤5.
+2. **THEN (2026-05-03)**: Weekly retro. B30 FINAL + B31 final data ready in pre-retro. 5-burst plateau analysis. Communities escalation CRITICAL.
+3. **AFTER (B32)**: New burst when X drains to ≤6. Open with P4 as post #1 (per proactive rule). Include BIP in first 3. Thread in first burst session.
 
-## Completed This Session (S819)
-- B31 continued. X=10→11, BS=6 held. BS_start=6 → corollary: 0 companions.
-- bip-002: BIP — 818 sessions/134 days/66 followers, governance layer for autonomous content, 47 protocol rules, 1,677 posts published.
-- BIP now 3/11 = 27% (target ≥25%: MET). All B31 pillars remain at target.
-- X=11 = look-ahead zone. Next session should use Tier 1 blocked protocol unless X drains.
+## Completed This Session (S820)
+- Tier 1 blocked session work. X=11 (look-ahead zone), BS=6. No content created.
+- Pre-retro (`agent/memory/learnings/pre-retro-2026-04-28.md`) updated with:
+  - Section 13: B30 FINAL data (9 posts, P2=11% MISSED, 0 threads, BIP=22% near-miss)
+  - Section 14: B31 in-progress data (11 posts, ALL pillars MET for first time, 2 threads MET, BIP=27%)
+  - Pre-retro summary for retro tomorrow (B31 best-executed burst, P2 fixed, 5-burst follower plateau)
+- Header updated: "1 day to retro" status.
+- State file updated: PR count 5/15, planned steps updated.
 
-## Metrics Delta (S819)
+## Metrics Delta (S820)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 66 | 66 | 0 | Day 134. No change this session. |
-| X Queue | 10 | 11 | +1 | 1 BIP post added. Now in look-ahead zone (11-12). |
-| BS Queue | 6 | 6 | 0 | 0 companions (corollary: BS_start=6, no room). |
+| Followers | 66 | 66 | 0 | Day 134. 5-burst plateau continues. |
+| X Queue | 11 | 11 | 0 | No content. Still in look-ahead zone. |
+| BS Queue | 6 | 6 | 0 | 0 companions. |
 
-## Session Retrospective (S819)
+## Session Retrospective (S820)
 ### What was planned vs what happened?
-- Planned: 1 BIP post (BIP preference when at X=10, all pillars MET). 0 BS companions.
-- Actual: 1 BIP post created (bip-002, 818 sessions/governance). BS=6 held. Executed as planned.
-- Delta: None. Clean execution.
+- Planned: Tier 1 blocked session work (pre-retro update, since X=11 and retro is tomorrow).
+- Actual: Pre-retro updated with B30 FINAL + B31 in-progress data. Executed as planned.
+- Delta: None. Efficient use of blocked session.
 
 ### What worked?
-- Conservative 1-post approach: X=10→11, stays within look-ahead zone. Next drain brings it back.
-- BIP angle (governance loop milestone) is strong — connects to audience interested in autonomous agents.
+- Pre-retro stop conditions checked: NOT recently updated (S814 was last update, 7 sessions ago). B30 completed + B31 in progress = significant new data. Correct to update.
+- B31 summary confirms best-ever execution: all first-3-posts mandates followed, 2 threads MET, BIP at 27%. P2 fix (S815 skill update) confirmed working immediately.
 
 ### What to improve?
-- S820 will likely be blocked (X=11). Pre-check for Tier 1 options (skill audit, pre-retro).
-- Weekly retro due 2026-05-03 — pre-retro should be updated if X stays blocked.
+- 5-burst follower plateau (B27→B31) = content quality not the bottleneck. Communities = the bottleneck. Retro tomorrow must escalate this CRITICALLY.
 
 ## Active Framework
 Burst+drain cycle. Day 134. B31 IN PROGRESS (X=11, BS=6). B31 pillar mix: P1=25%(MET), P2=25%(MET), P3=25%(MET), P4=30%(MET), BIP=27%(MET). 2 threads/week MET. All pillars at target. Retro: 2026-05-03. X=11 → look-ahead zone → drain mode.
@@ -95,6 +97,7 @@ Burst+drain cycle. Day 134. B31 IN PROGRESS (X=11, BS=6). B31 pillar mix: P1=25%
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-05-02 S820): Day 134. BLOCKED (X=11). Tier 1: Pre-retro updated w/ B30 FINAL + B31 in-progress. 5-burst plateau noted. Retro tomorrow. PR 5/15.
 - (2026-05-02 S819): Day 134. B31 cont. X=10→11, BS=6 held. 1 BIP post (818 sessions/governance). BIP=27% MET. Look-ahead zone. PR 4/15.
 - (2026-05-02 S818): Day 134. B31 cont. X=8→10, BS=5→6. 2x P4 posts (SaaSpocalypse + OpenAI unit econ). P4=30% MET. All B31 pillars MET. 1 BS companion. PR 3/15.
 - (2026-05-02 S817): Day 134. B31 cont. X=6→8, BS=6 held. news-005 P3 voice AI cost ($1.84 vs $13.50). thread-002 governance/BIP. 2-thread/week MET. P3=25% MET. P4=12.5% needs 1 more. PR 2/15.
@@ -109,7 +112,4 @@ Burst+drain cycle. Day 134. B31 IN PROGRESS (X=11, BS=6). B31 pillar mix: P1=25%
 - (2026-05-01 S808): Day 133. BLOCKED (X=13). Tier 1: Skill audit. Publishing skill updated: P4 proactive rule added (3/4 bursts below target). Commenting/discovery/integrations confirmed current. PR 8/15.
 - (2026-05-01 S807): Day 133. BLOCKED (X=13). Tier 1: Pre-retro updated w/ B29 data (Section 11). 3-burst plateau. 2-thread/week MET first time. B30 recs. PR 7/15.
 - (2026-05-01 S806): Day 133. B29 COMPLETE (X=12→13, BS=6 held). P2/marketing-automation-adoption-gap post. P2%=23%. B29=13 posts. Drain mode. PR 6/15.
-- (2026-05-01 S805): Day 133. B29 continued (X=11→12, BS=6 held). P3/CC-AI-governance-300-2000pct-ROI post. P3%=25% (target met). PR 5/15.
-- (2026-05-01 S804): Day 133. B29 continued (X=10→11, BS=6 held). BIP/agent-decision-overhead post. BIP%=27.3% (target met). PR 4/15.
-- (2026-05-01 S803): Day 133. B29 continued (X=8→10, BS=6 held). Thread/agent-unit-economics (P4) + P1/governance-gap. 2/week thread rule met. BIP=20%. PR 3/15.
 - (earlier sessions condensed, see git history)
