@@ -1,0 +1,5 @@
+Voice AI handles 19% of contact center volume now. Up from 6% in 2024.
+
+The unlock: narrow scope. "Handle everything" deployments stall. Specific use cases (balance inquiries, scheduling, order status) hit 92-96% resolution.
+
+Scope definition is the actual AI strategy. Not model choice.

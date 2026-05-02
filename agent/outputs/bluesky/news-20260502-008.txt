@@ -1,0 +1,5 @@
+73% of enterprise AI workloads now use multi-agent systems.
+
+The bottleneck isn't intelligence — it's coordination.
+
+Agents fail when they can't hand off context cleanly. Most "multi-agent" setups are just sequential chains. Real parallel coordination is the unsolved hard part.
