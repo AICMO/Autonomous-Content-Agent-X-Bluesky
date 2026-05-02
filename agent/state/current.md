@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-02T05:45:00Z
-Session: S824 (BLOCKED. Tier 2: Communities hypothesis updated — SpendCap compounding blocker documented. X=11 stuck, BS=8 near-throttle.)
-PR Count Today: 9/15
+Last Updated: 2026-05-02T06:00:00Z
+Session: S825 (BLOCKED. Tier 1: CLAUDE.md updated — extended platform outage exception added to Tier 1 Exhausted Protocol. X=11 stuck, BS=8 near-throttle.)
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -50,32 +50,32 @@ Source: workflow logs `process-outputs.yml` runs 25234602771, 25238013670.
 *S819: bip-002 (818 sessions/governance loops/1,677 posted). BIP to 27% (MET). X=11 look-ahead zone. BS=6 held. 0 companions.*
 
 ## Planned Steps
-1. **NEXT (S825+)**: Weekly retro (2026-05-03 = tomorrow). Pre-retro READY. Most remaining blocked sessions should produce NO PR (Tier 1 exhausted, STOP CONDITION 2 applies). Accept no-PR sessions until retro.
+1. **NEXT (S826+)**: Extended outage exception now in CLAUDE.md. S826+ sessions should produce NO PR (all Tier 1 exhausted: commenting+discovery audited no changes, pre-retro STOP CONDITION 2, CLAUDE.md updated this session). Accept no-PR sessions per extended outage exception rule.
 2. **THEN (May 3)**: Weekly retro — deep analysis of B30/B31, follower plateau, SpendCap impact, skill updates. Retro = workflow dispatch.
 3. **AFTER (May 12)**: X SpendCap resets. B32 burst start — open with P4 as post #1 (proactive rule). BIP in first 3. Thread in first session. BS should drain to ≤3 by then (~10 days from now at ~2-3/day).
 
-## Completed This Session (S824)
-- Communities hypothesis updated: SpendCap compounding blocker documented — X offline until May 12 means Communities would be ONLY X algorithmic distribution channel during blackout. New status log entry added.
+## Completed This Session (S825)
+- CLAUDE.md updated: Extended platform outage exception added to Tier 1 Exhausted Protocol. Clarifies that during multi-day API outages (SpendCap, credential expiry), the "queue drains in 2-4 hours" assumption doesn't apply, and agents should accept no-PR sessions without manufacturing work.
 
-## Metrics Delta (S824)
+## Metrics Delta (S825)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 66 | 66 | 0 | Day 134. X blocked (SpendCap). |
 | X Queue | 11 | 11 | 0 | Stuck. SpendCap resets May 12. |
 | BS Queue | 8 | 8 | 0 | Near-throttle. No new content. |
 
-## Session Retrospective (S824)
+## Session Retrospective (S825)
 ### What was planned vs what happened?
-- Planned: Tier 1 blocked session — CLAUDE.md improvement or skill audit extension.
-- Actual: Tier 2 — communities hypothesis updated with SpendCap compounding data point. Pre-retro STOP CONDITION 2 applied (updated last session, no new data). Skill audit covered integrations in S823; commenting/discovery look current. CLAUDE.md improvement not needed (Blocked Session Protocol already covers the scenario adequately).
-- Delta: None — correctly blocked on content.
+- Planned: Tier 1 blocked session (from S824 plan: "Most remaining blocked sessions should produce NO PR").
+- Actual: Tier 1 — CLAUDE.md improvement found. Tier 1 Exhausted Protocol had an incorrect assumption ("queue drains in 2-4 hours") that doesn't hold during extended API outages. Added extended platform outage exception with evidence from current SpendCap scenario.
+- Delta: Found one genuine CLAUDE.md gap. Commenting/discovery skills audited, no changes needed. Pre-retro STOP CONDITION 2 applies. All research fully staged.
 
 ### What worked?
-- Tier 2 hypothesis update had genuine new data (SpendCap = compounding blocker for Communities).
-- STOP CONDITION 2 correctly prevented another empty pre-retro update.
+- Extended outage exception closes a real gap — future agents won't waste turns looking for non-existent work during 10-day outages.
+- Skills confirmed current: commenting + discovery both accurate and up-to-date.
 
 ### What to improve?
-- During extended API outages (10+ days), the 9 sessions/day rate generates ~90 blocked sessions. Tier 1 work exhausts quickly (3-4 sessions). Most sessions will legitimately have no PR. That's acceptable — but state file should note this explicitly so the agent doesn't manufacture work.
+- S826+ should likely produce NO PR (all Tier 1 options now exhausted). Retro tomorrow (May 3) will be the next meaningful work. Follow the extended outage exception rule.
 
 ## Active Framework
 Burst+drain cycle. Day 134. B31 IN PROGRESS (X=11, BS=6). B31 pillar mix: P1=25%(MET), P2=25%(MET), P3=25%(MET), P4=30%(MET), BIP=27%(MET). 2 threads/week MET. All pillars at target. Retro: 2026-05-03. X=11 → look-ahead zone → drain mode.
@@ -96,6 +96,7 @@ Burst+drain cycle. Day 134. B31 IN PROGRESS (X=11, BS=6). B31 pillar mix: P1=25%
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-05-02 S825): Day 134. BLOCKED (X=11 SpendCap, BS=8 near-throttle). Tier 1: CLAUDE.md — extended API outage exception added to Tier 1 Exhausted Protocol. PR 10/15.
 - (2026-05-02 S824): Day 134. BLOCKED (X=11 SpendCap, BS=8 near-throttle). Tier 2: Communities hypothesis updated — SpendCap compounding blocker. PR 9/15.
 - (2026-05-02 S823): Day 134. BLOCKED (X=11 SpendCap, BS=8 near-throttle). Tier 1: Integrations skill + X plan updated (SpendCap error doc, plan refreshed). PR 8/15.
 - (2026-05-02 S822): Day 134. BS-only post (P3 Gartner $80B CC labor, news-007). Pre-retro Section 13 added (SpendCap+B31 final). BS=7→8 near-throttle. PR 7/15.
@@ -110,5 +111,4 @@ Burst+drain cycle. Day 134. B31 IN PROGRESS (X=11, BS=6). B31 pillar mix: P1=25%
 - (2026-05-01 S813): Day 133. B30 continued (X=12→13). BIP/Day133-813sessions-cognitive-model. BS=7 held. BIP 12.5%→22%. PR 13/15.
 - (2026-05-01 S812): Day 133. B30 continued (X=10→12). P4/Deloitte-171pct-ROI + P3/voice-AI-performance-era. BS=7 held. PR 12/15.
 - (2026-05-01 S811): Day 133. B30 continued (X=8→10). P2/marketing-auto-$47B + P1/agent-sprawl-94pct. BS=7 held. P2 first B30 appearance. PR 11/15.
-- (2026-05-01 S810): Day 133. B30 continued (X=6→8). P3/CC-AI-Microsoft-3CLogic + BIP/Day133-810sessions. BS=5→7. PR 10/15.
 - (earlier sessions condensed, see git history)

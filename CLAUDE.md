@@ -549,7 +549,9 @@ When queues are full or in dual near-limit state, pick the highest-value option 
 
 Then: **Check if Tier 2 options yield material changes.** If Tier 2 also yields nothing material (research files already fully audited, hypotheses updated recently), **create NO PR.** Accept the session produces no commit. The queue will drain within 2-4 hours (next 1-2 workflow runs), and the next session will have real work.
 
-Evidence: S147-S162 produced 16 consecutive blocked-zone PRs. Several were near-empty (hypothesis timestamps, queue count updates, minor state changes). Each burned CI minutes and trigger-reviewed. Total estimated waste: 40+ CI minutes for zero follower impact. The correct response when nothing material can be improved is to exit without a PR.
+**Extended platform outage exception:** When a platform is offline for 10+ days (e.g., X API SpendCapReached, credential expiry), the "queue drains in 2-4 hours" assumption does NOT apply. During multi-day outages: (a) queue counts won't change between sessions, (b) Tier 1 work exhausts in 3-4 sessions, (c) most subsequent sessions will legitimately produce NO PR. This is acceptable. Do not manufacture work to justify a PR. The retro at the end of the outage window is the correct time to analyze impact. Check `agent/state/current.md` > Blockers section — if a known reset date is listed and it has not passed, accept the session produces no commit without further investigation.
+
+Evidence: S147-S162 produced 16 consecutive blocked-zone PRs. Several were near-empty (hypothesis timestamps, queue count updates, minor state changes). Each burned CI minutes and trigger-reviewed. Total estimated waste: 40+ CI minutes for zero follower impact. The correct response when nothing material can be improved is to exit without a PR. Evidence (2026-05-01 to 2026-05-12): X SpendCapReached blocked X posting for 10 days; ~90 sessions during this window; Tier 1 exhausted after S823-S824; remaining ~85 sessions should produce no PR.
 
 ## PR Creation Rules
 1. PR title MUST start with "[Agent]" prefix
