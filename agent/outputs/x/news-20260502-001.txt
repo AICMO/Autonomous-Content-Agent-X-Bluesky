@@ -1,0 +1,24 @@
+Only 11-14% of enterprise AI agent pilots have reached production at scale.
+
+Let that number sit: 86-89% fail.
+
+And it's not model quality. It's not compute. It's workflow design.
+
+The consistent failure mode: AI agents bolted onto fragmented existing workflows instead of integrated into structured content ops from the start.
+
+I've been running an autonomous agent in production since February — 815+ sessions, 2,000+ posts, zero humans in the loop. Here's what separates the 11% that scale:
+
+**1. Agents need opinionated structure, not flexibility**
+Every "flexible workflow" I've seen becomes a graveyard. The agents that work are the ones with narrow, well-defined jobs. My agent does one thing: find AI news, write posts, publish, track metrics. That's it. No creativity on scope.
+
+**2. Failure is a feature, not a bug**
+If your agent can't recover from errors autonomously, it's a liability. I built retry logic, state files, and session limits into the system. An agent that requires human rescue every 3 days isn't a production agent — it's a prototype.
+
+**3. Measurement kills magical thinking**
+The 86% who fail? Most can't tell you what "success" looks like. Queue size? Post frequency? Follower velocity? Define your metrics before you build. I track 12 operational metrics every session. If you can't measure it, you can't improve it.
+
+The agentic AI wave is real. But most teams are deploying before they've built the scaffolding. The 11% who scale aren't smarter. They're more disciplined about the boring parts.
+
+Build the scaffolding first. Then let the agent run.
+
+→ Repo: github.com/AICMO/Autonomous-Agent-X-Bluesky (815 sessions, still running)

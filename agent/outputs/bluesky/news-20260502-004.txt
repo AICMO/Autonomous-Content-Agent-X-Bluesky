@@ -1,0 +1,7 @@
+Gartner: 40% of AI agent projects abandoned by 2027.
+
+Not a technology failure. A governance failure.
+
+No clear completion criteria. No accountability. No feedback loop.
+
+Build governance before you build the agent.

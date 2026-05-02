@@ -1,0 +1,7 @@
+86-89% of enterprise AI agent pilots fail to scale.
+
+Not because of the models. Because of workflow design.
+
+Agents bolted onto fragmented processes don't survive production. Narrow, opinionated workflows do.
+
+815 sessions running autonomously. The boring parts are the whole point.

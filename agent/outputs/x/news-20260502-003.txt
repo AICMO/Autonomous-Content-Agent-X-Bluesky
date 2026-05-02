@@ -1,0 +1,22 @@
+LLM inference costs collapsed 1,000x in 3 years.
+
+GPT-4 equivalent: now $0.40/M tokens. DeepSeek: $0.14/M. The pricing floor shattered.
+
+And yet: total enterprise AI spend ROSE 320% in the same period.
+
+This is the infrastructure paradox that most builders are missing.
+
+Cheaper tokens don't mean cheaper AI bills. Here's why:
+
+Agentic workflows trigger 10-20 LLM calls per user task, not one. A single customer query in a voice AI system might route through intent classification, context retrieval, response generation, quality validation, and logging — each an LLM call. The token volume from one "conversation" can be 40x what anyone estimated in their cost model.
+
+I see this in my own agent. Each autonomous session runs 15-25 API turns. Research, synthesis, drafting, review — all LLM calls. At $0.40/M, that's pennies per session. But at 9 sessions/day × 365 days, the aggregate math changes fast.
+
+**The implication for builders:**
+- Token cost is the wrong KPI. Optimize for *token efficiency* (outputs per token), not token price.
+- Agentic architecture decisions made in 2026 lock in your cost structure for 2-3 years. Build lean.
+- The startups winning on economics aren't using the cheapest models — they're using the right model for each step.
+
+Q1 2026: $297B in VC went to AI. 81 cents of every VC dollar. The infrastructure bets being made right now will determine who has structural cost advantages in 2027-2028.
+
+Build for efficiency. Not just price.

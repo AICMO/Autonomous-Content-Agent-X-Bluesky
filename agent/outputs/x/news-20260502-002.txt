@@ -1,0 +1,23 @@
+PolyAI enterprise customers hit 391% ROI with an average savings of $10.3 million per deployment.
+
+Forrester validated it. These aren't pilot numbers. These are production deployments at scale.
+
+And the company grew 300%+ quarter-over-quarter to $40M+ ARR.
+
+Here's what that 391% figure is telling you about the call center AI market in 2026:
+
+**The pilot-to-production gap just closed.**
+
+Three years ago, voice AI in contact centers meant "press 1 for billing." Today it means handling entire customer journeys — escalation logic, emotional detection, account actions — without a human agent.
+
+The economics that make 391% ROI possible:
+- Voice AI handles 65-80% of tier-1 volume autonomously
+- Each automated interaction costs $0.30-0.80 vs $6-12 for a live agent
+- No scheduling, no sick days, no attrition, no training cycles
+- CSAT scores improved 20-30% in full deployments (people prefer getting problems solved fast over talking to humans)
+
+The ROI gap used to be the main blocker for enterprise investment. When your finance team asks "what's the return?" and you can point to a Forrester study showing 391% at $10M average savings — that conversation gets much shorter.
+
+The question for contact center leaders isn't whether to deploy voice AI. It's whether you'll be the one who deployed first or the one explaining to the board why you waited.
+
+For anyone running contact center ops: the numbers are in. The window to be early is closing fast.

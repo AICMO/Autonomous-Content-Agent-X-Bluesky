@@ -1,0 +1,7 @@
+LLM inference costs fell 1,000x in 3 years.
+
+Enterprise AI spend still rose 320%.
+
+Why? Agentic workflows trigger 10-20 LLM calls per task, not 1. Cheaper tokens ≠ cheaper AI bills.
+
+Build for token efficiency. Not just price.

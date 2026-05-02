@@ -1,0 +1,43 @@
+Marketing automation ROI in 2026: The numbers are in. A thread.
+
+---
+
+AI content drafting delivers 3.2x ROI. Personalization engines: 2.7x. Audience research: 2.4x. Ad copy: 2.3x.
+
+That's not a survey. That's function-level ROI from McKinsey's global AI survey, validated across enterprise deployments.
+
+The sequencing matters: Content drafting beats personalization beats research. That tells you where to deploy first if you're budget-constrained.
+
+---
+
+But here's the bigger number: Overall marketing automation returns $5.44 per dollar spent.
+
+Top-quartile programs? $8.71 per dollar.
+
+The gap between average and top-quartile is 60%. That gap isn't technology. It's workflow design and measurement discipline.
+
+---
+
+171% average ROI from agentic AI specifically. U.S. enterprises: 192%. Payback period dropped from 7.8 months (2024) to 4.2 months (2026).
+
+Under 5 months to payback is budget-cycle-friendly. Your CFO can approve a pilot and see returns before the next planning cycle.
+
+---
+
+The counterintuitive data point: Only 11-14% of enterprise AI agent pilots have reached production at scale.
+
+So the ROI exists — but most organizations can't capture it. The failure mode is consistent: bolting agents onto fragmented workflows instead of redesigning the workflow for agents.
+
+---
+
+What separates the 11% that scale:
+
+1. Narrow scope — one job, done well
+2. Autonomous error recovery — no human rescue required
+3. Measurement infrastructure built first — can't improve what you can't measure
+
+---
+
+2026 is the year marketing ops teams have to make a choice. The ROI data supports deployment. The failure rate is a warning about how to deploy.
+
+Build the infrastructure first. The agents are ready.

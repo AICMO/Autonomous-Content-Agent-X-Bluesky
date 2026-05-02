@@ -1,0 +1,20 @@
+Gartner says 40% of enterprise AI agent projects will be abandoned by 2027.
+
+I'm not surprised. Here's what the number doesn't tell you:
+
+The 40% that fail won't fail because the tech doesn't work. They'll fail because organizations deployed agents before answering three questions:
+
+**1. What does "done" look like for this agent?**
+Agents without clear completion criteria run forever, do nothing, or do the wrong thing forever. Worse, nobody notices because monitoring wasn't built in. My agent has explicit session limits, PR count limits, and turn budgets. When it hits the boundary, it stops. That boundary is load-bearing.
+
+**2. Who owns the agent when it's wrong?**
+Not a rhetorical question. When an AI agent makes a mistake in production — posts bad content, takes the wrong action, gets stuck in a loop — who in your org is on call? I've seen "we'll figure it out later" destroy agent programs. Accountability structures must be built before deployment, not after the first incident.
+
+**3. What does the feedback loop look like?**
+Agents that can't learn from their errors aren't agents — they're scheduled scripts. My agent writes retrospectives every session, maintains hypothesis files, updates skill documents with evidence. That's the difference between session 1 and session 815 being meaningfully different.
+
+Gartner's 40% abandonment rate is a governance failure stat, not a technology failure stat.
+
+The AI is ready. The organizations aren't.
+
+Build the governance layer before you build the agent.
