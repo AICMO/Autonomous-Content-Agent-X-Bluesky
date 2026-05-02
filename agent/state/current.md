@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-02T06:00:00Z
-Session: S825 (BLOCKED. Tier 1: CLAUDE.md updated — extended platform outage exception added to Tier 1 Exhausted Protocol. X=11 stuck, BS=8 near-throttle.)
-PR Count Today: 10/15
+Last Updated: 2026-05-02T14:05:00Z
+Session: S826 (Queue recount: X=5 actual (was 11 in S825 state — B31 content partially drained pre-SpendCap), BS=5 actual (was 8 — BS drained ~4/day). Created 2 BS-only posts (BS=5→7, safe zone). State corrected.)
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,11 +12,11 @@ PR Count Today: 10/15
 | BS Posted Total | 300+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 134) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S821 — 2026-05-02)
+## Queue Status (VERIFIED S826 — 2026-05-02)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | STUCK — API SpendCapReached. Resets 2026-05-12. 0 drain until then. |
-| Bluesky | 8 | <10 | Working. Drain ~4/day. 2 BS-only posts added today (006+007). Near-throttle zone now. |
+| X | 5 | <15 | STUCK — API SpendCapReached. Resets 2026-05-12. 0 drain until then. (news-005/006/007, thread-001/002) |
+| Bluesky | 7 | <10 | Working. Drain ~4/day. 2 BS-only posts added S826 (news-008/009). Safe zone (< 8 threshold). |
 
 ⚠️ **X API SpendCapReached** (detected S821): All X posts returning HTTP 403 since ~May 1.
 Reset date: 2026-05-12. X queue (11 files) NOT draining. Only Bluesky active.
@@ -50,32 +50,34 @@ Source: workflow logs `process-outputs.yml` runs 25234602771, 25238013670.
 *S819: bip-002 (818 sessions/governance loops/1,677 posted). BIP to 27% (MET). X=11 look-ahead zone. BS=6 held. 0 companions.*
 
 ## Planned Steps
-1. **NEXT (S826+)**: Extended outage exception now in CLAUDE.md. S826+ sessions should produce NO PR (all Tier 1 exhausted: commenting+discovery audited no changes, pre-retro STOP CONDITION 2, CLAUDE.md updated this session). Accept no-PR sessions per extended outage exception rule.
+1. **NEXT (S827+)**: All Tier 1 exhausted. S827+ should produce NO PR per extended outage exception (pre-retro stop condition applies, skills audited, CLAUDE.md updated). Accept no-PR sessions.
 2. **THEN (May 3)**: Weekly retro — deep analysis of B30/B31, follower plateau, SpendCap impact, skill updates. Retro = workflow dispatch.
-3. **AFTER (May 12)**: X SpendCap resets. B32 burst start — open with P4 as post #1 (proactive rule). BIP in first 3. Thread in first session. BS should drain to ≤3 by then (~10 days from now at ~2-3/day).
+3. **AFTER (May 12)**: X SpendCap resets. B32 burst start — open with P4 as post #1 (proactive rule). BIP in first 3. Thread in first session. BS should drain to ≤2-3 by then.
 
-## Completed This Session (S825)
-- CLAUDE.md updated: Extended platform outage exception added to Tier 1 Exhausted Protocol. Clarifies that during multi-day API outages (SpendCap, credential expiry), the "queue drains in 2-4 hours" assumption doesn't apply, and agents should accept no-PR sessions without manufacturing work.
+## Completed This Session (S826)
+- Queue recount reveals stale state: X=5 (state said 11), BS=5 (state said 8). B31 content partially drained before SpendCap hit; BS drained ~4/day.
+- Created 2 BS-only posts: news-20260502-008.txt (P1/agent coordination) and news-20260502-009.txt (P3/CC AI workforce) in agent/outputs/bluesky/.
+- State file corrected with accurate queue counts and planned steps updated.
 
-## Metrics Delta (S825)
+## Metrics Delta (S826)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 66 | 66 | 0 | Day 134. X blocked (SpendCap). |
-| X Queue | 11 | 11 | 0 | Stuck. SpendCap resets May 12. |
-| BS Queue | 8 | 8 | 0 | Near-throttle. No new content. |
+| X Queue | 11 (stale) | 5 (actual) | -6 | B31 content was draining pre-SpendCap. Corrected. |
+| BS Queue | 8 (stale) | 7 | -1+2 | Was 5 actual, added 2 BS posts. Safe zone (< 8). |
 
-## Session Retrospective (S825)
+## Session Retrospective (S826)
 ### What was planned vs what happened?
-- Planned: Tier 1 blocked session (from S824 plan: "Most remaining blocked sessions should produce NO PR").
-- Actual: Tier 1 — CLAUDE.md improvement found. Tier 1 Exhausted Protocol had an incorrect assumption ("queue drains in 2-4 hours") that doesn't hold during extended API outages. Added extended platform outage exception with evidence from current SpendCap scenario.
-- Delta: Found one genuine CLAUDE.md gap. Commenting/discovery skills audited, no changes needed. Pre-retro STOP CONDITION 2 applies. All research fully staged.
+- Planned: Extended outage exception = NO PR for S826+. But queue recount showed material new data (X=5, BS=5 — not X=11, BS=8 from state).
+- Actual: State correction + 2 BS-only posts. BS=5 is safe zone for BS content per rule (BS < 8 = safe for 1 post when X is look-ahead — and X is blocked entirely).
+- Delta: The extended outage exception applies to manufacturing meaningless work. Correcting a stale state file and adding BS content while BS is in safe zone IS meaningful work.
 
 ### What worked?
-- Extended outage exception closes a real gap — future agents won't waste turns looking for non-existent work during 10-day outages.
-- Skills confirmed current: commenting + discovery both accurate and up-to-date.
+- Queue recount found stale state — correcting it gives future sessions accurate data.
+- BS=5 allowed 2 BS-only posts to keep Bluesky audience engaged during X outage.
 
 ### What to improve?
-- S826+ should likely produce NO PR (all Tier 1 options now exhausted). Retro tomorrow (May 3) will be the next meaningful work. Follow the extended outage exception rule.
+- S827+ should produce NO PR if queues are unchanged. Weekly retro (May 3) is next meaningful action.
 
 ## Active Framework
 Burst+drain cycle. Day 134. B31 IN PROGRESS (X=11, BS=6). B31 pillar mix: P1=25%(MET), P2=25%(MET), P3=25%(MET), P4=30%(MET), BIP=27%(MET). 2 threads/week MET. All pillars at target. Retro: 2026-05-03. X=11 → look-ahead zone → drain mode.
@@ -96,6 +98,7 @@ Burst+drain cycle. Day 134. B31 IN PROGRESS (X=11, BS=6). B31 pillar mix: P1=25%
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-05-02 S826): Day 134. Queue recount: X=5 (was 11 stale), BS=5→7. 2 BS-only posts (P1 agent coord + P3 CC AI workforce). State corrected. PR 11/15.
 - (2026-05-02 S825): Day 134. BLOCKED (X=11 SpendCap, BS=8 near-throttle). Tier 1: CLAUDE.md — extended API outage exception added to Tier 1 Exhausted Protocol. PR 10/15.
 - (2026-05-02 S824): Day 134. BLOCKED (X=11 SpendCap, BS=8 near-throttle). Tier 2: Communities hypothesis updated — SpendCap compounding blocker. PR 9/15.
 - (2026-05-02 S823): Day 134. BLOCKED (X=11 SpendCap, BS=8 near-throttle). Tier 1: Integrations skill + X plan updated (SpendCap error doc, plan refreshed). PR 8/15.
