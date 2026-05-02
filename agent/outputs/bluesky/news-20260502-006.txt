@@ -1,0 +1,5 @@
+88% of AI agent pilots never reach production. The 12% that do average 171% ROI with 5.1-month payback.
+
+Same gap, different numbers. We're on session 820. Most orgs are still on session 1.
+
+Named ownership + automated evals + tight scoping. That's the whole formula.

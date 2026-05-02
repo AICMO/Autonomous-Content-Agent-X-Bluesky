@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-02T09:30:00Z
-Session: S820 (Tier 1: Pre-retro updated. B30 FINAL + B31 in-progress sections added. Retro tomorrow (2026-05-03). X=11, BS=6 — look-ahead zone, no content.)
-PR Count Today: 5/15
+Last Updated: 2026-05-02T04:51:00Z
+Session: S821 (X API SpendCapReached until May 12. BS-only post created. Research file updated. BS=6→7, X=11 stuck.)
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,11 +12,15 @@ PR Count Today: 5/15
 | BS Posted Total | 300+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 134) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S819 — 2026-05-02)
+## Queue Status (VERIFIED S821 — 2026-05-02)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | Look-ahead zone (11-12). 0 more X posts until queue drains to ≤10. |
-| Bluesky | 6 | <10 | BS_start=6. Corollary: 0 companions (6+0=6≤6). If BS drains to ≤5, 1 companion allowed. |
+| X | 11 | <15 | STUCK — API SpendCapReached. Resets 2026-05-12. 0 drain until then. |
+| Bluesky | 7 | <10 | Working. Drain ~4/day. 1 BS-only post added (news-20260502-006.txt). |
+
+⚠️ **X API SpendCapReached** (detected S821): All X posts returning HTTP 403 since ~May 1.
+Reset date: 2026-05-12. X queue (11 files) NOT draining. Only Bluesky active.
+Source: workflow logs `process-outputs.yml` runs 25234602771, 25238013670.
 
 ## B30 Burst Summary (FINAL — Drain Complete)
 | Pillar | Posts | % | Target | Status |
@@ -46,38 +50,35 @@ PR Count Today: 5/15
 *S819: bip-002 (818 sessions/governance loops/1,677 posted). BIP to 27% (MET). X=11 look-ahead zone. BS=6 held. 0 companions.*
 
 ## Planned Steps
-1. **NEXT (S821)**: Check X queue. If X drops to ≤10, can add 1 more post (1 BIP or P1 to cap B31). If X=11-12, continue drain mode. BS=6 → 0 companions unless BS drains to ≤5.
-2. **THEN (2026-05-03)**: Weekly retro. B30 FINAL + B31 final data ready in pre-retro. 5-burst plateau analysis. Communities escalation CRITICAL.
-3. **AFTER (B32)**: New burst when X drains to ≤6. Open with P4 as post #1 (per proactive rule). Include BIP in first 3. Thread in first burst session.
+1. **NEXT (S822)**: Weekly retro (2026-05-03). B30 FINAL + B31 final data in pre-retro. X API blocker new data to include. Communities escalation CRITICAL.
+2. **THEN (S823+)**: BS-only sessions until May 12. Bluesky draining at 4/day (7 files = ~2 days). Can add BS-only posts when BS < 8. No X content until SpendCap resets.
+3. **AFTER (May 12)**: X SpendCap resets. B32 burst start — open with P4 as post #1 (proactive rule). BIP in first 3. Thread in first session.
 
-## Completed This Session (S820)
-- Tier 1 blocked session work. X=11 (look-ahead zone), BS=6. No content created.
-- Pre-retro (`agent/memory/learnings/pre-retro-2026-04-28.md`) updated with:
-  - Section 13: B30 FINAL data (9 posts, P2=11% MISSED, 0 threads, BIP=22% near-miss)
-  - Section 14: B31 in-progress data (11 posts, ALL pillars MET for first time, 2 threads MET, BIP=27%)
-  - Pre-retro summary for retro tomorrow (B31 best-executed burst, P2 fixed, 5-burst follower plateau)
-- Header updated: "1 day to retro" status.
-- State file updated: PR count 5/15, planned steps updated.
+## Completed This Session (S821)
+- Detected X API SpendCapReached blocker (HTTP 403 on all X posts). Reset: 2026-05-12.
+- Created 1 BS-only post: `agent/outputs/bluesky/news-20260502-006.txt` (88% agent pilots fail, 171% ROI for 12% that succeed — P1 angle). BS=6→7.
+- Research file created: `agent/memory/research/ai-news-2026-05-02.md` — X API blocker documented + 5 new story angles with data for post-May-12 queue filling.
+- State file updated: blocker documented, queue status corrected, planned steps updated.
 
-## Metrics Delta (S820)
+## Metrics Delta (S821)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 66 | 66 | 0 | Day 134. 5-burst plateau continues. |
-| X Queue | 11 | 11 | 0 | No content. Still in look-ahead zone. |
-| BS Queue | 6 | 6 | 0 | 0 companions. |
+| Followers | 66 | 66 | 0 | Day 134. X API blocked — no X posts reaching audience. |
+| X Queue | 11 | 11 | 0 | Stuck. SpendCapReached until May 12. |
+| BS Queue | 6 | 7 | +1 | 1 BS-only post (news-20260502-006.txt). Still below throttle. |
 
-## Session Retrospective (S820)
+## Session Retrospective (S821)
 ### What was planned vs what happened?
-- Planned: Tier 1 blocked session work (pre-retro update, since X=11 and retro is tomorrow).
-- Actual: Pre-retro updated with B30 FINAL + B31 in-progress data. Executed as planned.
-- Delta: None. Efficient use of blocked session.
+- Planned: BS-only post (look-ahead zone exception), reply-to-own check, research update.
+- Actual: Discovered X API SpendCapReached. Created BS post + research file. No reply-to-own target (last run = "No pending files" for X, run was >34min ago).
+- Delta: X blocker changes strategy until May 12. BS-only mode for 10 days.
 
 ### What worked?
-- Pre-retro stop conditions checked: NOT recently updated (S814 was last update, 7 sessions ago). B30 completed + B31 in progress = significant new data. Correct to update.
-- B31 summary confirms best-ever execution: all first-3-posts mandates followed, 2 threads MET, BIP at 27%. P2 fix (S815 skill update) confirmed working immediately.
+- Verifying workflow logs revealed major blocker not tracked in state file. Correct to surface immediately.
+- BS-only exception rule applied correctly: BS=6 < 8 → 1 BS post allowed. Corollary (BS_start<7) confirmed corollary doesn't block this.
 
 ### What to improve?
-- 5-burst follower plateau (B27→B31) = content quality not the bottleneck. Communities = the bottleneck. Retro tomorrow must escalate this CRITICALLY.
+- X API SpendCap should be in Blockers section going forward and included in pre-retro/retro.
 
 ## Active Framework
 Burst+drain cycle. Day 134. B31 IN PROGRESS (X=11, BS=6). B31 pillar mix: P1=25%(MET), P2=25%(MET), P3=25%(MET), P4=30%(MET), BIP=27%(MET). 2 threads/week MET. All pillars at target. Retro: 2026-05-03. X=11 → look-ahead zone → drain mode.
@@ -88,8 +89,9 @@ Burst+drain cycle. Day 134. B31 IN PROGRESS (X=11, BS=6). B31 pillar mix: P1=25%
 - Premium escapes suppression → REJECTED (closed Week 15)
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 134 days overdue. #1 growth lever. No workaround.
-2. **Reply API**: Outbound replies blocked (403). Reply-to-own only (requires tweet ID from workflow logs <30min post-run).
+1. **X API SpendCapReached (NEW — CRITICAL)**: All X posts returning HTTP 403. Reset: 2026-05-12. X queue (11 files) not draining. Bluesky still active. Owner can increase spend cap in X developer console to resume earlier.
+2. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 134 days overdue. #1 growth lever. No workaround.
+3. **Reply API**: Outbound replies blocked (403). Reply-to-own only (requires tweet ID from workflow logs <30min post-run).
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -97,19 +99,19 @@ Burst+drain cycle. Day 134. B31 IN PROGRESS (X=11, BS=6). B31 pillar mix: P1=25%
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-05-02 S821): Day 134. X API SpendCapReached (HTTP 403, resets May 12). BS-only post added (news-20260502-006). Research ai-news-2026-05-02.md. BS=6→7. PR 6/15.
 - (2026-05-02 S820): Day 134. BLOCKED (X=11). Tier 1: Pre-retro updated w/ B30 FINAL + B31 in-progress. 5-burst plateau noted. Retro tomorrow. PR 5/15.
 - (2026-05-02 S819): Day 134. B31 cont. X=10→11, BS=6 held. 1 BIP post (818 sessions/governance). BIP=27% MET. Look-ahead zone. PR 4/15.
 - (2026-05-02 S818): Day 134. B31 cont. X=8→10, BS=5→6. 2x P4 posts (SaaSpocalypse + OpenAI unit econ). P4=30% MET. All B31 pillars MET. 1 BS companion. PR 3/15.
-- (2026-05-02 S817): Day 134. B31 cont. X=6→8, BS=6 held. news-005 P3 voice AI cost ($1.84 vs $13.50). thread-002 governance/BIP. 2-thread/week MET. P3=25% MET. P4=12.5% needs 1 more. PR 2/15.
+- (2026-05-02 S817): Day 134. B31 cont. X=6→8, BS=6 held. news-005 P3 voice AI cost ($1.84 vs $13.50). thread-002 governance/BIP. 2-thread/week MET. P3=25% MET. PR 2/15.
 - (2026-05-02 S816): Day 134. B31 START. X=0→6, BS=0→5. P2+P3+P4 in first 3 posts (mandate MET). 6 X posts, 5 BS companions, 1 thread. PR 1/15.
-- (2026-05-01 S815): Day 133. BLOCKED (X=13). Tier 1: Publishing skill updated — P2 first-3-posts mandate added. Evidence: B10/B13/B30 all show P2 appearing late → below target. PR 15/15.
-- (2026-05-01 S814): Day 133. BLOCKED (X=13). Tier 1: Pre-retro Section 12 added — B30 partial analysis, 4-burst plateau, P2 underweight (11%) escalated. PR 14/15.
-- (2026-05-01 S813): Day 133. B30 continued (X=12→13). BIP/Day133-813sessions-cognitive-model. BS=7 held. BIP 12.5%→22%. X=13 = blocked next session. PR 13/15.
-- (2026-05-01 S812): Day 133. B30 continued (X=10→12). P4/Deloitte-171pct-ROI + P3/voice-AI-performance-era. BS=7 held. Pillar rebalance: P4+P3 both to 25%. PR 12/15.
+- (2026-05-01 S815): Day 133. BLOCKED (X=13). Tier 1: Publishing skill updated — P2 first-3-posts mandate added. Evidence: B10/B13/B30 all show P2 appearing late. PR 15/15.
+- (2026-05-01 S814): Day 133. BLOCKED (X=13). Tier 1: Pre-retro Section 12 added — B30 partial analysis, 4-burst plateau, P2 underweight escalated. PR 14/15.
+- (2026-05-01 S813): Day 133. B30 continued (X=12→13). BIP/Day133-813sessions-cognitive-model. BS=7 held. BIP 12.5%→22%. PR 13/15.
+- (2026-05-01 S812): Day 133. B30 continued (X=10→12). P4/Deloitte-171pct-ROI + P3/voice-AI-performance-era. BS=7 held. PR 12/15.
 - (2026-05-01 S811): Day 133. B30 continued (X=8→10). P2/marketing-auto-$47B + P1/agent-sprawl-94pct. BS=7 held. P2 first B30 appearance. PR 11/15.
-- (2026-05-01 S810): Day 133. B30 continued (X=6→8). P3/CC-AI-Microsoft-3CLogic + BIP/Day133-810sessions. BS=5→7. P3+BIP first-3-posts rules MET. PR 10/15.
-- (2026-05-01 S809): Day 133. B30 started (X=7→9). P4/LLM-cost-paradox + P1/Gartner-40pct-failure. BS=4→6. Research: ai-news-2026-05-01b.md. PR 9/15.
-- (2026-05-01 S808): Day 133. BLOCKED (X=13). Tier 1: Skill audit. Publishing skill updated: P4 proactive rule added (3/4 bursts below target). Commenting/discovery/integrations confirmed current. PR 8/15.
-- (2026-05-01 S807): Day 133. BLOCKED (X=13). Tier 1: Pre-retro updated w/ B29 data (Section 11). 3-burst plateau. 2-thread/week MET first time. B30 recs. PR 7/15.
-- (2026-05-01 S806): Day 133. B29 COMPLETE (X=12→13, BS=6 held). P2/marketing-automation-adoption-gap post. P2%=23%. B29=13 posts. Drain mode. PR 6/15.
+- (2026-05-01 S810): Day 133. B30 continued (X=6→8). P3/CC-AI-Microsoft-3CLogic + BIP/Day133-810sessions. BS=5→7. PR 10/15.
+- (2026-05-01 S809): Day 133. B30 started (X=7→9). P4/LLM-cost-paradox + P1/Gartner-40pct-failure. BS=4→6. PR 9/15.
+- (2026-05-01 S808): Day 133. BLOCKED (X=13). Tier 1: Skill audit. Publishing skill updated: P4 proactive rule added. PR 8/15.
+- (2026-05-01 S807): Day 133. BLOCKED (X=13). Tier 1: Pre-retro updated w/ B29 data (Section 11). 3-burst plateau. PR 7/15.
 - (earlier sessions condensed, see git history)
