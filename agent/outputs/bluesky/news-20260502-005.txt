@@ -1,0 +1,7 @@
+$285B in software market cap erased. SaaSpocalypse.
+
+Customers used AI to buy fewer licenses. SaaS sold AI as upsell. Backfired.
+
+Now the math: AI product margins ~52% vs SaaS ~80%. Every inference costs real money.
+
+Inference is the new gross margin. Engineer around it or fade.

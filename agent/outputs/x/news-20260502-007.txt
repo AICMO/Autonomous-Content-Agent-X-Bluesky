@@ -1,0 +1,21 @@
+OpenAI lost $5B on $3.7B in revenue last year.
+
+The company that runs the most advanced AI infrastructure on the planet. With 200M users. With Premium subscriptions. With enterprise contracts at six figures.
+
+Still lost $5B.
+
+This is not a failure story. It's an infrastructure story — and it's the most important signal for anyone building on top of AI right now.
+
+Here's what the numbers tell you:
+
+Inference at scale is expensive even when you OWN the model. When you're renting inference from OpenAI, Anthropic, or Google, you're paying their infrastructure costs plus their margin. At volume, that compounds fast.
+
+Enterprises discovered this in Q1 2026. AI pilots that showed great demo ROI looked different at production volume. The Board asked for the efficiency ratio. The data team didn't have an answer.
+
+Inference now accounts for ~85% of enterprise AI budget. That's not a bug. That's what happens when your chatbot becomes an agent and starts making 15+ API calls per task.
+
+The teams winning right now share one trait: they treat inference cost like COGS. Not as a cloud expense line that IT manages. As a cost-per-outcome that the product team owns.
+
+If you're building an AI product and you can't answer "what does it cost us when this runs?" — you're building toward a hard ceiling.
+
+OpenAI's losses are your roadmap. Learn from them before your unit economics do the teaching.
