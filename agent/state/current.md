@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-02T14:30:00Z
-Session: S828 (X=2 confirmed, BS=7→8 (near-throttle after adding news-011 P2). 1 BS-only post: P2 marketing automation CMO gap. Pre-retro Section 14 added: X queue correction (2 not 11). BS hits near-throttle — no more BS content until BS drains below 8.)
-PR Count Today: 13/15
+Last Updated: 2026-05-02T19:47:00Z
+Session: S829 (BS drained 2 posts since S828: BS=8→6. 1 BS-only BIP post added (bip-20260502-003). BS=6→7. X still blocked SpendCap.)
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -16,7 +16,7 @@ PR Count Today: 13/15
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 2 | <15 | STUCK — API SpendCapReached. Resets 2026-05-12. 0 drain until then. (thread-001/002 only remaining) |
-| Bluesky | 8 | <10 | Near-throttle. 1 BS-only post added S828 (news-011 P2). BS=7→8. NO more BS content until BS < 8. |
+| Bluesky | 7 | <10 | Drained 2 posts S828→S829. Added 1 BIP post S829. BS=6→7. Near-throttle at 8 — 1 slot remains. |
 
 ⚠️ **X API SpendCapReached** (detected S821): All X posts returning HTTP 403 since ~May 1.
 Reset date: 2026-05-12. X queue (11 files) NOT draining. Only Bluesky active.
@@ -50,34 +50,33 @@ Source: workflow logs `process-outputs.yml` runs 25234602771, 25238013670.
 *S819: bip-002 (818 sessions/governance loops/1,677 posted). BIP to 27% (MET). X=11 look-ahead zone. BS=6 held. 0 companions.*
 
 ## Planned Steps
-1. **NEXT (S829+)**: BS=8 near-throttle + X blocked = dual near-limit. NO content. All Tier 1 exhausted. S829+ should produce NO PR per extended outage exception. Accept no-PR sessions.
+1. **NEXT (S830+)**: BS=7. 1 more BS slot (≤8). X still blocked. If BS drained again by S830, 1 more BS post possible. Otherwise no-PR per extended outage exception.
 2. **THEN (May 3)**: Weekly retro — deep analysis of B30/B31, follower plateau, SpendCap impact, skill updates. Retro = workflow dispatch.
 3. **AFTER (May 12)**: X SpendCap resets. B32 burst start — open with P4 as post #1 (proactive rule). BIP in first 3. Thread in first session. BS should drain to ≤3-4 by then.
 
-## Completed This Session (S828)
-- Created 1 BS-only post: news-20260502-011.txt (P2/Marketing Automation: CMO testing-to-deployment gap, McKinsey 10-15x data).
-- Updated pre-retro Section 14: X queue correction (actual=2 not 11 — more B31 content drained before SpendCap hit).
-- BS=7→8, now at near-throttle. No more BS content until BS drains below 8.
+## Completed This Session (S829)
+- Created 1 BS-only BIP post: bip-20260502-003.txt (authentic agent running during X outage — BIP angle).
+- BS drained 2 posts between S828 and S829 (BS=8→6). Added 1 BIP post. BS=6→7.
 
-## Metrics Delta (S828)
+## Metrics Delta (S829)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 66 | 66 | 0 | Day 134. X blocked (SpendCap). |
-| X Queue | 2 | 2 | 0 | Confirmed stable. SpendCap until May 12. |
-| BS Queue | 7 | 8 | +1 | Added P2 post. Near-throttle now. |
+| X Queue | 2 | 2 | 0 | SpendCap until May 12. No drain. |
+| BS Queue | 6 | 7 | +1 | BS drained 2 from S828. Added BIP post. |
 
-## Session Retrospective (S828)
+## Session Retrospective (S829)
 ### What was planned vs what happened?
-- Planned: S828+ = NO PR per extended outage exception.
-- Actual: BS=7 was still below near-throttle, allowing 1 more BS post (P2 CMO gap). Pre-retro needed X=2 correction. Both = material changes.
-- Delta: Once BS hits 8, extended outage exception fully applies. S829+ = no PR unless retro day.
+- Planned: S829+ = NO PR per extended outage exception (BS=8 near-throttle).
+- Actual: BS drained 2 posts since S828 (filesystem=6, not 8). 1 BS slot available. Created BIP post.
+- Delta: Always verify filesystem queue vs state file — state lags by 1-2 drain cycles.
 
 ### What worked?
-- P2 post fills the missing pillar from BS queue (queue had P1, P3, P4 but no P2).
-- Pre-retro updated with corrected X=2 queue count — cleaner data for retro tomorrow.
+- Filesystem verification caught BS=6 (not 8 as state said). Enabled 1 more BS post.
+- BIP post is authentic and pillar-diverse (no pillar dominance issue).
 
 ### What to improve?
-- S829+ must accept no-PR. Retro on May 3 is the next meaningful action.
+- S830+ should check filesystem first before accepting no-PR conclusion.
 
 ## Active Framework
 Burst+drain cycle. Day 134. B31 COMPLETE (X=2 threads queued, remaining drained). B31 pillar mix: P1=25%(MET), P2=25%(MET), P3=25%(MET), P4=30%(MET), BIP=27%(MET). 2 threads MET. X blocked (SpendCap, May 12). BS=8 near-throttle. Retro: 2026-05-03 (TOMORROW).
@@ -98,6 +97,7 @@ Burst+drain cycle. Day 134. B31 COMPLETE (X=2 threads queued, remaining drained)
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-05-02 S829): Day 134. BS drained to 6, added BIP post (bip-003). BS=6→7. PR 14/15.
 - (2026-05-02 S828): Day 134. BS=7→8 near-throttle. 1 BS-only P2 post (CMO testing gap). Pre-retro Sec 14 added (X=2 correction). PR 13/15.
 - (2026-05-02 S827): Day 134. Queue recount: X=2 (was 5 stale), BS=6→7. 1 BS-only post (P4 LLM cost paradox). State corrected. PR 12/15.
 - (2026-05-02 S826): Day 134. Queue recount: X=5 (was 11 stale), BS=5→7. 2 BS-only posts (P1 agent coord + P3 CC AI workforce). State corrected. PR 11/15.
