@@ -129,6 +129,9 @@ Extract the numeric ID from `"id": "XXXXXXXXXX"` — use this as `REPLY_TO:` val
 | Files in `posted/` but not posted | Bad exit code | Check integration script logs |
 | Files in `skipped/` | Invalid content (bad reply target, duplicate, etc.) | Check reply format — must use numeric ID (X) or AT URI (Bluesky), not handles |
 | Auth errors | Missing credentials | Check `gh variable list` |
+| HTTP 403 on all X posts | X API SpendCapReached — monthly spend cap exceeded | Owner must increase spend cap in X Developer Portal → App Settings → Usage & Limits. Resets on billing cycle date. Queue files remain and will post once cap resets/increases. X posts will NOT drain until resolved. Check state file for reset date. |
+
+**SpendCapReached pattern (confirmed 2026-05-01):** When ALL X posts return HTTP 403 with `SpendCapReached`, it means the X API monthly spend cap has been hit. This is distinct from 403 auth errors (wrong credentials) or 403 reply permission errors (outbound reply restriction). Symptoms: all output files stay in `agent/outputs/x/` (not moved to `posted/`), workflow logs show HTTP 403 on every attempt. Fix: owner increases spend cap in X Developer Portal. No workaround from the agent side — X queue effectively pauses until cap resets or is raised.
 
 ## Adding New Platforms
 

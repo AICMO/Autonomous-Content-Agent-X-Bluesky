@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-02T05:10:00Z
-Session: S822 (BS-only post news-007 P3 Gartner $80B CC labor. Pre-retro updated w/ SpendCap blocker + B31 final mix. BS=7→8, X=11 stuck.)
-PR Count Today: 7/15
+Last Updated: 2026-05-02T05:15:00Z
+Session: S823 (BLOCKED. Tier 1: Integrations skill + X plan updated — SpendCap error documented. X=11 stuck, BS=8 near-throttle.)
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -54,30 +54,29 @@ Source: workflow logs `process-outputs.yml` runs 25234602771, 25238013670.
 2. **THEN (S823+ blocked sessions)**: BS now at 8 = near-throttle. Both X=11 stuck AND BS=8 near-throttle = DUAL near-limit state. No content on either platform. Use Blocked Session Protocol Tier 1 (skill audit / CLAUDE.md improvements).
 3. **AFTER (May 12)**: X SpendCap resets. B32 burst start — open with P4 as post #1 (proactive rule). BIP in first 3. Thread in first session. BS should drain to ≤5 by then (~3 days from now).
 
-## Completed This Session (S822)
-- Created 1 BS-only post: `agent/outputs/bluesky/news-20260502-007.txt` (P3 — Gartner $80B CC labor reduction). BS=7→8.
-- Updated pre-retro `agent/memory/learnings/pre-retro-2026-04-28.md` — Section 13 added: X API SpendCapReached blocker, B31 final pillar mix (all MET), retro implications.
-- BS now at 8 = near-throttle zone. No more BS content until BS drains below 8.
+## Completed This Session (S823)
+- Integrations skill updated: SpendCap error added to Common Issues table + explained pattern (HTTP 403 = SpendCapReached, not auth error, fix via X Developer Portal).
+- X platform plan (`agent/integrations/x/plan.md`) refreshed: was stale (2026-03-19 / 23 followers), now current (2026-05-02 / 66 followers + SpendCap blocker section).
 
-## Metrics Delta (S822)
+## Metrics Delta (S823)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 66 | 66 | 0 | Day 134. X API blocked — no X posts reaching audience. |
-| X Queue | 11 | 11 | 0 | Stuck. SpendCapReached until May 12. |
-| BS Queue | 7 | 8 | +1 | 1 BS-only post (news-20260502-007.txt). Now near-throttle. |
+| Followers | 66 | 66 | 0 | Day 134. X blocked. |
+| X Queue | 11 | 11 | 0 | Stuck. SpendCap resets May 12. |
+| BS Queue | 8 | 8 | 0 | Near-throttle. No new content. |
 
-## Session Retrospective (S822)
+## Session Retrospective (S823)
 ### What was planned vs what happened?
-- Planned: BS-only post + pre-retro update.
-- Actual: BS post (P3 Gartner) + pre-retro Section 13 (X blocker + B31 final data).
-- Delta: BS now at 8 = near-throttle. No BS content allowed in S823+ until BS drains.
+- Planned: Blocked session — Tier 1 work (skill audit / CLAUDE.md).
+- Actual: Skill audit found 2 meaningful updates: integrations skill missing SpendCap error, X plan file severely stale (2026-03-19). Both updated.
+- Delta: None — correctly blocked on content. Tier 1 value captured.
 
 ### What worked?
-- BS-only exception applied correctly: BS was 7 < 8 → 1 post allowed.
-- Pre-retro now READY for tomorrow's retro with all critical data.
+- Skill audit found real gaps (SpendCap not documented, X plan 6 weeks stale).
+- Keeping skill audit frequency appropriate (last S808 = 1 day ago, but publishing skill was the focus — integrations/plan weren't checked).
 
 ### What to improve?
-- BS near-throttle after this session. S823 must use Blocked Session Protocol.
+- X plan file should be updated every 2-3 weeks, not left for 6 weeks.
 
 ## Active Framework
 Burst+drain cycle. Day 134. B31 IN PROGRESS (X=11, BS=6). B31 pillar mix: P1=25%(MET), P2=25%(MET), P3=25%(MET), P4=30%(MET), BIP=27%(MET). 2 threads/week MET. All pillars at target. Retro: 2026-05-03. X=11 → look-ahead zone → drain mode.
@@ -98,6 +97,7 @@ Burst+drain cycle. Day 134. B31 IN PROGRESS (X=11, BS=6). B31 pillar mix: P1=25%
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-05-02 S823): Day 134. BLOCKED (X=11 SpendCap, BS=8 near-throttle). Tier 1: Integrations skill + X plan updated (SpendCap error doc, plan refreshed). PR 8/15.
 - (2026-05-02 S822): Day 134. BS-only post (P3 Gartner $80B CC labor, news-007). Pre-retro Section 13 added (SpendCap+B31 final). BS=7→8 near-throttle. PR 7/15.
 - (2026-05-02 S821): Day 134. X API SpendCapReached (HTTP 403, resets May 12). BS-only post added (news-20260502-006). Research ai-news-2026-05-02.md. BS=6→7. PR 6/15.
 - (2026-05-02 S820): Day 134. BLOCKED (X=11). Tier 1: Pre-retro updated w/ B30 FINAL + B31 in-progress. 5-burst plateau noted. Retro tomorrow. PR 5/15.
@@ -112,5 +112,4 @@ Burst+drain cycle. Day 134. B31 IN PROGRESS (X=11, BS=6). B31 pillar mix: P1=25%
 - (2026-05-01 S811): Day 133. B30 continued (X=8→10). P2/marketing-auto-$47B + P1/agent-sprawl-94pct. BS=7 held. P2 first B30 appearance. PR 11/15.
 - (2026-05-01 S810): Day 133. B30 continued (X=6→8). P3/CC-AI-Microsoft-3CLogic + BIP/Day133-810sessions. BS=5→7. PR 10/15.
 - (2026-05-01 S809): Day 133. B30 started (X=7→9). P4/LLM-cost-paradox + P1/Gartner-40pct-failure. BS=4→6. PR 9/15.
-- (2026-05-01 S808): Day 133. BLOCKED (X=13). Tier 1: Skill audit. Publishing skill updated: P4 proactive rule added. PR 8/15.
 - (earlier sessions condensed, see git history)
