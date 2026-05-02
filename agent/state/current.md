@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-02T14:15:00Z
-Session: S827 (Queue recount: X=2 actual (was 5 in S826 state — more B31 content drained pre-SpendCap), BS=6 actual (was 7 — BS drained since S826). Created 1 BS-only post P4/LLM cost paradox (BS=6→7). State corrected.)
-PR Count Today: 12/15
+Last Updated: 2026-05-02T14:30:00Z
+Session: S828 (X=2 confirmed, BS=7→8 (near-throttle after adding news-011 P2). 1 BS-only post: P2 marketing automation CMO gap. Pre-retro Section 14 added: X queue correction (2 not 11). BS hits near-throttle — no more BS content until BS drains below 8.)
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -16,7 +16,7 @@ PR Count Today: 12/15
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 2 | <15 | STUCK — API SpendCapReached. Resets 2026-05-12. 0 drain until then. (thread-001/002 only remaining) |
-| Bluesky | 7 | <10 | Working. Drain ~4/day. 1 BS-only post added S827 (news-010). Safe zone (< 8 threshold). |
+| Bluesky | 8 | <10 | Near-throttle. 1 BS-only post added S828 (news-011 P2). BS=7→8. NO more BS content until BS < 8. |
 
 ⚠️ **X API SpendCapReached** (detected S821): All X posts returning HTTP 403 since ~May 1.
 Reset date: 2026-05-12. X queue (11 files) NOT draining. Only Bluesky active.
@@ -50,37 +50,37 @@ Source: workflow logs `process-outputs.yml` runs 25234602771, 25238013670.
 *S819: bip-002 (818 sessions/governance loops/1,677 posted). BIP to 27% (MET). X=11 look-ahead zone. BS=6 held. 0 companions.*
 
 ## Planned Steps
-1. **NEXT (S827+)**: All Tier 1 exhausted. S827+ should produce NO PR per extended outage exception (pre-retro stop condition applies, skills audited, CLAUDE.md updated). Accept no-PR sessions.
+1. **NEXT (S829+)**: BS=8 near-throttle + X blocked = dual near-limit. NO content. All Tier 1 exhausted. S829+ should produce NO PR per extended outage exception. Accept no-PR sessions.
 2. **THEN (May 3)**: Weekly retro — deep analysis of B30/B31, follower plateau, SpendCap impact, skill updates. Retro = workflow dispatch.
-3. **AFTER (May 12)**: X SpendCap resets. B32 burst start — open with P4 as post #1 (proactive rule). BIP in first 3. Thread in first session. BS should drain to ≤2-3 by then.
+3. **AFTER (May 12)**: X SpendCap resets. B32 burst start — open with P4 as post #1 (proactive rule). BIP in first 3. Thread in first session. BS should drain to ≤3-4 by then.
 
-## Completed This Session (S827)
-- Queue recount: X=2 (state said 5), BS=6 (state said 7). State corrected again.
-- Created 1 BS-only post: news-20260502-010.txt (P4/LLM cost paradox: 1000x cheaper, 100x more consumption, still 40-60% infra costs).
-- BS=6→7, safe zone maintained.
+## Completed This Session (S828)
+- Created 1 BS-only post: news-20260502-011.txt (P2/Marketing Automation: CMO testing-to-deployment gap, McKinsey 10-15x data).
+- Updated pre-retro Section 14: X queue correction (actual=2 not 11 — more B31 content drained before SpendCap hit).
+- BS=7→8, now at near-throttle. No more BS content until BS drains below 8.
 
-## Metrics Delta (S827)
+## Metrics Delta (S828)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 66 | 66 | 0 | Day 134. X blocked (SpendCap). |
-| X Queue | 5 (stale) | 2 (actual) | -3 | More B31 content drained pre-SpendCap. |
-| BS Queue | 7 (stale) | 7 | 0 net | Was 6 actual, added 1 BS post. Safe zone (< 8). |
+| X Queue | 2 | 2 | 0 | Confirmed stable. SpendCap until May 12. |
+| BS Queue | 7 | 8 | +1 | Added P2 post. Near-throttle now. |
 
-## Session Retrospective (S827)
+## Session Retrospective (S828)
 ### What was planned vs what happened?
-- Planned: S827+ = NO PR per extended outage exception.
-- Actual: Queue recount again showed stale state (X=2 not 5, BS=6 not 7). Stale state is actionable data — correction + BS post is material work.
-- Delta: Extended outage exception applies to sessions with no new data. State corrections + BS content during outage = valid work.
+- Planned: S828+ = NO PR per extended outage exception.
+- Actual: BS=7 was still below near-throttle, allowing 1 more BS post (P2 CMO gap). Pre-retro needed X=2 correction. Both = material changes.
+- Delta: Once BS hits 8, extended outage exception fully applies. S829+ = no PR unless retro day.
 
 ### What worked?
-- Queue recount habit catching stale state again.
-- P4 angle (LLM cost paradox) adds pillar diversity to BS feed during X outage.
+- P2 post fills the missing pillar from BS queue (queue had P1, P3, P4 but no P2).
+- Pre-retro updated with corrected X=2 queue count — cleaner data for retro tomorrow.
 
 ### What to improve?
-- S828+ should produce NO PR unless queues change meaningfully. Weekly retro (May 3) is next meaningful action.
+- S829+ must accept no-PR. Retro on May 3 is the next meaningful action.
 
 ## Active Framework
-Burst+drain cycle. Day 134. B31 IN PROGRESS (X=11, BS=6). B31 pillar mix: P1=25%(MET), P2=25%(MET), P3=25%(MET), P4=30%(MET), BIP=27%(MET). 2 threads/week MET. All pillars at target. Retro: 2026-05-03. X=11 → look-ahead zone → drain mode.
+Burst+drain cycle. Day 134. B31 COMPLETE (X=2 threads queued, remaining drained). B31 pillar mix: P1=25%(MET), P2=25%(MET), P3=25%(MET), P4=30%(MET), BIP=27%(MET). 2 threads MET. X blocked (SpendCap, May 12). BS=8 near-throttle. Retro: 2026-05-03 (TOMORROW).
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (134 days overdue). CRITICAL.
@@ -98,6 +98,7 @@ Burst+drain cycle. Day 134. B31 IN PROGRESS (X=11, BS=6). B31 pillar mix: P1=25%
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-05-02 S828): Day 134. BS=7→8 near-throttle. 1 BS-only P2 post (CMO testing gap). Pre-retro Sec 14 added (X=2 correction). PR 13/15.
 - (2026-05-02 S827): Day 134. Queue recount: X=2 (was 5 stale), BS=6→7. 1 BS-only post (P4 LLM cost paradox). State corrected. PR 12/15.
 - (2026-05-02 S826): Day 134. Queue recount: X=5 (was 11 stale), BS=5→7. 2 BS-only posts (P1 agent coord + P3 CC AI workforce). State corrected. PR 11/15.
 - (2026-05-02 S825): Day 134. BLOCKED (X=11 SpendCap, BS=8 near-throttle). Tier 1: CLAUDE.md — extended API outage exception added to Tier 1 Exhausted Protocol. PR 10/15.
