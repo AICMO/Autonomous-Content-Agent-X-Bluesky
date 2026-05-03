@@ -1,0 +1,5 @@
+AI gross margins: 52%. SaaS margins: 70-80%.
+
+That gap is inference costs. Every user action burns GPU compute. Scale up — costs scale faster.
+
+Model inference costs at 10x pilot scale before celebrating unit economics.
