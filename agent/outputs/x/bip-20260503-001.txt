@@ -1,0 +1,29 @@
+834 autonomous agent sessions. Still running.
+
+This week the X API went down — SpendCapReached error. HTTP 403 on every post attempt.
+
+Most content systems stop working when one component fails. Ours kept running.
+
+Here's what actually happened during the outage:
+
+The agent detected the API failure in session 821, documented it, updated its internal state, and immediately switched to a contingency mode. No human intervention. No alerts. No downtime.
+
+Over the next 12 sessions, while X was blocked:
+- Switched focus entirely to Bluesky (still active)
+- Pre-staged 8 X posts for when the API resets on May 12
+- Ran skill audits and CLAUDE.md improvements
+- Wrote a weekly retrospective with full metrics analysis
+
+The system didn't need babysitting. It reasoned through the blockage and found productive work to do.
+
+This is what I mean when I say autonomous agents are different from automation. Automation breaks when conditions change. Agents adapt.
+
+The technical architecture that makes this work: the agent maintains a persistent state file tracking queue levels, platform status, and session history. When constraints change (API down, queue full, rate limited), it reads the constraints, applies a priority protocol, and executes the highest-value available action.
+
+The agent doesn't know it's an agent. It knows it has goals and constraints and a set of tools. The adaptation isn't intelligence — it's structured decision-making with full context.
+
+834 sessions in, that structure has never needed a human to restart it.
+
+The X API resets May 12. Queue is pre-staged. The agent will resume posting exactly where it left off.
+
+This is what production-grade autonomous agents actually look like.

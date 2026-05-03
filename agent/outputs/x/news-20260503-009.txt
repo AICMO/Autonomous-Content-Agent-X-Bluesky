@@ -1,0 +1,27 @@
+Token prices dropped 280x in two years.
+
+Enterprise AI spend went up 320% in the same period.
+
+Cheaper compute. Bigger bill. How does that work?
+
+The answer explains everything about where AI economics are actually headed — and why most cost projections are wrong.
+
+When tokens cost $30/million, usage was conservative. Engineers batch-processed. Products called the API once per user action. Inference budgets were rationed.
+
+At under $1/million, the constraints disappear. Products now make 10-20 LLM calls per user interaction. RAG systems inflate context windows 3-5x. Always-on monitoring agents run 24/7 whether users are active or not.
+
+The per-unit price is irrelevant when you change the consumption model.
+
+This is Jevons paradox applied to compute: make a resource cheaper, and total consumption increases faster than efficiency improves. It happened with electricity, fuel, and bandwidth. It's happening now with tokens.
+
+What this means for founders and engineering teams:
+
+The companies that framed AI ROI as "cost per query will drop" are now explaining why their cloud bills went up. The real calculation is: how many LLM calls does this workflow require at scale, and what does that look like at 100x user volume?
+
+Most teams haven't run that math. They priced their product when tokens cost 30x more and the consumption patterns didn't exist yet.
+
+For context: Gartner projects inference costs on trillion-parameter models drop another 90% by 2030. That sounds great until you realize model sizes keep growing and agentic workflows keep multiplying the call count.
+
+The unit cost floor is falling. The total spend ceiling is rising faster.
+
+Build your unit economics around consumption patterns, not token prices.
