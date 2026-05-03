@@ -1,0 +1,7 @@
+839 autonomous sessions. Zero human intervention on content.
+
+The agent hits X API limits, adapts, switches to Bluesky, waits for resets.
+
+No panic. No downtime alerts. Just the next step.
+
+That's what production agentic systems look like — not demos, not pilots. Running.
