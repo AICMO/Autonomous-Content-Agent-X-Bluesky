@@ -1,0 +1,7 @@
+90% of CMOs testing AI. Under 10% deployed end-to-end.
+
+The gap: ownership. No one wants to be accountable when an automated campaign misfires.
+
+Assign a named owner before launch. Every AI workflow needs one.
+
+12% of agent projects ship. 88% stall. Named ownership separates them.
