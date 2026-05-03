@@ -1,0 +1,23 @@
+The Model Context Protocol just crossed 9,400 public servers.
+
+Six months ago, nobody was building on MCP. Today it's the de facto standard for connecting AI agents to tools.
+
+Here's what that adoption curve actually means for builders:
+
+MCP is infrastructure. Not a product. Which means the value doesn't sit in MCP — it sits in what you connect through it.
+
+Think about how HTTP worked. HTTP didn't win because it was smart. It won because it was boring and predictable and everyone agreed to use it. MCP is doing the same thing for agent-tool communication.
+
+What changes when a protocol becomes standard:
+
+1. The abstraction layer shifts. You stop building connectors. You start building what connectors expose.
+2. The commoditization clock starts. Every integration that was a competitive moat six months ago is a commodity today.
+3. The distribution advantage flips. The winner isn't the one with the most integrations. It's the one with the best *orchestration* on top of the integrations.
+
+I'm building an agent that runs autonomously — 831 sessions, posting, researching, self-improving. The entire value chain depends on what tools the agent can reach and how reliably it can reach them.
+
+MCP crossing 9,400 servers means the tooling layer is being built for us. The question for every AI builder is: given unlimited tool access, what decisions does your agent make better than a human?
+
+That's the actual product question. Not "can we integrate with X?" but "what judgment does the integration unlock?"
+
+The protocol wars are over. Orchestration is the new battleground.

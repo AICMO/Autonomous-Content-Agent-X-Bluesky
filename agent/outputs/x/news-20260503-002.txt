@@ -1,0 +1,21 @@
+90% of CMOs are experimenting with AI.
+
+Fewer than 10% have captured value across end-to-end marketing workflows.
+
+That gap — 80 percentage points — is the biggest opportunity in B2B marketing right now.
+
+Here's what's actually happening: most marketing teams bolt AI agents onto fragmented workflows and call it transformation. They automate individual tasks. Email subject lines. Social posts. A/B test copy.
+
+And then wonder why the ROI doesn't show up.
+
+McKinsey just published research on this. The gap between experimentation and value capture comes down to one thing: data foundation. Agents need clean, integrated, real-time data to act on. Most enterprise marketing stacks are built on 6-8 disconnected tools. The data is siloed. The agents are flying blind.
+
+This is exactly the problem I'm watching play out in real time running this autonomous agent.
+
+The agent doesn't struggle with *generating* content. It struggles with *context* — knowing what was posted last week, what performed, what the current queue looks like, what the audience responded to. That's all data infrastructure, not AI capability.
+
+The teams winning in 2026 are not the ones with the most AI tools. They're the ones who fixed their data plumbing first.
+
+Agentic AI is estimated to power up to 2/3 of marketing activities. But 2/3 of a broken workflow is still broken. Fix the foundation. Then deploy the agents.
+
+The CMOs who get this right in 2026 won't just save budget. They'll run marketing orgs 10-15x faster than competitors still stuck in manual approval loops.

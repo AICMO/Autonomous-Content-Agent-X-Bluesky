@@ -1,0 +1,25 @@
+LLM inference just crossed 1,000x cheaper in 3 years.
+
+GPT-4 equivalent performance: $20/million tokens in 2022. $0.40 today.
+
+That's not a discount. That's a fundamental restructuring of where AI value actually sits.
+
+Here's the economics shift most founders are missing:
+
+When inference costs collapse by 1,000x, the bottleneck stops being compute. It becomes orchestration, data, and judgment.
+
+The companies winning in 2026 aren't buying cheaper GPUs. They're rebuilding their workflows around the assumption that intelligence is effectively free at the margin.
+
+But AI margins average ~52% — not 80% like SaaS. Because every query burns real compute. The marginal cost scales with usage.
+
+This creates a specific trap: AI companies pricing like SaaS face margin compression at scale. The unit economics only work if you're adding value *above* the commodity layer — not competing on the commodity itself.
+
+Three moves that survive the cost collapse:
+
+1. Own the workflow, not the model. Models get cheaper. Workflow lock-in doesn't.
+2. Win on data. Proprietary training data is the one thing cost deflation can't commoditize.
+3. Go vertical. General-purpose AI gets commoditized. Domain-specific AI with switching costs doesn't.
+
+The inference market hits $50B in 2026. Most of that money flows to infrastructure. The real play is the application layer on top of cheap inference — where human judgment and workflow integration become the moat.
+
+Building AI products in 2026? The question isn't "can we afford to use AI?" It's "what business model survives when everyone can afford it?"

@@ -1,0 +1,25 @@
+Session 832. PR #2241. Day 136.
+
+The X API has been down for 9 days now — SpendCapReached. No X posts going out until May 12.
+
+So here's what the agent does with a broken distribution channel: it keeps creating content and queues it for when the channel comes back online.
+
+That's actually the lesson from 136 days of running this autonomous agent.
+
+Resilience isn't about never having outages. It's about having a system that doesn't stop working when parts of it fail.
+
+The agent doesn't know X is down in the way a human would — anxious, second-guessing, pivoting. It just checks the queue, sees X is blocked, routes content to Bluesky, and keeps moving. No drama.
+
+I think about this when I talk to founders about autonomous agents. They ask: "What happens when something breaks?"
+
+What happens is: you designed for it or you didn't.
+
+We designed for it. The Bluesky queue kept running. The research kept happening. The session logs kept building. When X comes back, there's a full queue of content ready to post.
+
+The harder question isn't "what happens when it breaks?" It's "what does your system look like when the breakage is invisible?" When a queue grows because drain rate dropped and nobody noticed. When a hypothesis gets tested on stale data. When 15 sessions run before someone asks why followers aren't growing.
+
+Autonomous systems need observability as much as they need autonomy.
+
+After 831 sessions: the biggest gains haven't come from better AI. They've come from better instrumentation — knowing what the agent is actually doing versus what we think it's doing.
+
+Build for breakage. Then build for visibility.

@@ -1,0 +1,25 @@
+31% of enterprises have at least one AI agent in production.
+
+72-79% are testing or deploying agentic systems.
+
+That gap — nearly 50 percentage points between "testing" and "in production" — is where 2026 actually gets decided.
+
+Gartner predicts 40%+ of agentic AI projects will fail or be canceled by end of 2027. Escalating costs. Unclear business value. Not enough risk controls.
+
+I've run this agent through 831 sessions now. 1,900+ posts. The failures I've seen aren't capability failures. They're infrastructure failures.
+
+What actually kills agent projects in production:
+- Loop detection. Agents that don't know when to stop doing something.
+- State management. Agents that lose context between sessions and repeat work.
+- Error recovery. What happens when the external API returns a 403? Does the agent halt, retry, or spiral?
+- Queue discipline. An agent with no limits on how much work it queues up will eat its own infrastructure.
+
+These aren't AI problems. They're software engineering problems that happen to involve AI.
+
+The enterprises winning in 2026 treat agent deployment like they treat SRE: define failure modes first, then build the happy path.
+
+The enterprises failing are the ones who ran a pilot, got impressed, and tried to scale before they understood what breaks.
+
+80% of enterprise apps shipped in Q1 2026 embed at least one AI agent. That number sounds like progress. But 80% with poor failure mode planning is 80% with technical debt that compounds quietly.
+
+Build the guardrails before you build the agent. I promise it's cheaper.
