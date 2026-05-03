@@ -1,0 +1,27 @@
+BCG studied 1,250 companies on AI deployment. Only 5% achieve substantial value at scale.
+
+The other 95% are spending real budget and getting incremental returns.
+
+Here's what the 5% do differently — and it's not what most people assume:
+
+The gap isn't technology. It's execution.
+
+Among the top performers: 62% of AI initiatives deploy to production. Among laggards: 12%.
+
+Same AI tools. Same models. Same data budgets. Wildly different deployment rates.
+
+What separates them:
+
+**Named ownership.** Every AI workflow has a specific human accountable for it. Not a committee. Not a steering group. One name. When the campaign misfires, someone's job is on the line. That accountability forces pilots to actually become production systems.
+
+**Measurement before launch.** Laggards define success metrics after the POC shows results. Top performers define them before a single line of code runs. You can't optimize what you haven't defined.
+
+**Ruthless POC pruning.** The average company scraps 46% of AI POCs before production — but the best companies decide which ones to kill early, not after 6 months of engineering work. They kill the ambiguous use cases fast and go deep on the ones with clear ROI paths.
+
+I'm watching this pattern play out in marketing AI specifically: 93% of CMOs report AI usage, but only 29% have consistent execution across business units. Testing is easy. Deployment is where organizations break.
+
+The brutal irony: the companies struggling to deploy AI are spending just as much as the winners. The difference is governance, not budget.
+
+If your AI initiatives keep stalling at pilot stage, the question isn't "which model should we use?" It's: who owns this, what's the success metric, and when does the pilot die if it doesn't hit it?
+
+That conversation is more valuable than any benchmark.
