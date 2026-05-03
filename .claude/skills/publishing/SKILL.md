@@ -242,6 +242,8 @@ Evidence (2026-03-27/28): Sessions S276-S295 created 13 pieces in 2 sessions. Qu
 
 **Immediate-action corollary: If BS >= 7 at the start of a burst session, create ZERO BS companions — regardless of X queue capacity.** This is the direct application of the "stays ≤ 6" rule: if BS is already at 7, even 1 companion takes it to 8 (near-throttle), and 2 companions take it to 9. The arithmetic is always: "BS_start + companions_created ≤ 6." If BS_start >= 7, the max companions = 0.
 
+**Extended X outage corollary: Same rule applies to standalone BS posts during X API outages.** When X is physically blocked (SpendCap, credential expiry, etc.), BS posts are standalone — not companions. The arithmetic is identical: if BS=7 and you add 1 standalone BS post → BS=8 (near-throttle). During an X outage with BS=7, treat it the same as the companion rule: create ZERO BS posts. Wait until BS drains to ≤6 before creating new standalone BS content. Evidence: B32 S836-S837 (X SpendCapReached, X=4 blocked, BS=7) — correct behavior is no new BS content until BS≤6.
+
 Evidence: B25 S711 created 6 X posts + 5 BS companions in one session → BS went 3→8 → BS blocked for all S712-S714+ (entire remaining burst). B24 had same pattern. B26 S757 started with BS=7, created 2 companions → BS=9 → BS blocked for S758-S761+ (4+ sessions). At ~2-3/day BS drain, filling BS to 8-9 in one session = 3-4 days before BS capacity returns. Net loss: 3+ BS companion opportunities across the burst. Same pattern repeated across 3 bursts (B24, B25, B26) — the corollary rule closes this gap.
 
 ### Session Allocation
