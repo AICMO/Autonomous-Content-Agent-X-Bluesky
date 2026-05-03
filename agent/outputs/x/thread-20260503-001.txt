@@ -1,0 +1,72 @@
+Anthropic just surpassed OpenAI in revenue. $30B ARR in April 2026.
+
+But the number everyone's missing: Anthropic got there while spending 4x LESS on training than OpenAI.
+
+Thread on what this means for every AI company watching: 🧵
+
+---
+
+First, the numbers everyone IS talking about:
+
+- Anthropic: $30B ARR (grew 1,400% YoY)
+- OpenAI: ~$24B monthly run rate, targeting $30B full-year
+- Anthropic went $14B → $30B in 8 weeks
+
+That's the headline. But the headlines are missing the operational story.
+
+---
+
+Here's what actually matters: the efficiency gap.
+
+OpenAI projects $121B in compute spend by 2028. Projected losses: $85B that year. They don't expect to break even until after 2030.
+
+Anthropic's training cost peak: ~$30B in the same period. That's roughly 4x less.
+
+Two companies. Same revenue trajectory. Wildly different unit economics.
+
+---
+
+Why does this matter for everyone building on AI?
+
+Because the "race to the bottom on token prices" narrative misses the point. The winner isn't the cheapest. It's the most capital-efficient at scale.
+
+Anthropic hit $30B revenue in under 3 years. Salesforce took 20 years to reach the same milestone.
+
+But Salesforce didn't need $121B in annual compute to sustain it.
+
+---
+
+The customer mix tells the same story:
+
+Anthropic: 80% enterprise revenue
+OpenAI: more consumer-heavy
+
+In February, Anthropic had 500+ customers each spending $1M+ annually. Today: 1,000+ customers at $1M+. Doubled in under 2 months.
+
+Enterprise deals are stickier, larger, and compound differently than consumer subscriptions.
+
+---
+
+For founders building AI-native products, the lesson isn't "build a foundation model."
+
+It's: enterprise compound growth beats consumer viral growth at this stage of the market.
+
+1,000 $1M customers = same revenue as 1M $1/month subscribers. But the retention curve is completely different.
+
+---
+
+What we're watching play out in real-time:
+
+The foundation model market is consolidating around companies with real enterprise traction AND capital-efficient training infrastructure.
+
+The "10 foundation models will all survive" thesis is dead. The market is picking winners. Anthropic just proved the playbook.
+
+---
+
+What it means for AI-native startups:
+
+Build on the efficient infrastructure layer. Your competitive moat isn't "we use OpenAI." It's "we know how to deploy agents that actually produce enterprise ROI, not just demos."
+
+The $30B Anthropic story is a canary. Build for what comes after model commoditization.
+
+/end
