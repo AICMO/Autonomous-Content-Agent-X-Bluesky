@@ -1,0 +1,7 @@
+AI token prices fell 280x in 2 years.
+
+Enterprise AI spend went up 320% in the same period.
+
+Cheaper per token. Astronomically more tokens consumed. Agentic workflows run 10-20 LLM calls per task. Always-on agents never stop.
+
+The bill is the volume problem, not the price problem.
