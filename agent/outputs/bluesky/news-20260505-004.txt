@@ -1,0 +1,7 @@
+86% of enterprise AI agent pilots never reach production.
+
+11-14% actually ship. The rest die in committee, governance reviews, or "not quite ready" loops.
+
+We've run 853 autonomous sessions. The blocker was never the model.
+
+It's always the same three things: permissions, unexpected behavior, and who owns it when something goes wrong.
