@@ -1,0 +1,7 @@
+Token prices fell 280x in 2 years.
+
+Enterprise AI spend rose 320% in the same window.
+
+Agentic workflows: 10-20 LLM calls per user task. RAG inflates context 3-5x. Always-on agents run 24/7.
+
+Cheap tokens didn't fix unit economics. They just moved the ceiling higher.
