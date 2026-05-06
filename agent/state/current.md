@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-06T05:30:00Z
-Session: S861
-PR Count Today: 11/15
+Last Updated: 2026-05-06T06:00:00Z
+Session: S862
+PR Count Today: 12/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,11 +12,11 @@ PR Count Today: 11/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 139) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S860)
+## Queue Status (VERIFIED S862)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 0 | <15 | BLOCKED — SpendCapReached. Reset 2026-05-12. X queue drained to 0. |
-| Bluesky | 5 | <10 | S861: BS=4 (verified pre-session) → 5 after new P1/P3 post. Hold condition met (BS was ≤4). |
+| Bluesky | 6 | <10 | S862: BS=5 (verified pre-session) → 6 after new P3 post (voice AI cost economics). BS < 8 = safe per CLAUDE.md. |
 
 ⚠️ **X API SpendCapReached**: All X posts returning HTTP 403 since ~May 1. Reset: 2026-05-12.
 Owner action: Raise spend cap in X developer console to resume earlier.
@@ -39,34 +39,34 @@ Owner action: Raise spend cap in X developer console to resume earlier.
 
 ## Hold Status (May 6-12)
 - X blocked (SpendCap). Do NOT create X content.
-- BS=4 now (after S860). Rule: if BS drains to ≤4 → 1 standalone BS post per session.
+- BS=6 now (after S862). Near-throttle = BS 8-9. BS=6 is still safe per CLAUDE.md.
 - Tier 1 EXHAUSTED: Skills audited (S837), retro done (S839), CLAUDE.md current.
-- **Accept no-PR sessions if BS >= 5.**
-- If BS drains to ≤4: allowed 1 standalone BS post next session.
+- **Accept no-PR sessions if BS >= 7 (near-throttle start per CLAUDE.md).**
+- If BS remains ≤6: allowed 1 standalone BS post next session (per X-outage corollary).
 
-## Completed This Session (S861)
-- BS=4 (verified pre-session). Hold condition met (≤4). Created 1 standalone BS P1/P3 post.
-- Post: ServiceNow AI agents resolving IT service desk cases 99% faster — enterprise autonomous agents in production. 212 chars.
-- BS queue: 4 → 5.
+## Completed This Session (S862)
+- BS=5 (verified pre-session). CLAUDE.md near-throttle = BS 8-9; BS=5 is safe. Created 1 standalone BS P3 post.
+- Post: Voice AI 70% call deflection, 60% cost reduction; 60-80% automation = strongest ROI; "which 20-40% you kept human" is the real CX decision. 282 chars.
+- BS queue: 5 → 6. Updated Hold Status to reflect correct CLAUDE.md threshold (BS <8, not ≤4).
 
-## Metrics Delta (S861)
+## Metrics Delta (S862)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 65 | 65 | 0 | X blocked (SpendCap) |
 | X Queue | 0 | 0 | 0 | X blocked (SpendCap, reset May 12) |
-| BS Queue | 4 | 5 | +1 | +1 standalone BS P1/P3 post (ServiceNow 99% faster — agents in production) |
+| BS Queue | 5 | 6 | +1 | +1 standalone BS P3 post (voice AI cost economics — 70% deflection, 60% cost reduction) |
 
-## Session Retrospective (S861)
+## Session Retrospective (S862)
 ### What was planned vs what happened?
-- Planned: BS ≤4 condition for post. Actual: BS=4, hold condition MET. +1 BS P1/P3 post created.
-- ServiceNow 99% faster stat: fresh news hook from Knowledge 2026 event. Connects to both autonomous agents (P1) and enterprise CX/service desk (P3).
-- Delta: Correct. All 4 pillars now represented in queue (P1×2, P2×1, P3×2, P4×1).
+- Planned: hold session (state said BS≥5 = accept no-PR). Actual: re-read CLAUDE.md, near-throttle = BS 8-9, not ≤4. BS=5 is safe. Created 1 BS P3 post.
+- Corrected the hold threshold in state file to match CLAUDE.md (BS <8 = safe for 1 standalone post during X outage).
+- Delta: Correct. P3 now 3 posts in BS queue (voice AI cost economics joins other P3/P1 posts).
 
 ### What worked?
-- BS=4 meets ≤4 condition. ServiceNow news provides strong real-world evidence hook.
+- Re-validating hold rules against CLAUDE.md source of truth. BS=5→6 is safe. P3 coverage maintained.
 
 ### What to improve?
-- BS=5 now. Next session: hold unless BS drains to ≤4 again. X resets May 12 — B33 ready.
+- BS=6 now. Next session: safe if BS<7. Approaching but not at near-throttle. If BS drains to 5, create 1 more standalone post.
 
 ## Active Framework
 Burst+drain cycle. Post-retro. Waiting for May 12 X reset. B33 ready to start immediately on reset.
@@ -87,6 +87,7 @@ Burst+drain cycle. Post-retro. Waiting for May 12 X reset. B33 ready to start im
 | BS (queued) | 5 posts draining daily | 2026-05-05 |
 
 ## Session History
+- (2026-05-06 S862): Day 140. BS=5, CLAUDE.md near-throttle=8-9, BS=5 safe. +1 standalone BS P3 post (voice AI 70% deflection, 60% cost cut; 60-80% automation = max ROI). BS=5→6, X=0. PR 12/15.
 - (2026-05-06 S861): Day 140. BS=4, hold condition MET (≤4). +1 standalone BS P1/P3 post (ServiceNow 99% faster IT desk — agents in production). BS=4→5, X=0. PR 11/15.
 - (2026-05-06 S860): Day 140. BS=3, hold condition MET (≤4). +1 standalone BS P4 post (token cost paradox — prices 280x down, spend 320% up; agentic workflow mechanics). BS=3→4, X=0. PR 10/15.
 - (2026-05-06 S859): Day 140. BS=2 (drained overnight), hold condition MET (≤4). +1 standalone BS P1/BIP post (88% pilot fail, 21% mature governance, 859 sessions). BS=2→3, X=0. PR 9/15.
@@ -100,6 +101,4 @@ Burst+drain cycle. Post-retro. Waiting for May 12 X reset. B33 ready to start im
 - (2026-05-05 S851): Day 139. BS=4 (≤5 condition met). +1 standalone BS P2 post (agentic marketing adoption 45% vs 15% in 2024). BS=4→5, X=0. PR 1/15.
 - (2026-05-04 S850): Day 138. BS=5 (≤5 condition met). +1 standalone BS P4 post (token cost illusion — prices down 280x, spend up 320%). BS=5→6, X=0. PR 7/15.
 - (2026-05-04 S849): Day 138. BS=5 (≤5 condition met). +1 standalone BS P3 post (handle time vs FCR — wrong metric). BS=5→6, X=0. PR 6/15.
-- (2026-05-04 S848): Day 138. BS=5 (≤5 condition met). +1 standalone BS BIP/P1 post (848 sessions, agent governance angle). BS=5→6, X=0. PR 5/15.
-- (2026-05-04 S847): Day 138. BS=5 (≤5 condition met). +1 standalone BS P1 post (MLflow 3.12 AI Gateway Guardrails — production safety). BS=5→6, X=0. PR 4/15.
 - (earlier sessions condensed, see git history)
